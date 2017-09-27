@@ -119,6 +119,7 @@ activate **Focus** to enter a special mode where only this Field is visible.
     - Video - embeds a video Content item into a page, with standard playback controls.
     - Form - places a form (questionnaire, survey, etc.) on the Landing Page.
     - Personalize - serves personalized content in the Landing Page.
+    - Collection - displays a set of Content items you select manually.
 
     ![Elements menu](img/elements_menu.png "Elements menu")
 
