@@ -8,10 +8,13 @@ There are a few ways of creating a new Content item:
 The new item will be placed under this content in the tree.
 1. Activate **Create** in the upper right corner of the *Dashboard*.
 In this case you will have to select where the content will be located. (Enterprise only).
-1. Go to the **Create** tab in the *UDW*.
+1. Go to the **Create** tab in the *Content browser*.
 Here also you'll have to choose a location for the new item.
+1. Drag files onto the *Sub-items box* when viewing any content or activate **Choose files** and select files to upload.
+In this way you can upload files such as images, videos, pdf documents etc.
 
-Whichever way you choose, when creating a new Content item you always have to select the Content Type first.
+If you choose one of the first three options, you have to select the Content Type first.
+When uploading files the Content Type will be chosen automatically.
 
 If you are using eZ Enterprise, you will have the *Landing Page* Content Type available for selection.
 This Type requires a slightly different way of creating, [see below](#working-with-a-landing-page).
@@ -104,7 +107,7 @@ activate **Focus** to enter a special mode where only this Field is visible.
     - Places - displays a list of all place Content items in a folder you choose.
     - RSS - loads and displays news from RSS feeds (channels).
     - Schedule - allows you to select Content items and plan (schedule) the times at which they will be displayed on the page.
-    - Tag - inserts custom HTML into your Landing Page.
+    - Code - inserts custom HTML into your Landing Page.
     - Video - embeds a video Content item into a page, with standard playback controls.
     - Form - places a form (questionnaire, survey, etc.) on the Landing Page.
     - Personalize - serves personalized content in the Landing Page.

@@ -101,11 +101,11 @@ When you are in the editing interface, you can view the content in your reposito
 They represent three categories of Content Types that you can create
 (see [Content Types](organizing_the_site.md#content-types)).
 
-### Content tree and Universal Discovery Widget
+### Content tree and the Content browser
 
 If you want to get an overview of the content currently in your website, go to the Content work mode
 and select the appropriate tab: **Content structure** or **Media library**.
-A **Content tree** option on the left lets you browse through all the Content of the respective category.
+A **Content browse** option on the left lets you browse through all the Content of the respective category.
 User accounts, which are also considered content in eZ Platform, you can view through the Admin Panel
 (see [Users](organizing_the_site.md#users)).
 
@@ -113,9 +113,9 @@ User accounts, which are also considered content in eZ Platform, you can view th
 
 During your work with eZ Platform you will often be asked to select content from the repository.
 This happens for example when you want to move or copy, a Content item, embed an image, link two Content items, etc.
-In such cases you will make use of the **Universal Discovery Widget (UDW)**.
+In such cases you will make use of the **Content Browser**.
 
-UDW allows you to navigate through all content in the site, including regular content, media and User accounts.
+The Content Browser allows you to navigate through all content in the site, including regular content, media and User accounts.
 You can also use it to search the repository for content, and to create new content when needed.
 
 ![Universal Discovery Widget](img/udw.png "Universal Discovery Widget")

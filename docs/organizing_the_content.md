@@ -17,7 +17,7 @@ which you can place in the tree both under Local News and Sports News.
 Even if a Content item is placed in more than one Location, one of the Locations (by default the first one) is always considered the main one.
 
 To assign other Locations to Content, view this Content item's **Location** tab and activate **Add Location**,
-then select the new parent from the UDW.
+then select the new parent from the Content Browser.
 
 ![Content with two locations](img/content_with_two_locations.png "Content with two locations")
 
@@ -56,8 +56,7 @@ so you will not be able to restore them with the same structure.
 Notice that the Content item is not removed completely.
 It is moved to Trash, which you can access from the left menu.
 In the Trash you can select removed Content items and restore them to their original Locations.
-
-**Warning! You cannot restore Content items whose parent has also been removed.**
+If the Content item's parent has been removed, you can select a new parent Location.
 
 ![Warning before emptying the trash](img/empty_trash_warning.png "Warning before emptying the trash")
 
@@ -71,6 +70,7 @@ You can permanently remove all content from the Trash by activating **Empty the 
 
 You can divide your Content tree into Sections to better organize it.
 Sections let you decide which users will have access to which parts of the tree.
+To see which Section a Content item belongs to, look at its Details tabs.
 
 You can set up Sections in the Admin Panel in the **Sections** tab.
 A few Sections are provided with each installation, but you can add new ones, depending on your needs.
