@@ -1,0 +1,42 @@
+site_name: eZ Platform User Documentation
+repo_url: https://github.com/ezsystems/user-documentation
+copyright: "Copyright 1999-2017 eZ Systems AS and others"
+site_favicon: img/favicon.ico
+pages:
+    - 'Documentation': 'index.md'
+    - 'Getting started': 'getting_started.md'
+    - 'Under the hood': 'under_the_hood.md'
+    - 'Creating content, basic': 'creating_content_basic.md'
+    - 'Organizing the content': 'organizing_the_content.md'
+    - 'Publishing': 'publishing.md'
+    - 'Creating content, advanced': 'creating_content_advanced.md'
+    - 'Organizing the site': 'organizing_the_site.md'
+    - 'FAQ': 'faq.md'
+    - 'Glossary': 'glossary.md'
+
+#theme: material
+#theme_dir: material
+#extra_css: [fonts/MavenPro.css, css/custom.css]
+#extra_javascript: [js/jquery.min.js, js/custom.js]
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite(guess_lang=false)
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc(permalink=true)
+  - pymdownx.arithmatex
+  - pymdownx.betterem(smart_enable=all)
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist(custom_checkbox=true)
+  - pymdownx.tilde
+
+#extra:
+#    font:
+#        text: 'Maven Pro'
