@@ -15,9 +15,9 @@ pages:
     - 'Glossary': 'glossary.md'
 
 #theme: material
-#theme_dir: material
-#extra_css: [fonts/MavenPro.css, css/custom.css]
-#extra_javascript: [js/jquery.min.js, js/custom.js]
+theme_dir: material
+extra_css: [fonts/MavenPro.css, css/custom.css]
+extra_javascript: [js/jquery.min.js, js/custom.js]
 markdown_extensions:
   - markdown.extensions.admonition
   - markdown.extensions.codehilite(guess_lang=false)
