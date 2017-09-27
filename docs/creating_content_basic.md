@@ -49,6 +49,7 @@ You can add a new element to the Field by activating the plus icon to the left o
 - List
 - Image
 - Embed
+- Table
 
 ![Available Rich Text block elements](img/rich_text_block_elements.png "Available Rich Text block elements")
 
@@ -61,6 +62,13 @@ Images options enable you to select the variation (alias) for the image.
 Available image variations, including different sizing options and other filters that can be applied to images,
 can be configured for your installation at a developer level.
 See [Images](https://doc.ezplatform.com/en/latest/guide/images/) for a technical guide on how to do this.
+
+#### Tables
+
+![Table options in online editor](img/online_editor_table.png)
+
+In table options you can define the first row and/or column as headers,
+add and delete rows and columns in any part of the table as well as merge and split cells.
 
 #### Text formatting
 

@@ -106,6 +106,15 @@ The **Download Data** button lets you download all the submissions to a form in 
 
 Files uploaded through the **File** field will be added as separate Content items in the Media Library.
 
+#### Deleting Forms
+
+A Form cannot be deleted if it is in use on any page. If you select a Form in the Form Manager and choose **Delete Form**,
+you will have the option to go to the page where it is used and remove it. Only then can you delete the form.
+
+!!! caution
+
+    Any data collected will be lost when you delete a form. Remember to download any relevant data before removing forms.
+
 #### Best Practices: Forms
 
 ##### Avoiding possible inconsistency in forms
