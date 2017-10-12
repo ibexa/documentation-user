@@ -46,7 +46,8 @@ You can add a new element to the Field by activating the plus icon to the left o
 
 - Heading
 - Paragraph
-- List
+- Unordered list
+- Ordered list
 - Image
 - Embed
 - Table
