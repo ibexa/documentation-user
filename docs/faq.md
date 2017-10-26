@@ -38,7 +38,7 @@ See [installation](https://doc.ezplatform.com/en/latest/getting_started/install_
 
 **In what modes can I work with my content?**
 
-eZ offers three different work modes: **Content mode**, **Page mode** and **Performance mode**.
+eZ offers two different work modes: **Content mode** and **Page mode**.
 
 **What is Content mode?**
 
@@ -57,10 +57,6 @@ Page mode allows you to manage website pages and website content from the pages
 It allows front-end editing, that is modifying pages directly from their preview. Using a special Timeline toolbar you can also preview and modify the content of a page at a future date.
 
 The Page mode offers a special functionality of creating a Landing Page - a special kind of Content with advanced customization options.
-
-**What is Performance mode?**
-
-Performance mode gives access to optimization capabilities such as Analytics and cloud services management tools.
 
 ### Administration
 

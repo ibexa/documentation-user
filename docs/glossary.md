@@ -254,10 +254,6 @@ More information (User Guide): [Under the hood, concepts and organization](under
 
 The editing mode available in [eZ Enterprise](#ez-enterprise). Allows you to plan, create and modify content live, while previewing the effects of the changes in real time.
 
-#### Performance mode
-
-The editing mode available in [Cloud Services](#cloud-services).
-
 #### Permissions
 
 See [Policies](#policy), [Roles](#role).
