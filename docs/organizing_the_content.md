@@ -44,6 +44,16 @@ in the Location tab and selecting a Content item to swap with.
 ## Managing existing content
 
 You can move or copy existing Content items by choosing the proper option from the menu on the right.
+You can also copy a whole subtree, that is a Content item with all content under it in the structure.
+
+!!! note
+
+    Copying very large subtrees may take too much time and server effort. That is why the system administrator
+    may set a limit on how many Content items can be copied at the same time.
+
+    See [Copy subtree limit](https://doc.ezplatform.com/en/latest/guide/best_practices/#copy-subtree-limit)
+    in the developer documentation on how to set this up.
+
 Remember that Copying creates a new separate Content item.
 If you only want to "attach" the same Content item to another place in the Content tree, add another Location to it.
 
