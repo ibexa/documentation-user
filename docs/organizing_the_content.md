@@ -94,3 +94,24 @@ Each Content item must belong to a Section. By default new Content is placed in 
 If you want to remove a Content item from a Section, you just need to assign it to a different one.
 
 Access to Sections can be restricted by [setting up proper permissions](organizing_the_site.md#permissions).
+
+## Links
+
+In your site you can link to external websites by placing links inside rich text, or by using a URL Field.
+You can manage the links using the Link manager available under Content.
+
+![Link manager](img/link_manager.png)
+
+The Link manager shows a list of all links in the site. Click any item in the list to see details and check which Content items use this URL.
+
+![Detail of a link in Link manager](img/link_manager_detail.png)
+
+You can edit any link in the Link manager. It will then be changed in every place where it is used, across all Content items.
+
+The Link manager list also shows whether the link is alive or dead in the Status column. The Last checked column displays when the status was last verified.
+
+!!! note "Editing links"
+
+    When editing a link in the Link manager, you cannot change it to an already existing link. The new URL must be unique.
+
+    An edited link will automatically be marked as "Valid".
