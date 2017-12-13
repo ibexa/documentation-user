@@ -28,8 +28,8 @@ Once the installation is ready, you should be provided with the address where th
 ![Login screen](img/login_form.png "Login screen")
 
 Going to the provided address in your browser will show you what the page will look like to the visitors.
-To access your editor interface, add `/ez` to this address.
-For example, if your website's URL is `www.my-site.com`, you enter the editing interface through `www.my-site.com/ez`.
+To access your editor interface, add `/admin` to this address.
+For example, if your website's URL is `www.my-site.com`, you enter the editing interface through `www.my-site.com/admin`.
 
 The application greets you with the Dashboard. It lists the content that may be of most relevance to you:
 your drafts, the content you have created, recently modified content, etc.

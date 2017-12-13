@@ -104,8 +104,8 @@ They represent three categories of Content Types that you can create
 ### Content tree and the Content browser
 
 If you want to get an overview of the content currently in your website, go to the Content work mode
-and select the appropriate tab: **Content structure** or **Media library**.
-A **Content browse** option on the left lets you browse through all the Content of the respective category.
+and select the appropriate tab: **Content structure** or **Media**.
+A **Browse** option on the left lets you browse through all the Content of the respective category.
 User accounts, which are also considered content in eZ Platform, you can view through the Admin Panel
 (see [Users](organizing_the_site.md#users)).
 

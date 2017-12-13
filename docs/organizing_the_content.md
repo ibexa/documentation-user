@@ -24,7 +24,7 @@ then select the new parent from the Content Browser.
 ### Hiding Locations
 
 You can also manage the availability of Content by hiding or revealing it.
-You can do this in the Content item's Locations tab by selecting **Hide** or **Reveal**.
+You can do this in the Content item's Locations tab by activating the Visibility switcher.
 Notice that hiding and revealing only affect a *Location*, not the *Content item*.
 This means that even if you hide the Content in one Location, it will still be visible in any other Locations it is assigned to.
 
