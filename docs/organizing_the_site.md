@@ -39,12 +39,12 @@ If a Field is deleted from the Content Type definition, all these Fields will be
 
 Each field has a number of common parameters:
 
-- Position - defines the order of the Fields in the Content Type
 - Name - stores a user-friendly name that describes the Field.
 The name of a Field can consist of letters, digits, spaces and special characters.
 The maximum length is 255 characters. If a blank name is provided, the app automatically generates a unique name for the Field.
 - Identifier - stores the Name in the system. The identifier can have no more than 50 characters
 and can contain no special characters except underscore.
+- Position - defines the order of the Fields in the Content Type
 - Description - gives details about the Field that will be displayed next to it when editing content.
 - Required - when this is checked, you will not be able to save or publish a Content item of this type unless the field in filled in.
 - Searchable - decides if the contents of the Field will be covered by search.
@@ -121,15 +121,15 @@ They cover actions such as activating new Users, creating Sections, modifying Co
 
 You can view and modify all permissions by activating **Roles** in the Admin panel.
 
-Select **Create a role** and provide a name to get an empty, unassigned role.
+Select the plus button and provide a name to get an empty, unassigned role.
 You can now select it to get access to the list of Policies the Role has - at the moment, none.
-Activate **Add new Policy** and select one from the list. You can then either save it directly,
-or save and go on to selecting a Limitation. The available Limitations depend on the chosen Policy.
+Activate the plus button again, select a Policy from the list and save it.
+You can then edit the Policy to select a Limitation. The available Limitations depend on the chosen Policy.
 
 ![Details of a Role](img/role_details.png "Details of a Role")
 
 After you are done choosing all Policies, you can assign the Role to users.
-Go to the **Users and groups using the <your role name> Role** tab.
+Go to the **Assignments** tab and activate the assign button.
 Here you can choose users and/or groups that will be assigned this Role, with possible additional Limitations.
 A User or User Group may be assigned multiple Roles.
 

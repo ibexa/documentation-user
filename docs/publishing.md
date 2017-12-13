@@ -16,14 +16,13 @@ Instead, it will save the new version of the content as a **Draft**.
 You can then keep on editing the same content and save it when needed and the draft will be amended.
 You can then leave the editor by using the X icon in the upper right corner.
 
-*Selecting **Discard Changes** will remove the whole draft and all the work you have done on it!
+*Selecting **Delete draft** will remove the whole draft and all the work you have done on it!
 A discarded draft is removed instantly, not placed in the Trash, so it can't be restored!*
 
-Once you leave the editor after saving your draft, you can return to it whenever you come back to editing the Content item.
-When you select **Edit** in a Content item that has one or more open drafts, you will be asked which draft you want to continue working on.
-You will also have the option to create a new Draft based on the currently published version.
-Note that you cannot edit an unpublished draft created by another user,
-but you can create a new draft based on a published version, regardless of who their author was.
+Once you leave the editor after saving your draft, you can return to modify it, or create a new draft.
+To edit an existing draft, go to the **Versions** tab and click the edit icon in the proper line.
+When you select **Edit** in a Content item, you will create a new draft.
+Note that you cannot edit an unpublished draft created by another user.
 
 ![Choosing a draft to edit](img/choose_draft_to_edit.png "Choosing a draft to edit")
 
@@ -48,7 +47,7 @@ Finally, there are the already discussed **Drafts**. You can view all versions o
     Flex Workflow operates on drafts of Content items.
 
     After creating a new Content item or making changes to it, do not publish it,
-    but instead activate **Send for Review** in the menu and select a user.
+    but instead activate **Send for review** in the menu and select a user.
     This user will then be notified of your request and will be able to view your draft.
     Then they can introduce their own modifications, creating a new draft, or leave your draft as it is.
     Finally, they can publish the latest draft (yours or their own) or send it on to another reviewer.
@@ -90,7 +89,7 @@ Date-based publishing and [Schedule blocks in the Landing Page](#scheduling).
     You will see a **Future publication setting** window. Choose a date and time and the content will be published at that time.
 
     If you had planned a future publication date and enter the edit mode of the same Content item,
-    you also have a new option in the menu: **Discard Publish Date**.
+    you also have a new option in the menu: **Discard publish later**.
     Activate it to remove the previously selected publication date.
 
     ![Discard Publish Date button in the menu](img/discard_publish_date.png "Discard Publish Date button in the menu")
