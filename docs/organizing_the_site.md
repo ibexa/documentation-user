@@ -26,7 +26,7 @@ To add a Field to the new Content Type, select a [Field Type](under_the_hood.md#
 in the Field Type selection drop-down menu and activate **Add field definition**.
 You can determine the order in which Fields will be displayed by setting their Position parameter.
 
-To delete Field(s), check the boxes next to any Field names and select **Remove selected field definitions** at the bottom of the screen.
+To delete Field(s), check the boxes next to any Field names and select the trash icon.
 
 ![Adding and removing fields](img/add_field.png "Adding and removing fields")
 

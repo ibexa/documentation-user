@@ -24,8 +24,6 @@ To edit an existing draft, go to the **Versions** tab and click the edit icon in
 When you select **Edit** in a Content item, you will create a new draft.
 Note that you cannot edit an unpublished draft created by another user.
 
-![Choosing a draft to edit](img/choose_draft_to_edit.png "Choosing a draft to edit")
-
 ### Content versions
 
 As you can see, content in the repository can have more than one version.
@@ -54,16 +52,12 @@ Finally, there are the already discussed **Drafts**. You can view all versions o
 
     ### Reviewing a draft
 
-    When you are selected as a reviewer for a Content item, you can be notified about it in three ways:
+    When you are selected as a reviewer for a Content item, you can be notified about it in two ways:
 
     - You receive a notification about it by email. The message contains a direct link to the draft.
     - You also receive notifications in your user profile. When you are logged in, a number appears next to your profile picture
     (in the upper right corner of the screen) which shows how many requests for review you have received.
     Activate your profile and choose View notifications. You can see a Notifications window with a list of all requests.
-    - A message bar appears at the bottom of the screen as soon as a request is sent to you.
-    It contains a link to the Content item to review.
-
-    ![Notification of a request for review](img/notification.png "Notification of a request for review")
 
     When you start editing a Content item which has been sent to review, you will see the Approval Timeline at the top of the screen.
     This timeline lists all review requests that have been sent out for this Content item.
