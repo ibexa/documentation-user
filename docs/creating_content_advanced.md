@@ -8,9 +8,8 @@ Which version is shown to a visitor depends on the way your installation is set 
 
 ### Adding translations
 
-You can create a new translation of a Content item by selecting **Translations** in the menu.
-You will see a list of all the existing translations and can switch to them and edit them.
-From there you can also add a new translation. When doing so, you can base the new translation on an existing one.
+You can create a new translation of a Content item by going to the **Translations** tab and activating the plus button.
+You will see a list of all available languages. You can also base the new translation on an existing one.
 All the fields will then be pre-filled with the values they have in the base translation.
 If you do not choose a base translation, the fields will be empty. Every time you add or edit any translation,
 the Content item gets a new version, the same way as when editing only one language.
@@ -18,7 +17,7 @@ the Content item gets a new version, the same way as when editing only one langu
 ![Adding a new translation](img/adding_translation.png "Adding a new translation")
 
 You can only add translations in languages that have been set up for your website in the Admin Panel.
-To create a new language for the website, go to the Admin Panel and the **Languages** tab and select **Create a new language**.
+To create a new language for the website, go to the Admin Panel and the **Languages** tab and activate the plus button.
 
 ![Language button in the Admin Panel](img/admin_panel_language.png "Language button in the Admin Panel")
 
