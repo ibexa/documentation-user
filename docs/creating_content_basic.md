@@ -72,6 +72,13 @@ add and delete rows and columns in any part of the table as well as merge and sp
 When you select a section of text, you get access to text formatting options such as bold or underline.
 Here you can also add a link to the text. You can link to an external website, or to another Content item.
 
+### Previewing content
+
+While editing content you can preview what it will look like using the Preview button in the menu.
+
+A Content item can have different looks for different [SiteAccesses](glossary.md#siteaccess).
+You can select a SiteAccess to preview using a dropdown in the preview screen.
+
 !!! enterprise
 
     ## Working with a Landing Page
