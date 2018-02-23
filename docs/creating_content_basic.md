@@ -81,6 +81,13 @@ activate **Focus** to enter a special mode where only this Field is visible.
 
 ![Article in focus mode](img/article_in_focus_mode.png "Article in focus mode")
 
+### Previewing content
+
+While editing content you can preview what it will look like using one of the preview buttons in the menu.
+
+A Content item can have different looks for different [SiteAccesses](glossary.md#siteaccess).
+You can select a SiteAccess to preview using a dropdown in the preview screen.
+
 !!! enterprise
 
     ## Working with a Landing Page
