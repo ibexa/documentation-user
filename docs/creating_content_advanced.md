@@ -8,8 +8,9 @@ Which version is shown to a visitor depends on the way your installation is set 
 
 ### Adding and removing translations
 
-You can create or remove a translation of a Content item by selecting **Translations** in the menu.
-You will see a list of all the existing translations and can switch to them, edit them or remove them. By choosing **Trash button** in the **Existing Translations** box you can permanently remove a translation (language) from every version of a Content item.
+You can create or remove a translation of a Content item by selecting **Translations** in the menu. You will see a list of all the existing translations and can switch to them, edit them or remove them. By choosing **Trash button** in the **Existing Translations** box you can permanently remove a translation (language) from every version of a Content item. You can remove any language except the main one. If you want to delete the main language, you need to change it for another in the Details tab. 
+
+When only one language is used in the Content item the **Trash button** is not displayed as the action is impossible. 
 
 ![Permanently removing a language](img/removing_language.png "Permanently removing a language")
 
