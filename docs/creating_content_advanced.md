@@ -6,11 +6,15 @@ The content on your website can be translated into different languages. Each Con
 Which version is shown to a visitor depends on the way your installation is set up
 (see [SiteAccess](https://doc.ezplatform.com/en/latest/guide/siteaccess/) for a technical explanation of the concept).
 
-### Adding translations
+### Adding and removing translations
 
-You can create a new translation of a Content item by selecting **Translations** in the menu.
-You will see a list of all the existing translations and can switch to them and edit them.
-From there you can also add a new translation. When doing so, you can base the new translation on an existing one.
+You can create or remove a translation of a Content item by selecting **Translations** in the menu. You will see a list of all the existing translations and can switch to them, edit them or remove them. By choosing **Trash button** in the **Existing Translations** box you can permanently remove a translation (language) from every version of a Content item. You can remove any language except the main one. 
+
+When only one language is used in the Content item the **Trash button** is not displayed as the action is impossible. 
+
+![Permanently removing a language](img/removing_language.png "Permanently removing a language")
+
+In the box you can also add a new translation by selecting **+ New Translation** button. When doing so, you can base the new translation on an existing one.
 All the fields will then be pre-filled with the values they have in the base translation.
 If you do not choose a base translation, the fields will be empty. Every time you add or edit any translation,
 the Content item gets a new version, the same way as when editing only one language.
