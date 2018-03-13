@@ -21,7 +21,8 @@ A discarded draft is removed instantly, not placed in the Trash, so it can't be 
 
 Once you leave the editor after saving your draft, you can return to modify it, or create a new draft.
 To edit an existing draft, go to the **Versions** tab and click the edit icon in the proper line.
-When you select **Edit** in a Content item, you will create a new draft.
+When you select **Edit** in a Content item that has one or more open drafts, you will be asked which draft you want to continue working on.
+You will also have the option to create a new Draft based on the currently published version.
 Note that you cannot edit an unpublished draft created by another user.
 
 ### Content versions

@@ -76,6 +76,21 @@ The content will appear in Trash only once you have removed the last Location.
 You can permanently remove all content from the Trash by activating **Empty the Trash**.
 **Warning! This action cannot be undone!**
 
+## URL aliases
+
+Each Content item can have one or more additional URL aliases. There are addiontial URL that can be used to access this Content item.
+
+You can add URL aliases in the URL tab under **Custom URL aliases for <Content name>** by activating the plus button.
+
+![Creating a new URL alias](img/create_new_url_alias.png)
+
+For each new alias you can set the following options:
+
+- Language - the language of the Content item that the alias redirects to.
+- Alias should redirect to its destination - when this is checked, the alias will redirect to the Content item's actual URL.
+- Place alias at the site root - when this is checked, the alias will be created in the root of the site.
+If this is unchecked, the alias will be relative to the parent of the Content item.
+
 ## Sections
 
 You can divide your Content tree into Sections to better organize it.
@@ -94,6 +109,18 @@ Each Content item must belong to a Section. By default new Content is placed in 
 If you want to remove a Content item from a Section, you just need to assign it to a different one.
 
 Access to Sections can be restricted by [setting up proper permissions](organizing_the_site.md#permissions).
+
+## Object states
+
+You can assign specific Object states to all Content items in your site.
+You can do it when viewing the Content item, in the Details tab in State details section.
+
+![Object state details](img/object_state_details.png)
+
+!!! note
+
+    The functioning of Object states can be set up differently in each installation.
+    Contact your site administrator for information on how to use the states in your case.
 
 ## Links
 
