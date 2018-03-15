@@ -11,7 +11,7 @@ pages:
     - 'Publishing': 'publishing.md'
     - 'Creating content, advanced': 'creating_content_advanced.md'
     - 'Organizing the site': 'organizing_the_site.md'
-    - 'Searching': 'searching.md'
+    - 'Searching': 'search.md'
     - 'FAQ': 'faq.md'
     - 'Glossary': 'glossary.md'
 
