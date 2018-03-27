@@ -2,14 +2,18 @@
 
 ## Creating content
 
-There are two ways of creating a new Content item:
+There are four ways of creating a new Content item:
 
 1. Activate **Create** in the right menu *whenever you are viewing any other content*.
 The new item will be placed under this content in the tree.
+1. Activate **Create** in the upper right corner of the *Dashboard*.
+In this case you will have to select where the content will be located.
+1. Go to the **Create** tab in the *Universal Discovery Widget*.
+Here also you'll have to choose a location for the new item.
 1. Drag files onto the *Sub-items box* when viewing any content or activate the upload button and select files to upload.
 In this way you can upload files such as images, videos, pdf documents etc.
 
-If you choose the first option, you have to select the Content Type first.
+If you choose the first three options, you have to select the Content Type first.
 When uploading files the Content Type will be chosen automatically.
 
 If you are using eZ Enterprise, you will have the *Landing Page* Content Type available for selection.
@@ -66,6 +70,10 @@ See [Images](https://doc.ezplatform.com/en/latest/guide/images/) for a technica
 
 In table options you can define the first row and/or column as headers,
 add and delete rows and columns in any part of the table as well as merge and split cells.
+
+#### Custom elements
+
+You installation can also have custom elements. Contact your site administrator about the details of using them.
 
 #### Text formatting
 
