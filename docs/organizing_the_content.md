@@ -41,6 +41,12 @@ and combining them with [proper permissions](organizing_the_site.md#permissions)
 You can swap two Content items in their Locations by going to the **Location Content Swap** section
 in the Location tab and selecting a Content item to swap with.
 
+!!! caution
+
+    Swapping Locations will also republish their respective URL Aliases. This means that if the swapped Content Object was accessible by the URL that had a number at the end (added due to a name conflict), then after the swap the number will be removed (if possible). The opposite case also applies.
+    Swapping Locations for Content Objects with the same name and parent results in swapping their URL Aliases. This means that if the Content Object was previously accessible by an URL without a number at the end, after the swap it will be accessible by an URL with a number at the end (and the other way around).
+    If at some point there were more than two Content Object with the same name under the same parent, then result of swapping such Content Objects might not be obvious. The general rule is that the Content Object that previously had a higher number at the end of its URL Alias will have its URL Alias republished first, resulting in the lowest nonconflicting number (or the lack of) at the end of its URL Alias. The Content Object that previously had a lower number at the end of its URL Alias will have its URL Alias republished second, resulting in the second lowest nonconflicting number at the end of its URL Alias.
+
 ## Managing existing content
 
 You can move or copy existing Content items by choosing the proper option from the menu on the right.
