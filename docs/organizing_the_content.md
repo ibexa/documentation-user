@@ -43,9 +43,9 @@ in the Location tab and selecting a Content item to swap with.
 
 !!! caution
 
-    Swapping Locations will also republish their respective URL aliases. This means that if the swapped Content Object was accessible by the URL that had a number at the end (added due to a name conflict), then after the swap the number will be removed (if possible). The opposite case also applies.
-    Swapping Locations for Content Objects with the same name and parent, results in swapping their URL aliases. This means that if the Content Object was previously accessible by a URL without a number at the end, after the swap it will be accessible by a URL with a number at the end (and the other way around).
-    If at some point there were more than two Content Objects with the same name under the same parent, then result of swapping such Content Objects might not be obvious. The general rule is that the Content Object that previously had a higher number at the end of its URL alias will have its URL alias republished first, resulting in the lowest nonconflicting number (or the lack of) at the end of its URL alias. The Content Object that previously had a lower number at the end of its URL alias will have its URL alias republished second, resulting in the second lowest nonconflicting number at the end of its URL alias.
+    Swapping Locations will also republish their respective URL aliases. This means that if the swapped Content item was accessible by the URL that had a number at the end (added due to a name conflict), then after the swap the number will be removed (if possible). The opposite case also applies.
+    Swapping Locations for Content item with the same name and parent, results in swapping their URL aliases. This means that if the Content item was previously accessible by a URL without a number at the end, after the swap it will be accessible by a URL with a number at the end (and the other way around).
+    If at some point there were more than two Content item with the same name under the same parent, then result of swapping such Content items might not be obvious. The general rule is that the Content item that previously had a higher number at the end of its URL alias will have its URL alias republished first, resulting in the lowest nonconflicting number (or the lack of) at the end of its URL alias. The Content item that previously had a lower number at the end of its URL alias will have its URL alias republished second, resulting in the second lowest nonconflicting number at the end of its URL alias.
 
 ## Managing existing content
 
