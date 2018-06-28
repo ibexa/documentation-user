@@ -38,8 +38,7 @@ Rich Text Fields are filled using a special Online Editor whose options appear w
 
 ![Online Editor menu](img/online_editor_menu.png "Online Editor menu")
 
-You can add a new element to the Field by activating the plus icon to the left of the box
-![Add button](img/add_button.png "Add button") and choosing one of the available elements:
+You can add a new element to the Field by activating the plus icon to the left of the box and choosing one of the available elements:
 
 - Heading
 - Paragraph
@@ -112,7 +111,7 @@ activate **Focus** to enter a special mode where only this Field is visible.
     ![Elements menu](img/elements_menu.png "Elements menu")
 
     Each kind of blocks has its special properties that you can access from the block's menu when it is selected.
-    In most cases you do this by activating the ![Settings button](img/settings_button.png "Settings button") settings button.
+    In most cases you do this by activating the settings button.
     The settings for most blocks should be self-explanatory, but a few require additional explanation.
 
     #### MA Form block
