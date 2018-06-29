@@ -120,7 +120,6 @@ You can select a SiteAccess to preview using a dropdown in the preview screen.
     - Collection - displays a set of Content items you select manually.
     - Embed - embeds Content of any type on the Page.
     - Gallery - displays Images contained in a folder.
-    - Places - displays a list of all place Content items in a folder you choose.
     - Video - embeds a video Content item into a page, with standard playback controls.
     - RSS - loads and displays news from RSS feeds (channels).
 
