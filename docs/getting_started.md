@@ -13,7 +13,7 @@ and provides a user interface to work with the content and administer the platfo
 eZ Platform Enterprise Edition is a commercial product built on top of the open-source eZ Platform.
 It offers additional functionalities and enhancements to the editing experience.
 
-eZ Enterprise provides advanced editorial capabilities such as [in-page editing](creating_content_basic.md#working-with-a-landing-page), creation of landing pages, [editorial workflow](publishing.md#review-workflow), advanced marketing capabilities, etc.
+eZ Enterprise provides advanced editorial capabilities such as [in-page editing](creating_content_basic.md#working-with-a-page), creation of block-based Pages, [editorial workflow](publishing.md#review-workflow), advanced marketing capabilities, etc.
 
 ## Quick start
 
@@ -50,5 +50,5 @@ eZ Platform offers two different work modes: Content mode and Page mode.
 - **Content mode** gives you access to the content repository.
 It lets you navigate the Content tree, create, edit, move, copy, delete content, etc.
 - **Page mode** allows you to manage website pages and website content from the pages themselves.
-It is only available for eZ Enterprise users and allows you to create and edit Landing Pages
+It is only available for eZ Enterprise users and allows you to create and edit block-based Pages
 and make use of other Enterprise-specific functionalities.
