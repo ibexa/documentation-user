@@ -122,9 +122,9 @@ They cover actions such as activating new Users, creating Sections, modifying Co
 You can view and modify all permissions by activating **Roles** in the Admin panel.
 
 Select the plus button and provide a name to get an empty, unassigned role.
-You can now select it to get access to the list of Policies the Role has - at the moment, none.
+You can now see the list of Policies the Role has - at the moment, none.
 Activate the plus button again, select a Policy from the list and save it.
-You can then edit the Policy to select a Limitation. The available Limitations depend on the chosen Policy.
+You then have an option to add Limitations to the Policy. The available Limitations depend on the chosen Policy.
 
 ![Details of a Role](img/role_details.png "Details of a Role")
 

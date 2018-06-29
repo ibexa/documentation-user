@@ -16,7 +16,7 @@ which you can place in the tree both under Local News and Sports News.
 
 Even if a Content item is placed in more than one Location, one of the Locations (by default the first one) is always considered the main one.
 
-To assign other Locations to Content, view this Content item's **Location** tab and activate **Add Location**,
+To assign other Locations to Content, view this Content item's **Location** tab and activate the plus button,
 then select the new parent from the Content Browser.
 
 ![Content with two locations](img/content_with_two_locations.png "Content with two locations")
@@ -44,7 +44,9 @@ in the Location tab and selecting a Content item to swap with.
 !!! caution
 
     Swapping Locations will also republish their respective URL aliases. This means that if the swapped Content item was accessible by the URL that had a number at the end (added due to a name conflict), then after the swap the number will be removed (if possible). The opposite case also applies.
+
     Swapping Locations for Content item with the same name and parent, results in swapping their URL aliases. This means that if the Content item was previously accessible by a URL without a number at the end, after the swap it will be accessible by a URL with a number at the end (and the other way around).
+
     If at some point there were more than two Content item with the same name under the same parent, then result of swapping such Content items might not be obvious. The general rule is that the Content item that previously had a higher number at the end of its URL alias will have its URL alias republished first, resulting in the lowest nonconflicting number (or the lack of) at the end of its URL alias. The Content item that previously had a lower number at the end of its URL alias will have its URL alias republished second, resulting in the second lowest nonconflicting number at the end of its URL alias.
 
 ## Managing existing content
@@ -64,27 +66,27 @@ Remember that Copying creates a new separate Content item.
 If you only want to "attach" the same Content item to another place in the Content tree, add another Location to it.
 
 You can remove Content by activating **Send to Trash** in the menu.
-In Page mode this option is located in the **Options** menu at the top.
 If you remove a Content item that has children (other content under it in the content tree),
 both this item and the children will be removed. This also breaks the connection between the items,
 so you will not be able to restore them with the same structure.
 
 Notice that the Content item is not removed completely.
 It is moved to Trash, which you can access from the left menu.
-In the Trash you can select removed Content items and restore them to their original Locations.
-If the Content item's parent has been removed, you can select a new parent Location.
+In the Trash you can select removed Content items and restore them to their original Locations or to new Locations you choose.
+If the Content item's parent has been removed, you need to select a new parent Location.
 
 ![Warning before emptying the trash](img/empty_trash_warning.png "Warning before emptying the trash")
 
 If a Content item has more than one Location, selecting Send to Trash will remove the Content item only from the current Location.
 The content will appear in Trash only once you have removed the last Location.
 
-You can permanently remove all content from the Trash by activating **Empty the Trash**.
+You can permanently remove a Content item by checking it and activating the trash icon.
+You can also permanently remove all content from the Trash by activating **Empty Trash**.
 **Warning! This action cannot be undone!**
 
 ## URL aliases
 
-Each Content item can have one or more additional URL aliases. There are addiontial URL that can be used to access this Content item.
+Each Content item can have one or more additional URL aliases. There are additional URL that can be used to access this Content item.
 
 You can add URL aliases in the URL tab under **Custom URL aliases for <Content name>** by activating the plus button.
 
@@ -148,3 +150,13 @@ The Link manager list also shows whether the link is alive or dead in the Status
     When editing a link in the Link manager, you cannot change it to an already existing link. The new URL must be unique.
 
     An edited link will automatically be marked as "Valid".
+
+## Bookmarks
+
+You can bookmark any Content item by activating the star icon next to the Content name.
+
+![Bookmark icon](img/bookmark_icon.png)
+
+Bookmarks are stored per user. You can view a list of all bookmarks by activating Bookmarks in the left menu.
+
+![Bookmark screen](img/bookmarks.png)

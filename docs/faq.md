@@ -56,7 +56,7 @@ Page mode allows you to manage website pages and website content from the pages
 
 It allows front-end editing, that is modifying pages directly from their preview. Using a special Timeline toolbar you can also preview and modify the content of a page at a future date.
 
-The Page mode offers a special functionality of creating a Landing Page - a special kind of Content with advanced customization options.
+The Page mode offers a special functionality of creating a Page - a special kind of Content with advanced customization options.
 
 ### Administration
 
@@ -108,7 +108,7 @@ See [SiteAccess](https://doc.ezplatform.com/en/latest/guide/siteaccess/) for mor
 
 **How can I customize the look of my website?**
 
-You can control the look of your website with great precision by creating and applying Twig templates. You can also create custom layouts for Landing Pages.
+You can control the look of your website with great precision by creating and applying Twig templates. You can also create custom layouts for Pages.
 
 See [Design](https://doc.ezplatform.com/en/latest/guide/design/) for more technical information.
 
@@ -227,10 +227,9 @@ Yes, eZ Enterprise is based on eZ Platform and contains it with all of its funct
 
 eZ Enterprise offers a number of additional features aside from what is available in Platform. The key of them are:
 
-- Easy creation of Landing Pages
+- Easy creation of Pages
 - Intuitive Page mode editing
 - Flex Workflow functionality for managing the review process
-- Automated scheduling of the times when new content is aired on the page.
 
 **How do I install eZ Enterprise Edition?**
 
@@ -238,29 +237,21 @@ Here is a [guide to installing eZ products](https://doc.ezplatform.com/en/latest
 
 ### Editing
 
-**How does a Landing Page differ from a regular page?**
+**How does a Page differ from a regular Content item?**
 
-A Landing Page is a special kind of a Content item. It is a page designed to be the visitor's entry point into your website.
+A Page is a special kind of a Content item. It is a page designed to be the visitor's entry point into your website.
 
-A Landing Page has a customizable layout with multiple zones where you can place predefined blocks with dynamic content.
+A Page has a customizable layout with multiple zones where you can place predefined blocks with dynamic content.
 
-**How do I create a Landing Page?**
+**How do I create a Page?**
 
-You can create a new Landing Page in the Page mode by clicking **Create**. See [Working with a Landing Page](creating_content_basic.md#working-with-a-landing-page) for more information.
+You can create a new Page in the Page mode by clicking **Create**. See [Working with a Page](creating_content_basic.md#working-with-a-page) for more information.
 
-**What blocks can I add to a Landing Page?**
+**What blocks can I add to a Page?**
 
-Here is the list of predefined Landing Page blocks.
+Here is the list of predefined Page blocks.
 
-You also have the possibility of [creating your own, custom blocks](https://doc.ezplatform.com/en/latest/cookbook/creating_landing_page_blocks_(enterprise)/).
-
-**How can I make content appear on a page at a predefined time?**
-
-You can use the [Schedule Block](publishing.md#scheduling) to select Content items and plan the times at which they will be displayed on a Landing Page.
-
-**How can I see what my page will look like in the future?**
-
-The [timeline](publishing.md#scheduling) lets you preview changes that will happen to your Landing Page with time. Simply drag the slider at the top of the page to the time you wish to view.
+You also have the possibility of [creating your own, custom blocks](https://doc.ezplatform.com/en/latest/guide/extending_page.md#page-blocks).
 
 **How can I have my Content reviewed by other users?**
 
