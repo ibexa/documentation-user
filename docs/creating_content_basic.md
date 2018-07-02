@@ -38,8 +38,7 @@ Rich Text Fields are filled using a special Online Editor whose options appear w
 
 ![Online Editor menu](img/online_editor_menu.png "Online Editor menu")
 
-You can add a new element to the Field by activating the plus icon to the left of the box
-![Add button](img/add_button.png "Add button") and choosing one of the available elements:
+You can add a new element to the Field by activating the plus icon to the left of the box and choosing one of the available elements:
 
 - Heading
 - Paragraph
