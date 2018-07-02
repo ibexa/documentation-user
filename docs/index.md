@@ -7,7 +7,7 @@ You can find here information on how to create, edit, manage and publish content
 
 **New to eZ Platform? See [Getting Started](getting_started.md)**
 
-**Got a question? See the [FAQ](faq.md) or [Glossary](glossary.md)**
+**Got a question? See the [FAQ](faq.md)**
 
 !!! tip "Are you a developer?"
 
