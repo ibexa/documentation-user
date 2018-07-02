@@ -17,7 +17,7 @@ eZ Enterprise provides advanced editorial capabilities such as [in-page editing]
 
 ## Quick start
 
-To get started working with eZ Platform you need [an installation set up by your administrator / developer team](https://doc.ezplatform.com/en/1.11/getting_started/install_ez_platform/).
+To get started working with eZ Platform you need [an installation set up by your administrator / developer team](https://doc.ezplatform.com/en/latest/getting_started/install_ez_platform/).
 Once the installation is ready, you should be provided with the address where the installation is located, your login and password.
 
 **The default administrator account information is:**

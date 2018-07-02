@@ -13,7 +13,6 @@ pages:
     - 'Organizing the site': 'organizing_the_site.md'
     - 'Searching': 'search.md'
     - 'FAQ': 'faq.md'
-    - 'Glossary': 'glossary.md'
 
 #theme: material
 theme_dir: material
