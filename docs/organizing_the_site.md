@@ -62,10 +62,10 @@ to have relations only to Content items of a specific, or any Content Type.
     Therefore, it's always best to discuss the need for new Content Types with the administrator of your website
     to make sure whether they need to add it to the configuration.
 
-!!! note "Deleting Content Types"
+!!! caution "Deleting Content Types"
 
     You can delete a Content Type only when there are no Content items that belong to it.
-    This includes Content items that are still in the Trash.
+    This also includes Content items in the Trash.
 
 ## Users
 
