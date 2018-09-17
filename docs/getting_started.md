@@ -52,3 +52,11 @@ It lets you navigate the Content tree, create, edit, move, copy, delete content,
 - **Page mode** allows you to manage website pages and website content from the pages themselves.
 It is only available for eZ Enterprise users and allows you to create and edit block-based Pages
 and make use of other Enterprise-specific functionalities.
+
+### User settings
+
+You can access your user settings on the right side of the top bar:
+
+![User preferences menu](img/user_preferences.png)
+
+Here you can choose your preferred timezone and change your user password.
