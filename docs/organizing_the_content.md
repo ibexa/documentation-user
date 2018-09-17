@@ -2,39 +2,38 @@
 
 ## Content Locations
 
-To fully use eZ Platform's content management capabilities it is important to understand how content is organized in the Content tree.
-
 A Content item by itself does not have a place in the Content tree and is not visible for a visitor of the website.
 To be available on the website it has to be assigned a Location ID.
-A new Content item is automatically assigned a Location when you publish it, so you don't have to worry about it.
+A new Content item is automatically assigned a Location when you publish it.
 
-A Content item can have more than one Location ID. It will then be shown in more than one place in the Content tree.
-A single Location, however, can only have one Content item in it.
+A Content item can have more than one Location ID. In such a case you can find it in more than one place in the Content tree.
+A single Location can only have one Content item in it.
 
-An example of using multiple Location for a Content item is when you have an Article about, e.g. a local sports team's victory,
-which you can place in the tree both under Local News and Sports News.
+!!! tip "Example"
 
-Even if a Content item is placed in more than one Location, one of the Locations (by default the first one) is always considered the main one.
+    You can use multiple Locations for example for an Article about a local sports team's victory,
+    which you can place in the tree both under Local News and Sports News.
 
-To assign other Locations to Content, view this Content item's **Location** tab and activate the plus button,
-then select the new parent from the Content Browser.
+Even if a Content item is placed in more than one Location, one of the Locations is always treated as the main one.
+
+To assign other Locations to Content, view this Content item's **Location** tab and click the plus button.
+Then select the new parent from the Content Browser.
 
 ![Content with two locations](img/content_with_two_locations.png "Content with two locations")
 
 ### Hiding Locations
 
-You can also manage the availability of Content by hiding or revealing it.
-You can do this in the Content item's Locations tab by activating the Visibility switcher.
-Notice that hiding and revealing only affect a *Location*, not the *Content item*.
-This means that even if you hide the Content in one Location, it will still be visible in any other Locations it is assigned to.
+You can manage the availability of Content by hiding or revealing it.
+You can do this in the Content item's Locations tab by using the Visibility switcher.
+Notice that hiding and revealing only affects a *Location*, not the *Content item*.
+Even if you hide the Content in one Location, it will still be visible in its other Locations.
 
 When a Location is hidden, all of its children (other Content items that are under it in the tree) will also be automatically hidden.
 They can only be revealed if the parent Location is revealed as well.
 
-A hidden Location will not be visible to anyone when viewing the website.
+A hidden Location will be invisible for everyone viewing the website.
 If you are looking for a way to allow only some users to view parts of the Content tree,
-you can so it by establishing [Sections](#sections)
-and combining them with [proper permissions](organizing_the_site.md#permissions).
+use [Sections](#sections) and combine them with [proper permissions](organizing_the_site.md#permissions).
 
 ### Swapping Locations
 
@@ -43,16 +42,23 @@ in the Location tab and selecting a Content item to swap with.
 
 !!! caution
 
-    Swapping Locations will also republish their respective URL aliases. This means that if the swapped Content item was accessible by the URL that had a number at the end (added due to a name conflict), then after the swap the number will be removed (if possible). The opposite case also applies.
+    Swapping Locations republishes their respective URL aliases.
+    This means that if the swapped Content item was accessible by the URL that had a number at the end
+    (added due to a name conflict), then after the swap the number will be removed (if possible).
+    The opposite case also applies.
 
-    Swapping Locations for Content item with the same name and parent, results in swapping their URL aliases. This means that if the Content item was previously accessible by a URL without a number at the end, after the swap it will be accessible by a URL with a number at the end (and the other way around).
+    Swapping Locations for Content item with the same name and parent results in swapping their URL aliases.
+    This means that if the Content item was previously accessible by a URL without a number at the end,
+    after the swap it will be accessible by a URL with a number at the end (and the other way around).
 
-    If at some point there were more than two Content item with the same name under the same parent, then result of swapping such Content items might not be obvious. The general rule is that the Content item that previously had a higher number at the end of its URL alias will have its URL alias republished first, resulting in the lowest nonconflicting number (or the lack of) at the end of its URL alias. The Content item that previously had a lower number at the end of its URL alias will have its URL alias republished second, resulting in the second lowest nonconflicting number at the end of its URL alias.
+    If at some point there were more than two Content items with the same name under the same parent, then result of swapping such Content items might not be obvious. The general rule is that the Content item that previously had a higher number at the end of its URL alias will have its URL alias republished first, resulting in the lowest nonconflicting number (or the lack of) at the end of its URL alias. The Content item that previously had a lower number at the end of its URL alias will have its URL alias republished second, resulting in the second lowest nonconflicting number at the end of its URL alias.
 
 ## Managing existing content
 
+### Moving and copying content
+
 You can move or copy existing Content items by choosing the proper option from the menu on the right.
-You can also copy a whole subtree, that is a Content item with all content under it in the structure.
+You can also copy a whole subtree (a Content item with all content under it in the structure).
 
 !!! note
 
@@ -62,10 +68,12 @@ You can also copy a whole subtree, that is a Content item with all content under
     See [Copy subtree limit](https://doc.ezplatform.com/en/latest/guide/best_practices/#copy-subtree-limit)
     in the developer documentation on how to set this up.
 
-Remember that Copying creates a new separate Content item.
-If you only want to "attach" the same Content item to another place in the Content tree, add another Location to it.
+Copying creates a new Content item.
+If you only want to have the same Content item to another place in the Content tree, add another Location to it.
 
-You can remove Content by activating **Send to Trash** in the menu.
+### Removing content
+
+You can remove content by clicking **Send to Trash** in the menu.
 If you remove a Content item that has children (other content under it in the content tree),
 both this item and the children will be removed. This also breaks the connection between the items,
 so you will not be able to restore them with the same structure.
@@ -80,15 +88,18 @@ If the Content item's parent has been removed, you need to select a new parent L
 If a Content item has more than one Location, selecting Send to Trash will remove the Content item only from the current Location.
 The content will appear in Trash only once you have removed the last Location.
 
-You can permanently remove a Content item by checking it and activating the trash icon.
-You can also permanently remove all content from the Trash by activating **Empty Trash**.
-**Warning! This action cannot be undone!**
+You can permanently remove a Content item by checking it and clicking the trash icon.
+You can also permanently remove all content from the Trash by clicking **Empty Trash**.
+
+!!! caution "Warning"
+
+    Emptying the Trash cannot be undone!
 
 ## URL aliases
 
-Each Content item can have one or more additional URL aliases. There are additional URL that can be used to access this Content item.
+Each Content item can have one or more URL aliases. They are additional URL that can be used to access this Content item.
 
-You can add URL aliases in the URL tab under **Custom URL aliases for <Content name>** by activating the plus button.
+You can add URL aliases in the URL tab under **Custom URL aliases for <Content name>** by clicking the plus button.
 
 ![Creating a new URL alias](img/create_new_url_alias.png)
 
@@ -106,14 +117,14 @@ Sections let you decide which users will have access to which parts of the tree.
 To see which Section a Content item belongs to, look at its Details tabs.
 
 You can set up Sections in the Admin Panel in the **Sections** tab.
-A few Sections are provided with each installation, but you can add new ones, depending on your needs.
+A few Sections are provided with each installation, and you can add new ones.
 
 ![List of Sections](img/sections.png "List of Sections")
 
 In the Sections tab you can assign Sections to content or delete them.
 You can only delete Sections that don't contain any content.
 
-Each Content item must belong to a Section. By default new Content is placed in the same Section as its parent.
+Each Content item must belong to a Section. By default new content is placed in the same Section as its parent.
 If you want to remove a Content item from a Section, you just need to assign it to a different one.
 
 Access to Sections can be restricted by [setting up proper permissions](organizing_the_site.md#permissions).
@@ -153,10 +164,10 @@ The Link manager list also shows whether the link is alive or dead in the Status
 
 ## Bookmarks
 
-You can bookmark any Content item by activating the star icon next to the Content name.
+You can bookmark any Content item by clicking the star icon next to the Content name.
 
 ![Bookmark icon](img/bookmark_icon.png)
 
-Bookmarks are stored per user. You can view a list of all bookmarks by activating Bookmarks in the left menu.
+Bookmarks are stored per user. You can view a list of all bookmarks by clicking Bookmarks in the left menu.
 
 ![Bookmark screen](img/bookmarks.png)

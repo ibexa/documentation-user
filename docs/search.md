@@ -2,7 +2,7 @@
 
 ## Basic search
 
-You can enter a search keyword and the application checks all the searchable fields and returns a list of search results that contain the keyword.
+You can enter a search keyword and the application checks all the searchable Fields and returns a list of search results that contain the keyword.
 
 ![Basic Search](img/basic_search.png)
 

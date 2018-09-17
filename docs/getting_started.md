@@ -1,24 +1,25 @@
 # Getting started
 
-## What is eZ Platform?
-
 eZ Platform is an open-source, Symfony-based CMS.
 
 eZ Platform consists of the technical platform for developers
-(including a Web framework, APIs and a content repository)
+(including a Web framework, APIs and a Content Repository)
 and provides a user interface to work with the content and administer the platform.
 
-### eZ Platform Enterprise Edition
+!!! enterprise "eZ Platform Enterprise Edition"
 
-eZ Platform Enterprise Edition is a commercial product built on top of the open-source eZ Platform.
-It offers additional functionalities and enhancements to the editing experience.
+    eZ Platform Enterprise Edition is a commercial product built on top of the open-source eZ Platform.
+    It offers additional functionalities and enhancements to the editing experience.
 
-eZ Enterprise provides advanced editorial capabilities such as [in-page editing](creating_content_basic.md#working-with-a-page), creation of block-based Pages, [editorial workflow](publishing.md#review-workflow), advanced marketing capabilities, etc.
+    eZ Enterprise provides advanced editorial capabilities such as [in-page editing](creating_content_basic.md#working-with-a-page), creation of [block-based Pages](creating_content_basic.md#working-with-a-page), [editorial workflow](publishing.md#review-workflow), etc.
 
 ## Quick start
 
-To get started working with eZ Platform you need [an installation set up by your administrator / developer team](https://doc.ezplatform.com/en/latest/getting_started/install_ez_platform/).
-Once the installation is ready, you should be provided with the address where the installation is located, your login and password.
+eZ Platform must be [installed by your administrator](https://doc.ezplatform.com/en/latest/getting_started/install_ez_platform/).
+They should provide you with the address of the installation.
+
+To access the Back Office (the editor interface), add `/admin` to this address.
+For example, if your website's URL is `www.my-site.com`, you enter the editing interface through `www.my-site.com/admin`.
 
 **The default administrator account information is:**
 
@@ -27,31 +28,22 @@ Once the installation is ready, you should be provided with the address where th
 
 ![Login screen](img/login_form.png "Login screen")
 
-Going to the provided address in your browser will show you what the page will look like to the visitors.
-To access your editor interface, add `/admin` to this address.
-For example, if your website's URL is `www.my-site.com`, you enter the editing interface through `www.my-site.com/admin`.
-
-The application greets you with the Dashboard. It lists the content that may be of most relevance to you:
+The first screen after login is the Dashboard. It contains shortcuts to most commonly used content:
 your drafts, the content you have created, recently modified content, etc.
 You can select any of these items and view them in detail or start editing them from this point.
 
 ![Dashboard](img/dashboard.png "Dashboard")
 
-Wherever you are in the app, you can always return to the Dashboard by selecting the eZ logo in the upper left corner.
+You can always return to the Dashboard by selecting the eZ logo in the upper left corner.
 
-The top bar where the logo is located also allows you to move between work modes and important sections of the application.
+The top bar allows you to move between important sections of the application.
 
-![Top bar with work modes](img/top_bar.png "Top bar with work modes")
+![Top bar](img/top_bar.png "Top bar")
 
-### Work modes
-
-eZ Platform offers two different work modes: Content mode and Page mode.
-
-- **Content mode** gives you access to the content repository.
+- **Content** gives you access to the content repository.
 It lets you navigate the Content tree, create, edit, move, copy, delete content, etc.
-- **Page mode** allows you to manage website pages and website content from the pages themselves.
-It is only available for eZ Enterprise users and allows you to create and edit block-based Pages
-and make use of other Enterprise-specific functionalities.
+- **Admin** is the administration panel where you can manage users, sections, permissions, etc.
+- **Page** enables you to create and edit block-based Pages. It is is only available for eZ Enterprise users.
 
 ### User settings
 

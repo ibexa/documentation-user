@@ -2,8 +2,8 @@
 
 ## Content Types
 
-Content Types that constitute your content model are created in the Admin Panel.
-Activate **Content types** in the panel and you will see groups into which the types are organized.
+Content Types are created in the Admin Panel.
+Click **Content types** in the panel and you will see groups into which the types are organized.
 You can add your own groups here to keep your Content Types in better order.
 Each group lists all the Content Types belonging to it, where you can modify the existing ones or add new ones.
 
@@ -13,7 +13,7 @@ Every Content Type has the following general settings:
 
 - **Name**
 - **Identifier** - name that identifies the Content Type in the system
-- **Description** - additional information that will be displayed when creating new content based on this type
+- **Description** - additional information that is be displayed when creating new content based on this type
 - **Content name pattern** - rules for creating the name for a Content item
 - **URL alias name pattern** - rules for creating the URL alias for a Content item
 - **Container** - when checked, Content of this Type can serve as a container in the Content tree
@@ -22,22 +22,22 @@ Every Content Type has the following general settings:
 - **Default content availability** - when checked, Content of this Type will by default be always available,
 even if it does not have a language version corresponding to the current SiteAccess.
 
-To add a Field to the new Content Type, select a [Field Type](under_the_hood.md#fields-and-field-types)
-in the Field Type selection drop-down menu and activate **Add field definition**.
+To add a Field to the new Content Type, select a [Field Type](content_model.md#fields-and-field-types)
+in the Field Type selection drop-down menu and click **Add field definition**.
 You can determine the order in which Fields will be displayed by setting their Position parameter.
 
 To delete Field(s), check the boxes next to any Field names and select the trash icon.
 
-![Adding and removing fields](img/add_field.png "Adding and removing fields")
+![Adding and removing Fields](img/add_field.png "Adding and removing Fields")
 
 When a Content Type is modified, each instance of this type (each Content item based on this Content Type) will be changed as well.
-If a new Field is added to a Content Type, this field will appear (empty) in every relevant Content item.
+If a new Field is added to a Content Type, this Field will appear in every relevant Content item.
 Therefore, if the new Field is required, it's recommended to provide a default value for it.
 If a Field is deleted from the Content Type definition, all these Fields will be removed from Content items of this type.
 
-![Modyfing Content Type message](img/notification_ct.png "Modyfing Content Type message")
+![Modifying Content Type message](img/notification_ct.png "Modifying Content Type message")
 
-Each field has a number of common parameters:
+Each Field has a number of common parameters:
 
 - Name - stores a user-friendly name that describes the Field.
 The name of a Field can consist of letters, digits, spaces and special characters.
@@ -46,7 +46,7 @@ The maximum length is 255 characters. If a blank name is provided, the app autom
 and can contain no special characters except underscore.
 - Position - defines the order of the Fields in the Content Type
 - Description - gives details about the Field that will be displayed next to it when editing content.
-- Required - when this is checked, you will not be able to save or publish a Content item of this type unless the field in filled in.
+- Required - when this is checked, you will not be able to save or publish a Content item of this type unless the Field in filled in.
 - Searchable - decides if the contents of the Field will be covered by search.
 - Translatable - decides if the Field can be translated.
 - Category - decides which Field category it will be displayed in for easier organization.
@@ -91,7 +91,7 @@ for example: `www.my-site.com/register`. By default, new Users created in this w
 
 ## Permissions
 
-Overview of the permission system in eZ is best presented using an example.
+Overview of the permission system in eZ Platform is best presented using an example.
 
 ### Example of a permissions system
 
@@ -124,17 +124,17 @@ They cover actions such as activating new Users, creating Sections, modifying Co
 
 ### Managing permissions
 
-You can view and modify all permissions by activating **Roles** in the Admin panel.
+You can view and modify all permissions by clicking **Roles** in the Admin panel.
 
 Select the plus button and provide a name to get an empty, unassigned role.
 You can now see the list of Policies the Role has - at the moment, none.
-Activate the plus button again, select a Policy from the list and save it.
+Click the plus button again, select a Policy from the list and save it.
 You then have an option to add Limitations to the Policy. The available Limitations depend on the chosen Policy.
 
 ![Details of a Role](img/role_details.png "Details of a Role")
 
 After you are done choosing all Policies, you can assign the Role to users.
-Go to the **Assignments** tab and activate the assign button.
+Go to the **Assignments** tab and click the assign button.
 Here you can choose users and/or groups that will be assigned this Role, with possible additional Limitations.
 A User or User Group may be assigned multiple Roles.
 
