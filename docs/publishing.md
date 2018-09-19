@@ -70,13 +70,36 @@ Finally, there are the already discussed **Drafts**. You can view all versions o
 
 ## Advanced publishing options
 
-Aside from publishing your content immediately, you can make sure your content is published at a given date in the future using Date-based publishing.
-
 !!! enterprise
+
+    There are three ways in which you can schedule Content to be published in the future:
+
+    - [Schedule tab](#schedule-tab) in any block's configuration
+    - [Content Scheduler block](#content-scheduler-block)
+    - [Publish later option](#date-based-publishing) when editing content
+
+    ### Schedule tab
+
+    The Schedule tab is available in the configuration of all Page blocks.
+    You can use it to set the date and time when the block becomes visible and when it disappears from a Page.
+
+    [screenshot]
+
+    ### Content Scheduler block
+
+    In the Content Scheduler block you can select Content items to be displayed at a selected time.
+
+    For each Content item you can choose an airtime - a date and time in the future.
+    At this time the Content item will become visible.
+
+    The Content Scheduler block has a limit of Content items.
+    If the limit is filled and a new Content item is displayed, the oldest item will disappear from the block.
+
+    [screenshot]
 
     ### Date-based publishing
 
-    In eZ Enterprise, select **Publish Later** in the menu on the right.
+    When editing a Content item, select **Publish Later** in the menu on the right.
 
     ![Publish Later button in the menu](img/publish_later.png "Publish Later button in the menu")
 
@@ -87,3 +110,14 @@ Aside from publishing your content immediately, you can make sure your content i
     Activate it to remove the previously selected publication date.
 
     ![Discard Publish Date button in the menu](img/discard_publish_date.png "Discard Publish Date button in the menu")
+
+    ### Timeline
+
+    The timeline in Page mode shows all changes that will happen to the Page in the future.
+
+    [screenshot]
+
+    You can use the slider to preview what the page will look like at a given time.
+    Use the button on the right of the time to see a list of all upcoming changes.
+
+    [screenshot]
