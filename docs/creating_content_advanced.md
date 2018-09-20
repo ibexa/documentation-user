@@ -45,3 +45,54 @@ You can use this bar to switch between and work on the different versions.
 ![Top bar with list of siteaccesses](img/siteaccess_bar.png "Top bar with list of SiteAccesses")
 
 SiteAccess must be [set up by the administrator of the installation](https://doc.ezplatform.com/en/latest/guide/siteaccess/).
+
+!!! enterprise
+
+    ## Forms
+
+    Forms enable you to place a survey, questionnaire, sign-up form, etc. on your site.
+
+    Create a Form like a regular Content item by choosing the Form Content Type.
+    Click the edit button to start adding fields to the Form.
+
+    [screenshot]
+
+    You create a form by dragging different types of fields into it.
+    The available types are:
+
+    - Single line input
+    - Multi line input
+    - Number
+    - Checkbox
+    - Checkboxes
+    - Radio
+    - Dropdown
+    - E-mail
+    - Date
+    - URL
+    - File
+    - Captcha
+    - Button
+    - Captcha
+    - Hidden field
+
+    You can also add design elements such as a text paragraph.
+
+    Each field has settings you can access through the options button.
+    The settings differ depending on the type of the field.
+
+    Button is a special kind of field. It is used for submitting the form.
+    You can choose one of a few options of what is shown to the user after filling in and submitting the form.
+
+    [screenshot]
+
+    ### Viewing results
+
+    Once you publish a Form and users start filling it in, you can preview the results in the Submissions tab in Content item view.
+
+    Here you can view the details of each submission.
+    You can also delete any submissions (for example if they were made while testing or contain spam).
+
+    The Download Submissions button enables you to download all the submissions in a CSV (comma-separated value) file.
+
+    [screenshot]
