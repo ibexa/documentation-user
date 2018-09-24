@@ -83,7 +83,7 @@ Finally, there are the already discussed **Drafts**. You can view all versions o
     The Schedule tab is available in the configuration of all Page blocks.
     You can use it to set the date and time when the block becomes visible and when it disappears from a Page.
 
-    [screenshot]
+    ![Schedule tab](img/schedule_tab.png)
 
     ### Content Scheduler block
 
@@ -95,7 +95,7 @@ Finally, there are the already discussed **Drafts**. You can view all versions o
     The Content Scheduler block has a limit of Content items.
     If the limit is filled and a new Content item is displayed, the oldest item will disappear from the block.
 
-    [screenshot]
+    ![Content Scheduler](img/content_scheduler.png)
 
     ### Date-based publishing
 
@@ -115,9 +115,7 @@ Finally, there are the already discussed **Drafts**. You can view all versions o
 
     The timeline in Page mode shows all changes that will happen to the Page in the future.
 
-    [screenshot]
-
-    You can use the slider to preview what the page will look like at a given time.
+    You can use the slider to preview what the Page will look like at a given time.
     Use the button on the right of the time to see a list of all upcoming changes.
 
-    [screenshot]
+    ![List of upcoming events in the timeline](img/timeline_list.png)
