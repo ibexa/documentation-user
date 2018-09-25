@@ -61,7 +61,7 @@ SiteAccess must be [set up by the administrator of the installation](https://doc
     The available types are:
 
     - Single line input
-    - Multi line input
+    - Multiple line input
     - Number
     - Checkbox
     - Checkboxes
