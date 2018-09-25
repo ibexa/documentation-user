@@ -55,7 +55,7 @@ SiteAccess must be [set up by the administrator of the installation](https://doc
     Create a form like a regular Content item by choosing the Form Content Type.
     Click the edit button to start adding fields to the form.
 
-    [screenshot]
+    ![Dragging fields in a Form](img/form_builder.png)
 
     Build a form by dragging different types of fields into it.
     The available types are:
@@ -83,7 +83,7 @@ SiteAccess must be [set up by the administrator of the installation](https://doc
     Button is a special kind of field. It is used for submitting the form.
     You can choose one of a few options of what is shown to the user after filling in and submitting the form.
 
-    [screenshot]
+    ![Options of a Form submission button](img/form_builder_button.png)
 
     ### Viewing results
 
@@ -94,4 +94,4 @@ SiteAccess must be [set up by the administrator of the installation](https://doc
 
     The Download Submissions button enables you to download all the submissions in a CSV (comma-separated value) file.
 
-    [screenshot]
+    ![Form Builder submissions](img/form_builder_submissions.png)
