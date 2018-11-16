@@ -19,7 +19,7 @@ After choosing and confirming new Location all selected files are moved to it.
 
 ### Multi-file delete
 
-To delete multiple items select them and click **Delete selected items** in the **Sub-items** top bar. Confirm your choice in the pop-up window with **Send to trash** button.
+To delete multiple items select them and click **Delete selected items** in the **Sub-items** top bar. Confirm your choice in the pop-up window with **Send to trash** button. All selected files will be moved to trash.
 
 ![Multi-file delete](img/multi_file_delete.png)
 
