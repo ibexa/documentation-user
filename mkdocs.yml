@@ -8,6 +8,7 @@ pages:
     - 'Under the hood': 'under_the_hood.md'
     - 'Creating content, basic': 'creating_content_basic.md'
     - 'Organizing the content': 'organizing_the_content.md'
+    - 'Multi-file management': 'multi_file_content_management.md'
     - 'Publishing': 'publishing.md'
     - 'Creating content, advanced': 'creating_content_advanced.md'
     - 'Organizing the site': 'organizing_the_site.md'
