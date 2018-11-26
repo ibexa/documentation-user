@@ -11,22 +11,22 @@ A single Location can only have one Content item in it.
 
 !!! tip "Example"
 
-    You can use multiple Locations for example for an Article about a local sports team's victory,
+    You can use multiple Locations for an Article about a local sports team's victory,
     which you can place in the tree both under Local News and Sports News.
 
 Even if a Content item is placed in more than one Location, one of the Locations is always treated as the main one.
 
-To assign other Locations to Content, view this Content item's **Location** tab and click the plus button.
+To assign other Locations to content, view this Content item's **Location** tab and click the plus button.
 Then select the new parent from the Content Browser.
 
 ![Content with two locations](img/content_with_two_locations.png "Content with two locations")
 
 ### Hiding Locations
 
-You can manage the availability of Content by hiding or revealing it.
+You can manage the availability of content by hiding or revealing it.
 You can do this in the Content item's Locations tab by using the Visibility switcher.
 Notice that hiding and revealing only affects a *Location*, not the *Content item*.
-Even if you hide the Content in one Location, it will still be visible in its other Locations.
+Even if you hide the content in one Location, it will still be visible in its other Locations.
 
 When a Location is hidden, all of its children (other Content items that are under it in the tree) will also be automatically hidden.
 They can only be revealed if the parent Location is revealed as well.

@@ -17,9 +17,9 @@ Every Content Type has the following general settings:
 - **Content name pattern** - rules for creating the name for a Content item
 - **URL alias name pattern** - rules for creating the URL alias for a Content item
 - **Container** - when checked, Content of this Type can serve as a container in the Content tree
-- **Default field for sorting children** - criterion by which children of this Content will be sorted in the tree
+- **Default field for sorting children** - criterion by which children of this content will be sorted in the tree
 - **Default sort order** - order in which the children will be sorted (ascending or descending)
-- **Default content availability** - when checked, Content of this Type will by default be always available,
+- **Default content availability** - when checked, content of this Type will by default be always available,
 even if it does not have a language version corresponding to the current SiteAccess.
 
 To add a Field to the new Content Type, select a [Field Type](content_model.md#fields-and-field-types)
@@ -100,7 +100,7 @@ and several editors responsible for particular sections of the paper: general ne
 You also have contributors who occasionally add new articles.
 You want to give the editor-in-chief access to most parts of your website,
 but the individual editors will only work with their own sections.
-To the contributors you want to give the permissions to create new Content, but not to modify or delete existing Content.
+To the contributors you want to give the permissions to create new content, but not to modify or delete existing content.
 
 In order to have this setup you need to create a number of different Roles: Editor-in-Chief, different Editor(s) and Contributor.
 
@@ -110,10 +110,10 @@ and assign a Role to it instead of assigning permissions directly to the user.
 To each of these Roles you need to assign proper Policies, giving them the right to perform certain actions.
 
 The Editor-in-Chief Role would have the most Policies (although you may want to reserve some more advanced permissions only for system administrators).
-Regular Editors need Policies allowing them to create, modify and delete Content.
-Contributors can be given Policies permitting them to only create Content.
+Regular Editors need Policies allowing them to create, modify and delete content.
+Contributors can be given Policies permitting them to only create content.
 
-If you want to prohibit Editors from accessing Content in newspaper sections other than their own, you can add limitations to their Policies.
+If you want to prohibit Editors from accessing content in newspaper sections other than their own, you can add limitations to their Policies.
 This means that instead of one Editor you need to have separate Roles for each editor profile:
 Local Editor, Sports Editor etc. All of these Roles will have the same Policies,
 but to each Policy you need to assign a limitation which would mean that the permission covers only one Section

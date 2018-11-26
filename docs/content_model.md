@@ -1,7 +1,7 @@
 # Content Model
 
-At the heart of eZ Platform is a repository that stores all Content.
-In eZ Platform everything is Content: not just the actual pages that are displayed in the website,
+At the heart of eZ Platform is a repository that stores all content.
+In eZ Platform everything is a Content item: not just the actual pages displayed in the website,
 but also all media (images, videos, etc.) and User accounts.
 
 eZ Platform lets you customize and adapt the content model depending on the type of website you create and your needs.
@@ -28,7 +28,7 @@ To see what a larger set of Content Types and their Fields looks like in practic
 
 A **Content item** is a single piece of content: an article, a blog post, an image, a product, etc.
 Each Content item has general characteristics such as name and identifier. It also contains **Fields**.
-These Fields will differ depending on what kind of Content you are dealing with.
+These Fields will differ depending on what kind of content you are dealing with.
 An *article* Content item may have Fields such as *title*, *name*, *author*, *body*, *image*, *subscriber teaser*, etc.
 A *product* Content item may have *product name*, *category*, *price*, *size*, *color*, etc. as Fields.
 

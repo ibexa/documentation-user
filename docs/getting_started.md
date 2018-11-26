@@ -15,7 +15,7 @@ and provides a user interface to work with the content and administer the platfo
 
 ## Quick start
 
-eZ Platform must be [installed by your administrator](https://doc.ezplatform.com/en/latest/getting_started/install_ez_platform/).
+eZ Platform must be [installed by administrator](https://doc.ezplatform.com/en/latest/getting_started/install_ez_platform/).
 They should provide you with the address of the installation.
 
 To access the Back Office (the editor interface), add `/admin` to this address.
@@ -28,7 +28,7 @@ For example, if your website's URL is `www.my-site.com`, you enter the editing i
 
 ![Login screen](img/login_form.png "Login screen")
 
-The first screen after login is the Dashboard. It contains shortcuts to most commonly used content:
+The first screen after logging in is the Dashboard. It contains shortcuts to most commonly used content:
 your drafts, the content you have created, recently modified content, etc.
 You can select any of these items and view them in detail or start editing them from this point.
 
@@ -43,7 +43,7 @@ The top bar allows you to move between important sections of the application.
 - **Content** gives you access to the content repository.
 It lets you navigate the Content tree, create, edit, move, copy, delete content, etc.
 - **Admin** is the administration panel where you can manage users, sections, permissions, etc.
-- **Page** enables you to create and edit block-based Pages. It is is only available for eZ Enterprise users.
+- **Page** enables you to create and edit block-based Pages. It is only available for eZ Enterprise users.
 
 ### User settings
 

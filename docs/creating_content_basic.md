@@ -90,7 +90,7 @@ You can select a SiteAccess to preview using a dropdown in the preview screen.
     You create and edit Pages using the Page Builder.
 
     Go to the Page Builder by selecting **Page** in the top bar.
-    You can create Content here through the plus button in the upper right corner.
+    You can create content here through the plus button in the upper right corner.
 
     !!! tip
 
@@ -116,7 +116,7 @@ You can select a SiteAccess to preview using a dropdown in the preview screen.
     - Content List - displays Content items of a chosen Content Type (or Types) that are contained in a folder.
     - Banner - displays an image Content item with a URL attached to it.
     - Collection - displays a set of Content items you select manually.
-    - Embed - embeds Content of any type on the Page.
+    - Embed - embeds content of any type on the Page.
     - Gallery - displays Images contained in a folder.
     - Video - embeds a video Content item into a page, with standard playback controls.
     - RSS - loads and displays news from RSS feeds (channels).
@@ -127,7 +127,7 @@ You can select a SiteAccess to preview using a dropdown in the preview screen.
     Each kind of blocks has its special properties.
     You can access them from the block's menu when it is selected, using the settings button.
 
-## Publishing Content
+## Publishing content
 
 After you are done, in the menu you can choose to **Publish** the Content item or to **Save** its draft.
 See [Publishing](publishing.md) for more details.

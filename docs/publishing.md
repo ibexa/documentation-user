@@ -5,7 +5,7 @@
 When you **Publish** a Content item, it is given a Location ID and placed in the Content tree.
 It is then immediately available to the visitor.
 
-Instead of instantly publishing you can also Save, Discard Changes, [Publish later](#date-based-publishing) and [Send for Review](#review-workflow).
+Instead of instantly publishing you can also save, discard changes, [publish later](#date-based-publishing) and [send for review](#review-workflow).
 All these options are available in the menu when you are in the edit mode.
 
 ![Publishing options](img/publishing_options.png "Publishing options")
@@ -79,7 +79,7 @@ You can view all versions of a Content item in the **Versions** tab.
 
 !!! enterprise
 
-    There are three ways in which you can schedule Content to be published in the future:
+    There are three ways in which you can schedule content to be published in the future:
 
     - [Schedule tab](#schedule-tab) in any Page block's configuration
     - [Content Scheduler block](#content-scheduler-block) on a Page
