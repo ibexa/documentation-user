@@ -4,44 +4,41 @@
 
 There are a few ways of creating a new Content item:
 
-1. Activate **Create** in the right menu *whenever you are viewing any other content*.
-The new item will be placed under this content in the tree.
-1. Activate **Create** in the upper right corner of the *Dashboard*.
-In this case you will have to select where the content will be located. (Enterprise only).
+1. Click **Create** in the right menu *whenever you are viewing any other content*.
+The new item will be placed under the current Content item in the tree.
+1. Click **Create** in the upper right corner of the *Dashboard*.
+In this case you have to select where the content will be located. (Enterprise only).
 1. Go to the **Create** tab in the *Content browser*.
-Here also you'll have to choose a location for the new item.
-1. Drag files onto the *Sub-items box* when viewing any content or activate **Choose files** and select files to upload.
+Here also you have to choose a location for the new item.
+1. Drag files onto the *Sub-items box* when viewing any content or click **Choose files** and select files to upload.
 In this way you can upload files such as images, videos, pdf documents etc.
 
 If you choose one of the first three options, you have to select the Content Type first.
 When uploading files the Content Type will be chosen automatically.
 
-If you are using eZ Enterprise, you will have the *Landing Page* Content Type available for selection.
-This Type requires a slightly different way of creating, [see below](#working-with-a-landing-page).
+!!! enterprise
 
-Each Content item is based on a Content Type. The Content Type defines what Fields you will have to fill in the new item.
-It may also, depending on the way your website is set up, decide things such as the layout or style in which this item will be displayed.
+    If you are using eZ Enterprise, you will have the [*Landing Page*]((#working-with-a-landing-page)) Content Type available for selection.
 
-Different Fields may require different formats of data.
-Fields marked with an asterisk (\*) are required and you will not be able to save the Content item without filling them in.
+Each Content item is based on a Content Type. The Content Type defines what Fields you have to fill in the new item.
+It may also decide things such as the layout or style in which this item is displayed.
 
-It's worth taking a closer look at a couple of formats you may have to deal with.
+Fields marked with an asterisk (\*) are required. You will not be able to save the Content item without filling them in.
 
-In case of *Relation* Fields (which link two Content items), or *Image* Fields (which should be self-explanatory)
-you may need to select a different Content item using the UDW.
-If you have a *Location* Field, you may type the place name, enter its coordinates or point to it on the map.
-A *Rich Text* Field requires a bit more explanation.
+Some Fields, such as *Relation* Fields (which link two Content items), or *Image* Fields
+require you to select a different Content item to link to.
+A *Location* Field is a point on the map. You can type the place name, enter its coordinates or select it on the map.
 
 Note that it's impossible to link to a different Content item (e.g. create a relation or embed an image)
 if you created your content directly in the Create tab in the Content browser.
 
 ### Editing Rich Text Fields
 
-Rich Text Fields are filled using a special Online Editor whose options appear when you activate the Field box.
+Rich Text Fields are filled using a special Online Editor. Its options appear when you click the Field box.
 
 ![Online Editor menu](img/online_editor_menu.png "Online Editor menu")
 
-You can add a new element to the Field by activating the plus icon to the left of the box and choosing one of the available elements:
+To add a new element to the Field, select the plus icon to the left of the box and choose one of the available elements:
 
 - Heading
 - Paragraph
@@ -53,14 +50,14 @@ You can add a new element to the Field by activating the plus icon to the left o
 
 ![Available Rich Text block elements](img/rich_text_block_elements.png "Available Rich Text block elements")
 
-Each of these elements can have its own settings, such as formatting, that you can access by activating it.
+Each of these elements can have its own settings, such as text formatting.
 The option bar also lets you reorder or remove any elements in the Rich Text Field.
 
 #### Images
 
-Images options enable you to select the variation (alias) for the image.
-Available image variations, including different sizing options and other filters that can be applied to images,
-can be configured for your installation at a developer level.
+In image options you can select an image variation.
+Variations can include different sizing options and other filters that are applied to images.
+Available image variations must be configured at a developer level.
 See [Images](https://doc.ezplatform.com/en/latest/guide/images/) for a technical guide on how to do this.
 
 #### Tables
@@ -82,17 +79,14 @@ activate **Focus** to enter a special mode where only this Field is visible.
 
 ### Previewing content
 
-While editing content you can preview what it will look like using one of the preview buttons in the menu.
+While editing you can preview what the content will look like using one of the preview buttons in the menu.
 
-A Content item can have different looks for different [SiteAccesses](glossary.md#siteaccess).
+A Content item can have different looks for different [SiteAccesses](creating_content_advanced.md#siteaccess).
 You can select a SiteAccess to preview using a dropdown in the preview screen.
 
 !!! enterprise
 
     ## Working with a Landing Page
-
-    Landing Pages are a special Content Type available in eZ Enterprise that can be used as entrance points to your website.
-    Instead of regular Fields a Landing Page has a number of zones onto which you can drop different dynamic blocks.
 
     Landing Pages, in contrast with regular content, are best created from the Page mode.
     You can do this by activating **Create** in the upper right corner of the screen and selecting **Landing Page**.
@@ -103,7 +97,9 @@ You can select a SiteAccess to preview using a dropdown in the preview screen.
 
     ![Basic info of a Landing Page](img/landing_page_basic.png "Basic info of a Landing Page")
 
-    This creates an empty Landing Page with the predefined zones.
+    ![Switching Landing Page layouts](img/switch_layout.png)
+
+    A new empty Landing Page will be divided into those zones.
     In the editor you can also see a menu of blocks (Elements) that you can add to the zones.
     Do this by dragging any of the blocks to an empty place on a zone.
     Don't worry about placing blocks in the proper place from the start, you can also reorder them by dragging later.
@@ -115,7 +111,7 @@ You can select a SiteAccess to preview using a dropdown in the preview screen.
 
     - Content List - displays Content items of a chosen Content Type (or Types) that are contained in a folder.
     - Banner - displays an image Content item with a URL attached to it.
-    - Embed - embeds Content of any type on the Landing Page.
+    - Embed - embeds content of any type on the Landing Page.
     - Gallery - displays Images contained in a folder.
     - Keyword - lets you specify a keyword or keywords. It will then display all Content items which contain the selected keywords.
     - MA Form - (Marketing Automation) gathers information about visitors to the page.
@@ -181,7 +177,7 @@ You can select a SiteAccess to preview using a dropdown in the preview screen.
 
     Using the Form block is described in detail in [Forms](creating_content_advanced.md#forms).
 
-## Publishing Content
+## Publishing content
 
 After you are done, in the menu you can choose to **Publish** the Content item or to **Save** its draft.
 See [Publishing](publishing.md) for more details.

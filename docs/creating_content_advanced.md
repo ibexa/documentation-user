@@ -3,14 +3,13 @@
 ## Languages
 
 The content on your website can be translated into different languages. Each Content item can have different language versions.
-Which version is shown to a visitor depends on the way your installation is set up
-(see [SiteAccess](https://doc.ezplatform.com/en/latest/guide/siteaccess/) for a technical explanation of the concept).
+Which version is shown to a visitor depends on the way your installation is set up (see [SiteAccess](#siteaccess)).
 
 ### Adding and removing translations
 
-You can create or remove a translation of a Content item by selecting **Translations** in the menu. You will see a list of all the existing translations and can switch to them, edit them or remove them. By choosing **Trash button** in the **Existing Translations** box you can permanently remove a translation (language) from every version of a Content item. You can remove any language except the main one. 
+You can create or remove a translation of a Content item by selecting **Translations** in the menu. You will see a list of all the existing translations and can switch to them, edit them or remove them. By choosing **Trash button** in the **Existing Translations** box you can permanently remove a translation (language) from every version of a Content item. You can remove any language except the main one.
 
-When only one language is used in the Content item the **Trash button** is not displayed as the action is impossible. 
+When only one language is used in the Content item the **Trash button** is not displayed as the action is impossible.
 
 ![Permanently removing a language](img/removing_language.png "Permanently removing a language")
 
@@ -33,16 +32,18 @@ After adding a language you may have to reload the application to be able to use
 
     After adding a language you should be able to start adding translations to your content.
     However, depending on the way your website it set up, additional configuration will probably be necessary
-    for the new language to work properly, especially with siteaccesses.
+    for the new language to work properly, especially with SiteAccesses.
     It's recommended you contact your administrator and inform them if you need to add a new language to the website
     (here is the [technical documentation of languages](https://doc.ezplatform.com/en/latest/guide/internationalization/)).
 
 ### SiteAccess
 
 When working in Page mode you can see a bar at the top of the page listing SiteAccesses configured for your website.
+
 SiteAccesses are a way of offering different versions of your website to different categories of users.
 You can treat them as different "entrance points" to your website,
 that allow you to show different content or design to the visitor, depending on which SiteAccess they use.
+
 SiteAccesses can be used for example to serve a different website version for paying and non-paying visitors,
 or different language versions to visitors from different countries.
 You can use this bar to switch between and work on the different versions.
