@@ -71,6 +71,14 @@ You can view all versions of a Content item in the **Versions** tab.
     This timeline lists all review requests that have been sent out for this Content item.
 
     ![Approval timeline](img/approval_timeline.png "Approval timeline")
+    
+    You can find the list of all drafts in the **Administrator User** menu.
+        
+    ![Administrator User list of all Drafts](img/drafts_admin_user.png "Administrator User list of all Drafts")
+        
+    The list of your drafts is located in **My Dashboard**. You can access it by clicking on eZ icon located in the top left corner of Back Office.
+        
+    ![Dashboard list of your Drafts](img/drafts_my_dashboard.png "Dashboard list of your Drafts")
 
     Once you start editing the Content item, you can modify or publish it in the same way you edit a standard Content item.
     You can also send it on to another reviewer.
