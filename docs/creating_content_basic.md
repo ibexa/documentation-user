@@ -121,6 +121,7 @@ You can select a SiteAccess to preview using a dropdown in the preview screen.
     - Video - embeds a video Content item into a page, with standard playback controls.
     - RSS - loads and displays news from RSS feeds (channels).
     - Content Scheduler - displays Content items at a selected time.
+    - Text - displays Rich Text.
 
     ![Elements menu](img/elements_menu.png "Elements menu")
 
