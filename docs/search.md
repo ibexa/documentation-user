@@ -19,7 +19,7 @@ Simplified filtered search allows you to filter by:
 
 All new or custom Content Types and Sections are automatically added to the drop-down filter lists.
 
-![Filtetered Search](img/filtered_search.png)
+![Filtered Search](img/filtered_search.png)
 
 !!! note
 
