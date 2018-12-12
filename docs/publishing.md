@@ -48,9 +48,39 @@ You can view all versions of a Content item in the **Versions** tab.
 
 !!! enterprise
 
-    ## Review workflow
+    ## Editorial workflow
 
-    The review Workflow in eZ Enterprise operates on drafts of Content items.
+    Using editorial workflow you can pass content between different stages in a preconfigured flow.
+    Typically, the stages correspond to different teams or departments that contribute to content
+    and approve it.
+
+    For example, you can pass content through stages of draft, design and proofreading.
+
+    !!! note
+
+        Workflows are configured differently in each installation.
+        In your workflows you can have different stages and transition between them.
+
+        Contact your administrator or developer team to configure workflows.
+        See [developer documentation](doc.ezplatform.com/guide/workflow/) for information on how to do it.
+
+    You can view Content items which are in different stages under review in the Dashboard in the Review queue table.
+
+    ![Review queue in the dashboard](img/dashboard_review_queue.png)
+
+    When you edit a Content item that has been sent for review, you will see the Events timeline.
+
+    It lists all the transitions that this content has gone through.
+
+    ![Review queue in the dashboard](img/workflow_events_timeline.png)
+
+    You can view all configured workflows in the Admin Panel by selecting **Workflow**.
+
+    ![Workflow in Admin Panel](img/workflow_panel.png)
+
+    ## Flex workflow
+
+    The review feature Flex Workflow in eZ Enterprise operates on drafts of Content items.
 
     When working on a Content item draft, do not publish it,
     but instead click **Send for review** in the menu and select a user.
@@ -71,13 +101,13 @@ You can view all versions of a Content item in the **Versions** tab.
     This timeline lists all review requests that have been sent out for this Content item.
 
     ![Approval timeline](img/approval_timeline.png "Approval timeline")
-    
+
     You can find the list of all drafts in the **Administrator User** menu.
-        
+
     ![Administrator User list of all Drafts](img/drafts_admin_user.png "Administrator User list of all Drafts")
-        
+
     The list of your drafts is located in **My Dashboard**. You can access it by clicking on eZ icon located in the top left corner of Back Office.
-        
+
     ![Dashboard list of your Drafts](img/drafts_my_dashboard.png "Dashboard list of your Drafts")
 
     Once you start editing the Content item, you can modify or publish it in the same way you edit a standard Content item.
