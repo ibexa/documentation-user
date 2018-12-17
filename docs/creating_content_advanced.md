@@ -76,8 +76,6 @@ SiteAccess must be [set up by the administrator of the installation](https://doc
     - Button
     - Hidden field
 
-    You can also add design elements such as a text paragraph.
-
     Each field has settings you can access through the options button.
     The settings differ depending on the type of the field.
 
