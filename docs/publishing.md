@@ -82,6 +82,10 @@ You can view all versions of a Content item in the **Versions** tab.
 
     The review feature Flex Workflow in eZ Enterprise operates on drafts of Content items.
 
+    !!! note
+
+        Flex Workflow is available only when there is no [editorial workflow](editorial-workflow) for this Content Type.
+
     When working on a Content item draft, do not publish it,
     but instead click **Send for review** in the menu and select a user.
     This user will be notified of your request and will be able to view your draft.
