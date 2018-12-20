@@ -65,6 +65,7 @@ You can view all versions of a Content item in the **Versions** tab.
         See [developer documentation](doc.ezplatform.com/guide/workflow/) for information on how to do it.
 
     You can view Content items which are in different stages under review in the Dashboard in the Review queue table.
+    The table will only show the Content items that you have permissions to edit.
 
     ![Review queue in the dashboard](img/dashboard_review_queue.png)
 
