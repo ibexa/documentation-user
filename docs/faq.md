@@ -130,7 +130,7 @@ If you need more questions answered, have a look at our [Support and Maintenance
 
 If you would like to share your questions or ideas with other eZ users, you can do it on:
 
-- [eZ Community portal](http://share.ez.no/).
+- [eZ Platform portal](https://ezplatform.com/).
 - [eZ Community Slack channel](http://ez-community-on-slack.herokuapp.com/) where you can discuss the software and ask for help or support.
 
 **How can I contact eZ representatives?**
@@ -143,7 +143,7 @@ If you would like to contact eZ or any of our offices, you can find the [contact
 
 **Where can I get eZ Platform?**
 
-You can download the current version of eZ Platform from: <http://share.ez.no/downloads/downloads>.
+You can download the current version of eZ Platform from: <https://ezplatform.com>.
 
 **How do I install eZ Platform?**
 
