@@ -132,4 +132,4 @@ You can select a SiteAccess to preview using a dropdown in the preview screen.
 ## Publishing content
 
 After you are done, in the menu you can choose to **Publish** the Content item or to **Save** its draft.
-See [Publishing](publishing.md) for more details.
+See [Publishing](Publishing/publishing.md) for more details.
