@@ -255,4 +255,4 @@ You also have the possibility of [creating your own, custom blocks](https://doc.
 
 **How can I have my Content reviewed by other users?**
 
-You can use the Flex Workflow functionality to send your Content to review. You can access it from the Action bar in Content mode. See [Review workflow](publishing.md#review-workflow) for more information.
+You can use the Flex Workflow functionality to send your Content to review. You can access it from the Action bar in Content mode. See [Reviewing a draft](publishing/flex_workflow.md#reviewing-a-draft) for more information.

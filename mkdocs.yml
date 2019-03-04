@@ -9,7 +9,11 @@ pages:
     - 'Creating content, basic': 'creating_content_basic.md'
     - 'Organizing the content': 'organizing_the_content.md'
     - 'Multi-file content management': 'multi_file_content_management.md'
-    - 'Publishing': 'publishing.md'
+    - 'Publishing':
+        - Publishing Content: 'publishing/publishing.md'
+        - Editorial workflow: 'publishing/editorial_workflow.md'
+        - Flex workflow: 'publishing/flex_workflow.md'
+        - Advanced publishing options: 'publishing/advanced_publishing_options.md'
     - 'Creating content, advanced': 'creating_content_advanced.md'
     - 'Organizing the site': 'organizing_the_site.md'
     - 'Searching': 'search.md'
