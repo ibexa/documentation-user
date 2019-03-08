@@ -77,16 +77,17 @@ By default, the system comes with a large set of Field Types that cover most com
 
 ## Content and media
 
-When you are in the Back Office, you can view the content in your repository in three places:
+When you are in the Back Office, you can view the content in your repository in four places:
 
 - Content structure
+- Content Tree
 - Media library
 - User list
 
 They represent three categories of Content Types that you can create
 (see [Content Types](organizing_the_site.md#content-types)).
 
-### Content tree and the Content browser
+### Content browser
 
 If you want to get an overview of the content currently in your website, go to the Content tab
 and select **Content structure** or **Media**.
@@ -94,7 +95,7 @@ A **Browse** option on the left enables you to browse through all the content of
 User accounts, which are also considered content in eZ Platform, you can view through the Admin Panel
 (see [Users](organizing_the_site.md#users)).
 
-![Content browser in the menu](img/left_menu.png "Content browser in the menu")
+![Content browser in the menu](img/left_menu_browse.png "Content browser in the menu")
 
 During your work with eZ Platform you will often be asked to select content from the repository.
 This happens for example when you want to move or copy, a Content item, embed an image, link two Content items, etc.
@@ -104,3 +105,18 @@ The Content Browser enables you to navigate through all content in the site, inc
 You can also use it to search the repository for content, and to create new content when needed.
 
 ![Universal Discovery Widget](img/udw.png "Universal Discovery Widget")
+
+### Content Tree
+
+If you want to navigate through your website with a menu, go to the **Content** tab, select **Content structure**. **Content Tree** in the left sidebar opens expandable content menu of your site.
+
+![Content Tree in the menu](img/left_menu_tree.png "Content Tree in the menu")
+ 
+Unique icons for each Content Type instantly show you what type of content you are selecting. To add a custom icons to your Content Tree follow [configuration tutorial in developer documentation.](https://doc.ezplatform.com/en/latest/guide/extending_ez_platform/#custom-content-type-icons)
+
+Hidden content is blurred out in the tree view. 
+
+To simplify the Content Tree, big lists are shortened with a **Show more** option. You can select it to expand all lists in the tree.
+**Collapse_all** option situated at the bottom of the tree closes all expanded sections.
+
+For more information on custom configuration go to [Content Tree](https://doc.ezplatform.com/en/latest/guide/config_back_office/#content-tree) in developer documentation.
