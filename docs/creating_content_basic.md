@@ -57,8 +57,8 @@ For longer texts, insert an anchor linking a fragment of text with another fragm
 to quickly jump through an article.
 Create an anchor by clicking in the area to link to and select the anchor icon from the editor menu.
 In the modal window, provide the name for the anchor. Scroll to the fragment where you want to insert the link,
-and select the text to appear as a link. In the modal window, click the Link button and 
-in the window to create the link, in the Link to box, enter the anchor name. Click save.
+and select the text to appear as a link. In the modal window, click the **Link** button. 
+This will open the window to create the link, in the **Link to box**, enter the anchor name. Click **Save**.
 
 #### Images
 
