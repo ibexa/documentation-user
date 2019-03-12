@@ -51,6 +51,15 @@ To add a new element to the Field, select the plus icon to the left of the box a
 Each of these elements can have its own settings, such as text formatting.
 The option bar also lets you reorder or remove any elements in the Rich Text Field.
 
+#### Anchors
+
+For longer texts, insert an anchor linking a fragment of text with another fragment or section 
+to quickly jump through an article.
+Create an anchor by clicking in the area to link to and select the anchor icon from the editor menu.
+In the modal window, provide the name for the anchor. Scroll to the fragment where you want to insert the link,
+and select the text to appear as a link. In the modal window, click the **Link** button. 
+This will open the window to create the link, in the **Link to box**, enter the anchor name. Click **Save**.
+
 #### Images
 
 In image options you can select an image variation.
