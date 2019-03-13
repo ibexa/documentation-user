@@ -29,7 +29,7 @@ For example, if your website's URL is `www.my-site.com`, you enter the editing i
 ![Login screen](img/login_form.png "Login screen")
 
 The first screen after logging in is the Dashboard. It contains shortcuts to most commonly used content:
-your drafts, the content you have created, recently modified content, etc.
+review queue, your drafts, the content you have created, recently modified content, etc.
 You can select any of these items and view them in detail or start editing them from this point.
 
 ![Dashboard](img/dashboard.png "Dashboard")
