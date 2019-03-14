@@ -237,7 +237,7 @@ The key of them are:
 
 **How do I install eZ Enterprise?**
 
-Here is a [guide to installing eZ products](https://doc.ezplatform.com/en/latest/getting_started/install_ez_platform/) (covering both eZ Platform and eZ Enterprise Edition).
+Here is a [guide to installing eZ products](https://doc.ezplatform.com/en/latest/getting_started/install_ez_platform/) (covering both eZ Platform and eZ Enterprise).
 
 ### Editing
 
