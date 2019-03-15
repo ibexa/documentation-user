@@ -102,7 +102,7 @@ You can hide a Content item by clicking **Hide** in the menu.
 
 ![Hide content icon](img/hide_content_icon.png)
 
-A hidden Content item is unavailable for anyone on the front page.
+A hidden Content item is unavailable for anyone on the front page. It is also grayed out in the Content Tree.
 
 This is different from [hiding Locations](#hiding-locations), because it affects the Content item
 in all of its Locations.
