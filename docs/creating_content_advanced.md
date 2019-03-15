@@ -1,9 +1,9 @@
-# Creating content, advanced
+# Creating content – advanced
 
 ## Languages
 
 The content on your website can be translated into different languages. Each Content item can have different language versions.
-Which version is shown to a visitor depends on the way your installation is set up (see [SiteAccess](#siteaccess)).
+The version visible to a visitor depends on the way your installation is set up (see [SiteAccess](#siteaccess)).
 
 ### Adding and removing translations
 
@@ -25,26 +25,25 @@ To create a new language for the website, go to the Admin Panel and the **Langua
 
 ![Language button in the Admin Panel](img/admin_panel_language.png "Language button in the Admin Panel")
 
-Every new language must have a name and a language code, written in the xxx-XX format, for example eng-US, fre-FR, nor-NO, etc.
-After adding a language you may have to reload the application to be able to use it.
+Every new language must have a name and a language code written in the xxx-XX format, for example eng-US, fre-FR, nor-NO, etc.
+After adding a language, you may have to reload the application to be able to use it.
 
 !!! caution
 
-    After adding a language you should be able to start adding translations to your content.
-    However, depending on the way your website it set up, additional configuration will probably be necessary
+    After adding a language, you should be able to start adding translations to your content.
+    However, depending on the way your website is set up, additional configuration may be necessary
     for the new language to work properly, especially with SiteAccesses.
-    It's recommended you contact your administrator and inform them if you need to add a new language to the website
-    (here is the [technical documentation of languages](https://doc.ezplatform.com/en/latest/guide/internationalization/)).
+    It is recommended you contact your administrator and inform them if you need to add a new language to the website
+    (see [the technical documentation on language versions](https://doc.ezplatform.com/en/latest/guide/internationalization/)).
 
 ### SiteAccess
 
-When working in Page mode you can see a bar at the top of the page listing SiteAccesses configured for your website.
+When working in Page mode, you can see a bar at the top of the page listing SiteAccesses configured for your website.
 
-SiteAccesses are a way of offering different versions of your website to different categories of users.
-You can treat them as different "entrance points" to your website,
-that allow you to show different content or design to the visitor, depending on which SiteAccess they use.
+SiteAccesses is a way of offering different versions of your website to different categories of users.
+You can treat SiteAccesses as different "entrance points" to your website. They allow you to show different content or design to the visitor depending on which SiteAccess they use.
 
-SiteAccesses can be used for example to serve a different website version for paying and non-paying visitors,
+SiteAccesses can be used for example to serve a different website version for paying and non-paying visitors
 or different language versions to visitors from different countries.
 You can use this bar to switch between and work on the different versions.
 
@@ -65,7 +64,7 @@ and who will be notified every time someone fills in the form.
 
 ![Form Builder settings](img/form_settings.png "Form Builder settings")
 
-To add the actual contents of the form, go to the Fields tab.
+To add the actual contents of the form, go to the **Fields** tab.
 Every form can contain any number of fields of a few different kinds. The ones available by default are:
 
 - Single Line Text
@@ -97,8 +96,8 @@ Each field can have its own specific options, but they all have five settings in
 
 ### Viewing form results
 
-Once you publish a page with a Form and users start filling it in,
-you can preview the results by activating **Form Manager** in the Content mode tab.
+Once you publish a page with a Form and users start filling it in.
+You can preview the results by activating **Form Manager** in the **Content mode** tab.
 
 ![Top bar with Form builder](img/form_builder_in_menu.png "Top bar with Form builder")
 
@@ -114,7 +113,7 @@ Files uploaded through the **File** field will be added as separate Content item
 #### Deleting Forms
 
 A Form cannot be deleted if it is in use on any page. If you select a Form in the Form Manager and choose **Delete Form**,
-you will have the option to go to the page where it is used and remove it. Only then can you delete the form.
+you will have the option to go to the page where it is used and remove it. Only then you can delete the form.
 
 !!! caution
 
@@ -124,14 +123,14 @@ you will have the option to go to the page where it is used and remove it. Only 
 
 ##### Avoiding possible inconsistency in forms
 
-When creating a form using Form Fields each field is reflected with a unique ID in the database.
+When creating a form using Form Fields, each field is reflected with a unique ID in the database.
 This unique ID is tied with this field, regardless of changes made in Form Builder afterwards.
 This means that editing a field in a form that is already published may lead to possible inconsistency of data provided by viewers.
 
 For example: If you decide to gather a wider range of information from viewers, using a form that consist of many Form Fields is the best idea.
 However, after some time, it may seem reasonable to re-use one of the fields by changing its name
 and to collect information that requires the same field type.
-Let's say the field Name is renamed to Full Name in order to make it more clear for viewers and collect more accurate data.
+Let us say the field Name is renamed to Full Name in order to make it more clear for viewers and collect more accurate data.
 What happens here is that all entries from field's old version and all entries from updated field are now saved under the same unique ID.
 
 Best practice is to remove the old field and create a new one with a new unique ID if there is a risk of inconsistency.

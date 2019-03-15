@@ -1,4 +1,4 @@
-# Creating content, basic
+# Creating content – basic
 
 ## Creating content
 
@@ -20,21 +20,21 @@ When uploading files the Content Type will be chosen automatically.
 
     If you are using eZ Enterprise, you will have the [*Landing Page*]((#working-with-a-landing-page)) Content Type available for selection.
 
-Each Content item is based on a Content Type. The Content Type defines what Fields you have to fill in the new item.
-It may also decide things such as the layout or style in which this item is displayed.
+Each Content item is based on a Content Type. The Content Type defines what Fields you have to fill in when creating a new item.
+It may also determine the layout or style in which this item is displayed.
 
 Fields marked with an asterisk (\*) are required. You will not be able to save the Content item without filling them in.
 
 Some Fields, such as *Relation* Fields (which link two Content items), or *Image* Fields
 require you to select a different Content item to link to.
-A *Location* Field is a point on the map. You can type the place name, enter its coordinates or select it on the map.
+A *Location* Field is a point on the map. You can type the place name, enter its coordinates, or select it on the map.
 
 Note that it's impossible to link to a different Content item (e.g. create a relation or embed an image)
 if you created your content directly in the Create tab in the Content browser.
 
 ### Editing Rich Text Fields
 
-Rich Text Fields are filled using a special Online Editor. Its options appear when you click the Field box.
+Rich Text Fields are filled in using a special Online Editor. Its options appear when you click the Field box.
 
 ![Online Editor menu](img/online_editor_menu.png "Online Editor menu")
 
@@ -57,7 +57,7 @@ The option bar also lets you reorder or remove any elements in the Rich Text Fie
 
 In image options you can select an image variation.
 Variations can include different sizing options and other filters that are applied to images.
-Available image variations must be configured at a developer level.
+Available image variations must be configured at the developer level.
 See [Images](https://doc.ezplatform.com/en/latest/guide/images/) for a technical guide on how to do this.
 
 #### Tables
@@ -65,7 +65,7 @@ See [Images](https://doc.ezplatform.com/en/latest/guide/images/) for a technica
 ![Table options in online editor](img/online_editor_table.png)
 
 In table options you can define the first row and/or column as headers,
-add and delete rows and columns in any part of the table as well as merge and split cells.
+add or delete rows and columns in any part of the table, as well as merge and split cells.
 
 #### Text formatting
 
@@ -82,7 +82,7 @@ activate **Focus** to enter a special mode where only this Field is visible.
 While editing you can preview what the content will look like using one of the preview buttons in the menu.
 
 A Content item can have different looks for different [SiteAccesses](creating_content_advanced.md#siteaccess).
-You can select a SiteAccess to preview using a dropdown in the preview screen.
+You can select a SiteAccess to preview by using a dropdown in the preview screen.
 
 !!! enterprise
 
@@ -101,8 +101,8 @@ You can select a SiteAccess to preview using a dropdown in the preview screen.
 
     A new empty Landing Page will be divided into those zones.
     In the editor you can also see a menu of blocks (Elements) that you can add to the zones.
-    Do this by dragging any of the blocks to an empty place on a zone.
-    Don't worry about placing blocks in the proper place from the start, you can also reorder them by dragging later.
+    Do this by dragging any of the blocks to an empty place on a zone. Do not worry about placing blocks in the proper place from the start.
+    You can reorder the blocks at any time by dragging and dropping them in the desired location.
 
     ![Dragging a block onto a zone](img/dragging_lp_block.png "Dragging a block onto a zone")
 
@@ -179,5 +179,6 @@ You can select a SiteAccess to preview using a dropdown in the preview screen.
 
 ## Publishing content
 
-After you are done, in the menu you can choose to **Publish** the Content item or to **Save** its draft.
-See [Publishing](publishing.md) for more details.
+If you are ready to publish the Content item, in the menu, click **Publish**.
+To save the Content item as a draft to finish editing it later, click **Save**.
+For more details, see [Publishing](publishing.md).

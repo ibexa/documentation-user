@@ -3,7 +3,7 @@
 ## Content Locations
 
 A Content item by itself does not have a place in the Content tree and is not visible for a visitor of the website.
-To be available on the website it has to be assigned a Location ID.
+To be available on the website, it has to be assigned a Location ID.
 A new Content item is automatically assigned a Location when you publish it.
 
 A Content item can have more than one Location ID. In such a case you can find it in more than one place in the Content tree.
@@ -38,7 +38,7 @@ use [Sections](#sections) and combine them with [proper permissions](organizing_
 ### Swapping Locations
 
 You can swap two Content items in their Locations by going to the **Location Content Swap** section
-in the Location tab and selecting a Content item to swap with.
+in the **Location** tab and selecting a Content item to swap with.
 
 !!! caution
 
@@ -58,7 +58,7 @@ in the Location tab and selecting a Content item to swap with.
 ### Moving and copying content
 
 You can move or copy existing Content items by choosing the proper option from the menu on the right.
-You can also copy a whole subtree (a Content item with all content under it in the structure).
+You can also copy the whole subtree (a Content item with all content under it in the structure).
 
 !!! note
 
@@ -84,7 +84,7 @@ If the Content item's parent has been removed, you can select a new parent Locat
 
 ![Warning before emptying the trash](img/empty_trash_warning.png "Warning before emptying the trash")
 
-If a Content item has more than one Location, selecting Send to Trash will remove the Content item only from the current Location.
+If a Content item has more than one Location, selecting **Send to Trash** will remove the Content item only from the current Location.
 The content will appear in Trash only once you have removed the last Location.
 
 You can permanently remove a Content item by checking it and clicking the trash icon.
@@ -98,24 +98,24 @@ You can also permanently remove all content from the Trash by clicking **Empty T
 
 You can divide your Content tree into Sections to better organize it.
 Sections let you decide which users will have access to which parts of the tree.
-To see which Section a Content item belongs to, look at its Details tabs.
+To see which Section a Content item belongs to, look at its **Details** tabs.
 
-You can set up Sections in the Admin Panel in the **Sections** tab.
+You can set up Sections in the **Admin Panel**, in the **Sections** tab.
 A few Sections are provided with each installation, and you can add new ones.
 
 ![List of Sections](img/sections.png "List of Sections")
 
-In the Sections tab you can assign Sections to content or delete them.
-You can only delete Sections that don't contain any content.
+In the **Sections** tab, you can assign Sections to content or delete them.
+You can only delete Sections that do not contain any content.
 
-Each Content item must belong to a Section. By default new content is placed in the same Section as its parent.
+Each Content item must belong to a Section. By default, new content is placed in the same Section as its parent.
 If you want to remove a Content item from a Section, you just need to assign it to a different one.
 
 Access to Sections can be restricted by [setting up proper permissions](organizing_the_site.md#permissions).
 
 ## Links
 
-In your site you can link to external websites by placing links inside rich text, or by using a URL Field.
+In your site you can link to external websites by placing links inside rich text, or by using the URL Field.
 You can manage the links using the Link manager available under Content.
 
 ![Link manager](img/link_manager.png)
@@ -126,7 +126,7 @@ The Link manager shows a list of all links in the site. Click any item in the li
 
 You can edit any link in the Link manager. It will then be changed in every place where it is used, across all Content items.
 
-The Link manager list also shows whether the link is alive or dead in the Status column. The Last checked column displays when the status was last verified.
+The Link manager list also shows whether the link is alive or dead in the **Status** column. The **Last checked** column displays when the status was last verified.
 
 !!! note "Editing links"
 
