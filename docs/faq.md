@@ -8,7 +8,7 @@
 
 eZ Platform is open-source. eZ Enterprise bases on eZ Platform, but features new functionalities.
 
-**Which parts of eZ are open-source and which are commercial?**
+**Which parts of eZ are open source and which are commercial?**
 
 eZ Platform is fully open-source and available at [GitHub](https://github.com/ezsystems/ezplatform).
 
