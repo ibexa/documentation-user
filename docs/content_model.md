@@ -101,7 +101,7 @@ During your work with eZ Platform you will often be asked to select content from
 This happens for example when you want to move or copy a Content item, embed an image, link two Content items, etc.
 In such cases you will make use of the **Content Browser**.
 
-The **Content Browser** allows you to navigate through all content in the site, including regular content, media, and User accounts.
+The **Content Browser** enables you to navigate through all content in the site, including regular content, media, and User accounts.
 You can also use it to search the repository for content, and to create new content when needed.
 
 ![Universal Discovery Widget](img/udw.png "Universal Discovery Widget")

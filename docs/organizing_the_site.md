@@ -11,16 +11,17 @@ Each group lists all the Content Types belonging to it, where you can modify the
 
 Every Content Type has the following general settings:
 
-- **Name**
-- **Identifier** - name that identifies the Content Type in the system
-- **Description** - additional information that is be displayed when creating new content based on this type
-- **Content name pattern** - rules for creating the name for a Content item
-- **URL alias name pattern** - rules for creating the URL alias for a Content item
-- **Container** - when checked, Content of this Type can serve as a container in the Content tree
-- **Default field for sorting children** - criterion by which children of this content will be sorted in the tree
-- **Default sort order** - order in which the children will be sorted (ascending or descending)
-- **Default content availability** - when checked, content of this Type will by default be always available,
-even if it does not have a language version corresponding to the current SiteAccess.
+|Setting|Description|
+--------|-----------|
+|Name|General name of a Content Type.|
+|Identifier|Name that identifies the Content Type in the system.|
+|Description|Additional information that is displayed when creating new content based on this type.|
+|Content name pattern|Rules for creating the name for a Content item.|
+|URL alias name pattern|Rules for creating the URL alias for a Content item.|
+|Container|When checked, Content of this Type can serve as a container in the Content tree.|
+|Default field for sorting children|Criterion by which children of this content will be sorted in the tree.|
+|Default sort order|Order in which the children will be sorted (ascending or descending).|
+|Default content availability|When checked, content of this Type will by default be always available, even if it does not have a language version corresponding to the current SiteAccess.|
 
 To add a Field to the new Content Type, select a [Field Type](content_model.md#fields-and-field-types)
 in the Field Type selection drop-down menu and click **Add field definition**.
@@ -39,17 +40,16 @@ If a Field is deleted from the Content Type definition, all these Fields will be
 
 Each Field has a number of common parameters:
 
-- **Name** – stores a user-friendly name that describes the Field.
-The name of a Field can consist of letters, digits, spaces, and special characters.
-The maximum length is 255 characters. If a blank name is provided, the app automatically generates a unique name for the Field.
-- **Identifier** – stores the Name in the system. The identifier can have no more than 50 characters
-and cannot contain special characters, except for the underscore symbol.
-- **Position** – defines the order of the Fields in the Content Type
-- **Description** – gives details about the Field that will be displayed next to it when editing content.
-- **Required** – when this is checked, you will not be able to save or publish a Content item of this type unless the Field in filled in.
-- **Searchable** – decides if the contents of the Field will be covered by search.
-- **Translatable** – decides if the Field can be translated.
-- **Category** – decides which Field category it will be displayed in for easier organization.
+|Parameter|Description|
+|---------|-----------|
+|Name|Stores a user-friendly name that describes the Field. The name of a Field can consist of letters, digits, spaces, and special characters. The maximum length is 255 characters. If a blank name is provided, the app automatically generates a unique name for the Field.|
+|Identifier|Stores the Name in the system. The identifier can have no more than 50 characters.|
+|Position|Defines the order of the Fields in the Content Type.|
+|Description|Gives details about the Field that will be displayed next to it when editing content.|
+|Required|When this is checked, you will not be able to save or publish a Content item of this type unless the Field in filled in.|
+|Searchable|Decides if the contents of the Field will be covered by search.|
+|Translatable|Decides if the Field can be translated.|
+|Category|Decides which Field category it will be displayed in for easier organization.|
 
 Fields of specific types can also have their own additional settings.
 For example, for the "Content relations (multiple)" Field Type you can decide

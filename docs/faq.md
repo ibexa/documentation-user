@@ -4,7 +4,7 @@
 
 ### Product
 
-**What is the difference between eZ Platform and eZ Enterprise?**
+**What is the difference between eZ Platform and eZ Enterprise Edition?**
 
 eZ Platform is open-source. eZ Enterprise bases on eZ Platform, but features new functionalities.
 
