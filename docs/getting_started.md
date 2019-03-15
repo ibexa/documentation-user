@@ -43,7 +43,7 @@ The top bar allows you to move between important sections of the application.
 - **Content** gives you access to the content repository.
 It lets you navigate the Content tree, create, edit, move, copy, delete content, etc.
 - **Page** enables you to create and edit block-based Pages. It is only available for eZ Enterprise users.
-- **Forms** enabled you to place a survey, questionnaire, sign-up form, etc. on your website. It is only available for eZ Enterprise users.
+- **Forms** enables you to place a survey, questionnaire, sign-up form, etc. on your website. It is only available for eZ Enterprise users.
 - **Admin** is the administration panel where you can manage users, sections, permissions, etc.
 
 ### User settings
