@@ -23,7 +23,7 @@ For example, if your website's URL is `www.my-site.com`, you enter the editing i
 
 **The default administrator account information is:**
 
-- login: `admin`
+- username: `admin`
 - password:` publish`
 
 ![Login screen](img/login_form.png "Login screen")
