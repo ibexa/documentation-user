@@ -1,6 +1,6 @@
 site_name: eZ Platform User Documentation
 repo_url: https://github.com/ezsystems/user-documentation
-copyright: "Copyright 1999-2017 eZ Systems AS and others"
+copyright: "Copyright 1999-2019 eZ Systems AS and others"
 site_favicon: img/favicon.ico
 pages:
     - 'Documentation': 'index.md'
