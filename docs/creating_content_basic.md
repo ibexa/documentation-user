@@ -10,7 +10,7 @@ The new item appears under the current Content item in the tree.
 In this case you have to select where the content will be located.
 1. Go to the **Create** tab in the *Universal Discovery Widget*.
 Here also you have to choose a location for the new item.
-1. Drag files onto the **Sub-items box** when viewing any content or click the upload button and select files to upload.
+1. Drag files onto the **Sub-items** box when viewing any content or click the upload button and select files to upload.
 In this way you can upload files such as images, videos, PDF documents, etc.
 
 If you choose the first three options, you have to select the Content Type first.
