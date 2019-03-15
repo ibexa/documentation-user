@@ -3,7 +3,7 @@
 ## Content Locations
 
 A Content item by itself does not have a place in the Content tree and is not visible for a visitor of the website.
-To be available on the website it has to be assigned a Location ID.
+To be available on the website, it has to be assigned a Location ID.
 A new Content item is automatically assigned a Location when you publish it.
 
 A Content item can have more than one Location ID. In such a case you can find it in more than one place in the Content tree.
@@ -17,7 +17,7 @@ A single Location can only have one Content item in it.
 Even if a Content item is placed in more than one Location, one of the Locations is always treated as the main one.
 
 To assign other Locations to content, view this Content item's **Location** tab and activate **Add Location**,
-then select the new parent from the UDW.
+then select the new parent from the Universal Discovery Widget.
 
 ![Content with two locations](img/content_with_two_locations.png "Content with two locations")
 
@@ -38,7 +38,7 @@ use [Sections](#sections) and combine them with [proper permissions](organizing_
 ### Swapping Locations
 
 You can swap two Content items in their Locations by going to the **Location Content Swap** section
-in the Location tab and selecting a Content item to swap with.
+in the **Location** tab and selecting a Content item to swap with.
 
 !!! caution
 
@@ -75,7 +75,7 @@ In the Trash you can select removed Content items and restore them to their orig
 
 ![Warning before emptying the trash](img/empty_trash_warning.png "Warning before emptying the trash")
 
-If a Content item has more than one Location, selecting Send to Trash will remove the Content item only from the current Location.
+If a Content item has more than one Location, selecting **Send to Trash** will remove the Content item only from the current Location.
 The content will appear in Trash only once you have removed the last Location.
 
 You can permanently remove a Content item by checking it and clicking the trash icon.
@@ -90,15 +90,15 @@ You can also permanently remove all content from the Trash by clicking **Empty T
 You can divide your Content tree into Sections to better organize it.
 Sections let you decide which users will have access to which parts of the tree.
 
-You can set up Sections in the Admin Panel in the **Sections** tab.
+You can set up Sections in the **Admin Panel**, in the **Sections** tab.
 A few Sections are provided with each installation, and you can add new ones.
 
 ![List of Sections](img/sections.png "List of Sections")
 
-In the Sections tab you can assign Sections to content or delete them.
-You can only delete Sections that don't contain any content.
+In the **Sections** tab, you can assign Sections to content or delete them.
+You can only delete Sections that do not contain any content.
 
-Each Content item must belong to a Section. By default new content is placed in the same Section as its parent.
+Each Content item must belong to a Section. By default, new content is placed in the same Section as its parent.
 If you want to remove a Content item from a Section, you just need to assign it to a different one.
 
 Access to Sections can be restricted by [setting up proper permissions](organizing_the_site.md#permissions).

@@ -4,13 +4,13 @@
 
 ### Product
 
-**What is the difference between eZ Platform and Enterprise Edition?**
+**What is the difference between eZ Platform and eZ Enterprise Edition?**
 
-eZ Platform is open-source. Enterprise Edition bases on eZ Platform and adds new functionalities.
+eZ Platform is open-source. eZ Enterprise bases on eZ Platform, but features new functionalities.
 
 **Which parts of eZ are open source and which are commercial?**
 
-eZ Platform is fully open-source and available at [Github](https://github.com/ezsystems/ezplatform).
+eZ Platform is fully open-source and available at [GitHub](https://github.com/ezsystems/ezplatform).
 
 eZ Enterprise is a commercial solution.
 
@@ -18,13 +18,13 @@ eZ Enterprise is a commercial solution.
 
 If you are using eZ as an editor or content manager, you do not need to have any programming knowledge.
 
-Installing and configuring eZ will require at least basic familiarity of web development. Some more advanced customization possibilities may require programming skills (such as knowledge of PHP or Twig).
+Installing and configuring eZ requires at least basic familiarity with web development. Some more advanced customization possibilities may require programming skills (such as knowledge of PHP or Twig).
 
 **What is Demo Bundle?**
 
 Demo Bundle is a sample website you can get with your installation of eZ. There are two different Demo Bundles: one for eZ Platform and one for eZ Enterprise.
 
-The Bundle contains a small number of initial preset Content Types. You can apply them directly in your website or use them as a starting point to create your own Content Types.
+The Bundle contains a small number of initial preset Content Types. You can apply them directly to your website or use them as a starting point to create your own Content Types.
 
 **What are the technical requirements for installing eZ?**
 
@@ -42,11 +42,11 @@ eZ offers three different work modes: **Content mode**, **Page mode** and **Perf
 
 **What is Content mode?**
 
-Content mode gives access to the content repository. It is mostly the role of eZ Platform, but for users of eZ Enterprise it is enriched with specific Studio functionalities.
+Content mode gives you the access to the content repository. It is mostly the role of eZ Platform, but for users of eZ Enterprise it is enriched with specific Studio functionalities.
 
-Its focus is creating, modifying, organizing and publishing Content items. Content mode is an interface for the repository, that is the place in which eZ stores all the content.
+Its focus is on creating, modifying, organizing, and publishing Content items. Content mode is an interface for the repository, a place in which eZ stores all the content.
 
-This mode lets you navigate the Content tree and edit any content present in it, as well as to move, copy and delete it. You can also create new content using the previously defined Content Types.
+This mode lets you navigate the Content tree and edit any content present in it, as well as to move, copy, and delete it. You can also create new content using the previously defined Content Types.
 
 You can preview any Content within the tree, but the Content mode does not allow you to edit a Content item directly from this preview.
 
@@ -54,7 +54,7 @@ You can preview any Content within the tree, but the Content mode does not allow
 
 Page mode allows you to manage website pages and website content from the pages themselves. It is only available for eZ Enterprise users. It can be enriched by eZ Services functionalities for users subscribed to them.
 
-It allows front-end editing, that is modifying pages directly from their preview. Using a special Timeline toolbar you can also preview and modify the content of a page at a future date.
+It provides the front-end editing, that is modifying pages directly from their preview. Using a special Timeline toolbar, you can also preview and modify the content of a page at a future date.
 
 The Page mode offers a special functionality of creating a Landing Page - a special kind of Content with advanced customization options.
 
@@ -66,7 +66,8 @@ Performance mode gives access to optimization capabilities such as Analytics and
 
 **How do I grant and restrict access to my website?**
 
-You can restrict access to your website per User or User group. Each User (or group) can be assigned Roles and Policies which define the operations they can perform on the website. You can assign them globally or only to parts of the website, by applying [Sections](organizing_the_content.md#sections).
+You can restrict access to your website per User or User group. Each User (or group) can be assigned Roles and Policies which define the operations they can perform on the website.
+You can assign them globally or only to parts of the website by applying [Sections](organizing_the_content.md#sections).
 
 See [Permissions](organizing_the_site.md#permissions) for more information.
 
@@ -84,21 +85,21 @@ See [Permissions](organizing_the_site.md#permissions) for more information.
 
 **How do I assign Roles and Policies to a User?**
 
-You can do it in the Admin Panel by selecting the Roles tab.
+You can do it in the **Admin Panel**, in the **Roles** tab.
 
 See [Permissions](organizing_the_site.md#permissions) for more information.
 
 **What are Sections used for?**
 
-Sections can be used to divide your content tree into separate parts. This is done for the purpose of limiting access to some of these parts for selected Users or User groups.
+Sections can be used to divide your content tree into separate parts, allowing you to limit the access to its parts for selected Users or User groups.
 
 See [Sections](organizing_the_content.md#sections) for more information.
 
 **How can I use Sections to control access to my website?**
 
-You can divide your Content tree into sections in the Admin Panel, see [Sections](organizing_the_content.md#sections).
+You can divide your Content tree into sections in the **Admin Panel**. See [Sections](organizing_the_content.md#sections).
 
-Then you can create Policies which concern only this Section.
+Then you can create Policies applicable to only this Section.
 
 **Can I have different language versions of one Content item?**
 
@@ -120,13 +121,13 @@ See [Design](https://doc.ezplatform.com/en/latest/guide/design/) for more techni
 
 **Where is the technical documentation?**
 
-Technical documentation for Platform and Enterprise is available in: [eZ Developer documentation](https://doc.ezplatform.com).
+Technical documentation for eZ Platform and eZ Enterprise is available in: [eZ Developer documentation](https://doc.ezplatform.com).
 
 You can find the technical documentation for eZ Publish 5.x (an earlier version) in [eZ Publish 5.x Developer Documentation](https://doc.ez.no/display/EZP/eZ+Publish+5.x+Developer+Documentation).
 
 **Where can I find more information about eZ?**
 
-To find more information about the company and products, have a look at [ez.no](http://ez.no/).
+To find more information about the company and products, go to [ez.no](http://ez.no/).
 
 **Where can I ask for help?**
 
@@ -157,13 +158,14 @@ Here is a [guide to installing eZ products](https://doc.ezplatform.com/en/latest
 
 **What does eZ understand by "Content"?**
 
-In the broad sense, content is everything that is placed on a site for the visitor to see.
+In the broad sense, content is everything that is placed on a website for the visitors to see.
 
-In the narrow sense, a Content item is a single object used on a site. It can be, for example, an article, a photo gallery or a blog post. Technically, a Content item is an instance of a Content Type (that is, it is a single object created on the basis of a "blueprint" which is the Content Type).
+In the narrow sense, a Content item is a single object used on a website. It can be, for example, an article, a photo gallery or a blog post. Technically, a Content item is an instance of a Content Type (that is, it is a single object created on the basis of a "blueprint" which is the Content Type).
 
 **What are Content Types?**
 
-Content Types can be treated as templates or blueprints for Content. They define Fields and their Field Types which are then assigned values when a Content item is created based on this Content Type.
+Content Types can be treated as templates or blueprints for Content items.
+They define Fields and their Field Types which are then assigned values when a Content item is created on the basis of a particular Content Type.
 
 Content Types are conceptually similar to classes in object-oriented programming.
 
@@ -173,21 +175,21 @@ A small set of ready-to-use Content Types is provided with the Demo Bundle.
 
 **Can I modify Content Types?**
 
-Yes, you can adapt any Content Types provided in the Demo Bundle to your needs. See [Content Types](organizing_the_site.md#content-types) for more information.
+Yes, you can adjust to your needs any Content Type provided in the Demo Bundle. See [Content Types](organizing_the_site.md#content-types) for more information.
 
 **Can I make my own Content Types?**
 
-Yes, you can freely create any new Content Types. See [Content Types](organizing_the_site.md#content-types) for more information.
+Yes, you can freely create any new Content Type. See [Content Types](organizing_the_site.md#content-types) for more information.
 
 **What are Field Types?**
 
 Field Types define type of data which can be stored in a Field. Field Types which make up Content are defined in the Content Type.
 
-Field Type is conceptually similar to a data type in programming. However, the available Field Types include both simple data types (for example integer or float numbers) and more complex structures (for example image, media file or binary file).
+Field Type is conceptually similar to a data type in programming. However, the available Field Types include both simple data types (for example integer or float numbers) and more complex structures (for example image, media file, or binary file).
 
 **Can I make my own Field Types?**
 
-Yes, you can create custom Field Types. However, this is not available from the Admin Panel (like creating Content Types). Instead, they have to be created using PHP.
+Yes, you can create custom Field Types. However, this is not available from the **Admin Panel** (like creating Content Types). Instead, they have to be created using PHP.
 
 ### Editing
 
@@ -197,7 +199,7 @@ You can create a new Content item in the Content mode by clicking **Create**. Se
 
 **What is the Location of a Content item and how is it determined?**
 
-A Content item in itself does not have a place in the Content tree and is not visible for a visitor of the website. To take its place in the website it has to be assigned a Location ID.
+A Content item in itself does not have a place in the Content tree and is not visible for a visitor of the website. To take its place on the website, it has to be assigned a Location ID.
 
 A single Content item can have more than one Location ID, that is, it will be shown in more than one place in the Content tree. A single Location, however, can only have one Content item in it.
 
@@ -209,17 +211,17 @@ You can limit the visibility of a Content item by hiding the Location it is plac
 
 **How can I preview content?**
 
-In Content mode you cannot edit Content while previewing it (this option is available only in Enterprise).
+In Content mode you cannot edit Content while previewing it (this option is available only in eZ Enterprise).
 
-You can preview your content while editing it by clicking one of the icons under Preview in the action bar.
+You can preview your content while editing it by clicking one of the icons under **Preview** in the action bar.
 
 **What is the difference between saving and publishing content?**
 
-The **Save** function allows you to save the current working copy into a draft to potentially reuse it later. The new version will not be published and then not visible on the site or through the API as published content
+The **Save** function allows you to save the current working copy as a draft to potentially reuse it later. The new version will not be published and, consequently, not visible as published content on the website or through the API.
 
-The **Publish** function allows you to publish the final version of the content object. As a result the working copy turns into a published version that is visible on the site and available through the API as a publish content.
+The **Publish** function allows you to publish the final version of the content object. As a result, the working copy turns into the published version that is visible on the website and available through the API as a publish content.
 
-## eZ Enterprise Edition
+## eZ Enterprise
 
 ### Product
 
@@ -227,16 +229,18 @@ The **Publish** function allows you to publish the final version of the content 
 
 Yes, eZ Enterprise is based on eZ Platform and contains it with all of its functionalities.
 
-**What features does eZ Enterprise offer that are unavailable in Platform?**
+**What features does eZ Enterprise offer that are unavailable in eZ Platform?**
 
-eZ Enterprise offers a number of additional features aside from what is available in Platform. The key of them are:
+eZ Enterprise offers a number of additional features aside from what is available in eZ Platform. 
+
+The key of them are:
 
 - Easy creation of Landing Pages
 - Intuitive Page mode editing
 - Flex Workflow functionality for managing the review process
 - Automated scheduling of the times when new content is aired on the page.
 
-**How do I install eZ Enterprise Edition?**
+**How do I install eZ Enterprise?**
 
 Here is a [guide to installing eZ products](https://doc.ezplatform.com/en/latest/getting_started/install_ez_platform/) (covering both eZ Platform and eZ Enterprise).
 
