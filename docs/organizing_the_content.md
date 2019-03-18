@@ -25,8 +25,9 @@ Then select the new parent from the Content Browser.
 
 You can manage the availability of content by hiding or revealing it.
 You can do this in the Content item's Locations tab by using the Visibility switcher.
-Notice that hiding and revealing only affects a *Location*, not the *Content item*.
+Notice that this way only affects a *Location*, not the *Content item*.
 Even if you hide the content in one Location, it remains visible in its other Locations.
+You can also [hide a whole Content item](#hiding-content).
 
 When a Location is hidden, all of its children (other Content items that are under it in the tree) will also be automatically hidden.
 They can only be revealed if the parent Location is revealed as well.
@@ -94,6 +95,17 @@ You can also permanently remove all content from the Trash by clicking **Empty T
 !!! caution "Warning"
 
     Emptying the Trash cannot be undone!
+
+### Hiding content
+
+You can hide a Content item by clicking **Hide** in the menu.
+
+![Hide content icon](img/hide_content_icon.png)
+
+A hidden Content item is unavailable for anyone on the front page. It is also grayed out in the Content Tree.
+
+This is different from [hiding Locations](#hiding-locations), because it affects the Content item
+in all of its Locations.
 
 ## URL aliases
 

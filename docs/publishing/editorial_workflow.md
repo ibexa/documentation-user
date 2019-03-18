@@ -30,7 +30,11 @@
     You can view all configured workflows in the Admin Panel by selecting **Workflow**.
 
     ![Workflow in Admin Panel](img/workflow_panel.png)
-    
+
+    Here you can also preview a diagram of the workflow.
+
+    ![Workflow diagram](img/workflow_diagram.png)
+
     After selecting configured workflow administrator user is able to see all Content items under review for it.
-    
+
     ![Content under review](img/workflow_content_under_review.png)
