@@ -56,7 +56,7 @@
     |Block|Description|
     |-----|-----------|
     |Form|Embeds a Form Content item that you select from the Content Structure.|
-    |Code|Enables you to place content (text, links, images, etc.) on your Page using custom HTML.|
+    |Code|Enables you to place text, links, images, etc. on your Page using custom HTML.|
     |Content List|Displays Content items of a chosen Content Type (or Types) that are contained in a selected folder.|
     |Banner|Displays an image Content item with a URL attached to it.|
     |Collection|Displays a set of Content items you select manually from the Content structure.|
@@ -64,19 +64,21 @@
     |Gallery|Displays all images contained in a selected folder.|
     |Video|Embeds a video into the Page with standard playback controls.|
     |RSS|Loads and displays news from RSS feeds (channels).|
-    |Content Scheduler|Displays Content items at a pre-define time. Ideal for automatic updates of the Page content|
-    |Text|Enables you to place on the Page a block containing Rich Text.|
+    |Content Scheduler|Displays Content items at a pre-define time.|
+    |Text|Enables you to add to the Page a Rich Text block.|
     
-    ## Blocks of content — adjusting general settings
+    ## Block settings
     
-    Each kind of blocks has its special properties. 
-    You can access them by, after dropping a block on the Page, placing the cursor on it and clicking the cog button.
+    ### Blocks of content
+    
+    Each kind of block has its special properties. 
+    You can access them by placing the cursor on the added block and clicking the cog button.
     Use the same menu to remove the block from the Page by clicking the trash button.
     
     ![Elements settings](img/page_builder_elementsettings.png)
     
     Settings available for blocks are divided into three tabs — **Basic**, **Design**, and **Scheduler**.
-    The settings available in the **Basic** tab are tailored to the content a block is designed to display.
+    The settings available in the **Basic** tab are tailored to the block's content.
     The remaining tabs contain parameters common to all blocks provided with eZ Enterprise. 
     Use them to modify the layout and visibility of a block.
     Always ensure that you set all the required settings of a block of content to successfully publish the Page.
@@ -97,7 +99,7 @@
         Settings and function of custom-made blocks of content depend on their design. 
         For details on adjusting and using them, contact your website administrator.
     
-    ### Form block — adjusting settings
+    ### Form block
     
     Note that completing the settings of the Form block requires at least one Form Content item created.
     
@@ -108,7 +110,7 @@
     
     Click **Submit** to save the changes or **Discard** to cancel.
     
-    ### Code block — adjusting settings 
+    ### Code block
     
     In the **Basic** tab, perform the following actions:
     
@@ -118,7 +120,7 @@
     
     Click **Submit** to save the changes or **Discard** to cancel.
     
-    ### Content List block — adjusting settings
+    ### Content List block
     
     In the **Basic** tab, perform the following actions:
     
@@ -131,7 +133,7 @@
     
     Click **Submit** to save the changes or **Discard** to cancel.
     
-    ### Banner block — adjusting settings
+    ### Banner block
     
     In the **Basic** tab, perform the following actions:
     
@@ -141,7 +143,7 @@
     
     Click **Submit** to save the changes or **Discard** to cancel.
     
-    ### Collection block — adjusting settings
+    ### Collection block
     
     In the **Basic** tab, perform the following actions:
     
@@ -153,7 +155,7 @@
     
     Click **Submit** to save the changes or **Discard** to cancel.
     
-    ### Gallery block — adjusting settings
+    ### Gallery block
     
     In the **Basic** tab, perform the following actions:
     
@@ -164,7 +166,7 @@
     
     Click **Submit** to save the changes or **Discard** to cancel.
     
-    ### Video block — adjusting settings
+    ### Video block
     
     In the **Basic** tab, perform the following actions:
     
@@ -183,7 +185,7 @@
     - In the **Limit** box, enter a number or use the up and down buttons to set the limit of news items appearing in the block.
     - In the **Offset** box, enter a number or use the up and down buttons to set the limit of featured news items appearing in the block.
     
-    ### Content Scheduler block — adjusting settings
+    ### Content Scheduler block
     
     In the **Basic** tab, perform the following actions:
     
@@ -208,7 +210,7 @@
     
     ![List of upcoming events](img/page_builder_toolbar_upcomingevents.png)
     
-    ### Text block — adjusting settings
+    ### Text block
     
     In the **Basic** tab, perform the following actions:
     
@@ -220,5 +222,5 @@
     
     ## Publishing the Page
     
-    If you are ready to publish the Page, in the menu, click **Publish**.
+    If you are ready to publish the Page click **Publish** in the top-right corner.
     To save it as a draft to finish editing it later, click **Save**.
