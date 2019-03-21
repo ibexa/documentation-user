@@ -37,7 +37,7 @@
     
     ## Adding blocks
     
-    In the editor you can access a menu of Elements — a set of blocks of content that you can add to the zones of the Page.
+    In the editor you can access a menu of **Elements** — a set of blocks of content that you can add to the zones of the Page.
     Each block is unique in its function and enables you to personalize the content appearing on the Page.
     
     ![Dragging a block onto a zone](img/dragging_lp_block.png "Dragging a block onto a zone")
