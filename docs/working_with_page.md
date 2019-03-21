@@ -32,7 +32,7 @@
     
     ![Switching Page layouts](img/switch_layout.png)
     
-    Applying a layout divides the Page into those zones that are place holders for the Content items.
+    Applying a layout divides the Page into the defined zones. The zones are placeholders for Content items.
     Now you are ready to add blocks of content to the Page.
     
     ## Adding blocks
@@ -64,7 +64,7 @@
     |Gallery|Displays all images contained in a selected folder.|
     |Video|Embeds a video into the Page with standard playback controls.|
     |RSS|Loads and displays news from RSS feeds (channels).|
-    |Content Scheduler|Displays Content items at a pre-define time.|
+    |Content Scheduler|Displays Content items at a pre-defined time.|
     |Text|Enables you to add to the Page a Rich Text block.|
     
     ## Block settings
@@ -81,7 +81,7 @@
     The settings available in the **Basic** tab are tailored to the block's content.
     The remaining tabs contain parameters common to all blocks provided with eZ Enterprise. 
     Use them to modify the layout and visibility of a block.
-    Always ensure that you set all the required settings of a block of content to successfully publish the Page.
+    You can't publish a Page if you have not set all the required settings of all blocks.
         
     In the **Design** tab, perform the following actions:
     
