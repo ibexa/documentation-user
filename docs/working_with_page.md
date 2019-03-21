@@ -32,7 +32,7 @@
     
     ![Switching Page layouts](img/switch_layout.png)
     
-    Applying a layout divides the Page into those zones that are place holders for the contents of the Page.
+    Applying a layout divides the Page into those zones that are place holders for the Content items.
     Now you are ready to add blocks of content to the Page.
     
     ## Adding blocks
