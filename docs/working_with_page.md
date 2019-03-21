@@ -174,7 +174,7 @@
     
     Click **Submit** to save the changes or **Discard** to cancel.
     
-    ### RSS block — adjusting settings
+    ### RSS block
     
     In the **Basic** tab, perform the following actions:
     
