@@ -47,7 +47,7 @@
     You can reorder them at any time by dragging and dropping them in the desired location.
     
     eZ Enterprise comes with a set of ready-to-use Page blocks,
-    but [developers can add their own](https://doc.ezplatform.com/en/latest/guide/page_rendering/#page-blocks/).
+    but [developers can add their own](https://doc.ezplatform.com/en/latest/guide/extending_page/#creating-page-blocks).
     
     ![Elements menu](img/elements_menu.png "Elements menu")
     
