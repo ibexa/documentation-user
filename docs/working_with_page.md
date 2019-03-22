@@ -201,7 +201,7 @@
     
     When done editing, click **Submit** to save the changes or **Discard** to cancel.
     
-    ## Publishing the Page
+    ## Publishing Page
     
     If you are ready to publish the Page click **Publish** in the top-right corner.
     To save it as a draft to finish editing it later, click **Save**.
