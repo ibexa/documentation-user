@@ -34,12 +34,12 @@
     
     |Button|Description|
     |------|-----------|
-    |![](img/page_builder_toolbar_editpreview.png)|Switch between previewing and editing the Page.|
-    |![](img/page_builder_toolbar_viewedit.png)|Switch between the Page view and the Field view.|
-    |![](img/page_builder_toolbar_devicestoggler.png)|Toggle through to see how the Page is rendered on different devices.|
-    |![](img/page_builder_toolbartimelinetoggler.png)|Access the timeline to preview how the Page changes with time. You can also view the list of all upcoming scheduled events. For details, see [Timeline](publishing/advanced_publishing_options.md#timeline).|
-    |![](img/page_builder_toolbarpopmenu.png)|Access menu enabling you to switch layout, see versions of the Page, manage translations, or delete the Page.|
-    |![](img/page_builder_toolbarcreatebutton.png)|Create a new Content item.|
+    |![Edit and preview switch](img/page_builder_toolbar_editpreview.png)|Switch between previewing and editing the Page.|
+    |![Page view and Field view switch](img/page_builder_toolbar_viewedit.png)|Switch between the Page view and the Field view.|
+    |![View toggler](img/page_builder_toolbar_devicestoggler.png)|Toggle through to see how the Page is rendered on different devices.|
+    |![Timeline button](img/page_builder_toolbartimelinetoggler.png)|Access the timeline to preview how the Page changes with time. You can also view the list of all upcoming scheduled events. For details, see [Timeline](publishing/advanced_publishing_options.md#timeline).|
+    |![Page builder menu button](img/page_builder_toolbarpopmenu.png)|Access menu enabling you to switch layout, see versions of the Page, manage translations, or delete the Page.|
+    |![Create new button](img/page_builder_toolbarcreatebutton.png)|Create a new Content item.|
     
     In a newly created Page you must first choose a layout which defines the available zones.
     You can switch it later by using the following menu:
