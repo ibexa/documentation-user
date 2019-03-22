@@ -15,7 +15,7 @@
     To create a new Page, in the upper toolbar click **Content** and from the list below select **Content Structure**.
     On the right-side toolbar click **Create** and from the list of Content items select **Landing page**.
     In the **Page creation** select the layout and click **Create**.
-    Edit the Page title and descritpion by switching to the Field view using the [Page builder toolbar](#page-builder-toolbar).
+    Edit the Page title and description by switching to the Field view using the [Page builder toolbar](#page-builder-toolbar).
         
     ## Editing Page
     
