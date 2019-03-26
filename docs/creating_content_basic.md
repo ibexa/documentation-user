@@ -20,7 +20,7 @@ When uploading files, the Content Type will be chosen automatically.
 
     If you are using eZ Enterprise Edition,
     you will have the *Page* Content Type available for selection.
-    Pages are edited in the Page Builder, [see below](#working-with-a-page).
+    Pages are edited in the Page Builder, [see working with Page section.](working_with_page.md)
 
 Each Content item is based on a Content Type. The Content Type defines what Fields you have to fill in when creating a new item.
 It may also determine the layout or style in which this item is displayed.
@@ -82,55 +82,6 @@ While editing, you can preview what the content will look like by clicking the *
 
 A Content item can have different looks for different [SiteAccesses](creating_content_advanced.md#siteaccess).
 You can select a SiteAccess to preview by using a dropdown in the preview screen.
-
-!!! enterprise
-
-    ## Working with a Page
-
-    **Page** is a special Content Type that contains zones onto which you can drop different dynamic blocks.
-    You create and edit Pages using the Page Builder.
-
-    Go to the Page Builder by selecting **Page** in the top bar.
-    You can create content here by clicking the plus button in the upper-right corner.
-
-    !!! tip
-
-        The Page Content Type contains a **Landing Page** Field Type which manages the zones and blocks.
-        Any Content item that has the **Landing Page** Field Type will behave like the Page Content Type.
-
-    In a newly created Page you must first choose a layout which defines the available zones.
-    You can switch it later using the menu:
-
-    ![Switching Page layouts](img/switch_layout.png)
-
-    A new empty Page will be divided into those zones.
-    In the editor you can also see a menu of blocks (Elements) that you can add to the zones.
-    Do this by dragging any of the blocks to an empty place on a zone. Do not worry about placing blocks in the proper place from the start.
-    You can reorder the blocks at any time by dragging and dropping them in the desired location.
-
-    ![Dragging a block onto a zone](img/dragging_lp_block.png "Dragging a block onto a zone")
-
-    eZ Enterprise comes with a set of ready-to-use Page blocks,
-    but [developers can add their own](https://doc.ezplatform.com/en/latest/guide/page_rendering/#page-blocks/).
-    
-    The blocks provided out of the box are:
-
-    - Code – inserts custom HTML into your Page.
-    - Content List - displays Content items of a chosen Content Type (or Types) that are contained in a folder.
-    - Banner – displays an image Content item with a URL attached to it.
-    - Collection - displays a set of Content items you select manually.
-    - Embed - embeds content of any type on the Page.
-    - Gallery - displays Images contained in a folder.
-    - Video - embeds a video Content item into a page with standard playback controls.
-    - RSS - loads and displays news from RSS feeds (channels).
-    - Content Scheduler - displays Content items at a selected time.
-    - Text - displays Rich Text.
-    - Form - embeds a Form.
-
-    ![Elements menu](img/elements_menu.png "Elements menu")
-
-    Each kind of blocks has its special properties.
-    You can access them from the block's menu when it is selected by using the settings button.
 
 ## Publishing content
 
