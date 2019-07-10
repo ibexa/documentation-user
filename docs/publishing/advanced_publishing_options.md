@@ -40,6 +40,8 @@
     Use it to remove the previously selected publication date.
 
     ![Discard Publish Date button in the menu](img/discard_publish_date.png "Discard Publish Date button in the menu")
+    
+    You can also view, reschedule, and discard planned Content items in the [calendar widget](#calendar-widget).
 
     ## Timeline
 
@@ -49,3 +51,39 @@
     Use the button on the right of the time to see a list of all upcoming changes.
 
     ![List of upcoming events in the timeline](img/timeline_list.png)
+    
+    ## Calendar widget
+    
+    The calendar widget enables you to view and perform actions on various events.
+    Out of the box, it displays Content items scheduled for future publication, but your page administator can configure custom events.
+    Therefore, it can contain other events, e.g. national holidays, important dates, etc.
+    
+    To access the calendar widget, in the **Content Panel**, open the **Calendar** tab.
+    
+    ![Calendar widget](img/calendar_widget.png "Calendar widget")
+    
+    You can switch between different views and access filters.
+    
+    |Button|Description|
+    |------|-----------|
+    |![Today button](img/calendar_widget_today.png)|Display the current day regardless of the view.|
+    |![Arrows](img/calendar_widget_arrows.png)|Navigate through months, weeks, or days.|
+    |![Toggle month/week/day](img/calendar_widget_toggler_mwd.png)|Switch between the month, week, or day view.|
+    |![Toggle calendar/list](img/calendar_widget_toggler_cal_list.png)|Switch between the calendar and list view,|
+    |![Filters](img/calendar_widget_filters.png)|Access [filters](#filters).|
+    
+    The widget comes with a toolbar that displays events you select and gives you access to actions assigned to them.
+    You can select multiple events of the same types and perform bulk actions on them.
+    
+    Actions available in the toolbar may vary depending on the custom configuration.
+    For details, contact your page administrator.
+    
+    ![Calendar widget toolbar](img/selection_action_bar.png "Calendar widget toolbar")
+    
+    In case of Content items that can be published, you can change their publication time or discard future publishing.
+    
+    |Button|Description|
+    |------|-----------|
+    |![Reschedule button](img/selection_action_bar_reschedule.png)|Reschedule all selected Content items.|
+    |![Discard button](img/selection_action_bar_discard.png)|Discard future publication of selected Content items.|
+    
