@@ -70,20 +70,25 @@
     |![Arrows](img/calendar_widget_arrows.png)|Navigate through months, weeks, or days.|
     |![Toggle month/week/day](img/calendar_widget_toggler_mwd.png)|Switch between the month, week, or day view.|
     |![Toggle calendar/list](img/calendar_widget_toggler_cal_list.png)|Switch between the calendar and list view,|
-    |![Filters](img/calendar_widget_filters.png)|Access [filters](#filters).|
+    |![Filters](img/calendar_widget_filters.png)|Access and apply [filters](#filters).|
     
     The widget comes with a toolbar that displays events you select and gives you access to actions assigned to them.
-    You can select multiple events of the same types and perform bulk actions on them.
+    You can select multiple events of the same type and perform bulk actions on them.
+    
     
     Actions available in the toolbar may vary depending on the custom configuration.
     For details, contact your page administrator.
     
     ![Calendar widget toolbar](img/selection_action_bar.png "Calendar widget toolbar")
     
-    In case of Content items that can be published, you can change their publication time or discard future publishing.
+    In case of Content items that can be published (e.g. articles), you can change their publication time or discard future publishing.
     
     |Button|Description|
     |------|-----------|
     |![Reschedule button](img/selection_action_bar_reschedule.png)|Reschedule all selected Content items.|
     |![Discard button](img/selection_action_bar_discard.png)|Discard future publication of selected Content items.|
+    
+    ### Filters
+    
+    
     
