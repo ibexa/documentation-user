@@ -41,7 +41,7 @@
 
     ![Discard Publish Date button in the menu](img/discard_publish_date.png "Discard Publish Date button in the menu")
     
-    You can also view, [reschedule and cancel](#rescheduling-or-cancelling-events) future publications in the [calendar widget](#calendar-widget).
+    You can also view, [reschedule, and cancel](#rescheduling-or-cancelling-events) future publications in the [calendar widget](#calendar-widget).
 
     ## Timeline
 
@@ -55,27 +55,27 @@
     ## Calendar widget
     
     The calendar widget enables you to view and perform actions on various events.
-    Out of the box, it displays Content items scheduled for future publication, but your page administator can configure custom events.
-    Therefore, it can contain other events, e.g. national holidays, important dates, etc.
+    Out of the box, it displays Content items scheduled for future publication, but your page administrator can configure custom events.
+    Therefore, the calendar can contain other events, e.g. national holidays, important dates, etc.
     
     To access the calendar widget, in the **Content Panel**, open the **Calendar** tab.
     
     ![Calendar widget](img/calendar_widget.png "Calendar widget")
     
-    You can switch between different views and access filters.
+    You can switch between different views and use filters.
     
     |Button|Description|
     |------|-----------|
     |![Today button](img/calendar_widget_today.png)|Display the current day regardless of the view.|
     |![Arrows](img/calendar_widget_arrows.png)|Navigate through months, weeks, or days.|
-    |![Toggle month/week/day](img/calendar_widget_toggler_mwd.png)|Switch between the month, week, or day view.|
+    |![Toggle month/week/day](img/calendar_widget_toggler_mwd.png)|Switch between month, week, or day view.|
     |![Toggle calendar/list](img/calendar_widget_toggler_cal_list.png)|Switch between the calendar and list view,|
     |![Filters](img/calendar_widget_filters.png)|Access and apply calendar filters.|
     
     ### Calendar filters
         
     With numerous events appearing in the calendar widget, you can declutter the view by applying filters.
-    You can filter by the events' type or modified language in all three — month, week, and day — views.
+    You can filter by the events' type or modified language in all three views (month, week, and day).
         
     Access all available filters by clicking the **Filters** button.
          
@@ -109,10 +109,10 @@
     |![Reschedule button](img/selection_action_bar_reschedule.png)|Reschedule all selected events.|
     |![Discard button](img/selection_action_bar_discard.png)|Cancel the future publication of selected events.|
     
-    Select all events to perform a bulk action on them.
+    Select all events you want to perform a bulk action on.
     Using the toolbar buttons, perform one of the following actions:
     
     - To change the publication time, click the **Reschedule** button.
-    In the **Reschedule** content modal window, select the new date and click **Confirm reschedule**.
+    In the **Reschedule** modal window, select the new date and click **Confirm reschedule**.
     - To cancel event's publication, click the **Unschedule** button.
     In the modal window, confirm the cancellation by clicking **Discard scheduling**.
