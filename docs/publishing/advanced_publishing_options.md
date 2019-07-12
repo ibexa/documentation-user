@@ -70,25 +70,49 @@
     |![Arrows](img/calendar_widget_arrows.png)|Navigate through months, weeks, or days.|
     |![Toggle month/week/day](img/calendar_widget_toggler_mwd.png)|Switch between the month, week, or day view.|
     |![Toggle calendar/list](img/calendar_widget_toggler_cal_list.png)|Switch between the calendar and list view,|
-    |![Filters](img/calendar_widget_filters.png)|Access and apply [filters](#filters).|
+    |![Filters](img/calendar_widget_filters.png)|Access and apply calendar filters.|
     
-    The widget comes with a toolbar that displays events you select and gives you access to actions assigned to them.
+    ### Calendar filters
+        
+    With numerous events appearing in the calendar widget, you can declutter the view by applying filters.
+    You can filter by the event's type or modified language in all three — month, week, and day — views.
+        
+    Access all available filters by clicking the **Filters** button.
+         
+    ![Viewing filters](img/calendar_widget_apply_filters.png "Viewing calendar filters")
+        
+    To apply filters, select or deselect entities from the **Types** or **Modified language** list.
+    The calendar view refreshes automatically.
+    
+    ### Calendar toolbar
+    
+    The calendar widget toolbar displays events you select and gives you access to actions assigned to them.
+    The available actions appear in the upper-right corner of the toolbar.
     You can select multiple events of the same type and perform bulk actions on them.
     
+    !!! note
+            
+        Actions available in the toolbar may vary depending on the custom configuration.
+        For details, contact your page administrator.
+                
     
-    Actions available in the toolbar may vary depending on the custom configuration.
-    For details, contact your page administrator.
+    To select, click on all events you want to add to the toolbar list.
     
     ![Calendar widget toolbar](img/selection_action_bar.png "Calendar widget toolbar")
     
-    In case of Content items that can be published (e.g. articles), you can change their publication time or discard future publishing.
+    #### Rescheduling or cancelling events
+    
+    In case of publishable events (e.g. articles), using the toolbar, you can change or cancel their future publication.
     
     |Button|Description|
     |------|-----------|
-    |![Reschedule button](img/selection_action_bar_reschedule.png)|Reschedule all selected Content items.|
-    |![Discard button](img/selection_action_bar_discard.png)|Discard future publication of selected Content items.|
+    |![Reschedule button](img/selection_action_bar_reschedule.png)|Reschedule all selected events.|
+    |![Discard button](img/selection_action_bar_discard.png)|Cancel the future publication of selected events.|
     
-    ### Filters
+    Select all events to perform a bulk action on them.
+    Using the toolbar buttons, perform one of the following actions:
     
-    
-    
+    - To change the publication time, click the **Reschedule** button.
+    In the **Reschedule** content modal select new date and click **Confirm reschedule**.
+    - To cancel event's publication, click the **Unschedule** button.
+    In the modal, confirm the cancellation by clicking **Discard scheduling**.
