@@ -41,7 +41,7 @@
 
     ![Discard Publish Date button in the menu](img/discard_publish_date.png "Discard Publish Date button in the menu")
     
-    You can also view, reschedule, and discard planned Content items in the [calendar widget](#calendar-widget).
+    You can also view, [reschedule and cancel](#rescheduling-or-cancelling-events) future publications in the [calendar widget](#calendar-widget).
 
     ## Timeline
 
@@ -75,7 +75,7 @@
     ### Calendar filters
         
     With numerous events appearing in the calendar widget, you can declutter the view by applying filters.
-    You can filter by the event's type or modified language in all three — month, week, and day — views.
+    You can filter by the events' type or modified language in all three — month, week, and day — views.
         
     Access all available filters by clicking the **Filters** button.
          
@@ -87,8 +87,8 @@
     ### Calendar toolbar
     
     The calendar widget toolbar displays events you select and gives you access to actions assigned to them.
-    The available actions appear in the upper-right corner of the toolbar.
-    You can select multiple events of the same type and perform bulk actions on them.
+    The available actions appear in the upper-right corner of the toolbar when you select an event.
+    You can select multiple events of the same type and perform bulk actions on them, e.g. [reschedule or cancel publication](#rescheduling-or-cancelling-events).
     
     !!! note
             
@@ -102,7 +102,7 @@
     
     #### Rescheduling or cancelling events
     
-    In case of publishable events (e.g. articles), using the toolbar, you can change or cancel their future publication.
+    In case of publishable events (e.g. articles), you can change or cancel their planned publication by using the toolbar buttons.
     
     |Button|Description|
     |------|-----------|
@@ -113,6 +113,6 @@
     Using the toolbar buttons, perform one of the following actions:
     
     - To change the publication time, click the **Reschedule** button.
-    In the **Reschedule** content modal select new date and click **Confirm reschedule**.
+    In the **Reschedule** content modal window, select the new date and click **Confirm reschedule**.
     - To cancel event's publication, click the **Unschedule** button.
-    In the modal, confirm the cancellation by clicking **Discard scheduling**.
+    In the modal window, confirm the cancellation by clicking **Discard scheduling**.
