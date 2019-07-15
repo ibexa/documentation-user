@@ -1,4 +1,4 @@
-## Flex workflow
+# Flex workflow
 
 !!! enterprise
 
