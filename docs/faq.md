@@ -111,7 +111,7 @@ See [SiteAccess](https://doc.ezplatform.com/en/latest/guide/siteaccess/) for mor
 
 You can control the look of your website with great precision by creating and applying Twig templates. You can also create custom layouts for Pages.
 
-See [Design](https://doc.ezplatform.com/en/latest/guide/design/) for more technical information.
+See [Design](https://doc.ezplatform.com/en/latest/guide/design_engine/) for more technical information.
 
 ### Support
 
@@ -255,7 +255,7 @@ You can create a new Page in the Page mode by clicking **Create**. See [Working 
 
 Here is the list of predefined Page blocks.
 
-You also have the possibility of [creating your own, custom blocks](https://doc.ezplatform.com/en/latest/guide/extending_page.md#page-blocks).
+You also have the possibility of [creating your own, custom blocks](https://doc.ezplatform.com/en/latest/guide/extending_page/#creating-custom-page-blocks).
 
 **How can I have my Content reviewed by other users?**
 
