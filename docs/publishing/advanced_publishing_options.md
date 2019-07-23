@@ -96,7 +96,7 @@
         For details, contact your page administrator.
                 
     
-    To select, click on all events you want to add to the toolbar list.
+    To select, click on all events of the same type you want to add to the toolbar list.
     
     ![Calendar widget toolbar](img/selection_action_bar.png "Calendar widget toolbar")
     
