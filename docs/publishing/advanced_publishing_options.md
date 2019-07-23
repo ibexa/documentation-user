@@ -62,7 +62,15 @@
     
     ![Calendar widget](img/calendar_widget.png "Calendar widget")
     
-    You can switch between different views and use filters.
+    You can switch between different views to see events planned for a certain day, week, or month.
+    You can also use [filters](#calendar-filters) to focus on certain events displayed in the calendar.
+    
+    !!! tip
+    
+        If there is a large number of events to display in a selected view, some of the events remain hidden. 
+        To view the full list, click **Load More**.
+    
+    To access the calendar features, use the following buttons:
     
     |Button|Description|
     |------|-----------|
