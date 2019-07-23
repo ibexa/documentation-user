@@ -67,8 +67,8 @@
     
     !!! tip
     
-        If there is a large number of events to display in a selected view, some of the events remain hidden. 
-        To view the full list, click **Load More**.
+        If the number of events to display in a selected view exceeds the configured limit, some events remain hidden. 
+        To view the full list of events, click **Load More**.
     
     To access the calendar features, use the following buttons:
     
