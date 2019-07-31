@@ -109,19 +109,19 @@ Yes, every Content item can have multiple language versions. See [Languages](cre
 
 It is a collection of configuration settings provided when accessing a website. A single site can have multiple SiteAccesses which define the content and design of the page that will be displayed. This functionality can be used for example to create separate versions of the website for visitors and for administrators, or for different language versions.
 
-See [SiteAccess](https://doc.ezplatform.com/en/latest/guide/siteaccess/) for more technical information.
+See [SiteAccess](https://doc.ezplatform.com/en/1.7/guide/siteaccess/) for more technical information.
 
 **How can I customize the look of my website?**
 
 You can control the look of your website with great precision by creating and applying Twig templates. You can also create custom layouts for Landing Pages.
 
-See [Design](https://doc.ezplatform.com/en/latest/guide/design/) for more technical information.
+See [Landing Page layouts](https://doc.ezplatform.com/en/1.7/guide/landing_page_rendering/#landing-page-layouts) for more technical information.
 
 ### Support
 
 **Where is the technical documentation?**
 
-Technical documentation for eZ Platform and eZ Enterprise is available in: [eZ Developer documentation](https://doc.ezplatform.com).
+Technical documentation for eZ Platform and eZ Enterprise is available in [eZ Developer documentation](https://doc.ezplatform.com).
 
 You can find the technical documentation for eZ Publish 5.x (an earlier version) in [eZ Publish 5.x Developer Documentation](https://doc.ez.no/display/EZP/eZ+Publish+5.x+Developer+Documentation).
 
@@ -260,7 +260,7 @@ You can create a new Landing Page in the Page mode by clicking **Create**. See [
 
 Here is the list of predefined Landing Page blocks.
 
-You also have the possibility of [creating your own, custom blocks](https://doc.ezplatform.com/en/latest/cookbook/creating_landing_page_blocks_(enterprise)/).
+You also have the possibility of [creating your own, custom blocks](https://doc.ezplatform.com/en/1.7/guide/landing_page_rendering/#landing-page-blocks).
 
 **How can I make content appear on a page at a predefined time?**
 

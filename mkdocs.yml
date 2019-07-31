@@ -5,10 +5,10 @@ pages:
     - 'Documentation': 'index.md'
     - 'Getting started': 'getting_started.md'
     - 'Content model': 'content_model.md'
-    - 'Creating content, basic': 'creating_content_basic.md'
+    - 'Creating content — basic': 'creating_content_basic.md'
     - 'Organizing the content': 'organizing_the_content.md'
     - 'Publishing': 'publishing.md'
-    - 'Creating content, advanced': 'creating_content_advanced.md'
+    - 'Creating content — advanced': 'creating_content_advanced.md'
     - 'Organizing the site': 'organizing_the_site.md'
     - 'FAQ': 'faq.md'
 theme:

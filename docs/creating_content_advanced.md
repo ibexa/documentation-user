@@ -30,7 +30,7 @@ After adding a language, you may have to reload the application to be able to us
     However, depending on the way your website is set up, additional configuration may be necessary
     for the new language to work properly, especially with SiteAccesses.
     It is recommended you contact your administrator and inform them if you need to add a new language to the website
-    (see [the technical documentation on language versions](https://doc.ezplatform.com/en/latest/guide/internationalization/)).
+    (see [the technical documentation on language versions](https://doc.ezplatform.com/en/1.7/guide/internationalization/)).
 
 ### SiteAccess
 
@@ -45,7 +45,7 @@ You can use this bar to switch between and work on the different versions.
 
 ![Top bar with list of siteaccesses](img/siteaccess_bar.png "Top bar with list of SiteAccesses")
 
-Siteaccess must be [set up by the administrator of the installation](https://doc.ezplatform.com/en/latest/guide/siteaccess/).
+Siteaccess must be [set up by the administrator of the installation](https://doc.ezplatform.com/en/1.7/guide/siteaccess/).
 
 ## Forms
 
