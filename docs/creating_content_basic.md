@@ -18,7 +18,7 @@ When uploading files the Content Type will be chosen automatically.
 
 !!! enterprise
 
-    If you are using eZ Enterprise, you will have the [*Landing Page*]((#working-with-a-landing-page)) Content Type available for selection.
+    If you are using eZ Enterprise, you will have the [*Landing Page*](#working-with-a-landing-page) Content Type available for selection.
 
 Each Content item is based on a Content Type. The Content Type defines what Fields you have to fill in when creating a new item.
 It may also determine the layout or style in which this item is displayed.
@@ -58,7 +58,7 @@ The option bar also lets you reorder or remove any elements in the Rich Text Fie
 In image options you can select an image variation.
 Variations can include different sizing options and other filters that are applied to images.
 Available image variations must be configured at the developer level.
-See [Images](https://doc.ezplatform.com/en/latest/guide/images/) for a technical guide on how to do this.
+See [Images](https://doc.ezplatform.com/en/1.13/guide/images/) for a technical guide on how to do this.
 
 #### Tables
 
@@ -107,7 +107,7 @@ You can select a SiteAccess to preview by using a dropdown in the preview screen
     ![Dragging a block onto a zone](img/dragging_lp_block.png "Dragging a block onto a zone")
 
     eZ Enterprise comes with a set of ready-to-use Landing Page blocks,
-    but [developers can add their own](https://doc.ezplatform.com/en/latest/cookbook/creating_landing_page_blocks_(enterprise)/). The blocks provided out of the box are:
+    but [developers can add their own](https://doc.ezplatform.com/en/1.13/guide/landing_page_rendering/#landing-page-blocks). The blocks provided out of the box are:
 
     - Content List - displays Content items of a chosen Content Type (or Types) that are contained in a folder.
     - Banner - displays an image Content item with a URL attached to it.
