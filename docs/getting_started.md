@@ -11,7 +11,7 @@ and provides a user interface to work with the content and administer the platfo
     eZ Platform Enterprise Edition is a commercial product built on top of the open-source eZ Platform.
     It offers additional functionalities and enhancements to the editing experience.
 
-    eZ Enterprise provides advanced editorial capabilities such as [in-page editing](creating_content_basic.md#working-with-a-page), creation of [block-based Pages](creating_content_basic.md#working-with-a-page), [editorial workflow](publishing.md#review-workflow), etc.
+    eZ Enterprise provides advanced editorial capabilities such as [in-page editing](working_with_page.md), creation of [block-based Pages](working_with_page.md#adding-blocks), [editorial workflow](publishing/editorial_workflow.md), etc.
 
 ## Quick start
 

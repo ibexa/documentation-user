@@ -6,7 +6,7 @@
 
     !!! note
 
-        Flex Workflow is available only when there is no [editorial workflow](editorial-workflow) for this Content Type.
+        Flex Workflow is available only when there is no [editorial workflow](editorial_workflow.md) for this Content Type.
 
     When working on a Content item draft, do not publish it,
     but instead click **Send for review** in the menu and select a user.
