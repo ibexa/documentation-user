@@ -20,7 +20,7 @@ When uploading files, the Content Type will be chosen automatically.
 
     If you are using eZ Enterprise Edition,
     you will have the *Page* Content Type available for selection.
-    Pages are edited in the Page Builder, [see working with Page section.](working_with_page.md)
+    Pages are edited in the Page Builder, see [working with Page section](working_with_page.md).
 
 Each Content item is based on a Content Type. The Content Type defines what Fields you have to fill in when creating a new item.
 It may also determine the layout or style in which this item is displayed.
@@ -66,7 +66,7 @@ This will open the window to create the link. In the **Link to box**, enter the 
 In image options you can select an image variation.
 Variations can include different sizing options and other filters that are applied to images.
 Available image variations must be configured at the developer level.
-See [Images](https://doc.ezplatform.com/en/latest/guide/images/) for a technical guide on how to do this.
+See [Images](https://doc.ezplatform.com/en/master/guide/images/) for a technical guide on how to do this.
 
 #### Tables
 
@@ -96,4 +96,4 @@ You can select a SiteAccess to preview by using a dropdown in the preview screen
 
 If you are ready to publish the Content item, in the menu, click **Publish**.
 To save the Content item as a draft to finish editing it later, click **Save**.
-For more details, see [Publishing](publishing/publishing.md).
+For more details, see [Publishing Content](publishing/publishing.md).

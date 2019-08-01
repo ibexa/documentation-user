@@ -3,7 +3,7 @@
 When you **Publish** a Content item, it is given a Location ID and placed in the Content tree.
 It is then immediately available to the visitor.
 
-Instead of instantly publishing you can also save, discard changes, [publish later](#date-based-publishing) and [send for review](#review-workflow).
+Instead of instantly publishing you can also save, discard changes, [publish later](advanced_publishing_options.md#date-based-publishing) and [send for review](flex_workflow.md).
 All these options are available in the menu when you are in the edit mode.
 
 ![Publishing options](img/publishing_options.png "Publishing options")
