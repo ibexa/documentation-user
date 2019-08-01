@@ -14,7 +14,7 @@
         In your workflows you can have different stages and transition between them.
 
         Contact your administrator or developer team to configure workflows.
-        See [developer documentation](https://doc.ezplatform.com/en/latest/guide/workflow/) for information on how to do it.
+        See [developer documentation](https://doc.ezplatform.com/en/2.5/guide/workflow/) for information on how to do it.
 
     You can view Content items which are in different stages under review in the Dashboard in the Review queue table.
     The table will only show the Content items that you have permissions to edit.
