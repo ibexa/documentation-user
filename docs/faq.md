@@ -105,19 +105,19 @@ Yes, every Content item can have multiple language versions. See [Languages](cre
 
 It is a collection of configuration settings provided when accessing a website. A single site can have multiple SiteAccesses which define the content and design of the page that will be displayed. This functionality can be used for example to create separate versions of the website for visitors and for administrators, or for different language versions.
 
-See [SiteAccess](https://doc.ezplatform.com/en/latest/guide/siteaccess/) for more technical information.
+See [SiteAccess](https://doc.ezplatform.com/en/master/guide/siteaccess/) for more technical information.
 
 **How can I customize the look of my website?**
 
 You can control the look of your website with great precision by creating and applying Twig templates. You can also create custom layouts for Pages.
 
-See [Design](https://doc.ezplatform.com/en/latest/guide/design_engine/) for more technical information.
+See [Design](https://doc.ezplatform.com/en/master/guide/design_engine/) for more technical information.
 
 ### Support
 
 **Where is the technical documentation?**
 
-Technical documentation for eZ Platform and eZ Enterprise is available in: [eZ Developer documentation](https://doc.ezplatform.com).
+Technical documentation for eZ Platform and eZ Enterprise is available in [eZ Developer documentation](https://doc.ezplatform.com).
 
 You can find the technical documentation for eZ Publish 5.x (an earlier version) in [eZ Publish 5.x Developer Documentation](https://doc.ez.no/display/EZP/eZ+Publish+5.x+Developer+Documentation).
 
@@ -249,13 +249,13 @@ A Page has a customizable layout with multiple zones where you can place predefi
 
 **How do I create a Page?**
 
-You can create a new Page in the Page mode by clicking **Create**. See [Working with a Page](creating_content_basic.md#working-with-a-page) for more information.
+You can create a new Page in the Page mode by clicking **Create**. See [working with a Page](working_with_page.md) for more information.
 
 **What blocks can I add to a Page?**
 
 Here is the list of predefined Page blocks.
 
-You also have the possibility of [creating your own, custom blocks](https://doc.ezplatform.com/en/latest/guide/extending_page/#creating-custom-page-blocks).
+You also have the possibility of [creating your own, custom blocks](https://doc.ezplatform.com/en/master/guide/extending_page/#creating-custom-page-blocks).
 
 **How can I have my Content reviewed by other users?**
 

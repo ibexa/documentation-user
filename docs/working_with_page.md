@@ -68,7 +68,7 @@
     You can reorder them at any time by dragging and dropping them in the desired location.
     
     eZ Enterprise comes with a set of ready-to-use Page blocks,
-    but [developers can add their own](https://doc.ezplatform.com/en/latest/guide/extending_page/#creating-page-blocks).
+    but [developers can add their own](https://doc.ezplatform.com/en/master/guide/extending_page/#creating-page-blocks).
     
     ![Elements menu](img/elements_menu.png "Elements menu")
     
@@ -165,6 +165,15 @@
     and add to the collection Content items of any Content Type you want.
     All selected Content items appear in the **Confirmed items** box at the bottom of the window.
     When done selecting, click **Confirm**.
+    
+    Click **Submit** to save the changes or **Discard** to cancel.
+    
+    ### Embed block
+    
+    In the **Basic** tab, perform the following actions:
+    
+    - In the **Name** box, provide the name of the block that will appear on the Page.
+    - Select content to embed by clicking **Select content**. Navigate to a Content item, select it and click **Confirm**.
     
     Click **Submit** to save the changes or **Discard** to cancel.
     
