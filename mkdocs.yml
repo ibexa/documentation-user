@@ -42,8 +42,8 @@ extra:
       url: '/projects/userguide'
     - title: 'eZ Platform Developer Documentation'
       url: '/'
-    - title: 'eZ Services Documentation'
-      url: '/projects/ezservices'
+    - title: 'eZ Personalization Documentation'
+      url: '/projects/ezpersonalization'
 
 extra_css:
   - fonts/MavenPro.css
