@@ -7,7 +7,7 @@ Source for the [user documentation for eZ Platform](https://doc.ezplatform.com/p
 1. eZ Platform Repository: https://github.com/ezsystems/ezplatform
 1. Open JIRA board: https://jira.ez.no/
 1. eZ Systems Website: https://ez.no/
-1. Personalization Solution: https://doc.ezplatform.com/projects/ezservices/en/latest/
+1. Personalization Solution: https://doc.ezplatform.com/projects/ezpersonalization/en/latest/
 
 ## How to Contribute
 https://doc.ezplatform.com/en/master/community_resources/contributing/#contribute-to-documentation
