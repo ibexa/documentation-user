@@ -95,5 +95,5 @@ You can select a SiteAccess to preview by using a dropdown in the preview screen
 ## Publishing content
 
 If you are ready to publish the Content item, in the menu, click **Publish**.
-To save the Content item as a draft to finish editing it later, click **Save**.
+To save the Content item as a draft to finish editing it later, click **Save**, or **X** icon in the upper left corner, or browser’s **back button**.
 For more details, see [Publishing Content](publishing/publishing.md).

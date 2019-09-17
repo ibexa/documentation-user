@@ -213,7 +213,7 @@ You can preview your content while editing it by clicking one of the icons under
 
 **What is the difference between saving and publishing content?**
 
-The **Save** function allows you to save the current working copy as a draft to potentially reuse it later. The new version will not be published and, consequently, not visible as published content on the website or through the API.
+The **Save** function, **X** icon in the upper left corner and browser’s **back button** allow you to save the current working copy as a draft to potentially reuse it later. The new version will not be published and, consequently, not visible as published content on the website or through the API.
 
 The **Publish** function allows you to publish the final version of the content object. As a result, the working copy turns into the published version that is visible on the website and available through the API as a publish content.
 
