@@ -13,12 +13,13 @@ All these options are available in the menu when you are in the edit mode.
 Choosing **Save** does not immediately publish the Content item.
 Instead, it will save the new version of the content as a **Draft**.
 You can then keep on editing the same content and save it again when needed.
-You can then leave the editor by using the X icon in the upper left corner.
+You can then leave the editor by using the **X** icon in the upper left corner, it will also save the working copy as a draft.
 
 !!! caution
 
-    Selecting **Delete draft** will remove the whole draft and all the work you have done on it.
+    Only selecting **Delete draft** removes the whole draft and all the work you have done on it.
     A discarded draft is removed instantly, not placed in the Trash, so it can't be restored.
+    The **X** icon in the upper left corner and the browser's **back button** will save the current Content item as a draft.
 
 Once you leave the editor after saving your draft, you can return to modify it, or create a new draft.
 To edit an existing draft, go to the **Versions** tab and click the edit icon in the proper line.
