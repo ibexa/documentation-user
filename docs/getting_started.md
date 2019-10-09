@@ -31,6 +31,7 @@ For example, if your website's URL is `www.my-site.com`, you enter the editing i
 The first screen after logging in is the Dashboard. It contains shortcuts to most commonly used content:
 review queue, your drafts, the content you have created, recently modified content, etc.
 You can select any of these items and view them in detail or start editing them from this point.
+You can also reschedule or cancel planned publications using the Dashboard.
 
 ![Dashboard](img/dashboard.png "Dashboard")
 

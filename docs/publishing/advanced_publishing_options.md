@@ -96,7 +96,7 @@
     
     The calendar widget toolbar displays events you select and gives you access to actions assigned to them.
     The available actions appear in the upper-right corner of the toolbar when you select an event.
-    You can select multiple events of the same type and perform bulk actions on them, e.g. [reschedule or cancel publication](#rescheduling-or-cancelling-events).
+    You can select multiple events of the same type and perform bulk actions on them, e.g. [reschedule or cancel publication](#Rescheduling-or-cancelling-events-by-using-Calendar-toolbar).
     
     !!! note
             
@@ -108,16 +108,34 @@
     
     ![Calendar widget toolbar](img/selection_action_bar.png "Calendar widget toolbar")
     
-    #### Rescheduling or cancelling events
+    ## Rescheduling or cancelling events
     
-    In case of publishable events (e.g. articles), you can change or cancel their planned publication by using the toolbar buttons.
+    In case of publishable Content items (e.g. articles), you can change or cancel their planned publication using the **Reschedule** or **Unschedule** buttons.
+    The buttons are accessible in [the Dashboard](#rescheduling-or-cancelling-in-dashboard) and [the Calendar widget](#rescheduling-or-cancelling-by-using-calendar-toolbar).
     
     |Button|Description|
     |------|-----------|
     |![Reschedule button](img/selection_action_bar_reschedule.png)|Reschedule all selected events.|
     |![Discard button](img/selection_action_bar_discard.png)|Cancel the future publication of selected events.|
     
-    Select all events you want to perform a bulk action on.
+    #### Rescheduling or cancelling in Dashboard
+    
+    To reschedule or cancel events in the Dashboard, perform the following actions:
+    
+    1. Open the Dashboard by clicking the eZ logo in the left-upper corner.
+    1. In the **Me** panel, view all your scheduled Content items by clicking **My scheduled**.
+    1. From **My Publications scheduled**, select all Content items to have its publication time rescheduled or cancelled.
+    1. Using the toolbar buttons, perform one of the following actions:
+        - To change the publication time, click the **Reschedule** button.
+          In the **Reschedule publication** modal window, select the new date and click **Confirm reschedule**.
+        - To cancel publication, click the **Unschedule** button.
+          In the modal window, confirm the cancellation by clicking **Discard scheduling**.
+          
+    ![Reschedule or cancel in Dashboard](img/reschedule_cancel_dashboard.png)
+    
+    #### Rescheduling or cancelling by using Calendar toolbar
+    
+    In [the Calendar widget](#calendar-widget), select all events to have its publication time rescheduled or cancelled.
     Using the toolbar buttons, perform one of the following actions:
     
     - To change the publication time, click the **Reschedule** button.
