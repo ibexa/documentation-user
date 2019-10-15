@@ -127,11 +127,11 @@
     1. Open the Dashboard by clicking the eZ logo in the left-upper corner.
     1. In the **Me** panel, view all your scheduled Content items by clicking **My scheduled**.
     1. From **My Publications scheduled**, select all Content items to have their publication time rescheduled or cancelled.
-    1. Using the buttons in the upper-right corner, perform one of the following actions:
+    1. Using the buttons in the upper-right corner, perform one or both of the following actions:
         - To change the publication time, click the **Reschedule** button.
           In the **Reschedule publication** modal window, select the new date and click **Confirm reschedule**.
         - To cancel publication, click the **Unschedule** button.
-          In the modal window, confirm the cancellation by clicking **Discard scheduling**.
+          In the modal window, confirm the cancellation by selecting **Discard scheduling**.
           
     ![Reschedule or cancel in Dashboard](img/reschedule_cancel_dashboard.png "Rescheduling or cancelling in the Dashboard")
     
