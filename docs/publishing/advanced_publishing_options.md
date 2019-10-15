@@ -113,7 +113,7 @@
     ## Rescheduling or cancelling publications
     
     In case of publishable Content items (e.g. articles), you can change or cancel their planned publication using the **Reschedule** or **Unschedule** buttons.
-    These buttons are accessible in the [Dashboard](#rescheduling-or-cancelling-in-dashboard) and the [Calendar widget](#rescheduling-or-cancelling-with-calendar-toolbar).
+    These buttons are accessible in the Dashboard and the Calendar widget.
     
     |Button|Description|
     |------|-----------|
