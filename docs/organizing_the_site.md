@@ -3,7 +3,7 @@
 ## Content Types
 
 Content Types are created in the **Admin Panel**.
-Click **Content types** in the panel and you will see groups into which the types are organized.
+Click **Content Ttypes** in the panel and you will see groups into which the types are organized.
 You can add your own groups here to keep your Content Types in better order.
 Each group lists all the Content Types belonging to it, where you can modify the existing ones or add new ones.
 
@@ -19,9 +19,9 @@ Every Content Type has the following general settings:
 |Content name pattern|Rules for creating the name for a Content item.|
 |URL alias name pattern|Rules for creating the URL alias for a Content item.|
 |Container|When checked, Content of this Type can serve as a container in the Content tree.|
-|Default field for sorting children|Criterion by which children of this content will be sorted in the tree.|
-|Default sort order|Order in which the children will be sorted (ascending or descending).|
-|Default content availability|When checked, content of this Type will by default be always available, even if it does not have a language version corresponding to the current SiteAccess.|
+|Sort children by default by|Criterion by which children of this content will be sorted in the tree.|
+|Sort children by default in order|Order in which the children will be sorted (ascending or descending).|
+|Make content available even with missing translations|When checked, content of this Type will by default be always available, even if it does not have a language version corresponding to the current SiteAccess.|
 
 To add a Field to the new Content Type, select a [Field Type](content_model.md#fields-and-field-types)
 in the Field Type selection drop-down menu and click **Add field definition**.
@@ -113,11 +113,11 @@ The Editor-in-Chief Role would have the most Policies (although you may want to 
 Regular Editors need Policies allowing them to create, modify, and delete content.
 Contributors can be given Policies permitting them to only create content.
 
-If you want to prohibit Editors from accessing content in newspaper sections other than their own, you can add limitations to their Policies.
+If you want to prohibit Editors from accessing content in newspaper sections other than their own, you can add Limitations to their Policies.
 This means that instead of one Editor, you need to have separate Roles for each editor profile:
 Local Editor, Sports Editor, etc. All of these Roles will have the same Policies,
-but to each Policy you need to assign a limitation which would mean that the permission covers only one Section
-(Sports section, Local News section etc.) that the editor works in.
+but to each Policy you need to assign a Limitation which would mean that the permission covers only one Section
+(Sports Section, Local News Section etc.) that the editor works in.
 
 Aside from Policies that define access to Content items, there are also many other Policy types concerned with administrating the system.
 They cover actions such as activating new Users, creating Sections, modifying Content Types, etc.

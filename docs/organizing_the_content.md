@@ -19,7 +19,7 @@ Even if a Content item is placed in more than one Location, one of the Locations
 To assign other Locations to content, view this Content item's **Location** tab and click the plus button.
 Then select the new parent from the Content Browser.
 
-![Content with two locations](img/content_with_two_locations.png "Content with two locations")
+![Content with two locations](img/content_with_two_locations.png "Content with two Locations")
 
 ### Hiding Locations
 
@@ -84,7 +84,7 @@ It is moved to Trash, which you can access from the left menu.
 In the Trash, you can select removed Content items and restore them to their original Locations or to new Locations you choose.
 If the Content item's parent has been removed, you need to select a new parent Location.
 
-![Warning before emptying the trash](img/empty_trash_warning.png "Warning before emptying the trash")
+![Warning before emptying the trash](img/empty_trash_warning.png "Warning before emptying the Trash")
 
 If a Content item has more than one Location, selecting **Send to Trash** will remove the Content item only from the current Location.
 The content will appear in Trash only once you have removed the last Location.
@@ -118,17 +118,17 @@ You can add URL aliases in the URL tab under **Custom URL aliases for <Content n
 For each new alias, you can set the following options:
 
 - Language - the language of the Content item that the alias redirects to.
-- Alias should redirect to its destination - when toggled on, the alias will redirect to the Content item's actual URL.
-- Place alias at the site root - when toggled, the alias will be created in the root of the site.
+- Redirect to alias destination - when toggled on, the alias will redirect to the Content item's actual URL.
+- Place at the site root - when toggled, the alias will be created in the root of the site.
 If this is toggled off, the alias will be relative to the parent of the Content item.
 
 ## Sections
 
 You can divide your Content tree into Sections to better organize it.
-Sections let you decide which users will have access to which parts of the tree.
+Sections let you decide which Users will have access to which parts of the tree.
 To see which Section a Content item belongs to, look at its **Details** tabs.
 
-You can set up Sections in the **Admin Panel**, in the **Sections** tab.
+You can set up Sections in **Admin**, in the **Sections** tab.
 A few Sections are provided with each installation, and you can add new ones.
 
 ![List of Sections](img/sections.png "List of Sections")
@@ -144,7 +144,7 @@ Access to Sections can be restricted by [setting up proper permissions](organizi
 ## Object states
 
 You can assign specific Object states to all Content items in your site.
-You can do it when viewing the Content item, in the **Details** tab, in the **State details** section.
+You can do it when viewing the Content item, in the **Details** tab, in the **Object state details** section.
 
 ![Object state details](img/object_state_details.png)
 
