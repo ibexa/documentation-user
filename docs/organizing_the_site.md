@@ -3,7 +3,7 @@
 ## Content Types
 
 Content Types are created in the **Admin Panel**.
-Click **Content Ttypes** in the panel and you will see groups into which the types are organized.
+Click **Content Types** in the panel and you will see groups into which the types are organized.
 You can add your own groups here to keep your Content Types in better order.
 Each group lists all the Content Types belonging to it, where you can modify the existing ones or add new ones.
 

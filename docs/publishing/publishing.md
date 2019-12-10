@@ -31,7 +31,7 @@ Note that you cannot edit an unpublished draft created by another user.
 ### Content versions
 
 Content in the repository can have more than one version.
-Each version is either published, archived or a draft.
+Each version is either published, archived, or a draft.
 
 The **published version** is the version that is currently used on the website.
 Every Content item can have only one published version at a time.
