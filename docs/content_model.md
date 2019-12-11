@@ -8,7 +8,7 @@ eZ Platform lets you customize and adapt the content model depending on your nee
 
 Depending on your organization, if you are an editor or a content creator,
 it is possible that the content model for your installation has already been created by your administrator or content manager.
-However, even a non-technical user can easily create or modify the Content Model through the editing interface.
+However, even a non-technical user can easily create or modify the content model through the editing interface.
 
 ## Content Types
 
@@ -95,16 +95,16 @@ The **Browse** option on the left allows you to browse through all the content o
 
 ![Content browser in the menu](img/left_menu_browse.png "Content browser in the menu")
 
-User accounts, which are also considered content in eZ Platform, are viewable in the **Users** tab accessible in the **Admin Panel** (see [Users](organizing_the_site.md#users)).
+User accounts, which are also considered content in eZ Platform, are viewable in the **Users** tab accessible in **Admin** (see [Users](organizing_the_site.md#users)).
 
-During your work with eZ Platform you will often be asked to select content from the repository.
+During your work with eZ Platform you will often be asked to select content from the Repository.
 This happens for example when you want to move or copy a Content item, embed an image, link two Content items, etc.
 In such cases you will make use of the **Content Browser**.
 
 The **Content Browser** enables you to navigate through all content in the site, including regular content, media, and User accounts.
 You can also use it to search the repository for content, and to create new content when needed.
 
-![Universal Discovery Widget](img/udw.png "Universal Discovery Widget")
+![Content Browser](img/udw.png "Content Browser")
 
 ### Content Tree
 

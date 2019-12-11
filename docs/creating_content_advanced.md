@@ -90,6 +90,6 @@ SiteAccess must be [set up by the administrator of the installation](https://doc
     Here you can view the details of each submission.
     You can also delete any submissions (for example if they were made while testing or contain spam).
 
-    The **Download Submissions** button enables you to download all the submissions in a .CSV (comma-separated value) file.
+    The **Download submissions** button enables you to download all the submissions in a .CSV (comma-separated value) file.
 
     ![Form Builder submissions](img/form_builder_submissions.png)

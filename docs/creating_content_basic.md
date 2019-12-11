@@ -8,7 +8,7 @@ There are four ways of creating a new Content item:
 The new item appears under the current Content item in the tree.
 1. Click **Create** in the upper-right corner of the Dashboard.
 In this case you have to select where the content will be located.
-1. Go to the **Create** tab in the *Universal Discovery Widget*.
+1. Go to the **Create** tab in the *Content Browser*.
 Here also you have to choose a location for the new item.
 1. Drag files onto the **Sub-items** box when viewing any content or click the upload button and select files to upload.
 In this way you can upload files such as images, videos, PDF documents, etc.
@@ -46,6 +46,9 @@ To add a new element to the Field, select the plus icon to the left of the box a
 - Image
 - Embed
 - Table
+- YouTube
+- Twitter
+- Facebook
 
 ![Available Rich Text block elements](img/rich_text_block_elements.png "Available Rich Text block elements")
 

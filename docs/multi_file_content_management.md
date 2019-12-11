@@ -12,14 +12,13 @@ When a file is uploaded using multi-file upload, it is automatically stored in a
 ### Multi-file move
 
 To move multiple items, select them and click **Move selected items** from the **Sub-items** top bar.
-Then choose a Location from the **Choose location** modal that opens up.
+Then choose a Location from the **Choose Location** modal that opens up.
 After choosing and confirming new Location, all selected files are moved to it.
 
 ![Multi-file move](img/multi_file_move.png)
 
 ### Multi-file delete
 
-To delete multiple items, select them and click **Delete selected items** in the **Sub-items** top bar. Confirm your choice in the pop-up window with the **Send to trash** button. All selected files will be moved to trash.
+To delete multiple items, select them and click **Delete selected items** in the **Sub-items** top bar. Confirm your choice in the pop-up window with the **Send to Trash** button. All selected files will be moved to trash.
 
 ![Multi-file delete](img/multi_file_delete.png)
-

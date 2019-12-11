@@ -12,7 +12,7 @@
         
     ## Creating Page
     
-    To create a new Page, in the upper toolbar click **Content** and from the list below select **Content Structure**.
+    To create a new Page, in the upper toolbar click **Content** and from the list below select **Content structure**.
     On the right-side toolbar click **Create** and from the list of Content items select **Landing page**.
     In the **Page creation** select the layout and click **Create**.
     
@@ -161,9 +161,9 @@
     In the **Basic** tab, perform the following actions:
     
     - In the **Name** box, provide the name of the block that will appear on the Page.
-    - In the **Location list** section, click **Select Content**, navigate through the content 
+    - In the **Location list** section, click **Select content**, navigate through the content 
     and add to the collection Content items of any Content Type you want.
-    All selected Content items appear in the **Confirmed items** box at the bottom of the window.
+    All selected Content items appear in the **Selected items** box at the bottom of the window.
     When done selecting, click **Confirm**.
     
     Click **Submit** to save the changes or **Discard** to cancel.
@@ -220,4 +220,4 @@
     ## Publishing Page
     
     If you are ready to publish the Page click **Publish** in the top-right corner.
-    To save it as a draft to finish editing it later, click **Save**.
+    To save it as a draft to finish editing it later, click **Save draft**.

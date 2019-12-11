@@ -29,17 +29,17 @@
 
     ## Date-based publishing
 
-    When editing a Content item, select **Publish Later** in the menu on the right.
+    When editing a Content item, select **Publish later** in the menu on the right.
 
     ![Publish Later button in the menu](img/publish_later.png "Publish Later button in the menu")
 
-    You will see a **Future publication setting** window. Choose a date and time and the content will be published at that time.
+    You will see a **Set publication date and time** window. Choose a date and time and the content will be published at that time.
 
     If you had planned a future publication date and enter the edit mode of the same Content item,
     you also have a new option in the menu: **Discard publish later**.
     Use it to remove the previously selected publication date.
 
-    ![Discard Publish Date button in the menu](img/discard_publish_date.png "Discard Publish Date button in the menu")
+    ![Discard Publish Date button in the menu](img/discard_publish_date.png "Discard publish later button in the menu")
     
     You can always [reschedule or cancel planned publications](#rescheduling-or-cancelling-publications).
     To easily browse all the future events, use the [Calendar widget](#calendar-widget).
@@ -112,7 +112,7 @@
     
     ## Rescheduling or cancelling publications
     
-    In case of publishable Content items (e.g. articles), you can change or cancel their planned publication using the **Reschedule** or **Unschedule** buttons.
+    In case of publishable Content items (e.g. articles), you can change or cancel their planned publication using the **Reschedule** or **Cancel publication** buttons.
     These buttons are accessible in the Dashboard and the Calendar widget.
     
     |Button|Description|
@@ -125,13 +125,13 @@
     To reschedule or cancel events in the Dashboard, perform the following actions:
     
     1. Open the Dashboard by clicking the eZ logo in the left-upper corner.
-    1. In the **Me** panel, view all your scheduled Content items by clicking **My scheduled**.
-    1. From **My Publications scheduled**, select all Content items to have their publication time rescheduled or cancelled.
+    1. In **My content** panel, view all your scheduled Content items by clicking **My scheduled content**.
+    1. From **My future publications**, select all Content items to have their publication time rescheduled or cancelled.
     1. Using the buttons in the upper-right corner, perform one or both of the following actions:
         - To change the publication time, click the **Reschedule** button.
-          In the **Reschedule publication** modal window, select the new date and click **Confirm reschedule**.
-        - To cancel publication, click the **Unschedule** button.
-          In the modal window, confirm the cancellation by selecting **Discard scheduling**.
+          In the **Reschedule** modal window, select the new date and click **Confirm date change**.
+        - To cancel publication, click the **Cancel publication** button.
+          In the modal window, confirm the cancellation by selecting **Cancel publication**.
           
     ![Reschedule or cancel in Dashboard](img/reschedule_cancel_dashboard.png "Rescheduling or cancelling in the Dashboard")
     
@@ -141,6 +141,6 @@
     Using the toolbar buttons, perform one of the following actions:
     
     - To change the publication time, click the **Reschedule** button.
-    In the **Reschedule** modal window, select the new date and click **Confirm reschedule**.
-    - To cancel event's publication, click the **Unschedule** button.
-    In the modal window, confirm the cancellation by clicking **Discard scheduling**.
+    In the **Reschedule publication** modal window, select the new date and click **Confirm rescheduling**.
+    - To cancel event's publication, click the **Cancel publication** button.
+    In the modal window, confirm the cancellation by clicking **Cancel publication**.
