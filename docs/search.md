@@ -6,6 +6,13 @@ You can enter a search keyword and the application checks all the searchable Fie
 
 ![Basic Search](img/basic_search.png)
 
+You can also select a language to search in.
+The results will contain Content items that are translated into this language.
+
+The result list also shows which languages the Content item is translated to:
+
+![Search results with languages](img/search_with_languages.png)
+
 ## Simplified filtered search
 
 Simplified filtered search allows you to filter by:
