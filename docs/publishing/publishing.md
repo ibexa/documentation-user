@@ -44,3 +44,31 @@ Finally, **drafts** are version that have not been published yet.
 You can view all versions of a Content item in the **Versions** tab.
 
 ![All versions of a Content item](img/content_item_versions.png "All versions of a Content item")
+
+#### Comparing versions
+
+You can compare two versions of the same Content item by clicking the compare icon
+in the Versions tab:
+
+![](img/compare_icon.png)
+
+Select the two version you want to compare in the drop-down menus at the top of the screen.
+
+![](img/compare_results_2_col.png "Version comparison in two-column view")
+
+You can also choose to view the comparison in two columns, side by side,
+or in one column, with differences highlighted.
+
+![](img/compare_results_1_col.png "Version comparison in one-column view")
+
+!!! note
+
+    Not all Field Types are available for comparison. You cannot preview the difference in the following Field Types:
+
+    - Content Relation and Content Relations
+    - Image Asset and Image
+    - Form
+    - Landing Page
+    - Matrix
+    - Media
+    - User account
