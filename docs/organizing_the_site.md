@@ -49,6 +49,7 @@ Each Field has a number of common parameters:
 |Required|When this is checked, you will not be able to save or publish a Content item of this type unless the Field in filled in.|
 |Searchable|Decides if the contents of the Field will be covered by search.|
 |Translatable|Decides if the Field can be translated.|
+|Can be a thumbnail|Informs if the Field can be a thumbnail|
 |Category|Decides which Field category it will be displayed in for easier organization.|
 
 Fields of specific types can also have their own additional settings.
