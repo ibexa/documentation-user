@@ -6,16 +6,18 @@ nav:
     - 'Getting started': 'getting_started.md'
     - 'Content model': 'content_model.md'
     - 'Creating content – basic': 'creating_content_basic.md'
-    - 'Working with Page': 'working_with_page.md'
-    - 'Organizing the content': 'organizing_the_content.md'
-    - 'Multi-file content management': 'multi_file_content_management.md'
+    - 'Creating content – advanced': 'creating_content_advanced.md'
     - 'Publishing':
         - Publishing Content: 'publishing/publishing.md'
         - Editorial workflow: 'publishing/editorial_workflow.md'
         - Flex workflow: 'publishing/flex_workflow.md'
         - Advanced publishing options: 'publishing/advanced_publishing_options.md'
-    - 'Creating content – advanced': 'creating_content_advanced.md'
-    - 'Organizing the site': 'organizing_the_site.md'
+    - 'Organizing':
+        - 'Organizing the site': 'site_organization/organizing_the_site.md'
+        - 'Site Factory': 'site_organization/site_factory.md'
+        - 'Organizing the content': 'site_organization/organizing_the_content.md'
+        - 'Multi-file content management': 'site_organization/multi_file_content_management.md'
+        - 'Working with Page': 'site_organization/working_with_page.md'
     - 'Searching': 'search.md'
     - 'FAQ': 'faq.md'
 theme:
