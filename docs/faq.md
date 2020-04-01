@@ -63,37 +63,37 @@ The Page mode offers a special functionality of creating a Page - a special kin
 **How do I grant and restrict access to my website?**
 
 You can restrict access to your website per User or User group. Each User (or group) can be assigned Roles and Policies which define the operations they can perform on the website.
-You can assign them globally or only to parts of the website by applying [Sections](organizing_the_content.md#sections).
+You can assign them globally or only to parts of the website by applying [Sections](site_organization/organizing_the_content.md#sections).
 
-See [Permissions](organizing_the_site.md#permissions) for more information.
+See [Permissions](site_organization/organizing_the_site.md#permissions) for more information.
 
 **What are Policies?**
 
 Policies are basic elements of the permissions system. They are rules defining access to one functionality of one module (for example modifying articles), with possible further limitations.
 
-See [Permissions](organizing_the_site.md#permissions) for more information.
+See [Permissions](site_organization/organizing_the_site.md#permissions) for more information.
 
 **What are Roles?**
 
 Roles are an element of the permissions system. They are collections of Policies assigned to a particular user Role (for example a sports section editor).
 
-See [Permissions](organizing_the_site.md#permissions) for more information.
+See [Permissions](site_organization/organizing_the_site.md#permissions) for more information.
 
 **How do I assign Roles and Policies to a User?**
 
 You can do it in the **Admin Panel**, in the **Roles** tab.
 
-See [Permissions](organizing_the_site.md#permissions) for more information.
+See [Permissions](site_organization/organizing_the_site.md#permissions) for more information.
 
 **What are Sections used for?**
 
 Sections can be used to divide your content tree into separate parts, allowing you to limit the access to its parts for selected Users or User groups.
 
-See [Sections](organizing_the_content.md#sections) for more information.
+See [Sections](site_organization/organizing_the_content.md#sections) for more information.
 
 **How can I use Sections to control access to my website?**
 
-You can divide your Content tree into sections in the **Admin Panel**. See [Sections](organizing_the_content.md#sections).
+You can divide your Content tree into sections in the **Admin Panel**. See [Sections](site_organization/organizing_the_content.md#sections).
 
 Then you can create Policies applicable to only this Section.
 
@@ -171,11 +171,11 @@ A small set of ready-to-use Content Types is provided with the Demo Bundle.
 
 **Can I modify Content Types?**
 
-Yes, you can adjust to your needs any Content Type provided in the Demo Bundle. See [Content Types](organizing_the_site.md#content-types) for more information.
+Yes, you can adjust to your needs any Content Type provided in the Demo Bundle. See [Content Types](site_organization/organizing_the_site.md#content-types) for more information.
 
 **Can I make my own Content Types?**
 
-Yes, you can freely create any new Content Type. See [Content Types](organizing_the_site.md#content-types) for more information.
+Yes, you can freely create any new Content Type. See [Content Types](site_organization/organizing_the_site.md#content-types) for more information.
 
 **What are Field Types?**
 
@@ -252,7 +252,7 @@ A Page has a customizable layout with multiple zones where you can place predefi
 
 **How do I create a Page?**
 
-You can create a new Page in the Page mode by clicking **Create**. See [working with a Page](working_with_page.md) for more information.
+You can create a new Page in the Page mode by clicking **Create**. See [working with a Page](site_organization/working_with_page.md) for more information.
 
 **What blocks can I add to a Page?**
 

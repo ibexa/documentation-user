@@ -85,7 +85,7 @@ When you are in the Back Office, you can view the content in your repository in 
 - User list
 
 They represent three categories of Content Types that you can create
-(see [Content Types](organizing_the_site.md#content-types)).
+(see [Content Types](site_organization/organizing_the_site.md#content-types)).
 
 ### Content browser
 
@@ -95,7 +95,7 @@ The **Browse** option on the left allows you to browse through all the content o
 
 ![Content browser in the menu](img/left_menu_browse.png "Content browser in the menu")
 
-User accounts, which are also considered content in eZ Platform, are viewable in the **Users** tab accessible in **Admin** (see [Users](organizing_the_site.md#users)).
+User accounts, which are also considered content in eZ Platform, are viewable in the **Users** tab accessible in **Admin** (see [Users](site_organization/organizing_the_site.md#users)).
 
 During your work with eZ Platform you will often be asked to select content from the Repository.
 This happens for example when you want to move or copy a Content item, embed an image, link two Content items, etc.
