@@ -3,7 +3,7 @@
 When you **Publish** a Content item, it is given a Location ID and placed in the Content tree.
 It is then immediately available to the visitor.
 
-Instead of instantly publishing you can also save, discard changes, [publish later](advanced_publishing_options.md#date-based-publishing) and [send for review](flex_workflow.md).
+Instead of instantly publishing you can also save, discard changes, [publish later](advanced_publishing_options.md#date-based-publishing) and [send for review](editorial_workflow.md).
 All these options are available in the menu when you are in the edit mode.
 
 ![Publishing options](img/publishing_options.png "Publishing options")
@@ -17,7 +17,7 @@ You can then leave the editor by using the **X** icon in the upper left corner, 
 
 !!! caution
 
-    Only selecting **Cancel** removes the whole draft and all the work you have done on it.
+    Only selecting **Delete draft** removes the whole draft and all the work you have done on it.
     A discarded draft is removed instantly, not placed in the Trash, so it can't be restored.
     The **X** icon in the upper left corner and the browser's **back button** will save the current Content item as a draft.
 

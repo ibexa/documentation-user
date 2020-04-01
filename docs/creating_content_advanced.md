@@ -33,18 +33,21 @@ After adding a language, you may have to reload the application to be able to us
 
 ### SiteAccess
 
-When working in Page mode, you can see a bar at the top of the page listing SiteAccesses configured for your website.
+When working in Page mode, you can see a bar at the top of the page listing the most recently used SiteAccesses on your website.
 
-SiteAccesses is a way of offering different versions of your website to different categories of users.
-You can treat SiteAccesses as different "entrance points" to your website. They allow you to show different content or design to the visitor depending on which SiteAccess they use.
-
-SiteAccesses can be used for example to serve a different website version for paying and non-paying visitors
-or different language versions to visitors from different countries.
 You can use this bar to switch between and work on the different versions.
 
 ![Top bar with list of siteaccesses](img/siteaccess_bar.png "Top bar with list of SiteAccesses")
 
-SiteAccess must be [set up by the administrator of the installation](https://doc.ezplatform.com/en/master/guide/siteaccess/).
+Click the SiteAccess list icon in the bar to see the full list of all SiteAccesses.
+
+SiteAccesses is a way of offering different versions of your website to different categories of users.
+You can treat SiteAccesses as different "entrance points" to your website. They allow you to show different content or design to the visitor depending on which SiteAccess they use.
+s
+SiteAccesses can be used for example to serve a different website version for paying and non-paying visitors
+or different language versions to visitors from different countries.
+
+See [Site Factory](site_organization/site_factory.md) for more information about setting up sites.
 
 !!! enterprise
 

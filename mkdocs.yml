@@ -10,7 +10,6 @@ nav:
     - 'Publishing':
         - Publishing Content: 'publishing/publishing.md'
         - Editorial workflow: 'publishing/editorial_workflow.md'
-        - Flex workflow: 'publishing/flex_workflow.md'
         - Advanced publishing options: 'publishing/advanced_publishing_options.md'
     - 'Organizing':
         - 'Organizing the site': 'site_organization/organizing_the_site.md'

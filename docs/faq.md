@@ -236,7 +236,7 @@ The key of them are:
 
 - Easy creation of Pages
 - Intuitive Page mode editing
-- Flex Workflow functionality for managing the review process
+- Workflow functionality for managing the review process
 
 **How do I install eZ Enterprise?**
 
@@ -262,4 +262,4 @@ You also have the possibility of [creating your own, custom blocks](https://doc.
 
 **How can I have my Content reviewed by other users?**
 
-You can use the Flex Workflow functionality to send your Content to review. You can access it from the Action bar in Content mode. See [Reviewing a draft](publishing/flex_workflow.md#reviewing-a-draft) for more information.
+You can use the Workflow functionality to send your Content to review. You can access it from the Action bar in Content mode. See [Editorial workflow](publishing/editorial_workflow.md) for more information.

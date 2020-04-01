@@ -35,7 +35,7 @@ You can also reschedule or cancel planned publications using the Dashboard.
 
 ![Dashboard](img/dashboard.png "Dashboard")
 
-You can always return to the Dashboard by selecting the eZ logo in the upper left corner.
+You can always return to the Dashboard by selecting the logo in the upper left corner.
 
 The top bar allows you to move between important sections of the application.
 
@@ -43,7 +43,7 @@ The top bar allows you to move between important sections of the application.
 
 - **Content** gives you access to the content Repository.
 It lets you navigate the Content Tree, create, edit, move, copy, delete content, etc.
-- **Page** enables you to create and edit block-based Pages. It is only available for eZ Enterprise users.
+- **Site** enables you to create and edit block-based Pages and manage multiple sites. It is only available for eZ Enterprise users.
 - **Forms** enables you to place a survey, questionnaire, sign-up form, etc. on your website. It is only available for eZ Enterprise users.
 - **Admin** is the administration panel where you can manage Users, Sections, permissions, etc.
 
