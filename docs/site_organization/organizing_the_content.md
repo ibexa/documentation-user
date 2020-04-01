@@ -19,7 +19,7 @@ Even if a Content item is placed in more than one Location, one of the Locations
 To assign other Locations to content, view this Content item's **Location** tab and click the plus button.
 Then select the new parent from the Content Browser.
 
-![Content with two locations](../img/content_with_two_locations.png "Content with two Locations")
+![Content with two locations](img/content_with_two_locations.png "Content with two Locations")
 
 ### Hiding Locations
 
@@ -84,7 +84,7 @@ It is moved to Trash, which you can access from the left menu.
 In the Trash, you can select removed Content items and restore them to their original Locations or to new Locations you choose.
 If the Content item's parent has been removed, you need to select a new parent Location.
 
-![Warning before emptying the trash](../img/empty_trash_warning.png "Warning before emptying the Trash")
+![Warning before emptying the trash](img/empty_trash_warning.png "Warning before emptying the Trash")
 
 If a Content item has more than one Location, selecting **Send to Trash** will remove the Content item only from the current Location.
 The content will appear in Trash only once you have removed the last Location.
@@ -100,7 +100,7 @@ You can also permanently remove all content from the Trash by clicking **Empty T
 
 You can hide a Content item by clicking **Hide** in the menu.
 
-![Hide content icon](../img/hide_content_icon.png)
+![Hide content icon](img/hide_content_icon.png)
 
 A hidden Content item is unavailable for anyone on the front page. It is also grayed out in the Content Tree.
 
@@ -113,7 +113,7 @@ Each Content item can have one or more URL aliases. They are additional URLs tha
 
 You can add URL aliases in the URL tab under **Custom URL aliases for <Content name>** by clicking the plus button.
 
-![Creating a new URL alias](../img/create_new_url_alias.png)
+![Creating a new URL alias](img/create_new_url_alias.png)
 
 For each new alias, you can set the following options:
 
@@ -131,7 +131,7 @@ To see which Section a Content item belongs to, look at its **Details** tabs.
 You can set up Sections in **Admin**, in the **Sections** tab.
 A few Sections are provided with each installation, and you can add new ones.
 
-![List of Sections](../img/sections.png "List of Sections")
+![List of Sections](img/sections.png "List of Sections")
 
 In the **Sections** tab, you can assign Sections to content or delete them.
 You can only delete Sections that do not contain any content.
@@ -146,7 +146,7 @@ Access to Sections can be restricted by [setting up proper permissions](organizi
 You can assign specific Object states to all Content items in your site.
 You can do it when viewing the Content item, in the **Details** tab, in the **Object state details** section.
 
-![Object state details](../img/object_state_details.png)
+![Object state details](img/object_state_details.png)
 
 !!! note
 
@@ -158,11 +158,11 @@ You can do it when viewing the Content item, in the **Details** tab, in the **Ob
 In your site you can link to external websites by placing links inside rich text, or by using the URL Field.
 You can manage the links using the Link manager available under Content.
 
-![Link manager](../img/link_manager.png)
+![Link manager](img/link_manager.png)
 
 The Link manager shows a list of all links in the site. Click any item in the list to see details and check which Content items use this URL.
 
-![Detail of a link in Link manager](../img/link_manager_detail.png)
+![Detail of a link in Link manager](img/link_manager_detail.png)
 
 You can edit any link in the Link manager. It will then be changed in every place where it is used, across all Content items.
 
@@ -178,8 +178,8 @@ The Link manager list also shows whether the link is alive or dead in the **Stat
 
 You can bookmark any Content item by clicking the star icon next to the Content name.
 
-![Bookmark icon](../img/bookmark_icon.png)
+![Bookmark icon](img/bookmark_icon.png)
 
 Bookmarks are stored per user. You can view a list of all bookmarks by clicking Bookmarks in the left menu.
 
-![Bookmark screen](../img/bookmarks.png)
+![Bookmark screen](img/bookmarks.png)

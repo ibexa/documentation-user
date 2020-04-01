@@ -7,7 +7,7 @@ Click **Content Types** in the panel and you will see groups into which the type
 You can add your own groups here to keep your Content Types in better order.
 Each group lists all the Content Types belonging to it, where you can modify the existing ones or add new ones.
 
-![Content Types](../img/content_types.png "Content Types")
+![Content Types](img/content_types.png "Content Types")
 
 Every Content Type has the following general settings:
 
@@ -29,14 +29,14 @@ You can determine the order in which Fields will be displayed by setting their P
 
 To delete Field(s), check the boxes next to any Field names and select the trash icon.
 
-![Adding and removing Fields](../img/add_field.png "Adding and removing Fields")
+![Adding and removing Fields](img/add_field.png "Adding and removing Fields")
 
 When a Content Type is modified, each instance of this type (each Content item based on this Content Type) will be changed as well.
 If a new Field is added to a Content Type, this Field will appear in every relevant Content item.
 Therefore, if the new Field is required, it is recommended to provide a default value for it.
 If a Field is deleted from the Content Type definition, all these Fields will be removed from Content items of this type.
 
-![Modifying Content Type message](../img/notification_ct.png "Modifying Content Type message")
+![Modifying Content Type message](img/notification_ct.png "Modifying Content Type message")
 
 Each Field has a number of common parameters:
 
@@ -76,7 +76,7 @@ They are organized in groups, which helps you manage them and their permissions.
 You can view all User Groups and Users in the **Admin Panel** by selecting **Users**.
 As you can see, the interface here is the same as when working with regular Content items.
 
-![User list](../img/users.png "User list")
+![User list](img/users.png "User list")
 
 !!! caution
 
@@ -88,7 +88,7 @@ As you can see, the interface here is the same as when working with regular Cont
 You can access the registration form for your website by adding `/register` to the address,
 for example: `www.my-site.com/register`. By default, new Users created in this way are placed in the Guest accounts group.
 
-![User registration form](../img/register_user.png "User registration form")
+![User registration form](img/register_user.png "User registration form")
 
 ## Permissions
 
@@ -132,11 +132,11 @@ You can now see the list of Policies the Role has - at the moment, none.
 Click the plus button again, select a Policy from the list and save it.
 You then have an option to add Limitations to the Policy. The available Limitations depend on the chosen Policy.
 
-![Details of a Role](../img/role_details.png "Details of a Role")
+![Details of a Role](img/role_details.png "Details of a Role")
 
 After you are done choosing all Policies, you can assign the Role to users.
 Go to the **Assignments** tab and click the assign button.
 Here you can choose users and/or groups that will be assigned this Role, with possible additional Limitations.
 A User or User Group may be assigned multiple Roles.
 
-![Users assigned to Role](../img/users_assigned.png "Users assigned to Role")
+![Users assigned to Role](img/users_assigned.png "Users assigned to Role")
