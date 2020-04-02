@@ -17,7 +17,7 @@
     In the **Page creation** select the layout and click **Create**.
     
     You can also add a new Page in the Page Builder.
-    Open the Page Builder by clicking **Page** and selecting the page from the list appearing below.
+    Open the Page Builder by clicking **Site** and selecting a site from the list appearing below.
     On the [Page Builder toolbar](#page-builder-toolbar) click the plus button and from the list select **Landing page**.
     Select the layout and click **Create**.
     

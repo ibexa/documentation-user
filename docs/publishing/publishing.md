@@ -3,7 +3,7 @@
 When you **Publish** a Content item, it is given a Location ID and placed in the Content tree.
 It is then immediately available to the visitor.
 
-Instead of instantly publishing you can also save, discard changes, [publish later](advanced_publishing_options.md#date-based-publishing) and [send for review](flex_workflow.md).
+Instead of instantly publishing you can also save, discard changes, [publish later](advanced_publishing_options.md#date-based-publishing) and [send for review](editorial_workflow.md).
 All these options are available in the menu when you are in the edit mode.
 
 ![Publishing options](img/publishing_options.png "Publishing options")
@@ -17,7 +17,7 @@ You can then leave the editor by using the **X** icon in the upper left corner, 
 
 !!! caution
 
-    Only selecting **Cancel** removes the whole draft and all the work you have done on it.
+    Only selecting **Delete draft** removes the whole draft and all the work you have done on it.
     A discarded draft is removed instantly, not placed in the Trash, so it can't be restored.
     The **X** icon in the upper left corner and the browser's **back button** will save the current Content item as a draft.
 
@@ -44,3 +44,31 @@ Finally, **drafts** are version that have not been published yet.
 You can view all versions of a Content item in the **Versions** tab.
 
 ![All versions of a Content item](img/content_item_versions.png "All versions of a Content item")
+
+#### Comparing versions
+
+You can compare two versions of the same Content item by clicking the compare icon
+in the Versions tab:
+
+![](img/compare_icon.png)
+
+Select the two version you want to compare in the drop-down menus at the top of the screen.
+
+![](img/compare_results_2_col.png "Version comparison in two-column view")
+
+You can also choose to view the comparison in two columns, side by side,
+or in one column, with differences highlighted.
+
+![](img/compare_results_1_col.png "Version comparison in one-column view")
+
+!!! note
+
+    Not all Field Types are available for comparison. You cannot preview the difference in the following Field Types:
+
+    - Content Relation and Content Relations
+    - Image Asset and Image
+    - Form
+    - Landing Page
+    - Matrix
+    - Media
+    - User account

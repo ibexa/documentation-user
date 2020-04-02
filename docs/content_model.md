@@ -22,7 +22,7 @@ eZ Platform allows you to create, edit, and delete Content Types and their Field
 A clean installation contains a few basic Content Types.
 
 To see what a larger set of Content Types and their Fields looks like in practice, you can take a look at the Demo Bundle.
-[Demo is a separate installation with a sample website](https://github.com/ezsystems/ezplatform-demo) in which you can preview different features of eZ Platform.
+[Demo is a separate Enterprise installation with a sample website](https://github.com/ezsystems/ezplatform-ee-demo) in which you can preview different features of eZ Platform.
 
 ## Content items
 
@@ -113,7 +113,7 @@ If you want to navigate through your website with a menu, go to the **Content** 
 
 ![Content Tree in the menu](img/left_menu_tree.png "Content Tree in the menu")
  
-Unique icons for each Content Type instantly show you what type of content you are selecting. To add custom icons to your Content Tree, follow [configuration tutorial in developer documentation.](https://doc.ezplatform.com/en/master/guide/extending_ez_platform/#custom-content-type-icons)
+Unique icons for each Content Type instantly show you what type of content you are selecting. To add custom icons to your Content Tree, follow [configuration tutorial in developer documentation.](https://doc.ezplatform.com/en/master/extending/custom_icons/#custom-content-type-icons)
 
 Hidden content is blurred out in the tree view. 
 

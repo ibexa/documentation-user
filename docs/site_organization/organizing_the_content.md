@@ -38,7 +38,7 @@ use [Sections](#sections) and combine them with [proper permissions](organizing_
 
 ### Swapping Locations
 
-You can swap two Content items in their Locations by going to the **Location Content Swap** section
+You can swap two Content items in their Locations by going to the **Swap Locations** section
 in the **Location** tab and selecting a Content item to swap with.
 
 !!! caution
@@ -101,6 +101,13 @@ You can also permanently remove all content from the Trash by clicking **Empty T
 You can hide a Content item by clicking **Hide** in the menu.
 
 ![Hide content icon](img/hide_content_icon.png)
+
+!!! enterprise
+
+    When you click **Hide** in Enterprise, you can choose to **Hide later**
+    and select and date and time when the Content item will be hidden:
+
+    ![Schedule hiding panel](img/schedule_hiding.png)
 
 A hidden Content item is unavailable for anyone on the front page. It is also grayed out in the Content Tree.
 
