@@ -43,7 +43,6 @@ Click the SiteAccess list icon in the bar to see the full list of all SiteAccess
 
 SiteAccesses is a way of offering different versions of your website to different categories of users.
 You can treat SiteAccesses as different "entrance points" to your website. They allow you to show different content or design to the visitor depending on which SiteAccess they use.
-s
 SiteAccesses can be used for example to serve a different website version for paying and non-paying visitors
 or different language versions to visitors from different countries.
 
