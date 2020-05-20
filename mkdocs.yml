@@ -1,6 +1,6 @@
 site_name: eZ Platform User Documentation
 repo_url: https://github.com/ezsystems/user-documentation
-copyright: "Copyright 1999-2020 Ibexa AS and others"
+copyright: "Copyright 1999-2020 Ibexa and others"
 nav:
     - 'eZ Platform User Documentation': 'index.md'
     - 'Getting started': 'getting_started.md'
