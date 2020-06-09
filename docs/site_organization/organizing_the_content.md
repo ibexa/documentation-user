@@ -117,7 +117,7 @@ in all of its Locations.
 ## URL management
 
 In your site, you can manage external URL addresses and URL wildcards.
-You do this in the Back Office, **Admin** tab, the **URL Manager** node.
+You do this in the Back Office, **Admin** tab, the **URL Management** node.
 
 For more information about URL management, see the [eZ Platform Developer Documentation.](https://doc.ezplatform.com/en/latest/guide/url_management).
 
