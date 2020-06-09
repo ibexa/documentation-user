@@ -159,7 +159,7 @@ If this is toggled off, the alias will be relative to the parent of the Content 
 
 ### URL wildcards
 
-With wildcards, you can replace a portion of the URL address for many content items at the same time, for example, to shorten the path, or to make the path meaningful for the readers.
+With wildcards, you can replace a portion of the URL address for many Content items at the same time, for example, to shorten the path, or to make the path meaningful for the readers.
 
 ![URL wildcards tab](img/3_1_URL_Wildcards_sm.png)
 
