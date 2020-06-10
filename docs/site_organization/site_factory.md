@@ -19,7 +19,7 @@
     
     ![Create a new site step one](img/site_factory_new_site_step_1.png)
     
-    If the design has defined Site skeleton, you can choose if you want to copy entire content structure of the design with a toggle.
+    If the design defines a Site skeleton, you can choose if you want to copy the entire content structure of the design with a toggle.
     To preview the Site skeleton architecture go to **Admin** > **Site skeletons** tab.
     
     ![Site skeleton toggle](img/site_factory_skeleton_toggle.png)
