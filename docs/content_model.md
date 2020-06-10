@@ -105,8 +105,11 @@ You can also use the **Content Browser** to search the Repository for content, s
 ![Content Browser](img/udw.png "Content Browser")
 
 !!! note
+
     If you have administrator permissions, you can also view and manage user accounts and site skeletons in the **Admin** tab.
+    
     For more information about users and permissions, see [Users](site_organization/organizing_the_site.md#users).
+    
     For more information about site skeletons, see [Site factory](https://doc.ezplatform.com/en/master/guide/site_factory/#configure-site-skeleton).
 
 ### Content Tree
