@@ -89,22 +89,28 @@ They represent three categories of Content Types that you can create
 
 ### Content browser
 
-If you want to get an overview of the content currently in your website, go to the **Content** tab
-and select **Content structure** or **Media**.
-The **Browse** option on the left allows you to browse through all the content of the respective category.
+During your work with eZ Platform you might need to select content from the Repository.
+This happens for example when you want to move or copy a Content item, embed an image, link two Content items, etc.
+In such cases you use the **Content Browser**.
+
+To access the **Content Browser**, go to the **Content** tab and select **Content structure** or **Media**.
+Then, on the left side of the screen, click **Browse**.
 
 ![Content browser in the menu](img/left_menu_browse.png "Content browser in the menu")
 
-User accounts, which are also considered content in eZ Platform, are viewable in the **Users** tab accessible in **Admin** (see [Users](site_organization/organizing_the_site.md#users)).
-
-During your work with eZ Platform you will often be asked to select content from the Repository.
-This happens for example when you want to move or copy a Content item, embed an image, link two Content items, etc.
-In such cases you will make use of the **Content Browser**.
-
-The **Content Browser** enables you to navigate through all content in the site, including regular content, media, and User accounts.
-You can also use it to search the repository for content, and to create new content when needed.
+With the **Content Browser**, you can switch between the Grid, Panels and Tree views to navigate through the content of the site.
+Depending on your permissions, you might be able to review the regular content, media, forms, site skeletons and User accounts.
+You can also use the **Content Browser** to search the Repository for content, edit content, create bookmarks, and create new content when needed.
 
 ![Content Browser](img/udw.png "Content Browser")
+
+!!! note
+
+    If you have administrator permissions, you can also view and manage User accounts and site skeletons in the **Admin** tab.
+    
+    For more information about users and permissions, see [Users](site_organization/organizing_the_site.md#users).
+    
+    For more information about site skeletons, see [Site factory](https://doc.ezplatform.com/en/master/guide/site_factory/#configure-site-skeleton).
 
 ### Content Tree
 
@@ -112,10 +118,10 @@ If you want to navigate through your website with a menu, go to the **Content** 
 **Content Tree** in the left sidebar opens an expandable content menu of your site.
 
 ![Content Tree in the menu](img/left_menu_tree.png "Content Tree in the menu")
- 
+
 Unique icons for each Content Type instantly show you what type of content you are selecting. To add custom icons to your Content Tree, follow [configuration tutorial in developer documentation.](https://doc.ezplatform.com/en/master/extending/custom_icons/#custom-content-type-icons)
 
-Hidden content is blurred out in the tree view. 
+Hidden content is blurred out in the tree view.
 
 To simplify the Content Tree, big lists are shortened with a **Show more** option. You can select it to expand all lists in the tree.
 The **Collapse all** option situated at the bottom of the tree closes all expanded sections.
