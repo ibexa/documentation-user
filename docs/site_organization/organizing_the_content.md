@@ -81,7 +81,7 @@ so you will not be able to restore them with the same structure.
 
 Notice that the Content item is not removed completely.
 It is moved to Trash, which you can access from the left menu.
-In the Trash, you can select removed Content items and restore them to their original Locations or to new Locations you choose.
+In the Trash, you can search for Content items and sort your search results based on different criteria. You can then select removed Content items and restore them to their original Locations or to new Locations you choose.
 If the Content item's parent has been removed, you need to select a new parent Location.
 
 ![Warning before emptying the trash](img/empty_trash_warning.png "Warning before emptying the Trash")
