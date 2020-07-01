@@ -213,8 +213,7 @@ You can preview your content while editing it by clicking one of the icons under
 
 **What is the difference between saving and publishing content?**
 
-The **Save** function, the **X** icon in the upper left corner and the browser's **back button**
-enable you to save the current working copy as a draft to potentially reuse it later.
+The **Save** or **Save draft** button (depending on whether you are in a Page Builder, or creating any other Content item) enables you to save the current working copy as a draft to potentially reuse it later, even if some required fields are not filled in.
 The new version will not be published and, consequently, will not be visible as published content
 on the website or through the API.
 
@@ -230,7 +229,7 @@ Yes, eZ Enterprise is based on eZ Platform and contains it with all of its funct
 
 **What features does eZ Enterprise offer that are unavailable in eZ Platform?**
 
-eZ Enterprise offers a number of additional features aside from what is available in eZ Platform. 
+eZ Enterprise offers a number of additional features aside from what is available in eZ Platform.
 
 The key of them are:
 
