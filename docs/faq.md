@@ -213,7 +213,9 @@ You can preview your content while editing it by clicking one of the icons under
 
 **What is the difference between saving and publishing content?**
 
-The **Save** or **Save draft** button (depending on whether you are in a Page Builder, or creating any other Content item) enables you to save the current working copy as a draft to potentially reuse it later, even if some required fields are not filled in.
+The **Save** or **Save draft** button (depending on whether you are in a Page Builder, or creating any other Content item)
+enables you to save the current working copy as a draft to potentially reuse it later.
+You can do it even if some required fields are not filled in.
 The new version will not be published and, consequently, will not be visible as published content
 on the website or through the API.
 
