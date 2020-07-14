@@ -114,7 +114,35 @@ A hidden Content item is unavailable for anyone on the front page. It is also gr
 This is different from [hiding Locations](#hiding-locations), because it affects the Content item
 in all of its Locations.
 
-## URL aliases
+## URL management
+
+In your site, you can manage external URL addresses and URL wildcards.
+You do this in the Back Office, **Admin** tab, the **URL Management** node.
+
+For more information about URL management, see the [eZ Platform Developer Documentation.](https://doc.ezplatform.com/en/latest/guide/url_management).
+
+### Link manager
+
+In your site you can link to external websites by placing links inside rich text, or by using the URL Field.
+You can view and update all external links that exist within the site, without having to modify and re-publish the individual Content items.
+
+![Link manager tab](img/3_1_Link_manager_sm.png)
+
+The Link manager tab shows a list of all links in the site. Click any item in the list to see its details and a list of Content items that use this URL.
+
+![Detail of a link in Link manager](img/link_manager_detail.png)
+
+You can change any link in the Link manager. It is then updated in every place where it is used, across all Content items.
+
+The Link manager list also shows whether the link is alive or dead in the **Status** column. The **Last checked** column displays when the status was last verified.
+
+!!! note
+
+    When you edit a link in the Link manager, you cannot change the URL address to one that already exists in the system.
+
+    Once you save the link, it is automatically be marked as "Valid".
+
+### URL aliases
 
 Each Content item can have one or more URL aliases. They are additional URLs that can be used to access this Content item.
 
@@ -128,6 +156,18 @@ For each new alias, you can set the following options:
 - Redirect to alias destination - when toggled on, the alias will redirect to the Content item's actual URL.
 - Place at the site root - when toggled, the alias will be created in the root of the site.
 If this is toggled off, the alias will be relative to the parent of the Content item.
+
+### URL wildcards
+
+With wildcards, you can replace a portion of the URL address for many Content items at the same time, for example, to shorten the path, or to make the path meaningful for the readers.
+
+![URL wildcards tab](img/3_1_URL_Wildcards_sm.png)
+
+The URL wildcards tab shows a list of all URL wildcard definitions that exist within the site, and contains all the information about each URL wildcard. You can delete or modify existing entries, or create new ones.
+
+![Editing a URL wildcard definition](img/3_1_wildcard_detail.png)
+
+For each URL wildcard definition, you set the wildcard pattern and the destination. Also, you decide whether the link should redirect users to the destination's original address.
 
 ## Sections
 
@@ -159,27 +199,6 @@ You can do it when viewing the Content item, in the **Details** tab, in the **Ob
 
     The functioning of Object states can be set up differently in each installation.
     Contact your site administrator for information on how to use the states in your case.
-
-## Links
-
-In your site you can link to external websites by placing links inside rich text, or by using the URL Field.
-You can manage the links using the Link manager available under Content.
-
-![Link manager](img/link_manager.png)
-
-The Link manager shows a list of all links in the site. Click any item in the list to see details and check which Content items use this URL.
-
-![Detail of a link in Link manager](img/link_manager_detail.png)
-
-You can edit any link in the Link manager. It will then be changed in every place where it is used, across all Content items.
-
-The Link manager list also shows whether the link is alive or dead in the **Status** column. The **Last checked** column displays when the status was last verified.
-
-!!! note "Editing links"
-
-    When editing a link in the Link manager, you cannot change it to an already existing link. The new URL must be unique.
-
-    An edited link will automatically be marked as "Valid".
 
 ## Bookmarks
 
