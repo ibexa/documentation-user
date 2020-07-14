@@ -73,3 +73,4 @@ You can view all versions of a Content item in the **Versions** tab.
     
         - Form
         - Landing Page
+        - User account
