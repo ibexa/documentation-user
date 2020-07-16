@@ -15,7 +15,7 @@
     ![Site Factory icon](img/site_factory_icon.png)
     
     Here, you can create an entirely new site or a different language version of an already existing site.
-    First, you will select a name and predefined design for your site.
+    First, you select a name, a predefined design, and a Parent Location for your site.
     
     ![Create a new site step one](img/site_factory_new_site_step_1.png)
     
@@ -41,6 +41,11 @@
     - visibility
     - URL
     - language
+    
+    ## Preview a site
+    
+    To preview the site, select the **Location preview** icon (the eye icon) that is situated next to the site name.
+    It will transfer you to Page Builder site preview.
     
     ## Delete a site
     
