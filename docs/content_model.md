@@ -96,7 +96,7 @@ In such cases you use the **Content Browser**.
 To access the **Content Browser**, go to the **Content** tab and select **Content structure** or **Media**.
 Then, on the left side of the screen, click **Browse**.
 
-![Content browser in the menu](img/left_menu_browse.png "Content browser in the menu")
+![Content browser in the menu](img/left_menu_tree.png "Content browser in the menu")
 
 With the **Content Browser**, you can switch between the Grid, Panels and Tree views to navigate through the content of the site.
 Depending on your permissions, you might be able to review the regular content, media, forms, site skeletons and User accounts.
