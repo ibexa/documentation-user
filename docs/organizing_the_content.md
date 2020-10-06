@@ -112,7 +112,7 @@ in all of its Locations.
 Each Content item can have one or more URL aliases. They are additional URLs that can be used to access this Content item.
 
 You can add URL aliases in the URL tab under **Custom URL aliases for <Content name>** by clicking the plus button.
-The URL must be unique for the whole installation, regardless of the language.
+The URL alias must be unique for the whole installation, regardless of the language.
 
 ![Creating a new URL alias](img/create_new_url_alias.png)
 
