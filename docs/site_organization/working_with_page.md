@@ -24,6 +24,11 @@
     Before publishing or saving the Page, edit its title and description.
     Switch to the Field view using the [Page Builder toolbar](#page-builder-toolbar).
 
+    !!! note "Autosave"
+
+        To help you preserve your work eZ Platform comes with an Autosave feature.
+        For more information, see [Autosave](../publishing/publishing.md#autosave).
+
     ## Editing Page
 
     You edit Pages using the Page Builder.

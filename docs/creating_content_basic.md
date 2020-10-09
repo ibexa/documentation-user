@@ -31,6 +31,11 @@ Some Fields, such as *Relation* Fields (which link two Content items), or *Image
 require you to select a different Content item to link to.
 A *Location* Field is a point on the map. You can type the place name, enter its coordinates, or select it on the map.
 
+!!! note "Autosave"
+
+    To help you preserve your work eZ Platform comes with an Autosave feature.
+    For more information, see [Autosave](publishing/publishing.md#autosave).
+
 ### Editing Rich Text Fields
 
 Rich Text Fields are filled in using a special Online Editor. Its options appear when you click the Field box.
