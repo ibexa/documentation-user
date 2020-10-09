@@ -33,7 +33,7 @@ A *Location* Field is a point on the map. You can type the place name, enter its
 
 !!! note "Autosave"
 
-    To help you preserve your work eZ Platform comes with an Autosave feature.
+    To help you preserve your work, eZ Platform saves drafts of Content items automatically.
     For more information, see [Autosave](publishing/publishing.md#autosave).
 
 ### Editing Rich Text Fields

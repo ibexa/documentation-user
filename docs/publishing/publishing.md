@@ -29,13 +29,12 @@ Note that you cannot edit an unpublished draft created by another user.
 
 ### Autosave
 
-eZ Platform comes with an Autosave feature that helps you preserve your work in an event of a failure while you edit a content item or product description.
-To recover your work, open the most recent draft in the **Versions** tab of the content item or
-product description.
+While you edit a Content item or product, eZ Platform saves your work automatically to help you preserve the progress in an event of a failure.
+To recover your work, open the most recent draft in the **Versions** tab of the Content item.
 Alternatively, open the most recent draft of your work on the **My dashboard** page, the **Drafts** table.
 
-The feature is enabled by default, and set to save a draft of your work every 60 seconds.
-You can toggle Autosave or change the time between saving attempts in **User settings**, by changing
+Autosave is enabled by default, and set to save a draft every 60 seconds.
+You can toggle autosave or change the time between saving attempts in **User settings**, by changing
 the values in the **Autosave draft** and **Autosave interval** fields.
 
 ### Content versions

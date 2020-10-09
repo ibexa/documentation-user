@@ -26,7 +26,7 @@
 
     !!! note "Autosave"
 
-        To help you preserve your work eZ Platform comes with an Autosave feature.
+        To help you preserve your work, eZ Platform saves drafts of Content items automatically.
         For more information, see [Autosave](../publishing/publishing.md#autosave).
 
     ## Editing Page
