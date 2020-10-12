@@ -39,7 +39,7 @@ the values in the **Autosave draft** and **Autosave interval** fields.
 
 !!! caution "Draft and autosave limitation"
 
-    Saving drafts and autosave are available only if you create a new Content item while viewing any other content.
+    Saving drafts and autosave are not available if you create a new Content item in a **Browse content** window, or when you create a new User.
 
 ### Content versions
 

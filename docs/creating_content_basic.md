@@ -38,7 +38,7 @@ A *Location* Field is a point on the map. You can type the place name, enter its
 
 !!! caution "Draft and autosave limitation"
 
-    Saving drafts and autosave are available only if you create a new Content item while viewing any other content.
+    Saving drafts and autosave are not available if you create a new Content item in a **Browse content** window, or when you create a new User.
 
 ### Editing Rich Text Fields
 
