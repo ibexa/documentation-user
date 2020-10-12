@@ -28,14 +28,14 @@ For example, if your website's URL is `www.my-site.com`, you enter the editing i
 
 ![Login screen](img/login_form.png "Login screen")
 
-The first screen after logging in is the Dashboard. It contains shortcuts to most commonly used content:
+The first screen after logging in is **My dashboard**. It contains shortcuts to most commonly used content:
 review queue, your drafts, the content you have created, recently modified content, etc.
 You can select any of these items and view them in detail or start editing them from this point.
-You can also reschedule or cancel planned publications using the Dashboard.
+You can also reschedule or cancel planned publications using the dashboard.
 
-![Dashboard](img/dashboard.png "Dashboard")
+![My dashboard](img/dashboard.png "My dashboard")
 
-You can always return to the Dashboard by selecting the logo in the upper left corner.
+You can always return to the **My dashboard** screen by selecting the logo in the upper left corner.
 
 The top bar allows you to move between important sections of the application.
 

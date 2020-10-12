@@ -16,7 +16,7 @@
         Contact your administrator or developer team to configure workflows.
         See [developer documentation](https://doc.ezplatform.com/en/master/guide/workflow/) for information on how to do it.
 
-    You can view Content items which are in different stages under review in the Dashboard in the Review queue table.
+    You can view Content items which are in different stages under review on the **My dashboard** screen, in the Review queue table.
     The table will only show the Content items that you have permissions to edit.
 
     ![Review queue in the dashboard](img/dashboard_review_queue.png)
@@ -25,7 +25,7 @@
 
     It lists all the transitions that this content has gone through.
 
-    ![Review queue in the dashboard](img/workflow_events_timeline.png)
+    ![Events timeline](img/workflow_events_timeline.png)
 
     You can view all configured workflows in the Admin Panel by selecting **Workflow**.
 
