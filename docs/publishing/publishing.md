@@ -37,6 +37,10 @@ Autosave is enabled by default, and set to save a draft every 60 seconds.
 You can toggle autosave or change the time between saving attempts in **User settings**, by changing
 the values in the **Autosave draft** and **Autosave interval** fields.
 
+!!! caution "Draft and autosave limitation"
+
+    Saving drafts and autosave are available only if you create a new Content item while viewing any other content.
+
 ### Content versions
 
 Content in the repository can have more than one version.

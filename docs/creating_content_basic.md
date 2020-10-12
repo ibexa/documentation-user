@@ -6,10 +6,10 @@ There are four ways of creating a new Content item:
 
 1. Click **Create** in the right menu while viewing any other content.
 The new item appears under the current Content item in the tree.
+1. Click the **Create** (plus) icon when you *Browse content*.
+Here also you have to choose a location for the new item.
 1. Click **Create** in the upper-right corner of the Dashboard.
 In this case you have to select where the content will be located.
-1. Click the **Create** (plus) icon in the *Content Browser*.
-Here also you have to choose a location for the new item.
 1. Drag files onto the **Sub-items** box when viewing any content or click the upload button and select files to upload.
 In this way you can upload files such as images, videos, PDF documents, etc.
 
@@ -35,6 +35,10 @@ A *Location* Field is a point on the map. You can type the place name, enter its
 
     To help you preserve your work, eZ Platform saves drafts of Content items automatically.
     For more information, see [Autosave](publishing/publishing.md#autosave).
+
+!!! caution "Draft and autosave limitation"
+
+    Saving drafts and autosave are available only if you create a new Content item while viewing any other content.
 
 ### Editing Rich Text Fields
 
