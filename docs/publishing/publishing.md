@@ -27,6 +27,20 @@ You will also have the option to create a new draft based on the currently publi
 
 Note that you cannot edit an unpublished draft created by another user.
 
+### Autosave
+
+While you edit a Content item or product, eZ Platform saves your work automatically to help you preserve the progress in an event of a failure.
+To recover your work, open the most recent draft in the **Versions** tab of the Content item.
+Alternatively, open the most recent draft of your work on the **My dashboard** page, the **Drafts** table.
+
+Autosave is enabled by default, and set to save a draft every 60 seconds.
+You can toggle autosave or change the time between saving attempts in **User settings**, by changing
+the values in the **Autosave draft** and **Autosave interval** fields.
+
+!!! caution "Draft and autosave limitation"
+
+    Saving drafts and autosave are not available if you create a new Content item in a **Browse content** window, or when you create a new User.
+
 ### Content versions
 
 Content in the repository can have more than one version.
@@ -44,32 +58,32 @@ You can view all versions of a Content item in the **Versions** tab.
 
 ![All versions of a Content item](img/content_item_versions.png "All versions of a Content item")
 
-!!! enterprise 
+!!! enterprise
 
     #### Comparing versions
-    
+
     You can compare two versions of the same Content item by clicking the compare icon
     in the **Versions** tab:
-    
+
     ![](img/compare_icon.png)
-    
+
     Select the two version you want to compare in the drop-down menus at the top of the screen.
-    
+
     ![](img/compare_results_1_col.png "Version comparison in two-column view")
-    
+
     You can choose to view the comparison in two columns, side by side,
     or in one column, with differences highlighted.
-    
+
     ![](img/compare_results_2_col.png "Version comparison in one-column view")
-    
+
     You can also compare media Field Types such as images.
-    
+
     ![](img/compare_results_media.png "Version comparison image")
-    
+
     !!! note
-    
+
         Not all Field Types are available for comparison. You cannot preview the difference in the following Field Types:
-    
+
         - Form
         - Landing Page
         - User account
