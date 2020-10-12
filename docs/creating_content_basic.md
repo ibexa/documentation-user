@@ -8,7 +8,7 @@ There are four ways of creating a new Content item:
 The new item appears under the current Content item in the tree.
 1. Click the **Create** (plus) icon when you *Browse content*.
 Here also you have to choose a location for the new item.
-1. Click **Create** in the upper-right corner of the Dashboard.
+1. Click **Create** in the upper-right corner of the **My dashboard** screen.
 In this case you have to select where the content will be located.
 1. Drag files onto the **Sub-items** box when viewing any content or click the upload button and select files to upload.
 In this way you can upload files such as images, videos, PDF documents, etc.
