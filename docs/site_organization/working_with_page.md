@@ -81,6 +81,7 @@
 
     |Block|Description|
     |-----|-----------|
+    |Targeting|Embeds a Content item depending on the [Segment](organizing_the_content.md#segments) the user belongs to. For details, see [Targeting block](#targeting-block).|
     |Form|Embeds a Form Content item that you select from the Content Structure. For details, see [Form block](#form-block).|
     |Code|Enables you to place text, links, images, etc. on your Page using custom HTML. For details, see [Code block](#code-block).|
     |Content List|Displays Content items of a chosen Content Type (or Types) that are contained in a selected folder. For details, see [Content List block](#content-list-block).|
@@ -116,6 +117,16 @@
     !!! tip
         Settings and function of custom-made blocks of content depend on their design.
         For details on adjusting and using them, contact your website administrator.
+
+    ### Targeting block
+    
+    In the **Basic** tab, perform the following actions:
+    
+    - In the **Name** box, provide the name of the block.
+    - In the **Select default content** section, click **Select content**, navigate through the content
+    and select the default Content item that will be displayed when no priority rules are valid.
+    - In the **Setup segment and content matching priority rules** section, select a Segment Group and a Segment,
+    then click **Select content** and navigate to the Content item you want to display for the selected group.
 
     ### Form block
 
