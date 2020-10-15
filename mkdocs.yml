@@ -17,6 +17,17 @@ nav:
     - 'Creating content – advanced': 'creating_content_advanced.md'
     - 'Organizing the site': 'organizing_the_site.md'
     - 'Searching': 'search.md'
+    - Personalization:
+        - 'Personalization': 'personalization/personalization.md'
+        - 'Use cases': 'personalization/use_cases.md'
+        - 'Dashboard': 'personalization/dashboard.md'
+        - 'Event Types': 'personalization/event_types.md'
+        - 'Content Types': 'personalization/content_types.md'
+        - 'Recommendation models': 'personalization/recommendation_models.md'
+        - 'Filters': 'personalization/filters.md'
+        - 'Scenarios': 'personalization/scenarios.md'
+        - 'Content import': 'personalization/content_import.md'
+        - 'User data import': 'personalization/user_data_import.md'
     - 'FAQ': 'faq.md'
 theme:
   name: null
@@ -57,8 +68,6 @@ extra:
       url: '/projects/userguide'
     - title: 'eZ Platform Developer Documentation'
       url: '/'
-    - title: 'eZ Personalization Documentation'
-      url: '/projects/ezpersonalization'
     - title: 'eZ Commerce'
       url: '/projects/ezcommerce'
 
