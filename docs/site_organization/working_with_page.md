@@ -128,6 +128,8 @@
     - In the **Setup segment and content matching priority rules** section, select a Segment Group and a Segment,
     then click **Select content** and navigate to the Content item you want to display for the selected group.
 
+    The rules are checked in order, so if a user belongs to more than one Segment, the first rule applies.
+
     ### Form block
 
     Note that completing the settings of the Form block requires at least one Form Content item created.
