@@ -36,10 +36,6 @@ A *Location* Field is a point on the map. You can type the place name, enter its
     To help you preserve your work, eZ Platform saves drafts of Content items automatically.
     For more information, see [Autosave](publishing/publishing.md#autosave).
 
-!!! caution "Draft and autosave limitation"
-
-    Saving drafts and autosave are not available if you create a new Content item in a **Browse content** window, or when you create a new User.
-
 ### Editing Rich Text Fields
 
 Rich Text Fields are filled in using a special Online Editor. Its options appear when you click the Field box.
