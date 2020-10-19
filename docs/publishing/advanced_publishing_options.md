@@ -12,6 +12,8 @@
 
     The Schedule tab is available in the configuration of all Page blocks.
     You can use it to set the date and time when the block becomes visible and when it disappears from a Page.
+    If you configure the reveal and/or hide dates for a Page block, you can then see the scheduled blocks (except for the Content Scheduler) in the calendar.
+    This way you can see what content will be available in the future.
 
     ![Schedule tab](img/schedule_tab.png)
 
@@ -57,7 +59,7 @@
     ## Calendar widget
     
     The calendar widget enables you to view and perform actions on various events.
-    Out of the box, it displays Content items scheduled for future publication, but your page administrator can configure custom events.
+    Out of the box, it displays Content items and Page blocks scheduled for future publication, but your page administrator can configure custom events.
     Therefore, the calendar can contain other events, e.g. national holidays, important dates, etc.
     
     To access the calendar widget, in the **Content Panel**, open the **Calendar** tab.
