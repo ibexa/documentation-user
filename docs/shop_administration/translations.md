@@ -2,7 +2,7 @@
 
 ## Text modules
 
-Text module is a special Content item in eZ Commerce.
+Text module is a special Content item in [[= product_name_com =]].
 It enables the shop owner or editor to translate some of the text information in the shop using the Online Editor.
 
 Text modules are used for some short explanatory texts in the shop.

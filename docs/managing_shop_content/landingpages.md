@@ -1,12 +1,12 @@
 # Pages in the shop
 
-eZ Commerce has at least one Landing Page which is the homepage. This document describes how to setup and modify Landing Pages. 
+[[= product_name_com =]] has at least one Landing Page which is the homepage. This document describes how to setup and modify Landing Pages. 
 
 ## Landing Page tool
 
 ![](img/landingpage_tool.png)
 
-eZ Commerce adds the following blocks to the blocks available in eZ Platform:
+[[= product_name_com =]] adds the following blocks to the blocks available in [[= product_name_oss =]]:
 
 - Last viewed
 - Bestsellers

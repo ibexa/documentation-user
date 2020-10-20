@@ -1,21 +1,21 @@
 # Getting started
 
-eZ Platform is an open-source, Symfony-based CMS.
+[[= product_name_oss =]] is an open-source, Symfony-based CMS.
 
-eZ Platform consists of the technical platform for developers
+[[= product_name_oss =]] consists of the technical platform for developers
 (including a Web framework, APIs and a Content Repository)
 and provides a user interface to work with the content and administer the platform.
 
-!!! enterprise "eZ Platform Enterprise Edition"
+!!! enterprise "[[= product_name_ee =]]"
 
-    eZ Platform Enterprise Edition is a commercial product built on top of the open-source eZ Platform.
+    [[= product_name_ee =]] is a commercial product built on top of the open-source [[= product_name_oss =]].
     It offers additional functionalities and enhancements to the editing experience.
 
-    eZ Enterprise provides advanced editorial capabilities such as [in-page editing](working_with_page.md), creation of [block-based Pages](working_with_page.md#adding-blocks), [editorial workflow](publishing/editorial_workflow.md), etc.
+    [[= product_name_ee =]] provides advanced editorial capabilities such as [in-page editing](working_with_page.md), creation of [block-based Pages](working_with_page.md#adding-blocks), [editorial workflow](publishing/editorial_workflow.md), etc.
 
 ## Quick start
 
-eZ Platform must be [installed by administrator](https://doc.ezplatform.com/en/latest/getting_started/install_ez_platform/).
+[[= product_name_oss =]] must be [installed by administrator](https://doc.ezplatform.com/en/latest/getting_started/install_ez_platform/).
 They should provide you with the address of the installation.
 
 To access the Back Office (the editor interface), add `/admin` to this address.
@@ -43,8 +43,8 @@ The top bar allows you to move between important sections of the application.
 
 - **Content** gives you access to the content Repository.
 It lets you navigate the Content Tree, create, edit, move, copy, delete content, etc.
-- **Site** enables you to create and edit block-based Pages and manage multiple sites. It is only available for eZ Enterprise users.
-- **Forms** enables you to place a survey, questionnaire, sign-up form, etc. on your website. It is only available for eZ Enterprise users.
+- **Site** enables you to create and edit block-based Pages and manage multiple sites. It is only available for [[= product_name_ee =]] users.
+- **Forms** enables you to place a survey, questionnaire, sign-up form, etc. on your website. It is only available for [[= product_name_ee =]] users.
 - **Admin** is the administration panel where you can manage Users, Sections, permissions, etc.
 
 ### User settings

@@ -26,7 +26,7 @@ While editing a product the preview displays how the product looks on desktops o
 
 ## Product variants
 
-eZ Commerce offers one or two level variants. A variant can be added directly in the product view.
+[[= product_name_com =]] offers one or two level variants. A variant can be added directly in the product view.
 
 There are three preconfigured variant types: Color, Size, and Color and Size.
 
@@ -36,7 +36,7 @@ The list of variant types can be extended in the configuration.
 
 ## Product assets
 
-eZ Commerce supports assets per product (not per variant).
+[[= product_name_com =]] supports assets per product (not per variant).
 By default a product can have one main image and up to three additional images,
 one PDF, and one link to a video (e.g. YouTube).
 

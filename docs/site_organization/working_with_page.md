@@ -26,7 +26,7 @@
 
     !!! note "Autosave"
 
-        To help you preserve your work, eZ Platform saves drafts of Content items automatically.
+        To help you preserve your work, [[= product_name_oss =]] saves drafts of Content items automatically.
         For more information, see [Autosave](../publishing/publishing.md#autosave).
 
     ## Editing Page
@@ -72,12 +72,12 @@
     Do not worry about placing blocks in the proper place from the start.
     You can reorder them at any time by dragging and dropping them in the desired location.
 
-    eZ Enterprise comes with a set of ready-to-use Page blocks,
+    [[= product_name_ee =]] comes with a set of ready-to-use Page blocks,
     but [developers can add their own](https://doc.ezplatform.com/en/master/guide/extending_page/#creating-page-blocks).
 
     ![Elements menu](img/elements_menu.png "Elements menu")
 
-    The blocks provided with a clean installation of eZ Enterprise are:
+    The blocks provided with a clean installation of [[= product_name_ee =]] are:
 
     |Block|Description|
     |-----|-----------|
@@ -107,7 +107,7 @@
     The settings available in the **Basic** tab are tailored to the block's content.
 
 
-    The remaining tabs contain parameters common to all blocks provided with eZ Enterprise.
+    The remaining tabs contain parameters common to all blocks provided with [[= product_name_ee =]].
     Use them to modify the layout and visibility of a block. For details, see [Advanced publishing options](/publishing/advanced_publishing_options.md).
 
 

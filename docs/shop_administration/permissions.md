@@ -1,6 +1,6 @@
 # Permissions
 
-By default eZ Commerce offers the following predefined Roles:
+By default [[= product_name_com =]] offers the following predefined Roles:
 
 | Role   | Functions   |
 | -------| ------------|
@@ -8,7 +8,7 @@ By default eZ Commerce offers the following predefined Roles:
 | Ecommerce checkout         | Allows the user to go through the checkout and place an order.|
 | Ecommerce registered users | Allows the user to manage the accounts of the registered users. |
 
-## List of available eZ Commerce modules and functions
+## List of available [[= product_name_com =]] modules and functions
 
 |Name|Description|
 |--- |--- |

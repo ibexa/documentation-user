@@ -4,27 +4,21 @@
 
 ### Product
 
-**What is the difference between eZ Platform and eZ Enterprise Edition?**
+**What is the difference between [[= product_name_oss =]] and [[= product_name_ee =]]?**
 
-eZ Platform is open-source. eZ Enterprise bases on eZ Platform, but features new functionalities.
+[[= product_name_oss =]] is open-source. [[= product_name_ee =]] bases on [[= product_name_oss =]], but features new functionalities.
 
 **Which parts of eZ are open source and which are commercial?**
 
-eZ Platform is fully open-source and available at [GitHub](https://github.com/ezsystems/ezplatform).
+[[= product_name_oss =]] is fully open-source and available at [GitHub](https://github.com/ezsystems/ezplatform).
 
-eZ Enterprise is a commercial solution.
+[[= product_name_ee =]] is a commercial solution.
 
 **What technologies do I need to know to use eZ?**
 
 If you are using eZ as an editor or content manager, you do not need to have any programming knowledge.
 
 Installing and configuring eZ requires at least basic familiarity with web development. Some more advanced customization possibilities may require programming skills (such as knowledge of PHP or Twig).
-
-**What is Demo Bundle?**
-
-Demo Bundle is a sample website you can get with your installation of eZ. There are two different Demo Bundles: one for eZ Platform and one for eZ Enterprise.
-
-The Bundle contains a small number of initial preset Content Types. You can apply them directly to your website or use them as a starting point to create your own Content Types.
 
 **What are the technical requirements for installing eZ?**
 
@@ -42,7 +36,7 @@ eZ offers two different work modes: **Content mode** and **Page mode**.
 
 **What is Content mode?**
 
-Content mode gives you the access to the content repository. It is mostly the role of eZ Platform, but for users of eZ Enterprise it is enriched with specific Studio functionalities.
+Content mode gives you the access to the content repository. It is mostly the role of [[= product_name_oss =]], but for users of [[= product_name_ee =]] it is enriched with specific Studio functionalities.
 
 Its focus is on creating, modifying, organizing, and publishing Content items. Content mode is an interface for the repository, a place in which eZ stores all the content.
 
@@ -52,7 +46,7 @@ You can preview any Content within the tree, but the Content mode does not allow
 
 **What is Page mode?**
 
-Page mode allows you to manage website pages and website content from the pages themselves. It is only available for eZ Enterprise users. It can be enriched by eZ Services functionalities for users subscribed to them.
+Page mode allows you to manage website pages and website content from the pages themselves. It is only available for [[= product_name_ee =]] users. It can be enriched by eZ Services functionalities for users subscribed to them.
 
 It provides the front-end editing, that is modifying pages directly from their preview. Using a special Timeline toolbar, you can also preview and modify the content of a page at a future date.
 
@@ -117,7 +111,7 @@ See [Design](https://doc.ezplatform.com/en/master/guide/design_engine/) for more
 
 **Where is the technical documentation?**
 
-Technical documentation for eZ Platform and eZ Enterprise is available in [eZ Developer documentation](https://doc.ezplatform.com).
+Technical documentation for [[= product_name_oss =]] and [[= product_name_ee =]] is available in [eZ Developer documentation](https://doc.ezplatform.com).
 
 You can find the technical documentation for eZ Publish 5.x (an earlier version) in [eZ Publish 5.x Developer Documentation](https://doc.ez.no/display/EZP/eZ+Publish+5.x+Developer+Documentation).
 
@@ -131,24 +125,24 @@ If you need more questions answered, have a look at our [Support and Maintenance
 
 If you would like to share your questions or ideas with other eZ users, you can do it on:
 
-- [eZ Platform portal](https://ezplatform.com/).
+- [[[= product_name_oss =]] portal](https://ezplatform.com/).
 - [eZ Community Slack channel](http://ez-community-on-slack.herokuapp.com/) where you can discuss the software and ask for help or support.
 
 **How can I contact eZ representatives?**
 
 If you would like to contact eZ or any of our offices, you can find the [contact information here](http://ez.no/About-eZ/Contact-Us).
 
-## eZ Platform
+## [[= product_name_oss =]]
 
 ### Product
 
-**Where can I get eZ Platform?**
+**Where can I get [[= product_name_oss =]]?**
 
-You can download the current version of eZ Platform from: <https://ezplatform.com>.
+You can download the current version of [[= product_name_oss =]] from: <https://ezplatform.com>.
 
-**How do I install eZ Platform?**
+**How do I install [[= product_name_oss =]]?**
 
-Here is a [guide to installing eZ products](https://doc.ezplatform.com/en/latest/getting_started/install_ez_platform/) (covering both eZ Platform and eZ Enterprise).
+Here is a [guide to installing eZ products](https://doc.ezplatform.com/en/latest/getting_started/install_ez_platform/) (covering both [[= product_name_oss =]] and [[= product_name_ee =]]).
 
 ### Content model
 
@@ -207,7 +201,7 @@ You can limit the visibility of a Content item by hiding the Location it is plac
 
 **How can I preview content?**
 
-In Content mode you cannot edit Content while previewing it (this option is available only in eZ Enterprise).
+In Content mode you cannot edit Content while previewing it (this option is available only in [[= product_name_ee =]]).
 
 You can preview your content while editing it by clicking one of the icons under **Preview** in the action bar.
 
@@ -221,17 +215,17 @@ on the website or through the API.
 
 The **Publish** function allows you to publish the final version of the content object. As a result, the working copy turns into the published version that is visible on the website and available through the API as a publish content.
 
-## eZ Enterprise
+## [[= product_name_ee =]]
 
 ### Product
 
-**Does eZ Enterprise contain all features of eZ Platform?**
+**Does [[= product_name_ee =]] contain all features of [[= product_name_oss =]]?**
 
-Yes, eZ Enterprise is based on eZ Platform and contains it with all of its functionalities.
+Yes, [[= product_name_ee =]] is based on [[= product_name_oss =]] and contains it with all of its functionalities.
 
-**What features does eZ Enterprise offer that are unavailable in eZ Platform?**
+**What features does [[= product_name_ee =]] offer that are unavailable in [[= product_name_oss =]]?**
 
-eZ Enterprise offers a number of additional features aside from what is available in eZ Platform.
+[[= product_name_ee =]] offers a number of additional features aside from what is available in [[= product_name_oss =]].
 
 The key of them are:
 
@@ -239,9 +233,9 @@ The key of them are:
 - Intuitive Page mode editing
 - Workflow functionality for managing the review process
 
-**How do I install eZ Enterprise?**
+**How do I install [[= product_name_ee =]]?**
 
-Here is a [guide to installing eZ products](https://doc.ezplatform.com/en/latest/getting_started/install_ez_platform/) (covering both eZ Platform and eZ Enterprise).
+Here is a [guide to installing eZ products](https://doc.ezplatform.com/en/latest/getting_started/install_ez_platform/) (covering both [[= product_name_oss =]] and [[= product_name_ee =]]).
 
 ### Editing
 
