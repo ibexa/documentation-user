@@ -2,7 +2,7 @@
 
 ## Order management
 
-[[= product_name_com =]] provides a list of all orders in **eZ Commerce** > **Order Management**.
+[[= product_name_com =]] provides a list of all orders in **eCommerce** > **Order Management**.
 
 ![](img/order_management1.png)
 
