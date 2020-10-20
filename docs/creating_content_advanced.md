@@ -48,7 +48,7 @@ or different language versions to visitors from different countries.
 
 See [Site Factory](site_organization/site_factory.md) for more information about setting up sites.
 
-!!! enterprise
+!!! dxp
 
     ## Forms
 

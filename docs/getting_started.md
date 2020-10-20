@@ -6,7 +6,7 @@
 (including a Web framework, APIs and a Content Repository)
 and provides a user interface to work with the content and administer the platform.
 
-!!! enterprise "[[= product_name_ee =]]"
+!!! dxp "[[= product_name_ee =]]"
 
     [[= product_name_ee =]] is a commercial product built on top of the open-source [[= product_name_oss =]].
     It offers additional functionalities and enhancements to the editing experience.

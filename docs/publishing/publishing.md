@@ -58,7 +58,7 @@ You can view all versions of a Content item in the **Versions** tab.
 
 ![All versions of a Content item](img/content_item_versions.png "All versions of a Content item")
 
-!!! enterprise
+!!! dxp
 
     #### Comparing versions
 

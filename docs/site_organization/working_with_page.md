@@ -1,6 +1,6 @@
 # Working with Page
 
-!!! enterprise
+!!! dxp
 
     **Page** is a special Content Type that contains zones onto which you can drop different dynamic blocks.
     You can edit it to personalize the layout and contents of your website.

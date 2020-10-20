@@ -102,7 +102,7 @@ You can hide a Content item by clicking **Hide** in the menu.
 
 ![Hide content icon](img/hide_content_icon.png)
 
-!!! enterprise
+!!! dxp
 
     When you click **Hide** in [[= product_name_ee =]], you can choose to **Hide later**
     and select and date and time when the Content item will be hidden:
