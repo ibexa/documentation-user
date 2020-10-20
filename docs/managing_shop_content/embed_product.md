@@ -15,7 +15,7 @@ If you want to embed more than one product inside a RichText Field, use the Prod
 
 ### Box type
 
-eZ Commerce offers the following types of box designs:  
+[[= product_name_com =]] offers the following types of box designs:  
 
 - Slider
 

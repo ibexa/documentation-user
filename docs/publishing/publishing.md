@@ -29,7 +29,7 @@ Note that you cannot edit an unpublished draft created by another user.
 
 ### Autosave
 
-While you edit a Content item or product, eZ Platform saves your work automatically to help you preserve the progress in an event of a failure.
+While you edit a Content item or product, [[= product_name_oss =]] saves your work automatically to help you preserve the progress in an event of a failure.
 To recover your work, open the most recent draft in the **Versions** tab of the Content item.
 Alternatively, open the most recent draft of your work on the **My dashboard** page, the **Drafts** table.
 
@@ -54,7 +54,7 @@ You can view all versions of a Content item in the **Versions** tab.
 
 ![All versions of a Content item](img/content_item_versions.png "All versions of a Content item")
 
-!!! enterprise
+!!! dxp
 
     #### Comparing versions
 

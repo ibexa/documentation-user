@@ -1,6 +1,6 @@
 # Editorial workflow
 
-!!! enterprise
+!!! dxp
 
     Using editorial workflow you can pass content between different stages in a preconfigured flow.
     Typically, the stages correspond to different teams or departments that contribute to content
