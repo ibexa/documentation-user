@@ -1,6 +1,6 @@
 # Shop administration
 
-eZ Commerce provides the following eCommerce functions in the top menu of the backend.
+[[= product_name_com =]] provides the following eCommerce functions in the top menu of the backend.
 
 Depending on the chosen data provider and whether an ERP is connected, some tabs may contain no data.
 

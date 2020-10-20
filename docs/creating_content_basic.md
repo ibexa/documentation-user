@@ -16,9 +16,9 @@ In this way you can upload files such as images, videos, PDF documents, etc.
 If you choose the first three options, you have to select the Content Type first.
 When uploading files, the Content Type will be chosen automatically.
 
-!!! enterprise
+!!! dxp
 
-    If you are using eZ Enterprise Edition,
+    If you are using [[= product_name_ee =]],
     you will have the *Page* Content Type available for selection.
     Pages are edited in the Page Builder, see [working with Page](working_with_page.md) section.
 
@@ -33,7 +33,7 @@ A *Location* Field is a point on the map. You can type the place name, enter its
 
 !!! note "Autosave"
 
-    To help you preserve your work, eZ Platform saves drafts of Content items automatically.
+    To help you preserve your work, [[= product_name_oss =]] saves drafts of Content items automatically.
     For more information, see [Autosave](publishing/publishing.md#autosave).
 
 ### Editing Rich Text Fields

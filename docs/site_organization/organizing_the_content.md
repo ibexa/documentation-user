@@ -102,9 +102,9 @@ You can hide a Content item by clicking **Hide** in the menu.
 
 ![Hide content icon](img/hide_content_icon.png)
 
-!!! enterprise
+!!! dxp
 
-    When you click **Hide** in Enterprise, you can choose to **Hide later**
+    When you click **Hide** in [[= product_name_ee =]], you can choose to **Hide later**
     and select and date and time when the Content item will be hidden:
 
     ![Schedule hiding panel](img/schedule_hiding.png)
@@ -119,7 +119,7 @@ in all of its Locations.
 In your site, you can manage external URL addresses and URL wildcards.
 You do this in the Back Office, **Admin** tab, the **URL Management** node.
 
-For more information about URL management, see the [eZ Platform Developer Documentation.](https://doc.ezplatform.com/en/latest/guide/url_management).
+For more information about URL management, see the [Ibexa Developer Documentation.](https://doc.ezplatform.com/en/latest/guide/url_management).
 
 ### Link manager
 

@@ -1,6 +1,6 @@
 # Site Factory
 
-!!! enterprise
+!!! dxp
 
     The Site Factory enables you to easily create and manage multiple sites in different languages from one place.
     All the sites can be kept in the Repository of your installation.

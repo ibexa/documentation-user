@@ -1,8 +1,8 @@
-site_name: eZ Platform User Documentation
+site_name: Ibexa User Documentation
 repo_url: https://github.com/ezsystems/user-documentation
 copyright: "Copyright 1999-2020 Ibexa and others"
 nav:
-    - 'eZ Platform User Documentation': 'index.md'
+    - 'Ibexa User Documentation': 'index.md'
     - 'Getting started': 'getting_started.md'
     - 'Content model': 'content_model.md'
     - 'Creating content – basic': 'creating_content_basic.md'
@@ -81,10 +81,14 @@ extra:
   append_bootstrap: []
 
   related_docs:
-    - title: 'eZ Platform User Documentation'
+    - title: 'Ibexa User Documentation'
       url: '/projects/userguide'
-    - title: 'eZ Platform Developer Documentation'
+    - title: 'Ibexa Developer Documentation'
       url: '/'
+  # Global variables
+  product_name_oss: 'Ibexa Platform'
+  product_name_ee: 'Ibexa DXP'
+  product_name_com: 'Ibexa Commerce'
 
 extra_css:
   - fonts/MavenPro.css

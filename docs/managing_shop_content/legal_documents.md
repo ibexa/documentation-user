@@ -24,7 +24,7 @@ The cancellation policy text is added to the confirmation email from the shop.
 
 ## Adding identifier to "Terms & Conditions"
 
-eZ Commerce extends the built-in Article Content Type with the Identifier Field.
+[[= product_name_com =]] extends the built-in Article Content Type with the Identifier Field.
 With this identifier you can fetch the article and render the content using a controller.
 
 ### Controller

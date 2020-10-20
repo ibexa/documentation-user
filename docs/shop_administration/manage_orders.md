@@ -2,7 +2,7 @@
 
 ## Order management
 
-eZ Commerce provides a list of all orders in **eZ Commerce** > **Order Management**.
+[[= product_name_com =]] provides a list of all orders in **eCommerce** > **Order Management**.
 
 ![](img/order_management1.png)
 
@@ -50,7 +50,7 @@ but you can still check orders in this section.
 
 ### Lost orders
 
-If the ERP system is not running at the moment, eZ Commerce can store the orders and retransmit them when the ERP is working.
+If the ERP system is not running at the moment, [[= product_name_com =]] can store the orders and retransmit them when the ERP is working.
 The orders are stored in a database table and marked for retransmission. The shop records the number of retries.
 By default the maximum number is 3 (`siso_checkout.default.max_failed_order`).
 

@@ -1,9 +1,9 @@
-# eZ Platform user documentation
+# Ibexa user documentation
 
-This is the hub for eZ Platform documentation for editors and content managers.
-You can find here information on how to create, edit, manage, and publish content in eZ Platform.
+This is the hub for [[= product_name_oss =]] documentation for editors and content managers.
+You can find here information on how to create, edit, manage, and publish content in [[= product_name_oss =]].
 
-**New to eZ Platform? See [Getting Started](getting_started.md)**
+**New to [[= product_name_oss =]]? See [Getting Started](getting_started.md)**
 
 **Got a question? See the [FAQ](faq.md)**
 

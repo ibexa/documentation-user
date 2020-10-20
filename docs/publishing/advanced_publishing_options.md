@@ -1,6 +1,6 @@
 # Advanced publishing options
 
-!!! enterprise
+!!! dxp
 
     There are three ways in which you can schedule content to be published in the future:
 
