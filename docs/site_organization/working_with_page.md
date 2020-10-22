@@ -126,7 +126,7 @@
     - In the **Select default content** section, click **Select content**, navigate through the content
     and select the default Content item that will be displayed when no priority rules are valid.
     - In the **Setup segment and content matching priority rules** section, select a Segment Group and a Segment,
-    then click **Select content** and navigate to the Content item you want to display for the selected group.
+    then click **Select content** and navigate to the Content item that you want to display for the selected group.
 
     The rules are checked in order, so if a user belongs to more than one Segment, the first rule applies.
 

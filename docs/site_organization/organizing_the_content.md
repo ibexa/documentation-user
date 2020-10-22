@@ -213,10 +213,10 @@ Bookmarks are stored per user. You can view a list of all bookmarks by clicking 
 
 ## Segments
 
-Segments enable you to target content at specific groups of your users.
-You can use them to display different content to different visitors to your Pages using the [Targeting block](working_with_page.md#targeting-block).
+With segments you can target content at specific groups of your users.
+You can use them to display different content to different Page visitors by using the [Targeting block](working_with_page.md#targeting-block).
 
-You can create and configure Segments and Segment Groups they belong to in the **Admin** section of the Back Office.
+You can create and configure Segments and Segment Groups in the **Admin** section of the Back Office.
 
 ![](../img/admin_panel_segment_groups.png)
 
