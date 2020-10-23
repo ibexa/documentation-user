@@ -35,8 +35,6 @@ This menu enables you to set up stock if the shop price provider (`siso_price.pr
 
 ## Importing and exporting prices and stock
 
-![](img/import_export_prices.png)
-
 You can update stock and prices using a CSV file.
 Prices and stock can be downloaded and uploaded if the shop price provider (`siso_price.price_provider.shop`) is configured for calculating prices.
 

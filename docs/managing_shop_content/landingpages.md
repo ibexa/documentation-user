@@ -30,7 +30,7 @@ Click **Submit** and you will see a preview of the slider.
 
 The Last viewed block displays a list of the last viewed products in a slider.
 
-![](img/slider_block_view.png)
+![](img/last_viewed.png)
 
 The block might not be visible in the edit mode but it will contain products in the frontend.
 
@@ -38,7 +38,7 @@ The block might not be visible in the edit mode but it will contain products in 
 
 The Bestsellers block shows the bestselling products from a chosen category. This can be the whole product catalog or a subcategory.
 
-![](img/bestsellers_slider.png)
+![](img/bestsellers_block.png)
 
 To choose a category, click **Select content**.
 
