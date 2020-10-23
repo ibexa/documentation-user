@@ -210,3 +210,17 @@ You can bookmark any Content item by clicking the star icon next to the Content 
 Bookmarks are stored per user. You can view a list of all bookmarks by clicking Bookmarks in the left menu.
 
 ![Bookmark screen](img/bookmarks.png)
+
+## Segments
+
+With segments you can target content at specific groups of your users.
+You can use them to display different content to different Page visitors by using the [Targeting block](working_with_page.md#targeting-block).
+
+You can create and configure Segments and Segment Groups in the **Admin** section of the Back Office.
+
+![](../img/admin_panel_segment_groups.png)
+
+!!! note
+
+    Assigning Users to Segments happens automatically according to rules set up by the administrator.
+    Contact your site administrator for more information about your setup.
