@@ -30,7 +30,7 @@
     !!! note "Path limitation"
     
         The path can be only one directory deep. 
-        Do not use longer paths, for example, `/en/articles`.
+        Do not use paths that have more than one element, for example, `/en/articles`.
     
     For more information, see [SiteAccess](https://doc.ibexa.co/en/latest/guide/siteaccess/).
     
