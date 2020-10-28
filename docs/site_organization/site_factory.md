@@ -25,7 +25,14 @@
     ![Site skeleton toggle](img/site_factory_skeleton_toggle.png)
     
     Next, you can decide if the site will go live after creation or will be offline with the Status switcher.
-    In this section you will also define the access URL address(es) and main language, as well as fallback languages of the site.
+    In this section you also define the SiteAccess URL addresses with optional paths, main languages, and fallback languages of the site.
+    
+    !!! note "Path limitation"
+    
+        The path can be only one directory deep. 
+        Do not use longer paths, for example, `/en/articles`.
+    
+    For more information, see [SiteAccess](https://doc.ibexa.co/en/latest/guide/siteaccess/).
     
     ![Create a new site step two](img/site_factory_new_site_step_2.png)
     
