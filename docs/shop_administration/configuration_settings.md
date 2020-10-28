@@ -158,4 +158,4 @@ Fallback configuration for price engine. It is used, if no shipping costs are se
 
 For some settings the shop requires a country-specific configuration.
 
-![](img/configuration_settings_EN.jpg)
+![](img/configuration_settings_en.png)

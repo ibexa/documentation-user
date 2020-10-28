@@ -6,8 +6,6 @@ When you use the content model data provider, the product catalog is fully integ
 
 ![](img/browse_products.png)
 
-![](img/product_catalog.png)
-
 Products and categories can be assigned to the product catalog.
 
 ![](img/sub_categories.png)

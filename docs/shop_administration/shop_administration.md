@@ -23,8 +23,6 @@ Depending on the chosen data provider and whether an ERP is connected, some tabs
 This section is available only if an ERP system is connected.
 
 All communication (request and response messages), that is sent between shop and ERP system is recorded and displayed here.
-
-![](img/erprequest_log.png)
  
 ### ERP Performance
 
@@ -35,8 +33,6 @@ The monitoring tool regularly checks the connection to the ERP with a test reque
 
 If the connection fails, the administrator receives an email.
 If the connection is successful again, the alarm is ended by another email.
-
-![](img/erp_performance.png)
 
 ### eMail archive
 

@@ -17,9 +17,9 @@ Currently, available sections:
 - Number of products  (The number of products only respects the content model data provider.
 The number of products in the eContent is displayed in **Control Center** / **Manage eContent**.)
 
-## Data per shop
+## Sales and Orders
 
-The data in the next section refers to a specific shop.
+The Dales and Orders data refers to a specific shop.
 If there is more than one shop in the installation, the shop owner can choose shop and currency.
 
 Currently available data:
@@ -29,9 +29,6 @@ Currently available data:
 
 You can select a specific date range or one of predefined date ranges.
 
-You can also compare the chosen date range with the a range of the same length in the past.
-For example, if you choose last week, you can compare it with the week before.
-
 ## Products and sales
 
 Product and sales section shows data in tables such as:
@@ -39,8 +36,6 @@ Product and sales section shows data in tables such as:
 - Bestsellers (Top 20)
 - Last orders (Last 365)
 - Best clients (Top 20)
-
-You can refresh this panel separately from the whole page with the icon in the top right corner on the section's title bar.
 
 Tabs **Last orders** and **Best clients** are only visible for users who have the Siso policy / Read customers and orders Policy. See [Permissions](permissions.md) for more information.
 
