@@ -10,7 +10,10 @@ A scenario is a configuration for getting recommendations. It consists of:
 
 We strongly encourage adding several models to a scenario in order to avoid empty recommendation boxes. In the configuration interface there is a matrix provided for the configuration. You can drag available models from the left side into the scenario matrix on the right side.
 
-If your models support additional differentiators, you can apply them here: pick a context from a drop-down with a list of available context options, and/or select *Use submodels* checkbox to group all products based on a selected attribute. For more information, see [Advanced model configuration](recommendation_models.md#advanced-model-configuration). 
+If your models support additional differentiators, you can apply them here:
+pick a context from a drop-down with a list of available context options,
+and/or select the **Use submodels** checkbox to group all products based on a selected attribute.
+For more information, see [Advanced model configuration](recommendation_models.md#advanced-model-configuration). 
 
 ![Scenario configuration matrix](img/scenario_matrix.png)
 
