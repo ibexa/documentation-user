@@ -30,14 +30,6 @@ A user wants to buy a smartphone and browses on the detail page of smartphone 
 
 It is not guaranteed that there's a bundle available for every product. Therefore a rendering logic should display a box of bundle recommendations only if they are available, otherwise the box can be left out. Remember that the currently displayed product is always included in the bundle.
 
-#### Content Based (by attributes)
-
-The content based algorithm calculates the similarity scores among products based on given attributes. This algorithm depends on expert knowledge because you should be able to define the most important attributes of the product catalog. An example could be the price, the producer or the location of a product. In the news domain, this may be the story location the article is talking about, the author or the category. The distinct attributes should be limited in their range (a nominal set) because it does not make sense to build similarities based on attributes that are different for each product (e.g. a timestamp or EAN-Code). There is also a need to assign weights to these attributes since they are used to compute the importance weight of each attribute for the similarity.
-
-#### Content Based (by semantic full text analysis)
-
-This model provides similarities based on free text analysis and indexing. This is a very powerful model publishers can use to get similar articles based on their content without the need of manual maintenance of related articles by e.g. editors. The full text analysis algorithm uses a search engine in the background.
-
 #### Similar Rated
 
 The similar rated algorithm provides recommendations based on user preferences. It predicts similar articles which the user will probably like and that will suit their interests. Recommendations for articles similar to their dislikes are suppressed.
