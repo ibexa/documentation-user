@@ -3,7 +3,7 @@
 The administration dashboard is the entry point to configure and control the Personalization Solution. It is split into two main sections:
 
 - The top section contains diagrams representing statistical information on how the recommendation engine is used and how successful - depending on the KPIs - recommendations are.
-- The lower section is made up of many configuration tabs. It contains at least the Scenarios and Added revenue information. Depending on the license and registration information there is also a tab for A/B-Testing, Plugin, Content Import and Newsletter settings
+- The lower section is made up of many configuration tabs. It contains at least the Scenarios and Added revenue information. Depending on the license and registration information there is also a tab for Plugin and Content Import settings.
 
 ## Statistics
 
@@ -54,12 +54,6 @@ This tab shows you recommendation preview based on a Scenario.
 
 ![Dashboard Preview](img/dashboard_preview.png)
 
-### A/B Testing
-
-This tab holds an overview of A/B Tests. Finished, currently running and scheduled tests are listed here.
-
-![Dashboard A/B Tests](img/dashboard_ab_tests.png)
-
 ### Plugins
 
 If a plugin was used to register the service, specific settings can be configured under **Plugins**.
@@ -71,7 +65,3 @@ If a plugin was used to register the service, specific settings can be configure
 Item import jobs are used to fetch data from a customer system. Data-mappings and schedule times are defined here.
 
 ![Dashboard Item Import](img/dashboard_item_import.png)
-
-### Newsletter
-
-Newsletters are sent out if certain events happen, e.g. a user did not come back for a number of days or the shopping cart was abandoned. Style and conditions are configured in the **Newsletter** tab.

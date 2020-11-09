@@ -12,7 +12,7 @@ All possible events used in the system are described in the following table.
 |BUY|It should be sent if something was bought.|
 |CONSUME|Similar to the BUY event but without a payment. It is designed for publisher websites. This event is sent if an article or a web page is consumed (usually "read" or a "pre-listened" video).|
 |RENDER|It should be sent if a recommendation is shown on the web page. This information is used by filters to suppress repeated recommendations of the same item.|
-|FOLLOW / CLICKRECOMMENDED|If a user clicks on the recommended product the "clickrecommended" (sometimes called FOLLOW) event must be sent. It allows building acceptance statistics and enables A/B testing.|
+|FOLLOW / CLICKRECOMMENDED|If a user clicks on the recommended product the "clickrecommended" (sometimes called FOLLOW) event must be sent. It allows building acceptance statistics.|
 |TRANSFER / LOGIN|A special type of event to deal with a user login after the user already surfed on the web page anonymously. It should always sent if the identifier of the user changed. As a result the anonymous history of the user will be transferred from the old identifier to the new one. This workflow is automatically done in the recommender engine.|
 
 #### Additional events for the advanced edition
@@ -29,6 +29,6 @@ All the events require the current user ID and the ID of one or more context ite
 |Event|Additional information|
 |---|---|
 |CLICK|Category path of the product a customer clicked on can be attached to the event. It is an alternative way to provide this information for a product without having a catalogue/export. This way is available for both basic and advanced editions. If an export is available to be fed into the recommendation engine, this information is ignored.|
-|BUY|The price that a user paid for the product. This is an important parameter for the statistics and especially for A/B tests. Quantity of the products bought must be sent as well to be used in the revenue statistics.|
+|BUY|The price that a user paid for the product. This is an important parameter for the statistics. Quantity of the products bought must be sent as well to be used in the revenue statistics.|
 |FOLLOW/CLICKRECOMMENDED|The scenario which provided the recommendations must be sent in this event.|
 |RATE|The rating (for example 1 to 5 stars) can be sent as an additional parameter.|
