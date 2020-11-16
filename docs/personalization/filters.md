@@ -110,5 +110,5 @@ This type of filter needs both item import and user attribute import.
 
 See developer guide for more information on item and user attributes import:
 
-- [Insert XML Content](https://doc.ezplatform.com/en/master/guide/personalization/content_api.md#insert-xml-content)
-- [User API](https://doc.ezplatform.com/en/master/guide/personalization/user_api.md)
+- [Insert XML Content](https://doc.ibexa.co/en/master/guide/personalization/developer_guide/content_api/#insert-xml-content)
+- [User API](https://doc.ibexa.co/en/master/guide/personalization/developer_guide/user_api)

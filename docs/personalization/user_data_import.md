@@ -4,12 +4,12 @@ By default the recommendation engine has very little information about the user 
 
 Sometimes it is helpful to store additional attributes for every user, for example age or home city. It is possible to retrieve the stored information based on the external user ID, but due to the hashing step mentioned above, it is not possible to get the external user ID within the user's attribute set (unless the external ID is not explicitly stored as an attribute of course).
 
-How user attributes are imported and what they can be used for is described in the [User API](https://doc.ezplatform.com/en/master/guide/personalization/user_api.md).
+How user attributes are imported and what they can be used for is described in the [User API](https://doc.ibexa.co/en/master/guide/personalization/developer_guide/user_api).
 
-Usage of the user attribute in the recommendation process is quite straightforward and explained in detail in the [Recommendation API](https://doc.ezplatform.com/en/master/guide/personalization/recommendation_api.md).
+Usage of the user attribute in the recommendation process is quite straightforward and explained in detail in the [Recommendation API](https://doc.ibexa.co/en/master/guide/personalization/developer_guide/recommendation_api).
 
 !!! tip
 
     An example of how user attributes can be used in the recommendation engine:[Boost-Filters](filters.md#boost-filters)
 
-    Information on the import format can be found in the developer guide:[User API](https://doc.ezplatform.com/en/master/guide/personalization/user_api.md)
+    Information on the import format can be found in the developer guide:[User API](https://doc.ibexa.co/en/master/guide/personalization/developer_guide/user_api)
