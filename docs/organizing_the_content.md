@@ -122,6 +122,7 @@ For each new alias, you can set the following options:
 - Alias should redirect to its destination - when toggled on, the alias will redirect to the Content item's actual URL.
 - Place alias at the site root - when toggled, the alias will be created in the root of the site.
 If this is toggled off, the alias will be relative to the parent of the Content item.
+- SiteAccess - when selected, the prefix of the respective SiteAccess is added to the alias path.
 
 ## Sections
 
