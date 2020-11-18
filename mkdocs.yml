@@ -10,7 +10,6 @@ nav:
     - 'Publishing': 'publishing.md'
     - 'Creating content — advanced': 'creating_content_advanced.md'
     - 'Organizing the site': 'organizing_the_site.md'
-    - 'FAQ': 'faq.md'
 theme:
   name: null
   custom_dir: 'material'
