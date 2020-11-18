@@ -28,7 +28,6 @@ nav:
         - 'Scenarios': 'personalization/scenarios.md'
         - 'Content import': 'personalization/content_import.md'
         - 'User data import': 'personalization/user_data_import.md'
-    - 'FAQ': 'faq.md'
 theme:
   name: null
   custom_dir: 'material'

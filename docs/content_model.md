@@ -120,4 +120,4 @@ Hidden content is blurred out in the tree view.
 To simplify the Content Tree, big lists are shortened with a **Show more** option. You can select it to expand all lists in the tree.
 The **Collapse all** option situated at the bottom of the tree closes all expanded sections.
 
-For more information on custom configuration, go to [Content Tree](https://doc.ezplatform.com/en/2.5/guide/config_back_office/#content-tree) in developer documentation.
+For more information on custom configuration, go to [Content Tree](https://doc.ibexa.co/en/2.5/guide/config_back_office/#content-tree) in developer documentation.

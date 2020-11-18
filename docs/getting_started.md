@@ -15,7 +15,7 @@ and provides a user interface to work with the content and administer the platfo
 
 ## Quick start
 
-eZ Platform must be [installed by administrator](https://doc.ezplatform.com/en/latest/getting_started/install_ez_platform/).
+eZ Platform must be [installed by administrator](https://doc.ibexa.co/en/latest/getting_started/install_ez_platform/).
 They should provide you with the address of the installation.
 
 To access the Back Office (the editor interface), add `/admin` to this address.

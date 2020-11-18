@@ -68,7 +68,7 @@
     You can reorder them at any time by dragging and dropping them in the desired location.
     
     eZ Enterprise comes with a set of ready-to-use Page blocks,
-    but [developers can add their own](https://doc.ezplatform.com/en/2.5/guide/extending_page/#creating-page-blocks).
+    but [developers can add their own](https://doc.ibexa.co/en/2.5/guide/extending_page/#creating-page-blocks).
     
     ![Elements menu](img/elements_menu.png "Elements menu")
     
@@ -85,7 +85,7 @@
     |Gallery|Displays all images contained in a selected folder. For details, see [Gallery block](#gallery-block).|
     |Video|Embeds a video into the Page with standard playback controls. For details, see [Video block](#video-block).|
     |RSS|Loads and displays news from RSS feeds (channels). For details, see [RSS block](#rss-block).|
-    |Content Scheduler|Displays Content items at a pre-defined time. For details, see [Content Scheduler block](/publishing/advanced_publishing_options.md#content-scheduler-block).|
+    |Content Scheduler|Displays Content items at a pre-defined time. For details, see [Content Scheduler block](publishing/advanced_publishing_options.md#content-scheduler-block).|
     |Text|Enables you to add to the Page a Rich Text block. For details, see [Text block](#text-block).|
     
     ## Block settings
@@ -103,7 +103,7 @@
     
     
     The remaining tabs contain parameters common to all blocks provided with eZ Enterprise. 
-    Use them to modify the layout and visibility of a block. For details, see [Advanced publishing options](/publishing/advanced_publishing_options.md).
+    Use them to modify the layout and visibility of a block. For details, see [Advanced publishing options](publishing/advanced_publishing_options.md).
     
     
     You can't publish a Page if you have not set all the required settings of all blocks.
