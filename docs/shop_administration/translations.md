@@ -28,7 +28,7 @@ You can see the result when you reload the page.
 
 ### Caching
 
-Text modules are cached. You can [refresh the text modules](https://doc.ezplatform.com/en/master/guide/cache/content_cache_refresh/content_cache_refresh.md) when they are edited.
+Text modules are cached. You can [refresh the text modules](https://doc.ibexa.co/en/master/guide/cache/content_cache_refresh/content_cache_refresh) when they are edited.
 Workflows and cron job have to be configured for that.
 
 However, if the full page is cached in HTTP cache, the new translation for the text module appears after the HTTP cache expires or is removed.
@@ -37,4 +37,4 @@ However, if the full page is cached in HTTP cache, the new translation for the t
 
 [OneSky](https://www.oneskyapp.com/) is an external platform for managing translations. You can use this platform to offer a user interface for translations management.
 
-See [OneSky in the guide](https://doc.ezplatform.com/en/master/guide/translations/onesky.md) to learn how to set up OneSky for your shop.
+See [OneSky in the guide](https://doc.ibexa.co/en/master/guide/translations/onesky.md) to learn how to set up OneSky for your shop.

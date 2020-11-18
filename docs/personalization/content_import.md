@@ -18,4 +18,4 @@ There are four different ways to import data into the recommendation system:
 
 !!! tip
 
-    You can find Specification for Import interfaces in the developer guide under [Content API](https://doc.ezplatform.com/en/master/guide/personalization/content_api.md).
+    You can find Specification for Import interfaces in the developer guide under [Content API](https://doc.ibexa.co/en/master/guide/personalization/developer_guide/content_api).
