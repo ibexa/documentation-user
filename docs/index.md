@@ -5,8 +5,6 @@ You can find here information on how to create, edit, manage, and publish conten
 
 **New to [[= product_name_oss =]]? See [Getting Started](getting_started.md)**
 
-**Got a question? See the [FAQ](faq.md)**
-
 !!! tip "Are you a developer?"
 
-    Take a look at our [documentation for developers and system administrators](https://doc.ezplatform.com).
+    Take a look at our [documentation for developers and system administrators](https://doc.ibexa.co).
