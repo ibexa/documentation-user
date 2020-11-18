@@ -44,7 +44,7 @@
     |![Edit and preview switch](img/page_builder_toolbar_editpreview.png)|Switch between previewing and editing the Page.|
     |![Page view and Field view switch](img/page_builder_toolbar_viewedit.png)|Switch between the Page view and the Field view.|
     |![View toggler](img/page_builder_toolbar_devicestoggler.png)|Toggle through to see how the Page is rendered on different devices.|
-    |![Timeline button](img/page_builder_toolbartimelinetoggler.png)|Access the timeline to preview how the Page changes with time. You can also view the list of all upcoming scheduled events. For details, see [Timeline](publishing/advanced_publishing_options.md#timeline).|
+    |![Timeline button](img/page_builder_toolbartimelinetoggler.png)|Access the timeline to preview how the Page changes with time. You can also view the list of all upcoming scheduled events. For details, see [Timeline](../publishing/advanced_publishing_options.md#timeline).|
     |![Page builder menu button](img/page_builder_toolbarpopmenu.png)|Access menu enabling you to switch layout, see versions of the Page, manage translations, or delete the Page.|
     |![Create new button](img/page_builder_toolbarcreatebutton.png)|Create a new Content item.|
 
@@ -68,7 +68,7 @@
     You can reorder them at any time by dragging and dropping them in the desired location.
 
     eZ Enterprise comes with a set of ready-to-use Page blocks,
-    but [developers can add their own](https://doc.ezplatform.com/en/master/guide/extending_page/#creating-page-blocks).
+    but [developers can add their own](https://doc.ibexa.co/en/master/guide/extending_page/#creating-page-blocks).
 
     ![Elements menu](img/elements_menu.png "Elements menu")
 
@@ -85,7 +85,7 @@
     |Gallery|Displays all images contained in a selected folder. For details, see [Gallery block](#gallery-block).|
     |Video|Embeds a video into the Page with standard playback controls. For details, see [Video block](#video-block).|
     |RSS|Loads and displays news from RSS feeds (channels). For details, see [RSS block](#rss-block).|
-    |Content Scheduler|Displays Content items at a pre-defined time. For details, see [Content Scheduler block](/publishing/advanced_publishing_options.md#content-scheduler-block).|
+    |Content Scheduler|Displays Content items at a pre-defined time. For details, see [Content Scheduler block](../publishing/advanced_publishing_options.md#content-scheduler-block).|
     |Text|Enables you to add to the Page a Rich Text block. For details, see [Text block](#text-block).|
 
     ## Block settings
@@ -103,7 +103,7 @@
 
 
     The remaining tabs contain parameters common to all blocks provided with eZ Enterprise.
-    Use them to modify the layout and visibility of a block. For details, see [Advanced publishing options](/publishing/advanced_publishing_options.md).
+    Use them to modify the layout and visibility of a block. For details, see [Advanced publishing options](../publishing/advanced_publishing_options.md).
 
 
     You can't publish a Page if you have not set all the required settings of all blocks.
@@ -213,7 +213,7 @@
 
     - In the **Name** box, provide the name of the block that will appear on the Page.
     - In the **Content** box, enter text, images, videos, etc. using the Online Editor.
-    For details, see [Editing Rich Text Fields](creating_content_basic.md#editing-rich-text-fields).
+    For details, see [Editing Rich Text Fields](../creating_content_basic.md#editing-rich-text-fields).
 
     When done editing, click **Submit** to save the changes or **Discard** to cancel.
 

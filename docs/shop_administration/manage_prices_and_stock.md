@@ -18,7 +18,7 @@ In addition, prices can vary per customer group.
 
 ### Currencies
 
-Currency is configured per country in the [configuration settings](https://doc.ezplatform.com/en/master/guide/configuration/configuration.md#currencies-used-per-country).
+Currency is configured per country in the configuration settings.
 
 If a product has a price for a product and a currency, this price is displayed in the shop.
 If no price for a currency is set in a shop, eZ Commerce offers two possibilities, configured per shop:

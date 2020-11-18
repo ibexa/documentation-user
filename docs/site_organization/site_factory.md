@@ -5,7 +5,7 @@
     The Site Factory enables you to easily create and manage multiple sites in different languages from one place.
     All the sites can be kept in the Repository of your installation.
     To be able to use it, the Site Factory has to be enabled and configured by your administrator.
-    For more information see developer documentation on [Site Factory](https://doc.ezplatform.com/en/latest/guide/site_factory/).
+    For more information see developer documentation on [Site Factory](https://doc.ibexa.co/en/latest/guide/site_factory/).
     
     ## Create a site
     

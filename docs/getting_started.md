@@ -11,11 +11,11 @@ and provides a user interface to work with the content and administer the platfo
     eZ Platform Enterprise Edition is a commercial product built on top of the open-source eZ Platform.
     It offers additional functionalities and enhancements to the editing experience.
 
-    eZ Enterprise provides advanced editorial capabilities such as [in-page editing](working_with_page.md), creation of [block-based Pages](working_with_page.md#adding-blocks), [editorial workflow](publishing/editorial_workflow.md), etc.
+    eZ Enterprise provides advanced editorial capabilities such as [in-page editing](site_organization/working_with_page.md), creation of [block-based Pages](site_organization/working_with_page.md#adding-blocks), [editorial workflow](publishing/editorial_workflow.md), etc.
 
 ## Quick start
 
-eZ Platform must be [installed by administrator](https://doc.ezplatform.com/en/latest/getting_started/install_ez_platform/).
+eZ Platform must be [installed by administrator](https://doc.ibexa.co/en/latest/getting_started/install_ez_platform/).
 They should provide you with the address of the installation.
 
 To access the Back Office (the editor interface), add `/admin` to this address.

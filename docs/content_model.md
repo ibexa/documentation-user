@@ -110,7 +110,7 @@ You can also use the **Content Browser** to search the Repository for content, e
     
     For more information about users and permissions, see [Users](site_organization/organizing_the_site.md#users).
     
-    For more information about site skeletons, see [Site factory](https://doc.ezplatform.com/en/master/guide/site_factory/#configure-site-skeleton).
+    For more information about site skeletons, see [Site factory](https://doc.ibexa.co/en/master/guide/site_factory/#configure-site-skeleton).
 
 ### Content Tree
 
@@ -119,11 +119,11 @@ If you want to navigate through your website with a menu, go to the **Content** 
 
 ![Content Tree in the menu](img/left_menu_tree.png "Content Tree in the menu")
 
-Unique icons for each Content Type instantly show you what type of content you are selecting. To add custom icons to your Content Tree, follow [configuration tutorial in developer documentation.](https://doc.ezplatform.com/en/master/extending/custom_icons/#custom-content-type-icons)
+Unique icons for each Content Type instantly show you what type of content you are selecting. To add custom icons to your Content Tree, follow [configuration tutorial in developer documentation.](https://doc.ibexa.co/en/master/extending/custom_icons/#custom-content-type-icons)
 
 Hidden content is blurred out in the tree view.
 
 To simplify the Content Tree, big lists are shortened with a **Show more** option. You can select it to expand all lists in the tree.
 The **Collapse all** option situated at the bottom of the tree closes all expanded sections.
 
-For more information on custom configuration, go to [Content Tree](https://doc.ezplatform.com/en/master/guide/config_back_office/#content-tree) in developer documentation.
+For more information on custom configuration, go to [Content Tree](https://doc.ibexa.co/en/master/guide/config_back_office/#content-tree) in developer documentation.
