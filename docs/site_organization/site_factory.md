@@ -22,8 +22,6 @@
     If the design defines a Site skeleton, you can choose if you want to copy the entire content structure of the design with a toggle.
     To preview the Site skeleton architecture go to **Admin** > **Site skeletons** tab.
     
-    ![Site skeleton toggle](img/site_factory_skeleton_toggle.png)
-    
     Next, you can decide if the site will go live after creation or will be offline with the Status switcher.
     In this section you also define the SiteAccess URL addresses with their main languages, fallback languages, and optional paths for the site.
     
