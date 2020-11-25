@@ -73,7 +73,7 @@
     You can reorder them at any time by dragging and dropping them in the desired location.
 
     [[= product_name_ee =]] comes with a set of ready-to-use Page blocks,
-    but [developers can add their own](https://doc.ibexa.co/en/master/guide/extending_page/#creating-page-blocks).
+    but [developers can add their own](https://doc.ibexa.co/en/latest/extending/extending_page/).
 
     ![Elements menu](img/elements_menu.png "Elements menu")
 
