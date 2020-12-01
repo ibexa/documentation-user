@@ -77,7 +77,8 @@ extra:
     lts: ['2.5']
     ft: ['3.0','3.1']
     dev: ['master']
-  append_bootstrap: []
+  append_bootstrap:
+    - '/index.md'
 
   related_docs:
     - title: 'eZ Platform User Documentation'
