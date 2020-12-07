@@ -36,6 +36,13 @@
     
     If all required fields are filled out you can select **Create,** and the site will be added to the site list in the **Site** tab.
     
+    !!! note
+
+    A SiteAccess that you create in SiteFactory is always treated with lower priority than a SiteAccess 
+    defined by the administrator as part of the [configuration procedure](https://doc.ibexa.co/en/latest/guide/siteaccess/#configuring-siteaccesses). 
+    For example, if you create a site that uses the `fr` path in SiteFactory, and the administrator 
+    defines a French site manually in configuration files, your site is ignored by the system.
+    
     ## Edit a site
     
     To edit the site select **Site settings** icon that is situated next to the site name.
