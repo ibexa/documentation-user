@@ -131,7 +131,7 @@
 
     The rules are checked in order, so if a user belongs to more than one Segment, the first rule applies.
 
-    You can preview what the page looks like for which Segment:
+    You can preview the page for each of the available Segments:
 
     ![Previewing Page for a given Segment](img/page_builder_segment_preview.png)
 
