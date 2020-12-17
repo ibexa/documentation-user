@@ -1,7 +1,7 @@
 # Editing images
 
 When you browse the [Media library](https://doc.ibexa.co/projects/userguide/en/latest/content_model/#content-and-media), or create or edit a Content Item that contains the *Image* 
-or the *Image asset* field, you can perform basic image editing functions by using an Image Editor. 
+or the *Image asset* Field, you can perform basic image editing functions by using an Image Editor. 
 
 The Image Editor function set includes: 
 
@@ -23,7 +23,7 @@ Click either the **Horizontal** or **Vertical** button to flip an image.
 ### Crop
 
 With the Crop feature you can cut the image down to a desired aspect ratio and dimensions.
-You can either choose one of the preset aspect ratio options (square, vertical or horizontal rectangle, or widescreen), or click **Random** to enter the exact width and hight values in the **Clop size** area. 
+You can either choose one of the preset aspect ratio options (square, vertical or horizontal rectangle, or widescreen), or click **Random** to enter the exact width and hight values in the **Crop size** area. 
 
 After you choose a preset aspect ratio, a grid appears on the preview.
 You can resize the grid to mark an area of the image that you want to be visible.
@@ -35,7 +35,7 @@ When you confirm the change, the preview refreshes to display a cropped image.
 !!! note "Saving changes"
 
     Confirming the crop operation does not mean that it has been saved.
-    You must click **Save** to apply the changes to an original image.
+    You must click **Save** to apply the changes to the original image.
 
 ### Focal Point
 
@@ -50,7 +50,7 @@ Click the X icon to restore the original position of the target.
 ### Undoing changes
 
 Click either the left or right arrow button to undo or redo the most recent change.
-Click **Reset image** to restore an original appearance of the image. It does not affect the Focal Point setting.
+Click **Reset image** to restore the original appearance of the image. Resetting the image does not affect the Focal Point setting.
 
 ### Saving or aborting changes
 
