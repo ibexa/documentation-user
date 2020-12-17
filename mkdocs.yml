@@ -6,6 +6,7 @@ nav:
     - 'Getting started': 'getting_started.md'
     - 'Content model': 'content_model.md'
     - 'Creating content – basic': 'creating_content_basic.md'
+      - 'Editing images': 'editing_images.md'
     - 'Creating content – advanced': 'creating_content_advanced.md'
     - 'Publishing':
         - Publishing Content: 'publishing/publishing.md'
