@@ -5,9 +5,10 @@ nav:
     - 'Ibexa User Documentation': 'index.md'
     - 'Getting started': 'getting_started.md'
     - 'Content model': 'content_model.md'
-    - 'Creating content – basic': 'creating_content_basic.md'
-      - 'Editing images': 'editing_images.md'
-    - 'Creating content – advanced': 'creating_content_advanced.md'
+    - 'Creating content':
+        - 'Creating content – basic': 'creating_content_basic.md'
+        - 'Creating content – advanced': 'creating_content_advanced.md'
+        - 'Editing images': 'editing_images.md'
     - 'Publishing':
         - Publishing Content: 'publishing/publishing.md'
         - Editorial workflow: 'publishing/editorial_workflow.md'
