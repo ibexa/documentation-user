@@ -51,7 +51,7 @@ Click the X icon to restore the original position of the target.
 ### Undoing changes
 
 Click the left or right arrow button to undo or redo the most recent change.
-Click **Reset image** to restore the original appearance of the image. Resetting the image does not affect the Focal Point setting.
+Click **Reset image** to restore the original appearance of the image.
 
 ![Image Editor: Undo](img/image_editor_undo.png)
 
