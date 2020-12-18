@@ -84,6 +84,10 @@ When you are in the Back Office, you can view the content in your repository in 
 They represent three categories of Content Types that you can create
 (see [Content Types](site_organization/organizing_the_site.md#content-types)).
 
+!!! note
+
+    When you browse the Media library, you can perform basic image editing functions by using an [Image Editor](editing_images.md).
+
 ### Content browser
 
 During your work with [[= product_name_oss =]] you might need to select content from the Repository.

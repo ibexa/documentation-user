@@ -27,7 +27,7 @@ It may also determine the layout or style in which this item is displayed.
 
 Fields marked with an asterisk (\*) are required. You will not be able to save the Content item without filling them in.
 
-Some Fields, such as *Relation* Fields (which link two Content items), or *Image* Fields
+Some Fields, such as *Relation* Fields (which link two Content items) or *Image* Fields
 require you to select a different Content item to link to.
 A *Location* Field is a point on the map. You can type the place name, enter its coordinates, or select it on the map.
 
@@ -35,6 +35,11 @@ A *Location* Field is a point on the map. You can type the place name, enter its
 
     To help you preserve your work, [[= product_name_oss =]] saves drafts of Content items automatically.
     For more information, see [Autosave](publishing/publishing.md#autosave).
+
+!!! note
+
+    When you create or edit a Content item that contains an *Image* or an *Image asset* Field, 
+    you can perform basic image editing functions by using an [Image Editor](editing_images.md).
 
 ### Editing Rich Text Fields
 
