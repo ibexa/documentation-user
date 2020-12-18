@@ -1,6 +1,11 @@
 # 4. Event Types
 
-It was already mentioned that the recommendation engine collects events and computes recommendations based on user behavior. The most important events collected by the engine are click and buy events. They are enough for providing basic recommendations. There are some additional events for creating more complex scenarios and providing statistics about acceptance of recommendations, such as conversion rate or revenue. 
+It was already mentioned that the recommendation engine collects events and computes recommendations 
+based on user behavior. 
+The most important events collected by the engine are click and buy events. 
+They are enough for providing basic recommendations. 
+There are some additional events for creating more complex scenarios and providing statistics about 
+acceptance of recommendations, such as conversion rate or revenue. 
 
 ![Overview of how events work](img/events_overview.png)
 
@@ -24,7 +29,10 @@ All possible events used in the system are described in the following table.
 |OWNS|Same as BUY, but without influence on the statistics. It can be used if a user already owns the product, but bought it somewhere else, to avoid recommending it again.|
 |RATE|Additional models can be created for the advanced edition, using this type of events. It allows building recommendations not only for implicit tracking events like "clicked" or "buy", but also for events with explicit value like "rated" or "liked". These events need additional integration into the web page to allow the user to give an appropriate feedback. The event should be triggered as a result of this user feedback.|
 
-All the events require the current user ID and the ID of one or more context items. Some events need additional information. For more sophisticated algorithms and result filtering event types with additional parameters are needed. In the table below is a brief overview of additional parameter information.
+All the events require the current user ID and the ID of one or more context items. 
+Some events need additional information. 
+For more sophisticated algorithms and result filtering event types with additional parameters are needed. 
+In the table below is a brief overview of additional parameter information.
 
 |Event|Additional information|
 |---|---|
