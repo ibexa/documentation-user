@@ -46,8 +46,6 @@ Personalization Solution.
 This tab allows you to see all available models and configure them. 
 For more information, see [Recommendation Models](recommendation_models.md).
 
-![Dashboard models](img/dashboard_models.png)
-
 ### Scenarios
 
 The scenario overview shows all available scenarios. Additional info like a description 
