@@ -1,21 +1,14 @@
 # Getting started
 
-[[= product_name_oss =]] is an open-source, Symfony-based CMS.
-
-[[= product_name_oss =]] consists of the technical platform for developers
+[[= product_name =]] consists of the technical platform for developers
 (including a Web framework, APIs and a Content Repository)
 and provides a user interface to work with the content and administer the platform.
 
-!!! dxp "[[= product_name_ee =]]"
-
-    [[= product_name_ee =]] is a commercial product built on top of the open-source [[= product_name_oss =]].
-    It offers additional functionalities and enhancements to the editing experience.
-
-    [[= product_name_ee =]] provides advanced editorial capabilities such as [in-page editing](site_organization/working_with_page.md), creation of [block-based Pages](site_organization/working_with_page.md#adding-blocks), [editorial workflow](publishing/editorial_workflow.md), etc.
+[[= product_name =]] provides advanced editorial capabilities such as [in-page editing](site_organization/working_with_page.md), creation of [block-based Pages](site_organization/working_with_page.md#adding-blocks), [editorial workflow](publishing/editorial_workflow.md), etc.
 
 ## Quick start
 
-[[= product_name_oss =]] must be [installed by administrator](https://doc.ibexa.co/en/latest/getting_started/install_ez_platform/).
+[[= product_name =]] must be [installed by administrator](https://doc.ibexa.co/en/latest/getting_started/install_ez_platform/).
 They should provide you with the address of the installation.
 
 To access the Back Office (the editor interface), add `/admin` to this address.
@@ -43,8 +36,8 @@ The top bar allows you to move between important sections of the application.
 
 - **Content** gives you access to the content Repository.
 It lets you navigate the Content Tree, create, edit, move, copy, delete content, etc.
-- **Site** enables you to create and edit block-based Pages and manage multiple sites. It is only available for [[= product_name_ee =]] users.
-- **Forms** enables you to place a survey, questionnaire, sign-up form, etc. on your website. It is only available for [[= product_name_ee =]] users.
+- [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]] **Site** enables you to create and edit block-based Pages and manage multiple sites.
+- [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]] **Forms** enables you to place a survey, questionnaire, sign-up form, etc. on your website.
 - **Admin** is the administration panel where you can manage Users, Sections, permissions, etc.
 
 ### User settings

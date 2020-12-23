@@ -1,4 +1,4 @@
-# Editing images
+# Editing images [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
 When you browse the [Media library](content_model.md#content-and-media), 
 or create or edit a Content Item that contains an *Image* 

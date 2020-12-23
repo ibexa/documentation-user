@@ -1,4 +1,4 @@
-# Navigation structure
+# Navigation structure [[% include 'snippets/commerce_badge.md' %]]
 
 ![](img/navigation_structure_menu.png)
 

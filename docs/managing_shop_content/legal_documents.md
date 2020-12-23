@@ -1,4 +1,4 @@
-# Legal documents
+# Legal documents [[% include 'snippets/commerce_badge.md' %]]
 
 You can link to legal documents and forms for the shop in various places, for example in the footer:
 

@@ -1,4 +1,4 @@
-# Manage prices and stock
+# Manage prices and stock [[% include 'snippets/commerce_badge.md' %]]
 
 ![](img/manage_prices_menu.png)
 
