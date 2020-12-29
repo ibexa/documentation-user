@@ -29,7 +29,6 @@ nav:
         - 'Manage users': 'shop_administration/manage_users.md'
         - 'Permissions': 'shop_administration/permissions.md'
         - 'Translations': 'shop_administration/translations.md'
-        - 'Olark chat tool': 'shop_administration/chat_tool_olark.md'
     - Managing shop content:
         - 'Embed product': 'managing_shop_content/embed_product.md'
         - 'Pages in the shop': 'managing_shop_content/landingpages.md'
