@@ -70,7 +70,7 @@ to have relations only to Content items of a specific, or any Content Type.
 
 ## Users
 
-Users in [[= product_name_oss =]] are treated the same way as other Content items.
+Users in [[= product_name =]] are treated the same way as other Content items.
 They are organized in groups, which helps you manage them and their permissions.
 
 You can view all User Groups and Users in the **Admin Panel** by selecting **Users**.
@@ -92,7 +92,7 @@ for example: `www.my-site.com/register`. By default, new Users created in this w
 
 ## Permissions
 
-Overview of the permission system in [[= product_name_oss =]] is best presented using an example.
+Overview of the permission system in [[= product_name =]] is best presented using an example.
 
 ### Example of a permissions system
 

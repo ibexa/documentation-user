@@ -1,4 +1,4 @@
-# Pages in the shop
+# Pages in the shop [[% include 'snippets/commerce_badge.md' %]]
 
 [[= product_name_com =]] has at least one Landing Page which is the homepage. This document describes how to setup and modify Landing Pages. 
 
@@ -6,7 +6,7 @@
 
 ![](img/landingpage_tool.png)
 
-[[= product_name_com =]] adds the following blocks to the blocks available in [[= product_name_oss =]]:
+[[= product_name_com =]] adds the following blocks to the blocks available in [[= product_name =]]:
 
 - Last viewed
 - Bestsellers

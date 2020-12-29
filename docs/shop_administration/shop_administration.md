@@ -1,4 +1,4 @@
-# Shop administration
+# Shop administration [[% include 'snippets/commerce_badge.md' %]]
 
 [[= product_name_com =]] provides the following eCommerce functions in the top menu of the backend.
 

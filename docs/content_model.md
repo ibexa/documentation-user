@@ -1,10 +1,10 @@
 # Content Model
 
-At the heart of [[= product_name_oss =]] is a repository that stores all content.
-In [[= product_name_oss =]] everything is a Content item — not just the actual pages displayed in the website,
+At the heart of [[= product_name =]] is a repository that stores all content.
+In [[= product_name =]] everything is a Content item — not just the actual pages displayed in the website,
 but also all media (images, videos, etc.) and User accounts.
 
-[[= product_name_oss =]] lets you customize and adapt the content model depending on your needs and the type of website you create.
+[[= product_name =]] lets you customize and adapt the content model depending on your needs and the type of website you create.
 
 Depending on your organization, if you are an editor or a content creator,
 it is possible that the content model for your installation has already been created by your administrator or content manager.
@@ -18,7 +18,7 @@ Whenever you create a new Content item, you must choose its Content Type.
 The Content Type defines what Fields will be available in the Content item.
 A Content item may only contain the Fields that are defined in the Content Type.
 
-[[= product_name_oss =]] allows you to create, edit, and delete Content Types and their Fields.
+[[= product_name =]] allows you to create, edit, and delete Content Types and their Fields.
 A clean installation contains a few basic Content Types.
 
 ## Content items
@@ -69,7 +69,7 @@ e.g. Text line, Rich text, Email, Author list, Content relation, Map location, F
 
 **Fields and Field Types:**
 
-- [[= product_name_oss =]] comes with a collection of essential Field Types.
+- [[= product_name =]] comes with a collection of essential Field Types.
 - It is possible to extend the system by creating custom Field Types for special needs.
 
 ## Content and media
@@ -90,7 +90,7 @@ They represent three categories of Content Types that you can create
 
 ### Content browser
 
-During your work with [[= product_name_oss =]] you might need to select content from the Repository.
+During your work with [[= product_name =]] you might need to select content from the Repository.
 This happens for example when you want to move or copy a Content item, embed an image, link two Content items, etc.
 In such cases you use the **Content Browser**.
 

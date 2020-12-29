@@ -1,4 +1,4 @@
-# Manage orders
+# Manage orders [[% include 'snippets/commerce_badge.md' %]]
 
 ## Order management
 

@@ -102,12 +102,10 @@ You can hide a Content item by clicking **Hide** in the menu.
 
 ![Hide content icon](img/hide_content_icon.png)
 
-!!! dxp
+When you click **Hide**, you can choose to **Hide later**
+and select and date and time when the Content item will be hidden:
 
-    When you click **Hide** in [[= product_name_ee =]], you can choose to **Hide later**
-    and select and date and time when the Content item will be hidden:
-
-    ![Schedule hiding panel](img/schedule_hiding.png)
+![Schedule hiding panel](img/schedule_hiding.png)
 
 A hidden Content item is unavailable for anyone on the front page. It is also grayed out in the Content Tree.
 
@@ -212,7 +210,7 @@ Bookmarks are stored per user. You can view a list of all bookmarks by clicking 
 
 ![Bookmark screen](img/bookmarks.png)
 
-## Segments
+## Segments [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
 With segments you can target content at specific groups of your users.
 You can use them to display different content to different Page visitors by using the [Targeting block](working_with_page.md#targeting-block).
