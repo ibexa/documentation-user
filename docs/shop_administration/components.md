@@ -1,4 +1,4 @@
-# Components
+# Components [[% include 'snippets/commerce_badge.md' %]]
 
 **eCommerce** > **Components** contains text modules responsible for translations of shop text.
 

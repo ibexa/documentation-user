@@ -1,4 +1,4 @@
-# Cockpit
+# Cockpit [[% include 'snippets/commerce_badge.md' %]]
 
 The Cockpit shows the most important information for the shop owner referring to the installation.
 

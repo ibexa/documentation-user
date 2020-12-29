@@ -16,11 +16,9 @@ In this way you can upload files such as images, videos, PDF documents, etc.
 If you choose the first three options, you have to select the Content Type first.
 When uploading files, the Content Type will be chosen automatically.
 
-!!! dxp
-
-    If you are using [[= product_name_ee =]],
-    you will have the *Page* Content Type available for selection.
-    Pages are edited in the Page Builder, see [site_organization/working with Page](site_organization/working_with_page.md) section.
+If you are using [[= product_name_exp =]] or [[= product_name_com =]],
+you will have the *Page* Content Type available for selection.
+Pages are edited in the Page Builder, see [Working with Page](site_organization/working_with_page.md).
 
 Each Content item is based on a Content Type. The Content Type defines what Fields you have to fill in when creating a new item.
 It may also determine the layout or style in which this item is displayed.
@@ -33,11 +31,12 @@ A *Location* Field is a point on the map. You can type the place name, enter its
 
 !!! note "Autosave"
 
-    To help you preserve your work, [[= product_name_oss =]] saves drafts of Content items automatically.
+    To help you preserve your work, [[= product_name =]] saves drafts of Content items automatically.
     For more information, see [Autosave](publishing/publishing.md#autosave).
 
 !!! note
 
+    [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
     When you create or edit a Content item that contains an *Image* or an *Image asset* Field, 
     you can perform basic image editing functions by using an [Image Editor](editing_images.md).
 

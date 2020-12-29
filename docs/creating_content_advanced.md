@@ -31,7 +31,7 @@ After adding a language, you may have to reload the application to be able to us
     It is recommended you contact your administrator and inform them if you need to add a new language to the website
     (see [the technical documentation on language versions](https://doc.ibexa.co/en/master/guide/internationalization/)).
 
-### SiteAccess
+### SiteAccess [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
 When working in Page mode, you can see a bar at the top of the page listing the most recently used SiteAccesses on your website.
 
@@ -48,50 +48,48 @@ or different language versions to visitors from different countries.
 
 See [Site Factory](site_organization/site_factory.md) for more information about setting up sites.
 
-!!! dxp
+## Forms [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
-    ## Forms
+Forms enable you to place a survey, questionnaire, sign-up form, etc. on your website.
 
-    Forms enable you to place a survey, questionnaire, sign-up form, etc. on your website.
+Create a form like a regular Content item by choosing the Form Content Type.
+Click the **Edit** button to start adding fields to the form.
 
-    Create a form like a regular Content item by choosing the Form Content Type.
-    Click the **Edit** button to start adding fields to the form.
+![Dragging fields in a Form](img/form_builder.png)
 
-    ![Dragging fields in a Form](img/form_builder.png)
+Build a form by dragging different types of fields into it.
+The available types are:
 
-    Build a form by dragging different types of fields into it.
-    The available types are:
+- Single line input
+- Multiple line input
+- Number
+- Checkbox
+- Checkboxes
+- Radio
+- Dropdown
+- Email
+- Date
+- URL
+- File
+- Captcha
+- Button
+- Hidden field
 
-    - Single line input
-    - Multiple line input
-    - Number
-    - Checkbox
-    - Checkboxes
-    - Radio
-    - Dropdown
-    - Email
-    - Date
-    - URL
-    - File
-    - Captcha
-    - Button
-    - Hidden field
+Each field has settings you can access through the options button.
+The settings differ depending on the type of the field.
 
-    Each field has settings you can access through the options button.
-    The settings differ depending on the type of the field.
+Button is a special kind of field. It is used for submitting the form.
+You can choose one of a few options of what is shown to the user after filling in and submitting the form.
 
-    Button is a special kind of field. It is used for submitting the form.
-    You can choose one of a few options of what is shown to the user after filling in and submitting the form.
+![Options of a Form submission button](img/form_builder_button.png)
 
-    ![Options of a Form submission button](img/form_builder_button.png)
+### Viewing results
 
-    ### Viewing results
+Once you publish a form and users start filling it in, you can preview the results in the **Submissions** tab in the Content item view.
 
-    Once you publish a form and users start filling it in, you can preview the results in the **Submissions** tab in the Content item view.
+Here you can view the details of each submission.
+You can also delete any submissions (for example if they were made while testing or contain spam).
 
-    Here you can view the details of each submission.
-    You can also delete any submissions (for example if they were made while testing or contain spam).
+The **Download submissions** button enables you to download all the submissions in a .CSV (comma-separated value) file.
 
-    The **Download submissions** button enables you to download all the submissions in a .CSV (comma-separated value) file.
-
-    ![Form Builder submissions](img/form_builder_submissions.png)
+![Form Builder submissions](img/form_builder_submissions.png)

@@ -1,4 +1,4 @@
-# Configuration settings
+# Configuration settings [[% include 'snippets/commerce_badge.md' %]]
 
 To change configuration settings for the shop, go to **eCommerce** > **Configuration settings**.
 
