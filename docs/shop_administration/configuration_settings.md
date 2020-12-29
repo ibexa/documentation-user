@@ -48,38 +48,6 @@ The catalog section defines details for structure and layout of the catalog.
 |Disable ordering for discontinued products|siso_basket.default.discontinued_products_listener_active: true|True|If enabled, discontinued and out-of-stock products cannot be ordered.|
 |Check packaging units and adjust quantity of discontinued products|siso_basket.default.discontinued_products_listener_consider_packaging_unit: true|True|If enabled, the shop modifies the quantity of discontinued products ordered by a user automatically to the next packaging unit.|
 
-## Customer
-
-!!! note 
-
-    The Olark chat tool requires an account with this third party provider.
-
-|Name|Stored Configuration File|Default|Description|
-|--- |--- |--- |--- |
-|Enable Olark Chat|siso_core.default.marketing.olark_chat.activated: false|True|Check www.olark.com for more information.|
-|Please enter the Account ID from www.olark.com here|siso_core.default.marketing.olark_chat.id: '6295-386-10-7457'||Olark account ID|
-
-## Mail and Newsletter
-
-!!! note
-
-    Newsletter2go requires the activation of a separate plugin and an account with Newsletter2go.
-
-|Name|Stored Configuration File|Default|Description|
-|--- |--- |--- |--- |
-|Email address of a sales person|siso_eshop.default.orderconfirmation_sales_email_address:||This person gets a CC of an order confirmation email (for all orders generated in the shop)|
-
-### Newsletter
-
-|Name|Stored Configuration File|Default|Description|
-|--- |--- |--- |--- |
-|Activate Newsletter2go|siso_newsletter.default.newsletter_active: false|False|You need to create an account on www.newsletter2go.com|
-|Unsubscribe from all newsletters|siso_newsletter.default.unsubscribe_globally: true|True|Unsubscribe options. If true, shop users can unsubscribe from all newsletters in one step.|
-|Newsletter only for logged in users|siso_newsletter.default.display_newsletter_box_for_logged_in_users: true|True|If enabled, only logged-in users see the newsletter box.|
-|Newsletter2go username|siso_newsletter.default.newsletter2go_username: ''|-|See newsletter2go account|
-|Newsletter2go password|siso_newsletter.default.newsletter2go_password: ''|-|See newsletter2go account|
-|Newsletter2go authentication key|siso_newsletter.default.newsletter2go_auth_key: ''|-|This key is available in your newsletter2go account|
-
 ## Basket
 
 |Name|Stored Configuration File|Default|Description|
