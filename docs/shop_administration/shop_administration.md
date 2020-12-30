@@ -1,4 +1,4 @@
-# Shop administration [[% include 'snippets/commerce_badge.md' %]]
+# Shop administration
 
 [[= product_name_com =]] provides the following eCommerce functions in the top menu of the backend.
 
@@ -14,7 +14,7 @@ Depending on the chosen data provider and whether an ERP is connected, some tabs
 |[Configuration Settings](configuration_settings.md)|Basic shop configuration|
 |[Price and stock management](manage_prices_and_stock.md)|Product price and stock management|
 
-## Control Center
+## Control Center [[% include 'snippets/commerce_badge.md' %]]
 
 ![](img/backend_menu_center.png)
 

@@ -1,4 +1,4 @@
-# Manage products and categories [[% include 'snippets/commerce_badge.md' %]]
+# Manage products and categories
 
 ## Managing categories
 
