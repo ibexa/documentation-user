@@ -1,4 +1,4 @@
-# Permissions [[% include 'snippets/commerce_badge.md' %]]
+# Permissions
 
 By default [[= product_name_com =]] offers the following predefined Roles:
 

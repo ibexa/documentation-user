@@ -1,4 +1,4 @@
-# Translations [[% include 'snippets/commerce_badge.md' %]]
+# Translations
 
 ## Text modules
 
