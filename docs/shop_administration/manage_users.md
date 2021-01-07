@@ -1,4 +1,4 @@
-# Manage users [[% include 'snippets/commerce_badge.md' %]]
+# Manage users
 
 Users are displayed in the **Users** tab in th Back Office.
 
