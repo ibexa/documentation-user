@@ -1,4 +1,4 @@
-# 3. Dashboard
+# Dashboard
 
 The administration dashboard is the entry point to configure and control the Personalization Solution. 
 It is split into several sections:
@@ -19,6 +19,8 @@ The diagram part consists of four main blocks:
     The effectiveness of recommendations regarding clicked recommendations, revenue through recommendations.
 - Conversion rate:
      An absolute number of converted/sold recommendations.
+
+![Statistics area](img/dashboard_statistics.png "Statistics area")
 
 The conversion (or click-through) rate is an **indicator of the acceptance** and therefore 
 the **quality of recommendations**. 
@@ -43,20 +45,27 @@ Personalization Solution.
 
 ### Models
 
-This tab allows you to see all available models and configure them. 
+The **Models** tab lists all available models and provides detailed information, such as the scenarios that use each model or when such model was last triggered.
+You can also click the **Edit** icon to access the model configuration screen.
+
+![Models tab](img/dashboard_models.png "Models tab")
+
 For more information, see [Recommendation Models](recommendation_models.md).
 
 ### Scenarios
 
-The scenario overview shows all available scenarios. Additional info like a description 
-and the delivered recommendations in the selected timeframes are also presented.
+The **Models** tab lists all available scenarios and additional information, such as 
+a description of each of the scenarios, models that it uses, or whether it is operational or not.
+You can also click the **Preview** icon to see an example of recommendations that the scenario 
+returns or the **Edit** icon to access the scenario configuration screen.
 
-Scenarios with green status bars indicate that all models can provide recommendations. 
-Yellow bars indicate that only a part of the configured models can provide recommendations 
-and red ones indicate that no recommendations can be delivered. 
-For more infromation, see [Scenarios](scenarios.md).
+![Scenarios tab](img/dashboard_scenarios.png "Scenarios tab")
+
+For more information, see [Scenarios](scenarios.md).
 
 ### Import/Export
 
-Item import jobs are used to fetch data from a customer system. 
-Data-mappings and schedule times are defined here.
+You can see a list of import operations and their details here.
+Item import jobs are used to fetch data from an external system. 
+
+![Import/Export tab](img/dashboard_import.png "Import/Export tab")

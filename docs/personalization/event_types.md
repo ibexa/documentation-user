@@ -1,4 +1,4 @@
-# 4. Event Types
+# Event Types
 
 It was already mentioned that the recommendation engine collects events and computes recommendations 
 based on user behavior. 

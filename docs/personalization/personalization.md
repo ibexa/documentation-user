@@ -1,4 +1,4 @@
-# 1. Personalization
+# Personalization
 
 A cloud based personalization service leverages artificial intelligence and machine learning 
 technologies to deliver optimized customer experience. 
