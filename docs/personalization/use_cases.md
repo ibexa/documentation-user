@@ -1,11 +1,11 @@
-# Use Cases
+# Use cases
 
 There are many different cases where you can use recommendations. 
 The most common ones can be found in the e-commerce and publishing industries.
 
-## E-commerce
+## eCommerce
 
-E-commerce recommendations can prove very useful in helping customers find what they're looking for. 
+eCommerce recommendations can prove very useful in helping customers find what they're looking for. 
 When a user is not sure about what to buy, recommendations can suggest similar, alternative 
 or complementary products. 
 Some typical use cases are:
@@ -29,7 +29,7 @@ In the pictures above, each recommendation box represents a scenario.
 Scenarios are configurations that define what kind of recommendations should be delivered. 
 For more information, see [Scenarios](scenarios.md).
 
-## Publishing
+## Content publishing
 
 In the publishing business, recommendations bring indirect value by keeping users on the website. 
 Unlike in the e-commerce business, publishers often do not sell content, it is provided for free 

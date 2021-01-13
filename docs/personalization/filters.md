@@ -19,7 +19,7 @@ User profile-based filters are applicable in both publishing and e-commerce use 
 |Do not recommend items the user already consumed|The recommendation engine stores the consume events of every user for one year. When you activate this filter, the user will not be recommended the consumed content again.|
 |Max. repeated shows of identical recommendations per session|When you activate this filter and set a value, after a content item/product is recommended a certain amount of times during the current user session, it is be removed from all recommendation lists.|
 
-**Boost-Filters**
+#### Boost filters
 
 Apart from filters that remove specified elements from recommendations, user profile-based filters 
 include a filter for moving certain items up on the list. 
@@ -34,10 +34,8 @@ You can configure the boost filter to promote recommendations for certain users:
 
 ![Boost filter example](img/boost_example.png)
 
-
 For more information about importing item and user attributes, see [Insert XML Content](https://doc.ibexa.co/en/master/guide/personalization/developer_guide/content_api/#insert-xml-content) 
 and [User API](https://doc.ibexa.co/en/master/guide/personalization/developer_guide/user_api) in the developer documentation.
-
 
 ### E-commerce-specific filters
 
@@ -114,13 +112,14 @@ for example, a "brand" dimension.
 In this case, users would get recommendations for all items from the same "brand".
 
 With popularity-based recommendations, you can get the most popular products based on 
-the main navigation tree (for example, the most popular desks) or based on the brand (for example, the most popular IKEA products).
+the main navigation tree (for example, the most popular desks) or based on the brand (for example, 
+the most popular IKEA products).
 
 Here are the examples of common representation dimensions of items beyond the site navigation:
 
 |Business|Possible dimensions|
 |---|---|
-|eCommerce|manufacturer (BOSCH, Renault, etc.)</br>season (winter, spring, etc.)</br>price range (lowprice, midprice, highprice, etc.)</br>platform (Mac, Windows, Linux, etc.)|
+|eCommerce|manufacturer (BOSCH, Renault, etc.)</br>season (winter, spring, etc.)</br>price range (entry, middle, premium, etc.)</br>platform (Mac, Windows, Linux, etc.)|
 |Book store|genre (romance, action, science, etc.)</br>design (hardcover, paperback, audiobook, etc.)</br>author (George R. R. Martin, Steven Spielberg, etc.)|
 |Content publishing|global subject (politics, sports, tech, etc.)</br>physical location (France, Norway, Berlin, etc.)</br>timeframe (today, this week, exact date, etc.)|
 
@@ -129,7 +128,7 @@ These models usually contain similar items, and additional filtering will probab
 from the list of possible recommendations. 
 The only exception could be coping with copyright or legal issues by removing unlicensed or adult content 
 in certain markets or for certain customers. 
-However, this use case could be handled with equal or greater success with [submodels](recommendation_models.md#submodels) or [item types](content_types.md).
+However, this use case could be handled with equal or greater success by using [submodels](recommendation_models.md#submodels) or [item types](content_types.md).
 
 For the recommendation engine to provide category filtering, you must feed it with information about item/product categories. 
-For more information, see [Event Types](event_types.md) and [Content Import](content_import.md).
+For more information, see [Event types](event_types.md) and [Content import](content_import.md).

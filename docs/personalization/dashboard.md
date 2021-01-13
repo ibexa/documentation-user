@@ -38,7 +38,7 @@ All statistical information can be downloaded in MS Excel format.
 The timeframes depend on the selection of the diagram period (day, week, month, 3 months and year) but 
 can also be customized.
 
-## Configuration Settings
+## Configuration settings
 
 The top bar provides you with access to the following pages, where you can configure the 
 Personalization Solution.

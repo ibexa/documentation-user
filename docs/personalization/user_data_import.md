@@ -1,4 +1,4 @@
-# User Data Import
+# User data import
 
 By default, the recommendation engine has very little information about the user visiting the website, 
 especially, about the first-time visitors. 
@@ -15,4 +15,4 @@ For more information about importing and utilizing user attributes, and about th
 
 For a detailed explanation of how user attributes are used in the recommendation process, see [Recommendation API](https://doc.ibexa.co/en/master/guide/personalization/developer_guide/recommendation_api) in the developer documentation.
 
-For an example of how user attributes can be used in the recommendation engine, see [Boost-Filters](filters.md#boost-filters).
+For an example of how user attributes can be used in the recommendation engine, see [Boost-filters](filters.md#boost-filters).
