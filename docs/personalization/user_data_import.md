@@ -1,4 +1,4 @@
-# 10. User Data Import
+# User Data Import
 
 By default, the recommendation engine has very little information about the user visiting the website, 
 especially, about the first-time visitors. 

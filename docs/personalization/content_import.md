@@ -1,4 +1,4 @@
-# 9. Content Import
+# Content Import
 
 Basic recommendation algorithms are statistics-based and need only the product ID and user ID. 
 This information is provided by the event tracking as described in [Event Types](event_types.md).

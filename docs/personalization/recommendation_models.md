@@ -1,4 +1,4 @@
-# 6. Recommendation Models
+# Recommendation Models
 
 The [Use Cases](use_cases.md) chapter describes how recommendations can prove useful in real-world situations. 
 Recommendations are based on algorithms and the calculated result of an algorithm is called a model. 
