@@ -85,20 +85,19 @@
         <div class="col-lg-8 mb-5 latest-release">
             <h5>
                 The latest release
-                <span class="badge">v3.2</span>
+                <span class="badge">v3.3</span>
             </h5>
             <div class="row mt-3">
-                <div class="col-lg-5">The <a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v3.2/">latest version of Ibexa DXP is v3.2</a>. It is a Fast Track release, and it was released on October 23, 2020.
+                <div class="col-lg-5">The <a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v3.3/">latest version of Ibexa DXP is v3.3</a>. It is a Long Term Support release, and it was released on January 18, 2021.
                 </div>
                 <div class="col-sm-7 features">
                     <ul>
-                        <li><a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v3.2/#new-ui">New Back Office UI</a></li>
-                        <li><a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v3.2/#dam-connector">DAM connector</a></li>
-                        <li><a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v3.2/#aggregation-api">Aggregation API</a></li>
-                        <li><a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v3.2/#targeting-block-and-segmentation-api">Targeting block</a></li>
-                        <li><a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v3.2/#autosave">Autosave</a></li>
-                        <li><a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v3.2/#twig-helpers-for-content-rendering">New Twig helpers</a></li>
-                        <li><a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v3.2/#jwt-authentication">JWT authentication</a></li>
+                        <li><a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v3.3/#new-personalization-ui">New Personalization UI</a></li>
+                        <li><a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v3.3/#symfony-flex">Symfony Flex</a></li>
+                        <li><a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v3.3/#image-editor">Image Editor</a></li>
+                        <li><a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v3.3/#migration-bundle">Migration bundle</a></li>
+                        <li><a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v3.3/#extended-search-api-capabilities">Search API improvements</a></li>
+                        <li><a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v3.3/#query-field-location-handling">Query Field Location handling</a></li>
                     </ul>
                 </div>
             </div>
