@@ -22,7 +22,6 @@ nav:
         - 'Shop administration': 'shop_administration/shop_administration.md'
         - 'Cockpit': 'shop_administration/cockpit.md'
         - 'Components': 'shop_administration/components.md'
-        - 'Configuration settings': 'shop_administration/configuration_settings.md'
         - 'Manage orders': 'shop_administration/manage_orders.md'
         - 'Manage prices and stock': 'shop_administration/manage_prices_and_stock.md'
         - 'Manage products and categories': 'shop_administration/manage_products_and_categories_with_the_ez_dataprovider.md'
