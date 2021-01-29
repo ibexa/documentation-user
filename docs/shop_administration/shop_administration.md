@@ -11,7 +11,7 @@ Depending on the chosen data provider and whether an ERP is connected, some tabs
 |[Cockpit](cockpit.md)|Basic statistics|
 |[Order Management](manage_orders.md)|Basic order management|
 |[Components](components.md)|A folder where [translations](translations.md) are stored. Can provide additional content which is used by the shop for project-specific information which is not displayed directly (as a full page) in the shop.|
-|[Configuration Settings](configuration_settings.md)|Basic shop configuration|
+|Configuration Settings|Basic shop configuration|
 |[Price and stock management](manage_prices_and_stock.md)|Product price and stock management|
 
 ## Control Center [[% include 'snippets/commerce_badge.md' %]]
