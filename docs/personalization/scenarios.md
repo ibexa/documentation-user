@@ -7,7 +7,16 @@ It consists of:
 - a strategy (set of models) that is used for generating recommendations
 - a filter configuration
 
+## Previewing scenario results
+
 You can preview the results of a scenario by clicking the **Preview** icon next to a scenario listed on the Scenarios tab.
+
+Depending on the scenario type, you may need to provide additional information to see the results.
+For example, for scenarios based on collaborative models, you must provide a value in the **User id** field and click **Send request**."
+
+Click **See response code** to preview the exact data object that is returned from the recommendation server and then used to generate the response.
+
+For more information about collecting and embedding recommendation data and results, see [Basic integration](integration.md).
 
 ## Content type configuration
 
@@ -33,8 +42,12 @@ distributed mixture of both model results.
 If models from a preceding category do not return enough results, models from the 
 subsequent categories are used.
 
-In contrast to the model configuration described in [Recommendation Models](recommendation_models.md), 
-the configuration performed in this step is applied only to the selected scenario.
+If your models support additional differentiators, you can apply them here:
+pick a context from a drop-down with a list of available context options,
+and/or select the **Use submodels** checkbox to group all products based on a selected attribute.
+For more information, see [Advanced model configuration](recommendation_models.md#advanced-model-configuration). 
+
+The configuration performed in this step is applied only to the selected scenario.
 
 ## Filter configuration
 

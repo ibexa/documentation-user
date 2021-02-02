@@ -54,8 +54,9 @@ For more information, see [Recommendation Models](recommendation_models.md).
 
 ### Scenarios
 
-The **Models** tab lists all available scenarios and additional information, such as 
-a description of each of the scenarios, models that it uses, or whether it is operational or not.
+The **Scenarios** tab contains a list of all available scenarios.
+It also provides additional information, such as a description of each of the scenarios, models 
+that the scenario uses, or indication of whether the scenario is operational or not.
 You can also click the **Preview** icon to see an example of recommendations that the scenario 
 returns or the **Edit** icon to access the scenario configuration screen.
 
@@ -65,7 +66,13 @@ For more information, see [Scenarios](scenarios.md).
 
 ### Import/Export
 
-You can see a list of import operations and their details here.
-Item import jobs are used to fetch data from an external system. 
+The **Import/Export** tab provides information about historical import operations and their details, such as 
+a number of imported items.
+Item import jobs fetch data from the recommendation client that tracks events to the recommendation engine.
+The recommendation engine then processes the events and calculates the recommendations.
+
+This mechanism is designed to import large portions of data, for example a weekly update of the whole product catalog.
 
 ![Import/Export tab](img/dashboard_import.png "Import/Export tab")
+
+For more information about different ways of feeding data to the recommendation system, see [Data import](content_import.md).

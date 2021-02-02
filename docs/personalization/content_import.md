@@ -1,23 +1,32 @@
-# Content import
+# Data import
 
-Basic recommendation algorithms are statistics-based and need only the product ID and user ID. 
-This information is provided by the event tracking as described in [Event Types](event_types.md).
-There are several use cases where the recommendation engine requires additional information linked to the products.
-The most important cases are:
+Before the system can generate relevant recommendations, it must be fed with data that relates to content items/products that are monitored, and event tracking information.
+Some scenarios provide better results if provided with user data.
 
-- Filtering results based on the category the product is located in ([Category Filter](filters.md#category-filter))
-- Filtering results based on price and product availability ([General Filters](filters.md#general-filters))
-- Sub-models based on custom attribute grouping ([Submodels](recommendation_models.md#submodels))
-- An additional export/import interface is designed to provide editor-based models ([Recommendation Models](recommendation_models.md))
+Data import operations are configured at developer level, based on the arrangements that you make with Ibexa.
 
-There are four different ways to import data into the recommendation system:
+## Content import
 
-- **In-Event:** During the event tracking process, where related data is attached to a click event (for example, categorypath information)
-- **Push interface:** Classic HTTP POST-based import. 
-  It is suitable for uploading single content or editor lists
-- **Pull interface:** The recommendation engine loads an exported file from the specified location in the background. 
-  It was designed to upload big portions of information, for example a weekly update of the whole product catalog.
-- **Trigger logic:** The recommendation engine triggers a transactional full import at the customer's system. 
-  Therefore some custom development or a plugin is needed.
+Basic recommendation algorithms are statistics-based and perform calculations based on information about content items/products, users, and [events](event_types.md) in which they are involved. 
 
-For a specification for Import interfaces, see [Content API](https://doc.ibexa.co/en/master/guide/personalization/developer_guide/content_api) in the developer documentation.
+There are two basic areas where the system uses such information, including:
+
+- resolving [recommendation models](recommendation_models.md#model-types) and [submodels](recommendation_models.md#submodels)
+- filtering results based on [product characteristics](filters.md#general-filters) or [product category](filters.md#category-path-filter))
+
+There are several ways to import data into the recommendation system, for example, the recommendation 
+engine can load an exported file from the specified location in the background. 
+This type of import is intended to upload big portions of information, for example, to perform a weekly update of the whole product catalog.
+You can track the status of content import operations in the Back Office, on the Import/Export tab.
+
+For detailed information about content item/product data import, see [Content API](https://doc.ibexa.co/en/master/guide/personalization/developer_guide/content_api) in the developer documentation.
+
+# User data import
+
+The recommendation engine has little information about the users of the website. 
+Additional attributes, such as the user's age or home city, might help it generate 
+a successful recommendation, for example, by enabling the use of [boost filters](filters.md#boost-filters).
+User attributes could be retrieved based on the external user ID.
+However, it is rarely possible to combine the external user ID within the user's attribute set.
+
+For more information about user attribute import, see [User API](https://doc.ibexa.co/en/master/guide/personalization/developer_guide/user_api) in the developer documentation.

@@ -16,7 +16,7 @@ The table below lists all possible events used in the system.
 |BUY|Sent if something was bought.|
 |CONSUME|Similar to the BUY event but without a payment. Designed for content publisher sites. Sent when an article or a web page is consumed (read or watched).|
 |RENDER|Sent when a recommendation is shown on the web page. This information is used by filters to suppress repeated recommendations of the same item.|
-|FOLLOW / CLICKRECOMMENDED|Sent when a user clicks the recommended product. It allows building acceptance statistics.|
+|FOLLOW / CLICKRECOMMENDED|Sent when a user clicks the recommended product. Allows building acceptance statistics.|
 |TRANSFER / LOGIN|A special type of event to deal with a user login after the user already surfed on the web page anonymously. Always sent when the identifier of the user changes. As a result, the anonymous history of the user is transferred to the new identifier. This happens automatically in the recommendation engine.|
 |BASKET|Sent when the user adds the specified product to the shopping cart. Enables creating recommendations for products that customers are interested in but ultimately did not buy for some reason.|
 |BLACKLIST|Allows a user to suppress currently displayed recommendations. When the recommendation engine receives this event, the product or content item is no longer recommended to the specified user. By default, recommendations are suppressed for one year.|
