@@ -7,6 +7,10 @@ Models work in the background and are updated regularly to provide recommendatio
 Models come predefined with the software, based on the arrangements that you make with Ibexa.
 You can request that a specific model is created by contacting customer support.
 
+If your [user role](../site_organization/organizing_the_site.md#permissions) includes 
+the `Personalization/Edit` Policy, you can modify the models according to your requirements.
+To do this, navigate to the **Models** tab and click the **Edit** icon next to a name of the model.
+
 ## Model types
 
 There are several types of models available, however, the distinction between types is not visible in the user interface.
@@ -15,58 +19,52 @@ There are several types of models available, however, the distinction between ty
 
 Basic popularity recommendations, such as "Top purchased", "Top consumed" or "Top clicked". 
 Models from this category return the most popular content items/products, based on a weighted overall 
-usage history (recent events are more important) and category based filtering (bestsellers in selected category and/or subcategories).
+usage history (recent events are more important) and category-based filtering (bestsellers in selected category and/or subcategories).
 
 ### Collaborative models
 
 #### Also clicked/purchased
 
-This type of recommendation is often called "Collaborative Filtering based on user data" 
+This type of recommendation is often called "Collaborative filtering based on user data" 
 and is a proven approach to calculating recommendations. 
-It recommends products which are usually clicked or purchased together. 
+It recommends products that are usually clicked or purchased together. 
 It is very simple to configure, needs no maintenance and it is a very powerful model.
 
 #### Ultimately bought
 
 This model combines click and buy events. 
-In human readable form it could be something like "Users who looked for that kind of product finally bought this". 
+It suggests alternative products, which customers bought after they clicked on the selected product. 
 It therefore provides a "matching factor" of searching and buying. 
-This model suggests alternative products which customers bought after they clicked on the selected product. 
-In contrast to the "also-bought" model it recommends products that are related but not purchased together. 
+In contrast to the "Also purchased" model, it recommends products that are related but not purchased together. 
 This model is the best choice to suggest alternative products for their search. 
-For example, a user searches for a book which explains how to cut trees. 
-If they find a book and on the book page this exact same book is being recommended, 
-it means that several users interested in cutting trees bought this book (and not others), 
+For example, when a user finds a book and on the product page this exact same book is being 
+recommended, it means that other users with the same interest bought this book (and not others), 
 which hints that this book is the very best choice.
 
 #### Frequently bought together / Bundle recommendations
 
-Products that were bought in a combination for at least n times can be treated as bundles 
-and recommended as a "package".
-Based on the product which is currently shown, this model can recommend other products 
-that fit exactly the one the user is currently looking at. 
-A use case example could be:
+Products that were bought in a combination for a certain number of times can be recommended as a bundle.
+This model can recommend other products that fit the one that the user is currently looking at. 
 
-A user wants to buy a smartphone and browses on the detail page of smartphone X. 
-Apart from the "Also Clicked" recommendations, the recommendation engine could recommend the 
-*Smartphone X + Smartphone X Cover + Headphones* bundle, because they were bought together 
-in exactly this combination for at least five times.
+For example, when a user navigates to a product page with a certain smartphone, 
+apart from the "Also clicked" recommendations, the recommendation engine could recommend the 
+*Smartphone + Cover + Headphones* bundle, because they were bought together 
+in exactly this combination for several times.
 
-It is not guaranteed that there's a bundle available for every product. 
-Therefore, a rendering logic should display a box of bundle recommendations only 
-if they are available.
-Otherwise the box can be left out. 
-The currently displayed product is always included in the bundle.
+It is not guaranteed that there is a bundle available for every product. 
+Therefore, a rendering logic should display the recommendations if they are available, or leave the 
+bundle box out completely. 
+The currently displayed product is always part of the bundle.
 
 #### Similar rated
 
-The similar rated algorithm provides recommendations based on user preferences. 
-It predicts similar articles which the user will probably like and that will suit their interests. 
+The "Similar rated" algorithm provides recommendations based on user preferences. 
+It predicts, which articles might suit the user's interests. 
 Recommendations for articles similar to their dislikes are suppressed.
 
 #### Best rated
 
-The best rated model provides recommendations based on algorithms that include the ranking values 
+This model provides recommendations based on algorithms that include the ranking values 
 and the amount of distinct ratings. 
 It is best suited for landing or category pages.
 
@@ -74,37 +72,37 @@ It is best suited for landing or category pages.
 
 #### Random
 
-Semi-random products from the most recent ones. 
-It allows injecting new products to the recommendation while the history based models 
+The model returns a semi-random list of products from the most recent ones. 
+It allows injecting new products to the recommendation while the "History-based" models 
 are not yet able to recommend products based on the statistics. 
-It is a really simplified and unsophisticated alternative if no other information is available 
+It is a simplified and unsophisticated alternative if no other information is available 
 to calculate and provide recommendations.
 
-This model is not built based on the history footprints but based on the imported product catalog.
+This model is not based on historical records but relies on the imported product catalog.
 
 #### Editor-based
 
-Products that are manually selected by a human. 
-A customer can replace an automatically generated recommendation with a predefined list. 
-It is best suited for cases when the store administrator wants to add special offers or sell stock remains. 
-It could also be called "static recommendations".
+This model returns products from a list that you manually create if you have Edit privileges. 
+This way you can replace automatically generated recommendations with ones from a predefined list. 
+It is best suited for cases when the store administrator wants to add special offers or sell older stock. 
+It could be referred to as "Static recommendations".
 
 #### Blacklist
 
-Products on this list will never be recommended in any scenario. 
-Usually test products or products that are used for system monitoring are placed on this list. 
-Handle with care, because the blacklist model applies to all scenarios that exist in the system.
+Products from this list are not recommended in any scenario. 
+You can use this model to exclude test products or products that are used for system monitoring. 
+It must be treated with care, because the blacklist model applies to all scenarios that exist in the system.
 
-#### History based
+#### History-ased
 
-Pseudo recommendation model to show the user products from his own history. 
-Like "you have just watched" box.
+Pseudo recommendation model that shows the user products from his own history. 
+For example, the "You have just watched" box.
 
 ## Advanced model configuration
 
-Most of the models provide additional configuration parameters for customization. 
+Most of the models provide additional configuration parameters, which enable customization. 
 
-The parameters supported by the different types of models are described in the table below. 
+The parameters supported by different model types are described in the table below. 
 Some models support [submodels](#submodels). 
 Additional differentiation criterion is the supported context. 
 If a model requires context, it can only be linked to scenarios that provide the necessary context.
@@ -112,19 +110,18 @@ If a model requires context, it can only be linked to scenarios that provide t
 |Model type|Available parameters|Submodel support|Context|
 |---|---|---|---|
 |Popularity|Relevant event history defines the time period for which the statistics must be analyzed. Dependent on the product type it can be between several months and several hours. Fast event ageing can be used to weight newer events higher than older events.|yes</br>submodels based on category are enabled by default|not needed|
-|Also clicked/bought / Ultimately bought|Both also clicked and ultimately bought models allow to define the relevant event history.|yes, manual|required (either context items or user data)|
+|Also clicked/purchased / Ultimately bought|Both also clicked and ultimately bought models allow to define the relevant event history.|yes, manual|required (either context items or user data)|
 |Random|This model requires the maximum age for the items that should be recommended by this model.|no|not supported|
-|History based|The type of the history (click-history or buy-history) must be specified.|no|required (user data)|
-|Editor based|The list of recommendations must be created manually by the editor.|no|not supported|
+|History-based|The type of the history (click-history or buy-history) must be specified.|no|required (user data)|
+|Editor-based|The list of recommendations must be created manually by the editor.|no|not supported|
 |Blacklist|The list of items that should be excluded from the recommendations must be created manually by the editor.|no|not supported|
 
 Do not confuse event history age with item age. 
-History age is the age of the user's footprint (for example, "they clicked on the product A 
+History age is the age of the user's footprint (for example, "User clicked on the product A 
 two weeks ago"). 
-Item age is the time over which the item is available in the shop - so to say "how new is the item". 
-The history is filled automatically over event tracking. 
-The item catalog must be filled separately over an item import.
-For more information about events, see [Event types](event_types.md).
+Item age is the time over which the item is available in the shop ("How new is the item"). 
+The history is recorded automatically based on [event](event_types.md) tracking. 
+The item catalog must be filled separately as a result of [data import](content_import.md).
 
 ## Submodels
 
@@ -147,7 +144,7 @@ After you configure the submodel, the results are generated overnight and are av
 
 ### Nominal attributes
 
-A nominal attribute based submodel works when the number of values of an attribute is relatively 
+A nominal attribute-based submodel works when the number of values of an attribute is relatively 
 small and there is a large group of products for every value.
 A good example would be garment colors in a clothing store. 
 A bad example would be authors in a book store (there are too many of them).
@@ -169,7 +166,7 @@ The following results are possible for the products shown in the diagram:
 
 ### Numeric attributes
 
-In numeric attribute based submodels you define subgroups by setting `from` and `to` limits for every group.
+In numeric attribute-based submodels you define subgroups by setting `from` and `to` limits for every group.
 
 The logic used for resolving a submodel is as follows:
 

@@ -1,7 +1,7 @@
 # Use cases
 
-There are many different cases where you can use recommendations. 
-The most common ones can be found in the e-commerce and publishing industries.
+There are different areas where you can apply recommendations. 
+The most common ones can be found in eCommerce and publishing.
 
 ## eCommerce
 
