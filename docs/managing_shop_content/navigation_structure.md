@@ -17,6 +17,6 @@ The following Content Types are supported:
 
 !!! caution
 
-    The main menu of the site displays elements only if the Priority is higher that 0.
+    The main menu of the site displays elements only if the Priority is higher than 0.
 
 Elements with lower Priority are displayed first.

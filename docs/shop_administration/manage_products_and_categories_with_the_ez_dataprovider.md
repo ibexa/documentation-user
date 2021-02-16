@@ -1,8 +1,8 @@
-# Manage products and categories
+# Manage products and categories [[% include 'snippets/commerce_badge.md' %]]
 
 ## Managing categories
 
-When you use the content model data provider, the product catalog is fully integrated into the content tree. The products are managed as Content items.
+When you use the Repository data provider, the product catalog is fully integrated into the content tree. The products are managed as Content items.
 
 ![](img/browse_products.png)
 
@@ -10,21 +10,9 @@ Products and categories can be assigned to the product catalog.
 
 ![](img/sub_categories.png)
 
-## Flexible categories
-
-A category contains a standard set of fields. A category is a Content Type and can be extended with additional fields.
-
-![](img/flexible_categories.png)
-
-## Previewing products
-
-While editing a product the preview displays how the product looks on desktops or mobile devices, including product variants.
-
-![](img/product_text.png)
-
 ## Product variants
 
-[[= product_name_com =]] offers one or two level variants. A variant can be added directly in the product view.
+[[= product_name =]] offers one or two level variants. A variant can be added directly in the product view.
 
 There are three preconfigured variant types: Color, Size, and Color and Size.
 
@@ -34,7 +22,7 @@ The list of variant types can be extended in the configuration.
 
 ## Product assets
 
-[[= product_name_com =]] supports assets per product (not per variant).
+Assets, such as images or videos, can be added per product (not per variant).
 By default a product can have one main image and up to three additional images,
 one PDF, and one link to a video (e.g. YouTube).
 
