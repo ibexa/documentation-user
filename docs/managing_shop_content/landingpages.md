@@ -1,30 +1,10 @@
 # Pages in the shop
 
-[[= product_name_com =]] has at least one Landing Page which is the homepage. This document describes how to setup and modify Landing Pages. 
-
-## Landing Page tool
-
-![](img/landingpage_tool.png)
-
-[[= product_name_com =]] adds the following blocks to the blocks available in [[= product_name_oss =]]:
+[[= product_name_com =]] offers the following shop-related Page blocks:
 
 - Last viewed
 - Bestsellers
 - Product Slider
-
-## Product Slider
-
-The Product Slider block creates a product slider section with up to three different tabs.
-
-![](img/product_slider.png)
-
-Add up to three different tabs and fill them with the SKUs of the products (you can search for SKU, a product name or a part of a product name).
-
-![](img/product_slider_basic.png)
-
-Click **Submit** and you will see a preview of the slider.
-
-![](img/product_slider_preview.png)
 
 ## Last viewed
 
@@ -45,3 +25,17 @@ To choose a category, click **Select content**.
 ![](img/bestsellers_categories.png)
 
 ![](img/bestsellers_preview.png)
+
+## Product Slider
+
+The Product Slider block creates a product slider section with up to three different tabs.
+
+![](img/product_slider.png)
+
+Add up to three different tabs and fill them with the SKUs of the products (you can search for SKU, a product name or a part of a product name).
+
+![](img/product_slider_basic.png)
+
+Click **Submit** to see a preview of the slider.
+
+![](img/product_slider_preview.png)
