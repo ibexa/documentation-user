@@ -1,6 +1,6 @@
 # Permissions
 
-By default [[= product_name =]] offers the following predefined Roles:
+By default, [[= product_name =]] offers the following predefined Roles:
 
 | Role   | Functions   |
 | -------| ------------|

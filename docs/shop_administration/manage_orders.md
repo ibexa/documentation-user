@@ -24,8 +24,8 @@ You can filter orders using the following criteria:
     - Approval - orders using an approval workflow
     - Rejected - orders refused by the approver
 - Date
-- Payment option - the list has to be configured in the section **Configuration settings** under **Checkout**.
-- Payment transaction id.
+- Payment option - the list has to be configured in the section **Configuration settings** under **Checkout**
+- Payment transaction id
 
 ### Order list
 

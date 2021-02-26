@@ -6,7 +6,7 @@ The Cockpit shows the most important information for the shop owner referring to
 
 ## Overview
 
-Overview in the Cockpit presents the following data:
+An overview section of the Cockpit presents the following data:
 
 - Technical subsection
     - HDD usage
@@ -33,12 +33,12 @@ The **Products and sales** tab shows information about:
 - Last orders (last 365)
 - Best clients (top 20)
 
-The **Last orders** and **Best clients** tables are only visible for users who have the "Siso policy / Read customers and orders" Policy.
+The **Last orders** and **Best clients** tables are only visible to users who have the "Siso policy / Read customers and orders" Policy.
 See [Permissions](permissions.md) for more information.
 
 ## Search
 
-The **Search** tabs offers the following statistics:
+The **Search** tab offers the following statistics:
 
 1\. Top search terms
 
@@ -50,4 +50,4 @@ Lists the latest 50 search terms ordered by date.
 
 3\. Most searched terms with less hits
 
-Shows search terms which did not lead to a result and the number of times they were searched for.
+Shows search terms that did not lead to a result and the number of times they were searched for.

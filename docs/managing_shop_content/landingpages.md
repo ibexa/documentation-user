@@ -36,6 +36,6 @@ Add up to three different tabs and fill them with the SKUs of the products (you 
 
 ![](img/product_slider_basic.png)
 
-Click **Submit** and you will see a preview of the slider.
+Click **Submit** to see a preview of the slider.
 
 ![](img/product_slider_preview.png)

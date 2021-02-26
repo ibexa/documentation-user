@@ -2,7 +2,8 @@
 
 ## Managing categories
 
-When you use the Repository data provider, the product catalog is fully integrated into the content tree. The products are managed as Content items.
+When you use the Repository data provider, the product catalog is fully integrated into the content tree. 
+The products are managed as Content items.
 
 ![](img/browse_products.png)
 
@@ -12,7 +13,8 @@ Products and categories can be assigned to the product catalog.
 
 ## Product variants
 
-[[= product_name =]] offers one or two level variants. A variant can be added directly in the product view.
+[[= product_name =]] offers one or two level variants. 
+A variant can be added directly in the product view.
 
 There are three preconfigured variant types: Color, Size, and Color and Size.
 

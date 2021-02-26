@@ -10,7 +10,7 @@
 ![](img/components_menu.png)
 
 Text module is a special Content item in [[= product_name =]].
-It enables the shop owner or editor to translate some of the text information in the shop using the Online Editor.
+It enables the shop owner or editor to translate some of the text information in the shop by using the Online Editor.
 
 Text modules are used for some short explanatory texts in the shop.
 Every text module has a unique identifier.
