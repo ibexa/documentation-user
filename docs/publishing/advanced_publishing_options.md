@@ -1,14 +1,14 @@
 # Advanced publishing options
 
-There are three ways in which you can schedule content to be published in the future:
+There are three ways in which you can schedule content to be published, revealed or hidden in the future:
 
-- [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]] [Schedule tab](#schedule-tab) in any Page block's configuration
+- [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]] [Scheduler tab](#schedule-tab) in any Page block's configuration
 - [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]] [Content Scheduler block](#content-scheduler-block) on a Page
 - [Publish later option](#date-based-publishing) when editing content
 
-## Schedule tab [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
+## Scheduler tab [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
-The Schedule tab is available in the configuration of all Page blocks.
+The Scheduler tab is available in the configuration of all Page blocks.
 You can use it to set the date and time when the block becomes visible and when it disappears from a Page.
 If you configure the reveal and/or hide dates for a Page block, you can then see the scheduled blocks (except for the Content Scheduler) in the calendar.
 This way you can see what content will be available in the future.
@@ -39,10 +39,21 @@ If you had planned a future publication date and enter the edit mode of the same
 you also have a new option in the menu: **Discard publish later**.
 Use it to remove the previously selected publication date.
 
-![Discard Publish Date button in the menu](img/discard_publish_date.png "Discard publish later button in the menu")
+![Discard publish later button in the menu](img/discard_publish_date.png "Discard publish later button in the menu")
 
-You can always [reschedule or cancel planned publications](#rescheduling-or-cancelling-publications).
+You can also [reschedule or cancel planned publications](#rescheduling-or-cancelling-publications).
 To easily browse all the future events, use the [Calendar widget](#calendar-widget).
+
+## Date-based hiding
+
+When your Content item is published, you can schedule a date and time and the content will be hidden at that time.
+To do this, go to the **Content** tab and select **Content structure** or **Media**. 
+Then, navigate to the Content item that you want to hide and click **Hide** in the menu.
+
+![Hide Content item modal window](../../site_organization/img/schedule_hiding.png "Hide Content item modal window")
+
+Once a Content item is hidden, it is unavailable on the front page and inactive in the Content Tree.
+This change affects the Content item in all of its [Locations](../../site_organization/organizing_the_content.md#content-locations).
 
 ## Timeline [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
