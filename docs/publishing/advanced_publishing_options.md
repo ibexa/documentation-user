@@ -1,6 +1,6 @@
 # Advanced publishing options
 
-There are three ways in which you can schedule content to be revealed or hidden in the future:
+There are three ways in which you can schedule content to be published, revealed or hidden in the future:
 
 - [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]] [Scheduler tab](#schedule-tab) in any Page block's configuration
 - [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]] [Content Scheduler block](#content-scheduler-block) on a Page
@@ -47,7 +47,7 @@ To easily browse all the future events, use the [Calendar widget](#calendar-widg
 ## Date-based hiding
 
 When your Content item is published, you can schedule a date and time and the content will be hidden at that time.
-To do this, go to the **Content** tab and **Content structure** or **Media**. 
+To do this, go to the **Content** tab and select **Content structure** or **Media**. 
 Then, navigate to the Content item that you want to hide and click **Hide** in the menu.
 
 ![Hide Content item modal window](../../site_organization/img/schedule_hiding.png "Hide Content item modal window")
