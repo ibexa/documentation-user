@@ -1,6 +1,6 @@
-site_name: Ibexa User Documentation
+site_name: User Documentation
 repo_url: https://github.com/ezsystems/user-documentation
-copyright: "Copyright 1999-2020 Ibexa and others"
+copyright: "Copyright 1999-2021 Ibexa AS and others"
 nav:
     - 'Ibexa User Documentation': 'index.md'
     - 'Getting started': 'getting_started.md'
@@ -23,16 +23,14 @@ nav:
     - Shop administration:
         - 'Shop administration': 'shop_administration/shop_administration.md'
         - 'Cockpit': 'shop_administration/cockpit.md'
+        - 'Control center': 'shop_administration/control_center.md'
         - 'Components': 'shop_administration/components.md'
-        - 'Configuration settings': 'shop_administration/configuration_settings.md'
         - 'Manage orders': 'shop_administration/manage_orders.md'
         - 'Manage prices and stock': 'shop_administration/manage_prices_and_stock.md'
         - 'Manage products and categories': 'shop_administration/manage_products_and_categories_with_the_ez_dataprovider.md'
         - 'Manage users': 'shop_administration/manage_users.md'
         - 'Permissions': 'shop_administration/permissions.md'
-        - 'Translations': 'shop_administration/translations.md'
     - Managing shop content:
-        - 'Embed product': 'managing_shop_content/embed_product.md'
         - 'Pages in the shop': 'managing_shop_content/landingpages.md'
         - 'Navigation structure': 'managing_shop_content/navigation_structure.md'
         - 'Legal documents': 'managing_shop_content/legal_documents.md'
@@ -51,21 +49,16 @@ nav:
               - 'Scenarios': 'personalization/scenarios.md'
               - 'Filters': 'personalization/filters.md'
               
+
 theme:
-  name: null
-  custom_dir: 'material'
-  favicon: 'img/favicon.ico'
-  language: 'en'
-  palette:
-    primary: 'blue grey'
-    accent: 'deep orange'
-
-  font: false
-  feature:
-    tabs: false
-  search_index_only: false
-
-# theme_dir: material
+    name: material
+    custom_dir: 'theme'
+    favicon: 'images/favicon.png'
+    language: 'en'
+    palette:
+        primary: 'blue grey'
+        accent: 'deep orange'
+    logo: 'images/ibexa-dxp-logo.svg'
 
 plugins:
     - search
@@ -77,18 +70,18 @@ plugins:
 
 extra:
   version_warning:
-    latest: ['3.2']
-    previous_lts: ['1.13']
-    lts: ['2.5']
-    ft: ['3.0','3.1']
+    latest: ['3.3']
+    previous_lts: ['2.5', '1.13']
+    lts: ['3.3']
+    ft: ['3.2','3.1']
     dev: ['master']
   append_bootstrap:
     - '/index.md'
 
   related_docs:
-    - title: 'Ibexa User Documentation'
+    - title: 'User Documentation'
       url: '/projects/userguide'
-    - title: 'Ibexa Developer Documentation'
+    - title: 'Developer Documentation'
       url: '/'
   # Global variables
   product_name: 'Ibexa DXP'
@@ -98,15 +91,22 @@ extra:
 
 extra_css:
   - fonts/MavenPro.css
+  - css/codehilite.css
+  - css/switcher.css
   - css/custom.css
+  - css/page-not-found.css
+  - css/navigation.css
   - css/docs.switcher.css
+  - css/jquery-ui.min.css
   - '//cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css'
 
 extra_javascript:
   - js/jquery.min.js
+  - js/jquery-ui.min.js
   - js/custom.js
   - js/docs.switcher.js
   - '//cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js'
+
 markdown_extensions:
   - admonition
   - codehilite:
