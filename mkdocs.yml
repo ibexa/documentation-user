@@ -37,15 +37,20 @@ nav:
         - 'Navigation structure': 'managing_shop_content/navigation_structure.md'
         - 'Legal documents': 'managing_shop_content/legal_documents.md'
     - Personalization:
-        - 'Personalization': 'personalization/personalization.md'
+        - 'Introduction': 'personalization/personalization.md'
         - 'Use cases': 'personalization/use_cases.md'
-        - 'Dashboard': 'personalization/dashboard.md'
-        - 'Event Types': 'personalization/event_types.md'
-        - 'Content Types': 'personalization/content_types.md'
-        - 'Recommendation models': 'personalization/recommendation_models.md'
-        - 'Filters': 'personalization/filters.md'
-        - 'Scenarios': 'personalization/scenarios.md'
-        - 'Content import': 'personalization/content_import.md'
+        - 'Enabling personalization': 'enabling_personalization.md'
+        - 'Configuring personalization': 'perso_configuration.md'
+        - 'Importing data': 'personalization/content_import.md'
+        - 'Reviewing performance': 'personalization/dashboard.md'
+#        - 'Embedding personalization results':
+        - 'Reference':
+              - 'Events': 'personalization/event_types.md'
+              - 'Content types': 'personalization/content_types.md'
+              - 'Recommendation models': 'personalization/recommendation_models.md'
+              - 'Scenarios': 'personalization/scenarios.md'
+              - 'Filters': 'personalization/filters.md'
+              
 theme:
   name: null
   custom_dir: 'material'

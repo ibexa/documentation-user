@@ -16,7 +16,7 @@ User profile-based filters are applicable in both publishing and e-commerce use 
 |Filter|Requirements and restrictions|
 |---|---|
 |Do not recommend the item currently viewed|When you activate this filter, it removes the context items from the recommendation list. You might not want to use this filter if your strategy is based on the "Bundle" and "Ultimately bought" models. For more information, see [Recommendation Models](recommendation_models.md).|
-|Do not recommend items the user already consumed|The recommendation engine stores the consume events of every user for one year. When you activate this filter, the user will not be recommended the consumed content again.|
+|Do not recommend items the user already consumed|The recommendation engine stores the CONSUME events of every user for one year. When you activate this filter, the user will not be recommended the consumed content again.|
 |Max. repeated shows of identical recommendations per session|When you activate this filter and set a value, after a content item/product is recommended a certain amount of times during the current user session, it is be removed from all recommendation lists.|
 
 #### Boost filters
@@ -37,9 +37,9 @@ You can configure the boost filter to promote recommendations for certain users:
 For more information about importing item and user attributes, see [Insert XML Content](https://doc.ibexa.co/en/master/guide/personalization/developer_guide/content_api/#insert-xml-content) 
 and [User API](https://doc.ibexa.co/en/master/guide/personalization/developer_guide/user_api) in the developer documentation.
 
-### E-commerce-specific filters
+### eCommerce-specific filters
 
-The following filters are only applicable in e-commerce use cases.
+The following filters are only applicable in eCommerce use cases.
 
 |Filter|Requirements and restrictions|
 |---|---|
