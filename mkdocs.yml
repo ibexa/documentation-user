@@ -49,10 +49,6 @@ nav:
               - 'Scenarios': 'personalization/scenarios.md'
               - 'Filters': 'personalization/filters.md'
               
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 theme:
     name: material
     custom_dir: 'theme'
