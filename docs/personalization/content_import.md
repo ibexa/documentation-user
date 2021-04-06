@@ -1,18 +1,21 @@
 # Importing data
 
-Before the system can generate relevant recommendations, it must be fed with data that 
-relates to content items/products that are monitored, and event tracking information.
-Some scenarios provide better results if provided with user data.
+Before the personalization service can generate relevant recommendations, 
+it must be fed with data that relates to content items/products that are monitored, 
+and event tracking information.
+Some scenarios return better results if provided with user data.
 
-Data import operations are configured at developer level, based on the arrangements that you make with Ibexa. Content item import jobs fetch data from the recommendation client, which tracks events, 
+Data import operations are configured at the developer level, based on the arrangements 
+that you make with Ibexa. 
+Content item import jobs fetch data from the recommendation client, which tracks events, 
 to the recommendation engine.
 The recommendation engine then processes the events and calculates the recommendations.
 
 
 ## Content data import
 
-There are several ways to import data into the personalization service, for example, one can
-load an exported file to the recommendation engine from a specified location. 
+There are several ways to import data into the personalization service.
+For example, one can load an exported file to the recommendation engine from a specified location. 
 This type of import is intended to upload big portions of information, and can be used 
 to perform a weekly update of the whole product catalog.
 

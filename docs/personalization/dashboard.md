@@ -25,16 +25,17 @@ The diagram part consists of four main blocks:
 - Collected events:
     Input data CLICK, BUY, and other events) that the personalization service collects 
     from the website. 
-    For more information, see [Event Types](event_types.md).
+    For more information, see [Event types](event_types.md).
 
-![Statistics area](img/dashboard_statistics.png "Statistics area")
+![Diagrams on the dashboard](img/dashboard_statistics.png "Performance diagrams on the dashboard")
 
 Revenue-through-recommendations is an additional monetary value that resulted from 
 the clicked recommendations. 
-It is calculated by adding the revenue from products that users have purchased within 
-30 minutes from clicking a recommendation.
+It is calculated by summing up the revenue coming from products that users have purchased 
+within 30 minutes from clicking a recommendation.
 
-Purchased recommendations is the plain number of products sold, without any revenue/price information.
+Purchased recommendations is the plain number of products sold, without any 
+revenue/price information.
 
 Conversion (or click-through) rate is an indicator of the acceptance and, subsequently, 
 the quality of recommendations. 

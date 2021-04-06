@@ -38,9 +38,11 @@ It is very simple to configure and needs no maintenance.
 #### Ultimately bought
 
 This model combines CLICK and BUY events. 
-It suggests alternative products, which customers purchased after they clicked on the selected product. 
+It suggests alternative products, which customers purchased after they clicked 
+the selected product. 
 It therefore provides a "matching factor" of searching and purchasing. 
-In contrast to the "Also purchased" model, it recommends products that are related but not purchased together. 
+In contrast to the "Also purchased" model, it recommends products that are related 
+but not purchased together. 
 This model is the best choice to suggest alternative products for their search. 
 For example, when a user finds a book and on the product page this exact same book is being 
 recommended, it means that other users with the same interest purchased this book (and not others), 
@@ -48,29 +50,31 @@ which hints that this book is the very best choice.
 
 #### Frequently bought together / Bundle recommendations
 
-Products that were bought in a combination for a certain number of times can be recommended as a bundle.
-This model can recommend other products that fit the one that the user is currently looking at. 
+Products that were bought in a combination for a certain number of times can be 
+recommended as a bundle.
+This model can recommend other products that fit the one that the user 
+is currently looking at. 
 
 For example, when a user navigates to a product page with a certain smartphone, 
-apart from the "Also clicked" recommendations, the recommendation engine could recommend the 
-*Smartphone + Cover + Headphones* bundle, because they were purchased together 
-in exactly this combination for several times.
+apart from the "Also clicked" recommendations, the personalization service could 
+recommend the *Smartphone + Cover + Headphones* bundle, because they were purchased 
+together in exactly this combination for several times.
 
 It is not guaranteed that there is a bundle available for every product. 
-Therefore, a rendering logic should display the recommendations if they are available, or leave the 
-bundle box out completely. 
+Therefore, a rendering logic should display the recommendations if they are available, 
+or leave the bundle box out completely. 
 The currently displayed product is always part of the bundle.
 
 #### Similar rated
 
 The "Similar rated" algorithm provides recommendations based on user preferences. 
-It predicts, which articles might suit the user's interests. 
+It predicts articles that might suit the user's interests. 
 Recommendations for articles similar to their dislikes are suppressed.
 
 #### Best rated
 
-This model provides recommendations based on algorithms that include the ranking values 
-and the amount of distinct ratings. 
+This model provides recommendations based on algorithms that include the ranking 
+values and the amount of distinct ratings. 
 It is best suited for landing or category pages.
 
 ## Editorial and other models
@@ -110,7 +114,8 @@ Most of the models provide additional configuration parameters, which enable cus
 The parameters supported by different model types are described in the table below. 
 Some models support [submodels](#submodels). 
 Additional differentiation criterion is the supported context. 
-If a model requires context, it can only be linked to scenarios that provide the necessary context.
+If a model requires context, it can only be linked to scenarios that provide 
+the necessary context.
 
 |Model type|Available parameters|Submodel support|Context|
 |---|---|---|---|
@@ -145,20 +150,21 @@ For example:
 
 Submodels must be manually configured. 
 You do this in the property dialog of the recommendation model.
-After you configure the submodel, the results are generated overnight and are available on the next day.
+After you configure the submodel, the results are generated overnight and are available 
+on the next day.
 
 ### Nominal attributes
 
-A nominal attribute-based submodel works when the number of values of an attribute is relatively 
-small and there is a large group of products for every value.
+A nominal attribute-based submodel works when the number of values of an attribute 
+is relatively small and there is a large group of products for every value.
 A good example would be garment colors in a clothing store. 
 A bad example would be authors in a book store (there are too many of them).
 
-When configuring submodels for a clothing store, you might want to get recommendations for a specific 
-color, either predefined or a color of the context item. 
+When configuring submodels for a clothing store, you might want to get recommendations 
+for a specific color, either predefined or a color of the context item. 
 Similar colors can be grouped together, as shown below:
 
-![Attribute example](img/attribute_example.png)
+![Attribute example](img/attribute_example.png "Attribute grouping example")
 
 The following results are possible for the products shown in the diagram:
 
@@ -177,17 +183,20 @@ The logic used for resolving a submodel is as follows:
 
 - The `from` value indicates the beginning of the range and is included in the subgroup.
 - The `to` value indicates the end of the range end and is excluded from the subgroup.
-  The **only exception** is the last of the ranges, where the `to` value is also included. 
+  The only exception is the last of the ranges, where the `to` value is also included. 
 
 !!! note
 
-    You can specify a single or multiple attributes with multiple values for requesting recommendations. 
+    You can specify a single or multiple attributes with multiple values 
+    for requesting recommendations. 
     Recommendation are fetched from all the submodels and merged based on the weight (relevance). 
-    If one of the submodels delivers recommendations with better relevance, the results of other models can disappear from the list.
+    If one of the submodels delivers recommendations with better relevance, 
+    the results of other models can disappear from the list.
 
 !!! tip
 
     Once configured, submodels are enabled for the model globally. 
     All the scenarios which use this model also use the submodel. 
-    If you do not want to group recommendations based on a certain attribute, remove the attribute parameter from the request. 
+    If you do not want to group recommendations based on a certain attribute, 
+    remove the attribute parameter from the request. 
     The submodel is then omitted.

@@ -3,9 +3,9 @@
 A scenario is a configuration that is used to obtain recommendation results. 
 It consists of:
 
-- a content type to be returned as recommendation 
-- a strategy (set of models) that is used for generating recommendations
-- a filter configuration
+- A content type to be returned as recommendation 
+- A strategy (set of models) that is used for generating recommendations
+- A filter configuration
 
 If your [user role](../site_organization/organizing_the_site.md#permissions) includes 
 the `Personalization/View` Policy, you can view the list of scenarios and preview their result.
@@ -47,25 +47,34 @@ The configuration performed in this step is applied only to the selected scenari
 
 ## Filter configuration
 
-For every recommendation scenario a set of general filters can be defined that are applied to all recommendations from every model used in the scenario.
+For every recommendation scenario a set of general filters can be defined that 
+are applied to all recommendations from every model used in the scenario.
 
 ![General filters](img/scenario_filters.png "General filters")
 
 For more information, see [General filters](filters.md#general-filters).
 
-For each of the categories from the strategy configuration matrix, you can click the **Configure** icon and configure category filters. 
+For each of the categories from the strategy configuration matrix, you can click 
+the **Configure** icon and configure category filters. 
 For a detailed description, see [Category Filter](filters.md#category-filter).
 
 ## Previewing scenario results
 
-You can preview the results of a scenario by clicking the **Preview** icon next to a scenario listed on the **Scenarios** tab.
+You can preview the results of a scenario by clicking the **Preview** icon next 
+to a scenario listed on the **Scenarios** tab.
 
-Depending on the scenario type, you may need to provide additional information to see the results.
-For example, for scenarios based on collaborative models, you must provide a value in the **User id** field, click **Add item** to select a context item from the Content Browser.
-In some cases you might additionally have to click **Add category** and select a category to filter the results by. 
+Depending on the scenario type, you may need to provide additional information 
+to see the results.
+For example, for scenarios based on collaborative models, you must provide 
+a value in the **User id** field, click **Add item** to select a context item 
+from the Content Browser.
+In some cases you might additionally have to click **Add category** and select 
+a category to filter the results by. 
 
 After you configure the query, click **Send request** to display the results.
 
-Click **See response code** to preview the exact data object that is returned from the recommendation server and then used to generate the response.
+Click **See response code** to preview the exact data object that is returned 
+from the recommendation server and then used to generate the response.
 
-For more information about collecting events and embedding recommendation results, see [Basic integration](integration.md).
+For more information about collecting events and embedding recommendation results, 
+see [Basic integration](https://doc.ibexa.co/en/master/guide/personalization/personalization_quickstart/#integration).

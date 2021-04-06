@@ -1,27 +1,27 @@
 # Use cases
 
-There are different areas where you can apply recommendations. 
-The most common ones can be found in eCommerce and publishing.
+There are different areas where recommendations can prove valuable from a business point of view. 
+The most common ones are eCommerce and content publishing.
 
 ## eCommerce
 
-eCommerce recommendations can prove very useful in helping customers find what they are looking for. 
+In eCommerce, recommendations can help customers find the exact product that fulfills their expectations. 
 When a user is not sure about what to purchase, recommendations can suggest similar, alternative 
 or complementary products. 
 Some typical use cases are:
 
-- Bestseller list shown on a home page
-- 'What other customers bought' and 'Frequently bought together' lists on a product detail page 
-- 'Related to your shopping cart' list on the shopping cart page
-- Bestsellers in the current category shown on the category's landing page page
+- The bestseller list shown on a home page
+- The "What other customers bought" and "Frequently bought together" lists on a product detail page 
+- The "Related to your shopping cart" list on the shopping cart page
+- The "Bestsellers in the current category" list shown on the category's landing page
 - A recommendation bar with recommendations based on the current user's profile
 
-![Recommendations on a home page](img/use_case_landing_page.png "Landing page")
+![Recommendations on a home page](img/use_case_landing_page.png "Recommendations on a home page")
 
-Each recommendation box in the above graphics represents a [scenario](scenarios.md). 
+Each recommendation box in the graphics above and below represents a [scenario](scenarios.md). 
 Scenarios are configurations that define what kind of recommendations should be delivered. 
 
-![Related products on a shopping cart page](img/use_case_shopping_basket.png "Shopping basket")
+![Related products on a shopping cart page](img/use_case_shopping_basket.png "Related products on a shopping cart page")
 
 ### Content publishing
 
@@ -32,7 +32,7 @@ the drivers here.
 Use cases in publishing can be the following:
 
 - A list of the most popular content shown on the home page
-- Bestsellers in the current category shown on the category's landing page page
+- The "Bestsellers in the current category" list shown on the category's landing page
 - Related content shown on the content detail page
 
-![Similar products on a product detail page](img/use_case_detail_page.png "Detail page")
+![Similar products on a product detail page](img/use_case_detail_page.png "Similar products on a product detail page")
