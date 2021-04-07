@@ -13,14 +13,14 @@ The most common ones are [eCommerce and content publishing](use_cases.md).
     This guide mentions eCommerce use cases more often,
     but provides a thorough understanding of the content publishing context as well.
 
-    Both products or content items can be referred to as content and the BUY event can be understood as
+    Both products and Content items can be referred to as content and the BUY [event](event_types.md) can be understood as
     the CONSUME event.
 
 Before you can use the personalization service, you must [enable it](enabling_personalization.md).
 After you do it, for the service to generate relevant recommendations, 
 you can [change the default configuration](perso_configuration.md), and then 
 you can [feed it with data](content_import.md), or wait until the service gathers 
-enough information about the [monitored content](content_types.md) and [events](event_types.md). 
+enough information about the [monitored content](content_types.md) and events. 
 On a website with more than 100 clicks per day, one day of collecting data should 
 be sufficient for the first recommendations.
 Recommendations become better with time and the amount of data collected.
