@@ -1,32 +1,80 @@
-# 8. Scenarios
+# Scenarios
 
-A scenario is a configuration for getting recommendations. 
+A scenario is a configuration that is used to obtain recommendation results. 
 It consists of:
 
-1. a content type to be returned as recommendation, 
-1. a filter configuration,
-1. a set of models to be used for generating recommendations.
+- A content type to be returned as recommendation 
+- A strategy (set of models) that is used for generating recommendations
+- A filter configuration
 
-It is recommended that you add several models to a scenario in order to avoid empty recommendation boxes. 
-In the configuration interface there is a matrix provided for the configuration. 
-You can drag available models from the left side into the scenario matrix on the right side.
+If your [user Role](../site_organization/organizing_the_site.md#permissions) includes 
+the `Personalization/View` Policy, you can view the list of scenarios and preview their result.
 
-The scenario configuration field has several rows. 
-Models located in the same row will be used in parallel and the result will contain an equally 
-distributed mixture of all used model results (horizontal configuration). 
-Models located on the second and third row will be used only if models from the row above return no or 
-not enough results (vertical configuration).
+To modify the scenarios to suit your needs, you must have the `Personalization/Edit` permissions.
+You can then navigate to the **Scenarios** tab and click the **Edit** icon next to 
+the name of the scenario.
 
-Following the example in the images, the first recommendations that will be displayed to the user 
-will come from "Also purchased". 
-If there are no or not enough recommendations available, the "Also clicked" model will be requested. 
-If there are still not enough products in the result set, the "Top purchased" products from the 
-Fail-safe row (not visible in the example image) will be added according to the number of 
-requested recommendations. 
-On the right side of the first rows there is a button to configure Category Filter usage in the recommendation request. 
+## Content type configuration
+
+Every scenario supports a single input type and multiple output types. 
+Every recommendation request delivers only content of one output content type 
+(even if multiple types are selected in the interface below). 
+The output type is set during the recommendation request and must be covered by 
+the list of the supported content types in the requested scenario.
+
+![Basic scenario configuration](img/scenario_configuration.png "Basic scenario configuration")
+
+## Strategy configuration
+
+To modify the strategy, you drag model boxes between a list of all available models and the scenario 
+board on the right side.
+To avoid empty or insufficient recommendation results, add several models to every strategy.
+
+![Strategy configuration](img/scenario_configuration_strategy.png "Strategy configuration")
+
+You can arrange models within a scenario board by importance.
+Models from each level are used in parallel and strategy results contain an equally 
+distributed mixture of both model results. 
+If models from one level do not return enough results, models from the 
+subsequent levels are used.
+
+If your models support additional differentiators, you can apply them here:
+pick a context from a drop-down with a list of available context options,
+and/or select the **Use submodels** checkbox to group all products based on a selected attribute.
+For more information, see [Advanced model configuration](recommendation_models.md#advanced-model-configuration). 
+
+The configuration performed in this step is applied only to the selected scenario.
+
+## Filter configuration
+
+For every recommendation scenario a set of general filters can be defined that 
+are applied to all recommendations from every model used in the scenario.
+
+![General filters](img/scenario_filters.png "General filters")
+
+For more information, see [General filters](filters.md#general-filters).
+
+For each of the categories from the strategy configuration matrix, you can click 
+the **Configure** icon and configure category filters. 
 For a detailed description, see [Category Filter](filters.md#category-filter).
 
-In contrast to the model configuration described in [Recommendation Models](recommendation_models.md), 
-the configuration performed in this step is applied only to the selected scenario.
+## Previewing scenario results
 
-You can preview the results of a scenario by clicking the **Preview** icon next to a scenario listed on the Scenarios tab.
+You can preview the results of a scenario by clicking the **Preview** icon next 
+to a scenario listed on the **Scenarios** tab.
+
+Depending on the scenario type, you may need to provide additional information 
+to see the results.
+For example, for scenarios based on collaborative models, you must provide 
+a value in the **User id** field, click **Add item** to select a context item 
+from the Content Browser.
+In some cases you might additionally have to click **Add category** and select 
+a category to filter the results by. 
+
+After you configure the query, click **Send request** to display the results.
+
+Click **See response code** to preview the exact data object that is returned 
+from the recommendation server and then used to generate the response.
+
+For more information about collecting events and embedding recommendation results, 
+see [Basic integration](https://doc.ibexa.co/en/master/guide/personalization/personalization_quickstart/#integration).
