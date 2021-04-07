@@ -10,7 +10,7 @@ It consists of:
 If your [user Role](../site_organization/organizing_the_site.md#permissions) includes 
 the `Personalization/View` Policy, you can view the list of scenarios and preview their result.
 
-To modify the scenarios to suit your needs, you must have the `Personalization/Edit` permissions.
+To modify the scenarios to suit your needs, you must have the `Personalization/Edit` Policy.
 You can then navigate to the **Scenarios** tab and click the **Edit** icon next to 
 the name of the scenario.
 
