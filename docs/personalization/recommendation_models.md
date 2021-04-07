@@ -91,7 +91,8 @@ This model is not based on historical records but relies on the imported product
 
 #### Editor-based
 
-This model returns products from a list that you manually create if you have Edit privileges. 
+This model returns products from a list that you manually create if you have 
+`Personalization/Edit` Policy. 
 This way you can replace automatically generated recommendations with ones from a predefined list. 
 It is best suited for cases when the store administrator wants to add special offers or sell older stock. 
 It could be referred to as "Static recommendations".
