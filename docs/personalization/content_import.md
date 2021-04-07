@@ -8,14 +8,14 @@ Some scenarios return better results if provided with user data.
 Data import operations are configured at the developer level, based on the arrangements 
 that you make with Ibexa. 
 Content item import jobs fetch data from the recommendation client, which tracks events, 
-to the recommendation engine.
-The recommendation engine then processes the events and calculates the recommendations.
+to the personalization service.
+The personalization service then processes the events and calculates the recommendations.
 
 
 ## Content data import
 
 There are several ways to import data into the personalization service.
-For example, one can load an exported file to the recommendation engine from a specified location. 
+For example, one can load an exported file to the personalization service from a specified location. 
 This type of import is intended to upload big portions of information, and can be used 
 to perform a weekly update of the whole product catalog.
 

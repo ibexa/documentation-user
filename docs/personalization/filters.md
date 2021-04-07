@@ -116,7 +116,7 @@ For example, the shop mentioned above sells both furniture and plants, and produ
 are structured based on site navigation. 
 Typically, customers would look for computer desks and get a list of recommendations 
 of all computer desks in the shop. 
-When necessary, the recommendation engine can also use another dimension 
+When necessary, the personalization service can also use another dimension 
 for filtering recommendations, for example, a "brand" dimension. 
 In this case, users would get recommendations for all items from the same "brand".
 
