@@ -20,7 +20,7 @@ User profile-based filters are applicable in both publishing and eCommerce use c
 |---|---|
 |Do not recommend the item currently viewed|When you activate this filter, it removes the context items from the recommendation list. You might not want to use this filter if your strategy is based on the ["Bundle" and "Ultimately bought" models](recommendation_models.md#ultimately-bought).|
 |Do not recommend items the user already consumed|The personalization service stores the CONSUME events of every user for one year. When you activate this filter, the user will not be recommended the consumed content again.|
-|Max. repeated shows of identical recommendations per session|When you activate this filter and set a value, after a content item/product is recommended a certain amount of times during the current user session, it is be removed from all recommendation lists.|
+|Max. repeated shows of identical recommendations per session|When you activate this filter and set a value, after a content item/product is recommended a certain number of times during the current user session, it is removed from all recommendation lists.|
 
 #### Boost filters
 
@@ -57,7 +57,7 @@ The following filters are only applicable in eCommerce use cases.
 
 Apart from filters that you define at the scenario level, you can use category path 
 filters to narrow down recommendation results returned by each of the priority levels 
-in the the scenario strategy. 
+in the scenario strategy. 
 When you activate a filter of this type, the service recommends only items from a specific 
 item/product category. 
 The actual category used to filter on is taken from recommendation request parameters.
@@ -101,8 +101,8 @@ are sorted based on a global weight of the recommendations.
 Depending on the popularity of the categories, the more popular categories push 
 the less popular categories out of the results.
 
-If the recommended item is located in more than one category, it is recommended 
-that at least one category is requested in the recommendation call.
+If the recommended item is located in more than one category,
+at least one category should be requested in the recommendation call.
 
 ### Multiple category path dimensions for popularity models
 
@@ -110,10 +110,10 @@ The category path parameter is a powerful tool.
 A typical approach is to represent the default content in the navigation-based 
 structure of a website. 
 If you need to represent available items of a website in different dimensions (taxonomies), 
-you can do this out-of-the box, by enriching the `categorypath` information of an item.
+you can do this out of the box, by enriching the `categorypath` information of an item.
 
-For example, the shop mentioned above sells both furniture and plants, and products 
-are structured based on site navigation. 
+For example, in a shop that sells furniture and plants, 
+products can be structured based on site navigation. 
 Typically, customers would look for computer desks and get a list of recommendations 
 of all computer desks in the shop. 
 When necessary, the personalization service can also use another dimension 
