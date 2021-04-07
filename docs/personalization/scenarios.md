@@ -7,12 +7,12 @@ It consists of:
 - A strategy (set of models) that is used for generating recommendations
 - A filter configuration
 
-If your [user role](../site_organization/organizing_the_site.md#permissions) includes 
+If your [user Role](../site_organization/organizing_the_site.md#permissions) includes 
 the `Personalization/View` Policy, you can view the list of scenarios and preview their result.
 
 To modify the scenarios to suit your needs, you must have the `Personalization/Edit` permissions.
 You can then navigate to the **Scenarios** tab and click the **Edit** icon next to 
-a name of the scenario.
+the name of the scenario.
 
 ## Content type configuration
 
@@ -27,16 +27,16 @@ the list of the supported content types in the requested scenario.
 ## Strategy configuration
 
 To modify the strategy, you drag model boxes between a list of all available models and the scenario 
-matrix on the right side.
-To avoid empty or insufficient recommendation results, add several models to a strategy.
+board on the right side.
+To avoid empty or insufficient recommendation results, add several models to every strategy.
 
 ![Strategy configuration](img/scenario_configuration_strategy.png "Strategy configuration")
 
-You can arrange models within a strategy matrix by importance.
-Models from each category are used in parallel and strategy results contain an equally 
+You can arrange models within a scenario board by importance.
+Models from each level are used in parallel and strategy results contain an equally 
 distributed mixture of both model results. 
-If models from a preceding category do not return enough results, models from the 
-subsequent categories are used.
+If models from one level do not return enough results, models from the 
+subsequent levels are used.
 
 If your models support additional differentiators, you can apply them here:
 pick a context from a drop-down with a list of available context options,

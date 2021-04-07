@@ -9,7 +9,7 @@ To do this, navigate to one of the pages mentioned below and edit the item that 
 
 The **Models** page lists all available models and provides detailed information, 
 such as the scenarios that use each model or when the model was last triggered.
-Models come predefined with the software, based on the arrangements that your 
+Models come predefined with the service, based on the arrangements that your 
 organization makes with Ibexa when defining the initial configuration.
 You can request that a specific model is created by contacting customer support.
 

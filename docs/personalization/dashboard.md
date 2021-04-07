@@ -1,7 +1,7 @@
 # Reviewing performance
 
 You can review statistical information related to the functioning of the personalization service, 
-to help you fine tune [models](recommendation_models.md) and [scenarios](scenarios.md) and, 
+to help you fine-tune [models](recommendation_models.md) and [scenarios](scenarios.md) and, 
 in consequence, achieve better financial results.
 You can do this by visiting the dashboard, where you can monitor the performance 
 of the personalization service.
@@ -21,7 +21,7 @@ The diagram part consists of four main blocks:
 - Recommendation calls:
     The number of recommendation calls (total and per scenario).
 - Conversion rate:
-    An absolute number of converted/sold recommendations.
+    The absolute number of converted/sold recommendations.
 - Collected events:
     Input data CLICK, BUY, and other events) that the personalization service collects 
     from the website. 
@@ -34,7 +34,7 @@ the clicked recommendations.
 It is calculated by summing up the revenue coming from products that users have purchased 
 within 30 minutes from clicking a recommendation.
 
-Purchased recommendations is the plain number of products sold, without any 
+Purchased recommendations is the number of products sold, without any 
 revenue/price information.
 
 Conversion (or click-through) rate is an indicator of the acceptance and, subsequently, 
@@ -44,4 +44,4 @@ recommendation calls.
 This statistic delivers reliable information if event tracking is implemented correctly.
 
 You can select a timeframe for the diagrams from a list of presets, or define a custom date range.
-If necessary, you can download the statistical information in MS Excel format.
+If necessary, you can download the statistical information in XLS format.

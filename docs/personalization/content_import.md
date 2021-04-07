@@ -16,8 +16,8 @@ The personalization service then processes the events and calculates the recomme
 
 There are several ways to import data into the personalization service.
 For example, one can load an exported file to the personalization service from a specified location. 
-This type of import is intended to upload big portions of information, and can be used 
-to perform a weekly update of the whole product catalog.
+This type of import is intended to upload big portions of information,
+and can be used to perform a weekly update of the whole product catalog.
 
 For detailed information about content data import, see [Content API](https://doc.ibexa.co/en/master/guide/personalization/developer_guide/content_api) in the developer documentation.
 
@@ -35,6 +35,6 @@ For more information about user attribute import, see [User API](https://doc.ibe
 
 In the Back Office, from the top bar under **Personalization**, you can access 
 the **Import** page that displays a list of historical import operations and their details, 
-such as a number of imported content items/products, their type and language.
+such as the number of imported content items/products, their type and language.
 
 ![Import tab in the Back Office](img/dashboard_import.png "Import tab")
