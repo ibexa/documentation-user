@@ -59,10 +59,10 @@
                         </h5>
                     <div class="tile-body">
                         <ul>
-                            <li><a href="personalization/personalization/">Personalization</a></li>
-                            <li><a href="personalization/dashboard/">Dashboard</a></li>
-                            <li><a href="personalization/scenarios/">Scenarios</a></li>
-                            <li><a href="personalization/recommendation_models/">Models</a></li>
+                            <li><a href="personalization/personalization/">Introduction</a></li>
+                            <li><a href="personalization/use_cases/">Use cases</a></li>
+                            <li><a href="personalization/perso_configuration/">Configuring</a></li>
+                            <li><a href="personalization/dashboard/">Reviewing performance</a></li>
                         </ul>
                     </div>
                 </div>

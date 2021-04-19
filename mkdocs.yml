@@ -39,6 +39,8 @@ nav:
         - 'Use cases': 'personalization/use_cases.md'
         - 'Enabling personalization': 'personalization/enabling_personalization.md'
         - 'Configuring personalization': 'personalization/perso_configuration.md'
+        - 'Previewing scenario results': 'personalization/previewing_scenario.md'
+        - 'Integrating scenario results': 'personalization/integrating_results.md'
         - 'Importing data': 'personalization/content_import.md'
         - 'Reviewing performance': 'personalization/dashboard.md'
 #        - 'Embedding personalization results':

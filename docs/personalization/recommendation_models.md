@@ -138,16 +138,16 @@ The item catalog must be filled separately as a result of [data import](conten
 
 Statistics-based recommendations often have the disadvantage of providing recommendations limited 
 to the most popular, most suitable to the user, or most similar products. 
-You might need to extend the set of available recommendations by defining a subset of 
+You might wantd to extend the set of available recommendations by defining a subset of 
 items based on external criteria. 
 
 Submodels give you the option to group products based on an attribute. 
 Recommendations can then be requested specifically for the selected group.
 For example:
 
-- "Also bought clothing with the same color"
+- "Also bought clothing with similar colors"
 - "Most popular toys for the predefined age"
-- "Also bought holiday presents with a predefined price"
+- "Also bought presents with a predefined price"
 
 Submodels must be manually configured. 
 You do this in the property dialog of the recommendation model.
@@ -158,8 +158,8 @@ on the next day.
 
 A nominal attribute-based submodel works when the number of values of an attribute 
 is relatively small and there is a large group of products for every value.
-A good example would be clothes colors in a clothing store. 
-A bad example would be authors in a book store (there are too many of them).
+A good example would be clothes colors in a clothing store, while authors in a book 
+store would make a bad example (there are too many of them).
 
 When configuring submodels for a clothing store, you might want to get recommendations 
 for a specific color, either predefined or a color of the context item. 
@@ -178,7 +178,8 @@ The following results are possible for the products shown in the diagram:
 
 ### Numeric attributes
 
-In numeric attribute-based submodels you define subgroups by setting `from` and `to` limits for every group.
+In numeric attribute-based submodels you define subgroups by setting `from` 
+and `to` limits for every group.
 
 The logic used for resolving a submodel is as follows:
 
