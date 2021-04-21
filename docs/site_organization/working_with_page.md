@@ -225,10 +225,11 @@ For details, see [Editing Rich Text Fields](../creating_content_basic.md#editing
 ### Personalized block
 
 On the **Basic** tab, set values in the following fields:
-        -	**Block name** – Optionally, enter a name for the page block, for example, "Bestsellers".
-        -	**Select a scenario** – Select "Landing page" or "Top clicked".
-        -	**Select a Content Type...** – Select "Product".
-        -	**Display limit** – Set the number of products to be displayed, for example, 4.
+
+-	**Block name** – Optionally, enter a name for the page block, for example, "Bestsellers".
+-	**Select a scenario** – Select "Landing page" or "Top clicked".
+-	**Select a Content Type...** – Select "Product".
+-	**Display limit** – Set the number of products to be displayed, for example, 4.
 
 On the **Design** tab, in the **View** field, change the layout to "Products" and submit your changes.
 
