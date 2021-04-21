@@ -43,7 +43,6 @@ nav:
         - 'Integrating scenario results': 'personalization/integrating_results.md'
         - 'Importing data': 'personalization/content_import.md'
         - 'Reviewing performance': 'personalization/dashboard.md'
-#        - 'Embedding personalization results':
         - 'Reference':
               - 'Events': 'personalization/event_types.md'
               - 'Content types': 'personalization/content_types.md'

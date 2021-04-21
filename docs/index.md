@@ -61,7 +61,7 @@
                         <ul>
                             <li><a href="personalization/personalization/">Introduction</a></li>
                             <li><a href="personalization/use_cases/">Use cases</a></li>
-                            <li><a href="personalization/perso_configuration/">Configuring</a></li>
+                            <li><a href="personalization/perso_configuration/">Configuration</a></li>
                             <li><a href="personalization/dashboard/">Reviewing performance</a></li>
                         </ul>
                     </div>

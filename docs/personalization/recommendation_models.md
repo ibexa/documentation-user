@@ -138,7 +138,7 @@ The item catalog must be filled separately as a result of [data import](conten
 
 Statistics-based recommendations often have the disadvantage of providing recommendations limited 
 to the most popular, most suitable to the user, or most similar products. 
-You might wantd to extend the set of available recommendations by defining a subset of 
+You might want to extend the set of available recommendations by defining a subset of 
 items based on external criteria. 
 
 Submodels give you the option to group products based on an attribute. 
