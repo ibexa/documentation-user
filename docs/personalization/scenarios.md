@@ -58,23 +58,8 @@ For each of the categories from the strategy configuration matrix, you can click
 the **Configure** icon and configure category filters. 
 For a detailed description, see [Category Filter](filters.md#category-filter).
 
-## Previewing scenario results
+## Next steps
 
-You can preview the results of a scenario by clicking the **Preview** icon next 
-to a scenario listed on the **Scenarios** tab.
-
-Depending on the scenario type, you may need to provide additional information 
-to see the results.
-For example, for scenarios based on collaborative models, you must provide 
-a value in the **User id** field, click **Add item** to select a context item 
-from the Content Browser.
-In some cases you might additionally have to click **Add category** and select 
-a category to filter the results by. 
-
-After you configure the query, click **Send request** to display the results.
-
-Click **See response code** to preview the exact data object that is returned 
-from the recommendation server and then used to generate the response.
-
-For more information about collecting events and embedding recommendation results, 
-see [Basic integration](https://doc.ibexa.co/en/master/guide/personalization/personalization_quickstart/#integration).
+When you have configured the personalization service, you can 
+[preview scenario results](previewing_scenario.md) and 
+[embed them in your website](integrating_results.md).

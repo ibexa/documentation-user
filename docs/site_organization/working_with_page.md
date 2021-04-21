@@ -1,23 +1,27 @@
 # Working with Page  [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
-**Page** is a special Content Type that contains zones onto which you can drop different dynamic blocks.
+**Page** is a special Content Type that contains zones onto which you can drop 
+different dynamic blocks.
 You can edit it to personalize the layout and contents of your website.
 
 
 !!! tip
-    The Page Content Type contains a **Landing Page** Field Type which manages the zones and blocks.
-    Any Content item that has the **Landing Page** Field Type will behave like the Page Content Type.
+    The Page Content Type contains a **Landing Page** Field Type which manages 
+    the zones and blocks.
+    Any Content item that has the **Landing Page** Field Type will behave like 
+    the Page Content Type.
 
-## Creating Page
+## Creating Pages
 
 To create a new Page, in the upper toolbar click **Content** and from the list below select **Content structure**.
-On the right-side toolbar click **Create** and from the list of Content items select **Landing page**.
-In the **Page creation** select the layout and click **Create**.
+On the right-side toolbar, click **Create** and from the list of Content items select **Landing page**.
+On the **Page creation** modal, select the layout and click **Create draft**.
 
 You can also add a new Page in the Page Builder.
-Open the Page Builder by clicking **Site** and selecting a site from the list appearing below.
+Open the Page Builder by clicking **Site** and selecting a site from the list that 
+appears next to the **List** icon.
 On the [Page Builder toolbar](#page-builder-toolbar) click the plus button and from the list select **Landing page**.
-Select the layout and click **Create**.
+On the **Page creation** modal, select the layout and click **Create draft**.
 
 Before publishing or saving the Page, edit its title and description.
 Switch to the Field view using the [Page Builder toolbar](#page-builder-toolbar).
@@ -27,7 +31,7 @@ Switch to the Field view using the [Page Builder toolbar](#page-builder-toolbar)
     To help you preserve your work, [[= product_name =]] saves drafts of Content items automatically.
     For more information, see [Autosave](../publishing/publishing.md#autosave).
 
-## Editing Page
+## Editing Pages
 
 You edit Pages using the Page Builder.
 To start editing an existing Page, in the Back Office click **Page** and select the page from the list that appears below.
@@ -95,21 +99,18 @@ The blocks provided with a clean installation of [[= product_name_ee =]] are:
 
 ## Block settings
 
-### Blocks of content
-
 Each kind of block has its special properties.
-You can access them by placing the cursor on the added block and clicking the cog button.
-Use the same menu to remove the block from the Page by clicking the trash button.
+You can access them by placing the cursor on the added block and clicking the 
+**Block settings** (cog) icon.
+Use the same menu to remove the block from the Page by clicking the **Delete** (trash) icon.
 
 ![Elements settings](img/page_builder_elementsettings.png)
 
 Settings available for blocks are divided into three tabs — **Basic**, **Design**, and **Scheduler**.
-The settings available in the **Basic** tab are tailored to the block's content.
-
+The settings available on the **Basic** tab are tailored to the block's content.
 
 The remaining tabs contain parameters common to all blocks provided with [[= product_name_ee =]].
 Use them to modify the layout and visibility of a block. For details, see [Advanced publishing options](../publishing/advanced_publishing_options.md).
-
 
 You can't publish a Page if you have not set all the required settings of all blocks.
 
@@ -117,9 +118,11 @@ You can't publish a Page if you have not set all the required settings of all bl
     Settings and function of custom-made blocks of content depend on their design.
     For details on adjusting and using them, contact your website administrator.
 
+After you change the block settings, click **Submit** to save the changes or **Discard** to cancel.
+
 ### Targeting block
 
-In the **Basic** tab, perform the following actions:
+On the **Basic** tab, perform the following actions:
 
 - In the **Name** box, provide the name of the block.
 - In the **Select default content** section, click **Select content**, navigate through the content
@@ -137,26 +140,21 @@ You can preview the page for each of the available Segments:
 
 Note that completing the settings of the Form block requires at least one Form Content item created.
 
-In the **Basic** tab, perform the following actions:
+On the **Basic** tab, perform the following actions:
 
 - In the **Name** box, provide the name of the block that will appear on the Page.
 - In the Form section, click **Select content**, navigate through the content and select a Form Content item to append it to the block.
 
-Click **Submit** to save the changes or **Discard** to cancel.
-
 ### Code block
 
-In the **Basic** tab, perform the following actions:
+On the **Basic** tab, perform the following actions:
 
 - In the **Name** box, provide the name of the block that will appear on the Page.
 - In the **Content** box, enter the HTML code for the content you want to display on the Page.
 
-
-Click **Submit** to save the changes or **Discard** to cancel.
-
 ### Content List block
 
-In the **Basic** tab, perform the following actions:
+On the **Basic** tab, perform the following actions:
 
 - In the **Name** box, provide the name of the block that will appear on the Page.
 - In the **Parent** section, click **Select content**, navigate through the content and select a folder containing Content items
@@ -165,21 +163,17 @@ to display on the list. Click **Confirm**.
 - From the **Content Types to be displayed** list, select Content Type(s) to be displayed.
 The block will display Content items of the selected Content Types that are in the selected parent folder.
 
-Click **Submit** to save the changes or **Discard** to cancel.
-
 ### Banner block
 
-In the **Basic** tab, perform the following actions:
+On the **Basic** tab, perform the following actions:
 
 - In the **Name** box, provide the name of the block that will appear on the Page.
 - In the **Image** section, click **Select content**, navigate through the content and select an image to display.
 - In the **URL** box, enter a URL to open when clicking the selected image.
 
-Click **Submit** to save the changes or **Discard** to cancel.
-
 ### Collection block
 
-In the **Basic** tab, perform the following actions:
+On the **Basic** tab, perform the following actions:
 
 - In the **Name** box, provide the name of the block that will appear on the Page.
 - In the **Location list** section, click **Select content**, navigate through the content
@@ -187,41 +181,33 @@ and add to the collection Content items of any Content Type you want.
 All selected Content items appear in the **Selected items** box at the bottom of the window.
 When done selecting, click **Confirm**.
 
-Click **Submit** to save the changes or **Discard** to cancel.
-
 ### Embed block
 
-In the **Basic** tab, perform the following actions:
+On the **Basic** tab, perform the following actions:
 
 - In the **Name** box, provide the name of the block that will appear on the Page.
 - Select content to embed by clicking **Select content**. Navigate to a Content item, select it and click **Confirm**.
 
-Click **Submit** to save the changes or **Discard** to cancel.
-
 ### Gallery block
 
-In the **Basic** tab, perform the following actions:
+On the **Basic** tab, perform the following actions:
 
 - In the **Name** box, provide the name of the block that will appear on the Page.
 - In the **Folder** section, click **Select content**, navigate through the content, select a folder containing images to display and click **Confirm**.
 After submitting the settings, all images in the folder will appear in the Gallery block.
 Note that selecting a folder containing Content items other than images results in displaying only a link to the folder they are stored in.
 
-Click **Submit** to save the changes or **Discard** to cancel.
-
 ### Video block
 
-In the **Basic** tab, perform the following actions:
+On the **Basic** tab, perform the following actions:
 
 - In the **Name** box, provide the name of the block that will appear on the Page.
 - In the **Video** section, click **Select content**, navigate through the content, select a video to display in the block and click **Confirm**.
-In the **Basic** tab you can preview the selected video before adding it to the Page.
-
-Click **Submit** to save the changes or **Discard** to cancel.
+On the **Basic** tab you can preview the selected video before adding it to the Page.
 
 ### RSS block
 
-In the **Basic** tab, perform the following actions:
+On the **Basic** tab, perform the following actions:
 
 - In the **Name** box, provide the name of the block that will appear on the Page.
 - In the **URL** box, provide the URL for the RSS news feed.
@@ -230,13 +216,22 @@ In the **Basic** tab, perform the following actions:
 
 ### Text block
 
-In the **Basic** tab, perform the following actions:
+On the **Basic** tab, perform the following actions:
 
 - In the **Name** box, provide the name of the block that will appear on the Page.
 - In the **Content** box, enter text, images, videos, etc. using the Online Editor.
 For details, see [Editing Rich Text Fields](../creating_content_basic.md#editing-rich-text-fields).
 
-When done editing, click **Submit** to save the changes or **Discard** to cancel.
+### Personalized block
+
+On the **Basic** tab, set values in the following fields:
+
+-	**Block name** – Optionally, enter a name for the page block, for example, "Bestsellers".
+-	**Select a scenario** – Select "Landing page" or "Top clicked".
+-	**Select a Content Type...** – Select "Product".
+-	**Display limit** – Set the number of products to be displayed, for example, 4.
+
+On the **Design** tab, in the **View** field, change the layout to "Products" and submit your changes.
 
 ## Publishing Page
 
