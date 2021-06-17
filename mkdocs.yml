@@ -1,5 +1,6 @@
 site_name: User Documentation
 repo_url: https://github.com/ezsystems/user-documentation
+site_url: https://doc.ibexa.co/projects/userguide/en/latest/
 copyright: "Copyright 1999-2021 Ibexa AS and others"
 nav:
     - 'eZ Platform User Documentation': 'index.md'
