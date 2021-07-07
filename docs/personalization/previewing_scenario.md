@@ -6,6 +6,12 @@ to the end user when specific [scenarios](scenarios.md) are triggered.
 Depending on the scenario type, you may need to provide additional information 
 to see the recommendation results.
 
+!!! note "Hosting multiple websites"
+
+    If you have permissions to access several websites hosted on an [[= product_name =]] 
+    instance, you can use the selector field to switch between views for each 
+    of these sites.
+
 The number and selection of available scenarios depends on the arrangements that 
 your organization makes with Ibexa when defining the initial configuration.
 
@@ -40,6 +46,6 @@ based on a specific attribute, for example "material=wood", and then click the *
 
 !!! note "Display response"
 
-    You can preview the exact data object that is returned from the recommendation server 
+    You can preview the exact data object that is returned from the Personalization server 
     and then used by the personalization service to generate the response. 
     To see the data object, click **See response code**.
