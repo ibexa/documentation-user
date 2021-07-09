@@ -1,6 +1,6 @@
 # Introduction to personalization
 
-A cloud-based personalization service leverages artificial intelligence and machine learning 
+A cloud-based Personalization service leverages artificial intelligence and machine learning 
 technologies to deliver optimized customer experience. 
 You can capture user preferences and interests to generate recommendations 
 that can be used to offer personalized content to visitors of one or more websites 
@@ -17,7 +17,7 @@ The most common ones are [eCommerce and content publishing](use_cases.md).
     Both products and Content items can be referred to as content and the BUY [event](event_types.md) can be understood as
     the CONSUME event.
 
-Before you can use the personalization service, you must [enable it](enabling_personalization.md).
+Before you can use the Personalization service, you must [enable it](enabling_personalization.md).
 Then, for the service to generate relevant recommendations, 
 you can [change the default configuration](perso_configuration.md).
 Finally, you can [feed it with data](content_import.md), or wait until the service 

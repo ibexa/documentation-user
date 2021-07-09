@@ -48,5 +48,5 @@ based on a specific attribute, for example "material=wood", and then click the *
 !!! note "Display response"
 
     You can preview the exact data object that is returned from the Personalization server 
-    and then used by the personalization service to generate the response. 
+    and then used by the Personalization service to generate the response. 
     To see the data object, click **See response code**.

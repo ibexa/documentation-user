@@ -8,7 +8,7 @@ configuration, and then get and set up authentication parameters.
 
 ## Request access to the server
 
-First, you must accept the terms and conditions of the personalization service.
+First, you must accept the terms and conditions of the Personalization service.
 
 To do this, in the Back Office, select **Personalization**, and then **Dashboard**.
 On the welcome screen, enter the following details:
@@ -35,6 +35,6 @@ Modify the value in the **Installation key** field and save your changes.
 
 !!! note "Disabling the service"
 
-    Clear the **Installation key** field to temporarily disable the personalization service 
+    Clear the **Installation key** field to temporarily disable the Personalization service 
     for your account.
     Entering the same key re-enables the feature.
