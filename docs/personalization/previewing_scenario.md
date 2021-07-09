@@ -1,9 +1,10 @@
 # Previewing scenario results
 
-If your [user Role](../site_organization/organizing_the_site.md#permissions) includes 
-the `Personalization/View` Policy, you can see what Content items/products are recommended 
-to the end user when specific [scenarios](scenarios.md) are triggered. 
-Depending on the scenario type, you may need to provide additional information 
+If your [user role](../site_organization/organizing_the_site.md#permissions) has 
+the `Personalization/View` permission that includes your website, you can see what 
+Content items/products are recommended to the end user when specific [scenarios](scenarios.md) 
+are triggered. 
+Depending on the scenario type, you might need to provide additional information 
 to see the recommendation results.
 
 !!! note "Hosting multiple websites"

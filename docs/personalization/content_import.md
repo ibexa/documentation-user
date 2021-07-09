@@ -11,6 +11,11 @@ Content item import jobs fetch data from the recommendation client, which tracks
 to the personalization service.
 The personalization service then processes the events and calculates the recommendations.
 
+!!! note "Hosting multiple websites"
+
+    If your installation hosts multiple websites and returns separate recommendations
+    for each of these websites, you must import data separately for each of these sites.
+
 
 ## Content data import
 
@@ -19,7 +24,7 @@ For example, one can load an exported file to the personalization service from a
 This type of import is intended to upload big portions of information,
 and can be used to perform a weekly update of the whole product catalog.
 
-For detailed information about content data import, see [Content API](https://doc.ibexa.co/en/master/guide/personalization/developer_guide/content_api) in the developer documentation.
+For detailed information about content data import, see [Export content information](https://doc.ibexa.co/en/latest/guide/personalization/recommendation_client/#exporting-content-information) and [Content API](https://doc.ibexa.co/en/master/guide/personalization/developer_guide/content_api) in the developer documentation.
 
 ## User data import
 
