@@ -97,8 +97,6 @@ You can select a SiteAccess to preview by using a dropdown in the preview screen
 
     ![Basic info of a Landing Page](img/landing_page_basic.png "Basic info of a Landing Page")
 
-    ![Switching Landing Page layouts](img/switch_layout.png)
-
     A new empty Landing Page will be divided into those zones.
     In the editor you can also see a menu of blocks (Elements) that you can add to the zones.
     Do this by dragging any of the blocks to an empty place on a zone. Do not worry about placing blocks in the proper place from the start.
