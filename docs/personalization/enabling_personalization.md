@@ -18,11 +18,11 @@ On the welcome screen, enter the following details:
 - An installation key that can be found on the **Maintenance and Support agreement details** page in the service portal
 
 Select the **I have read and agree to the Terms and Conditions** checkbox, and then click **Submit**.
-Your request is sent to Ibexa, and you will receive a confirmation email in response.
+Your request is sent to Ibexa, and you receive an email with credentials in response.
 
 ## Set up service parameters
 
-When you receive the confirmation email, ask your administrator to:
+When you receive the email with credentials, ask your administrator to:
 
 - [add the credentials to your configuration](https://doc.ibexa.co/en/latest/guide/personalization/enabling_personalization/#configuring-mandator-credentials)
 - [configure events that you wish to track](https://doc.ibexa.co/en/latest/guide/personalization/enabling_personalization/#configuring-mandator-credentials)
