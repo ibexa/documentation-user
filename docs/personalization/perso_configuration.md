@@ -1,4 +1,4 @@
-# Configuring personalization
+# Configure personalization
 
 In the Back Office, you can you can review the configuration that controls 
 the Personalization service.
@@ -7,7 +7,7 @@ the `Personalization/Edit` permission that includes your website, you can modify
 the settings according to your requirements.
 To do this, navigate to one of the pages mentioned below and edit the item that you want to modify.
 
-!!! note "Hosting multiple websites"
+!!! note "Host multiple websites"
 
     If you have permissions to access several websites hosted on an [[= product_name =]] 
     instance, you can use the selector field to switch between views for each 

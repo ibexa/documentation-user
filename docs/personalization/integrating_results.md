@@ -1,4 +1,4 @@
-# Integrating scenario results
+# Integrate scenario results
 
 When the Personalization service is [enabled](enabling_personalization.md) and properly 
 [configured](perso_configuration.md), as an editor, you can embed the recommendations 
@@ -33,4 +33,4 @@ icon next to the site in which you want to place a personalization block.
 1. Save your changes to the draft or publish the Page.
 
 For more information about collecting events and embedding recommendation results, 
-see [Basic integration](https://doc.ibexa.co/en/master/guide/personalization/personalization_quickstart/#integration).
+see [Basic service integration](https://doc.ibexa.co/en/master/guide/personalization/basic_integration/#basic-service-integration).

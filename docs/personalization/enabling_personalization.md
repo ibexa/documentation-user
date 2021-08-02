@@ -1,4 +1,4 @@
-# Enabling personalization
+# Enable personalization
 
 The Personalization service is based on a client-server architecture.
 The recommendation client that is part of your installation must connect to 
@@ -24,8 +24,8 @@ Your request is sent to Ibexa, and you receive an email with credentials in resp
 
 When you receive the email with credentials, ask your administrator to:
 
-- [add the credentials to your configuration](https://doc.ibexa.co/en/latest/guide/personalization/enabling_personalization/#configuring-mandator-credentials)
-- [configure events that you wish to track](https://doc.ibexa.co/en/latest/guide/personalization/enabling_personalization/#configuring-mandator-credentials)
+- [add the credentials to your configuration](https://doc.ibexa.co/en/latest/guide/personalization/enabling_personalization/#set-up-customer-credentials)
+- [configure events that you wish to track](https://doc.ibexa.co/en/latest/guide/personalization/enabling_personalization/#configure-event-tracking)
 
 ## Change the installation key
 
@@ -33,8 +33,8 @@ If necessary, you can modify the installation key configured in the personalizat
 To do this, in the Back Office, select **Personalization** and then **Settings**.
 Modify the value in the **Installation key** field and save your changes.
 
-!!! note "Disabling the service"
+!!! note "Disable the service"
 
     Clear the **Installation key** field to temporarily disable the Personalization service 
     for your account.
-    Entering the same key re-enables the feature.
+    Enter the same key to re-enable the feature.

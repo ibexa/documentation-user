@@ -39,7 +39,7 @@ You can configure the boost filter to promote recommendations for certain users:
 
 Item boosting requires that the Personalization service is fed with both item 
 and user attribute data.
-For more information about importing data, see [Importing data](content_import.md).
+For more information about importing data, see [Import data](content_import.md).
 
 ### eCommerce-specific filters
 
@@ -141,4 +141,4 @@ However, this use case could be handled with equal or greater success by using [
 
 To support category filtering, the Personalization service must be fed with both 
 content and user attribute data.
-For more information about importing data, see [Importing data](content_import.md).
+For more information about importing data, see [Import data](content_import.md).

@@ -5,7 +5,7 @@ The most common ones are eCommerce and content publishing.
 
 ## eCommerce
 
-In eCommerce, recommendations can help customers find the exact product that fulfils their expectations. 
+In eCommerce, recommendations can help customers find the exact product that fulfills their expectations. 
 When a user is not sure about what to purchase, recommendations can suggest similar, alternative 
 or complementary products. 
 Some typical use cases are:
@@ -37,7 +37,7 @@ Use cases in publishing can be the following:
 
 ![Similar products on a product detail page](img/use_case_detail_page.png "Similar products on a product detail page")
 
-## Hosting multiple websites
+## Multiple website hosting
 
 If your [[= product_name =]] instance hosts multiple websites, you can configure 
 the Personalization service to provide independent recommendations for each 

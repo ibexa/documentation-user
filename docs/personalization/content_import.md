@@ -1,4 +1,4 @@
-# Importing data
+# Import data
 
 Before the Personalization service can generate relevant recommendations, 
 it must be fed with data that relates to content items/products that are monitored, 
@@ -11,9 +11,9 @@ Content item import jobs fetch data from the recommendation client, which tracks
 to the Personalization service.
 The Personalization service then processes the events and calculates the recommendations.
 
-!!! note "Hosting multiple websites"
+!!! note "Host multiple websites"
 
-    If your installation [hosts multiple websites](use_cases.md#hosting-multiple-websites) and returns separate recommendations
+    If your installation [hosts multiple websites](use_cases.md#multiple-website-hosting) and returns separate recommendations
     for each of these websites, you must import data separately for each of these sites.
 
 ## Content data import
@@ -23,7 +23,7 @@ For example, one can load an exported file to the Personalization service from a
 This type of import is intended to upload big portions of information,
 and can be used to perform a weekly update of the whole product catalog.
 
-For detailed information about content data import, see [Export content information](https://doc.ibexa.co/en/latest/guide/personalization/recommendation_client/#exporting-content-information) and [Content API](https://doc.ibexa.co/en/master/guide/personalization/developer_guide/content_api) in the developer documentation.
+For detailed information about content data import, see [Export content information](https://doc.ibexa.co/en/latest/guide/personalization/recommendation_client/#export-content-information) and [Content API](https://doc.ibexa.co/en/master/guide/personalization/developer_guide/content_api) in the developer documentation.
 
 ## User data import
 
@@ -35,7 +35,7 @@ However, it is rarely possible to combine the external user ID within the user's
 
 For more information about user attribute import, see [User API](https://doc.ibexa.co/en/master/guide/personalization/developer_guide/user_api) in the developer documentation.
 
-## Viewing a list of import operations
+## View a list of import operations
 
 In the Back Office, from the top bar under **Personalization**, you can access 
 the **Import** page that displays a list of historical import operations and their details, 

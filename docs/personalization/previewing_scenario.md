@@ -1,4 +1,4 @@
-# Previewing scenario results
+# Preview scenario results
 
 If your [user role](../site_organization/organizing_the_site.md#permissions) has 
 the `Personalization/View` permission that includes your website, you can see what 
@@ -7,7 +7,7 @@ are triggered.
 Depending on the scenario type, you might need to provide additional information 
 to see the recommendation results.
 
-!!! note "Hosting multiple websites"
+!!! note "Host multiple websites"
 
     If you have permissions to access several websites hosted on an [[= product_name =]] 
     instance, you can use the selector field to switch between views for each 
