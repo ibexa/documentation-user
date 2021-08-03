@@ -7,12 +7,16 @@ It consists of:
 - A strategy (set of models) that is used for generating recommendations
 - A filter configuration
 
-If your [user Role](../site_organization/organizing_the_site.md#permissions) includes 
+If your [user role](../site_organization/organizing_the_site.md#permissions) includes 
 the `Personalization/View` Policy, you can view the list of scenarios and preview their result.
 
 To modify the scenarios to suit your needs, you must have the `Personalization/Edit` Policy.
 You can then navigate to the **Scenarios** tab and click the **Edit** icon next to 
 the name of the scenario.
+
+You may have permissions to access several websites hosted on an [[= product_name =]], 
+[with independent results returned for each of these websites](use_cases.md#multiple-website-hosting).
+If this is the case, use the selector field to switch between views for each of these sites.
 
 ## Content type configuration
 
@@ -60,6 +64,6 @@ For a detailed description, see [Category Filter](filters.md#category-filter).
 
 ## Next steps
 
-When you have configured the personalization service, you can 
+When you have configured the Personalization service, you can 
 [preview scenario results](previewing_scenario.md) and 
 [embed them in your website](integrating_results.md).
