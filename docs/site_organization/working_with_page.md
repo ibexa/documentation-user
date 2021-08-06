@@ -112,7 +112,7 @@ The settings available on the **Basic** tab are tailored to the block's content.
 The remaining tabs contain parameters common to all blocks provided with [[= product_name_ee =]].
 Use them to modify the layout and visibility of a block. For details, see [Advanced publishing options](../publishing/advanced_publishing_options.md).
 
-You can't publish a Page if you have not set all the required settings of all blocks.
+You cannot publish a Page if you have not set all the required settings of all blocks.
 
 !!! tip
     Settings and function of custom-made blocks of content depend on their design.
@@ -233,8 +233,44 @@ On the **Basic** tab, set values in the following fields:
 
 On the **Design** tab, in the **View** field, change the layout to "Products" and submit your changes.
 
+### Configure blocks display
+
+You can define which page blocks elements will be available.
+Click the Content Type you want to edit. In the **Field definitions** section, expand **Landing page** tab.
+Expand the **Select blocks** section. From the available elements, select those that will be available for the editor in the editing mode.
+
+![Page blocks](img/select_page_blocks.png "Select page blocks")
+
+To confirm changes, click **Save**.
+
+Now, only selected page blocks are available in the edit mode.
+
+![Elements menu](img/page_blocks_toolbar.png "Elements menu")
+
+!!! caution
+    Deselecting blocks will hide any related blocks inlcluded in the Landing page. To publish the page,
+    a user will have to delete these blocks from the Landing page.
+
+## Configure page edit mode
+
+You can configure the default edit mode that will be launched in the Page Builder after clicking the Edit button.
+Click the Content Type you want to edit. In the **Field definitions** section, click the **Landing page** tab.
+Expand the **Select Editor launch mode** section. From the available options, select those that will be available for the editor in the editing mode.
+
+## Configure page layouts
+
+You can configure what page layouts will be available for the editor.
+On the **Admin** tab, click **Content Types**.
+Click the Content Type you want to edit. In the **Field definitions** section, expand **Landing page** tab.
+Expand the **Select layouts** section. From the available layout thumbnails, select which will be available for the editor in the editing mode.
+To confirm changes, click **Save**.
+
+If you deselect a layout that is currently used, the user will have to change the layout to be able to edit the Page.
+
+![Switch layout](img/switch_layout_window.png "Switch layout")
+
 ## Publishing Page
 
-If you are ready to publish the Page click **Publish** in the top-right corner.
+If you are ready to publish the Page, click **Publish** in the top-right corner.
 To save it as a draft to finish editing it later, even if some required fields are not filled in, click **Save draft**.
 You can then navigate away from the Page by clicking the logo in the upper left corner, or the browser's **Back button**.
