@@ -237,29 +237,33 @@ On the **Design** tab, in the **View** field, change the layout to "Products" an
 
 As an administrator, you can define which page blocks elements are available for an editor in the page edit mode.
 
-Go to the Content Type you want to edit. In the **Field definitions** section, click **Landing page** tab.
+Go to the Content Type that you want to edit. 
+In the **Field definitions** section, click the **Landing page** tab.
 Expand the **Select blocks** section, and select page blocks.
 
 ![Page blocks](img/select_page_blocks.png "Select page blocks")
 
-To confirm changes, click **Save**.
+To apply changes, click **Save**.
 
 Now, only selected page blocks are available in the edit mode.
 
 ![Elements menu](img/page_blocks_toolbar.png "Elements menu")
 
 !!! caution
-    Deselecting blocks will hide any related blocks inlcluded in the Landing page. To publish the Page,
-    a user will have to delete these blocks from the Landing Page.
+    When you deselect blocks, any related blocks that are included in the Landing page hide as well. 
+    To publish the Page,
+    a user has to delete these blocks from the Landing Page.
 
 !!! caution "Add new blocks"
-    If a [developer creates a new block](https://doc.ibexa.co/en/latest/extending/extending_page/) and you want to make it available in the editor mode, you must select it manually in the **Select page blocks** section.
+    If a [developer creates a new block](https://doc.ibexa.co/en/latest/extending/extending_page/) and you want to make it available 
+    in the editor mode, you must select it manually in the **Select page blocks** section.
 
 ## Configure preferred edit mode
 
-As an administrator, you can set the edit mode which will be launched when an editor starts editing the Page.
+As an administrator, you can set the edit mode that is launched when an editor starts editing the Page.
 
-Go to the Content Type you want to edit. In the **Field definitions** section, click the **Landing page** tab.
+Go to the Content Type that you want to edit. 
+In the **Field definitions** section, click the **Landing page** tab.
 Expand the **Select Editor launch mode** section, and select from the available options.
 
 ![Editor launch mode](img/select_editor_mode.png "Select Editor launch mode")
@@ -268,11 +272,12 @@ Expand the **Select Editor launch mode** section, and select from the available 
 
 As an administrator, you can configure which page layouts are available for an editor.
 On the **Admin** tab, click **Content Types**.
-Go to the Content Type you want to edit. In the **Field definitions** section, expand **Landing page** tab.
+Go to the Content Type that you want to edit. 
+In the **Field definitions** section, expand the **Landing page** tab.
 Expand the **Select layouts** section, and define which layout will be available for this Page.
-To confirm changes, click **Save**.
+To apply changes, click **Save**.
 
-If you deselect a layout that is currently used, the user will have to change the layout to be able to edit the Page.
+If you deselect a layout that is currently used, the user has to change the layout to be able to edit the Page.
 
 ![Switch layout](img/switch_layout_window.png "Switch layout")
 
