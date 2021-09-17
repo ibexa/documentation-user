@@ -1,6 +1,6 @@
 # Editorial workflow
 
-With editorial workflow you can pass content between different stages in a preconfigured flow.
+With editorial workflow, you can pass content between different stages in a preconfigured flow.
 Typically, the stages correspond to different teams or departments that contribute to content
 and approve it.
 
@@ -18,10 +18,10 @@ For example, you can pass content through stages of draft, design and proofreadi
 
 You can view Content items which are in different stages under review on the 
 **My dashboard** screen, in the Review queue table.
-The table will only show Content items that your Role has permissions to edit.
-If your installation is [configured to support draft locking](https://doc.ibexa.co/en/master/guide/workflow/#draft-locking), the table will 
-also inform you whether any reviewers are assigned and have claimed their drafts 
-for review.
+The table only shows Content items that your Role has permissions to edit.
+If your installation is [configured to support draft locking](https://doc.ibexa.co/en/master/guide/workflow/#draft-locking), 
+the table also informs you whether any reviewers are assigned and have claimed 
+their drafts for review.
 
 ![Review queue in the dashboard](img/dashboard_review_queue.png)
 
@@ -36,7 +36,7 @@ that this content has gone through.
 
 ![Events timeline](img/workflow_events_timeline.png)
 
-If draft locking is supported, you will also see a message that confirms that the draft is now locked to you.
+If draft locking is supported, you also see a message that confirms that the draft is now locked to you.
 
 ![Draft assignment message](img/lock_message.png)
 
