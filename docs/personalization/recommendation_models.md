@@ -28,7 +28,7 @@ in the selected category and/or subcategories).
 
 These models are more complex and require combining data from different sources.
 
-#### Also clicked/purchased
+#### Also clicked / purchased
 
 This type of recommendation is often called "Collaborative filtering based on user data" 
 and is a proven, powerful approach to calculating recommendations. 
@@ -81,13 +81,18 @@ It is best suited for landing or category pages.
 
 #### Random
 
-The model returns a semi-random list of products from the most recent ones. 
+The model returns a semi-random list of products from the last 10 days. 
 It allows injecting new products to the recommendation while the "History-based" models 
 are not yet able to recommend products based on the statistics. 
 It is a simplified and unsophisticated alternative if no other information is available 
 to calculate and provide recommendations.
 
 This model is not based on historical records but relies on the imported product catalog.
+
+#### Random short
+
+The mechanism of this model is the same as in Random, but the difference is that it returns 
+a semi-random list of products from the last four hours.
 
 #### Editor-based
 
