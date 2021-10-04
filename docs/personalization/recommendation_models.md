@@ -95,7 +95,8 @@ This model is not based on historical records but relies on the imported product
 
 #### Random short
 
-The mechanism of this model is the same as in Random, but the difference is that it returns a semi-random list of products from the last four hours.
+The mechanism of this model is the same as in Random, but the difference is that it returns 
+a semi-random list of products from the last four hours.
 
 #### Editor-based
 
