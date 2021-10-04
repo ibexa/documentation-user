@@ -14,7 +14,11 @@ This type of recommendation is often called "Collaborative Filtering based on us
 
 #### Ultimately bought
 
+<<<<<<< HEAD
 This model combines click and buy events. In human readable form it could be something like "Users who looked for that kind of product finally bought this". It therefore provides a "matching factor" of searching and buying. This model suggests alternative products which customers bought after they clicked on the selected product. In contrast to the "also-bought" model it recommends products that are related but not purchased together. This model is the best choice to suggest alternative products for their search. For example, a user searches for a book which explains how to cut trees. If they finds a book and on the book page this exact same book is being recommended, it means that several users interested in cutting trees bought this book (and not others), which hints that this book is the very best choice.
+=======
+#### Also clicked / purchased
+>>>>>>> 7e94a41... Update random model description (#110)
 
 #### History based
 
@@ -40,11 +44,20 @@ The best rated model provides recommendations based on algorithms that include t
 
 #### Random
 
-Semi-random products from the most recent ones. It allows injecting new products to the recommendation while the history based models are not yet able to recommend products based on the statistics. It is a really simplified and unsophisticated alternative if no other information is available to calculate and provide recommendations.
+The model returns a semi-random list of products from the last 10 days. 
+It allows injecting new products to the recommendation while the "History-based" models 
+are not yet able to recommend products based on the statistics. 
+It is a simplified and unsophisticated alternative if no other information is available 
+to calculate and provide recommendations.
 
 This model is not built based on the history footprints but based on the imported product catalog.
 
-#### Editor based
+#### Random short
+
+The mechanism of this model is the same as in Random, but the difference is that it returns 
+a semi-random list of products from the last four hours.
+
+#### Editor-based
 
 Products that are manually selected by a human. A customer can replace an automatically generated recommendation with a predefined list. It is best suited when the store administrator wants to add special offers or sell stock remains. It could also be called "static recommendations".
 
