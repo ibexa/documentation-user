@@ -28,7 +28,7 @@ In this section you also define the SiteAccess URL addresses with their main lan
     The path can be only one directory deep. 
     Do not use paths that have more than one element, for example, `/en/articles`.
 
-For more information about SiteAccesses, see [Multisite]](https://doc.ibexa.co/en/latest/guide/multisite/multisite).
+For more information about SiteAccesses, see [Multisite](https://doc.ibexa.co/en/latest/guide/multisite/multisite).
 
 ![Create a new site step two](img/site_factory_new_site_step_2.png)
 
