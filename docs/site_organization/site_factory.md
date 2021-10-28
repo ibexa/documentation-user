@@ -3,7 +3,7 @@
 The Site Factory enables you to easily create and manage multiple sites in different languages from one place.
 All the sites can be kept in the Repository of your installation.
 To be able to use it, the Site Factory has to be enabled and configured by your administrator.
-For more information see developer documentation on [Site Factory](https://doc.ibexa.co/en/latest/guide/site_factory/).
+For more information see developer documentation on [Site Factory](https://doc.ibexa.co/en/latest/guide/multisite/site_factory).
 
 ## Create a site
 
@@ -28,7 +28,7 @@ In this section you also define the SiteAccess URL addresses with their main lan
     The path can be only one directory deep. 
     Do not use paths that have more than one element, for example, `/en/articles`.
 
-For more information, see [SiteAccess](https://doc.ibexa.co/en/latest/guide/siteaccess/).
+For more information about SiteAccesses, see [Multisite]](https://doc.ibexa.co/en/latest/guide/multisite/multisite).
 
 ![Create a new site step two](img/site_factory_new_site_step_2.png)
 
@@ -36,8 +36,8 @@ If all required fields are filled out you can select **Create,** and the site wi
 
 !!! note
 
-    A SiteAccess that you create in Site Factory is always treated with lower priority than a SiteAccess 
-    defined by the administrator as part of [configuration](https://doc.ibexa.co/en/latest/guide/siteaccess/#configuring-siteaccesses). 
+    A SiteAccess that you create in Site Factory is always treated with lower 
+    priority than a SiteAccess defined by the administrator as part of [configuration](https://doc.ibexa.co/en/latest/guide/multisite/multisite_configuration/#siteaccess-configuration). 
     For example, if you create a site that uses the `fr` path in Site Factory, and the administrator 
     defines a French site manually in configuration files, your site is ignored by the system.
 
