@@ -41,8 +41,14 @@ When you confirm the change, the preview refreshes to display a cropped image.
 If your page contains an image that is larger that the current viewport, for example, when a user accesses the page from a mobile phone, 
 you can select a point on the image that the view should focus on.
 
-This way, when a responsive image is automatically cropped to fit the viewport, 
-the area that contains the selected point is always visible.
+This way, a responsive image can be cropped to fit the viewport, 
+so the area that contains the selected point is always visible.
+
+!!! note
+
+    Cropping to focal point is not automatic. The site's templates must be adapted for this to happen.
+    See [Use focal point](https://doc.ibexa.co/en/latest/guide/content_rendering/embed_and_list_content/render_images/#use-focal-point)
+    in developer documentation for an example of implementing such cropping.
 
 Click the **Show point** button to see a target on the preview.
 Drag the target to a point on the image that you want to focus on.
