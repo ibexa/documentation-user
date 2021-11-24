@@ -51,15 +51,13 @@ The configuration performed in this step is applied only to the selected scenari
 
 ## Filter configuration
 
-For every recommendation scenario a set of general filters can be defined that 
-are applied to all recommendations from every model used in the scenario.
-
-![General filters](img/scenario_filters.png "General filters")
+You can define a set general filters for every recommendation scenario.
+Filters are applied to all recommendations come from models selected in the strategy.
 
 For more information, see [General filters](filters.md#general-filters).
 
-For each of the categories from the strategy configuration matrix, you can click 
-the **Configure** icon and configure category filters. 
+If you want to configure category filters for each of the categories from the strategy configuration matrix, click the **Configure** icon and make necessary changes.
+
 For a detailed description, see [Category Filter](filters.md#category-filter).
 
 ## Next steps

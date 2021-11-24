@@ -22,6 +22,20 @@ User profile-based filters are applicable in both publishing and eCommerce use c
 |Do not recommend items the user already consumed|The Personalization service stores the CONSUME events of every user for one year. When you activate this filter, the user will not be recommended the consumed content again.|
 |Max. repeated shows of identical recommendations per session|When you activate this filter and set a value, after a content item/product is recommended a certain number of times during the current user session, it is removed from all recommendation lists.|
 
+### Exclusions
+
+With Exclusion features you can exclude categories from the recommendation response by providing fixed category paths or by item category paths.
+
+!!! tip
+
+    You can use both options at the same time.
+
+- Exclude category of the context item - excludes items in the recommendation response from specified categories in the recommendation request. Select this checkbox if you want do not want to recommend a client items from the category of the currently rendered item. For example, 
+if customer browses items from category *TV*, you can set that other recommendation box or boxes will not display recommendations from this category. This is automatically defined from the context.
+
+- Exclude category - use to define lists of categories which should not be recommended in a scenario. Excludes the category that is last in the path. For example, in the following category path: *Furniture/Living room/Sofas*, for this scenario all items from *Sofas* category are excluded. You can add many categories.
+
+
 #### Boost filters
 
 Apart from filters that remove specified elements from recommendations, user 
