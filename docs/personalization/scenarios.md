@@ -52,11 +52,12 @@ The configuration performed in this step is applied only to the selected scenari
 ## Filter configuration
 
 You can define a set general filters for every recommendation scenario.
-Filters are applied to all recommendations come from models selected in the strategy.
+Filters are applied to all recommendations that come from models selected in the strategy.
 
 For more information, see [General filters](filters.md#general-filters).
 
-If you want to configure category filters for each of the categories from the strategy configuration matrix, click the **Configure** icon and make necessary changes.
+If you want to configure category filters for each of the categories from the strategy configuration matrix,
+click the **Configure** icon and make necessary changes.
 
 For a detailed description, see [Category Filter](filters.md#category-filter).
 
