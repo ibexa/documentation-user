@@ -24,13 +24,13 @@ User profile-based filters are applicable in both publishing and eCommerce use c
 
 ### Exclusions
 
-With Exclusion features you can exclude categories from the recommendation response by providing fixed category paths or by item category paths.
+With Exclusion features you can exclude categories from the recommendation response by providing fixed category paths or by context item category paths.
 
 !!! tip
 
     You can use both options at the same time.
 
-- Exclude category of the context item - excludes items in the recommendation response from specified categories in the recommendation request. Select this checkbox if you want do not want to recommend a client items from the category of the currently rendered item. For example, 
+- Exclude category of the context item - excludes items in the recommendation response from the same categories as the context item in the recommendation request. Select this checkbox if you want do not want to recommend a client items from the category of the currently rendered item. For example, 
 if customer browses items from category *TV*, you can set that other recommendation box or boxes will not display recommendations from this category. This is automatically defined from the context.
 
 - Exclude category - use to define lists of categories which should not be recommended in a scenario. Excludes the category that is last in the path. For example, in the following category path: *Furniture/Living room/Sofas*, for this scenario all items from *Sofas* category are excluded. You can add many categories.
