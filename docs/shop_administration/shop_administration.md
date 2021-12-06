@@ -2,8 +2,6 @@
 
 [[= product_name =]] provides the following eCommerce functions in the top menu of the Back Office.
 
-Depending on the chosen data provider and whether an ERP is connected, some tabs may be absent or may contain no data.
-
 ![](img/backend_menu.png)
 
 |Tab|Description|
