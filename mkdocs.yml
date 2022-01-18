@@ -23,14 +23,12 @@ nav:
     - 'Searching': 'search.md'
     - Shop administration:
         - 'Shop administration': 'shop_administration/shop_administration.md'
-        - 'Cockpit': 'shop_administration/cockpit.md'
-        - 'Control center': 'shop_administration/control_center.md'
+        - 'Dashboard': 'shop_administration/dashboard.md'
         - 'Components': 'shop_administration/components.md'
         - 'Manage orders': 'shop_administration/manage_orders.md'
         - 'Manage prices and stock': 'shop_administration/manage_prices_and_stock.md'
         - 'Manage products and categories': 'shop_administration/manage_products_and_categories_with_the_ez_dataprovider.md'
         - 'Manage users': 'shop_administration/manage_users.md'
-        - 'Permissions': 'shop_administration/permissions.md'
     - Managing shop content:
         - 'Pages in the shop': 'managing_shop_content/landingpages.md'
         - 'Navigation structure': 'managing_shop_content/navigation_structure.md'
