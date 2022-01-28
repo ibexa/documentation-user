@@ -24,7 +24,6 @@ nav:
     - Shop administration:
         - 'Shop administration': 'shop_administration/shop_administration.md'
         - 'Dashboard': 'shop_administration/dashboard.md'
-        - 'Components': 'shop_administration/components.md'
         - 'Manage orders': 'shop_administration/manage_orders.md'
         - 'Manage products': 'shop_administration/manage_products.md'
         - 'Manage prices and stock': 'shop_administration/manage_prices_and_stock.md'
