@@ -9,14 +9,8 @@ Click **Content** > **Content structure** to access the objects displayed in the
 The following Content Types are supported:
 
 - Article
-- Folder (including Folder for news, events and blog post)
+- Folder
 - Landing page
-- Product category
-- Product
-- Feature link
 
-!!! caution
-
-    The main menu of the site displays elements only if the Priority is higher than 0.
-
+The main menu of the site displays elements only if the Priority is higher than 0.
 Elements with lower Priority are displayed first.

@@ -1,37 +1,52 @@
-# Manage prices and stock [[% include 'snippets/commerce_badge.md' %]]
-
-![](img/manage_prices_menu.png)
+# Manage prices and stock
 
 ## Product prices
 
-![](img/price_management_prices.png)
-
-Price management enables you to set up prices manually. 
-A price can be set up per SKU and SKU/variant.
-Each price can contain an offer price and a base price.
+Price management enables you to set up product prices manually. 
+A price can be set up per product and product variant.
 
 In addition, prices can vary per customer group.
 
-### Currencies
+!!! note
 
-Currency is configured per country in the configuration settings.
+    To set up product prices, your system must have at least one currency enabled.
 
-If a product has a price defined for a currency, this price is displayed in the shop.
-If no price for the currency is set in the shop, there are two possibilities:
+To set a price, navigate to the product's **Prices** tab.
+Here you can see the existing prices for the selected currency.
 
-- Calculate the price for the requested currency based on the base price defined in the product and an exchange rate defined in the configuration
-- Display an error in the frontend that no price is available
+Select a currency in the dropdown menu to preview the price and click the edit button to modify it.
 
-## Importing and exporting prices and stock
+![Prices tab](img/product_price.png)
 
-You can update stock and prices using a CSV file.
-Prices and stock can be downloaded and uploaded if the shop price provider (`siso_price.price_provider.shop`) is configured for calculating prices.
+For each product you can set prices separately for different customer groups.
+Next to the base price you can see the **Global Price rule** defined for this customer group,
+which is applied to the base price.
+However, you can also set a **Custom price rule** for this product.
+If you define it, the Global Price rules does not apply and the custom price rule is applied directly to the base price.
+
+You can preview the resulting price for this product and the given customer group in the **Custom price** field.
+
+![Setting product prices](img/setting_product_price.png)
+
+## Currency
+
+You can configure currencies available in the system in the **Currencies** screen.
+
+The system contains a list of different currencies.
+To use them in the catalog, edit and enable them.
+
+![Enabling a currency](img/enable_currency.png)
+
+To create an additional currency, provide its code (e.g. EUR, USD, GBP) and the number of fractional digits,
+that is, the number of digits after the comma/period.
+
+For example, the configuration for the Swiss franc would be `CHF` with two fractional digits.
 
 ## Shipping costs
 
 ![](img/shipping_costs.png)
 
-On the **Shipping cost management** tab, you can set up shipping cost rules. 
+In the **Shipping management** screen, you can set up shipping cost rules. 
 Shipping rules can be managed per delivery country, state, ZIP, and shipping method.
 
 You can also configure different shipping costs depending on the amount of the basket (including free shipping rules).
