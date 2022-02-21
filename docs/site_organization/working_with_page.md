@@ -49,17 +49,13 @@ Using the toolbar buttons, you can perform the following actions:
 |Button|Description|
 |------|-----------|
 |![Edit and preview switch](img/page_builder_toolbar_editpreview.png)|Switch between previewing and editing the Page.|
-|![Page view and Field view switch](img/page_builder_toolbar_viewedit.png)|Switch between the Page view and the Field view.|
 |![Preview segments](img/page_builder_toolbar_preview_segment.png)|Access preview of the Page for a given Segment.|
 |![View toggler](img/page_builder_toolbar_devicestoggler.png)|Toggle through to see how the Page is rendered on different devices.|
 |![Timeline button](img/page_builder_toolbartimelinetoggler.png)|Access the timeline to preview how the Page changes with time. You can also view the list of all upcoming scheduled events. For details, see [Timeline](../publishing/advanced_publishing_options.md#timeline).|
 |![Page builder menu button](img/page_builder_toolbarpopmenu.png)|Access menu enabling you to switch layout, see versions of the Page, manage translations, or delete the Page.|
-|![Create new button](img/page_builder_toolbarcreatebutton.png)|Create a new Content item.|
+|![Elements menu](img/page_builder_toolbarelements.png)|Access menu with Elements.|
 
-In a newly created Page you must first choose a layout which defines the available zones.
-You can switch it later by using the following menu:
-
-![Switching Page layouts](img/switch_layout.png)
+In a newly created Page you can [choose a layout](#configure-available-page-layouts) which defines the available zones.
 
 Applying a layout divides the Page into the defined zones. The zones are placeholders for Content items.
 Now you are ready to add blocks of content to the Page.
@@ -68,8 +64,6 @@ Now you are ready to add blocks of content to the Page.
 
 In Page Builder you can access a menu of **Elements** — a set of blocks of content that you can add to the zones of the Page.
 Each block is unique in its function and enables you to customize the content appearing on the Page.
-
-![Dragging a block onto a zone](img/dragging_lp_block.png "Dragging a block onto a zone")
 
 Add a block by dragging it from the menu to an empty place on a zone.
 Do not worry about placing blocks in the proper place from the start.
