@@ -1,6 +1,6 @@
 # Manage users
 
-Users are displayed in the **Users** tab in the Back Office.
+Users are displayed in the **Users** section of the Back Office.
 
 ![](img/users_menu.png)
 

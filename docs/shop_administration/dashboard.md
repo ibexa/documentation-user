@@ -15,10 +15,4 @@ You can select a specific date range or one of predefined date ranges.
 
 ## Products and sales
 
-The **Products and sales** tab shows information about:
-
-- Bestsellers (top 20)
-- Last orders (last 365)
-- Best clients (top 20)
-
 The **Last orders** and **Best clients** tables are only visible to users who have the "Siso policy / Read customers and orders" Policy.
