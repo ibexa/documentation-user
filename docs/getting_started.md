@@ -28,9 +28,9 @@ You can also reschedule or cancel planned publications using the dashboard.
 
 ![My dashboard](img/dashboard.png "My dashboard")
 
-You can always return to the **My dashboard** screen by selecting the logo in the upper left corner.
+You can always return to the **My dashboard** screen by clicking the logo in the upper left corner.
 
-The top bar allows you to move between important sections of the application.
+The left side menu allows you to move between important sections of the application.
 
 ![Top bar](img/top_bar.png "Top bar")
 

@@ -90,7 +90,6 @@ To access the calendar features, use the following buttons:
 |![Arrows](img/calendar_widget_arrows.png)|Navigate through months, weeks, or days.|
 |![Toggle month/week/day](img/calendar_widget_toggler_mwd.png)|Switch between month, week, or day view.|
 |![Toggle calendar/list](img/calendar_widget_toggler_cal_list.png)|Switch between the calendar and list view,|
-|![Filters](img/calendar_widget_filters.png)|Access and apply calendar filters.|
 
 ### Calendar filters
     
