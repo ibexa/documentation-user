@@ -9,5 +9,3 @@ The **eCommerce** tab in User content view contains an overview of the user's or
 ![](img/user_detaild_view.png)
 
 Budget fields in the User Content item are related to Customer center.
-
-VAT control per user is overwritten by information from ERP.
