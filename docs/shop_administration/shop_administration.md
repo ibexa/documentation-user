@@ -1,12 +1,14 @@
 # Shop administration
 
-[[= product_name =]] provides the following eCommerce functions in the top menu of the Back Office.
+[[= product_name =]] provides the following eCommerce functions in the left menu of the Back Office.
 
 ![](img/backend_menu.png)
 
-|Tab|Description|
+|Item|Description|
 |--- |--- |
 |[Dashboard](dashboard.md)|Basic statistics|
-|[Configuration Settings](https://doc.ibexa.co/en/latest/guide/shop_configuration/)|Basic shop configuration|
-|[Price and stock management](manage_prices_and_stock.md)|Product price and stock management|
-|[Order Management](manage_orders.md)|Basic order management|
+|[Order management](manage_orders.md)|List or orders placed in the shop|
+|[Shipping management](manage_prices_and_stock.md#shipping-costs)|Management of shipping costs|
+|Customer Groups|Management of customer groups|
+|[Currencies](manage_prices_and_stock.md#currencies)|Currency management|
+|Components|Tool of managing shop interface translations|
