@@ -8,36 +8,28 @@ Tags enable you to organize content according to different keywords (tags) and r
 In the site tree in the left pane, you can create a hierarchy of all tags and navigate in the platform. 
 Working on Taxnomy tree is similar to working on the Content structure tree. 
 
-## Taxonomy organization
-
-### Categories
-
-## Actions on Taxonomy tree
-
 ### Add tag
 
-There are two ways to create tags: directly on the taxonomy tree or by clicking **Create** button in the Tags section.
+There are two ways to create tags: directly on the taxonomy tree or by clicking **Create** button in the **Tags** section.
 
-1. To create a new tag, in the left panel click **Content** -> **Tags**.
-1. In the **Root** section, click the [three dots] icon on the level/place you want to add new tag and select **Add tag**.
+1. To create a new tag using taxonomy tree, in the left panel click **Content** -> **Tags**.
+1. In the **Root** section, click the three dots icon on the level/place you want to add new tag and select **Add tag**.
 1. Enter a unique name for the new tag.
 1. Add tag's identifier.
-1. (Optional) Add tag description.
+1. (Optional) Add tag's description.
 1. To set the parent category, click the **Select parent** button.
 1. To save a new tag, click **Save**.
 
-Now, the tag is visible in the Taxonomy tree.
-
-add example for creating a taxonomy hierarchy
+Now, the tag is visible in the taxonomy tree.
 
 ### Assign tag to content from taxonomy tree
 
 You can assign tags in three ways.
 
-Open Content Type, scroll down, in the section Select tags, you can add tag by typing or click Select from tree. 
+Open Content Type, scroll down, in the section Select tags, you can add tag by typing or click **Select from tree**. 
 You can add many tags.
 
-See [Add taxonomy entries](creating_content_basic.md#add-taxonomy-entries)
+See [Add taxonomy entries](creating_content_basic.md#add-taxonomy-entries).
 
 ### Add tag translation
 
@@ -64,5 +56,3 @@ To do it, go to **Tags** section.
 In the taxonomy tree click the respective tag and go to the **Content** tab.
 
 ![Content list](img/taxonomy_content_list.png "Content list")
-
-## Good practices

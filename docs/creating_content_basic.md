@@ -115,7 +115,7 @@ You can add as many tags as you like.
 
 ![Select Taxonomy Entries](img/taxonomy_select_taxonomy_entries.png "Taxonomy Entries")
 
-See more [Assign tag to content from taxonomy tree](taxonomy.md#assign-tag-to-content-from-taxonomy-tree)
+See more [Assign tag to content from taxonomy tree](taxonomy.md#assign-tag-to-content-from-taxonomy-tree).
 
 ## Publishing content
 
