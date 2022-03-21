@@ -5,8 +5,8 @@ Tags enable you to organize content according to different keywords (tags) and r
 
 ## Taxonomy tree
 
-In the site tree in the left pane, you can create a hierarchy of all tags and navigate in the platform. 
-Working on Taxnomy tree is similar to working on the Content structure tree. 
+In the site tree in the left panel, you can create a hierarchy of all tags and navigate in the platform.
+Working on Taxnomy tree is similar to working on the Content structure tree.
 
 ### Add tag
 
@@ -24,9 +24,7 @@ Now, the tag is visible in the taxonomy tree.
 
 ### Assign tag to content from taxonomy tree
 
-You can assign tags in three ways.
-
-Open Content Type, scroll down, in the section Select tags, you can add tag by typing or click **Select from tree**. 
+When edit or create a Content Type, in the section **Select tags**, you can add tag by typing or click **Select from tree**.
 You can add many tags.
 
 See [Add taxonomy entries](creating_content_basic.md#add-taxonomy-entries).
