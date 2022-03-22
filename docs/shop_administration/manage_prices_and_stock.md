@@ -49,4 +49,8 @@ For example, the configuration for the Swiss franc would be `CHF` with two fract
 In the **Shipping management** screen, you can set up shipping cost rules. 
 Shipping rules can be managed per delivery country, state, ZIP, and shipping method.
 
+!!! caution
+
+    Shipping costs must be configured in the same currency as the product's base currency (EUR by default).
+
 You can also configure different shipping costs depending on the amount of the basket (including free shipping rules).
