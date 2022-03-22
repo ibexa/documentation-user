@@ -211,3 +211,21 @@ The logic used for resolving a submodel is as follows:
     If you do not want to group recommendations based on a certain attribute, 
     remove the attribute parameter from the request. 
     The submodel is then omitted.
+
+## Segments
+
+Segments allow to get personalized content suitable for particular users groups. They use data gathered with segments and deliver recommendations
+to particular user groups. They compute models based on segment attribute factor.
+Information with user segment are provided in each event which comes from the tracking script.
+
+To configure the segments settings, go the **Models** section.
+Select respective model and click the **Edit** icon.
+
+The **Segments** list generates automatically 
+The **Segments** section contains a list of 
+
+- the scope
+- period
+- **Elements** - all what has been clicked, events with segments, the available segments, active and inactive elements
+
+Cannot be reused, a unique group, used only once
