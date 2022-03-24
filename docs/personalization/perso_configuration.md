@@ -28,6 +28,7 @@ the settings, for example:
 
 - A timeframe in which the algorithm gathers events that are used in the calculation
 - Submodels that can narrow down the list of model results
+- Segments that allow to get personalized content suitable for particular users groups
 - A list of items included or excluded from the model 
 
 For more information, see [Recommendation models](recommendation_models.md).
