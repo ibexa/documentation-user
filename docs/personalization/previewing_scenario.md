@@ -25,16 +25,18 @@ icon next to a scenario that you want to preview.
     No further configuration is required.
 
 1. If your scenario is based on models of [collaborative type](recommendation_models.md#collaborative-models), such as, for example, 
-**Also clicked**, in the **Context items** area, click **Add items**, and select a Content item/product from the content browser:
+**Also clicked**, in the **Context items** area, in the **Set up items** field, start typing Content item/product name.
 
-    1. Navigate to the Content item/product to be used as a context item for your recommendation results, for example, **Sites** > **My site** > **Products** > **Category 1** > **Product 1**.
-    1. Click the **Add** icon to select the Content item/product, and then click the **Confirm selection** icon.
+    1. From the search results select the respective Content item/product.
+    1. Click the **Add** button to confirm.
+
+    ![Preview scenario](img/scenario_preview_content_search.png "Preview scenario")
 
 1. If your collaborative scenario has [category-path filtering](filters.md#category-path-filters) 
 enabled, for example, **Also clicked - category**, in the **Category path filter** 
-area, click **Select path**, and select a category to filter the results:
-
-    1. Navigate to the category to be used as a filter, and then click the **Confirm selection** icon.
+area: 
+    1. Click **Select path**, and go to the category to be used as a filter, and then click the **Confirm** button.
+    1. If stored externally, in the **Path** field, manually enter the path to the category and then click the **Add** button.
 
 1. If your collaborative scenario uses the end user’s history as context, like, for example, 
 **Also clicked - user**, enter an end user identifier in the **User id** field, for example, 500.

@@ -108,9 +108,11 @@ It could be referred to as "Static recommendations".
 
 #### Blacklist
 
-Products from this list are not recommended in any scenario. 
+Products from this list are not recommended in any scenario.
+A model can be configured manually by a user.  
 You can use this model to exclude test products or products that are used for system monitoring. 
-It must be treated with care, because the blacklist model applies to all scenarios that exist in the system.
+Added element will never be recommended so it must be treated with care, because the blacklist model applies to all scenarios that exist in the system.
+
 
 #### History-based
 
