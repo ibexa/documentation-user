@@ -106,7 +106,7 @@ You can select a SiteAccess to preview by using a drop-down in the preview scree
 
 ### Add taxonomy entries
 
-To keep your content organized and easy to find, you can add taxonomy entries to a content while creating or editing it.
+To keep your content organized and easy to find, you can add taxonomy entries to a Content item while creating or editing it.
 
 1. Go to **Taxonomy entries** section.
 1. Click the **Select Taxonomy Entries** button.
