@@ -1,7 +1,7 @@
 # Taxonomy
 
-Most content can be structured in logical ways, using categorization or labelling.
-Tags enable you to organize content according to different keywords (tags) and relationships between them, making it easier for your site users to find content they are interested in. They also allow you to create dynamic content pulls to display information customized for your pages and users.
+Tags (taxonomy) enable you to organize content using keywords and create relationships between them to make it easier for users to find the content they need.
+You can create many taxonomies and classify the content according to your needs.
 
 ## Taxonomy tree
 
