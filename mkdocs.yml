@@ -10,6 +10,8 @@ nav:
         - 'Creating content – basic': 'creating_content_basic.md'
         - 'Creating content – advanced': 'creating_content_advanced.md'
         - 'Editing images': 'editing_images.md'
+    - Tags: 
+        - 'Tags': 'taxonomy.md'
     - 'Publishing':
         - Publishing Content: 'publishing/publishing.md'
         - Editorial workflow: 'publishing/editorial_workflow.md'
