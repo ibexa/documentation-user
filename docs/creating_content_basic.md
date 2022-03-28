@@ -102,7 +102,20 @@ Here you can also add a link to the text. You can link to an external website, o
 While editing, you can preview what the content will look like by clicking the **Preview** button in the menu.
 
 A Content item can have different looks for different [SiteAccesses](creating_content_advanced.md#siteaccess).
-You can select a SiteAccess to preview by using a dropdown in the preview screen.
+You can select a SiteAccess to preview by using a drop-down in the preview screen.
+
+### Add taxonomy entries
+
+To keep your content organized and easy to find, you can add taxonomy entries to a Content item while creating or editing it.
+
+1. Go to **Taxonomy entries** section.
+1. Click the **Select Taxonomy Entries** button.
+1. In the pop-up window, select tags you want to add.
+You can add as many tags as you like.
+
+![Select Taxonomy Entries](img/taxonomy_select_taxonomy_entries.png "Taxonomy Entries")
+
+See more [Assign tag to content from taxonomy tree](taxonomy.md#assign-tag-to-content-from-taxonomy-tree).
 
 ## Publishing content
 
