@@ -56,7 +56,7 @@
                         </h5>
                         <div class="tile-body">
                             <ul>
-                                <li><a href="shop_administration/dashboard/">Dashboard</a></li>
+                                <li><a href="shop_administration/cockpit/">Cockpit</a></li>
                                 <li><a href="shop_administration/manage_orders/">Orders</a></li>
                                 <li><a href="shop_administration/manage_products_and_categories_with_the_ez_dataprovider/">Products</a></li>
                                 <li><a href="shop_administration/manage_prices_and_stock/">Prices</a></li>
@@ -115,11 +115,11 @@
                 <div class="col-sm-7 features">
                     <ul>
                     <li><a href="releases/ibexa_dxp_v4.1/#product-catalog-integration-with-transactional-system">Product Catalog integration with the transactional system</a></li>
-                    <li><a href="releases/ibexa_dxp_v4.1/#measurement-field-type-and-attribute">Measurement Field Type and attribute</a></li>
-                    <li><a href="releases/ibexa_dxp_v4.1/#dynamic-targeting-block">Dynamic targeting block</a></li>
-                    <li><a href="releases/ibexa_dxp_v4.1/#user-interface-improvements">User Interface improvements</a></li>
-                    <li><a href="releases/ibexa_dxp_v4.1/#poduct-catalog-enhancements">Product Catalog enhancements</a></li>
-                    <li><a href="releases/ibexa_dxp_v4.1/#expanded-data-migrations">Expanded data migrations</a></li>
+                    <li><a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v4.1/#measurement-field-type-and-attribute">Measurement Field Type and attribute</a></li>
+                    <li><a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v4.1/#dynamic-targeting-block">Dynamic targeting block</a></li>
+                    <li><a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v4.1/#user-interface-improvements">User Interface improvements</a></li>
+                    <li><a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v4.1/#poduct-catalog-enhancements">Product Catalog enhancements</a></li>
+                    <li><a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v4.1/#expanded-data-migrations">Expanded data migrations</a></li>
                     </ul>
                 </div>
             </div>
