@@ -114,7 +114,7 @@
                 </div>
                 <div class="col-sm-7 features">
                     <ul>
-                    <li><a href="releases/ibexa_dxp_v4.1/#product-catalog-integration-with-transactional-system">Product Catalog integration with the transactional system</a></li>
+                    <li><a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v4.1/#product-catalog-integration-with-transactional-system">Product Catalog integration with the transactional system</a></li>
                     <li><a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v4.1/#measurement-field-type-and-attribute">Measurement Field Type and attribute</a></li>
                     <li><a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v4.1/#dynamic-targeting-block">Dynamic targeting block</a></li>
                     <li><a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v4.1/#user-interface-improvements">User Interface improvements</a></li>
