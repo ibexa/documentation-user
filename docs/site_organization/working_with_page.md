@@ -79,7 +79,7 @@ The blocks provided with a clean installation of [[= product_name_ee =]] are:
 |Block|Description|
 |-----|-----------|
 |Targeting|Embeds an Content item depending on the [Segment](organizing_the_content.md#segments) the user belongs to. For details, see [Targeting block](#targeting-block).|
-|Dynamic targeting|Embeds an item depending on the [Segment](organizing_the_content.md#segments) the user belongs to. For details, see [Dynamic targeting](#dynamic-targeting).|
+|Dynamic targeting|Embeds recommended items depending on the [Segment](organizing_the_content.md#segments) the user belongs to. For details, see [Dynamic targeting](#dynamic-targeting).|
 |Form|Embeds a Form Content item that you select from the Content Structure. For details, see [Form block](#form-block).|
 |Code|Enables you to place text, links, images, etc. on your Page using custom HTML. For details, see [Code block](#code-block).|
 |Content List|Displays Content items of a chosen Content Type (or Types) that are contained in a selected folder. For details, see [Content List block](#content-list-block).|
