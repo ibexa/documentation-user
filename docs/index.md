@@ -56,7 +56,7 @@
                         </h5>
                         <div class="tile-body">
                             <ul>
-                                <li><a href="shop_administration/dashboard/">Dashboard</a></li>
+                                <li><a href="shop_administration/cockpit/">Cockpit</a></li>
                                 <li><a href="shop_administration/manage_orders/">Orders</a></li>
                                 <li><a href="shop_administration/manage_products_and_categories_with_the_ez_dataprovider/">Products</a></li>
                                 <li><a href="shop_administration/manage_prices_and_stock/">Prices</a></li>
