@@ -78,7 +78,8 @@ The blocks provided with a clean installation of [[= product_name_ee =]] are:
 
 |Block|Description|
 |-----|-----------|
-|Targeting|Embeds a Content item depending on the [Segment](organizing_the_content.md#segments) the user belongs to. For details, see [Targeting block](#targeting-block).|
+|Targeting|Embeds an Content item based on the [Segment](organizing_the_content.md#segments) the user belongs to. For details, see [Targeting block](#targeting-block).|
+|Dynamic targeting|Embeds recommended items based on the [Segment](organizing_the_content.md#segments) the user belongs to. For details, see [Dynamic targeting block](#dynamic-targeting-block).|
 |Form|Embeds a Form Content item that you select from the Content Structure. For details, see [Form block](#form-block).|
 |Code|Enables you to place text, links, images, etc. on your Page using custom HTML. For details, see [Code block](#code-block).|
 |Content List|Displays Content items of a chosen Content Type (or Types) that are contained in a selected folder. For details, see [Content List block](#content-list-block).|
@@ -116,6 +117,8 @@ After you change the block settings, click **Submit** to save the changes or **D
 
 ### Targeting block
 
+Targeting block provides recommendation of content based on users related to the configured Segments.
+
 On the **Basic** tab, perform the following actions:
 
 - In the **Name** box, provide the name of the block.
@@ -124,11 +127,26 @@ and select the default Content item that will be displayed when no priority rule
 - In the **Setup segment and content matching priority rules** section, select a Segment Group and a Segment,
 then click **Select content** and navigate to the Content item that you want to display for the selected group.
 
-The rules are checked in order, so if a user belongs to more than one Segment, the first rule applies.
+The rules are checked in order, so when a user belongs to more than one Segment, the first rule applies.
 
 You can preview the page for each of the available Segments:
 
 ![Previewing Page for a given Segment](img/page_builder_segment_preview.png)
+
+### Dynamic targeting block
+
+Dynamic targeting block provides recommended items based on users related to the configured Segments.
+
+On the **Basic** tab, perform the following actions:
+
+- In the **Name** field, provide the name of the block.
+- In the **Select default scenario** section, select the default scenario for recommended items that should be rendered if the current user
+is not assigned to any Segment.
+- In the **Setup segment and scenario matching priority rules** drop-down, select a Segment group, a Segment identifier and Scenario that you want to display recommendations from.
+
+The rules are checked in order, so when a user belongs to more than one Segment, the first rule applies.
+
+![Dynamic targeting](img/page_builder_dynamic_targeting.png)
 
 ### Form block
 
