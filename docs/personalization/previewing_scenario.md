@@ -24,8 +24,8 @@ icon next to a scenario that you want to preview.
 
     No further configuration is required.
 
-1. If your scenario is based on models of [collaborative type](recommendation_models.md#collaborative-models), such as, for example, 
-**Also clicked**, in the **Context items** area, in the **Set up items** field, start typing Content item/product name.
+1. If your scenario is based on models of [collaborative type](recommendation_models.md#collaborative-models), for example, 
+**Also clicked**, in the **Context items** area, in the **Set up items** field, start typing Content item/product name or ID.
 
     1. From the search results select the respective Content item/product.
     1. Click the **Add** button to confirm.
