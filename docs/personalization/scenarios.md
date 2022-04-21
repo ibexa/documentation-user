@@ -43,7 +43,7 @@ If models from one level do not return enough results, models from the
 subsequent levels are used.
 
 If your models support additional differentiators, you can apply them. By default, model does not use submodels or segments.
-To group products based on supported data types for the model, from the **Data type** and **Context** drop-downs, select the required options.
+To group items based on supported data types for the model, from the **Data type** and **Context** drop-downs, select the required options.
 You can choose between **Submodels** or **Segments** data types.
 For more information, see [Advanced model configuration](recommendation_models.md#advanced-model-configuration). 
 
