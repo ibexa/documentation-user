@@ -226,7 +226,7 @@ To do this, go to the **Models** section and click the **Edit** icon next to a n
 
 With segment groups you can assign users to different recommendation groups based on data gathered, and deliver recommendations to these user groups.
 
-The **Segment** list displays only active segments and is generated from the events collected for relevant history (the actual data from recommendation engine, not what is added using the Back Office).
+The **Segment** list displays only active segments and is generated from the events collected for relevant history (the actual data from the recommendation engine, not data added using the Back Office).
 
 The value of each segment is transfered to the event.
 
