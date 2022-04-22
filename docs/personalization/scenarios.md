@@ -3,7 +3,7 @@
 A scenario is a configuration that is used to obtain recommendation results. 
 It consists of:
 
-- A content type to be returned as recommendation 
+- A Content Type to be returned as recommendation 
 - A strategy (set of models) that is used for generating recommendations
 - A filter configuration
 
@@ -42,9 +42,9 @@ distributed mixture of both model results.
 If models from one level do not return enough results, models from the 
 subsequent levels are used.
 
-If your models support additional differentiators, you can apply them here:
-pick a context from a drop-down with a list of available context options,
-and/or select the **Use submodels** checkbox to group all products based on a selected attribute.
+If your models support additional differentiators, you can apply them. By default, model does not use submodels or segments.
+To group items based on supported data types for the model, from the **Data type** and **Context** drop-downs, select the required options.
+You can choose between **Submodels** or **Segments** data types.
 For more information, see [Advanced model configuration](recommendation_models.md#advanced-model-configuration). 
 
 The configuration performed in this step is applied only to the selected scenario.

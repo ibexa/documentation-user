@@ -16,7 +16,7 @@ To do this, navigate to one of the pages mentioned below and edit the item that 
 ## Models
 
 The **Models** page lists all available models and provides detailed information, 
-such as the scenarios that use each model or when the model was last triggered.
+such as the scenarios or segments that use each model or when the model was last triggered.
 Models come predefined with the service, based on the arrangements that your 
 organization makes with Ibexa when defining the initial configuration.
 You can request that a specific model is created by contacting customer support.
@@ -28,6 +28,7 @@ the settings, for example:
 
 - A timeframe in which the algorithm gathers events that are used in the calculation
 - Submodels that can narrow down the list of model results
+- Segments that allow to get personalized content suitable for particular users groups
 - A list of items included or excluded from the model 
 
 For more information, see [Recommendation models](recommendation_models.md).
