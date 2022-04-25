@@ -108,9 +108,11 @@ It could be referred to as "Static recommendations".
 
 #### Blacklist
 
-Products from this list are not recommended in any scenario. 
+Items from this list are not recommended in any scenario.
+The model can be configured manually by a user.  
 You can use this model to exclude test products or products that are used for system monitoring. 
-It must be treated with care, because the blacklist model applies to all scenarios that exist in the system.
+An element added to this list will never be recommended so it must be treated with care, because the blacklist model applies to all scenarios that exist in the system.
+
 
 #### History-based
 
@@ -214,19 +216,18 @@ The logic used for resolving a submodel is as follows:
 
 ## Segments
 
-With segments, you can get personalized content that is suitable for particular users groups. 
-Segments compute models based on segment attribute factor.
-Information about user segment is provided in each event that comes from the tracking script.
+Segments allow getting personalized content suitable for particular user groups. They compute models based on segment attribute factor.
+Information with user segment is provided in each event which comes from the tracking script.
 
 First, make sure you have [enabled personalization](https://doc.ibexa.co/en/latest/guide/personalization/enabling_personalization/#enable-personalization) and [configured item type tracking](https://doc.ibexa.co/en/latest/guide/personalization/recommendation_client/#set-up-item-type-tracking).
 
-If your [user role](../site_organization/organizing_the_site.md#permissions) includes 
+If your [user Role](../site_organization/organizing_the_site.md#permissions) includes 
 the `Segment/All functions`, `Segment group/All functions` Policies, you can configure segment settings in the models according to your requirements.
 To do this, go to the **Models** section and click the **Edit** icon next to a name of the model.
 
-With segment groups you can assign users to different recommendation groups based on data gathered, and deliver recommendations to these user groups.
+With segment groups you can assign users to different recommendation groups based on data gathered and deliver recommendations to these user groups.
 
-The **Segment** list displays only active segments and is generated from the events collected for relevant history (the actual data from the recommendation engine, not data added using the Back Office).
+The **Segment** list displays only active segments and is generated from the events collected for relevant history (the actual data from recommendation engine, not what is added using the Back Office).
 
 The value of each segment is transfered to the event.
 
