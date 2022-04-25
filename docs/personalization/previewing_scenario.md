@@ -25,7 +25,7 @@ icon next to a scenario that you want to preview.
     No further configuration is required.
 
 1. If your scenario is based on models of [collaborative type](recommendation_models.md#collaborative-models), for example, 
-**Also clicked**, in the **Context items** area, in the **Set up items** field, start typing Content item/product name or ID.
+**Also clicked**, in the **Context items** area, in the **Set up items** field, and start typing Content item/product name or ID.
 
     1. From the search results select the respective Content item/product.
     1. Click the **Add** button to confirm.
@@ -36,7 +36,7 @@ icon next to a scenario that you want to preview.
 enabled, for example, **Also clicked - category**, in the **Category path filter** 
 area: 
     1. Click **Select path**, and go to the category to be used as a filter, and then click the **Confirm** button.
-    1. If stored externally, in the **Path** field, manually enter the path to the category and then click the **Add** button.
+    1. If stored externally, in the **Path** field manually enter the path to the category, and then click the **Add** button.
 
 1. If your collaborative scenario uses the end user’s history as context, like, for example, 
 **Also clicked - user**, enter an end user identifier in the **User id** field, for example, 500.
