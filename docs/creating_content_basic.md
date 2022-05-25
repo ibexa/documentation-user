@@ -99,7 +99,7 @@ Here you can also add a link to the text. You can link to an external website, o
 
 While editing, you can preview what the content will look like by clicking the **Preview** button in the menu.
 
-A Content item can have different looks for different [SiteAccesses](creating_content_advanced.md#siteaccess).
+A Content item can have different looks for different [SiteAccesses](translating_content.md#siteaccess).
 You can select a SiteAccess to preview by using a drop-down in the preview screen.
 
 ## Adding taxonomy entries
