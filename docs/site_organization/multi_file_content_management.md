@@ -1,4 +1,4 @@
-# Multi-file content management
+# Managing content in bulk
 
 Multi-file content management is a set of functionalities that enables you to upload, move, and delete multiple files in bulk.
 

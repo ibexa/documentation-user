@@ -35,7 +35,7 @@ However, it is rarely possible to combine the external user ID within the user's
 
 For more information about user attribute import, see [User API](https://doc.ibexa.co/en/master/guide/personalization/developer_guide/user_api) in the developer documentation.
 
-## View a list of import operations
+## List of import operations
 
 In the Back Office, from the top bar under **Personalization**, you can access 
 the **Import** page that displays a list of historical import operations and their details, 

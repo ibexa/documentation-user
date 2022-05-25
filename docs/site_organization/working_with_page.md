@@ -1,4 +1,4 @@
-# Working with Page  [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
+# Pages [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
 **Page** is a special Content Type that contains zones onto which you can drop 
 different dynamic blocks.
@@ -245,7 +245,7 @@ On the **Basic** tab, set values in the following fields:
 
 On the **Design** tab, in the **View** field, change the layout to "Products" and submit your changes.
 
-## Configure blocks display
+## Configure block display
 
 As an administrator, you can define which page blocks elements are available for an editor in the page edit mode.
 

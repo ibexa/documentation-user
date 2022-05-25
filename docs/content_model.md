@@ -1,4 +1,4 @@
-# Content Model
+# Content model
 
 At the heart of [[= product_name =]] is a repository that stores all content.
 In [[= product_name =]] everything is a Content item — not just the actual pages displayed in the website,
