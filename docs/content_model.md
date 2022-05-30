@@ -109,7 +109,7 @@ You can also use the **Content Browser** to search the Repository for content, e
     
     For more information about users and permissions, see [Users](site_organization/organizing_the_site.md#users).
     
-    For more information about site skeletons, see [Site factory](https://doc.ibexa.co/en/master/guide/site_factory/#configure-site-skeleton).
+    For more information about site skeletons, see [Site skeletons](https://doc.ibexa.co/en/master/guide/multisite/site_factory_configuration/#site-skeletons).
 
 ### Content Tree
 
@@ -118,7 +118,7 @@ If you want to navigate through your website with a menu, go to the **Content** 
 
 ![Content Tree in the menu](img/left_menu_tree.png "Content Tree in the menu")
 
-Unique icons for each Content Type instantly show you what type of content you are selecting. To add custom icons to your Content Tree, follow [configuration tutorial in developer documentation.](https://doc.ibexa.co/en/master/extending/custom_icons/#custom-content-type-icons)
+Unique icons for each Content Type instantly show you what type of content you are selecting. To add custom icons to your Content Tree, follow [configuration tutorial in developer documentation.](https://doc.ibexa.co/en/master/extending/custom_icons/#customize-content-type-icons)
 
 Hidden content is blurred out in the tree view.
 

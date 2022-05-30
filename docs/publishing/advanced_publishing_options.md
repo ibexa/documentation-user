@@ -2,7 +2,7 @@
 
 There are three ways in which you can schedule content to be published, revealed or hidden in the future:
 
-- [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]] [Scheduler tab](#schedule-tab) in any Page block's configuration
+- [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]] [Scheduler tab](#scheduler-tab) in any Page block's configuration
 - [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]] [Content Scheduler block](#content-scheduler-block) on a Page
 - [Publish later option](#date-based-publishing) when editing content
 

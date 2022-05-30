@@ -16,7 +16,7 @@ When uploading files, the Content Type will be chosen automatically.
 
 If you are using [[= product_name_exp =]] or [[= product_name_com =]],
 you will have the *Page* Content Type available for selection.
-Pages are edited in the Page Builder, see [Working with Page](site_organization/working_with_page.md).
+Pages are edited in the Page Builder, see [Pages](site_organization/working_with_page.md).
 
 Each Content item is based on a Content Type. The Content Type defines what Fields you have to fill in when creating a new item.
 It may also determine the layout or style in which this item is displayed.
@@ -113,7 +113,7 @@ You can add as many tags as you like.
 
 ![Select Taxonomy Entries](img/taxonomy_select_taxonomy_entries.png "Taxonomy entries")
 
-See more [Assign tag to content from taxonomy tree](taxonomy.md#assign-tag-to-content-from-taxonomy-tree).
+See more in [Assigning tag to content from taxonomy tree](taxonomy.md#assign-tag-to-content-from-taxonomy-tree).
 
 ## Publishing content
 
