@@ -1,4 +1,4 @@
-# Manage users
+# Users
 
 Users are displayed in the **Users** section of the Back Office.
 

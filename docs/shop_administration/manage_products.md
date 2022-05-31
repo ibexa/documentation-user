@@ -1,4 +1,4 @@
-# Manage products and categories
+# Products
 
 The product catalog enables handling of products offered in the shop,
 including their specifications, and pricing.

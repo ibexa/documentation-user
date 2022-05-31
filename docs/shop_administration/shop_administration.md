@@ -10,5 +10,5 @@
 |[Order management](manage_orders.md)|List or orders placed in the shop|
 |[Shipping management](manage_prices_and_stock.md#shipping-costs)|Management of shipping costs|
 |Customer Groups|Management of customer groups|
-|[Currencies](manage_prices_and_stock.md#currencies)|Currency management|
+|[Currency](manage_prices_and_stock.md#currency)|Currency management|
 |Components|Tool of managing shop interface translations|
