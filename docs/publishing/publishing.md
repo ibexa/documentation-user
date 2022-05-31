@@ -1,4 +1,4 @@
-# Publishing Content
+# Publishing content
 
 When you publish a Content item, it is given a Location ID and placed in the Content tree.
 After you click **Publish**, the Content item is validated and if any of the required Fields are not configured, you see a notification.

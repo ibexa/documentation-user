@@ -25,7 +25,7 @@ Your request is sent to Ibexa, and you receive an email with credentials in resp
 When you receive the email with credentials, ask your administrator to:
 
 - [add the credentials to your configuration](https://doc.ibexa.co/en/latest/guide/personalization/enabling_personalization/#set-up-customer-credentials)
-- [configure events that you wish to track](https://doc.ibexa.co/en/latest/guide/personalization/enabling_personalization/#configure-event-tracking)
+- [configure events that you wish to track](https://doc.ibexa.co/en/latest/guide/personalization/enabling_personalization/#set-up-item-type-tracking)
 
 ## Change the installation key
 

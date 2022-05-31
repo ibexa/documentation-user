@@ -1,4 +1,4 @@
-# Manage prices and stock
+# Prices and stock
 
 ## Product prices
 

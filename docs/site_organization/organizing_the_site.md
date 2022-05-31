@@ -94,7 +94,7 @@ for example: `www.my-site.com/register`. By default, new Users created in this w
 
 Overview of the permission system in [[= product_name =]] is best presented using an example.
 
-### Example of a permissions system
+### Example permission system
 
 Let us assume you are managing a newspaper website. Your crew consists of an editor-in-chief
 and several editors responsible for particular sections of the paper: general news, local news, sports, etc.
