@@ -56,7 +56,7 @@ For more information, see [General filters](filters.md#general-filters).
 
 For each of the categories from the strategy configuration matrix, you can click 
 the **Configure** icon and configure category filters. 
-For a detailed description, see [Category Filter](filters.md#category-filter).
+For a detailed description, see [Category path filters](filters.md#category-path-filters).
 
 ## Next steps
 

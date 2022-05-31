@@ -1,4 +1,4 @@
-# Working with Page  [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
+# Pages [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
 **Page** is a special Content Type that contains zones onto which you can drop 
 different dynamic blocks.
@@ -76,7 +76,7 @@ Do not worry about placing blocks in the proper place from the start.
 You can reorder them at any time by dragging and dropping them in the desired location.
 
 [[= product_name_ee =]] comes with a set of ready-to-use Page blocks,
-but [developers can add their own](https://doc.ibexa.co/en/latest/extending/extending_page/).
+but [developers can add their own](https://doc.ibexa.co/en/latest/guide/page/create_custom_page_block/).
 
 ![Elements menu](img/elements_menu.png "Elements menu")
 
@@ -109,8 +109,8 @@ Use the same menu to remove the block from the Page by clicking the **Delete** (
 Settings available for blocks are divided into three tabs — **Basic**, **Design**, and **Scheduler**.
 The settings available on the **Basic** tab are tailored to the block's content.
 
-The remaining tabs contain parameters common to all blocks provided with [[= product_name_ee =]].
-Use them to modify the layout and visibility of a block. For details, see [Advanced publishing options](../publishing/advanced_publishing_options.md).
+The remaining tabs contain parameters common to all blocks provided with [[= product_name =]].
+Use them to modify the layout and visibility of a block. For details, see [Scheduling publication](../publishing/advanced_publishing_options.md).
 
 You cannot publish a Page if you have not set all the required settings of all blocks.
 
@@ -233,7 +233,7 @@ On the **Basic** tab, set values in the following fields:
 
 On the **Design** tab, in the **View** field, change the layout to "Products" and submit your changes.
 
-## Configure blocks display
+## Configure block display
 
 As an administrator, you can define which page blocks elements are available for an editor in the page edit mode.
 
@@ -255,7 +255,7 @@ Now, only selected page blocks are available in the edit mode.
     a user has to delete these blocks from the Landing Page.
 
 !!! caution "Add new blocks"
-    If a [developer creates a new block](https://doc.ibexa.co/en/latest/extending/extending_page/) and you want to make it available 
+    If a [developer creates a new block](https://doc.ibexa.co/en/latest/guide/page/create_custom_page_block/) and you want to make it available 
     in the editor mode, you must select it manually in the **Select page blocks** section.
 
 ## Configure preferred edit mode

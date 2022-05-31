@@ -1,4 +1,4 @@
-# Introduction to personalization
+# Personalization
 
 A cloud-based personalization service leverages artificial intelligence and machine learning 
 technologies to deliver optimized customer experience. 
@@ -28,4 +28,4 @@ Recommendations become better with time and the amount of data collected.
 Once the service generates the results, you can present them to the user 
 by embedding recommendation lists in your pages and screens.
 Both event tracking and results publishing is done by the administrators, according to 
-the procedure [described in the developer documentation](https://doc.ibexa.co/en/latest/guide/personalization/personalization_quickstart/#integration).
+the procedure [described in the developer documentation](https://doc.ibexa.co/en/3.3/guide/personalization/basic_integration/).

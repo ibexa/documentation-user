@@ -137,7 +137,7 @@ These models usually contain similar items, and additional filtering might remov
 the best results from the list of possible recommendations. 
 The only exception could be coping with copyright or legal issues by removing 
 unlicensed or adult content in certain markets or for certain customers. 
-However, this use case could be handled with equal or greater success by using [submodels](recommendation_models.md#submodels) or [item types](content_types.md).
+However, this use case could be handled with equal or greater success by using [submodels](recommendation_models.md#submodels) or [content types](content_types.md).
 
 To support category filtering, the personalization service must be fed with both 
 content and user attribute data.

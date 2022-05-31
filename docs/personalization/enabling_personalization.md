@@ -23,7 +23,7 @@ Your request is sent to Ibexa, and you will receive a confirmation email in resp
 
 When you receive the confirmation email, ask your administrator to [add the credentials to your configuration](https://doc.ibexa.co/en/latest/guide/personalization/enabling_personalization/#configuring-mandator-credentials).
 
-## Changing the installation key
+## Change the installation key
 
 If necessary, you can modify the installation key configured in the personalization settings.
 To do this, in the Back Office, select **Personalization** and then **Settings**.
