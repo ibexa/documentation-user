@@ -23,7 +23,7 @@ For example, one can load an exported file to the Personalization service from a
 This type of import is intended to upload big portions of information,
 and can be used to perform a weekly update of the whole product catalog.
 
-For detailed information about content data import, see [Export content information](https://doc.ibexa.co/en/latest/guide/personalization/recommendation_client/#export-content-information) and [Content API](https://doc.ibexa.co/en/master/guide/personalization/developer_guide/content_api) in the developer documentation.
+For detailed information about content data import, see [Export item information](https://doc.ibexa.co/en/latest/guide/personalization/enabling_personalization/#export-item-information) and [Content API](https://doc.ibexa.co/en/master/guide/personalization/developer_guide/content_api) in the developer documentation.
 
 ## User data import
 
@@ -35,7 +35,7 @@ However, it is rarely possible to combine the external user ID within the user's
 
 For more information about user attribute import, see [User API](https://doc.ibexa.co/en/master/guide/personalization/developer_guide/user_api) in the developer documentation.
 
-## View a list of import operations
+## List of import operations
 
 In the Back Office, from the top bar under **Personalization**, you can access 
 the **Import** page that displays a list of historical import operations and their details, 

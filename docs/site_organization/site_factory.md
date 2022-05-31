@@ -5,7 +5,7 @@ All the sites can be kept in the Repository of your installation.
 To be able to use it, the Site Factory has to be enabled and configured by your administrator.
 For more information see developer documentation on [Site Factory](https://doc.ibexa.co/en/latest/guide/multisite/site_factory).
 
-## Create a site
+## Creating a site
 
 To access Site Factory select the **Site** tab and Site Factory icon.
 If Site Factory is enabled, and you have sufficient permissions, you should be able to click the **Create** button and access **Creating a new Site**.
@@ -41,7 +41,7 @@ If all required fields are filled out you can select **Create,** and the site wi
     For example, if you create a site that uses the `fr` path in Site Factory, and the administrator 
     defines a French site manually in configuration files, your site is ignored by the system.
 
-## Edit a site
+## Editing a site
 
 To edit the site select **Site settings** icon that is situated next to the site name.
 Here, you can edit all the elements you selected during creation of the site:
@@ -52,12 +52,12 @@ Here, you can edit all the elements you selected during creation of the site:
 - URL
 - language
 
-## Preview a site
+## Previewing a site
 
 To preview the site, select the **Location preview** icon (the eye icon) that is situated next to the site name.
 It will transfer you to Page Builder site preview.
 
-## Delete a site
+## Deleting a site
 
 To enable deleting a site you have to change the site status to offline.
 Live sites cannot be deleted. Next, select the **Delete** icon and confirm your choice.

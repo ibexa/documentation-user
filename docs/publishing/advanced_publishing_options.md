@@ -1,8 +1,8 @@
-# Advanced publishing options
+# Scheduling publication
 
 There are three ways in which you can schedule content to be published, revealed or hidden in the future:
 
-- [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]] [Scheduler tab](#schedule-tab) in any Page block's configuration
+- [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]] [Scheduler tab](#scheduler-tab) in any Page block's configuration
 - [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]] [Content Scheduler block](#content-scheduler-block) on a Page
 - [Publish later option](#date-based-publishing) when editing content
 
@@ -129,7 +129,7 @@ These buttons are available on the **My dashboard** screen, and in the Calendar 
 |![Reschedule button](img/selection_action_bar_reschedule.png)|Reschedule all selected events.|
 |![Discard button](img/selection_action_bar_discard.png)|Cancel the future publication of selected events.|
 
-#### Rescheduling or cancelling with the dashboard
+#### Rescheduling or cancelling in the dashboard
 
 To reschedule or cancel events with the dashboard, perform the following actions:
 
@@ -144,7 +144,7 @@ To reschedule or cancel events with the dashboard, perform the following actions
       
 ![Reschedule or cancel with the dashboard](img/reschedule_cancel_dashboard.png "Rescheduling or cancelling with the dashboard")
 
-#### Rescheduling or cancelling with the Calendar toolbar
+#### Rescheduling or cancelling in Calendar
 
 In the [Calendar widget](#calendar-widget), select all events to have their publication time rescheduled or cancelled.
 Using the toolbar buttons, perform one of the following actions:

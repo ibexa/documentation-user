@@ -54,9 +54,9 @@ in the **Location** tab and selecting a Content item to swap with.
 
     If at some point there were more than two Content items with the same name under the same parent, then result of swapping such Content items might not be obvious. The general rule is that the Content item that previously had a higher number at the end of its URL alias will have its URL alias republished first, resulting in the lowest nonconflicting number (or the lack of) at the end of its URL alias. The Content item that previously had a lower number at the end of its URL alias will have its URL alias republished second, resulting in the second lowest nonconflicting number at the end of its URL alias.
 
-## Managing existing content
+## Managing content
 
-### Moving and copying content
+### Moving and copying
 
 You can move or copy existing Content items by choosing the proper option from the menu on the right.
 You can also copy the whole subtree (a Content item with all content under it in the structure).

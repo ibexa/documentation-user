@@ -27,7 +27,7 @@ Now, the tag is visible in the taxonomy tree.
 When you edit or create a Content Type, in the section **Select tags**, you can add a tag by typing or clicking **Select from tree**.
 You can add many tags.
 
-See [Add taxonomy entries](creating_content_basic.md#add-taxonomy-entries).
+See [Adding taxonomy entries](creating_content_basic.md#adding-taxonomy-entries).
 
 ### Add tag translation
 
