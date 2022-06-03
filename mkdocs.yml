@@ -31,10 +31,7 @@ nav:
         - 'Products': 'shop_administration/manage_products.md'
         - 'Prices and stock': 'shop_administration/manage_prices_and_stock.md'
         - 'Users': 'shop_administration/manage_users.md'
-    - Managing shop content:
-        - 'Pages in the shop': 'managing_shop_content/landingpages.md'
-        - 'Navigation structure': 'managing_shop_content/navigation_structure.md'
-        - 'Legal documents': 'managing_shop_content/legal_documents.md'
+        - 'Navigation structure': 'shop_administration/navigation_structure.md'
     - Personalization:
         - 'Personalization': 'personalization/personalization.md'
         - 'Use cases': 'personalization/use_cases.md'
