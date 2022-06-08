@@ -161,7 +161,7 @@ On the **Basic** tab, perform the following actions:
 
     To present two or more identical forms on one Page, ask your developer to create several identical form blocks that you can then use. Otherwise you may encounter issues with duplicate data submission.
     
-    For more information about creating form blocks, see [Create a newsletter form](https://doc.ibexa.co/en/master/tutorials/enterprise_beginner/5_create_newsletter_form/#add-a-form-block) in developer documentation.
+    For more information about creating form blocks, see [Creating a newsletter form](https://doc.ibexa.co/en/master/tutorials/enterprise_beginner/5_create_newsletter_form/#add-a-form-block) in developer documentation.
 
 ### Code block
 
