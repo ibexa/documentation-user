@@ -32,7 +32,7 @@ A *Location* Field is a point on the map. You can type the place name, enter its
     To help you preserve your work, [[= product_name =]] saves drafts of Content items automatically.
     For more information, see [Autosave](publishing/publishing.md#autosave).
 
-!!! note "Note [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]"
+!!! note
 
     When you create or edit a Content item that contains an *Image* or an *Image asset* Field, 
     you can perform basic image editing functions by using an [Image Editor](editing_images.md).
