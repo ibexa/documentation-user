@@ -35,7 +35,7 @@ You can use this bar to switch between the different versions and work on them.
 
 Click the SiteAccess list in the left side menu to see the full list of all SiteAccesses.
 
-SiteAccesses offer a way of presenting different versions of your website to different categories of users.
+SiteAccesses are a means to present different versions of the website to different categories of users.
 You can treat SiteAccesses as different "entrance points" to your website. They allow you to show different content or design to the visitor depending on which SiteAccess they use.
 SiteAccesses can be used for example to serve a different website version for paying and non-paying visitors
 or different language versions to visitors from different countries.
