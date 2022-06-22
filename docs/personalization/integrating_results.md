@@ -1,4 +1,4 @@
-# Integrate scenario results
+# Integrate scenario results [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
 When the Personalization service is [enabled](enabling_personalization.md) and properly 
 [configured](perso_configuration.md), as an editor, you can embed the recommendations 
