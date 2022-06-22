@@ -1,6 +1,6 @@
 # Creating forms [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
-Forms enable you to place a survey, questionnaire, sign-up form, etc. on your website.
+With forms you can place a survey, questionnaire, sign-up form, etc. on your website.
 
 Create a form like a regular Content item by choosing the Form Content Type.
 Click the **Edit** button to start adding fields to the form.
