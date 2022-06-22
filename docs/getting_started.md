@@ -34,10 +34,12 @@ The top bar allows you to move between important sections of the application.
 
 ![Top bar](img/top_bar.png "Top bar")
 
+Top level sections include, for example:
+
 - **Content** gives you access to the content Repository.
 It lets you navigate the Content Tree, create, edit, move, copy, delete content, etc.
+- **Product catalog** enables you to handle products presented on the website, including their specifications and pricing.
 - [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]] **Site** enables you to create and edit block-based Pages and manage multiple sites.
-- [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]] **Forms** enables you to place a survey, questionnaire, sign-up form, etc. on your website.
 - **Admin** is the administration panel where you can manage Users, Sections, permissions, etc.
 
 ### User settings

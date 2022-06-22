@@ -1,4 +1,4 @@
-# Shop administration
+# Shop administration [[% include 'snippets/commerce_badge.md' %]]
 
 [[= product_name =]] provides the following eCommerce functions in the top menu of the Back Office.
 
@@ -8,9 +8,9 @@ Depending on the chosen data provider and whether an ERP is connected, some tabs
 
 |Tab|Description|
 |--- |--- |
-|[Dashboard](cockpit.md)|Basic statistics|
-|[Order management](manage_orders.md)|List or orders placed in the shop|
-|[Shipping management](manage_prices_and_stock.md#shipping-costs)|Management of shipping costs|
+|[Dashboard [[% include 'snippets/commerce_badge.md' %]]](cockpit.md)|Basic statistics|
+|[Order management [[% include 'snippets/commerce_badge.md' %]]](manage_orders.md)|List or orders placed in the shop|
+|[Shipping management [[% include 'snippets/commerce_badge.md' %]]](manage_prices_and_stock.md#shipping-costs)|Management of shipping costs|
 |Customer Groups|Management of customer groups|
 |[Currency](manage_prices_and_stock.md#currency)|Currency management|
-|Components|Tool of managing shop interface translations|
+|Components [[% include 'snippets/commerce_badge.md' %]]|Tool of managing shop interface translations|

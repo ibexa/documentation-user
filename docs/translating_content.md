@@ -29,17 +29,17 @@ After adding a language, you may have to reload the application to be able to us
     It is recommended you contact your administrator and inform them if you need to add a new language to the website
     (see [the technical documentation on language versions](https://doc.ibexa.co/en/master/guide/internationalization/)).
 
-## SiteAccess [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
+## SiteAccess in Page mode [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
-When working in Page mode, you can see a bar at the top of the page listing the most recently used SiteAccesses on your website.
+When working in Page mode, at the top of the page, you can see a bar that lists the most recently used SiteAccesses on your website.
 
-You can use this bar to switch between and work on the different versions.
+You can use this bar to switch between the different versions and work on them.
 
 ![Top bar with list of siteaccesses](img/siteaccess_bar.png "Top bar with list of SiteAccesses")
 
 Click the SiteAccess list icon in the bar to see the full list of all SiteAccesses.
 
-SiteAccesses is a way of offering different versions of your website to different categories of users.
+SiteAccesses are a means to present different versions of the website to different categories of users.
 You can treat SiteAccesses as different "entrance points" to your website. They allow you to show different content or design to the visitor depending on which SiteAccess they use.
 SiteAccesses can be used for example to serve a different website version for paying and non-paying visitors
 or different language versions to visitors from different countries.
