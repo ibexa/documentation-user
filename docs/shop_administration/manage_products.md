@@ -1,6 +1,6 @@
 # Products
 
-The product catalog enables handling of products offered in the shop,
+The product catalog enables handling of products offered in the website,
 including their specifications, and pricing.
 
 The catalog is available in the left menu.
