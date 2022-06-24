@@ -1,3 +1,7 @@
+---
+description: Scenarios define which recommendation results should be given in which situations.
+---
+
 # Scenarios
 
 A scenario is a configuration that is used to obtain recommendation results. 

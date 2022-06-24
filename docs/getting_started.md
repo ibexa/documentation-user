@@ -1,3 +1,7 @@
+---
+description: Get started with Ibexa DXP with an overview of the Back Office.
+---
+
 # Getting started
 
 [[= product_name =]] consists of the technical platform for developers

@@ -1,3 +1,7 @@
+---
+description: The Ibexa DXP content model relies on Content items that are based on predefined Content Types.
+---
+
 # Content model
 
 At the heart of [[= product_name =]] is a repository that stores all content.

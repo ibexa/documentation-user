@@ -1,3 +1,7 @@
+---
+description: In the Back Office you can preview what results would be recommended by the Personalization service.
+---
+
 # Preview scenario results
 
 If your [user role](../site_organization/organizing_the_site.md#permissions) has 

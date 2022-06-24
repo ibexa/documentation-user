@@ -1,3 +1,7 @@
+---
+description: Create content for your site with different Fields, rich text, tags, and then publish it.
+---
+
 # Creating content
 
 There are four ways of creating a new Content item:

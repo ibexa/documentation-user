@@ -1,3 +1,7 @@
+---
+description: You can add and configure products in your catalog, set up their attributes and define availability and stock.
+---
+
 # Products
 
 The product catalog enables handling of products offered in the website,

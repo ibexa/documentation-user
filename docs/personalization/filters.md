@@ -1,3 +1,7 @@
+---
+description: Filters enable you to fine-tune recommendation results by eliminating, demoting, or promoting specific results.
+---
+
 # Filters
 
 Filters are tools that you can use to eliminate, demote or promote specific recommendation results.
