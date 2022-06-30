@@ -1,5 +1,5 @@
 ---
-description: Use Site Factory to easily create multiple sites, with different designs and subsets of content, based on common skeletons
+description: Use Site Factory to easily create multiple sites, with different designs and subsets of content, based on common skeletons.
 ---
 
 # Site Factory [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]

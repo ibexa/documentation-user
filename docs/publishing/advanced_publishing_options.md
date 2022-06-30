@@ -1,5 +1,5 @@
 ---
-description: You can schedule publication of content and Page blocks for specific times and dates.
+description: You can schedule publication of content and Page blocks for specific time and date.
 ---
 
 # Scheduling publication

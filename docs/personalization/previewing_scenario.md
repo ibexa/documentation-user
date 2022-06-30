@@ -1,5 +1,5 @@
 ---
-description: In the Back Office you can preview what results would be recommended by the Personalization service.
+description: In the Back Office you can preview what results are recommended by the Personalization service.
 ---
 
 # Preview scenario results

@@ -1,5 +1,5 @@
 ---
-description: Scenarios define which recommendation results should be given in which situations.
+description: Scenarios define which recommendation results should be given in different situations.
 ---
 
 # Scenarios

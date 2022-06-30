@@ -1,5 +1,5 @@
 ---
-description: You can instantly publish and newly created Content item or save its draft for later editing. Drafts are autosaved to prevent you from losing your work.
+description: You can instantly publish a newly created Content item or save its draft for editing. Drafts are autosaved to prevent you from losing your work.
 ---
 
 # Publishing content

@@ -1,5 +1,5 @@
 ---
-description: Recommendations rely on tracking different events describing the behavior of users on your website.
+description: Recommendations rely on tracking different events that describe users' behavior on the website.
 ---
 
 # Event types

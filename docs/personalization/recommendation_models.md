@@ -1,5 +1,5 @@
 ---
-description: Models are building blocks to recommendation scenarios and let you define which criteria to take into account when calculating recommendations.
+description: Models are building blocks to recommendation scenarios. They let you define which criteria to take into account when calculating recommendations.
 ---
 
 # Recommendation models

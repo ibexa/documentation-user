@@ -1,5 +1,5 @@
 ---
-description: Enabling the Personalization service requires a special installation key that Ibexa provides you with.
+description: Enabling the Personalization service requires an installation key provided by Ibexa.
 ---
 
 # Enable personalization
