@@ -1,3 +1,7 @@
+---
+description: Manage the content of your website by controlling Locations, URLs, Sections, Bookmarks, Segments, and so on.
+---
+
 # Organizing the content
 
 ## Content Locations

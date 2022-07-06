@@ -1,3 +1,7 @@
+---
+description: The Personalization service can be used for content publishing and for ecommerce, taking into account both shop-related and content-related user behaviors.
+---
+
 # Use cases
 
 There are different areas where recommendations can prove valuable from a business point of view. 

@@ -1,3 +1,7 @@
+---
+description: You can create editorial workflows to organize review flows for different content needs.
+---
+
 # Editorial workflow
 
 With editorial workflow, you can pass content between different stages in a preconfigured flow.
