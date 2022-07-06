@@ -1,3 +1,7 @@
+---
+description: You can configure the built-in menu on the front page to display the content you choose.
+---
+
 # Navigation structure
 
 ![](img/navigation_structure_menu.png)

@@ -1,3 +1,7 @@
+---
+description: You can schedule publication of content and Page blocks for specific time and date.
+---
+
 # Scheduling publication
 
 There are three ways in which you can schedule content to be published, revealed or hidden in the future:

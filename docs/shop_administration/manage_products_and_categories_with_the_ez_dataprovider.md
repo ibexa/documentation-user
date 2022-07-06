@@ -1,3 +1,7 @@
+---
+description: You can add and configure products in your catalog, set up their attributes and define availability and stock.
+---
+
 # Manage products and categories [[% include 'snippets/commerce_badge.md' %]]
 
 ## Managing categories

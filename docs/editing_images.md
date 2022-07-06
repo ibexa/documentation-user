@@ -1,3 +1,7 @@
+---
+description: Edit images in the Image Editor to flip, crop and select a focal point.
+---
+
 # Editing images
 
 When you browse the [Media library](content_model.md#content-and-media), 

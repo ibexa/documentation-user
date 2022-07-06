@@ -1,3 +1,7 @@
+---
+description: You can manage and view user accounts in your system, including their shop activity such as orders or active baskets.
+---
+
 # Users
 
 Users are displayed in the **Users** tab in the Back Office.

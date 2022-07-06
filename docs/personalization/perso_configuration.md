@@ -1,3 +1,7 @@
+---
+description: Configure your Personalization service by setting up models and scenarios which define which Content items are recommended.
+---
+
 # Configuring personalization
 
 In the Back Office, you can you can review the settings that control the personalization service.

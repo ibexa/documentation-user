@@ -1,3 +1,7 @@
+---
+description: Use surveys, questionnaires, sign-up forms and other interactive forms to enrich your site.
+---
+
 # Creating forms [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
 With forms you can place a survey, questionnaire, sign-up form, etc. on your website.

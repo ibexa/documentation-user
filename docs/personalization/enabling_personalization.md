@@ -1,3 +1,7 @@
+---
+description: Enabling the Personalization service requires an installation key provided by Ibexa.
+---
+
 # Enabling personalization
 
 The personalization service is based on a client-server architecture.

@@ -1,3 +1,7 @@
+---
+description: Products in catalog can have a base price and custom prices defined per custom group and per currency.
+---
+
 # Prices and stock [[% include 'snippets/commerce_badge.md' %]]
 
 ![](img/manage_prices_menu.png)

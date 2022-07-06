@@ -1,3 +1,7 @@
+---
+description: Create multiple language versions of your Content items.
+---
+
 # Translating content
 
 The content on your website can be translated into different languages. Each Content item can have different language versions.
