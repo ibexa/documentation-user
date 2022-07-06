@@ -1,3 +1,7 @@
+---
+description: Manage your website by modifying Content Types and fine-tuning access control by using the permission system.
+---
+
 # Organizing the site
 
 ## Content Types

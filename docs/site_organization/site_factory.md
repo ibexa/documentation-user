@@ -1,3 +1,7 @@
+---
+description: Use Site Factory to easily create multiple sites, with different designs and subsets of content, based on common skeletons.
+---
+
 # Site Factory [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
 The Site Factory enables you to easily create and manage multiple sites in different languages from one place.

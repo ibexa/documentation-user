@@ -1,3 +1,7 @@
+---
+description: Use taxonomy to organize Content items with structured tags.
+---
+
 # Taxonomy
 
 Tags (taxonomy) enable you to organize content using keywords and create relationships between them to make it easier for users to find the content they need.

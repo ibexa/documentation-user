@@ -1,3 +1,7 @@
+---
+description: You can view the performance and statistical information about the Personalization service in the Personalization dashboard.
+---
+
 # Review performance
 
 You can review statistical information related to the functioning of the Personalization service, 

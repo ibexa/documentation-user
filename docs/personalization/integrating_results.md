@@ -1,3 +1,7 @@
+---
+description: You can display recommendation results in your Pages by using the Personalized block.
+---
+
 # Integrate scenario results [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
 When the Personalization service is [enabled](enabling_personalization.md) and properly 

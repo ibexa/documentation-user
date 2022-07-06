@@ -1,3 +1,7 @@
+---
+description: Content types in the Personalization service allow building different recommendations for different parts of our content model.
+---
+
 # Content types
 
 With the Personalization service, you can build different recommendation domains. 

@@ -1,3 +1,7 @@
+---
+description: You can instantly publish a newly created Content item or save its draft for editing. Drafts are autosaved to prevent you from losing your work.
+---
+
 # Publishing content
 
 When you publish a Content item, it is given a Location ID and placed in the Content tree.
