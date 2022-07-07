@@ -1,3 +1,5 @@
+INHERIT: plugins.yml
+
 site_name: User Documentation
 repo_url: https://github.com/ezsystems/user-documentation
 site_url: https://doc.ibexa.co/projects/userguide/en/latest/
@@ -62,14 +64,6 @@ theme:
         accent: 'deep orange'
     logo: 'images/ibexa-dxp-logo.svg'
 
-plugins:
-    - search
-    - macros:
-        j2_block_start_string: '[[%'
-        j2_block_end_string: '%]]'
-        j2_variable_start_string: '[[='
-        j2_variable_end_string: '=]]'
-
 extra:
   append_bootstrap:
     - '/index.md'
@@ -106,9 +100,7 @@ extra_javascript:
 
 markdown_extensions:
   - admonition
-  - codehilite:
-      guess_lang: false
-      linenums: true
+  - attr_list
   - def_list
   - footnotes
   - meta
