@@ -1,3 +1,5 @@
+INHERIT: plugins.yml
+
 site_name: User Documentation
 repo_url: https://github.com/ezsystems/user-documentation
 site_url: https://doc.ibexa.co/projects/userguide/en/latest/
@@ -26,7 +28,7 @@ nav:
     - 'Searching': 'search.md'
     - Shop administration:
         - 'Shop administration': 'shop_administration/shop_administration.md'
-        - 'Dashboard': 'shop_administration/dashboard.md'
+        - 'Dashboard': 'shop_administration/shop_dashboard.md'
         - 'Orders': 'shop_administration/manage_orders.md'
         - 'Products': 'shop_administration/manage_products.md'
         - 'Prices and stock': 'shop_administration/manage_prices_and_stock.md'
@@ -57,14 +59,6 @@ theme:
         primary: 'blue grey'
         accent: 'deep orange'
     logo: 'images/ibexa-dxp-logo.svg'
-
-plugins:
-    - search
-    - macros:
-        j2_block_start_string: '[[%'
-        j2_block_end_string: '%]]'
-        j2_variable_start_string: '[[='
-        j2_variable_end_string: '=]]'
 
 extra:
   append_bootstrap:
@@ -102,9 +96,7 @@ extra_javascript:
 
 markdown_extensions:
   - admonition
-  - codehilite:
-      guess_lang: false
-      linenums: true
+  - attr_list
   - def_list
   - footnotes
   - meta
