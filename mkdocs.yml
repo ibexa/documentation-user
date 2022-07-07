@@ -32,6 +32,10 @@ nav:
 
 theme:
     name: material
+    features:
+        - content.code.annotate 
+        - navigation.tracking
+        - navigation.top
     custom_dir: 'theme'
     favicon: 'images/favicon.png'
     language: 'en'
@@ -95,7 +99,6 @@ markdown_extensions:
   - pymdownx.highlight:
       guess_lang: false
       linenums: true
-      css_class: codehilite
       extend_pygments_lang:
         - name: php
           lang: php
@@ -105,7 +108,8 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.superfences
-  - pymdownx.tabbed
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
