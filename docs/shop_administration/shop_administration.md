@@ -10,7 +10,7 @@ description: Manage the most important shop data and settings in the Back Office
 
 |Item|Description|
 |--- |--- |
-|[Dashboard [[% include 'snippets/commerce_badge.md' %]]](dashboard.md)|Basic statistics|
+|[Dashboard [[% include 'snippets/commerce_badge.md' %]]](shop_dashboard.md)|Basic statistics|
 |[Order management [[% include 'snippets/commerce_badge.md' %]]](manage_orders.md)|List or orders placed in the shop|
 |[Shipping management [[% include 'snippets/commerce_badge.md' %]]](manage_prices_and_stock.md#shipping-costs)|Management of shipping costs|
 |Customer Groups|Management of customer groups|
