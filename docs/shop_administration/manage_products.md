@@ -54,7 +54,7 @@ You can use it, for example, for digital download products.
 When you create and edit products, the Back Office shows visual indication
 of what part of product information (tasks) you have completed, and what part is still missing.
 
-![Quick view of product completeness](../img/product_completeness_bar.png)
+![Quick view of product completeness](img/product_completeness_bar.png)
 
 You can view full information about completed tasks in the product view's **Completeness** tab.
 
@@ -66,7 +66,7 @@ This tab lists all tasks required for product configuration, including:
 - prices in different currencies
 - translations
 
-![Product completeness screen](../img/product_completeness.png)
+![Product completeness screen](img/product_completeness.png)
 
 You can click the edit button next to an unfinished task in the Completeness table
 to move directly to the screen where you can add the missing information.
