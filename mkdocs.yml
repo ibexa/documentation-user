@@ -32,6 +32,7 @@ nav:
         - 'Orders': 'shop_administration/manage_orders.md'
         - 'Products': 'shop_administration/manage_products.md'
         - 'Prices and stock': 'shop_administration/manage_prices_and_stock.md'
+        - 'Catalogs': 'shop_administration/catalogs.md'
         - 'Users': 'shop_administration/manage_users.md'
         - 'Navigation structure': 'shop_administration/navigation_structure.md'
     - Personalization:
