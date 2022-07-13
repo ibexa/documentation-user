@@ -8,7 +8,7 @@ You can create catalogs which contain a selection of products from the system.
 
 Use catalogs, for example, to build special discount catalogs, campaigns, or tenders.
 
-![]()
+![Catalog menu with a sample catalog](img/catalog.png)
 
 ## Creating catalogs
 
@@ -34,11 +34,14 @@ You can also select additional filters from the **Add filter** menu:
 - product type
 - product code
 - product availability
+- product category
 
 The **Products** section at the bottom of the catalog screen shows a preview of which products fit the current filters.
 You can also remove selected filters there.
 
-![]()
+You can view all products in a catalog in its **Products** tab:
+
+![List of products in a catalog](img/catalogs_product_list.png)
 
 ## Copying catalogs
 
