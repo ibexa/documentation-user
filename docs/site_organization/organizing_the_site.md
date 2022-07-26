@@ -80,9 +80,9 @@ To set the starting location for the relation, perform the following steps.
 Go to **Content Types** and edit the respective Content Type.
 Next, go to **Field definitions**. In the `objectrelation` Field, select from the available options:
 
-- **Default** - the starting location is automatically assigned to the default location in the tree of a created Content Type.
+- **Default** - the starting location is automatically assigned to the default location in the tree of a created Content.
 - **Browse** - use to manually select the location from the Universal Discovery Widget.
-- **Content location** - the starting location is the location of the currently edited Content. For example, if you edit the Content Type with the location `50`, it sets the starting location to this value with children under this location.
+- **Content location** - the starting location is the location of the currently edited Content. For example, if you edit the Content item with the location `50`, it sets the starting location to this value with children under this location.
 - **Root default location** - use if you want the Universal Discovery Widget to start with the defined location with only children available for selection.
 
 ![Select starting location](img/select_start_location.png)
