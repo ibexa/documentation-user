@@ -31,8 +31,9 @@ To generate variants:
 
 ![Generating product variants](img/product_variants_generate.png)
 
-1. For each attribute listed, select the values you want to create variants for.
-1. Confirm with **Generate variants**.
+2\. For each attribute listed, select the values you want to create variants for.
+
+3\. Confirm with **Generate variants**.
 
 You can now see a list of all variants for the possible combinations of selected attribute values.
 
