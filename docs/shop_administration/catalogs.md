@@ -24,7 +24,7 @@ To create a catalog:
 
 You can use the following filters to select products for a catalog:
 
-- product price, in selected currency, with the option to set minimum and maximum price
+- product category
 - product attributes
 
 You can also select additional filters from the **Add filter** menu:
@@ -34,7 +34,8 @@ You can also select additional filters from the **Add filter** menu:
 - product type
 - product code
 - product availability
-- product category
+- product price, in selected currency, with the option to set minimum and maximum price
+- the date when the product was created
 
 The **Products** section at the bottom of the catalog screen shows a preview of which products fit the current filters.
 You can also remove selected filters there.
