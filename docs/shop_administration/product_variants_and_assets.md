@@ -1,8 +1,12 @@
+---
+description: You can create multiple variants of one product, based on attributes such as size, color, technical specifications, and others.
+---
+
 # Product variants and assets
 
 ## Product variants
 
-Product variants enable you to have versions of one product, differing in some characteristics.
+Product variants enable you to have multiple versions of one product, differing in some characteristics.
 
 Typical examples are a t-shirt in different colors, or a laptop with different hard disk sizes.
 
@@ -21,28 +25,28 @@ you can create up to four variants: `white/black`, `white/grey`, `oak/black`, an
 
 You can generate variants automatically based on the configured attributes.
 
-To create variants:
+To generate variants:
 
 1. Go to the **Variants** tab in product view and click **Generate variants**.
 
 ![Generating product variants](img/product_variants_generate.png)
 
-2. For each attribute listed, select the values you want to create variants for.
-3. Confirm with **Generate variants**.
+1. For each attribute listed, select the values you want to create variants for.
+1. Confirm with **Generate variants**.
 
-You can now see a list of all variants resulting from the possible combinations of selected attributes.
+You can now see a list of all variants for the possible combinations of selected attribute values.
 
-### Deleting and manually creating variants
+### Deleting variants
 
 You can delete any generated product variant.
 To do it, select one or more variants in the list and click the **Delete** button.
 
 ![Product variant list with option ot delete a variant](img/product_variants_delete.png)
 
+### Manually creating variants
+
 If needed, you can manually create any missing variants, including ones you previously deleted.
 To do this, click **Add** next to the variant list, enter a product code and select attribute values for the new variant.
-
-![]()
 
 ### Managing variants
 
@@ -55,10 +59,10 @@ If you do not define a price for a variant, the price of the main product is use
 ## Product assets
 
 You can add assets to products in the form of images.
-Assets can be assigned to the base product, and to one or more or its variants.
+Assets can be assigned to the base product, and to one or more of its variants.
 
 To add assets to a product, in the product's **Assets** tab browse or drag and drop to select image files from disk,
-or select existing image asset from library.
+or select an existing image asset from library.
 
 ![Adding assets to a product](img/product_assets.png)
 
