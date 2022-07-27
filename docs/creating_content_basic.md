@@ -105,9 +105,9 @@ You can select a SiteAccess to preview by using a drop-down in the preview scree
 
 To keep your content organized and easy to find, you can add taxonomy entries to a Content item while creating or editing it.
 
-1. Go to section with tag field.
+1. Go to section with the tag Field.
 1. Click the **Select Taxonomy Entries** button.
-1. In the pop-up window, select tag category and tags you want to add.
+1. In the pop-up window, select the tags you want to add.
 
 ![Select Taxonomy Entries](img/taxonomy_select_taxonomy_entries.png "Taxonomy entries")
 
