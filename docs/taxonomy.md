@@ -24,8 +24,16 @@ Now, the tag is visible in the taxonomy tree.
 
 ### Assign tag to content from taxonomy tree
 
-When you edit or create a Content Type, in the section **Select tags**, you can add a tag by typing or clicking **Select from tree**.
-You can add many tags.
+Taxonomy is controlled and configured by the Field type **Taxonomy Entry Assignment** settings, so you can use multiple instances
+of the Field type with different taxonomies, for example, tags and product categories in the same Content Type. 
+To be able to assign tags to a Content, first, you need to add a Taxonomy Field type.
+
+1. Go to **Content Types** -> **Content**.
+1. Click the **Edit** icon next to the Contet Type you want to modify.
+1. Go to **Field definitions** and from the available options, drag and drop the **Taxonomy Entry Assignment** to fields in the Content Type.
+1. From the **Taxonomy** drop-down, select the taxonomy you want to tag this Content with.
+
+Now, when you edit or create a Content Type, in the tags section, you can add a tag by clicking **Select Taxonomy Entries**.
 
 See [Adding taxonomy entries](creating_content_basic.md#adding-taxonomy-entries).
 
