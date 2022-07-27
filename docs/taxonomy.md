@@ -27,7 +27,7 @@ Now, the tag is visible in the taxonomy tree.
 Taxonomy is controlled and configured by the **Taxonomy Entry Assignment** Field settings,
 so you can use multiple Fields of this type with different taxonomies,
 for example, tags and product categories in the same Content Type. 
-To be able to assign tags to a Content, first, you need to add a Taxonomy Field to the Content Type definition.
+To be able to assign tags to a Content, first, you need to add a Taxonomy Entry Assignment Field to the Content Type definition.
 
 1. Go to **Content Types** -> **Content**.
 1. Click the **Edit** icon next to the Content Type you want to modify.
