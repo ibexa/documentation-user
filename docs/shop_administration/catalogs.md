@@ -4,9 +4,8 @@ description: Catalogs allow creating filtered product lists for special purposes
 
 # Catalogs
 
-You can create catalogs which contain a selection of products from the system.
-
-Use catalogs, for example, to build special discount catalogs, campaigns, or tenders.
+You can create catalogs, for example, to build special discount catalogs, campaigns, or tenders.
+Catalogs contain a selection of products from the system.
 
 ![Catalog menu with a sample catalog](img/catalog.png)
 
