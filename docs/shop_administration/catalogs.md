@@ -28,7 +28,7 @@ You can use the following filters to select products for a catalog:
 
 You can also select additional filters from the **Add filter** menu:
 
-![]()
+![Adding filters to catalog](img/catalogs_filters.png)
 
 - product type
 - product code
