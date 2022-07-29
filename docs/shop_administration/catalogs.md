@@ -34,6 +34,7 @@ You can also select additional filters from the **Add filter** menu:
 - product code
 - product availability
 - product price, in selected currency, with the option to set minimum and maximum price
+- product category
 - the date when the product was created
 
 The **Products** section at the bottom of the catalog screen shows a preview of which products fit the current filters.
