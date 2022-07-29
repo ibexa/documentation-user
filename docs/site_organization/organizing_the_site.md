@@ -74,16 +74,16 @@ to have relations only to Content items of a specific, or any Content Type.
 
 ### Setting relation starting location
 
-[Relation Field types](../creating_content_basic.md) allow to configure the location in the Content tree which opens in the Universal Discovery Widget (UDW).
+When you add a [Relation Field type](../creating_content_basic.md#relation_field) to a Content Type, you can decide which Content tree location opens in the [Content Browser](../content_model.md#content-browser) when the user browses to a related Content item.
 
 To set the starting location for the relation, perform the following steps. 
 Go to **Content Types** and edit the respective Content Type.
 Next, go to **Field definitions**. In the `objectrelation` Field, select from the available options:
 
 - **Default** - the starting location is automatically assigned to the default location in the tree of a created Content.
-- **Browse** - use to manually select the location from the Universal Discovery Widget.
-- **Content location** - the starting location is the location of the currently edited Content. For example, if you edit the Content item with the location `50`, it sets the starting location to this value with children under this location.
-- **Root default location** - use if you want the Universal Discovery Widget to start with the defined location with only children available for selection.
+- **Browse** - use to manually select the location from the Content Browser.
+- **Content location** - the starting location is the location of the Content item that is edited by the user. For example, if the user edits the Content item with the location `50`, it sets the starting location to this value with children under this location.
+- **Root default location** - use if you want the Content Browser to start at the defined location with only children available for selection.
 
 ![Select starting location](img/select_start_location.png)
 
