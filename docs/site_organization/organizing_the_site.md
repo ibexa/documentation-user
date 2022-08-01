@@ -77,8 +77,10 @@ to have relations only to Content items of a specific, or any Content Type.
 When you add a [Relation Field type](../creating_content_basic.md#relation_field) to a Content Type, you can decide which Content tree location opens in the [Content Browser](../content_model.md#content-browser) when the user browses to a related Content item.
 
 To set the starting location for the relation, perform the following steps. 
-Go to **Content Types** and edit the respective Content Type.
-Next, go to **Field definitions**. In the `objectrelation` Field, select from the available options:
+
+1. Go to **Content Types** and edit the respective Content Type.
+2. Go to **Field definitions** and either select or add the `objectrelation` Field
+3. Under **Select starting location**, select from the available options:
 
 - **Default** - the starting location is automatically assigned to the default location in the tree of a created Content item.
 - **Browse** - use to manually select the location from the Content Browser.
