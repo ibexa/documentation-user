@@ -42,9 +42,17 @@ When adding attributes to product types, you can add both individual attributes,
 
 ![Adding attributes to a product type](img/adding_attributes.png)
 
+### Attributes and variants
+
+Product attributes are the basis for creating variants.
+
+For every attribute, you can select **Used for product variants**.
+Attributes that have this option are used to [automatically generate product variants](product_variants_and_assets.md#generating-variants).
+
 ## Product availability and stock
 
 To control a product's availability and the available stock, use the product's **Availability** tab.
+If a product can have variants, you must set availability for each variant separately.
 
 ![Product availability](img/product_availability_tab.png)
 

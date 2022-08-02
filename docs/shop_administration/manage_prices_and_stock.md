@@ -15,14 +15,14 @@ In addition, prices can vary per customer group.
 
     To set up product prices, your system must have at least one currency enabled.
 
-To set a price, navigate to the product's **Prices** tab.
+To set a price, navigate to the product's or a product variant's **Prices** tab.
 Here you can see the existing prices for the selected currency.
 
 Select a currency in the dropdown menu to preview the price and click the edit button to modify it.
 
 ![Prices tab](img/product_price.png)
 
-For each product you can set prices separately for different customer groups.
+For each product or product variant you can set prices separately for different customer groups.
 Next to the base price you can see the **Global Price rule** defined for this customer group,
 which is applied to the base price.
 However, you can also set a **Custom price rule** for this product.
