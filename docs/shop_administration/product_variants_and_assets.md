@@ -35,7 +35,7 @@ To generate variants:
 
 3\. Confirm with **Generate variants**.
 
-You can now see a list of all variants for the possible combinations of selected attribute values.
+You can now see a list of all possible variants for the selected attribute values.
 
 ### Deleting variants
 
@@ -51,7 +51,7 @@ To do this, click **Add** next to the variant list, enter a product code and sel
 
 ### Managing variants
 
-You set up product availability separately for each product variant.
+You can set up product availability separately for each product variant.
 
 You can also set up prices per product variant.
 The prices will override prices set for the main product.
@@ -62,7 +62,7 @@ If you do not define a price for a variant, the price of the main product is use
 You can add assets to products in the form of images.
 Assets can be assigned to the base product, and to one or more of its variants.
 
-To add assets to a product, in the product's **Assets** tab browse or drag and drop to select image files from disk,
+To add assets to a product, in the product's **Assets** tab browse or drag and drop image files from disk,
 or select an existing image asset from library.
 
 ![Adding assets to a product](img/product_assets.png)
