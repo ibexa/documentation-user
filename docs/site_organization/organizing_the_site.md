@@ -81,11 +81,10 @@ To set the starting location for the relation, perform the following steps.
 1. Go to **Content Types** and edit the respective Content Type.
 2. Go to **Field definitions** and either select or add the `objectrelation` Field
 3. Under **Select starting location**, select from the available options:
-
-- **Default** - the starting location is automatically assigned to the default location in the tree of a created Content item.
-- **Browse** - use to manually select the location from the Content Browser.
-- **Content location** - the starting location is the location of the Content item that is edited by the user. For example, if the user edits the Content item with the location `50`, it sets the starting location to this value with children under this location.
-- **Root default location** - use if you want the Content Browser to start at the defined location with only children available for selection.
+    - **Default** - the starting location is automatically assigned to the default location in the tree of a created Content item.
+    - **Browse** - use to manually select the location from the Content Browser.
+    - **Content location** - the starting location is the location of the Content item that is edited by the user. For example, if the user edits the Content item with the location `50`, it sets the starting location to this value with children under this location.
+    - **Root default location** - use if you want the Content Browser to start at the defined location with only children available for selection.
 
 ![Select starting location](img/select_start_location.png)
 
