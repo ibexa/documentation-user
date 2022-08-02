@@ -31,6 +31,7 @@ nav:
         - 'Dashboard': 'shop_administration/shop_dashboard.md'
         - 'Orders': 'shop_administration/manage_orders.md'
         - 'Products': 'shop_administration/manage_products.md'
+        - 'Product variants and assets': 'shop_administration/product_variants_and_assets.md'
         - 'Prices and stock': 'shop_administration/manage_prices_and_stock.md'
         - 'Catalogs': 'shop_administration/catalogs.md'
         - 'Users': 'shop_administration/manage_users.md'
