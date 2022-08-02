@@ -15,7 +15,7 @@ To use an attribute to create variants, mark the attribute as **Used for product
 
 ![Product type definition with attributes used for variants](img/product_type_attr_used_for_variants.png)
 
-If a product has one attribute that can be used for variants, you can create variants for this attribute.
+If a product has only one attribute that can be used for variants, you can create variants for this attribute.
 
 If a product has more than one such attribute, you can create variants for any combination of attribute values.
 For example, for a desk that has two top colors: `white` and `oak` and two frame colors: `black` and `grey`,
