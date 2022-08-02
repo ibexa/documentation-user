@@ -23,6 +23,9 @@ A product type also defines the attributes that all products of this type can ha
 
 ![Adding a product type](img/create_product_type.png)
 
+Each product has a product code that must be unique. It identifies the product in the system.
+Product code can have up to 64 characters. It can contain only letters, numbers, underscores, and dashes.
+
 ## Attributes
 
 Attributes describe a product's characteristics.
