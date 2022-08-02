@@ -72,6 +72,22 @@ to have relations only to Content items of a specific, or any Content Type.
     You can delete a Content Type only when there are no Content items that belong to it.
     This also includes Content items in the Trash.
 
+### Setting relation starting location
+
+When you add a [Relation Field type](../creating_content_basic.md#relation_field) to a Content Type, you can decide which Content tree location opens in the [Content Browser](../content_model.md#content-browser) when the user browses to a related Content item.
+
+To set the starting location for the relation, perform the following steps. 
+
+1. Go to **Content Types** and edit the respective Content Type.
+2. Go to **Field definitions** and either select or add the `objectrelation` Field
+3. Under **Select starting location**, select from the available options:
+    - **Default** - the starting location is automatically assigned to the default location in the tree of a created Content item.
+    - **Browse** - use to manually select the location from the Content Browser.
+    - **Content location** - the starting location is the location of the Content item that is edited by the user. For example, if the user edits the Content item with the location `50`, it sets the starting location to this value with children under this location.
+    - **Root default location** - use if you want the Content Browser to start at the defined location with only children available for selection.
+
+![Select starting location](img/select_start_location.png)
+
 ## Users
 
 Users in [[= product_name =]] are treated the same way as other Content items.
