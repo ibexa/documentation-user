@@ -107,19 +107,19 @@
         <div class="col-lg-8 mb-5 latest-release">
             <h5>
                 The latest release
-                <span class="pill">v4.1</span>
+                <span class="pill">v4.2</span>
             </h5>
             <div class="row mt-3">
-                <div class="col-lg-5">The <a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v4.1/">latest version of Ibexa DXP is v4.1</a>. It is a Fast Track release, and it was released on April 15, 2022.
+                <div class="col-lg-5">The <a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v4.2/">latest version of Ibexa DXP is v4.2</a>. It is a Fast Track release, and it was released on August 9, 2022.
                 </div>
                 <div class="col-sm-7 features">
                     <ul>
-                    <li><a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v4.1/#product-catalog-integration-with-transactional-system">Product Catalog integration with the transactional system</a></li>
-                    <li><a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v4.1/#measurement-field-type-and-attribute">Measurement Field Type and attribute</a></li>
-                    <li><a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v4.1/#dynamic-targeting-block">Dynamic targeting block</a></li>
-                    <li><a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v4.1/#user-interface-improvements">User Interface improvements</a></li>
-                    <li><a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v4.1/#poduct-catalog-enhancements">Product Catalog enhancements</a></li>
-                    <li><a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v4.1/#expanded-data-migrations">Expanded data migrations</a></li>
+                    <li><a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v4.2/#customer-portal">Customer portal</a></li>
+                        <li><a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v4.2/#catalogs">Product catalog enhancements</a></li>
+                        <li><a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v4.2/#cross-content-type-recommendations">Cross content type recommendations</a></li>
+                        <li><a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v4.2/#taxonomy-field-type">Taxonomy Field Type</a></li>
+                        <li><a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v4.2/#repeatable-migration-steps">Repeatable migration steps</a></li>
+                        <li><a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v4.2/#api-improvements">API improvements</a></li>
                     </ul>
                 </div>
             </div>
