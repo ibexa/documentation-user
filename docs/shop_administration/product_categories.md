@@ -1,5 +1,5 @@
 ---
-description: You can create a structure of tags that can be assigned to products to help categorize products, to assist users in searching. One product can elong to different categories. In 4.2 you create, manage and assign categories manually, no import is available. In future releases categories will be assigned automatically based on rules, export./import will be added, as well as rules for applying different sales conditions based on categories.
+description: You can create a structure of tags that can be assigned to products to help categorize products, to assist users in searching. One product can belong to different categories. In 4.2 you create, manage and assign categories manually, no import is available. In future releases categories will be assigned automatically based on rules, export/import will be added, as well as rules for applying different sales conditions based on categories.
 ---
 
 # Product categories
