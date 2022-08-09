@@ -26,6 +26,7 @@ nav:
         - 'Managing content in bulk': 'site_organization/multi_file_content_management.md'
         - 'Pages': 'site_organization/working_with_page.md'
     - 'Searching': 'search.md'
+    - 'User management': 'users/user_management.md'
     - Shop administration:
         - 'Shop administration': 'shop_administration/shop_administration.md'
         - 'Dashboard': 'shop_administration/shop_dashboard.md'
@@ -35,6 +36,7 @@ nav:
         - 'Prices and stock': 'shop_administration/manage_prices_and_stock.md'
         - 'Catalogs': 'shop_administration/catalogs.md'
         - 'Users': 'shop_administration/manage_users.md'
+        - 'Customer Portal': 'shop_administration/customer_portal.md'
         - 'Navigation structure': 'shop_administration/navigation_structure.md'
     - Personalization:
         - 'Personalization': 'personalization/personalization.md'
