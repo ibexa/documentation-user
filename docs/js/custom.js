@@ -80,9 +80,24 @@ $(document).ready(function() {
         .addClass('external');
 
     docsearch({
-        apiKey: 'ad3fdf56ae5e315d12c356e2f84ed3f3',
+        container: '#docsearch',
+        appId: 'WLX2XJZTRM',
+        apiKey: '2f787880034cca4df5db377f12ac3d8a',
         indexName: 'ezplatform_userguide',
         inputSelector: '#search_input',
+        transformData: function(hits) {
+            let removedPattern = '¶';
+            $.each(hits, function(index, hit) {
+                for (let lvl=2; lvl<=6; lvl++) {
+                    if (null !== hit.hierarchy['lvl'+lvl]) {
+                        hits[index].hierarchy['lvl' + lvl] = hit.hierarchy['lvl' + lvl].replace(removedPattern, '');
+                    }
+                    if ('undefined' !== typeof hit._highlightResult.hierarchy['lvl'+lvl]) {
+                        hits[index]._highlightResult.hierarchy['lvl'+lvl].value = hit._highlightResult.hierarchy['lvl'+lvl].value.replace(removedPattern, '');
+                    }
+                }
+            });
+        },
         algoliaOptions: {
             facetFilters: ['lang:en', 'version:' + branchName],
             hitsPerPage: 10,
