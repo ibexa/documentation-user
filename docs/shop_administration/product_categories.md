@@ -27,14 +27,15 @@ The field could be absent if Product Types were migrated from an older version o
 Depending on your permissions, you might be able to verify the presence of the field and add the field yourself:
 
 1. In the left panel, click **Product catalog** -> **Product Types** to open a list of available Product Types.
-2. To create a new Product Type, click the  **Create** button and skip to step 4.
-3. To edit an existing Product Type, click the **Edit** icon next to a name of the Product Type that you want to modify.
-4. In the **Editing Product Type** modal, drag and drop the "Taxonomy Entry Assignment" option from the **Field types** area to the **Field definitions** area.
-5. Expand the **New field type** that you just added and make the following settings:
-    * Set a name for the field, for example, "Product category"
-    * Select the **Required** custom_checkbox
-    * In the **Taxonomy** field, select the "Product categories" option
-6. Optionally, modify other Product Type settings as required.
+2. Click the **Edit** icon next to a name of the Product Type that you want to review.
+3. In the **Editing Product Type** modal, check whether the **Field definitions** area contains the **Categories** field of **Taxonomy Entry Assignment** type. 
+    1. If the field is present, click **Discard changes** and skip the remaining steps.
+    2. If the field is absent, drag and drop the **Taxonomy Entry Assignment** option from the **Field types** area to the **Field definitions** area.
+    3. Expand the **New field type** that you just added and make the following settings:
+        * Set a name for the field, for example, "Product category"
+        * Select the **Required** custom_checkbox
+        * In the **Taxonomy** field, select the "Product categories" option
+4. Optionally, modify other Product Type settings as required.
 7. Click **Save**.
 
 You can now add product categories and then create relationships between products and product categories.
