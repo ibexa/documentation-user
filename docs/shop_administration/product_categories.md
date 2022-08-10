@@ -21,9 +21,10 @@ Product categories are organized into a Category tree, which you can access from
 
 ## Enable product categories
 
-Before you can assign categories to products, make sure that the "Taxonomy Entry Assignment" field is added and set as required in all the [Product Types](../../content_model/#content-types) that define products from your Product Catalog which you want to categorize.
+Before you can assign categories to products, make sure that the **Taxonomy Entry Assignment** field is added and set as required in all the [Product Types](../../content_model/#content-types) that define products from your Product Catalog which you want to categorize. 
+The field could be absent if Product Types were migrated from an older version of the product.
 
-Depending on your permissions, you might be able to add the field yourself:
+Depending on your permissions, you might be able to verify the presence of the field and add the field yourself:
 
 1. In the left panel, click **Product catalog** -> **Product Types** to open a list of available Product Types.
 2. To create a new Product Type, click the  **Create** button and skip to step 4.
@@ -32,9 +33,9 @@ Depending on your permissions, you might be able to add the field yourself:
 5. Expand the **New field type** that you just added and make the following settings:
     * Set a name for the field, for example, "Product category"
     * Select the **Required** custom_checkbox
-    * In the **Taxonomy** field, make sure that the "Product categories" option is selected
+    * In the **Taxonomy** field, select the "Product categories" option
 6. Optionally, modify other Product Type settings as required.
-7. Click **Save** to save your changes.
+7. Click **Save**.
 
 You can now add product categories and then create relationships between products and product categories.
 
@@ -81,11 +82,11 @@ You can create or change product category relationships with products in two way
 
 1. In the left panel, click **Product catalog** -> **Categories** to navigate to the product category tree.
 2. In the product category tree, select a category and go to the **Content** tab.
-3. To add products to a list of related products:
+3. To assign products to the current category:
     1. Click the **Assign** button.
     2. In the Content browser, select checkboxes next to products related with the category.
     3. Click **Confirm** to confirm the selection.
-4. To remove products from a list of related products:
+4. To unassign products from the current category:
     1. In the **Content** tab, select checkboxes next to products selected for removal.
     2. Click the **Unassign** button
 
