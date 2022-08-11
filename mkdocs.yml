@@ -34,8 +34,8 @@ nav:
         - 'Product variants and assets': 'shop_administration/product_variants_and_assets.md'
         - 'Prices and stock': 'shop_administration/manage_prices_and_stock.md'
         - 'Catalogs': 'shop_administration/catalogs.md'
-        - 'Customers management':
-            - 'Customers management': 'shop_administration/manage_users.md'
+        - 'Customer management':
+            - 'Customer management': 'shop_administration/manage_users.md'
             - 'Customer Portal': 'shop_administration/customer_portal.md'
         - 'Navigation structure': 'shop_administration/navigation_structure.md'
     - Personalization:
