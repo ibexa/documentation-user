@@ -36,7 +36,7 @@ You can always return to the **My dashboard** screen by clicking the logo in the
 
 The left side menu allows you to move between important sections of the application.
 
-![Top bar](img/top_bar.png "Top bar")
+![Side menu](img/top_bar.png "Side menu")
 
 Top level sections include, for example:
 

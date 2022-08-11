@@ -108,8 +108,6 @@ As you can see, the interface here is the same as when working with regular Cont
 You can access the registration form for your website by adding `/register` to the address,
 for example: `www.my-site.com/register`. By default, new Users created in this way are placed in the Guest accounts group.
 
-![User registration form](img/register_user.png "User registration form")
-
 ## Permissions
 
 Overview of the permission system in [[= product_name =]] is best presented using an example.
