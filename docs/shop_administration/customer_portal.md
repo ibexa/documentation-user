@@ -1,5 +1,5 @@
 ---
-description: Customer Portal allows you to create and manage business account for your company.
+description: Customer Portal allows your clients to create and manage business account for their company.
 ---
 
 # Customer Portal account
@@ -18,24 +18,25 @@ For a detailed list of your order history, go to **Pending Order** and **Past Or
 To view and manage members of your company, go to the **Members** section.
 There you can:
 
-- change the status of each member,
-- change their role,
-- edit their basic information.
+- change the status of each member
+- change their role
+- edit their basic information
 
 ![List of members](img/cp_members_portal.png)
 
 To invite new members to your organization, select **Invite members**.
 Then, in a pop-up window fill out email addresses one by one,
-or use drag and drop to upload a file with an email list.
+or use a drag and drop feature to upload a file with an email list.
 Assign a role to each new member of your team from a drop-down list.
-Click **Send** to send out invitations.
+Click **Send** to send out invitation emails.
 
 ![Invite members](img/cp_invite_members_portal.png)
 
 Invited users will receive an email message with a registration link.
 With it, they can register and create their account in the Customer Portal.
 
-In the **Invitation** tab, you can find a list of all invitations, copy their registration link and re-send them if needed.
+In the **Invitation** tab, you can find a list of all invitations,
+registration links and option to re-send invitations if needed.
 
 ![List of invitations](img/cp_invitations_list_portal.png)
 

@@ -17,10 +17,10 @@ you can also edit them or create a new one by selecting **Create** button in the
 
 To create a new company, you need to provide:
 
-- name,
-- tax ID,
-- customer group,
-- sales representative.
+- name
+- tax ID
+- customer group
+- sales representative
 
 Optionally, you can add a website and billing address that can speed up a billing process.
 
@@ -29,7 +29,6 @@ Optionally, you can add a website and billing address that can speed up a billin
 ## Manage company
 
 Created companies can be managed from the Back Office in the **Members** -> **Companies** section.
-
 Each company has its own profile where you can find:
 
 - summary with basic information and order history
@@ -39,17 +38,17 @@ Each company has its own profile where you can find:
 
 ![Company profile in the Back Office](img/cp_company_profile_back_office.png)
 
-From there you can edit your company information, invite members, manage their roles and edit their basic information.
-You can also add members to your team from existing pull of users,
-but if you want to set up a Contact Person, make sure it comes from your company.
+From there, you can edit the company information, invite members, manage their roles and edit their basic information.
+You can also add members to a team from existing pull of users.
+Note that the Contact Person in the company has to be a member of that company.
 
 ![Add Contact Person](img/cp_contact_person_back_office.png)
 
 ### Admin Panel
 
-You can also manage your company from **Admin**.
+You can also manage companies from **Admin**.
 There, in the **Corporate** section, you can find a list of members,
-billing addresses and technical details regarding your organization such as visibility, IDs, relations and so on.
+billing addresses and technical details regarding the organization such as visibility, IDs, relations and so on.
 
 ![Corporate Back Office](img/cp_admin_company_view.png)
 
@@ -59,7 +58,7 @@ If you decide to remove any Policies from the **Corporate Access** role, the fea
 
 ## Invite members
 
-To invite other members to your organization,
+To invite other members to the organization,
 go to **Members** -> **Companies** -> Select your company -> **Invitations**.
 
 ![Invite members from the Back Office](img/cp_invitations_back_office.png)
@@ -67,13 +66,13 @@ go to **Members** -> **Companies** -> Select your company -> **Invitations**.
 There, you can find a list of all invitations, copy their registration links
 and re-send the invitation emails.
 
-To invite new members to your organization, select **Invite member**.
+To invite new members to the company, select **Invite member**.
 
 ![Invite members from the Customer Portal](img/cp_invite_members_portal.png)
 
 Then, in a pop-up window fill out email addresses one by one,
-or use drag and drop to upload a file with an email list.
-You also have to assign a role to each new member of your team from a drop-down list.
+or use a drag and drop to upload a file with an email list.
+You also have to assign a role to each new member from a drop-down list.
 Click **Send** to send out invitations.
 
 Invited users will receive an email message with a registration link.
