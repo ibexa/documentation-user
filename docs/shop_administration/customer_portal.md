@@ -2,76 +2,45 @@
 description: Customer Portal allows you to create and manage business account for your company.
 ---
 
-# Customer Portal [[% include 'snippets/commerce_badge.md' %]]
+# Customer Portal account
 
-Customer Portal allows you to create and manage business accounts.
-With this feature, you can easily manage your organization information,
-invite and manage members and view your past orders.
+Customer Portal allows you to create and manage your business account.
+With this feature, you can easily edit your organization information,
+invite and view members and check your order history.
 
-In the Back Office, you can manage multiple organisations or multiple teams within one organisation.
+![Customer Portal Dashboard](img/cp_dashboard_customer_portal.png)
 
-## Create a new company
+In the dashboard, you will find a sales representative of your company and a brief summary of your order history.
+For a detailed list of your order history, go to **Pending Order** and **Past Orders** sections.
 
-To create a new company, go to **Members** -> **Companies** section.
-There you can view a list of companies you have access to,
-you can also edit them or create a new one by selecting **Create** button in the top right corner.
+## Manage members
 
-![Companies section](img/cp_companies_section_back_office.png)
+To view and manage members of your company, go to the **Members** section.
+There you can:
 
-To create a new company, you need to provide:
+- change the status of each member,
+- change their role,
+- edit their basic information.
 
-- name,
-- tax ID,
-- customer group,
-- sales representative.
-
-Optionally, you can add a website and billing address that can speed up a billing process.
-
-![Create a new company account](img/cp_create_company_back_office.png)
-
-## Manage company
-
-Created companies can be managed from the Back Office in the **Members** -> **Companies** section.
-
-Each company has its own profile where you can find:
-
-- summary with basic information and order history
-- company profile with billing information and contact person
-- list of members and pending invitations
-- address book with billing addresses 
-
-![Company profile in the Back Office](img/cp_company_profile_back_office.png)
-
-## Invite members
-
-There are two places where you can easily invite other members to your organization and manage sent invitations:
-
-- Back Office -> **Members** -> **Companies** -> Select your company -> **Invitations**
-- Customer Portal -> **Members** -> **Invitations**
-
-![Invite members from the Back Office](img/cp_invitations_list_portal.png)
-
-There, you can find a list of all invitations, copy their registration links
-and re-send the invitation emails.
+![List of members](img/cp_members_portal.png)
 
 To invite new members to your organization, select **Invite members**.
-
-![Invite members from the Customer Portal](img/cp_invite_members_portal.png)
-
 Then, in a pop-up window fill out email addresses one by one,
 or use drag and drop to upload a file with an email list.
-You also have to assign a role to each new member of your team from a drop-down list.
+Assign a role to each new member of your team from a drop-down list.
 Click **Send** to send out invitations.
+
+![Invite members](img/cp_invite_members_portal.png)
 
 Invited users will receive an email message with a registration link.
 With it, they can register and create their account in the Customer Portal.
 
-![Register in Customer Portal](img/cp_register_account_portal.png)
+In the **Invitation** tab, you can find a list of all invitations, copy their registration link and re-send them if needed.
 
-## Customer Portal Account
+![List of invitations](img/cp_invitations_list_portal.png)
 
+## Address book
 
+If you want to add a new billing address or change the default one, you can do it in the **Address Book** section.
 
-
-
-
+![Address book](img/cp_address_book_portal.png)
