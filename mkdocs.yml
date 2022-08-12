@@ -30,13 +30,14 @@ nav:
         - 'Shop administration': 'shop_administration/shop_administration.md'
         - 'Dashboard': 'shop_administration/shop_dashboard.md'
         - 'Orders': 'shop_administration/manage_orders.md'
+        - 'Navigation structure': 'shop_administration/navigation_structure.md'
+    - PIM:
         - 'Products': 'shop_administration/manage_products.md'
         - 'Product variants and assets': 'shop_administration/product_variants_and_assets.md'
         - 'Product categories': 'shop_administration/product_categories.md'
         - 'Prices and stock': 'shop_administration/manage_prices_and_stock.md'
         - 'Catalogs': 'shop_administration/catalogs.md'
         - 'Users': 'shop_administration/manage_users.md'
-        - 'Navigation structure': 'shop_administration/navigation_structure.md'
     - Personalization:
         - 'Personalization': 'personalization/personalization.md'
         - 'Use cases': 'personalization/use_cases.md'
