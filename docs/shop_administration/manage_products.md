@@ -34,7 +34,7 @@ Product code can have up to 64 characters. It can contain only letters, numbers,
 
 3\. If needed, add additional Fields decriptinb the product.
 
-4\. Add attributes.
+4\. Add attributes by dragging them from the toolbox on the right.
 
 ## Attributes
 
@@ -60,7 +60,8 @@ An example of an attribute group can be dimensions (which consists of length, wi
 ![Creating an attribute in a group](img/create_attribute.png)
 
 When adding attributes to product types, you can add both individual attributes, and whole groups.
-You can also remove attributes from groups that you do not want to use for the given product type.
+You can also remove while groups, or single attributes from groups that you do not want to use for the given product type.
+Do this by clicking the trash icon next to the group or attribute.
 
 ![Adding attributes to a product type](img/adding_attributes.png)
 
@@ -78,7 +79,8 @@ If a product can have variants, you must set availability for each variant separ
 
 ![Product availability](img/product_availability_tab.png)
 
-Click **Create** to add availability to a product that doesn't have it, or **Edit** to modify existing availability settings.
+In the **Availability** tab, click **Create** to add availability to a product that doesn't have it,
+or **Edit** to modify existing availability settings.
 
 Use the **Available** switcher to indicate whether the product is currently available in the catalog.
 
