@@ -53,10 +53,10 @@ Using the toolbar buttons, you can perform the following actions:
 |Button|Description|
 |------|-----------|
 |![Edit and preview switch](img/page_builder_toolbar_editpreview.png)|Switch between previewing and editing the Page.|
+|![Layout switch](img/page_builder_switch_layout)|Switch between Page layouts.|
 |![Preview segments](img/page_builder_toolbar_preview_segment.png)|Access preview of the Page for a given Segment.|
-|![View toggler](img/page_builder_toolbar_devicestoggler.png)|Toggle through to see how the Page is rendered on different devices.|
 |![Timeline button](img/page_builder_toolbartimelinetoggler.png)|Access the timeline to preview how the Page changes with time. You can also view the list of all upcoming scheduled events. For details, see [Timeline](../publishing/advanced_publishing_options.md#timeline).|
-|![Page builder menu button](img/page_builder_toolbarpopmenu.png)|Access menu enabling you to switch layout, see versions of the Page, manage translations, or delete the Page.|
+|![View toggler](img/page_builder_toolbar_devicestoggler.png)|Toggle through to see how the Page is rendered on different devices.|
 |![Elements menu](img/page_builder_toolbarelements.png)|Access menu with Elements.|
 
 In a newly created Page you can [choose a layout](#configure-available-page-layouts) which defines the available zones.
