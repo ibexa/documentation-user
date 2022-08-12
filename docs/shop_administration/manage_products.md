@@ -32,7 +32,7 @@ To create a product type:
 Each product has a product code that must be unique. It identifies the product in the system.
 Product code can have up to 64 characters. It can contain only letters, numbers, underscores, and dashes.
 
-3\. If needed, add additional Fields decriptinb the product.
+3\. If needed, add additional Fields describing the product.
 
 4\. Add attributes by dragging them from the toolbox on the right.
 
@@ -49,7 +49,7 @@ Available attribute types are:
 - Checkbox
 - Color - presented as a hex value
 - Float - represents a number with fractions
-- Integer - represents a number without fractions
+- Integer - represents a number without fractions (a whole number)
 - Measurement (range) - measurement with a given unit and minimum/maximum values selectable per product type
 - Measurement (single) - measurement with a single value in given unit
 - Selection - one of a list of customizable options
