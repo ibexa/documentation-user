@@ -21,8 +21,9 @@ To create a new company, you need to provide:
 - tax ID
 - customer group
 - sales representative
+- billing address
 
-Optionally, you can add a website and billing address that can speed up a billing process.
+Optionally, you can add a website and other contact details.
 
 ![Create a new company account](img/cp_create_company_back_office.png)
 
@@ -34,7 +35,7 @@ Each company has its own profile where you can find:
 - summary with basic information and order history
 - company profile with billing information and contact person
 - list of members and pending invitations
-- address book with billing addresses
+- address book with multiple shipping addresses
 
 ![Company profile in the Back Office](img/cp_company_profile_back_office.png)
 
