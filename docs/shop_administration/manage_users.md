@@ -75,7 +75,7 @@ To invite new members to the company, select **Invite member**.
 ![Invite members from the Customer Portal](img/cp_invite_members_portal.png)
 
 Then, in a pop-up window fill out email addresses one by one,
-or use a drag and drop to upload a file with an email list.
+or use drag and drop to upload a file with a list of emails.
 You also have to assign a Role to each new member from a drop-down list.
 Click **Send** to send out invitations.
 
