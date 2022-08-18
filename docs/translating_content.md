@@ -29,7 +29,7 @@ After adding a language, you may have to reload the application to be able to us
     However, depending on the way your website is set up, additional configuration may be necessary
     for the new language to work properly, especially with SiteAccesses.
     It is recommended you contact your administrator and inform them if you need to add a new language to the website
-    (see [the technical documentation on language versions](https://doc.ibexa.co/en/master/guide/internationalization/)).
+    (see [the technical documentation on language versions]([[= developer_doc =]]/multisite/languages/languages/)).
 
 ## SiteAccess in Page mode [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 

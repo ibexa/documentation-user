@@ -37,4 +37,4 @@ icon next to the site in which you want to place a personalization block.
 1. Save your changes to the draft or publish the Page.
 
 For more information about collecting events and embedding recommendation results, 
-see [Integrate recommendation service](https://doc.ibexa.co/en/master/guide/personalization/basic_integration/).
+see [Integrate recommendation service]([[= developer_doc =]]/personalization/integrate_recommendation_service/).
