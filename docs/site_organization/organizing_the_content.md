@@ -70,7 +70,7 @@ You can also copy the whole subtree (a Content item with all content under it in
     Copying very large subtrees may take too much time and server effort. That is why the system administrator
     may set a limit on how many Content items can be copied at the same time.
 
-    See [Copy subtree limit](https://doc.ibexa.co/en/master/guide/config_back_office/#copy-subtree-limit)
+    See [Copy subtree limit](https://doc.ibexa.co/en/master/administration/back_office/back_office_configuration/#copy-subtree-limit)
     in the developer documentation on how to set this up.
 
 Copying creates a new Content item.
@@ -121,7 +121,7 @@ in all of its Locations.
 In your site, you can manage external URL addresses and URL wildcards.
 You do this in the Back Office, **Admin** tab, the **URL Management** node.
 
-For more information about URL management, see the [Ibexa Developer Documentation.](https://doc.ibexa.co/en/latest/guide/url_management).
+For more information about URL management, see the [Ibexa Developer Documentation.](https://doc.ibexa.co/en/latest/content_management/url_management/url_management/).
 
 ### Link manager
 

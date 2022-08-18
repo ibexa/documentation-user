@@ -13,7 +13,7 @@
                         Ibexa DXP v4.2 is now available!
                     </span>
                     <span class="d-flex flex-column flex-xs-row flex-sm-row flex-md-row justify-content-between align-items-center ml-md-4">
-                        <a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v4.2/" class="btn btn-sm btn-announcement-outline mr-4 ml-4 ml-md-0 mb-3 mb-sm-0">
+                        <a href="https://doc.ibexa.co/en/latest/release_notes/ibexa_dxp_v4.2/" class="btn btn-sm btn-announcement-outline mr-4 ml-4 ml-md-0 mb-3 mb-sm-0">
                             See release notes
                         </a>
                     </span>
@@ -110,16 +110,16 @@
                 <span class="pill">v4.2</span>
             </h5>
             <div class="row mt-3">
-                <div class="col-lg-5">The <a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v4.2/">latest version of Ibexa DXP is v4.2</a>. It is a Fast Track release, and it was released on August 9, 2022.
+                <div class="col-lg-5">The <a href="https://doc.ibexa.co/en/latest/release_notes/ibexa_dxp_v4.2/">latest version of Ibexa DXP is v4.2</a>. It is a Fast Track release, and it was released on August 9, 2022.
                 </div>
                 <div class="col-sm-7 features">
                     <ul>
-                    <li><a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v4.2/#customer-portal">Customer portal</a></li>
-                        <li><a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v4.2/#catalogs">Product catalog enhancements</a></li>
-                        <li><a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v4.2/#cross-content-type-recommendations">Cross content type recommendations</a></li>
-                        <li><a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v4.2/#taxonomy-field-type">Taxonomy Field Type</a></li>
-                        <li><a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v4.2/#repeatable-migration-steps">Repeatable migration steps</a></li>
-                        <li><a href="https://doc.ibexa.co/en/latest/releases/ibexa_dxp_v4.2/#api-improvements">API improvements</a></li>
+                    <li><a href="https://doc.ibexa.co/en/latest/release_notes/ibexa_dxp_v4.2/#customer-portal">Customer portal</a></li>
+                        <li><a href="https://doc.ibexa.co/en/latest/release_notes/ibexa_dxp_v4.2/#catalogs">Product catalog enhancements</a></li>
+                        <li><a href="https://doc.ibexa.co/en/latest/release_notes/ibexa_dxp_v4.2/#cross-content-type-recommendations">Cross content type recommendations</a></li>
+                        <li><a href="https://doc.ibexa.co/en/latest/release_notes/ibexa_dxp_v4.2/#taxonomy-field-type">Taxonomy Field Type</a></li>
+                        <li><a href="https://doc.ibexa.co/en/latest/release_notes/ibexa_dxp_v4.2/#repeatable-migration-steps">Repeatable migration steps</a></li>
+                        <li><a href="https://doc.ibexa.co/en/latest/release_notes/ibexa_dxp_v4.2/#api-improvements">API improvements</a></li>
                     </ul>
                 </div>
             </div>

@@ -51,7 +51,7 @@ so the area that contains the selected point is always visible.
 !!! note
 
     Cropping to focal point is not automatic. The site's templates must be adapted for this to happen.
-    See [Use focal point](https://doc.ibexa.co/en/latest/guide/content_rendering/embed_and_list_content/render_images/#use-focal-point)
+    See [Use focal point](https://doc.ibexa.co/en/latest/templating/embed_and_list_content/render_images/#use-focal-point)
     in developer documentation for an example of implementing such cropping.
 
 Click the **Show point** button to see a target on the preview.

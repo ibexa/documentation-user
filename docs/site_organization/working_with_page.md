@@ -74,7 +74,7 @@ Do not worry about placing blocks in the proper place from the start.
 You can reorder them at any time by dragging and dropping them in the desired location.
 
 [[= product_name_ee =]] comes with a set of ready-to-use Page blocks,
-but [developers can add their own](https://doc.ibexa.co/en/latest/guide/page/create_custom_page_block/).
+but [developers can add their own](https://doc.ibexa.co/en/latest/content_management/pages/create_custom_page_block/).
 
 ![Elements menu](img/elements_menu.png "Elements menu")
 
@@ -165,7 +165,7 @@ On the **Basic** tab, perform the following actions:
 
     To present two or more identical forms on one Page, ask your developer to create several identical form blocks that you can then use. Otherwise you may encounter issues with duplicate data submission.
     
-    For more information about creating form blocks, see [Creating a newsletter form](https://doc.ibexa.co/en/master/tutorials/enterprise_beginner/5_create_newsletter_form/#add-a-form-block) in developer documentation.
+    For more information about creating form blocks, see [Creating a newsletter form](https://doc.ibexa.co/en/latest/content_management/pages/create_custom_page_block/) in developer documentation.
 
 ### Code block
 
@@ -277,7 +277,7 @@ Now, only selected page blocks are available in the edit mode.
     a user has to delete these blocks from the Landing Page.
 
 !!! caution "Add new blocks"
-    If a [developer creates a new block](https://doc.ibexa.co/en/latest/guide/page/create_custom_page_block/) and you want to make it available 
+    If a [developer creates a new block](https://doc.ibexa.co/en/latest/content_management/pages/create_custom_page_block/) and you want to make it available 
     in the editor mode, you must select it manually in the **Select page blocks** section.
 
 ## Configure preferred edit mode
