@@ -12,7 +12,7 @@ and provides a user interface to work with the content and administer the platfo
 
 ## Quick start
 
-[[= product_name =]] must be [installed by administrator](https://doc.ibexa.co/en/latest/getting_started/install_ibexa_dxp/).
+[[= product_name =]] must be [installed by administrator]([[= developer_doc =]]/getting_started/install_ibexa_dxp/).
 They should provide you with the address of the installation.
 
 To access the Back Office (the editor interface), add `/admin` to this address.

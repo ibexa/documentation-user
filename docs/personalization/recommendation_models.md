@@ -223,7 +223,7 @@ The logic used for resolving a submodel is as follows:
 Segments allow getting personalized content suitable for particular user groups. They compute models based on segment attribute factor.
 Information with user segment is provided in each event which comes from the tracking script.
 
-First, make sure you have [enabled personalization](https://doc.ibexa.co/en/latest/personalization/integrate_recommendation_service/) and [configured item type tracking](https://doc.ibexa.co/en/latest/personalization/enable_personalization/#set-up-item-type-tracking).
+First, make sure you have [enabled personalization]([[= developer_doc =]]/personalization/integrate_recommendation_service/) and [configured item type tracking]([[= developer_doc =]]/personalization/enable_personalization/#set-up-item-type-tracking).
 
 If your [user Role](../site_organization/organizing_the_site.md#permissions) includes 
 the `Segment/All functions`, `Segment group/All functions` Policies, you can configure segment settings in the models according to your requirements.
