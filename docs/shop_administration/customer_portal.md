@@ -2,7 +2,7 @@
 description: Customer Portal allows your clients to create and manage business account for their company.
 ---
 
-# Customer Portal account
+# Customer Portal account [[% include 'snippets/experience_badge.md' %]]
 
 Customer Portal allows you to create and manage your business account.
 With this feature, you can easily edit your organization information,
