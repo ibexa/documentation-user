@@ -29,6 +29,9 @@ nav:
     - 'User management': 'users/user_management.md'
     - Shop administration:
         - 'Shop administration': 'shop_administration/shop_administration.md'
+        - 'Customer management':
+            - 'Customer management': 'shop_administration/manage_users.md'
+            - 'Customer Portal': 'shop_administration/customer_portal.md'
         - 'Dashboard': 'shop_administration/shop_dashboard.md'
         - 'Orders': 'shop_administration/manage_orders.md'
         - 'Navigation structure': 'shop_administration/navigation_structure.md'
@@ -38,9 +41,6 @@ nav:
         - 'Product categories': 'shop_administration/product_categories.md'
         - 'Prices and stock': 'shop_administration/manage_prices_and_stock.md'
         - 'Catalogs': 'shop_administration/catalogs.md'
-        - 'Customer management':
-            - 'Customer management': 'shop_administration/manage_users.md'
-            - 'Customer Portal': 'shop_administration/customer_portal.md'
     - Personalization:
         - 'Personalization': 'personalization/personalization.md'
         - 'Use cases': 'personalization/use_cases.md'

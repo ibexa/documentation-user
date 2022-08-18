@@ -55,7 +55,10 @@ billing addresses and technical details regarding the organization such as visib
 
 In the **Roles** section, you can define Policies for each User Group, for example, a Company buyer.
 You can also set up Policies for every user who has a business account by editing a **Corporate Access** role.
-If you decide to remove any Policies from the **Corporate Access** role, the feature may not work properly.
+
+!!! caution "Warning"
+
+    Do not remove any Policies from the **Corporate Access** role, the proper behaviour of business accounts depends on them.
 
 ## Invite members
 
