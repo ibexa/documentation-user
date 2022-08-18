@@ -7,7 +7,7 @@ description: You can manage and view customers and organizations' accounts in yo
 In the Back Office, you can manage members of your team,
 customers and organizations' accounts in your system, including their shop activities such as orders.
 
-## Create a new company
+## Create new company
 
 To create a new company, go to **Members** -> **Companies** section.
 There you can view a list of companies you have access to,
@@ -29,7 +29,7 @@ Optionally, you can add a website and other contact details.
 
 ## Manage company
 
-Created companies can be managed from the Back Office in the **Members** -> **Companies** section.
+Companies can be managed from the Back Office in the **Members** -> **Companies** section.
 Each company has its own profile where you can find:
 
 - summary with basic information and order history
@@ -40,21 +40,21 @@ Each company has its own profile where you can find:
 ![Company profile in the Back Office](img/cp_company_profile_back_office.png)
 
 From there, you can edit the company information, invite members, manage their roles and edit their basic information.
-You can also add members to a team from existing pull of users.
+You can also add members to a team from existing pool of users.
 Note that the Contact Person in the company has to be a member of that company.
 
 ![Add Contact Person](img/cp_contact_person_back_office.png)
 
 ### Admin Panel
 
-You can also manage companies from **Admin**.
+You can also manage companies from **Admin** in the left menu.
 There, in the **Corporate** section, you can find a list of members,
 billing addresses and technical details regarding the organization such as visibility, IDs, relations and so on.
 
 ![Corporate Back Office](img/cp_admin_company_view.png)
 
 In the **Roles** section, you can define Policies for each User Group, for example, a Company buyer.
-You can also set up Policies for every user that is using business account by editing a **Corporate Access** role.
+You can also set up Policies for every user who has a business account by editing a **Corporate Access** role.
 If you decide to remove any Policies from the **Corporate Access** role, the feature may not work properly.
 
 ## Invite members
@@ -73,7 +73,7 @@ To invite new members to the company, select **Invite member**.
 
 Then, in a pop-up window fill out email addresses one by one,
 or use a drag and drop to upload a file with an email list.
-You also have to assign a role to each new member from a drop-down list.
+You also have to assign a Role to each new member from a drop-down list.
 Click **Send** to send out invitations.
 
 Invited users will receive an email message with a registration link.

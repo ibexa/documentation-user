@@ -5,7 +5,7 @@ description: Customer Portal allows your clients to create and manage business a
 # Customer Portal account [[% include 'snippets/experience_badge.md' %]]
 
 Customer Portal allows you to create and manage your business account.
-With this feature, you can easily edit your organization information,
+With this feature, you can edit your organization information,
 invite and view members and check your order history.
 
 ![Customer Portal Dashboard](img/cp_dashboard_customer_portal.png)
@@ -26,7 +26,7 @@ There you can:
 
 To invite new members to your organization, select **Invite members**.
 Then, in a pop-up window fill out email addresses one by one,
-or use a drag and drop feature to upload a file with an email list.
+or use drag and drop to upload a file with a list of emails.
 Assign a role to each new member of your team from a drop-down list.
 Click **Send** to send out invitation emails.
 
@@ -36,7 +36,7 @@ Invited users will receive an email message with a registration link.
 With it, they can register and create their account in the Customer Portal.
 
 In the **Invitation** tab, you can find a list of all invitations,
-registration links and option to re-send invitations if needed.
+registration links and the option to re-send invitations, if needed.
 
 ![List of invitations](img/cp_invitations_list_portal.png)
 
