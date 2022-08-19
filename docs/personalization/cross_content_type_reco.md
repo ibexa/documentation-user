@@ -1,6 +1,6 @@
 # Cross content type recommendations
 
-Cross content type option is used to get multiple recommendation items for each input types. 
+Cross content type option is used to combine best recommendation items from different content types.
 It applies to scenarios which have more than one output type configured.
 
 ## Configure scenario
@@ -13,7 +13,9 @@ To get multiple output types in the recommendation request, perform the followin
     It contains a list of all content types exported for the specified customer ID.
 1. Next, go to Preview Scenario.
 1. From the **Output type** drop-down, select **All**. 
+
 The **All** option automatically appears after content types are selected in the scenario settings.
+
 !!! note
 
     The **All** option can be translated according to your needs.
@@ -35,6 +37,8 @@ To get all output types in the [Personalized block](../site_organization/working
 To get all output types in the [Dynamic targeting block](../site_organization/working_with_page.md#dynamic-targeting-block):
 
 1. In the block settings, set the scenario with configured crosscontent types output.
+1. From the **Output type** drop-down, select **All**.
+
 1. Next, set the rules according to your needs.
 1. Click **Submit**.
 
