@@ -42,6 +42,6 @@ registration links and the option to re-send invitations, if needed.
 
 ## Address book
 
-If you want to add a new billing address or change the default one, you can do it in the **Address Book** section.
+If you want to add a new shipping address or change the default one, you can do it in the **Address Book** section.
 
 ![Address book](img/cp_address_book_portal.png)
