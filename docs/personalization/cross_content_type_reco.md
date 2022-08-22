@@ -5,11 +5,11 @@ It applies to scenarios which have more than one output type configured.
 
 ## Configure scenario
 
-To get multiple output types in the recommendation request, perform the following:
+To get multiple output types in the recommendation request, perform the following actions:
 
 1. Go to **Personalization** -> **Scenarios**.
-1. Click the **Edit** icon next to the scenario you want to set cross content type recommendations.
-1. From the **Output type** multiselect field, select the types you want to get recommendations for in the request.
+1. Click the **Edit** icon next to the scenario for which you want to set cross content type recommendations.
+1. In the **Output type** multiselect field, select the types for which you want to get recommendations in the request.
     It contains a list of all content types exported for the specified customer ID.
 1. Next, go to Preview Scenario.
 1. From the **Output type** drop-down, select **All**. 
@@ -26,7 +26,7 @@ The **All** option automatically appears after content types are selected in the
 
 When scenarios are configured to display cross content type recommendations, you can use them in the following Page Builder blocks: Dynamic targeting and Personalized.
 
-To get all output types in the [Personalized block](../site_organization/working_with_page.md#personalized-block), in the Page Builder mode perform the following:
+To get all output types in the [Personalized block](../site_organization/working_with_page.md#personalized-block), in Page Builder, perform the following actions:
 
 1. In the block settings, set the scenario with configured crosscontent types output.
 1. Next, from the drop-down **Select a Content Type to be displayed**, select **All**.
