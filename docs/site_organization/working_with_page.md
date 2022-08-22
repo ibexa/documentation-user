@@ -147,7 +147,7 @@ On the **Basic** tab, perform the following actions:
 - In the **Select default scenario** section, select the default scenario for recommended items that should be rendered if the current user
 is not assigned to any Segment.
 - In the **Setup segment and scenario matching priority rules** drop-down, select a Segment group, a Segment identifier and Scenario that you want to display recommendations from.
-- **Display limit** – Set the number of products to be displayed, for example, 4.
+- In the **Display limit** field, set the number of recommended items to be displayed, for example, 4.
 
 The rules are checked in order, so when a user belongs to more than one Segment, the first rule applies.
 
