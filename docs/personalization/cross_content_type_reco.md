@@ -1,3 +1,7 @@
+---
+description: You can use cross content type option to get combined recommendation items from different Content Types.
+---
+
 # Cross content type recommendations
 
 Cross content type option is used to combine best recommendation items from different content types.
