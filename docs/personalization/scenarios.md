@@ -25,8 +25,7 @@ If this is the case, use the selector field to switch between views for each of 
 ## Content type configuration
 
 Every scenario supports a single input type and multiple output types. 
-Every recommendation request delivers only content of one output content type 
-(even if multiple types are selected in the interface below). 
+Every recommendation request can deliver content of one or all output content types.
 The output type is set during the recommendation request and must be covered by 
 the list of the supported content types in the requested scenario.
 

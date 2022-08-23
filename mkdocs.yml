@@ -48,6 +48,7 @@ nav:
         - 'Configure personalization': 'personalization/perso_configuration.md'
         - 'Preview scenario results': 'personalization/previewing_scenario.md'
         - 'Integrate scenario results': 'personalization/integrating_results.md'
+        - 'Cross content type recommendations': 'personalization/cross_content_type_reco.md'
         - 'Import data': 'personalization/content_import.md'
         - 'Review performance': 'personalization/dashboard.md'
         - Reference:
