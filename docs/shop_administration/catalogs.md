@@ -25,12 +25,12 @@ To create a catalog:
 
 You can add the following filters to select products for a catalog from the **Add filter** menu:
 
-- Product Category
-- Product Created (date when the product was created)
-- Product availability
-- Product code
-- Product price (in selected currency, with the option to set minimum and maximum price)
-- Product type
+- Category
+- Created (date when the product was created)
+- Availability
+- Code
+- Price (in selected currency, with the option to set minimum and maximum price)
+- Type
 - and additionally, filters based on all configured product attributes
 
 ![Adding filters to catalog](img/catalogs_filters.png)
