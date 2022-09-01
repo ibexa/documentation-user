@@ -23,7 +23,8 @@ To create a catalog:
 
 ### Catalog filters
 
-You can add the following filters to select products for a catalog from the **Add filter** menu:
+When you create a new catalog, all products are included in it by default.
+You can narrow down this selection by applying the following filters from the **Add filter** menu:
 
 - Category
 - Created (date when the product was created)
