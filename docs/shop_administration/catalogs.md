@@ -1,6 +1,5 @@
 ---
-description: Catalogs allow creating filtered product lists for special purposes, for example, for B2B and B2C uses,
-for retailers and distributors or for different regions.
+description: Catalogs allow creating filtered product lists for special purposes, for example, for B2B and B2C uses, for retailers and distributors or for different regions.
 ---
 
 # Catalogs
@@ -23,14 +22,15 @@ To create a catalog:
 
 ### Catalog filters
 
-You can add the following filters to select products for a catalog from the **Add filter** menu:
+When you create a new catalog, all products are included in it by default.
+You can narrow down this selection by applying the following filters from the **Add filter** menu:
 
-- Product Category
-- Product Created (date when the product was created)
-- Product availability
-- Product code
-- Product price (in selected currency, with the option to set minimum and maximum price)
-- Product type
+- Category
+- Created (date when the product was created)
+- Availability
+- Code
+- Price (in selected currency, with the option to set minimum and maximum price)
+- Type
 - and additionally, filters based on all configured product attributes
 
 ![Adding filters to catalog](img/catalogs_filters.png)
