@@ -1,6 +1,5 @@
 ---
-description: Catalogs allow creating filtered product lists for special purposes, for example, for B2B and B2C uses,
-for retailers and distributors or for different regions.
+description: Catalogs allow creating filtered product lists for special purposes, for example, for B2B and B2C uses, for retailers and distributors or for different regions.
 ---
 
 # Catalogs
