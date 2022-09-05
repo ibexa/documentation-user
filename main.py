@@ -7,6 +7,7 @@ from mkdocs.utils import meta
 CARDS_MARKDOWN_TEMPLATE = """
 -  [%s](%s)
 {.title}
+
     %s
 {.description}
 """
@@ -39,8 +40,8 @@ def define_env(env):
     def cards(pages, columns=1):
         current_page = env.variables.page
         absolute_url = current_page.abs_url
-        url_parts = re.search("^/([^/]+)/([^/]+)/", absolute_url)
-        (language, version) = url_parts.groups()
+        url_parts = re.search("^/([^/]+)/([^/]+)/([^/]+)/([^/]+)/", absolute_url)
+        (project, edition, language, version) = url_parts.groups()
 
         if isinstance(pages, str):
             pages = [pages]
@@ -67,6 +68,8 @@ def define_env(env):
                         doc_meta['short'] or doc_meta['title'],
                         '/'.join((
                             '',
+                            project,
+                            edition,
                             language,
                             version,
                             page
