@@ -95,11 +95,12 @@ They represent three categories of Content Types that you can create
 ### Content browser
 
 During your work with [[= product_name =]] you might need to select content from the Repository.
-This happens for example when you want to move or copy a Content item, embed an image, link two Content items, etc.
-In such cases you use the **Content Browser**.
+This happens, for example, when you want to move or copy a Content item, embed an image, link two Content items, etc.
+In such cases, you use the **Content Browser**.
 
 To access the **Content Browser**, go to the **Content** tab and select **Content structure** or **Media**.
-Then, on the left side of the screen, click **Browse**.
+Then, select a file you want to copy or move and click the corresponding button in the top right corner.
+The Content Browser window opens, and you can select the new location of the selected file or its copy.
 
 ![Content Browser](img/udw.png "Content Browser")
 
