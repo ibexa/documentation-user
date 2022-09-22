@@ -100,6 +100,7 @@ In such cases, you use the **Content Browser**.
 
 To access the **Content Browser**, go to the **Content** tab and select **Content structure** or **Media**.
 Then, select a file you want to copy or move and click the corresponding button in the top right corner.
+The Content Browser window opens, and you can select the new location of the selected file or its copy.
 
 ![Content Browser](img/udw.png "Content Browser")
 
