@@ -1,8 +1,9 @@
 ---
 description: The Dashboard contains an overview and statistical information about your shop.
+edition: commerce
 ---
 
-# Dashboard [[% include 'snippets/commerce_badge.md' %]]
+# Dashboard
 
 The Dashboard shows the most important information for the shop owner referring to the installation.
 
