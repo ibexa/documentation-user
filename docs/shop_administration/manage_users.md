@@ -1,5 +1,6 @@
 ---
 description: You can manage and view user accounts in your system, including their shop activity such as orders or active baskets.
+edition: experience
 ---
 
 # Users

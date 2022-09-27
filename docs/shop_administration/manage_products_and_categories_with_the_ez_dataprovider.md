@@ -1,8 +1,9 @@
 ---
 description: You can add and configure products in your catalog, set up their attributes and define availability and stock.
+edition: commerce
 ---
 
-# Manage products and categories [[% include 'snippets/commerce_badge.md' %]]
+# Manage products and categories
 
 ## Managing categories
 

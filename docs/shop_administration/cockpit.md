@@ -1,8 +1,9 @@
 ---
 description: The Cockpit contains an overview and statistical information about your shop.
+edition: commerce
 ---
 
-# Cockpit [[% include 'snippets/commerce_badge.md' %]]
+# Cockpit
 
 The Cockpit shows the most important information for the shop owner referring to the installation.
 

@@ -1,4 +1,8 @@
-# Pages in the shop [[% include 'snippets/commerce_badge.md' %]]
+---
+edition: commerce
+---
+
+# Pages in the shop
 
 [[= product_name =]] offers the following shop-related Page blocks:
 

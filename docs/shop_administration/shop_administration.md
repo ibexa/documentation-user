@@ -1,8 +1,9 @@
 ---
 description: Manage the most important shop data and settings in the Back Office.
+edition: commerce
 ---
 
-# Shop administration [[% include 'snippets/commerce_badge.md' %]]
+# Shop administration
 
 [[= product_name =]] provides the following eCommerce functions in the top menu of the Back Office.
 

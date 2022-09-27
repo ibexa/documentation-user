@@ -1,8 +1,9 @@
 ---
 description: In Ibexa DXP you can create multi-zone Pages with dynamic blocks to use as landing pages.
+edition: experience
 ---
 
-# Pages [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
+# Pages
 
 **Page** is a special Content Type that contains zones onto which you can drop 
 different dynamic blocks.

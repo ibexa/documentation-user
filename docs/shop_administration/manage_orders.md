@@ -1,8 +1,9 @@
 ---
 description: You can view a list of placed orders and their details in the Back Office.
+edition: commerce
 ---
 
-# Orders [[% include 'snippets/commerce_badge.md' %]]
+# Orders
 
 [[= product_name =]] provides a list of all orders in **eCommerce** > **Order Management**.
 

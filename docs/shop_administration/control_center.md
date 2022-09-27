@@ -1,4 +1,8 @@
-# Control center [[% include 'snippets/commerce_badge.md' %]]
+---
+edition: commerce
+---
+
+# Control center
 
 Some sections of the Control center are available only when you have a connection to an ERP system.
 
