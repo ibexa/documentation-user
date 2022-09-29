@@ -548,12 +548,14 @@ div.pills {
 }
 
 /** Cards */
-.cards ul, .cards p {
+.cards ul, .cards p,
+.path ul, .path p {
     margin: 0px !important;
     /* padding: 0px !important; */
 }
 
-.cards ul {
+.cards ul,
+.path ul {
     display: grid !important;
     justify-content: space-between;
     column-gap: 6px;
@@ -572,13 +574,20 @@ div.pills {
     grid-template-columns: repeat(4, 1fr);
 }
 
-.cards li {
+.cards li,
+.path li {
     margin: 0 0 6px 0 !important;
     background-color: var(--inline-code);
     padding: 0.4rem;
 }
 
-.cards p.title {
+.path li:not(:last-child)::after {
+    content:"\1F817";
+    position: absolute;
+}
+
+.cards p.title,
+.path p.title {
     font-weight: bolder;
     padding-bottom: 4px;
 }
