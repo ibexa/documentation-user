@@ -6,6 +6,7 @@ site_url: https://doc.ibexa.co/projects/userguide/en/latest/
 copyright: "Copyright 1999-2022 Ibexa AS and others"
 nav:
     - 'Ibexa User Documentation': 'index.md'
+    - TEST: test.md
     - 'Getting started': 'getting_started.md'
     - 'Content model': 'content_model.md'
     - 'Creating content':
