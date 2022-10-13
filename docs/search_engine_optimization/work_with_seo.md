@@ -8,7 +8,7 @@ For the Search Engine Optimization (SEO) feature to help you optimize the search
 and visibility of your content, you must enable it first. 
 Then you must define the contents of individual tags.
 
-To do it, you must be able to [edit Content Types](../content_management/work_with_content_types.md).
+To do it, you must be able to [edit Content Types](../site_organization/organizing_the_site.md#content-types).
 
 ## Enable SEO
 
