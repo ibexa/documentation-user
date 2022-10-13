@@ -1,9 +1,9 @@
 ---
 description: You can manage and view customers and organizations' accounts in your system, including their shop activities such as orders.
-edition: experience
+edition: commerce
 ---
 
-# Customer management
+# Manage customers
 
 In the Back Office, you can manage members of your team,
 customers and organizations' accounts in your system, including their shop activities such as orders.

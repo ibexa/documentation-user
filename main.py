@@ -37,7 +37,7 @@ def define_env(env):
         return glue.join(line_range)
 
     @env.macro
-    def cards(pages, columns=1):
+    def cards(pages, columns=1, style="cards"):
         current_page = env.variables.page
         absolute_url = current_page.abs_url
         url_parts = re.search("^/([^/]+)/([^/]+)/([^/]+)/([^/]+)/", absolute_url)
@@ -78,4 +78,4 @@ def define_env(env):
                     )
                 )
 
-        return """<div class="cards col-%s" markdown>%s</div>""" % (columns, "\n".join(cards_markdown))
+        return """<div class="%s col-%s" markdown>%s</div>""" % (style, columns, "\n".join(cards_markdown))

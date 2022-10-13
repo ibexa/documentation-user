@@ -5,58 +5,73 @@ repo_url: https://github.com/ezsystems/user-documentation
 site_url: https://doc.ibexa.co/projects/userguide/en/latest/
 copyright: "Copyright 1999-2022 Ibexa AS and others"
 nav:
-    - 'Ibexa User Documentation': 'index.md'
-    - 'Getting started': 'getting_started.md'
-    - 'Content model': 'content_model.md'
-    - 'Creating content':
-        - 'Creating content': 'creating_content_basic.md'
-        - 'Translating content': 'translating_content.md'
-        - 'Creating forms': 'creating_forms.md'
-        - 'Editing images': 'editing_images.md'
-    - Tags: 
-        - 'Tags': 'taxonomy.md'
-    - Publishing:
-        - 'Publishing content': 'publishing/publishing.md'
-        - 'Editorial workflow': 'publishing/editorial_workflow.md'
-        - 'Scheduling publication': 'publishing/advanced_publishing_options.md'
-    - Organizing:
-        - 'Organizing the site': 'site_organization/organizing_the_site.md'
-        - 'Site Factory': 'site_organization/site_factory.md'
-        - 'Organizing the content': 'site_organization/organizing_the_content.md'
-        - 'Managing content in bulk': 'site_organization/multi_file_content_management.md'
-        - 'Pages': 'site_organization/working_with_page.md'
-    - 'Searching': 'search.md'
-    - 'User management': 'users/user_management.md'
-    - Shop administration:
-        - 'Shop administration': 'shop_administration/shop_administration.md'
-        - 'Customer management':
-            - 'Customer management': 'shop_administration/manage_users.md'
-            - 'Customer Portal': 'shop_administration/customer_portal.md'
-        - 'Dashboard': 'shop_administration/shop_dashboard.md'
-        - 'Orders': 'shop_administration/manage_orders.md'
-        - 'Navigation structure': 'shop_administration/navigation_structure.md'
-    - PIM:
-        - 'Products': 'shop_administration/manage_products.md'
-        - 'Product variants and assets': 'shop_administration/product_variants_and_assets.md'
-        - 'Product categories': 'shop_administration/product_categories.md'
-        - 'Prices and stock': 'shop_administration/manage_prices_and_stock.md'
-        - 'Catalogs': 'shop_administration/catalogs.md'
-    - Personalization:
-        - 'Personalization': 'personalization/personalization.md'
-        - 'Use cases': 'personalization/use_cases.md'
-        - 'Enable personalization': 'personalization/enabling_personalization.md'
-        - 'Configure personalization': 'personalization/perso_configuration.md'
-        - 'Preview scenario results': 'personalization/previewing_scenario.md'
-        - 'Integrate scenario results': 'personalization/integrating_results.md'
-        - 'Cross content type recommendations': 'personalization/cross_content_type_reco.md'
-        - 'Import data': 'personalization/content_import.md'
-        - 'Review performance': 'personalization/dashboard.md'
+    - Ibexa User Documentation: index.md
+    - Get started:
+       - Get started: get_started.md
+       - User interface: discover_ui.md
+    - Content model management:
+        - Content model: content_management/content_model.md
+        - Work with Content Types: content_management/work_with_content_types.md
+    - Content management:
+        - Content items: content_management/content_items.md
+        - Create and edit Content items: content_management/create_content_basic.md
+        - Create and edit Pages: content_management/work_with_pages.md
+        - Translate content: content_management/translate_content.md
+        - Work with forms: content_management/work_with_forms.md
+        - Edit images: content_management/edit_images.md
+        - Content versions: content_management/content_versions.md
+        - Content organization:
+            - Organize content: content_management/content_organization/organize_content.md
+            - Copy, move or hide content: content_management/content_organization/copy_move_hide_content.md
+        - Taxonomy management:
+            - Taxonomy: content_management/taxonomy/taxonomy.md
+            - Work with tags: content_management/taxonomy/work_with_tags.md
+    - Content publishing:
+        - Publish content: content_management/content_publishing/publishing.md
+        - Editorial workflow: content_management/workflow_management/editorial_workflow.md
+        - Schedule publication: content_management/content_publishing/advanced_publishing_options.md
+    - Search: 
+        - Search for content: search.md
+        - Search Egine Optimization: 
+            - SEO: search_engine_optimization/seo.md
+            - Work with SEO: search_engine_optimization/work_with_seo.md
+    - Personalization management:
+        - Personalization: personalization_management/personalization.md
+        - Use cases: personalization_management/use_cases.md
+        - Enable personalization: personalization_management/enabling_personalization.md
+        - Configure personalization: personalization_management/perso_configuration.md
+        - Preview scenario results: personalization_management/previewing_scenario.md
+        - Integrate scenario results: personalization_management/integrating_results.md
+        - Cross content type recommendations: personalization_management/cross_content_type_reco.md
+        - Import data: personalization_management/content_import.md
+        - Review performance: personalization_management/dashboard.md
         - Reference:
-              - 'Events': 'personalization/event_types.md'
-              - 'Content types': 'personalization/content_types.md'
-              - 'Recommendation models': 'personalization/recommendation_models.md'
-              - 'Scenarios': 'personalization/scenarios.md'
-              - 'Filters': 'personalization/filters.md'
+              - Events: personalization_management/event_types.md
+              - Content types: personalization_management/content_types.md
+              - Recommendation models: personalization_management/recommendation_models.md
+              - Scenarios: personalization_management/scenarios.md
+              - Filters: personalization_management/filters.md
+    - PIM:
+        - Product catalog: product_catalog_management/manage_products.md
+        - Product variants and assets: product_catalog_management/product_variants_and_assets.md
+        - Product categories: product_catalog_management/product_categories.md
+        - Prices and stock: product_catalog_management/manage_prices_and_stock.md
+        - Catalogs: product_catalog_management/catalogs.md
+    - Shop administration:
+        - Shop administration: shop_administration/shop_administration.md
+        - Customer management:
+            - Manage customers: shop_administration/manage_users.md
+            - Customer Portal: shop_administration/customer_portal.md
+        - Dashboard: shop_administration/shop_dashboard.md
+        - Manage orders: shop_administration/manage_orders.md
+    - Website organization:
+        - Multisite: website_organization/multisite.md
+        - Work with sites: website_organization/site_factory.md
+    - Permissions and users: 
+        - Permission system: permission_management/permission_system.md
+        - Work with permissions: permission_management/manage_permissions.md
+        - Manage users: user_management/user_management.md
+
               
 theme:
     name: material

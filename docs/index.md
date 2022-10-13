@@ -37,7 +37,7 @@
                                 <li><a href="getting_started/">Getting started</a></li>
                                 <li><a href="creating_content_basic/">Creating content</a></li>
                                 <li><a href="publishing/publishing/">Publishing</a></li>
-                                <li><a href="site_organization/working_with_page/">Working with Page</a></li>
+                                <li><a href="site_organization/work_with_page/">Working with Page</a></li>
                             </ul>
                         </div>
                     </div>
