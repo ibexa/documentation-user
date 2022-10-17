@@ -27,10 +27,10 @@ A `Canonical` tag is used by the search engine's internal algorithm.
 Once you define the tags for your content, they are rendered as part of the `<HEAD>` 
 section of a web page, from where the search engine intercepts their values.
 
-- Title is displayed as a prominent heading in the search. You want to make it relevant and attractive for users to click on it. 
+- Title is displayed as a prominent heading in the search. You want to make it relevant and attractive for users to click on. 
 - Description appears next to or below the title. Here you tell visitors what the content is about. Your goal is to optimize it for better visibility both on desktop and mobile.
 - Keywords can help the search engine position the results.
-- Canonical URL tells search engines tell search engines that the master copy of content resides at a specific URL, to prevent duplicates from competing against each other in search results.
+- Canonical URL tells search engines that the master copy of content resides at a specific URL, to prevent duplicates from competing against each other in search results.
 
 Additionally, you can define social media-specific meta tags separately, 
 to fine-tune the message that gets across to each of the platforms. 
