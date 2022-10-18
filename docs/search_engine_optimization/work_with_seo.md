@@ -22,10 +22,12 @@ To do it, make sure you can [edit Content Types](../site_organization/organizing
 When you edit the Content Type definition, in the **SEO** section, go to the 
 **Meta tags** area, and provide values for the following meta tags:
 
-- **Title** - Represents the title of the Content item that you want to promote
-- **Description** - Represents a summary of your Content item
-- **Keywords** - Keywords are ideas and topics that define what your content is about
-- **Canonical** - Tells search engines which copy of content is the original that should appear in search results
+- **Title**
+- **Description**
+- **Keywords** 
+- **Canonical**
+
+To learn more about the function of each of the tags, see [Meta tags](seo.md#meta-tags).
 
 When you populate the SEO fields, you can create patterns by using a schema with 
 attributes which correspond to identifiers of fields that make up the Content Type.
