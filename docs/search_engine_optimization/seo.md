@@ -16,15 +16,15 @@ Search Engines Results Pages (SERPs).
 It is a core feature of Digital Experience Platform. 
 
 With SEO you can also control the appearance of search results on SERPs, by 
-providing the intended wording for the title, description, keywords, etc.
+providing the intended wording for the title, description, keywords, and so on.
 
-## Meta Tags
+## Meta tags
 
 `Title`, `Description` and `Keywords` tags are displayed on SERPs.
 They also help the search engine figure out what the content is about and how 
 high it should rank. 
 A `Canonical` tag is used by the search engine's internal algorithm. 
-Once you define the tags for your content, they are rendered as part of the `<HEAD>` 
+After you define the tags for your content, they are rendered as part of the `<HEAD>` 
 section of a web page, from where the search engine intercepts their values.
 
 - Title is displayed as a prominent heading in the search. You want to make it relevant and attractive for users to click on. 

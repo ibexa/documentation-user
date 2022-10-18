@@ -5,19 +5,19 @@ description: Enable search engine optimization and increase content visibility b
 # Work with SEO
 
 For the Search Engine Optimization (SEO) feature to help you optimize the searchability 
-and visibility of your content, you must enable it first. 
-Then you must define the contents of individual tags.
+and visibility of your content, you must enable it first, and
+then, define the contents of individual tags.
 
-To do it, you must be able to [edit Content Types](../site_organization/organizing_the_site.md#content-types).
+To do it, make sure you can [edit Content Types](../site_organization/organizing_the_site.md#content-types).
 
 ## Enable SEO
 
 1. Click **Content** to display content management options, and then **Content Types**.
 2. Drill down the content group and click the edit icon next to the Content Type that you want to modify.
-3. Go to the **SEO** section and select the **Enable SEO for this content type** toggle.
+3. Go to the **SEO** section and switch the **Enable SEO for this content type** toggle.
 4. Click **Save** to save your changes.
 
-## Define Meta Tags
+## Define Meta tags
 
 When you edit the Content Type definition, in the **SEO** section, go to the 
 **Meta tags** area, and provide values for the following meta tags:
@@ -39,18 +39,18 @@ as a value of the **Title** tag, the search engine will return
 You can also fine-tune the way your content is presented when linked from 
 a social media platform by populating the social media-specific meta tags 
 in the exact same way: 
-Fill in fields in the **OpenGraph** and **Twitter** sections with patterns 
+fill in fields in the **OpenGraph** and **Twitter** sections with patterns 
 to configure the Facebook and Twitter presentation respectively. 
 <!--If you leave these fields blank, social media snippets are generated based on 
 the definitions that you provided in the search engine meta tag fields.-->
 
 ## Preview meta tags of Content item
 
-You can preview how the actual SEO tags for a specific Content item 
+You can preview what the actual SEO tags for a specific Content item 
 will look like when they are passed to a search engine or social media platform.
 
 1. In Content Tree, navigate to the Content item.
-2. On the Content item details screen, go to the SEO tab.
+2. On the Content item details screen, click the SEO tab.
 3. Review the contents of the **resolved** fields.
 
 ![SEO tab in Content item details](img/SEO_tab.png)`

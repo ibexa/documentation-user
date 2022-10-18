@@ -27,7 +27,7 @@ nav:
         - 'Pages': 'site_organization/working_with_page.md'
     - Search management:
         - Searching: 'search.md'
-        - Search Egine Optimization: 
+        - Search Engine Optimization: 
             - SEO: search_engine_optimization/seo.md
             - Work with SEO: search_engine_optimization/work_with_seo.md
     - 'User management': 'users/user_management.md'
