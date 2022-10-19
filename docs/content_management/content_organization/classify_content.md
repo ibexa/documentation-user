@@ -23,7 +23,7 @@ You can only delete Sections that do not contain any content.
 Each Content item must belong to a Section. By default, new content is placed in the same Section as its parent.
 If you want to remove a Content item from a Section, you just need to assign it to a different one.
 
-Access to Sections can be restricted by [setting up proper permissions](organize_the_site.md#permissions).
+Access to Sections can be restricted by [setting up proper permissions](../../permission_management/manage_permissions.md).
 
 ## Object states
 
@@ -50,11 +50,11 @@ Bookmarks are stored per user. You can view a list of all bookmarks by clicking 
 ## Segments [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
 With segments you can target content at specific groups of your users.
-You can use them to display different content to different Page visitors by using the [Targeting block](work_with_page.md#targeting-block).
+You can use them to display different content to different Page visitors by using the [Targeting block](work_with_pages.md#targeting-block).
 
 You can create and configure Segments and Segment Groups in the **Admin** section of the Back Office.
 
-![](../img/admin_panel_segment_groups.png)
+![](img/admin_panel_segment_groups.png)
 
 !!! note
 

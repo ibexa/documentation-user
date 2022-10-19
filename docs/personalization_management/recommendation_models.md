@@ -13,7 +13,7 @@ the most accurate recommendations.
 Models come predefined with the service, based on the arrangements that you make with Ibexa.
 You can request a specific model by contacting customer support.
 
-If your [user role](../site_organization/organize_the_site.md#permissions) includes 
+If your [user role](../permission_management/permissions_and_users.md) includes 
 the `Personalization/Edit` Policy, you can modify the models according to your requirements.
 To do this, navigate to the **Models** tab and click the **Edit** icon next to a name of the model.
 
@@ -225,7 +225,7 @@ Information with user segment is provided in each event which comes from the tra
 
 First, make sure you have [enabled personalization]([[= developer_doc =]]/personalization/integrate_recommendation_service/) and [configured item type tracking]([[= developer_doc =]]/personalization/enable_personalization/#set-up-item-type-tracking).
 
-If your [user Role](../site_organization/organize_the_site.md#permissions) includes 
+If your [user Role](../permission_management/permissions_and_users.md) includes 
 the `Segment/All functions`, `Segment group/All functions` Policies, you can configure segment settings in the models according to your requirements.
 To do this, go to the **Models** section and click the **Edit** icon next to a name of the model.
 

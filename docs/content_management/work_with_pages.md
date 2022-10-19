@@ -35,7 +35,7 @@ Switch to the Field view using the Page Builder toolbar.
 !!! note "Autosave"
 
     To help you preserve your work, [[= product_name =]] saves drafts of Content items automatically.
-    For more information, see [Autosave](../content_versions.md#autosave).
+    For more information, see [Autosave](content_versions.md#autosave).
 
 ## Edit Page
 
@@ -57,7 +57,7 @@ Using the toolbar buttons, you can perform the following actions:
 |![Edit and preview switch](img/page_builder_toolbar_editpreview.png)|Switch between previewing and editing the Page.|
 |![Layout switch](img/page_builder_switch_layout)|Switch between Page layouts.|
 |![Preview segments](img/page_builder_toolbar_preview_segment.png)|Access preview of the Page for a given Segment.|
-|![Timeline button](img/page_builder_toolbartimelinetoggler.png)|Access the timeline to preview how the Page changes with time. You can also view the list of all upcoming scheduled events. For details, see [Timeline](../publishing/advanced_publishing_options.md#timeline).|
+|![Timeline button](img/page_builder_toolbartimelinetoggler.png)|Access the timeline to preview how the Page changes with time. You can also view the list of all upcoming scheduled events. For details, see [Timeline](content_publishing/advanced_publishing_options.md#timeline).|
 |![View toggler](img/page_builder_toolbar_devicestoggler.png)|Toggle through to see how the Page is rendered on different devices.|
 |![Elements menu](img/page_builder_toolbarelements.png)|Access menu with Elements.|
 
@@ -113,8 +113,8 @@ The blocks provided with a clean installation of [[= product_name =]] are:
 
 |Block|Description|
 |-----|-----------|
-|Targeting|Embeds an Content item based on the [Segment](organizing_the_content.md#segments) the user belongs to. For details, see [Targeting block](#targeting-block).|
-|Dynamic targeting|Embeds recommended items based on the [Segment](organizing_the_content.md#segments) the user belongs to. For details, see [Dynamic targeting block](#dynamic-targeting-block).|
+|Targeting|Embeds an Content item based on the [Segment](content_organization/classify_content.md#segments) the user belongs to. For details, see [Targeting block](#targeting-block).|
+|Dynamic targeting|Embeds recommended items based on the [Segment](content_organization/classify_content.md#segments) the user belongs to. For details, see [Dynamic targeting block](#dynamic-targeting-block).|
 |Form|Embeds a Form Content item that you select from the Content Structure. For details, see [Form block](#form-block).|
 |Code|Enables you to place text, links, images, etc. on your Page using custom HTML. For details, see [Code block](#code-block).|
 |Content List|Displays Content items of a chosen Content Type (or Types) that are contained in a selected folder. For details, see [Content List block](#content-list-block).|
@@ -124,7 +124,7 @@ The blocks provided with a clean installation of [[= product_name =]] are:
 |Gallery|Displays all images contained in a selected folder. For details, see [Gallery block](#gallery-block).|
 |Video|Embeds a video into the Page with standard playback controls. For details, see [Video block](#video-block).|
 |RSS|Loads and displays news from RSS feeds (channels). For details, see [RSS block](#rss-block).|
-|Content Scheduler|Displays Content items at a pre-defined time. For details, see [Content Scheduler block](../publishing/advanced_publishing_options.md#content-scheduler-block).|
+|Content Scheduler|Displays Content items at a pre-defined time. For details, see [Content Scheduler block](content_publishing/advanced_publishing_options.md#content-scheduler-block).|
 |Text|Enables you to add to the Page a Rich Text block. For details, see [Text block](#text-block).|
 
 #### Targeting block
@@ -251,7 +251,7 @@ On the **Basic** tab, perform the following actions:
 
 - In the **Name** box, provide the name of the block that will appear on the Page.
 - In the **Content** box, enter text, images, videos, etc. using the Online Editor.
-For details, see [Editing Rich Text Fields](../creating_content_basic.md#edit-rich-text-fields).
+For details, see [Editing Rich Text Fields](create_content_basic.md#edit-rich-text-fields).
 
 #### Personalized block
 

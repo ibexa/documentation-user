@@ -18,7 +18,7 @@ The dashboard consists of several sections:
 
 !!! note "Host multiple websites"
 
-    If you have [permissions](../site_organization/organize_the_site.md#permissions) to access several websites hosted on an [[= product_name =]] 
+    If you have [permissions](../permission_management/permissions_and_users.md) to access several websites hosted on an [[= product_name =]] 
     instance, you can use the selector field to switch between dashboards for 
     each of these sites.
 

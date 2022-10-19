@@ -6,7 +6,7 @@ description: Configure your Personalization service by setting up models and sce
 
 In the Back Office, you can you can review the configuration that controls 
 the Personalization service.
-If your [user role](../site_organization/organize_the_site.md#permissions) has 
+If your [user role](../permission_management/permissions_and_users.md) has 
 the `Personalization/Edit` permission that includes your website, you can modify 
 the settings according to your requirements.
 To do this, navigate to one of the pages mentioned below and edit the item that you want to modify.

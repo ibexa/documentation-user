@@ -19,7 +19,7 @@ In this case you have to select where the content will be located.
 When you choose one of the first three options, you have to select the Content Type first.
 If you are using [[= product_name_exp =]] or [[= product_name_com =]],
 you will have the *Page* Content Type available for selection.
-You edit Pages in the Page Builder. For more information, see [Pages](site_organization/work_with_page.md).
+You edit Pages in the Page Builder. For more information, see [Pages](work_with_pages.md).
 
 Whenever you edit a Content item, a [new version](content_versions.md) is created in the repository.
 
@@ -61,7 +61,7 @@ A *Location* Field is a point on the map. You can type the place name, enter its
 !!! note
 
     When you create or edit a Content item that contains an *Image* or an *Image asset* Field, 
-    you can perform basic image editing functions by using an [Image Editor](edit_es.md).
+    you can perform basic image editing functions by using an [Image Editor](edit_images.md).
 
 ## Edit Rich Text Fields
 

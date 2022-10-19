@@ -15,7 +15,8 @@ Users who work as content editors can be tasked with the following responsibilit
     "discover_ui",
     "content_management/manage_content_model",
     "content_management/author_content",
-    "content_management/publish_content",
+    "content_management/author_content",
+    "content_management/content_publishing/publishing",
     "content_management/content_organization/organize_content"
 ], style="path") =]]
 

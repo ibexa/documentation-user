@@ -23,6 +23,8 @@ nav:
         - Content organization:
             - Organize content: content_management/content_organization/organize_content.md
             - Copy, move or hide content: content_management/content_organization/copy_move_hide_content.md
+            - Classify content: content_management/content_organization/classify_content.md
+            - Manage content locations and URLs: content_management/content_organization/manage_locations.md
         - Taxonomy management:
             - Taxonomy: content_management/taxonomy/taxonomy.md
             - Work with tags: content_management/taxonomy/work_with_tags.md
@@ -57,17 +59,18 @@ nav:
         - Product categories: product_catalog_management/product_categories.md
         - Prices and stock: product_catalog_management/manage_prices_and_stock.md
         - Catalogs: product_catalog_management/catalogs.md
+    - Customer management:
+        - Manage customers: shop_administration/manage_users.md
+        - Customer Portal: shop_administration/customer_portal.md
     - Shop administration:
         - Shop administration: shop_administration/shop_administration.md
-        - Customer management:
-            - Manage customers: shop_administration/manage_users.md
-            - Customer Portal: shop_administration/customer_portal.md
         - Dashboard: shop_administration/shop_dashboard.md
         - Manage orders: shop_administration/manage_orders.md
     - Website organization:
         - Multisite: website_organization/multisite.md
         - Work with sites: website_organization/site_factory.md
     - Permissions and users: 
+        - Permissions and users: permission_management/permissions_and_users.md
         - Permission system: permission_management/permission_system.md
         - Work with permissions: permission_management/manage_permissions.md
         - Manage users: user_management/user_management.md

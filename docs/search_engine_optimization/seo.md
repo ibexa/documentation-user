@@ -15,24 +15,26 @@ SEO brings in more organic traffic and improves the website's visibility in
 Search Engines Results Pages (SERPs). 
 It is a core feature of Digital Experience Platform. 
 
-With SEO you can also control the appearance of search results on SERPs, by 
-providing the intended wording for the title, description, keywords, etc.
+Additionally, SEO allows you to control the appearance of search results on SERPs, by 
+providing the intended wording for the title, description, keywords, and so on.
 
-## Meta Tags
+## Meta tags
 
 `Title`, `Description` and `Keywords` tags are displayed on SERPs.
 They also help the search engine figure out what the content is about and how 
 high it should rank. 
 A `Canonical` tag is used by the search engine's internal algorithm. 
-Once you define the tags for your content, they are rendered as part of the `<HEAD>` 
+After you define the tags for your content, they are rendered as part of the `<HEAD>` 
 section of a web page, from where the search engine intercepts their values.
 
-- Title is displayed as a prominent heading in the search. You want to make it relevant and attractive for users to click on it. 
-- Description appears next to or below the title. Here you tell visitors what the content is about. Your goal is to optimize it for better visibility both on desktop and mobile.
-- Keywords can help the search engine position the results.
-- Canonical URL tells search engines tell search engines that the master copy of content resides at a specific URL, to prevent duplicates from competing against each other.
+- `Title` is displayed as a prominent heading in the search. You want to make it relevant and attractive for users to click on. It represents the title of the Content item that you want to promote.
+- `Description` appears next to or below the title. Here you tell visitors what the content is about. Your goal is to optimize it for better visibility both on desktop and mobile.  It represents a summary of your Content item
+- `Keywords` can help the search engine position the results. Keywords can be ideas and topics that define what your content is about.
+- `Canonical URL` tells search engines which copy of content is the original that should appear in search results. It prevents duplicates from competing against each other.
 
 Additionally, you can define social media-specific meta tags separately, 
 to fine-tune the message that gets across to each of the platforms. 
 If you fail to use this feature, the default meta tags are used to generate 
 a social media snippet.
+
+For more information about SEO, see [Ibexa blog](https://www.ibexa.co/blog/five-useful-seo-techniques-for-ez-platform-developers).

@@ -69,6 +69,6 @@ You can also use the **Content Browser** to search the Repository for content, e
 
     If you have administrator permissions, you can also view and manage User accounts and site skeletons in the **Admin** tab.
     
-    For more information about users and permissions, see [Users](site_organization/organize_the_site.md#users).
+    For more information about users and permissions, see [Users](permission_management/permissions_and_users.md).
     
     For more information about site skeletons, see [Site skeletons]([[= developer_doc =]]/multisite/site_factory_configuration/#site-skeletons).

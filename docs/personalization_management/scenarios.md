@@ -11,7 +11,7 @@ It consists of:
 - A strategy (set of models) that is used for generating recommendations
 - A filter configuration
 
-If your [user role](../site_organization/organize_the_site.md#permissions) includes 
+If your [user role](../permission_management/permissions_and_users.md) includes 
 the `Personalization/View` Policy, you can view the list of scenarios and preview their result.
 
 To modify the scenarios to suit your needs, you must have the `Personalization/Edit` Policy.

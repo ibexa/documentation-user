@@ -32,7 +32,7 @@ Every Content Type has the following general settings:
 |Sort children by default in order|Order in which the children will be sorted (ascending or descending).|
 |Make content available even with missing translations|When checked, content of this Type will by default be always available, even if it does not have a language version corresponding to the current SiteAccess.|
 
-To add a Field to the new Content Type, select a [Field Type](../content_model.md#fields-and-field-types)
+To add a Field to the new Content Type, select a [Field Type](content_model.md#fields-and-field-types)
 in the Field Type selection drop-down menu and click **Add field definition**.
 You can determine the order in which Fields will be displayed.
 
@@ -133,7 +133,7 @@ to have relations only to Content items of a specific, or any Content Type.
 
 #### Set relation starting location
 
-When you add a [Relation Field type](../creating_content_basic.md#relation_field) to a Content Type, you can decide which Content tree location opens in the [Content Browser](../content_model.md#content-browser) when the user browses to a related Content item.
+When you add a [Relation Field type](create_content_basic.md#relation_field) to a Content Type, you can decide which Content tree location opens in the [Content Browser](content_model.md#content-browser) when the user browses to a related Content item.
 
 To set the starting location for the relation, perform the following steps. 
 
