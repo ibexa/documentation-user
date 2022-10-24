@@ -7,4 +7,26 @@ plugins:
         j2_variable_start_string: '[[='
         j2_variable_end_string: '=]]'
     - tags
-    - redirects
+    - redirects:
+        redirect_maps:
+            'content_model.md': 'content_management/manage_content_model.md'
+            'creating_content_basic.md': 'content_management/author_content.md'
+            'creating_forms.md': 'content_management/work_with_forms.md'
+            'editing_images.md': 'content_management/edit_images.md'
+            'getting_started.md': 'get_started.md'
+            'taxonomy.md': 'content_management/taxonomy/taxonomy.md'
+            'translating_content.md': 'content_management/translate_content.md'
+            'shop_administration/catalogs.md': 'product_catalog_management/catalogs.md'
+            'shop_administration/manage_prices_and_stock.md': 'product_catalog_management/manage_prices_and_stock.md'
+            'shop_administration/manage_products.md': 'product_catalog_management/manage_products.md'
+            'shop_administration/navigation_structure.md': 'discover_ui.md'
+            'shop_administration/product_categories.md': 'product_catalog_management/product_categories.md'
+            'shop_administration/product_variants_and_assets.md': 'product_catalog_management/product_variants_and_assets.md'
+            'site_organization/working_with_page.md': 'content_management/work_with_pages.md'
+            'site_organization/organizing_the_site': 'permission_management/permissions_and_users.md'
+            'publishing/publishing.md': 'content_management/publish_content.md'
+            'publishing/advanced_publishing_options.md': 'content_management/content_publishing/advanced_publishing_options.md'
+            
+
+
+# zamienić nazwy artykułów o publikowaniu na publis instantly, schedule publication, a landing page na content publishing

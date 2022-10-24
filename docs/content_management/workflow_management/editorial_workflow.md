@@ -1,5 +1,5 @@
 ---
-description: Create editorial workflows to organize review flows for different content needs.
+description: Learn about editorial workflows that organize review flows for different content needs.
 ---
 
 # Editorial workflow
@@ -32,29 +32,7 @@ their drafts for review.
 In the Review queue table, you can access the draft for editing, review its history, 
 and unlock the draft or request that a lock is released.
 
-## Edit drafts
-
-When you click the **Edit draft** icon and open a Content item that has been sent 
-to you for review, you see the Events timeline that lists all the transitions 
-that this content has gone through.
-
-![Events timeline](img/workflow_events_timeline.png)
-
-If draft locking is supported, you also see a message that confirms that the draft is now locked to you.
-
-![Draft assignment message](img/lock_message.png)
-
-## Release locked drafts
-
-If you are assigned to a draft and have locked it for review, you can release 
-the lock by closing the modal window, publishing the draft, or sending it to 
-another reviewer.
-You can also do it in the Review queue table, by clicking the **Unlock** icon.
-
-If you are not assigned to the draft, depending on the permissions set for your 
-Role, in the Review queue table, you can either release the lock by clicking 
-the **Unlock** icon, or request that the lock is released by the reviewer 
-by clicking the **Request access** icon.
+For more information, see [Work with versions](work_with_versions.md).
 
 ## Workflow list
 
