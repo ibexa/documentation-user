@@ -32,6 +32,7 @@ nav:
         - 'Customer management':
             - 'Customer management': 'shop_administration/manage_users.md'
             - 'Customer Portal': 'shop_administration/customer_portal.md'
+            - 'Customer self-registration': 'shop_administration/company_self_registration.md'
         - 'Dashboard': 'shop_administration/shop_dashboard.md'
         - 'Orders': 'shop_administration/manage_orders.md'
         - 'Navigation structure': 'shop_administration/navigation_structure.md'
