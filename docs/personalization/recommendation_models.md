@@ -149,6 +149,24 @@ Item age is the time over which the item is available in the shop ("How new is t
 The history is recorded automatically based on [event](event_types.md) tracking. 
 The item catalog must be filled separately as a result of [data import](content_import.md).
 
+## Trigger model build
+
+Models on the Personalization server side are configured to build at some time intervals, for example, every 24-hours.
+For each model which requires computation (all [popularity](#popularity-models) and [collaborative models](#collaborative-models)), 
+you can manually trigger model build after any modifications to the model's settings in the Back Office.
+
+To do this, in the **Personalization** section go to **Models**.
+Click the edit icon next to the computation model, add necessary changes, and click the **Trigger model build** button.
+The model's status changes to `Build in progress`. After the successful build, the model gets `Active` status.
+
+Model statuses:
+
+- **Active** - when model was successfully built
+- **Not active** - it can be a new model which hasn't been triggered or used yet
+- **Build in progress** - model during the building process
+- **Failed** - there is no data to build the model or some error occured, building failed
+
+
 ## Submodels
 
 Statistics-based recommendations often have the disadvantage of providing recommendations limited 
