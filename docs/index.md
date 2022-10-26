@@ -30,14 +30,14 @@
                             <svg class="tile-icon align-middle" width="32" height="32">
                                 <use fill="var(--ibexa-jazzberry)" xlink:href="images/ez-icons.svg#publish"></use>
                             </svg>
-                            Content editing
+                            <a href="persona_paths/editor/">Content editing</a></li>
                         </h5>
                         <div class="tile-body">
                             <ul>
-                                <li><a href="getting_started/">Getting started</a></li>
-                                <li><a href="creating_content_basic/">Creating content</a></li>
-                                <li><a href="publishing/publishing/">Publishing</a></li>
-                                <li><a href="site_organization/work_with_page/">Working with Page</a></li>
+                                <li><a href="getting_started/">Get started</a></li>
+                                <li><a href="content_management/author_content/">Create content</a></li>
+                                <li><a href="content_management/publish_content/">Publish content</a></li>
+                                <li><a href="content_management/content_organization/organize_content">Organize content</a></li>
                             </ul>
                         </div>
                     </div>
@@ -52,7 +52,7 @@
                             <svg class="tile-icon align-middle" width="32" height="32">
                                 <use fill="var(--ibexa-jazzberry)" xlink:href="images/ez-icons.svg#cart"></use>
                             </svg>
-                            Shop administration
+                            <a href="persona_paths/shop_manager/">Shop management</a></li>
                         </h5>
                         <div class="tile-body">
                             <ul>

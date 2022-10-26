@@ -3,13 +3,10 @@ description: Catalogs allow creating filtered product lists for special purposes
 
 ---
 
-# Catalogs
+# Work with catalogs
 
-With the Product catalog feature you can create special catalogs, for example 
+With [catalogs](understand_products.md#product-catalogs) you can create product lists for special purposes, for example, 
 for B2B and B2C uses, for retailers and distributors or for different regions.
-Catalogs contain a selection of products from the system.
-
-![Catalog menu with a sample catalog](img/catalog.png)
 
 ## Create catalogs
 

@@ -27,7 +27,6 @@ nav:
             - Editorial workflow: content_management/workflow_management/editorial_workflow.md
             - Work with versions: content_management/workflow_management/work_with_versions.md
         - Content organization:
-            - Organize content: content_management/content_organization/organize_content.md
             - Copy, move or hide content: content_management/content_organization/copy_move_hide_content.md
             - Classify content: content_management/content_organization/classify_content.md
             - Manage content locations and URLs: content_management/content_organization/manage_locations.md
@@ -56,11 +55,12 @@ nav:
               - Scenarios: personalization_management/scenarios.md
               - Filters: personalization_management/filters.md
     - PIM:
-        - Product catalog: product_catalog_management/manage_products.md
-        - Product variants and assets: product_catalog_management/product_variants_and_assets.md
-        - Product categories: product_catalog_management/product_categories.md
-        - Prices and stock: product_catalog_management/manage_prices_and_stock.md
-        - Catalogs: product_catalog_management/catalogs.md
+        - Products: product_catalog_management/understand_products.md
+        - Create product types: product_catalog_management/create_product_type.md
+        - Work with product categories: product_catalog_management/product_categories.md
+        - Work with product variants: product_catalog_management/product_variants_and_assets.md
+        - Work with product availability and stock: product_catalog_management/manage_prices_and_stock.md
+        - Work with product catalogs: product_catalog_management/catalogs.md
     - Customer management:
         - Manage customers: shop_administration/manage_users.md
         - Customer Portal: shop_administration/customer_portal.md
@@ -72,7 +72,6 @@ nav:
         - Multisite: website_organization/multisite.md
         - Work with sites: website_organization/site_factory.md
     - Permissions and users: 
-        - Permissions and users: permission_management/permissions_and_users.md
         - Permission system: permission_management/permission_system.md
         - Work with permissions: permission_management/manage_permissions.md
         - Manage users: user_management/user_management.md

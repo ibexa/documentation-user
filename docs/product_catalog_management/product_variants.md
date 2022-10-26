@@ -1,17 +1,10 @@
 ---
-description: You can create multiple variants of one product, based on attributes such as size, color, technical specifications, and others.
+description: Create multiple variants of one product, based on attributes such as size, color, technical specifications, and others.
 ---
 
-# Product variants and assets
+# Work with product variants
 
-## Product variants
-
-Product variants enable you to have multiple versions of one product, differing in some characteristics.
-
-Typical examples are a t-shirt in different colors, or a laptop with different hard disk sizes.
-
-You can create variants based on product attributes.
-To use an attribute to create variants, mark the attribute as **Used for product variants** when creating a product type.
+To use an attribute to create [variants](understand_products.md#product-variants), mark the attribute as **Used for product variants** when creating a product type.
 
 ![Product type definition with attributes used for variants](img/product_type_attr_used_for_variants.png)
 
@@ -56,23 +49,3 @@ You can set up product availability separately for each product variant.
 You can also set up prices per product variant.
 The prices will override prices set for the main product.
 If you do not define a price for a variant, the price of the main product is used.
-
-## Product assets
-
-You can add assets to products in the form of images.
-Assets can be assigned to the base product, and to one or more of its variants.
-
-To add assets to a product, in the product's **Assets** tab browse or drag and drop image files from disk,
-or select an existing image asset from library.
-
-![Adding assets to a product](img/product_assets.png)
-
-You can assign assets to product variants by placing them in a collection.
-A collection corresponds to specific values of attributes and is assigned to the variant or variants
-that have these attribute values.
-
-For example, a "desk" product can have multiple images as assets.
-You can group them into collections for specific desktop and frame colors,
-corresponding to variants.
-
-![Product asset collection](img/product_assets_collections.png)

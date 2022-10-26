@@ -2,26 +2,15 @@
 description: You can create a structure of tags that can be assigned to products to help categorize products, to assist users in searching. You create, manage and assign categories manually.
 ---
 
-# Product categories
+# Work with product categories
 
-With product categories you can organize products within the Product Catalog and create relationships between them. 
-One of the reasons for applying product categories is assisting users in searching for products.
-
-Each category can be assigned to multiple products, and each product can belong to multiple categories of different or similar character, for example:
-
-- Business Laptops
-- Windows OS Devices
-- Stock clearance
-
-## Product category tree
-
-Product categories are organized into a Category tree, which you can access from the **Product catalog** panel. The **Categories** screen is where you manually create a hierarchy of categories and manage category entries.
+[Product categories](understand_products.md#product-categories) are organized into a Category tree, which you can access from the **Product catalog** panel. The **Categories** screen is where you manually create a hierarchy of categories and manage category entries. 
 
 ![Product category tree](img/product_categories.png)
 
 ## Enable product categories
 
-Before you can assign categories to products, make sure that the **Taxonomy Entry Assignment** field is added and set as required in all the [Product Types](../../content_model/#content-types) that define products from your Product Catalog which you want to categorize. 
+Before you can assign categories to products, make sure that the **Taxonomy Entry Assignment** field is added and set as required in all the [Product Types](understand_products.md#product-types) that define products from your Product Catalog which you want to categorize. 
 The field could be absent if Product Types were migrated from an older version of the product.
 
 Depending on your permissions, you might be able to verify the presence of the field and add the field yourself:
