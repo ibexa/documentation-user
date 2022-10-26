@@ -162,10 +162,9 @@ The model's status changes to `Build in progress`. After the successful build, t
 Model statuses:
 
 - **Active** - when model was successfully built
-- **Not active** - it can be a new model which hasn't been triggered or used yet
+- **Not active** - when model is added to the scenario, calculated and then removed from the scenario, or a new model which hasn’t been triggered or used yet
 - **Build in progress** - model during the building process
 - **Failed** - there is no data to build the model or some error occured, building failed
-
 
 ## Submodels
 
