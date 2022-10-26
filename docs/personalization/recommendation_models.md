@@ -159,6 +159,8 @@ To do this, in the **Personalization** section go to **Models**.
 Click the edit icon next to the computation model, add necessary changes, and click the **Trigger model build** button.
 The model's status changes to `Build in progress`. After the successful build, status changes to `Active`.
 
+![Models](img/models_edit.png "Models")
+
 Model statuses:
 
 - **Active** - model is successfully built
