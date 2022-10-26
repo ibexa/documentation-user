@@ -77,6 +77,6 @@ corresponding to variants.
 
 ![Product asset collection](img/product_assets_collections.png)
 
-You can move assets between collection by using drag and drop.
+You can move assets between collections by using drag and drop.
 
 ![Moving assets between collection with drag and drop](img/collection_dnd.png)
