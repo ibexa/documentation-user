@@ -8,3 +8,4 @@ plugins:
         j2_variable_end_string: '=]]'
     - tags
     - redirects
+        'shop_administration/manage_users.md': 'shop_administration/manage_customers.md'
