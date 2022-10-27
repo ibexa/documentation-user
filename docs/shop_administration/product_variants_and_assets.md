@@ -76,3 +76,7 @@ You can group them into collections for specific desktop and frame colors,
 corresponding to variants.
 
 ![Product asset collection](img/product_assets_collections.png)
+
+You can move assets between collections by using drag and drop.
+
+![Moving assets between collection with drag and drop](img/collection_dnd.png)
