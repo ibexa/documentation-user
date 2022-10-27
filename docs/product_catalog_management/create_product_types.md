@@ -1,14 +1,14 @@
 ---
-description: Build new product types or modify existing ones.
+description: Build new product Types or modify existing ones.
 ---
 
-# Create product types
+# Create Product Types
 
-If your [user role](../permission_management/manage_permissions.md) has the `ProductType/Edit` permission, you can modify product types and add individual attributes or attribute groups.
+If your [user role](../permission_management/manage_permissions.md) has the `ProductType/Edit` permission, you can modify Product Types and add individual attributes or attribute groups.
 
 1\. Go to **Product catalog** -> **Product Types** and click **Create**.
 
-![Adding a product type](img/create_product_type.png)
+![Adding a Product Type](img/create_product_type.png)
 
 2\. Fill in basic product information: name, identifier and description.
 
@@ -21,19 +21,19 @@ Product code can have up to 64 characters. It can contain only letters, numbers,
 
 ## Work with product attributes
 
-When adding attributes to product types, you can add both individual attributes, 
+When adding attributes to Product Types, you can add both individual attributes, 
 and whole groups. 
 You can also remove while groups, or single attributes from groups that you do not 
-want to use for the given product type. Do this by clicking the trash icon next 
+want to use for the given Product Type. Do this by clicking the trash icon next 
 to the group or attribute.
 
 ![Creating an attribute in a group](img/create_attribute.png)
 
 You can also remove whole groups, or single attributes from groups that you do not 
-want to use for the given product type.
+want to use for the given Product Type.
 Do this by clicking the trash icon next to the group or attribute.
 
-![Adding attributes to a product type](img/adding_attributes.png)
+![Adding attributes to a Product Type](img/adding_attributes.png)
 
 For every attribute, you can select **Used for product variants**.
 Attributes that have this option are used to [automatically generate product variants](product_variants.md#generate-variants).

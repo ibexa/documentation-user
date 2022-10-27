@@ -30,14 +30,14 @@
                             <svg class="tile-icon align-middle" width="32" height="32">
                                 <use fill="var(--ibexa-jazzberry)" xlink:href="images/ez-icons.svg#publish"></use>
                             </svg>
-                            <a href="persona_paths/editor/">Content editing</a></li>
+                            <a href="persona_paths/newbie/">Quick links</a></li>
                         </h5>
-                        <div class="tile-body">
-                            <ul>
-                                <li><a href="getting_started/">Get started</a></li>
-                                <li><a href="content_management/author_content/">Create content</a></li>
-                                <li><a href="content_management/publish_content/">Publish content</a></li>
-                                <li><a href="content_management/content_organization/organize_content">Organize content</a></li>
+                    <div class="tile-body">
+                        <ul>
+                            <li><a href="discover_ui/">Discover UI</a></li>
+                            <li><a href="content_management/content_model/">Content model</a></li>
+                            <li><a href="product_catalog_management/understand_products/">PIM</a></li>
+                            <li><a href="personalization_management/personalization/">Personalization</a></li>
                             </ul>
                         </div>
                     </div>
@@ -50,16 +50,16 @@
                     <div class="col-lg">
                         <h5 class="tile-title">
                             <svg class="tile-icon align-middle" width="32" height="32">
-                                <use fill="var(--ibexa-jazzberry)" xlink:href="images/ez-icons.svg#cart"></use>
+                                <use fill="var(--ibexa-jazzberry)" xlink:href="images/ez-icons.svg#article"></use>
                             </svg>
-                            <a href="persona_paths/shop_manager/">Shop management</a></li>
+                            <a href="persona_paths/editor/">Content editing</a></li>
                         </h5>
                         <div class="tile-body">
                             <ul>
-                                <li><a href="shop_administration/cockpit/">Cockpit</a></li>
-                                <li><a href="shop_administration/manage_orders/">Orders</a></li>
-                                <li><a href="shop_administration/manage_products_and_categories_with_the_ez_dataprovider/">Products</a></li>
-                                <li><a href="shop_administration/manage_prices_and_stock/">Prices</a></li>
+                                <li><a href="content_management/author_content/">Create content</a></li>
+                                <li><a href="content_management/work_with_pages/">Create Pages</a></li>
+                                <li><a href="content_management/publish_content/">Publish content</a></li>
+                                <li><a href="content_management/content_organization/organize_content">Organize content</a></li>
                             </ul>
                         </div>
                     </div>
@@ -72,16 +72,16 @@
                     <div class="col-lg">
                         <h5 class="tile-title">
                             <svg class="tile-icon align-middle" width="32" height="32">
-                                <use fill="var(--ibexa-jazzberry)" xlink:href="images/ez-icons.svg#users-personalization"></use>
+                                <use fill="var(--ibexa-jazzberry)" xlink:href="images/ez-icons.svg#cart"></use>
                             </svg>
-                            Personalization
+                            <a href="persona_paths/shop_manager/">Shop management</a></li>
                         </h5>
-                    <div class="tile-body">
-                        <ul>
-                            <li><a href="personalization/personalization/">Introduction</a></li>
-                            <li><a href="personalization/use_cases/">Use cases</a></li>
-                            <li><a href="personalization/perso_configuration/">Configuration</a></li>
-                            <li><a href="personalization/dashboard/">Reviewing performance</a></li>
+                        <div class="tile-body">
+                            <ul>
+                                <li><a href="shop_administration/shop_dashboard/">Discover dashboard</a></li>
+                                <li><a href="product_catalog_management/manage_products/">Manage products</a></li>
+                                <li><a href="shop_administration/manage_users/">Manage customers</a></li>
+                                <li><a href="shop_administration/manage_orders/">Manage customers</a></li>
                         </ul>
                     </div>
                 </div>
@@ -98,9 +98,9 @@
                 </svg>
             </h5>
                 <ul>
-                    <li><a href="site_organization/site_factory/">Site Factory</a></li>
-                    <li><a href="creating_content_advanced/#languages">Translations</a></li>
-                    <li><a href="publishing/editorial_workflow/">Editorial Workflow</a></li>
+                    <li><a href="website_organization/site_factory/">Site Factory</a></li>
+                    <li><a href="content_management/translate_content/">Translations</a></li>
+                    <li><a href="content_management/workflow_management/editorial_workflow/">Editorial workflow</a></li>
                     <li><a href="search/">Searching</a></li>
                 </ul>
         </div>

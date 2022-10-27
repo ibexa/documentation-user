@@ -27,3 +27,8 @@ plugins:
             'publishing/publishing.md': 'content_management/publish_content.md'
             'publishing/advanced_publishing_options.md': 'content_management/content_publishing/advanced_publishing_options.md'
             'site_organization/work_with_page.md': 'content_management/work_with_pages.md'
+            'shop_administration/product_variants_and_assets.md': 'product_catalog_management/product_variants.md'
+            'shop_administration/manage_products.md': 'product_catalog_management/understand_products.md'
+            'shop_administration/product_categories.md': 'product_catalog_management/product_categories.md'
+            'shop_administration/catalogs.md': 'product_catalog_management/catalogs.md'
+            'shop_administration/cockpit.md': 'shop_administration/shop_dashboard.md'

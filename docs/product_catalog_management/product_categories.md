@@ -58,7 +58,7 @@ You can create or change product category relationships with products in two way
 ### Assign product categories by editing product details
 
 1. In the left panel, click **Product catalog** -> **Products** to navigate to the product list.
-2. To create a new Product item, click the  **Create** button, select the product type with product categories enabled, and click **Add**. Then skip to step 4.
+2. To create a new Product item, click the  **Create** button, select the Product Types with product categories enabled, and click **Add**. Then skip to step 4.
 3. To edit an existing Product item, click the **Edit** icon next to a name of the Product item that you want to modify.
 4. In the Product Type editing modal, go to the **Product category** area and click the **Select product categories** button.
 5. In the pop-up window, select checkboxes next to product categories related with the product.

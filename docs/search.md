@@ -2,8 +2,7 @@
 description: Search through all content in the system and filter the results by different criteria.
 ---
 
-# Searching
-
+# Search for content
 You can enter a search keyword and the application checks all the searchable Fields and returns a list of search results that contain the keyword.
 
 ![Basic Search](img/basic_search.png)

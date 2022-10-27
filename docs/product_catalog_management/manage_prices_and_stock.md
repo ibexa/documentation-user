@@ -5,7 +5,7 @@ description: Products in catalog can be made unavailable, and can have a base pr
 # Work with availability, stock and prices
 
 [Products in catalog](understand_products.md#products) can be made available in certain quantity, unavailable, 
-and can have a base price and custom prices defined per customer group and per currency.
+and can have a base price and custom prices defined per [customer group](../shop_administration/manage_users.md) and per [currency](../shop_administration/currencies_shipping.md).
 
 ## Set product availability
 

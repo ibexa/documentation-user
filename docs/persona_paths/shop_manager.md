@@ -15,25 +15,8 @@ including the following responsibilities:
     "shop_administration/shop_dashboard",
     "product_catalog_management/understand_products",
     "product_catalog_management/manage_products",
-    "content_management/author_content",
+    "shop_administration/currencies_shipping",
     "permission_management/permissions_and_users",
     "shop_administration/manage_users",
     "shop_administration/manage_orders"
 ], style="path") =]]
-
-
-<!--  
-Understand Products
-Manage Products
-Manage currencies and shipping costs
-Manage users_section
-Manage customer accounts
-Manage orders
-
-
-
-work with product product_categories
-work with product product_variants
-work with availability and stock
-work with catalogs
--->

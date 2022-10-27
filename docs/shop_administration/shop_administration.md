@@ -13,7 +13,7 @@ edition: commerce
 |--- |--- |
 |[Dashboard [[% include 'snippets/commerce_badge.md' %]]](shop_dashboard.md)|Basic statistics|
 |[Order management [[% include 'snippets/commerce_badge.md' %]]](manage_orders.md)|List or orders placed in the shop|
-|[Shipping management [[% include 'snippets/commerce_badge.md' %]]](../product_catalog_management/manage_prices_and_stock.md#manage-shipping-costs)|Management of shipping costs|
+|[Shipping management [[% include 'snippets/commerce_badge.md' %]]](currencies_shipping.md#define-shipping-costs)|Management of shipping costs|
 |Customer Groups|Management of [customer](manage_users.md) groups|
-|[Currencies](../product_catalog_management/manage_prices_and_stock.md#manage-currencies)|Currency management|
+|[Currencies](currencies_shipping.md)|Currency management|
 |Components [[% include 'snippets/commerce_badge.md' %]]|Tool of managing shop interface [translations](../content_management/translate_content.md)|

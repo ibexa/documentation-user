@@ -15,8 +15,8 @@ Users who work as content editors can be tasked with the following responsibilit
 ## What would you like to do today?
 
 [[= cards([
-    "discover_ui",
-    "content_management/manage_content_model",
+    "content_management/content_model",
+    "content_management/work_with_content_types",
     "content_management/author_content",
     "content_management/taxonomy/work_with_tags",
     "content_management/publish_content",

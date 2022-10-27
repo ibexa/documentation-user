@@ -56,9 +56,10 @@ nav:
               - Filters: personalization_management/filters.md
     - PIM:
         - Products: product_catalog_management/understand_products.md
-        - Create product types: product_catalog_management/create_product_type.md
+        - Create product types: product_catalog_management/create_product_types.md
+        - Add assets: product_catalog_management/product_assets.md
         - Work with product categories: product_catalog_management/product_categories.md
-        - Work with product variants: product_catalog_management/product_variants_and_assets.md
+        - Work with product variants: product_catalog_management/product_variants.md
         - Work with product availability and stock: product_catalog_management/manage_prices_and_stock.md
         - Work with product catalogs: product_catalog_management/catalogs.md
     - Customer management:
@@ -68,6 +69,7 @@ nav:
         - Shop administration: shop_administration/shop_administration.md
         - Dashboard: shop_administration/shop_dashboard.md
         - Manage orders: shop_administration/manage_orders.md
+        - Manage currencies and shipping cost: 'shop_administration/currencies_shipping.md'
     - Website organization:
         - Multisite: website_organization/multisite.md
         - Work with sites: website_organization/site_factory.md

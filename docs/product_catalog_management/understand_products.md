@@ -11,20 +11,20 @@ Product catalog's features are available from the left menu.
 
 ![Product catalog in the menu](img/catalog_menu.png)
 
-To create a product you must first decide which product type it belongs to.
+To create a product you must first decide which Product Type it belongs to.
 
-## Product types
+## Product Types
 
-Product types represent categories that a product can belong to.
+Product Types represent categories that a product can belong to.
 They define what combination of Fields is available in the product, and Fields 
 can store different types of information.
 For example, products of publication type comprise of different Fields than white 
 appliances.
 
-A product type also defines the attributes that all products of this type can have.
+A Product Types also defines the attributes that all products of this type can have.
 
 If your [user role](../permission_management/manage_permissions.md) has the `ProductType/Edit` 
-permission, you can [modify product types and add individual attributes or attribute groups](create_product_types.md).
+permission, you can [modify Product Types and add individual attributes or attribute groups](create_product_types.md).
 
 ### Attributes
 
@@ -40,7 +40,7 @@ Available attribute types are:
 - Color - presented as a hex value
 - Float - represents a number with fractions
 - Integer - represents a number without fractions (a whole number)
-- Measurement (range) - measurement with a given unit and minimum/maximum values selectable per product type
+- Measurement (range) - measurement with a given unit and minimum/maximum values selectable per Product Type
 - Measurement (single) - measurement with a single value in given unit
 - Selection - one of a list of customizable options
 
@@ -49,8 +49,8 @@ An example of an attribute group can be dimensions (which consists of length, wi
 
 ## Products
 
-Products are instances of a particular product type.
-A product is an object that is based on a product type template.
+Products are instances of a particular Product Type.
+A product is an object that is based on a Product Type template.
 Products can have variants that you build around attributes.
 They can be categorized and organized into catalogs.
 
