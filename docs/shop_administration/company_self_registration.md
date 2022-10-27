@@ -43,6 +43,7 @@ Follow the same procedure with a customer group, it can be set up in **Commerce*
 
 Finally, the invitation link is sent back to the applier to finish the registration process
 and give them access to the [Customer Portal](customer_portal.md).
+
 Application is moved to **Members** -> **Companies** section and the company is created with **Active** status.
 From there you can now manage the company and re-send an invitation link if needed.
 For more information on managing companies in the Back Office, see [Customer management documentation](manage_customers.md#manage-company). 
