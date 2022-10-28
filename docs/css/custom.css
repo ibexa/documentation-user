@@ -560,6 +560,7 @@ div.path {
     justify-content: space-evenly;
     align-content: stretch;
     gap: 0.5rem;
+    padding-top: 1rem;
 }
 
 div.path {
@@ -571,8 +572,16 @@ div.path {
 
 .cards div.card-wrapper div div,
 .path div.card-wrapper div div {
-    background-color: var(--inline-code);
+    border: 1px solid #D4D4D4;
+    border-radius: 5px;
+    background-color: #FFFFFF;
     padding: 0.7rem;
+    margin-bottom: 0.4rem;
+}
+
+.cards div.card-wrapper div div:hover,
+.path div.card-wrapper div div:hover {
+    border-color: var(--ibexa-dusk-black);
 }
 
 .cards div.card-wrapper div div {
@@ -588,8 +597,9 @@ div.path {
 
 .cards p.title,
 .path p.title {
-    font-weight: bolder;
+    font-weight: bold;
     padding-bottom: 4px;
+    font-size: 18px;
 }
 
 .cards p.description,
