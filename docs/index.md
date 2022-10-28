@@ -81,7 +81,7 @@
                                 <li><a href="shop_administration/shop_dashboard/">Discover dashboard</a></li>
                                 <li><a href="product_catalog_management/manage_products/">Manage products</a></li>
                                 <li><a href="shop_administration/manage_users/">Manage customers</a></li>
-                                <li><a href="shop_administration/manage_orders/">Manage customers</a></li>
+                                <li><a href="shop_administration/manage_orders/">Manage orders</a></li>
                         </ul>
                     </div>
                 </div>
@@ -101,7 +101,7 @@
                     <li><a href="website_organization/site_factory/">Site Factory</a></li>
                     <li><a href="content_management/translate_content/">Translations</a></li>
                     <li><a href="content_management/workflow_management/editorial_workflow/">Editorial workflow</a></li>
-                    <li><a href="search/">Searching</a></li>
+                    <li><a href="search/">Search for content</a></li>
                 </ul>
         </div>
         <div class="col-lg-8 mb-5 latest-release">
