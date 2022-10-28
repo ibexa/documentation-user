@@ -22,6 +22,3 @@ Users who work as content editors can be tasked with the following responsibilit
     "content_management/publish_content",
     "content_management/content_organization/organize_content"
 ], style="path") =]]
-
-
-<!--   Doszyć personalizację -->

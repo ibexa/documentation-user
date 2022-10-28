@@ -2,7 +2,7 @@
 description: Browse a list of topics that bring you closer to understanding Ibexa DXP.
 ---
 
-# Quick links
+# Time to explore
 
 [[= cards([
     "get_started",
