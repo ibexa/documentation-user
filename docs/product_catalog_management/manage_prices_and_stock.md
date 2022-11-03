@@ -5,7 +5,7 @@ description: Products in catalog can be made unavailable, and can have a base pr
 # Work with availability, stock and prices
 
 [Products in catalog](understand_products.md#products) can be made available in certain quantity, unavailable, 
-and can have a base price and custom prices defined per [customer group](../shop_administration/manage_users.md) and per [currency](../shop_administration/currencies_shipping.md).
+and can have a base price and custom prices defined per [customer group](../shop_administration/manage_customers.md) and per [currency](../shop_administration/manage_currencies_shipping.md).
 
 ## Set product availability
 
@@ -37,7 +37,7 @@ In addition, prices can vary per [customer group](../shop_administration/custome
     To set up product prices, your system must have at least one currency enabled.
 
 To set a price, navigate to the product's or a product variant's **Prices** tab.
-Here you can see the existing prices for the selected [currency](../shop_administration/currencies_shipping.md).
+Here you can see the existing prices for the selected [currency](../shop_administration/manage_currencies_shipping.md).
 
 Select a currency in the dropdown menu to preview the price and click the edit button to modify it.
 

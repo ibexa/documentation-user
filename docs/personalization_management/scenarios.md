@@ -67,5 +67,5 @@ For a detailed description, see [Category path filters](filters.md#category-pat
 ## Next steps
 
 When you have configured the Personalization service, you can 
-[preview scenario results](previewing_scenario.md) and 
-[embed them in your website](integrating_results.md).
+[preview scenario results](preview_scenario_results.md) and 
+[embed them in your website](integrate_scenario_results.md).

@@ -19,7 +19,7 @@ A *product* Content item may have *product name*, *category*, *price*, *size*, *
 In the Back Office, you can view the content in your repository in several places, 
 for example:
 
-- [Content structure](../discover_ui.md#content-tree)
-- [Content browser](../discover_ui.md#content-browser)
-- [User list](../user_management/user_management.md)
+- [Content structure](../getting_started/discover_ui.md#content-tree)
+- [Content browser](../getting_started/discover_ui.md#content-browser)
+- [User list](../manage_users/manage_users.md)
 - [Products list](../product_catalog_management/manage_products.md)

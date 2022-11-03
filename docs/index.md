@@ -57,7 +57,7 @@
                         <div class="tile-body">
                             <ul>
                                 <li><a href="content_management/author_content/">Create content</a></li>
-                                <li><a href="content_management/work_with_pages/">Create Pages</a></li>
+                                <li><a href="content_management/create_edit_pages/">Create Pages</a></li>
                                 <li><a href="content_management/publish_content/">Publish content</a></li>
                                 <li><a href="content_management/content_organization/organize_content">Organize content</a></li>
                             </ul>
@@ -98,7 +98,7 @@
                 </svg>
             </h5>
                 <ul>
-                    <li><a href="website_organization/site_factory/">Site Factory</a></li>
+                    <li><a href="website_organization/work_with_sites/">Site Factory</a></li>
                     <li><a href="content_management/translate_content/">Translations</a></li>
                     <li><a href="content_management/workflow_management/editorial_workflow/">Editorial workflow</a></li>
                     <li><a href="search/">Search for content</a></li>

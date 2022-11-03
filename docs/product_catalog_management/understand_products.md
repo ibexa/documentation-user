@@ -59,7 +59,7 @@ Also, for each product and product variant, you can define its availability, sto
 ### Product assets
 
 When you create or edit products, you can add assets in a form of images.
-Assets [can be assigned](product_assets.md) to the base product, and to one or more of its variants.
+Assets [can be assigned](work_with_product_assets.md) to the base product, and to one or more of its variants.
 
 ### Product completeness
 
@@ -96,7 +96,7 @@ Each category can be assigned to multiple products, and each product can belong 
 - Windows OS Devices
 - Stock clearance
 
-You can enable the use of product categories, assign products to categories and vice versa, and [define your own categories](product_categories.md).
+You can enable the use of product categories, assign products to categories and vice versa, and [define your own categories](work_with_product_categories.md).
 
 ## Product variants
 
@@ -104,7 +104,7 @@ Product variants enable you to have multiple versions of one product, differing 
 
 Typical examples are a t-shirt in different colors, or a laptop with different hard disk sizes.
 
-You can [create variants based on product attributes](product_variants.md).
+You can [create variants based on product attributes](work_with_product_variants.md).
 
 ## Product availability and stock
 
@@ -115,7 +115,7 @@ that availability is infinite, for example, for digital, downloadable products.
 
 ## Product catalogs
 
-You can [create special catalogs](catalogs.md), for example, to differentiate the offering 
+You can [create special catalogs](work_with_catalogs.md), for example, to differentiate the offering 
 that is presented to B2B and B2C users, retailers and distributors or different regions.
 Catalogs contain a sub-set of products from the system.
 

@@ -9,7 +9,7 @@ it must collect events and calculate the results based on user behavior.
 The most important events collected by the service are CLICK and BUY events. 
 They are enough for providing basic recommendations. 
 There are some additional events for creating more complex [scenarios](scenarios.md) 
-and providing [statistics](dashboard.md#statistical-information) about the acceptance of recommendations, such as conversion rate or revenue. 
+and providing [statistics](review_perso_performance.md#statistical-information) about the acceptance of recommendations, such as conversion rate or revenue. 
 
 ![Events in a purchase process](img/events_overview.png "Events in a purchase process")
 

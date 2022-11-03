@@ -36,4 +36,4 @@ Do this by clicking the trash icon next to the group or attribute.
 ![Adding attributes to a Product Type](img/adding_attributes.png)
 
 For every attribute, you can select **Used for product variants**.
-Attributes that have this option are used to [automatically generate product variants](product_variants.md#generate-variants).
+Attributes that have this option are used to [automatically generate product variants](work_with_product_variants.md#generate-variants).

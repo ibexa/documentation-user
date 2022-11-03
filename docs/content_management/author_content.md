@@ -8,8 +8,8 @@ In [[= product_name =]] you store content data in Content items. Learn to add an
 
 [[= cards([
     "content_management/content_items",
-    "content_management/create_content_basic",
-    "content_management/work_with_pages",
+    "content_management/create_edit_content_types",
+    "content_management/create_edit_pages",
     "content_management/work_with_forms",
     "content_management/translate_content",
     "content_management/edit_images",

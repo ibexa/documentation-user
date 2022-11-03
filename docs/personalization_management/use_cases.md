@@ -53,5 +53,5 @@ This can eliminate irrelevant recommendations when there are:
 - Multiple localized versions of the same digital presence
 - Several eCommerce websites operating under different brands
 
-To get independent results for different websites, you must [set up](enabling_personalization.md) 
-and [configure](perso_configuration.md) the service separately for each of these sites.
+To get independent results for different websites, you must [set up](enable_personalization.md) 
+and [configure](configure_personalization.md) the service separately for each of these sites.

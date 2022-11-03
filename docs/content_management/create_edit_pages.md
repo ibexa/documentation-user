@@ -57,7 +57,7 @@ Using the toolbar buttons, you can perform the following actions:
 |![Edit and preview switch](img/page_builder_toolbar_editpreview.png)|Switch between previewing and editing the Page.|
 |![Layout switch](img/page_builder_switch_layout)|Switch between Page layouts.|
 |![Preview segments](img/page_builder_toolbar_preview_segment.png)|Access preview of the Page for a given Segment.|
-|![Timeline button](img/page_builder_toolbartimelinetoggler.png)|Access the timeline to preview how the Page changes with time. You can also view the list of all upcoming scheduled events. For details, see [Timeline](content_publishing/advanced_publishing_options.md#timeline).|
+|![Timeline button](img/page_builder_toolbartimelinetoggler.png)|Access the timeline to preview how the Page changes with time. You can also view the list of all upcoming scheduled events. For details, see [Timeline](content_publishing/schedule_publishing.md#timeline).|
 |![View toggler](img/page_builder_toolbar_devicestoggler.png)|Toggle through to see how the Page is rendered on different devices.|
 |![Elements menu](img/page_builder_toolbarelements.png)|Access menu with Elements.|
 
@@ -97,7 +97,7 @@ Settings available for blocks are divided into three tabs — **Basic**, **Desig
 The settings available on the **Basic** tab are tailored to the block's content.
 
 The remaining tabs contain parameters common to all blocks provided with [[= product_name =]].
-Use them to modify the layout and visibility of a block. For details, see [Scheduling publication](content_publishing/advanced_publishing_options.md).
+Use them to modify the layout and visibility of a block. For details, see [Scheduling publication](content_publishing/schedule_publishing.md).
 
 You cannot publish a Page if you have not set all the required settings of all blocks.
 
@@ -124,7 +124,7 @@ The blocks provided with a clean installation of [[= product_name =]] are:
 |Gallery|Displays all images contained in a selected folder. For details, see [Gallery block](#gallery-block).|
 |Video|Embeds a video into the Page with standard playback controls. For details, see [Video block](#video-block).|
 |RSS|Loads and displays news from RSS feeds (channels). For details, see [RSS block](#rss-block).|
-|Content Scheduler|Displays Content items at a pre-defined time. For details, see [Content Scheduler block](content_publishing/advanced_publishing_options.md#content-scheduler-block).|
+|Content Scheduler|Displays Content items at a pre-defined time. For details, see [Content Scheduler block](content_publishing/schedule_publishing.md#content-scheduler-block).|
 |Text|Enables you to add to the Page a Rich Text block. For details, see [Text block](#text-block).|
 
 #### Targeting block
@@ -251,7 +251,7 @@ On the **Basic** tab, perform the following actions:
 
 - In the **Name** box, provide the name of the block that will appear on the Page.
 - In the **Content** box, enter text, images, videos, etc. using the Online Editor.
-For details, see [Editing Rich Text Fields](create_content_basic.md#edit-rich-text-fields).
+For details, see [Editing Rich Text Fields](create_edit_content_types.md#edit-rich-text-fields).
 
 #### Personalized block
 

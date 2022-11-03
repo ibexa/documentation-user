@@ -12,7 +12,7 @@ products, media, as well as manage auxiliary functionalities and administer the 
 
 Depending on the product edition, [[= product_name =]] can provide advanced capabilities in such areas as:
 
-- content editing: [editing and creating pages](content_management/work_with_pages.md), [editorial workflow](content_management/workflow_management/editorial_workflow.md), etc.
+- content editing: [editing and creating pages](../content_management/create_edit_pages.md), [editorial workflow](../content_management/workflow_management/editorial_workflow.md), etc.
 - product management: 
 - shop administration: customer management, order management, dashboard
 

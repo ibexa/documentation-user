@@ -12,11 +12,11 @@ including the following responsibilities:
 ## What would you like to do today?
 
 [[= cards([
-    "shop_administration/shop_dashboard",
+    "shop_administration/discover_dashboard",
     "product_catalog_management/understand_products",
     "product_catalog_management/manage_products",
-    "shop_administration/currencies_shipping",
+    "shop_administration/manage_currencies_shipping",
     "permission_management/permissions_and_users",
-    "shop_administration/manage_users",
+    "shop_administration/manage_customers",
     "shop_administration/manage_orders"
 ], style="path") =]]

@@ -9,5 +9,5 @@ With the permission system of [[= product_name =]] you can control which users h
 [[= cards([
     "permission_management/permission_system",
     "permission_management/manage_permissions",
-    "user_management/user_management",
+    "manage_users/manage_users",
 ], columns=4) =]]

@@ -8,7 +8,7 @@ When you publish a Content item, it is given a Location ID and placed in the Con
 After you click **Publish**, the Content item is validated and if any of the required Fields are not configured, you see a notification.
 Once the Content item passes the validation, it is immediately available to the visitor.
 
-Instead of instantly publishing you can also save, discard changes, [publish later](advanced_publishing_options.md#date-based-publishing) and [send to review](editorial_workflow.md).
+Instead of instantly publishing you can also save, discard changes, [publish later](schedule_publishing.md#date-based-publishing) and [send to review](editorial_workflow.md).
 All these options are available in the menu when you are in the edit mode.
 
 ![Publishing options](img/publishing_options.png "Publishing options")

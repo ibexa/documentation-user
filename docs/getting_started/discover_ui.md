@@ -14,8 +14,8 @@ It contains shortcuts to most commonly used areas:
 - the content that you have created
 - recently modified content, etc.
 
-You can select any of these items and view them in detail or start [editing them](create_content_basic.md) from this point.
-You can also [reschedule or cancel planned publications](content_management/content_publishing/advanced_publishing_options.md#reschedule_or_cancel_publications) using the dashboard.
+You can select any of these items and view them in detail or start [editing them](create_edit_content_types.md) from this point.
+You can also [reschedule or cancel planned publications](../content_management/content_publishing/schedule_publishing.md#reschedule_or_cancel_publications) using the dashboard.
 
 ![My dashboard](img/dashboard.png "My dashboard")
 
@@ -69,6 +69,6 @@ You can also use the **Content Browser** to search the Repository for content, e
 
     If you have administrator permissions, you can also view and manage User accounts and site skeletons in the **Admin** tab.
     
-    For more information about users and permissions, see [Users](permission_management/permissions_and_users.md).
+    For more information about users and permissions, see [Users](../permission_management/permissions_and_users.md).
     
     For more information about site skeletons, see [Site skeletons]([[= developer_doc =]]/multisite/site_factory_configuration/#site-skeletons).

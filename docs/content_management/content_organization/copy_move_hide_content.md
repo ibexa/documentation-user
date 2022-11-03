@@ -71,5 +71,5 @@ and select and date and time when the Content item will be hidden:
 
 A hidden Content item is unavailable for anyone on the front page. It is also grayed out in the Content Tree.
 
-This is different from [hiding Locations](manage_locations.md#hide-locations), because it affects the Content item
+This is different from [hiding Locations](manage_locations_urls.md#hide-locations), because it affects the Content item
 in all of its Locations.

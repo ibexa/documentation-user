@@ -57,7 +57,7 @@ Then, navigate to the Content item that you want to hide and click **Hide** in t
 ![Hide Content item modal window](../content_organization/img/schedule_hiding.png "Hide Content item modal window")
 
 Once a Content item is hidden, it is unavailable on the front page and inactive in the Content Tree.
-This change affects the Content item in all of its [Locations](../content_organization/manage_locations.md#content-locations).
+This change affects the Content item in all of its [Locations](../content_organization/manage_locations_urls.md#content-locations).
 
 ## Timeline [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 

@@ -9,5 +9,5 @@ In [[= product_name =]] you store content data in Content items. Learn to add an
 [[= cards([
     "content_management/content_organization/copy_move_hide_content",
     "content_management/content_organization/classify_content",
-    "content_management/content_organization/manage_locations",
+    "content_management/content_organization/manage_locations_urls",
 ], columns=2) =]]

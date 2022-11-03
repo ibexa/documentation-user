@@ -133,7 +133,7 @@ to have relations only to Content items of a specific, or any Content Type.
 
 #### Set relation starting location
 
-When you add a [Relation Field type](create_content_basic.md#relation_field) to a Content Type, you can decide which Content tree location opens in the [Content Browser](content_model.md#content-browser) when the user browses to a related Content item.
+When you add a [Relation Field type](create_edit_content_types.md#relation_field) to a Content Type, you can decide which Content tree location opens in the [Content Browser](content_model.md#content-browser) when the user browses to a related Content item.
 
 To set the starting location for the relation, perform the following steps. 
 

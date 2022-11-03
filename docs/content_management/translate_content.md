@@ -45,4 +45,4 @@ Click the SiteAccess list in the left side menu to see the full list of all Site
     They allow you to show different content or design to visitors, for example, 
     to serve different language versions to visitors from different countries.
     
-    See [Site Factory](../website_organization/site_factory.md) for more information about setting up sites.
+    See [Work with sites](../website_organization/work_with_sites.md) for more information about setting up sites.

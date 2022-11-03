@@ -8,18 +8,18 @@ description: Create content for your site with different Fields, rich text, tags
 
 There are several ways of creating a new Content item:
 
-1. Click **Create** in the right menu while viewing any other content in the [Content Tree](../discover_ui.md#content-tree).
+1. Click **Create** in the right menu while viewing any other content in the [Content Tree](../getting_started/discover_ui.md#content-tree).
 The new item appears under the current Content item in the tree.
-1. Click the **Create new** when you [browse content](../discover_ui.md#content-browser).
+1. Click the **Create new** when you [browse content](../getting_started/discover_ui.md#content-browser).
 Here also you have to choose a location for the new item.
-1. Click **Create content** in the upper-right corner of the [My dashboard](../discover_ui.md#my-dashboard) screen.
+1. Click **Create content** in the upper-right corner of the [My dashboard](../getting_started/discover_ui.md#my-dashboard) screen.
 In this case you have to select where the content will be located.
 1. [Drag one or more files](#upload-multiple-content-items) onto the **Sub-items** box when viewing any other content in the Content tree.
 
 When you choose one of the first three options, you have to select the Content Type first.
 If you are using [[= product_name_exp =]] or [[= product_name_com =]],
 you will have the *Page* Content Type available for selection.
-You edit Pages in the Page Builder. For more information, see [Pages](work_with_pages.md).
+You edit Pages in the Page Builder. For more information, see [Pages](create_edit_pages.md).
 
 Whenever you edit a Content item, a [new version](content_versions.md) is created in the repository.
 

@@ -36,7 +36,7 @@ To be able to assign tags to a Content, first, you need to add a Taxonomy Entry 
 
 Now, when you edit or create a Content item of this type, in the tags section, you can add a tag by clicking **Select Taxonomy Entries**.
 
-See [Adding taxonomy entries](create_content_basic.md#add-taxonomy-entries).
+See [Adding taxonomy entries](create_edit_content_types.md#add-taxonomy-entries).
 
 ### Add tag translation
 

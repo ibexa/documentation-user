@@ -5,8 +5,8 @@ edition: experience
 
 # Integrate scenario results
 
-When the Personalization service is [enabled](enabling_personalization.md) and properly 
-[configured](perso_configuration.md), as an editor, you can embed the recommendations 
+When the Personalization service is [enabled](enable_personalization.md) and properly 
+[configured](configure_personalization.md), as an editor, you can embed the recommendations 
 that come from the service, to show them to the end users.
 You can, for example, modify a Page to include a block that shows what 
 Content items/products are recommended to end users when specific [scenarios](scenarios.md) are triggered. 

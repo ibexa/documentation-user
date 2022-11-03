@@ -5,15 +5,15 @@ description: Browse a list of topics that bring you closer to understanding Ibex
 # Time to explore
 
 [[= cards([
-    "get_started",
-    "discover_ui",
-    "search",
+    "getting_started/get_started",
+    "getting_started/discover_ui",
+    "search_for_content",
     "content_management/manage_content_model",
     "content_management/author_content",
     "content_management/content_organization/organize_content",
     "content_management/taxonomy/taxonomy",
     "personalization_management/personalization",
-    "personalization_management/perso_configuration",
+    "personalization_management/configure_personalization",
     "search_engine_optimization/seo",
     "product_catalog_management/understand_products",
     "product_catalog_management/manage_products",

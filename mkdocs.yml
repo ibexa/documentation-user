@@ -6,16 +6,16 @@ site_url: https://doc.ibexa.co/projects/userguide/en/latest/
 copyright: "Copyright 1999-2022 Ibexa AS and others"
 nav:
     - Ibexa User Documentation: index.md
-    - Get started:
-       - Get started: get_started.md
-       - User interface: discover_ui.md
+    - Getting started:
+       - Get started: getting_started/get_started.md
+       - User interface: getting_started/discover_ui.md
     - Content model management:
         - Content model: content_management/content_model.md
         - Work with Content Types: content_management/work_with_content_types.md
     - Content management:
         - Content items: content_management/content_items.md
-        - Create and edit Content items: content_management/create_content_basic.md
-        - Create and edit Pages: content_management/work_with_pages.md
+        - Create and edit Content items: content_management/create_edit_content_types.md
+        - Create and edit Pages: content_management/create_edit_pages.md
         - Translate content: content_management/translate_content.md
         - Work with forms: content_management/work_with_forms.md
         - Edit images: content_management/edit_images.md
@@ -29,25 +29,25 @@ nav:
         - Content organization:
             - Copy, move or hide content: content_management/content_organization/copy_move_hide_content.md
             - Classify content: content_management/content_organization/classify_content.md
-            - Manage content locations and URLs: content_management/content_organization/manage_locations.md
+            - Manage content locations and URLs: content_management/content_organization/manage_locations_urls.md
     - Content publishing:
-        - Publish content: content_management/content_publishing/publishing.md
-        - Schedule publication: content_management/content_publishing/advanced_publishing_options.md
+        - Publish content: content_management/content_publishing/publish_instantly.md
+        - Schedule publication: content_management/content_publishing//schedule_publishing.md
     - Search: 
-        - Search for content: search.md
+        - Search for content: search_for_content.md
         - Search Egine Optimization: 
             - SEO: search_engine_optimization/seo.md
             - Work with SEO: search_engine_optimization/work_with_seo.md
     - Personalization management:
         - Personalization: personalization_management/personalization.md
         - Use cases: personalization_management/use_cases.md
-        - Enable personalization: personalization_management/enabling_personalization.md
-        - Configure personalization: personalization_management/perso_configuration.md
-        - Preview scenario results: personalization_management/previewing_scenario.md
-        - Integrate scenario results: personalization_management/integrating_results.md
+        - Enable personalization: personalization_management/enable_personalization.md
+        - Configure personalization: personalization_management/configure_personalization.md
+        - Preview scenario results: personalization_management/preview_scenario_results.md
+        - Integrate scenario results: personalization_management/integrate_scenario_results.md
         - Cross content type recommendations: personalization_management/cross_content_type_reco.md
         - Import data: personalization_management/content_import.md
-        - Review performance: personalization_management/dashboard.md
+        - Review performance: personalization_management/review_perso_performance.md
         - Reference:
               - Events: personalization_management/event_types.md
               - Content types: personalization_management/content_types.md
@@ -57,26 +57,26 @@ nav:
     - PIM:
         - Products: product_catalog_management/understand_products.md
         - Create product types: product_catalog_management/create_product_types.md
-        - Add assets: product_catalog_management/product_assets.md
-        - Work with product categories: product_catalog_management/product_categories.md
-        - Work with product variants: product_catalog_management/product_variants.md
+        - Add assets: product_catalog_management/work_with_product_assets.md
+        - Work with product categories: product_catalog_management/work_with_product_categories.md
+        - Work with product variants: product_catalog_management/work_with_product_variants.md
         - Work with product availability and stock: product_catalog_management/manage_prices_and_stock.md
-        - Work with product catalogs: product_catalog_management/catalogs.md
+        - Work with product catalogs: product_catalog_management/work_with_catalogs.md
     - Customer management:
-        - Manage customers: shop_administration/manage_users.md
+        - Manage customers: shop_administration/manage_customers.md
         - Customer Portal: shop_administration/customer_portal.md
     - Shop administration:
         - Shop administration: shop_administration/shop_administration.md
-        - Dashboard: shop_administration/shop_dashboard.md
+        - Dashboard: shop_administration/discover_dashboard.md
         - Manage orders: shop_administration/manage_orders.md
-        - Manage currencies and shipping cost: 'shop_administration/currencies_shipping.md'
+        - Manage currencies and shipping cost: 'shop_administration/manage_currencies_shipping.md'
     - Website organization:
         - Multisite: website_organization/multisite.md
-        - Work with sites: website_organization/site_factory.md
+        - Work with sites: website_organization/work_with_sites.md
     - Permissions and users: 
         - Permission system: permission_management/permission_system.md
         - Work with permissions: permission_management/manage_permissions.md
-        - Manage users: user_management/user_management.md
+        - Manage users: user_management/manage_users.md
     - User paths:
         - Quick links: persona_paths/newbie.md
         - Content editor: 
