@@ -34,7 +34,7 @@
                         </h5>
                     <div class="tile-body">
                         <ul>
-                            <li><a href="discover_ui/">Discover UI</a></li>
+                            <li><a href="getting_started/discover_ui/">Discover UI</a></li>
                             <li><a href="content_management/content_model/">Content model</a></li>
                             <li><a href="pim/products/">PIM</a></li>
                             <li><a href="personalization/personalization/">Personalization</a></li>
@@ -56,10 +56,10 @@
                         </h5>
                         <div class="tile-body">
                             <ul>
-                                <li><a href="content_management/author_content/">Create content</a></li>
+                                <li><a href="persona_paths/author_content/">Create content</a></li>
                                 <li><a href="content_management/create_edit_pages/">Create Pages</a></li>
-                                <li><a href="content_management/publish_content/">Publish content</a></li>
-                                <li><a href="content_management/content_organization/organize_content">Organize content</a></li>
+                                <li><a href="persona_paths/publish_content/">Publish content</a></li>
+                                <li><a href="persona_paths/organize_content">Organize content</a></li>
                             </ul>
                         </div>
                     </div>
@@ -78,8 +78,8 @@
                         </h5>
                         <div class="tile-body">
                             <ul>
-                                <li><a href="shop_administration/shop_dashboard/">Discover dashboard</a></li>
-                                <li><a href="pim/manage_products/">Manage products</a></li>
+                                <li><a href="shop_administration/discover_dashboard/">Discover dashboard</a></li>
+                                <li><a href="persona_paths/manage_products/">Manage products</a></li>
                                 <li><a href="shop_administration/manage_users/">Manage customers</a></li>
                                 <li><a href="shop_administration/manage_orders/">Manage orders</a></li>
                         </ul>
