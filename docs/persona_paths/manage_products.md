@@ -10,10 +10,10 @@ your stock and customers can easily browse your catalogs.
 
 
 [[= cards([
-    "product_catalog_management/create_product_types",
-    "product_catalog_management/work_with_product_assets",
-    "product_catalog_management/work_with_product_categories",
-    "product_catalog_management/work_with_product_variants",
-    "product_catalog_management/manage_prices_and_stock",
-    "product_catalog_management/work_with_catalogs"
+    "pim/create_product_types",
+    "pim/work_with_product_assets",
+    "pim/work_with_product_categories",
+    "pim/work_with_product_variants",
+    "pim/manage_prices_and_stock",
+    "pim/work_with_catalogs"
 ], style="path") =]]

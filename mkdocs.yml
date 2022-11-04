@@ -14,7 +14,7 @@ nav:
         - Work with Content Types: content_management/work_with_content_types.md
     - Content management:
         - Content items: content_management/content_items.md
-        - Create and edit Content items: content_management/create_edit_content_types.md
+        - Create and edit Content items: content_management/create_edit_content_items.md
         - Create and edit Pages: content_management/create_edit_pages.md
         - Translate content: content_management/translate_content.md
         - Work with forms: content_management/work_with_forms.md
@@ -31,37 +31,37 @@ nav:
             - Classify content: content_management/content_organization/classify_content.md
             - Manage content locations and URLs: content_management/content_organization/manage_locations_urls.md
     - Content publishing:
-        - Publish content: content_management/content_publishing/publish_instantly.md
-        - Schedule publication: content_management/content_publishing//schedule_publishing.md
+        - Publish content: content_management/publish_instantly.md
+        - Schedule publication: content_management/schedule_publishing.md
     - Search: 
-        - Search for content: search_for_content.md
-        - Search Egine Optimization: 
+        - Search for content: search/search_for_content.md
+        - Search Engine Optimization: 
             - SEO: search_engine_optimization/seo.md
             - Work with SEO: search_engine_optimization/work_with_seo.md
-    - Personalization management:
-        - Personalization: personalization_management/personalization.md
-        - Use cases: personalization_management/use_cases.md
-        - Enable personalization: personalization_management/enable_personalization.md
-        - Configure personalization: personalization_management/configure_personalization.md
-        - Preview scenario results: personalization_management/preview_scenario_results.md
-        - Integrate scenario results: personalization_management/integrate_scenario_results.md
-        - Cross content type recommendations: personalization_management/cross_content_type_reco.md
-        - Import data: personalization_management/content_import.md
-        - Review performance: personalization_management/review_perso_performance.md
+    - Personalization:
+        - Personalization: personalization/personalization.md
+        - Use cases: personalization/use_cases.md
+        - Enable personalization: personalization/enable_personalization.md
+        - Configure personalization: personalization/configure_personalization.md
+        - Preview scenario results: personalization/preview_scenario_results.md
+        - Integrate scenario results: personalization/integrate_scenario_results.md
+        - Cross content type recommendations: personalization/cross_content_type_reco.md
+        - Import data: personalization/content_import.md
+        - Review performance: personalization/review_perso_performance.md
         - Reference:
-              - Events: personalization_management/event_types.md
-              - Content types: personalization_management/content_types.md
-              - Recommendation models: personalization_management/recommendation_models.md
-              - Scenarios: personalization_management/scenarios.md
-              - Filters: personalization_management/filters.md
+              - Events: personalization/event_types.md
+              - Content types: personalization/content_types.md
+              - Recommendation models: personalization/recommendation_models.md
+              - Scenarios: personalization/scenarios.md
+              - Filters: personalization/filters.md
     - PIM:
-        - Products: product_catalog_management/understand_products.md
-        - Create product types: product_catalog_management/create_product_types.md
-        - Add assets: product_catalog_management/work_with_product_assets.md
-        - Work with product categories: product_catalog_management/work_with_product_categories.md
-        - Work with product variants: product_catalog_management/work_with_product_variants.md
-        - Work with product availability and stock: product_catalog_management/manage_prices_and_stock.md
-        - Work with product catalogs: product_catalog_management/work_with_catalogs.md
+        - Products: pim/understand_products.md
+        - Create product types: pim/create_product_types.md
+        - Add assets: pim/work_with_product_assets.md
+        - Work with product categories: pim/work_with_product_categories.md
+        - Work with product variants: pim/work_with_product_variants.md
+        - Work with product availability and stock: pim/manage_prices_and_stock.md
+        - Work with product catalogs: pim/work_with_catalogs.md
     - Customer management:
         - Manage customers: shop_administration/manage_customers.md
         - Customer Portal: shop_administration/customer_portal.md
@@ -81,12 +81,12 @@ nav:
         - Quick links: persona_paths/newbie.md
         - Content editor: 
             - Content editor: persona_paths/editor.md
-            - Author content: content_management/author_content.md
-            - Publish content: content_management/publish_content.md
-            - Organize content: content_management/content_organization/organize_content.md
+            - Author content: persona_paths/author_content.md
+            - Publish content: persona_paths/publish_content.md
+            - Organize content: persona_paths/organize_content.md
         - Shop manager: 
             - Shop manager: persona_paths/shop_manager.md
-            - Manage products: product_catalog_management/manage_products.md
+            - Manage products: persona_paths/manage_products.md
 
               
 theme:

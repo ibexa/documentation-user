@@ -4,6 +4,8 @@ description: Build new Content Types and modify existing ones.
 
 # Work with Content Types
 
+## Create or modify Content Types
+
 If you have Administrator permissions, you can create and modify Content Types.
 Click **Content** to see content management options, and then **Content Types** 
 to see groups into which the types are organized.
@@ -68,11 +70,11 @@ Each Field has a number of common parameters:
 ## Modify default configuration of Pages
 
 As an administrator, you can modify various Content Type settings. 
-For example, you can modify settings that regulate the behavior of Content items of Page type.
+For example, you can modify settings that regulate the behavior of Content items of [Page](../content_management/create_edit_pages.md) type.
 
 ### Configure block display
 
-You can define which page blocks elements are available for an editor in the page edit mode.
+You can define which page blocks are available for an editor in the page edit mode.
 
 Go to the Content Type that you want to edit. 
 In the **Field definitions** section, click the **Landing page** tab.
@@ -133,7 +135,7 @@ to have relations only to Content items of a specific, or any Content Type.
 
 #### Set relation starting location
 
-When you add a [Relation Field type](create_edit_content_types.md#relation_field) to a Content Type, you can decide which Content tree location opens in the [Content Browser](content_model.md#content-browser) when the user browses to a related Content item.
+When you add a [Relation Field type](create_edit_content_items.md#relation_field) to a Content Type, you can decide which Content tree location opens in the [Content Browser](content_model.md#content-browser) when the user browses to a related Content item.
 
 To set the starting location for the relation, perform the following steps. 
 

@@ -2,7 +2,7 @@
 description: Products are containers that aggregate information about the items you offer, their specs, variants, availability, etc.
 ---
 
-# Understand products
+# Products
 
 With **Product Catalog**, [[= product_name =]] handles products offered in the website, 
 including their specifications, and pricing.

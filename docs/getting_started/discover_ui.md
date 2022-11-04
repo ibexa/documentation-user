@@ -14,8 +14,8 @@ It contains shortcuts to most commonly used areas:
 - the content that you have created
 - recently modified content, etc.
 
-You can select any of these items and view them in detail or start [editing them](create_edit_content_types.md) from this point.
-You can also [reschedule or cancel planned publications](../content_management/content_publishing/schedule_publishing.md#reschedule_or_cancel_publications) using the dashboard.
+You can select any of these items and view them in detail or start [editing them](create_edit_content_items.md) from this point.
+You can also [reschedule or cancel planned publications](../content_management/schedule_publishing.md#reschedule_or_cancel_publications) using the dashboard.
 
 ![My dashboard](img/dashboard.png "My dashboard")
 
@@ -25,13 +25,13 @@ The left side menu allows you to move between important sections of the applicat
 
 ![Side menu](img/top_bar.png "Side menu")
 
-Depending on the product edition and your [permissions], the top level sections on the leftmost pane may include, for example:
+Depending on the product edition and your [permissions](../permission_management/permission_system.md), the top level sections on the leftmost pane may include, for example:
 
-- **Content** gives you access to the content Repository.
+- **Content**, which gives you access to the content Repository.
 It lets you navigate the Content Tree, create, edit, move, copy, delete content, etc.
-- **Product catalog** enables you to handle products presented on the website, including their specifications and pricing.
-- [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]] **Site** enables you to create and edit block-based Pages and manage multiple sites.
-- **Admin** is the administration panel where you can manage Users, Sections, permissions, etc.
+- **Product catalog**, which enables you to handle products presented on the website, including their specifications and pricing.
+- [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]] **Site**, which enables you to create and edit block-based Pages and manage multiple sites.
+- **Admin**, which is the administration panel where you can manage Users, Sections, permissions, etc.
 
 ## Content Tree
 
@@ -42,10 +42,11 @@ If you want to navigate through your website with a menu, go to the **Content** 
 
 Unique icons for each Content Type instantly show you what type of content you are selecting. To add custom icons to your Content Tree, follow [configuration tutorial in developer documentation.]([[= developer_doc =]]/administration/back_office/back_office_elements/custom_icons/#customize-content-type-icons)
 
-Hidden content is blurred out in the tree view.
+Hidden content is greyed out in the tree view.
 
-To simplify the Content Tree, big lists are shortened with a **Show more** option. You can select it to expand all lists in the tree.
-The **Collapse all** option situated at the bottom of the tree closes all expanded sections.
+To simplify the Content Tree, big lists are collapsed and include a **Show more** icon. 
+You can select it to expand the branches of the tree.
+Available from the context menu, the **Collapse all** option that closes all expanded sections.
 
 For more information on custom configuration, go to [Content Tree]([[= developer_doc =]]/administration/back_office/content_tree/) in developer documentation.
 
@@ -62,7 +63,7 @@ The Content Browser window opens, and you can select the new location of the sel
 ![Content Browser](img/udw.png "Content Browser")
 
 With the **Content Browser**, you can switch between the Grid, Panels and Tree views to navigate through the content of the site.
-Depending on your permissions, you might be able to review the regular content, media, forms, site skeletons and User accounts.
+Depending on your permissions, you might be able to see the regular content, media, forms, site skeletons and User accounts.
 You can also use the **Content Browser** to search the Repository for content, edit content, create bookmarks, and create new content when needed.
 
 !!! note

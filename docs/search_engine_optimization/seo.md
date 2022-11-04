@@ -2,7 +2,7 @@
 description: SEO can help your content score higher in search results, which leads to greater visibility.
 ---
 
-# Understand SEO
+# Search Engine Optimization
 
 Every time users search online, they are presented with a list of results, 
 together with page title and a short summary. 

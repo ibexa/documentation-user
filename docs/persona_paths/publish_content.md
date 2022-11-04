@@ -7,6 +7,6 @@ description: Make content accessible to the audience.
 Once you are done editing the content, make it immediately accessible or schedule publication for later.
 
 [[= cards([
-    "content_management/content_publishing/publish_instantly",
-    "content_management/content_publishing/schedule_publishing"
+    "content_management/publish_instantly",
+    "content_management/schedule_publishing"
 ], columns=2) =]] 

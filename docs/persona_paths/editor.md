@@ -17,8 +17,8 @@ Users who work as content editors can be tasked with the following responsibilit
 [[= cards([
     "content_management/content_model",
     "content_management/work_with_content_types",
-    "content_management/author_content",
+    "persona_paths/author_content",
     "content_management/taxonomy/work_with_tags",
-    "content_management/publish_content",
-    "content_management/content_organization/organize_content"
+    "persona_paths/publish_content",
+    "persona_paths/organize_content"
 ], style="path") =]]

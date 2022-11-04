@@ -13,8 +13,8 @@ including the following responsibilities:
 
 [[= cards([
     "shop_administration/discover_dashboard",
-    "product_catalog_management/understand_products",
-    "product_catalog_management/manage_products",
+    "pim/understand_products",
+    "persona_paths/manage_products",
     "shop_administration/manage_currencies_shipping",
     "permission_management/permissions_and_users",
     "shop_administration/manage_customers",

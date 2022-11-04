@@ -36,8 +36,8 @@
                         <ul>
                             <li><a href="discover_ui/">Discover UI</a></li>
                             <li><a href="content_management/content_model/">Content model</a></li>
-                            <li><a href="product_catalog_management/understand_products/">PIM</a></li>
-                            <li><a href="personalization_management/personalization/">Personalization</a></li>
+                            <li><a href="pim/understand_products/">PIM</a></li>
+                            <li><a href="personalization/personalization/">Personalization</a></li>
                             </ul>
                         </div>
                     </div>
@@ -79,7 +79,7 @@
                         <div class="tile-body">
                             <ul>
                                 <li><a href="shop_administration/shop_dashboard/">Discover dashboard</a></li>
-                                <li><a href="product_catalog_management/manage_products/">Manage products</a></li>
+                                <li><a href="pim/manage_products/">Manage products</a></li>
                                 <li><a href="shop_administration/manage_users/">Manage customers</a></li>
                                 <li><a href="shop_administration/manage_orders/">Manage orders</a></li>
                         </ul>

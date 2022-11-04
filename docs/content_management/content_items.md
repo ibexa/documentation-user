@@ -2,7 +2,7 @@
 description: Content items are containers that Ibexa DXP uses to store content data.
 ---
 
-# Understand Content items
+# Content items
 
 A Content item is a single piece of content: an article, a blog post, an image, 
 or a product.
@@ -12,7 +12,7 @@ These Fields will differ depending on what kind of content you are dealing with.
 An *article* Content item may consist of Fields such as *title*, *name*, *author*, *body*, *image*, *subscriber teaser*, etc.
 A *product* Content item may have *product name*, *category*, *price*, *size*, *color*, etc. as Fields.
 
-[[= product_name =]] generates Content items based on templated called [Content Types](content_model.md/#content_types).
+In [[= product_name =]], you create Content items based on templated called [Content Types](content_model.md/#content_types).
 
 ## Access content in the UI
 
@@ -21,5 +21,5 @@ for example:
 
 - [Content structure](../getting_started/discover_ui.md#content-tree)
 - [Content browser](../getting_started/discover_ui.md#content-browser)
-- [User list](../manage_users/manage_users.md)
-- [Products list](../product_catalog_management/manage_products.md)
+- [User list](../user_management/manage_users.md)
+- [Products list](../persona_paths/manage_products.md)

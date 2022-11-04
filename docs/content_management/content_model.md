@@ -2,7 +2,7 @@
 description: The Ibexa DXP content model relies on Content items that are based on predefined Content Types.
 ---
 
-# Understand content model
+# Content model
 
 At the heart of [[= product_name =]] is a repository that stores all content.
 In [[= product_name =]] everything is a Content item — not just the actual pages displayed in the website,
@@ -19,7 +19,7 @@ However, even a non-technical user can easily create or modify the content model
 A **Content Type** is comparable to a pattern or a template on which you base [Content items](content_items.md).
 Whenever you create a new Content item, you must choose its Content Type.
 
-The Content Type defines what Fields will be available in the Content item.
+The Content Type defines what Fields are available in the Content item.
 A Content item may only contain the Fields that are defined in the Content Type.
 
 [[= product_name =]] allows you to create, edit, and delete Content Types and their Fields.
