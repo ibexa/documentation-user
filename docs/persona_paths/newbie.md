@@ -15,7 +15,7 @@ description: Browse a list of topics that bring you closer to understanding Ibex
     "personalization/personalization",
     "personalization/configure_personalization",
     "search_engine_optimization/seo",
-    "pim/understand_products",
+    "pim/products",
     "persona_paths/manage_products",
     "shop_administration/customer_portal",
     "website_organization/multisite",

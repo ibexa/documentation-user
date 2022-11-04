@@ -17,7 +17,7 @@ The number and selection of available scenarios depends on the arrangements that
 your organization makes with Ibexa when defining the initial configuration.
 
 1. Navigate to the **Site** > **List** tab, and then click the **Preview** 
-icon next to the site in which you want to place a personalization block.
+icon next to the website in which you want to place a personalization block.
 
 1. On the Page Builder screen, click the **Preview/Edit** selector to switch to editing mode.
 

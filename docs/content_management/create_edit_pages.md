@@ -24,7 +24,7 @@ On the right-side toolbar, click **Create** and from the list of Content items s
 On the **Page creation** modal, select the layout and click **Create draft**.
 
 You can also add a new Page in the Page Builder.
-Open the Page Builder by clicking **Site** and selecting a site from the list that 
+Open the Page Builder by clicking **Site** and selecting a website from the list that 
 appears next to the **List** icon.
 On the [Page Builder toolbar](#page-builder-toolbar) click the plus button and from the list select **Landing page**.
 On the **Page creation** modal, select the layout and click **Create draft**.

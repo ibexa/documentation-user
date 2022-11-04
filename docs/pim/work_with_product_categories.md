@@ -4,13 +4,13 @@ description: You can create a structure of tags that can be assigned to products
 
 # Work with product categories
 
-[Product categories](understand_products.md#product-categories) are organized into a Category tree, which you can access from the **Product catalog** panel. The **Categories** screen is where you manually create a hierarchy of categories and manage category entries. 
+[Product categories](products.md#product-categories) are organized into a Category tree, which you can access from the **Product catalog** panel. The **Categories** screen is where you manually create a hierarchy of categories and manage category entries. 
 
 ![Product category tree](img/product_categories.png)
 
 ## Enable product categories
 
-Before you can assign categories to products, make sure that the **Taxonomy Entry Assignment** field is added and set as required in all the [Product Types](understand_products.md#product-types) that define products from your Product Catalog which you want to categorize. 
+Before you can assign categories to products, make sure that the **Taxonomy Entry Assignment** field is added and set as required in all the [Product Types](products.md#product-types) that define products from PIM which you want to categorize. 
 The field could be absent if Product Types were migrated from an older version of the product.
 
 Depending on your permissions, you might be able to verify the presence of the field and add the field yourself:

@@ -60,19 +60,19 @@ in the **Location** tab and selecting a Content item to swap with.
 
 ## URL management
 
-In your site, you can manage external URL addresses and URL wildcards.
+In your website, you can manage external URL addresses and URL wildcards.
 You do this in the Back Office, **Admin** tab, the **URL Management** node.
 
 For more information about URL management, see the [Ibexa Developer Documentation.]([[= developer_doc =]]/content_management/url_management/url_management/).
 
 ### Link manager
 
-In your site you can link to external websites by placing links inside rich text, or by using the URL Field.
-You can view and update all external links that exist within the site, without having to modify and re-publish the individual Content items.
+In your website you can link to external websites by placing links inside rich text, or by using the URL Field.
+You can view and update all external links that exist within the website, without having to modify and re-publish the individual Content items.
 
 ![Link manager tab](img/Link_manager_sm.png)
 
-The Link manager tab shows a list of all links in the site. Click any item in the list to see its details and a list of Content items that use this URL.
+The Link manager tab shows a list of all links in the website. Click any item in the list to see its details and a list of Content items that use this URL.
 
 ![Detail of a link in Link manager](img/link_manager_detail.png)
 
@@ -99,7 +99,7 @@ For each new alias, you can set the following options:
 
 - Language - the language of the Content item that the alias redirects to.
 - Redirect to alias destination - when toggled on, the alias will redirect to the Content item's actual URL.
-- Place at the site root - when toggled, the alias will be created in the root of the site.
+- Place at the website root - when toggled, the alias will be created in the root of the website.
 If this is toggled off, the alias will be relative to the parent of the Content item.
 - SiteAccess - when selected, the prefix of the respective SiteAccess is added to the alias path.
 
@@ -109,7 +109,7 @@ With wildcards, you can replace a portion of the URL address for many Content it
 
 ![URL wildcards tab](img/URL_Wildcards_sm.png)
 
-The URL wildcards tab shows a list of all URL wildcard definitions that exist within the site, and contains all the information about each URL wildcard. You can delete or modify existing entries, or create new ones.
+The URL wildcards tab shows a list of all URL wildcard definitions that exist within the website, and contains all the information about each URL wildcard. You can delete or modify existing entries, or create new ones.
 
 ![Editing a URL wildcard definition](img/URL_wildcard_detail.png)
 

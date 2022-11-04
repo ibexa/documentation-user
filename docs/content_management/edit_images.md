@@ -50,7 +50,7 @@ so the area that contains the selected point is always visible.
 
 !!! note
 
-    Cropping to focal point is not automatic. The site's templates must be adapted for this to happen.
+    Cropping to focal point is not automatic. The website's templates must be adapted for this to happen.
     See [Use focal point]([[= developer_doc =]]/templating/embed_and_list_content/render_images/#use-focal-point)
     in developer documentation for an example of implementing such cropping.
 

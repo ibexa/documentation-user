@@ -1,5 +1,5 @@
 ---
-description: Create content for your site with different Fields, rich text, tags, and then publish it.
+description: Create content for your website with different Fields, rich text, tags, and then publish it.
 ---
 
 # Create and edit Content items
@@ -8,7 +8,7 @@ description: Create content for your site with different Fields, rich text, tags
 
 There are several ways of creating a new Content item:
 
-1. Click **Create** on the top of the screen while viewing any other content in the [Content Tree](../getting_started/discover_ui.md#content-tree).
+1. While viewing a Content item in the [Content Tree](../getting_started/discover_ui.md#content-tree), click **Create** at the top of the screen.
 The new item appears under the current Content item in the tree.
 1. Click the **Create new** when you [browse content](../getting_started/discover_ui.md#content-browser).
 Here also you have to choose a location for the new item.
@@ -113,7 +113,7 @@ add or delete rows and columns in any part of the table, as well as merge and sp
 ### Custom elements
 
 You installation can also have custom elements available in the Rich Text field.
-Contact your site administrator about the details of using them.
+Contact your website administrator about the details of using them.
 
 ### Text formatting
 

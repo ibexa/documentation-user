@@ -36,7 +36,7 @@
                         <ul>
                             <li><a href="discover_ui/">Discover UI</a></li>
                             <li><a href="content_management/content_model/">Content model</a></li>
-                            <li><a href="pim/understand_products/">PIM</a></li>
+                            <li><a href="pim/products/">PIM</a></li>
                             <li><a href="personalization/personalization/">Personalization</a></li>
                             </ul>
                         </div>

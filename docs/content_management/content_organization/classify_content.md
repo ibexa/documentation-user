@@ -4,7 +4,8 @@ description: Classify the content of your website by using Sections, Bookmarks, 
 
 # Classify content
 
-To help you better organize content, [[ product_name ]] comes equipped with a number of mechanisms that you can use.
+To help you better organize content, [[= product_name =]] comes equipped with 
+a number of mechanisms that you can use.
 
 ## Sections
 
@@ -27,7 +28,7 @@ Access to Sections can be restricted by [setting up proper permissions](../../pe
 
 ## Object states
 
-You can assign specific Object states to all Content items in your site.
+You can assign specific Object states to all Content items in your website.
 You can do it when viewing the Content item, in the **Details** tab, in the **Object state details** section.
 
 ![Object state details](img/object_state_details.png)
@@ -35,7 +36,7 @@ You can do it when viewing the Content item, in the **Details** tab, in the **Ob
 !!! note
 
     The functioning of Object states can be set up differently in each installation.
-    Contact your site administrator for information on how to use the states in your case.
+    Contact your website administrator for information on how to use the states in your case.
 
 ## Bookmarks
 
@@ -59,4 +60,4 @@ You can create and configure Segments and Segment Groups in the **Admin** sectio
 !!! note
 
     Assigning Users to Segments happens automatically according to rules set up by the administrator.
-    Contact your site administrator for more information about your setup.
+    Contact your website administrator for more information about your setup.

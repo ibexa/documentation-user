@@ -20,7 +20,7 @@ The dashboard consists of several sections:
 
     If you have [permissions](../permission_management/permissions_and_users.md) to access several websites hosted on an [[= product_name =]] 
     instance, you can use the selector field to switch between dashboards for 
-    each of these sites.
+    each of these websites.
 
 ## Statistical information
 

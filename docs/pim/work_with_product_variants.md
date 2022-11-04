@@ -4,7 +4,7 @@ description: Create multiple variants of one product, based on attributes such a
 
 # Work with product variants
 
-To use an [attribute](understand_products.md#attributes) to create [variants](understand_products.md#product-variants), mark the attribute as **Used for product variants** when you create a [Product Type](create_product_types.md).
+To use an [attribute](products.md#attributes) to create [variants](products.md#product-variants), mark the attribute as **Used for product variants** when you create a [Product Type](create_product_types.md).
 
 ![Product Type definition with attributes used for variants](img/product_type_attr_used_for_variants.png)
 

@@ -13,7 +13,7 @@ products, media, as well as manage other functionalities and administer the plat
 Depending on the product edition, [[= product_name =]] can provide advanced capabilities in such areas as:
 
 - content editing: [editing and creating pages](../content_management/create_edit_pages.md), [editorial workflow](../content_management/workflow_management/editorial_workflow.md), etc.
-- product management: [managing product catalogs](../pim/work_with_catalogs.md), [managing product categories](../pim/work_with_product_categories.md)
+- product management: [managing catalogs](../pim/work_with_catalogs.md), [managing product categories](../pim/work_with_product_categories.md)
 - shop administration: [managing customers](../shop_administration/manage_customers.md), [managing orders](../shop_administration/manage_orders.md), [managing shipping cost](../shop_administration/manage_currencies_shipping.md), etc.
 
 !!! note "Installation"

@@ -1,5 +1,5 @@
 ---
-description: Use surveys, questionnaires, sign-up forms and other interactive forms to enrich your site.
+description: Use surveys, questionnaires, sign-up forms and other interactive forms to enrich your website.
 edition: experience
 ---
 

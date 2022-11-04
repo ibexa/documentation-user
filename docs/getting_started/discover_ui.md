@@ -29,14 +29,14 @@ Depending on the product edition and your [permissions](../permission_management
 
 - **Content**, which gives you access to the content Repository.
 It lets you navigate the Content Tree, create, edit, move, copy, delete content, etc.
-- **Product catalog**, which enables you to handle products presented on the website, including their specifications and pricing.
-- [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]] **Site**, which enables you to create and edit block-based Pages and manage multiple sites.
+- **PIM**, which enables you to handle products presented on the website, including their specifications and pricing.
+- [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]] **Site**, which enables you to create and edit block-based Pages and manage multiple websites.
 - **Admin**, which is the administration panel where you can manage Users, Sections, permissions, etc.
 
 ## Content Tree
 
 If you want to navigate through your website with a menu, go to the **Content** tab, and select **Content structure**.
-**Content Tree** in the left sidebar opens an expandable content menu of your site.
+**Content Tree** in the left sidebar opens an expandable content menu of your website.
 
 ![Content Tree in the menu](img/left_menu_tree.png "Content Tree in the menu")
 
@@ -62,7 +62,7 @@ The Content Browser window opens, and you can select the new location of the sel
 
 ![Content Browser](img/udw.png "Content Browser")
 
-With the **Content Browser**, you can switch between the Grid, Panels and Tree views to navigate through the content of the site.
+With the **Content Browser**, you can switch between the Grid, Panels and Tree views to navigate through the content of the website.
 Depending on your permissions, you might be able to see the regular content, media, forms, site skeletons and User accounts.
 You can also use the **Content Browser** to search the Repository for content, edit content, create bookmarks, and create new content when needed.
 

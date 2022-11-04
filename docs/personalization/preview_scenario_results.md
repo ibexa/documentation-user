@@ -15,7 +15,7 @@ to see the recommendation results.
 
     If you have permissions to access several websites hosted on an [[= product_name =]] 
     instance, you can use the selector field to switch between views for each 
-    of these sites.
+    of these websites.
 
 The number and selection of available scenarios depends on the arrangements that 
 your organization makes with Ibexa when defining the initial configuration.

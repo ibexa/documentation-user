@@ -15,7 +15,7 @@ To do this, navigate to one of the pages mentioned below and edit the item that 
 
     If you have permissions to access several websites hosted on an [[= product_name =]] 
     instance, you can use the selector field to switch between views for each 
-    of these sites.
+    of these websites.
 
 ## Models
 

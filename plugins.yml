@@ -28,7 +28,7 @@ plugins:
             'publishing/advanced_publishing_options.md': 'content_management/schedule_publishing.md'
             'site_organization/work_with_page.md': 'content_management/create_edit_pages.md'
             'shop_administration/product_variants_and_assets.md': 'pim/work_with_product_variants.md'
-            'shop_administration/manage_products.md': 'pim/understand_products.md'
+            'shop_administration/manage_products.md': 'pim/products.md'
             'shop_administration/product_categories.md': 'pim/work_with_product_categories.md'
             'shop_administration/catalogs.md': 'pim/work_with_catalogs.md'
             'shop_administration/cockpit.md': 'shop_administration/discover_dashboard.md'

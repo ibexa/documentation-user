@@ -15,6 +15,6 @@ contains many tags.
 
 ## Taxonomy tree
 
-Taxonomy Tree is where you create a hierarchy of all tags and relationships between 
+Taxonomy tree is where you create a hierarchy of all tags and relationships between 
 tags and content items.
 Working with the Taxonomy tree is similar to working with the Content structure tree.

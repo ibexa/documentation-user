@@ -16,9 +16,9 @@ Whenever you edit and publish a Content item again, its previous published versi
 It is not available to the visitor and you cannot edit it, but you can create new drafts based on any archived version.
 
 Finally, **drafts** are versions that have not been published yet.
-There can be many drafts of the same content item.
+There can be many drafts of the same Content item.
 They can be created by the autosave feature, by the reviewer as part of the 
-[editorial workflow](workflow_management/editorial_workflow.md), or when you save  
+[editorial workflow](workflow_management/editorial_workflow.md), or when you save 
 the work and navigate out of the Content item editing screen to focus on a different task.
 
 You can view all versions of a Content item on the Content item details screen, 

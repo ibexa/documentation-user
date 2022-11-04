@@ -24,8 +24,8 @@ nav:
             - Work with tags: content_management/taxonomy/work_with_tags.md
         - Content versions:
             - Content versions: content_management/content_versions.md
-            - Editorial workflow: content_management/workflow_management/editorial_workflow.md
             - Work with versions: content_management/workflow_management/work_with_versions.md
+            - Editorial workflow: content_management/workflow_management/editorial_workflow.md
         - Content organization:
             - Copy, move or hide content: content_management/content_organization/copy_move_hide_content.md
             - Classify content: content_management/content_organization/classify_content.md
@@ -55,7 +55,7 @@ nav:
               - Scenarios: personalization/scenarios.md
               - Filters: personalization/filters.md
     - PIM:
-        - Products: pim/understand_products.md
+        - Products: pim/products.md
         - Create product types: pim/create_product_types.md
         - Add assets: pim/work_with_product_assets.md
         - Work with product categories: pim/work_with_product_categories.md

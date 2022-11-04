@@ -4,12 +4,12 @@ description: Products are containers that aggregate information about the items 
 
 # Products
 
-With **Product Catalog**, [[= product_name =]] handles products offered in the website, 
+With **PIM**, [[= product_name =]] handles products offered in the website, 
 including their specifications, and pricing.
 
-Product catalog's features are available from the left menu.
+PIM's features are available from the left menu.
 
-![Product catalog in the menu](img/catalog_menu.png)
+![PIM in the menu](img/catalog_menu.png)
 
 To create a product you must first decide which Product Type it belongs to.
 
@@ -18,7 +18,7 @@ To create a product you must first decide which Product Type it belongs to.
 Product Types represent categories that a product can belong to.
 They define what combination of Fields is available in the product, and Fields 
 can store different types of information.
-For example, products of publication type comprise of different Fields than white 
+For example, products of publication type contain different Fields than white 
 appliances.
 
 A Product Types also defines the attributes that all products of this type can have.
@@ -87,7 +87,7 @@ to move directly to the screen where you can add the missing information.
 
 ## Product categories
 
-With product categories you can organize products within the Product Catalog and create relationships between them. 
+With product categories you can organize products within PIM and create relationships between them. 
 One of the reasons for applying product categories is assisting users in searching for products.
 
 Each category can be assigned to multiple products, and each product can belong to multiple categories of different or similar character, for example:

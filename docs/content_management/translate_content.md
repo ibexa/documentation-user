@@ -31,7 +31,7 @@ After adding a language, you may have to reload the application to be able to us
     It is recommended you contact your administrator and inform them if you need to add a new language to the website
     (see [the technical documentation on language versions]([[= developer_doc =]]/multisite/languages/languages/)).
 
-## Edit Page for different language versions of a site [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
+## Edit Page for different language versions of a website [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
 When you edit a Page, a bar at the top of the screen lists the most recently used SiteAccesses on your website. Use this bar to switch between the different versions and work on them.
 
@@ -45,4 +45,4 @@ Click the SiteAccess list in the left side menu to see the full list of all Site
     They allow you to show different content or design to visitors, for example, 
     to serve different language versions to visitors from different countries.
     
-    See [Work with sites](../website_organization/work_with_sites.md) for more information about setting up sites.
+    See [Work with websites](../website_organization/work_with_sites.md) for more information about setting up websites.

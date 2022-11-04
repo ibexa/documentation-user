@@ -6,7 +6,8 @@ description: Copy, move, remove, or hide Content item, either individually or in
 
 ## Move or copy
 
-You can move or copy existing Content items by choosing the proper option from the menu on the right.
+In Content tree, you can move or copy existing Content items by selecting an 
+option at the top of the screen.
 You can also copy the whole subtree (a Content item with all content under it in the structure).
 
 !!! note

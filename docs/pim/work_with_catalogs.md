@@ -5,18 +5,17 @@ description: Catalogs allow creating filtered product lists for special purposes
 
 # Work with catalogs
 
-With [catalogs](understand_products.md#product-catalogs) you can create product lists for special purposes, for example, 
+With [catalogs](products.md#product-catalogs) you can create product lists for special purposes, for example, 
 for B2B and B2C uses, for retailers and distributors or for different regions.
 
 ## Create catalogs
 
 To create a catalog:
 
-1. In the **Product catalog** section in the menu, select **Catalogs**.
-2. Click **Create**.
-3. Enter the name and identifier for the catalog.
-4. Select filters that decide which products are included in the catalog.
-5. Click **Create**.
+1. In the left panel, go to **Product catalog** -> **Catalogs** and click **Create**.
+2. Enter the name and identifier for the catalog.
+3. Select filters that decide which products are included in the catalog.
+4. Click **Create**.
 
 ### Catalog filters
 

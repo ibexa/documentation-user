@@ -20,7 +20,7 @@ the name of the scenario.
 
 You may have permissions to access several websites hosted on an [[= product_name =]], 
 [with independent results returned for each of these websites](use_cases.md#multiple-website-hosting).
-If this is the case, use the selector field to switch between views for each of these sites.
+If this is the case, use the selector field to switch between views for each of these websites.
 
 ## Content type configuration
 

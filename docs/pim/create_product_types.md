@@ -6,7 +6,7 @@ description: Build new product Types or modify existing ones.
 
 If your [user role](../permission_management/manage_permissions.md) has the `ProductType/Edit` permission, you can modify Product Types and add individual attributes or attribute groups.
 
-1\. Go to **Product catalog** -> **Product Types** and click **Create**.
+1\. In the left panel, go to **Product catalog** -> **Product Types** and click **Create**.
 
 ![Adding a Product Type](img/create_product_type.png)
 

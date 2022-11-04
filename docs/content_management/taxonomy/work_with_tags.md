@@ -4,7 +4,7 @@ description: Taxonomy is one of the ways classify Content items with structured 
 
 # Work with Tags
 
-Once you have created content items that follow the structure defined within the 
+Once you have created Content items that follow the structure defined within the 
 content model, you can create [taxonomies](taxonomy.md) that consist of tags, to help users find 
 the content they need.
 
@@ -40,7 +40,8 @@ See [Adding taxonomy entries](create_edit_content_items.md#add-taxonomy-entries)
 
 ### Add tag translation
 
-If you have more than one language version of your site, you can also translate tags used in the site into the target language.
+If you have more than one language version of your website, you can also translate 
+tags that are used in the website into the target language.
 
 1. Go to the **Tags** section.
 1. Click a tag and go to the **Translations** tab.
