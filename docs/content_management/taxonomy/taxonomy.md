@@ -9,12 +9,12 @@ create relationships between items to make it easier for website users to find
 the content they need, or browse and view content appropriate for them. 
 
 Tag hierarchies (aka Taxonomies) are classifications of logical relationships 
-between content items. 
+between Content items. 
 In [[= product_name =]], you can create many taxonomies, each with a tree that 
 contains many tags. 
 
 ## Taxonomy tree
 
 Taxonomy tree is where you create a hierarchy of all tags and relationships between 
-tags and content items.
+tags and Content items.
 Working with the Taxonomy tree is similar to working with the Content structure tree.

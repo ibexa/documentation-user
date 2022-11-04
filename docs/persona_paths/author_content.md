@@ -1,5 +1,5 @@
 ---
-description: Add and modify various content items, such as pages, articles, forms, or media.
+description: Add and modify various Content items, such as pages, articles, forms, or media.
 ---
 
 # Author content

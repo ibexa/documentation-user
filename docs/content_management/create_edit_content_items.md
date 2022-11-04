@@ -28,7 +28,7 @@ Whenever you edit a Content item, a [new version](content_versions.md) is create
     To help you preserve your work, [[= product_name =]] saves drafts of Content items automatically.
     For more information, see [Autosave](content_versions.md#autosave).
 
-##### Upload multiple content items
+##### Upload multiple Content items
 
 When you view the Content item details in the Content Tree, you can add multiple 
 sub-items without editing the original Content item.
