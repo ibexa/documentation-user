@@ -4,7 +4,7 @@ description: Enable search engine optimization and increase content visibility b
 
 # Work with SEO
 
-For the Search Engine Optimization (SEO) feature to help you optimize the searchability 
+For the Search Egine Optimization (SEO) feature to help you optimize the searchability 
 and visibility of your content, you must enable it first, and
 then, define the contents of individual tags.
 
