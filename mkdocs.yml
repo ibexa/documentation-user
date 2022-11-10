@@ -81,11 +81,13 @@ nav:
         - Explorer: persona_paths/explorer.md
         - Content editor: 
             - Content editor: persona_paths/editor.md
+            - Manage content model: persona_paths/manage_content_model.md
             - Author content: persona_paths/author_content.md
             - Publish content: persona_paths/publish_content.md
             - Organize content: persona_paths/organize_content.md
         - Shop manager: 
             - Shop manager: persona_paths/shop_manager.md
+            - Manage permissions and users: permission_management/permissions_and_users.md
             - Manage products: persona_paths/manage_products.md
 
               
