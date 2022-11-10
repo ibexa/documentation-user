@@ -35,7 +35,7 @@ You can now see a list of all possible variants for the selected attribute value
 You can delete any generated product variant.
 To do it, select one or more variants in the list and click the **Delete** button.
 
-![Product variant list with option ot delete a variant](img/product_variants_delete.png)
+![Product variant list with option to delete a variant](img/product_variants_delete.png)
 
 ### Manually create variants
 
