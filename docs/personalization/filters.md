@@ -98,7 +98,7 @@ There are two ways to specify a category path in a recommendation request:
 Depending on how you configure the filters, the Personalization service can take 
 different paths to find the actual set of categories to recommend the items/products from.
 
-The following example shows the category structure (which basically corresponds to site navigation):
+The following example shows the category structure (which basically corresponds to website navigation):
 
 ![Example of a category path tree](img/categorypath_tree.png "Example of a category path tree")
 
@@ -134,7 +134,7 @@ If you need to represent available items of a website in different dimensions (t
 you can do this out of the box, by enriching the `categorypath` information of an item.
 
 For example, in a shop that sells furniture and plants, 
-products can be structured based on site navigation. 
+products can be structured based on website navigation. 
 Typically, customers would look for computer desks and get a list of recommendations 
 of all computer desks in the shop. 
 When necessary, the Personalization service can also use another dimension 
@@ -145,7 +145,7 @@ With popularity-based recommendations, you can get the most popular products bas
 the main navigation tree (for example, the most popular desks) or based on the brand 
 (for example, the most popular IKEA products).
 
-Here are the examples of common representation dimensions of items beyond the site navigation:
+Here are the examples of common representation dimensions of items beyond the website navigation:
 
 |Business|Possible dimensions|
 |---|---|
