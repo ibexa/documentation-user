@@ -24,7 +24,7 @@ You can only delete Sections that do not contain any content.
 Each Content item must belong to a Section. By default, new content is placed in the same Section as its parent.
 If you want to remove a Content item from a Section, you just need to assign it to a different one.
 
-Access to Sections can be restricted by [setting up proper permissions](../../permission_management/manage_permissions.md).
+Access to Sections can be restricted by [setting up proper permissions](../../permission_management/work_with_permissions.md).
 
 ## Object states
 

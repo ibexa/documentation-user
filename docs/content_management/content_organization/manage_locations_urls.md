@@ -2,7 +2,7 @@
 description: Manage the content of your website by controlling Locations and URLs.
 ---
 
-# Manage content locations and URL addresses
+# Manage content Locations and URL addresses
 
 ## Content Locations
 

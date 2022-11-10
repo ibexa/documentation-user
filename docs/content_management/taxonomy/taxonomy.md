@@ -18,3 +18,7 @@ contains many tags.
 Taxonomy tree is where you create a hierarchy of all tags and relationships between 
 tags and Content items.
 Working with the Taxonomy tree is similar to working with the Content structure tree.
+
+![Taxonomy tree and tag details](img/taxonomy_content_list.png "Taxonomy tree and tag details")
+
+For more information about setting up tags, see [Work with tags](work_with_tags.md).

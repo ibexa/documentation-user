@@ -55,7 +55,7 @@ Using the toolbar buttons, you can perform the following actions:
 |Button|Description|
 |------|-----------|
 |![Edit and preview switch](img/page_builder_toolbar_editpreview.png)|Switch between previewing and editing the Page.|
-|![Layout switch](img/page_builder_switch_layout)|Switch between Page layouts.|
+|![Layout switch](img/page_builder_switch_layout.png)|Switch between Page layouts.|
 |![Preview segments](img/page_builder_toolbar_preview_segment.png)|Access preview of the Page for a given Segment.|
 |![Timeline button](img/page_builder_toolbartimelinetoggler.png)|Access the timeline to preview how the Page changes with time. You can also view the list of all upcoming scheduled events. For details, see [Timeline](schedule_publishing.md#timeline).|
 |![View toggler](img/page_builder_toolbar_devicestoggler.png)|Toggle through to see how the Page is rendered on different devices.|

@@ -2,7 +2,7 @@
 description: Take a quick tour of the Back Office.
 ---
 
-# Discover the User Interface
+# User interface
 
 ## My dashboard
 
@@ -72,4 +72,4 @@ You can also use the **Content Browser** to search the Repository for content, e
     
     For more information about users and permissions, see [Users](../permission_management/permissions_and_users.md).
     
-    For more information about site skeletons, see [Site skeletons]([[= developer_doc =]]/multisite/site_factory_configuration/#site-skeletons).
+    For more information about site skeletons, see [Site skeletons]([[= developer_doc =]]/multisite/site_factory/site_factory_configuration/#site-skeletons).

@@ -17,8 +17,12 @@ To the contributors you want to give the permissions to create new content, but 
 
 In order to have this setup, you need to create a number of different Roles: Editor-in-Chief, different Editor(s), and Contributor.
 
+![Editor Role](img/role_details.png "Editor Role")
+
 Even if you plan on having only one editor-in-chief, it is good practice to create a User group to contain this user,
 and assign a Role to it instead of assigning permissions directly to the user.
+
+![User groups](img/user_groups.png "User groups")
 
 To each of these Roles you need to assign proper Policies, giving them the right to perform certain actions.
 
@@ -34,3 +38,6 @@ but to each Policy you need to assign a Limitation which would mean that the per
 
 Aside from Policies that define access to Content items, there are also many other Policy types concerned with administrating the system.
 They cover actions such as activating new Users, creating Sections, modifying Content Types, etc.
+
+
+For more information about setting up a permission system, see [Work with permissions](work_with_permissions.md).

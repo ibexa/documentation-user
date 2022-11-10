@@ -5,7 +5,7 @@ description: Create multiple language versions of Content items.
 # Translate content
 
 The content on your website can be translated into different languages. Each Content item can have different language versions.
-The version visible to a visitor depends on the way your installation is set up (see [SiteAccess](#siteaccess)).
+The version visible to a visitor depends on the way your installation is set up (see [SiteAccess concept](#edit-page-for-different-language-versions-of-a-website)).
 
 ## Add translations
 

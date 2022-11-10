@@ -30,7 +30,7 @@
                             <svg class="tile-icon align-middle" width="32" height="32">
                                 <use fill="var(--ibexa-jazzberry)" xlink:href="images/ez-icons.svg#publish"></use>
                             </svg>
-                            <a href="persona_paths/newbie/">Explore topics</a></li>
+                            <a href="persona_paths/explorer/">Exploration</a></li>
                         </h5>
                     <div class="tile-body">
                         <ul>

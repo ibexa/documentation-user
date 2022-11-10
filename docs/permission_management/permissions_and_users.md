@@ -8,6 +8,6 @@ With the permission system of [[= product_name =]] you can control which users h
 
 [[= cards([
     "permission_management/permission_system",
-    "permission_management/manage_permissions",
-    "manage_users/manage_users",
+    "permission_management/work_with_permissions",
+    "user_management/manage_users",
 ], columns=4) =]]

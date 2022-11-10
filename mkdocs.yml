@@ -29,7 +29,7 @@ nav:
         - Content organization:
             - Copy, move or hide content: content_management/content_organization/copy_move_hide_content.md
             - Classify content: content_management/content_organization/classify_content.md
-            - Manage content locations and URLs: content_management/content_organization/manage_locations_urls.md
+            - Manage content Locations and URLs: content_management/content_organization/manage_locations_urls.md
     - Content publishing:
         - Publish content: content_management/publish_instantly.md
         - Schedule publication: content_management/schedule_publishing.md
@@ -57,11 +57,11 @@ nav:
     - PIM:
         - Products: pim/products.md
         - Create product types: pim/create_product_types.md
-        - Add assets: pim/work_with_product_assets.md
+        - Work with product assets: pim/work_with_product_assets.md
         - Work with product categories: pim/work_with_product_categories.md
         - Work with product variants: pim/work_with_product_variants.md
         - Work with product availability and stock: pim/manage_prices_and_stock.md
-        - Work with product catalogs: pim/work_with_catalogs.md
+        - Work with catalogs: pim/work_with_catalogs.md
     - Customer management:
         - Manage customers: shop_administration/manage_customers.md
         - Customer Portal: shop_administration/customer_portal.md
@@ -75,10 +75,10 @@ nav:
         - Work with sites: website_organization/work_with_sites.md
     - Permissions and users: 
         - Permission system: permission_management/permission_system.md
-        - Work with permissions: permission_management/manage_permissions.md
+        - Work with permissions: permission_management/work_with_permissions.md
         - Manage users: user_management/manage_users.md
     - User paths:
-        - Quick links: persona_paths/newbie.md
+        - Explorer: persona_paths/explorer.md
         - Content editor: 
             - Content editor: persona_paths/editor.md
             - Author content: persona_paths/author_content.md

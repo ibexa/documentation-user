@@ -45,7 +45,7 @@ Use it to remove the previously selected publication date.
 
 ![Discard publish later button in the menu](img/discard_publish_date.png "Discard publish later button in the menu")
 
-You can also [reschedule or cancel planned publications](#reschedule-or-cancel-publications).
+You can also [reschedule or cancel planned publications](#reschedule-or-cancel-publication).
 To easily browse all the future events, use the [Calendar widget](#calendar-widget).
 
 ## Date-based hiding

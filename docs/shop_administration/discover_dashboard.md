@@ -3,7 +3,7 @@ description: The Dashboard contains an overview and statistical information abou
 edition: commerce
 ---
 
-# Discover Dashboard
+# Dashboard
 
 The Dashboard shows the most important information for the shop owner referring to the installation.
 

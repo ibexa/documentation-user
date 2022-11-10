@@ -46,4 +46,4 @@ To get all output types in the [Dynamic targeting block](../content_management/c
 1. Next, set the rules according to your needs.
 1. Click **Submit**.
 
-For more information, see [Parameters]([[= developer_doc =]]/personalization/enabling_personalization/#parameters) in the developer documentation.
+For more information, see [Parameters]([[= developer_doc =]]/personalization/enable_personalization/#parameters) in the developer documentation.
