@@ -45,7 +45,7 @@ Use cases in publishing can be the following:
 
 If your [[= product_name =]] instance hosts multiple websites, you can configure 
 the Personalization service to provide independent recommendations for each 
-of these sites.
+of these websites.
 This can eliminate irrelevant recommendations when there are:
 
 - Multiple websites that belong to different customers
@@ -53,5 +53,5 @@ This can eliminate irrelevant recommendations when there are:
 - Multiple localized versions of the same digital presence
 - Several eCommerce websites operating under different brands
 
-To get independent results for different websites, you must [set up](enabling_personalization.md) 
-and [configure](perso_configuration.md) the service separately for each of these sites.
+To get independent results for different websites, you must [set up](enable_personalization.md) 
+and [configure](configure_personalization.md) the service separately for each of these websites.

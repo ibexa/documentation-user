@@ -9,7 +9,7 @@ it must collect events and calculate the results based on user behavior.
 The most important events collected by the service are CLICK and BUY events. 
 They are enough for providing basic recommendations. 
 There are some additional events for creating more complex [scenarios](scenarios.md) 
-and providing [statistics](dashboard.md#statistical-information) about the acceptance of recommendations, such as conversion rate or revenue. 
+and providing [statistics](review_perso_performance.md#statistical-information) about the acceptance of recommendations, such as conversion rate or revenue. 
 
 ![Events in a purchase process](img/events_overview.png "Events in a purchase process")
 
@@ -19,7 +19,7 @@ The table below lists all possible events that could be used in the system.
 |---|---|
 |CLICK|Sent to the Personalization service when a user opens a page on the website.|
 |BUY|Sent if something was purchased.|
-|CONSUME|Similar to the BUY event but without a payment. Designed for content publisher sites. Sent when an article or a web page is consumed (read or watched).|
+|CONSUME|Similar to the BUY event but without a payment. Designed for content publisher websites. Sent when an article or a web page is consumed (read or watched).|
 |RENDER|Sent when a recommendation is shown on the web page. This information is used by [filters](filters.md) to suppress repeated recommendations of the same item.|
 |FOLLOW / CLICKRECOMMENDED|Sent when a user clicks the recommended product. Used in acceptance statistics.|
 |TRANSFER / LOGIN|A special type of event to deal with user login after the user already surfed on the web page anonymously. Always sent when the identifier of the user changes. As a result, the anonymous history of the user is transferred to the new identifier. This happens automatically in the Personalization service.|

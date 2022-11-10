@@ -13,13 +13,13 @@ the most accurate recommendations.
 Models come predefined with the service, based on the arrangements that you make with Ibexa.
 You can request a specific model by contacting customer support.
 
-If your [user role](../site_organization/organizing_the_site.md#permissions) includes 
+If your [user role](../permission_management/permissions_and_users.md) includes 
 the `Personalization/Edit` Policy, you can modify the models according to your requirements.
 To do this, navigate to the **Models** tab and click the **Edit** icon next to a name of the model.
 
 You may have permissions to access several websites hosted on an [[= product_name =]], 
 [with independent results returned for each of these websites](use_cases.md#multiple-website-hosting).
-If this is the case, use the selector field to switch between views for each of these sites.
+If this is the case, use the selector field to switch between views for each of these websites.
 
 ## Model types
 
@@ -135,7 +135,7 @@ the necessary context.
 
 |Model type|Available parameters|Submodel support|Context|
 |---|---|---|---|
-|Popularity|Relevant event history defines the time period for which the statistics must be analyzed. Depending on the product type, it can be between several months and several hours. Fast event ageing can be used to weight newer events higher than older events.|yes</br>submodels based on category are enabled by default|not needed|
+|Popularity|Relevant event history defines the time period for which the statistics must be analyzed. Depending on the type of product, it can be between several months and several hours. Fast event ageing can be used to weight newer events higher than older events.|yes</br>submodels based on category are enabled by default|not needed|
 |Also clicked/purchased / Ultimately bought|Both also clicked and ultimately purchased models allow defining the relevant event history.|yes, manual|required (either context items or user data)|
 |Random|This model requires the maximum age for the items that should be recommended by this model.|no|not supported|
 |History-based|The type of the history (CLICK-history or BUY-history) must be specified.|no|required (user data)|
@@ -244,7 +244,7 @@ Information with user segment is provided in each event which comes from the tra
 
 First, make sure you have [enabled personalization]([[= developer_doc =]]/personalization/integrate_recommendation_service/) and [configured item type tracking]([[= developer_doc =]]/personalization/enable_personalization/#set-up-item-type-tracking).
 
-If your [user Role](../site_organization/organizing_the_site.md#permissions) includes 
+If your [user Role](../permission_management/permissions_and_users.md) includes 
 the `Segment/All functions`, `Segment group/All functions` Policies, you can configure segment settings in the models according to your requirements.
 To do this, go to the **Models** section and click the **Edit** icon next to a name of the model.
 

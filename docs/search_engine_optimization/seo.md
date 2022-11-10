@@ -2,7 +2,7 @@
 description: SEO can help your content score higher in search results, which leads to greater visibility.
 ---
 
-# Understand SEO
+# Search Engine Optimization
 
 Every time users search online, they are presented with a list of results, 
 together with page title and a short summary. 
@@ -28,7 +28,7 @@ After you define the tags for your content, they are rendered as part of the `<H
 section of a web page, from where the search engine intercepts their values.
 
 - `Title` is displayed as a prominent heading in the search. You want to make it relevant and attractive for users to click on. It represents the title of the Content item that you want to promote.
-- `Description` appears next to or below the title. Here you tell visitors what the content is about. Your goal is to optimize it for better visibility both on desktop and mobile.  It epresents a summary of your Content item
+- `Description` appears next to or below the title. Here you tell visitors what the content is about. Your goal is to optimize it for better visibility both on desktop and mobile.  It represents a summary of your Content item
 - `Keywords` can help the search engine position the results. Keywords can be ideas and topics that define what your content is about.
 - `Canonical URL` tells search engines which copy of content is the original that should appear in search results. It prevents duplicates from competing against each other.
 
@@ -36,3 +36,5 @@ Additionally, you can define social media-specific meta tags separately,
 to fine-tune the message that gets across to each of the platforms. 
 If you fail to use this feature, the default meta tags are used to generate 
 a social media snippet.
+
+For more information about SEO, see [Ibexa blog](https://www.ibexa.co/blog/five-useful-seo-techniques-for-ez-platform-developers).

@@ -30,7 +30,7 @@ The **All** option automatically appears after content types are selected in the
 
 When scenarios are configured to display cross content type recommendations, you can use them in the following Page Builder blocks: Dynamic targeting and Personalized.
 
-To get all output types in the [Personalized block](../site_organization/working_with_page.md#personalized-block), in Page Builder, perform the following actions:
+To get all output types in the [Personalized block](../content_management/create_edit_pages.md#personalized-block), in Page Builder, perform the following actions:
 
 1. In the block settings, set the scenario with configured crosscontent types output.
 1. Next, from the drop-down **Select a Content Type to be displayed**, select **All**.
@@ -38,7 +38,7 @@ To get all output types in the [Personalized block](../site_organization/working
 1. Click **Submit**.
 
 
-To get all output types in the [Dynamic targeting block](../site_organization/working_with_page.md#dynamic-targeting-block):
+To get all output types in the [Dynamic targeting block](../content_management/create_edit_pages.md#dynamic-targeting-block):
 
 1. In the block settings, set the scenario with configured crosscontent types output.
 1. From the **Output type** drop-down, select **All**.
@@ -46,4 +46,4 @@ To get all output types in the [Dynamic targeting block](../site_organization/wo
 1. Next, set the rules according to your needs.
 1. Click **Submit**.
 
-For more information, see [Parameters](https://doc.ibexa.co/en/latest/guide/personalization/enabling_personalization/#parameters) in the developer documentation.
+For more information, see [Parameters]([[= developer_doc =]]/personalization/enable_personalization/#parameters) in the developer documentation.

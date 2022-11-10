@@ -18,7 +18,7 @@ The Personalization service then processes the events and calculates the recomme
 !!! note "Host multiple websites"
 
     If your installation [hosts multiple websites](use_cases.md#multiple-website-hosting) and returns separate recommendations
-    for each of these websites, you must import data separately for each of these sites.
+    for each of these websites, you must import data separately for each of these websites.
 
 ## Content data import
 
