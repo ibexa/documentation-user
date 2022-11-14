@@ -110,12 +110,12 @@
                 <span class="pill">v4.3</span>
             </h5>
             <div class="row mt-3">
-                <div class="col-lg-5">The <a href="https://doc.ibexa.co/en/latest/release_notes/ibexa_dxp_v4.2/">latest version of Ibexa DXP is v4.3</a>. It is a Fast Track release, and it was released on November 10, 2022. You can now <a href="https://doc.ibexa.co/en/latest/update_and_migration/from_4.2/update_from_4.2/">update your application to the latest version</a>.
+                <div class="col-lg-5">The <a href="https://doc.ibexa.co/en/latest/release_notes/ibexa_dxp_v4.3/">latest version of Ibexa DXP is v4.3</a>. It is a Fast Track release, and it was released on November 10, 2022. You can now <a href="https://doc.ibexa.co/en/latest/update_and_migration/from_4.2/update_from_4.2/">update your application to the latest version</a>.
                 </div>
                 <div class="col-sm-7 features">
                     <ul>
                         <li><a href="https://doc.ibexa.co/en/latest/release_notes/ibexa_dxp_v4.3/#customer-portal">Company self-registration</a></li>
-                        <li><a href="https://doc.ibexa.co/en/latest/release_notes/ibexa_dxp_v4.3/#customer-portal">Customization of approval process</a></li>
+                        <li><a href="https://doc.ibexa.co/en/latest/release_notes/ibexa_dxp_v4.3/#customization-of-approval-process">Customization of approval process</a></li>
                         <li><a href="https://doc.ibexa.co/en/latest/release_notes/ibexa_dxp_v4.3/#seo-configuration-exposed">SEO improvements</a></li>
                         <li><a href="https://doc.ibexa.co/en/latest/release_notes/ibexa_dxp_v4.3/#pim-improvements">PIM improvements</a></li>
                         <li><a href="https://doc.ibexa.co/en/latest/release_notes/ibexa_dxp_v4.3/#integration-with-recommendation-engine">Integration with recommendation engine</a></li>
