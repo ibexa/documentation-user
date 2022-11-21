@@ -28,9 +28,8 @@ There you can edit them or check their current status.
 ![List of applications](img/cp_applications_list.png)
 
 Each application can be either edited, approved, rejected or put on hold.
-Rejected applications are removed from the list,
-applications with status on hold remain on the list and
-accepted ones move to **Members** -> **Companies** section.
+Applications with status reject and on hold remain on the list for future reference.
+Accepted ones move to **Members** -> **Companies** section.
 
 ![Application](img/cp_application.png)
 
@@ -45,5 +44,5 @@ Finally, the invitation link is sent back to the applier to finish the registrat
 and give them access to the [Customer Portal](customer_portal.md).
 
 Application is moved to **Members** -> **Companies** section and the company is created with **Active** status.
-From there you can now manage the company and re-send an invitation link if needed.
+From there, you can manage the company and re-send an invitation link if needed.
 For more information on managing companies in the Back Office, see [Customer management documentation](manage_customers.md#manage-company). 
