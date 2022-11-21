@@ -3,7 +3,7 @@ description: You can view a list of placed orders and their details in the Back 
 edition: commerce
 ---
 
-# Orders
+# Manage orders
 
 [[= product_name =]] provides a list of all orders in **eCommerce** > **Order Management**.
 
