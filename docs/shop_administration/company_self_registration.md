@@ -15,7 +15,7 @@ where they can set up their team and manage their account.
 Potential business partners need to fill in an application form to apply for a company account under this link:
 `<yourdomain>/corporate/customer-portal/register`
 
-They need to provide their basic information, contact information and billing address to send an application.
+They need to provide their basic information, contact information and billing address to submit an application.
 
 ![Company self-registration](img/cp_self_registration.png)
 
