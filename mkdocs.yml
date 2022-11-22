@@ -65,6 +65,7 @@ nav:
     - Customer management:
         - Manage customers: shop_administration/manage_customers.md
         - Customer Portal: shop_administration/customer_portal.md
+        - Company self-registration: shop_administration/company_self_registration.md
     - Shop administration:
         - Shop administration: shop_administration/shop_administration.md
         - Dashboard: shop_administration/discover_dashboard.md

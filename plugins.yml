@@ -40,4 +40,5 @@ plugins:
             'personalization/dashboard.md': 'personalization/review_perso_performance.md'
             'shop_administration/manage_users.md': 'shop_administration/manage_customers.md'
             'site_organization/site_factory.md': 'website_organization/work_with_sites.md'
-            
+
+
