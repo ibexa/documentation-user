@@ -1,13 +1,10 @@
 ---
-description: Create new Products or modify existing ones.
+description: Create new products or modify existing ones.
 ---
 
-# Create Product
+# Create product
 
-If your [user role](../permission_management/work_with_permissions.md) has the `Product/Edit` permission, you can modify Product and add individual attributes or attribute groups.
-
-You can create new [products](products.md#products) to present your offer in the website, including product specification, and pricing. 
-
+If your [user role](../permission_management/work_with_permissions.md) has the `Product/Edit` permission, you can modify product and add individual attributes or attribute groups. You can create new [products](products.md#products) to present your offer in the website, including product specification, and pricing. 
 Each product has a unique identifying product code. 
 
 !!! note
@@ -16,12 +13,12 @@ Each product has a unique identifying product code.
 
 ## Manually create product
 
-You can create a product in several ways:
+You can create product in several ways:
 
 - In the left panel, go to **Product catalog** -> **Products** and click **Create** button.
 - In the left panel, go to **Content** -> **Content structure** -> **Product catalog** and click **Create content** button.
 - In the left panel, go to **Content** -> **Dashboard** and click **Create content** button.
-- In the search bar type _product_ -> click **Product catalog** and click **Create** button.
+- In the search bar type 'product' -> click **Product catalog** and click **Create** button.
 
 ## Add single product
 
@@ -37,7 +34,7 @@ You can create a product in several ways:
 
 5\. Click **Create** button.
 
-![Create a Product](img/create_product.png "Creating a Product")
+![Creating a product](img/create_product.png "Creating a product")
 
 You can also [add image assets](work_with_product_assets.md) to products.
 
@@ -47,9 +44,9 @@ You can edit existing products at any time:
 
 1\. In the left panel, go to **Product catalog** -> **Products**.
 
-2\. Click the **Edit** icon next to a name of the Product item that you want to modify.
+2\. Click the **Edit** button next to a name of the product item that you want to modify.
 
-![Editing a product](img/edit_product.png "Editing a Product")
+![Editing a product](img/edit_product.png "Editing a product")
 
 3\. Edit information and click **Update** button.
 
@@ -58,7 +55,7 @@ You can edit existing products at any time:
 For each product you can:
 
 - Add specific attributes
-- Set the availability and stock
+- Set availability and stock
 - Assign it to specific category
 - Create variants
 - Define price
