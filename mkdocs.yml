@@ -56,6 +56,7 @@ nav:
               - Filters: personalization/filters.md
     - PIM:
         - Products: pim/products.md
+        - Create product: pim/create_product.md
         - Create product types: pim/create_product_types.md
         - Work with product assets: pim/work_with_product_assets.md
         - Work with product categories: pim/work_with_product_categories.md

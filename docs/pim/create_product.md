@@ -6,29 +6,61 @@ description: Create new Products or modify existing ones.
 
 If your [user role](../permission_management/work_with_permissions.md) has the `Product/Edit` permission, you can modify Product and add individual attributes or attribute groups.
 
-Introduction - WHY
-[products](products.md#products) 
-[product types](products.md#product-types) 
+You can create new [products](products.md#products) to present your offer in the website, including product specification, and pricing. 
+
+Each product has a unique identifying product code. 
+
+!!! note
+
+    To create a product you must first create [product type](products.md#product-types).
 
 ## Manually create product
 
-You can create a product in few ways:
+You can create a product in several ways:
 
-1. In the left panel, go to **Product catalog** -> **Catalogs** and click **Create**.
-2. Enter the name and identifier for the catalog.
-3. Select filters that decide which products are included in the catalog.
-4. Click **Create**.
-
-- In the left panel, go to **Product catalog** -> **Products** and click **Create**.
-- In the left panel, go to **Content** -> **Content structure** -> **Product catalog** and click **Create content**.
-- In the left panel, go to **Content** -> **Dashboard** and click **Create content**.
+- In the left panel, go to **Product catalog** -> **Products** and click **Create** button.
+- In the left panel, go to **Content** -> **Content structure** -> **Product catalog** and click **Create content** button.
+- In the left panel, go to **Content** -> **Dashboard** and click **Create content** button.
+- In the search bar type _product_ -> click **Product catalog** and click **Create** button.
 
 ## Add single product
 
-1. In the left panel, go to **Product catalog** -> **Products** and click **Create**. 
+1\. In the left panel, go to **Product catalog** -> **Products** and click **Create** button. 
 
-![Adding a Product](img/create_product.png)
+![Adding a Product](img/add_product.png "Adding a Product")
 
-2. Choose product type.
-3. Click **Add**.
-4. Fill in basic product information: name, identifier and description.
+2\. Choose product type.
+
+3\. Click **Add** button.
+
+4\. Fill in basic product information: name, product specification, description and, if needed, other specific attributes. 
+
+5\. Click **Create** button.
+
+![Create a Product](img/create_product.png "Creating a Product")
+
+You can also [add image assets](work_with_product_assets.md) to products.
+
+## Edit product
+
+You can edit existing products at any time:
+
+1\. In the left panel, go to **Product catalog** -> **Products**.
+
+2\. Click the **Edit** icon next to a name of the Product item that you want to modify.
+
+![Editing a product](img/edit_product.png "Editing a Product")
+
+3\. Edit information and click **Update** button.
+
+## Work with products
+
+For each product you can:
+
+- Add specific attributes
+- Set the availability and stock
+- Assign it to specific category
+- Create variants
+- Define price
+
+For more information, see [Products](https://doc.ibexa.co/en/latest/pim/products/).
