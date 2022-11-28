@@ -5,8 +5,7 @@ description: Create new products or modify existing ones.
 # Create product
 
 If your [user role](../permission_management/work_with_permissions.md) has the `Product/Edit` permission, you can modify product and add individual attributes or attribute groups. You can create new [products](products.md#products) to present your offer in the website, including product specification, and pricing. 
-Each product has a unique identifying product code. 
-
+Each product has a unique identifying product code (SKU). [Product consists of](products.md#product-completeness) content, attributes, assests, availability, price and translation.
 !!! note
 
     To create a product you must first create [product type](products.md#product-types).
@@ -31,6 +30,9 @@ You can create product in several ways:
 3\. Click **Add** button.
 
 4\. Fill in basic product information: name, product specification, description and, if needed, other specific attributes. 
+!!! note
+
+    Product structure is customizable on product type level.
 
 5\. Click **Create** button.
 
