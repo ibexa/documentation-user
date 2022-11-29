@@ -30,15 +30,16 @@ You can create product in several ways:
 3\. Click **Add** button.
 
 4\. Fill in basic product information: name, product specification, description and, if needed, other specific attributes. 
-!!! note
-
-    Product structure is customizable on product type level.
 
 5\. Click **Create** button.
 
 ![Creating a product](img/create_product.png "Creating a product")
 
 You can also [add image assets](work_with_product_assets.md) to products.
+
+!!! note
+
+    Product structure is customizable on product type level.
 
 ## Edit product
 
