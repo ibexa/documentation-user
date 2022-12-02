@@ -8,7 +8,7 @@ If you have Administrator permissions, you can develop a Content model that is u
 
 [[= cards([
     "content_management/content_model",
-    "content_management/work_with_content_types"
+    "content_management/create_edit_content_types"
 ], style="path") =]]
 
 <!--    Default Content Types -->
