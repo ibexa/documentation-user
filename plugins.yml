@@ -31,14 +31,12 @@ plugins:
             'shop_administration/manage_products.md': 'pim/products.md'
             'shop_administration/product_categories.md': 'pim/work_with_product_categories.md'
             'shop_administration/catalogs.md': 'pim/work_with_catalogs.md'
-            'shop_administration/cockpit.md': 'shop_administration/discover_dashboard.md'
+            'shop_administration/cockpit.md': 'cdp/customer_portal.md'
             'search.md': 'search/search_for_content.md'
             'personalization/enabling_personalization.md': 'personalization/enable_personalization.md'
             'personalization/perso_configuration.md': 'personalization/configure_personalization.md'
             'personalization/previewing_scenario.md': 'personalization/preview_scenario_results.md'
             'personalization/integrating_results.md': 'personalization/integrate_scenario_results.md'
             'personalization/dashboard.md': 'personalization/review_perso_performance.md'
-            'shop_administration/manage_users.md': 'shop_administration/manage_customers.md'
+            'shop_administration/manage_users.md': 'cdp/manage_customers.md'
             'site_organization/site_factory.md': 'website_organization/work_with_sites.md'
-
-
