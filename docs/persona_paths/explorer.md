@@ -20,7 +20,7 @@ to browse a list of topics that bring you closer to understanding the product.
     "search_engine_optimization/seo",
     "pim/products",
     "persona_paths/manage_products",
-    "shop_administration/customer_portal",
+    "cdp/customer_portal",
     "website_organization/multisite",
     "permission_management/permissions_and_users"
 ]) =]]
