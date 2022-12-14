@@ -27,7 +27,6 @@ You can create product in several ways:
 
 2\. Choose product type.
 
-3\. Click **Add** button.
 
 4\. Fill in basic product information: name, product specification, description and, if needed, other specific attributes. 
 
