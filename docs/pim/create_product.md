@@ -4,20 +4,24 @@ description: Create new products or modify existing ones.
 
 # Create products
 
-If your [user role](../permission_management/work_with_permissions.md) has the `Product/Edit` permission, you can modify product and add individual attributes or attribute groups. You can create new [products](products.md#products) to present your offer in the website, including product specification, and pricing. 
-Each product has a unique identifying product code (SKU). [Product consists of](products.md#product-completeness) content, attributes, assests, availability, price and translation.
-!!! note
+[Products](products.md#products) are a specific kind of [Content items](../content_management/content_items.md#content-items) that you use 
+to present your offer in the website, including product specification, and pricing.
 
-    To create a product you must first create [product type](products.md#product-types).
+Individual products are instances of [product types](create_product_types.md#create-product-types).
+
+You can only create or modify products when your [user role](../permission_management/work_with_permissions.md) has the `Product/Edit` permission.
+
+To create a product, depending on the configuration, you [may need to provide](products.md#product-completeness) certain pieces of information, 
+such as a name, SKU, description and images, attributes, assets, availability, prices, and translations.
 
 ## Manually create product
 
 You can create product in several ways:
 
-- In the left panel, go to **Product catalog** -> **Products** and click **Create** button.
-- In the left panel, go to **Content** -> **Content structure** -> **Product catalog** and click **Create content** button.
-- In the left panel, go to **Content** -> **Dashboard** and click **Create content** button.
-
+1. Click **Create** in the upper-right corner of the [Products](products.md) screen. 
+2. While viewing a **Product Catalog** in the [Content Tree](../getting_started/discover_ui.md#content-tree), click **Create content** at the top of the screen.
+The new item appears in the tree.
+3. Click **Create content** in the upper-right corner of the [My dashboard](../getting_started/discover_ui.md) screen. In this case you have to choose content type and select where the content will be located.
 
 1\. Use one of the methods mentioned above to start editing a product. 
 
@@ -25,18 +29,15 @@ You can create product in several ways:
 
 2\. From their lists, select the language and the product type, and then click the **Add** button.
 
+3\. Fill in content fields of the product, for example, name, specification and description.
+The [Fields](../content_management/content_model.md#fields-and-field-types) that you have to populate depend on how the Product Type is defined. 
+Fields marked with an asterisk (*) are required.
 
-4\. Fill in basic product information: name, product specification, description and, if needed, other specific attributes. 
-
-5\. Click **Create** button.
+4\. Click **Create** button.
 
 ![Creating a product](img/create_product.png "Creating a product")
 
 You can also [add image assets](work_with_product_assets.md) to products.
-
-!!! note
-
-    Product structure is customizable on product type level.
 
 ## Edit product
 
@@ -54,10 +55,9 @@ You can edit existing products at any time:
 
 For each product you can:
 
-- Add specific attributes
-- Set availability and stock
-- Assign it to specific category
-- Create variants
-- Define price
+- [Add specific attributes](create_product_types.md#work-with-product-attributes)
+- [Set availability, stock and price](manage_prices_and_stock.md#work-with-availability-stock-and-prices)
+- [Assign it to specific category](work_with_product_categories.md)
+- [Create variants](work_with_product_variants.md)
 
 For more information, see [Products](https://doc.ibexa.co/en/latest/pim/products/).
