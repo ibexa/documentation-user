@@ -17,7 +17,6 @@ You can create product in several ways:
 - In the left panel, go to **Product catalog** -> **Products** and click **Create** button.
 - In the left panel, go to **Content** -> **Content structure** -> **Product catalog** and click **Create content** button.
 - In the left panel, go to **Content** -> **Dashboard** and click **Create content** button.
-- In the search bar type 'product' -> click **Product catalog** and click **Create** button.
 
 ## Add single product
 
