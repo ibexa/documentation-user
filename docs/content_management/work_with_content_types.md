@@ -35,7 +35,7 @@ Every Content Type has the following general settings:
 |Make content available even with missing translations|When checked, content of this Type will by default be always available, even if it does not have a language version corresponding to the current SiteAccess.|
 
 To add a Field to the new Content Type, select a [Field Type](content_model.md#fields-and-field-types)
-in the Field Type selection drop-down menu and click specific **field type**.
+in the Field Type selection drop-down menu and click specific Field Type.
 You can determine the order in which Fields will be displayed.
 
 To delete Field(s), check the boxes next to any Field names and select the trash icon.
