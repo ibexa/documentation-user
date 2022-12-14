@@ -21,7 +21,7 @@ You can create product in several ways:
 
 ## Add single product
 
-1\. In the left panel, go to **Product catalog** -> **Products** and click **Create** button. 
+1\. Use one of the methods mentioned above to start editing a product. 
 
 ![Adding a Product](img/add_product.png "Adding a Product")
 
