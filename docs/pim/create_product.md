@@ -2,7 +2,7 @@
 description: Create new products or modify existing ones.
 ---
 
-# Create product
+# Create products
 
 If your [user role](../permission_management/work_with_permissions.md) has the `Product/Edit` permission, you can modify product and add individual attributes or attribute groups. You can create new [products](products.md#products) to present your offer in the website, including product specification, and pricing. 
 Each product has a unique identifying product code (SKU). [Product consists of](products.md#product-completeness) content, attributes, assests, availability, price and translation.
