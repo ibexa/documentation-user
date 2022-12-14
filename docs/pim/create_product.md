@@ -48,7 +48,7 @@ You can edit existing products at any time:
 
 ![Editing a product](img/edit_product.png "Editing a product")
 
-3\. Edit information and click **Update** button.
+3\. Edit product details and attributes, and click the **Update** button.
 
 ## Work with products
 
