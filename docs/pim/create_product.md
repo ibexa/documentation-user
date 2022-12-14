@@ -23,7 +23,7 @@ You can create product in several ways:
 
 ![Adding a Product](img/add_product.png "Adding a Product")
 
-2\. Choose product type.
+2\. From their lists, select the language and the product type, and then click the **Add** button.
 
 
 4\. Fill in basic product information: name, product specification, description and, if needed, other specific attributes. 
