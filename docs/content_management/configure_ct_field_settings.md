@@ -13,8 +13,6 @@ You can only create or modify Content Types when your [user role](../permission_
 To modify Field settings, in the **Field definitions** section, expand the **Landing page** header. 
 When done, click **Save** to apply changes to the Content Type.
 
-
- 
 ## General settings
 
 Depending on their type, Fields can have different combinations of the following 
