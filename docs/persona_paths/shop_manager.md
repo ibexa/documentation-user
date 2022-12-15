@@ -17,5 +17,5 @@ including the following responsibilities:
     "persona_paths/manage_products",
     "pim/manage_currencies",
     "permission_management/permissions_and_users",
-    "cdp/manage_customers",
+    "customer_management/manage_customers",
 ], style="path") =]]

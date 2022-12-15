@@ -5,7 +5,7 @@ description: Products in catalog can be made unavailable, and can have a base pr
 # Work with availability, stock and prices
 
 [Products in catalog](products.md#products) can be made available in certain quantity, unavailable, 
-and can have a base price and custom prices defined per [customer group](../cdp/manage_customers.md) and per [currency](../pim/manage_currencies.md).
+and can have a base price and custom prices defined per [customer group](../customer_management/manage_customers.md) and per [currency](../pim/manage_currencies.md).
 
 ## Set product availability
 
@@ -30,7 +30,7 @@ You can use it, for example, for digital download products.
 Price management enables you to set up product prices manually. 
 A price can be set up per product and product variant.
 
-In addition, prices can vary per [customer group](../cdp/customer_portal.md).
+In addition, prices can vary per [customer group](../customer_management/customer_portal.md).
 
 !!! note
 

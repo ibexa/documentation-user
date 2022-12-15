@@ -64,9 +64,9 @@ nav:
         - Work with catalogs: pim/work_with_catalogs.md
         - Work with currencies: 'pim/manage_currencies.md'
     - Customer management:
-        - Manage customers: cdp/manage_customers.md
-        - Customer Portal: cdp/customer_portal.md
-        - Company self-registration: cdp/company_self_registration.md
+        - Manage customers: customer_management/manage_customers.md
+        - Customer Portal: customer_management/customer_portal.md
+        - Company self-registration: customer_management/company_self_registration.md
     - Website organization:
         - Multisite: website_organization/multisite.md
         - Work with sites: website_organization/work_with_sites.md

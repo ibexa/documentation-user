@@ -14,7 +14,7 @@ Depending on the product edition, [[= product_name =]] can provide advanced capa
 
 - content editing: [editing and creating pages](../content_management/create_edit_pages.md), [editorial workflow](../content_management/workflow_management/editorial_workflow.md), etc.
 - product management: [managing catalogs](../pim/work_with_catalogs.md), [managing product categories](../pim/work_with_product_categories.md)
-- customer data management: [managing customers](../cdp/manage_customers.md), etc.
+- customer data management: [managing customers](../customer_management/manage_customers.md), etc.
 
 !!! note "Installation"
 
