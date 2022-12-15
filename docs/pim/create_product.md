@@ -39,20 +39,18 @@ If you want to edit existing product, click the **Edit** button next to a name o
 The [Fields](../content_management/content_model.md#fields-and-field-types) that you have to populate depend on how the Product Type is defined. 
 Fields marked with an asterisk (*) are required.
 
-4\. If you are adding new product, click **Create** button.
+4\. In the Attributes section, define the product's attributes, for example dimensions, resolution or capacity. Attributes depend on defined Product Type
+and some of them can be required.
+
+5\. If you are adding new product, click **Create** button.
 If you are editing existing one, click **Update** button.
 
 ![Creating a product](img/create_product.png "Creating a product")
 
-You can also [add image assets](work_with_product_assets.md) to products.
-
 ## Work with products
 
-For each product you can:
+You can also [add image assets](work_with_product_assets.md) to the products, [create variants to the main product](work_with_product_variants.md), [define prices](manage_prices_and_stock.md) and [clasify products into different categories](work_with_product_categories.md).
 
-- [Add specific attributes](create_product_types.md#work-with-product-attributes)
-- [Set availability, stock and price](manage_prices_and_stock.md#work-with-availability-stock-and-prices)
-- [Assign it to specific category](work_with_product_categories.md)
-- [Create variants](work_with_product_variants.md)
+Be aware that some functinalities may differ depending on the specifics of the installation.
 
 For more information, see [Products](https://doc.ibexa.co/en/latest/pim/products/).
