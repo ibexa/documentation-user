@@ -115,6 +115,8 @@ extra:
       url: '/projects/userguide'
     - title: 'Developer Documentation'
       url: '/'
+    - title: 'Connect Documentation'
+      url: '/projects/connect'
   # Global variables
   site_display_name: 'Ibexa Documentation'
   product_name: 'Ibexa DXP'
