@@ -40,7 +40,7 @@ Switch to the Field view using the Page Builder toolbar.
 ## Edit Page
 
 You edit Pages using the Page Builder.
-To start editing an existing Page, in the Back Office click **Page** and select the page from the list that appears below.
+To start editing an existing Page, in the Back Office select the page from the list that appears below.
 
 ![Selecting Page for editing](img/editing_page.png)
 
