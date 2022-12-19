@@ -12,7 +12,7 @@ drop image files from disk, or select an existing image asset from library.
 ![Adding assets to a product](img/product_assets.png)
 
 You can assign assets to product variants by placing them in a collection.
-A collection corresponds to specific values of attributes and is assigned to the variant or variants
+A collection corresponds to specific values of attributes and is automatically assigned to the variant or variants
 that have these attribute values.
 
 For example, a "desk" product can have multiple images as assets.
