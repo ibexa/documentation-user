@@ -34,7 +34,7 @@ The new item appears in the tree.
 
 ![Editing a product](img/edit_product.png "Editing a product")
 
-2\. From their lists, select the language and the product type, and then click the **Add** button.
+3\. From their lists, select the language and the product type, and then click the **Add** button.
 
 3\. Fill in or edit content fields of the product, for example, name, specification and description.
 The [Fields](../content_management/content_model.md#fields-and-field-types) that you have to populate depend on how the Product Type is defined. 
