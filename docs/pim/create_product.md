@@ -50,7 +50,7 @@ If you are editing existing one, click **Update** button.
 
 ## Work with products
 
-You can also [add image assets](work_with_product_assets.md) to the products, [create variants to the main product](work_with_product_variants.md), [define prices](manage_prices_and_stock.md) and [clasify products into different categories](work_with_product_categories.md).
+After you create a product, you can [add image assets to a product](work_with_product_assets.md), [create variants to the main product](work_with_product_variants.md), [define product prices](manage_prices_and_stock.md), and [clasify products into different categories](work_with_product_categories.md).
 
 !!! note
 
