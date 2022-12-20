@@ -64,6 +64,13 @@ click the **Configure** icon and make necessary changes.
 
 For a detailed description, see [Category path filters](filters.md#category-path-filters).
 
+## Cross content type recommendations
+
+You can use cross content type option to get combined recommendation items from different Content Types.
+
+Cross content type option is used to combine best recommendation items from different content types.
+It applies to scenarios which have more than one output type configured.
+
 ## Next steps
 
 When you have configured the Personalization service, you can 

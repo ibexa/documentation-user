@@ -39,3 +39,25 @@ icon next to the website in which you want to place a personalization block.
 
 For more information about collecting events and embedding recommendation results, 
 see [Integrate recommendation service]([[= developer_doc =]]/personalization/integrate_recommendation_service/).
+
+## Use cross content type in Page Builder blocks
+
+When scenarios are configured to display cross content type recommendations, you can use them in the following Page Builder blocks: Dynamic targeting and Personalized.
+
+To get all output types in the [Personalized block](../content_management/create_edit_pages.md#personalized-block), in Page Builder, perform the following actions:
+
+1. In the block settings, set the scenario with configured crosscontent types output.
+1. Next, from the drop-down **Select a Content Type to be displayed**, select **All**.
+1. Increase the display limit to make sure all recommendations are shown.
+1. Click **Submit**.
+
+
+To get all output types in the [Dynamic targeting block](../content_management/create_edit_pages.md#dynamic-targeting-block):
+
+1. In the block settings, set the scenario with configured crosscontent types output.
+1. From the **Output type** drop-down, select **All**.
+
+1. Next, set the rules according to your needs.
+1. Click **Submit**.
+
+For more information, see [Parameters]([[= developer_doc =]]/personalization/enable_personalization/#parameters) in the developer documentation.

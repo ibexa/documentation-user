@@ -42,18 +42,22 @@ nav:
         - Personalization: personalization/personalization.md
         - Use cases: personalization/use_cases.md
         - Enable personalization: personalization/enable_personalization.md
-        - Configure personalization: personalization/configure_personalization.md
+        - Configure personalization:
+              - Configure personalization: personalization/configure_personalization.md
+              - Configure models: personalization/configure_models.md
+              - Recommendation models: 
+                  - Recommendation models: personalization/recommendation_models.md
+                  - Events: personalization/event_types.md
+              - Configure scenarios: personalization/configure_scenarios.md
+              - Scenarios: 
+                  - Scenarios: personalization/scenarios.md
+                  - Content types: personalization/content_types.md
+                  - Filters: personalization/filters.md
         - Preview scenario results: personalization/preview_scenario_results.md
         - Integrate scenario results: personalization/integrate_scenario_results.md
-        - Cross content type recommendations: personalization/cross_content_type_reco.md
-        - Import data: personalization/content_import.md
+        - Import source data: personalization/content_import.md
         - Review performance: personalization/review_perso_performance.md
-        - Reference:
-              - Events: personalization/event_types.md
-              - Content types: personalization/content_types.md
-              - Recommendation models: personalization/recommendation_models.md
-              - Scenarios: personalization/scenarios.md
-              - Filters: personalization/filters.md
+
     - PIM:
         - Products: pim/products.md
         - Create product types: pim/create_product_types.md

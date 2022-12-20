@@ -2,7 +2,7 @@
 description: Importing existing data enables the Personalization service to provide better results for recommendations.
 ---
 
-# Import data
+# Import source data
 
 Before the Personalization service can generate relevant recommendations, 
 it must be fed with data that relates to content items/products that are monitored, 
