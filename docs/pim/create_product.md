@@ -26,8 +26,9 @@ You can create product in several ways:
 The new item appears in the tree.
 3. Click **Create content** in the upper-right corner of the [My dashboard](../getting_started/discover_ui.md) screen. In this case you have to choose Content Type and select where the content will be located.
 
-1\. If you are adding a new product use one of the methods mentioned above and continue with the procedure.
-If you want to edit existing product, click the **Edit** button next to a name of the product item that you want to modify and skip to step 3.
+1\. If you are adding a new product, use one of the methods mentioned above and  and skip to step 3.
+
+2\. If you are editing an existing product, click the **Edit** button next to a name of the product item that you want to modify and skip to step 4.
 
 ![Adding a Product](img/add_product.png "Adding a Product")
 
