@@ -52,6 +52,8 @@ If you are editing existing one, click **Update** button.
 
 You can also [add image assets](work_with_product_assets.md) to the products, [create variants to the main product](work_with_product_variants.md), [define prices](manage_prices_and_stock.md) and [clasify products into different categories](work_with_product_categories.md).
 
-Be aware that some functinalities may differ depending on the specifics of the installation.
+!!! note
+
+    Feature availability may differ depending on the specifics of your installation.
 
 For more information, see [Products](https://doc.ibexa.co/en/latest/pim/products/).
