@@ -4,9 +4,9 @@ description: Configure Field settings in Content Types.
 
 # Configure Content Type Fields
 
-When you [modify a Content Type](create_edit_content_types.md) and add or modify Fields, 
+When you [modify a Content Type](create_edit_content_types.md) and add or modify [Fields](content_model.md#fields-and-field-types), 
 you must configure different settings that control the way [[= product_name =]] 
-treats the contents of each Field. Apart from general settings, certain Field Types, such as for example, [Page](#default-configuration-of-pages) and [Relation](#content-relation-settings) Field Types may have additional settings.
+treats the contents of each Field. Apart from general settings, certain Field Types, for example, [Page](#default-configuration-of-pages) and [Relation](#content-relation-settings) Field Types may have additional settings.
 
 You can only create or modify Content Types when your [user role](../permission_management/work_with_permissions.md) has the `ContentType/Create` or `ContentType/Update` permission.
 
@@ -22,8 +22,8 @@ general settings.
 --------|-----------|---|
 |Name|A user-friendly name that describes the Field, used in the interface. It can be up to 255 characters long and consist of letters, digits, spaces and special characters.|Required|
 |Identifier|An identifier for system use in configuration files, templates, or PHP code. It can be up to 50 characters long and can only contain lowercase letters, digits and underscores. Also used in name patterns for the Content Type.|Required|
-|Description|A detailed description of the Field. It is displayed next the it when the user edits the Content item.|Optional|
-|Required|Indicates whether a value the Field is required for the Content item to be saved or published.|Optional|
+|Description|A detailed description of the Field. It is displayed next to it when the user edits the Content item.|Optional|
+|Required|Indicates whether a value of the Field is required for the Content item to be saved or published.|Optional|
 |Searchable|Indicates whether a value of the Field is included in the search.|Optional|
 |Translatable|Indicates whether a value of the Field can be translated.|Optional|
 |Can be a thumbnail|Indicates whether the Field can be a thumbnail.|Optional|
@@ -47,6 +47,7 @@ Now, only selected page blocks are available in the edit mode.
 ![Elements menu](img/page_blocks_toolbar.png "Elements menu")
 
 !!! caution
+
     When you deselect blocks, any related blocks that are included in the Page 
     hide as well. 
     To publish the Page, the editor has to remove these blocks from the Page, too.

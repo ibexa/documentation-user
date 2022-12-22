@@ -4,7 +4,7 @@ description: Create or edit Content Types by listing Fields that make a Content 
 
 # Create and edit Content Types
 
-[Content Types](content_model.md#content-types) define what fields are available in [Content items](content_items.md). 
+[Content Types](content_model.md#content-types) define what Fields are available in [Content items](content_items.md). 
 To suit your specific needs, you can modify the default Content Types, or add custom ones.
 
 You can only create or modify Content Types when your [user role](../permission_management/work_with_permissions.md) has the `ContentType/Create` or `ContentType/Update` permission.
@@ -57,8 +57,9 @@ is propagated to every Content item of this type.
 |Make content available even with missing translations|When checked, content of this Type will by default be always available, even if it does not have a language version corresponding to the current SiteAccess.|Optional|
 
 !!! note "Rules for creating patterns"
+
     When populating the patterns, you can use a schema with attributes which 
-    correspond to the identifiers of fields that make up the Content Type. 
+    correspond to the identifiers of Fields that make up the Content Type. 
     This way, when Content Items of this type are created, their names and URL 
     aliases are generated according to the defined pattern. 
     
@@ -73,7 +74,7 @@ a section on the left.
 To reorder Fields, drag and drop them within the section on the left. 
 To remove Fields from the section, click the X icon in the Field's header.
 
-![Adding a field](img/add_field.png "Adding a field")
+![Adding a Field](img/add_field.png "Adding a Field")
 
 !!! note
 
