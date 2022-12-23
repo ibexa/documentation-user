@@ -70,8 +70,6 @@ When you activate a filter of this type, the service recommends only items from 
 item/product category. 
 The actual category used to filter on is taken from recommendation request parameters.
 
-![Category path filters](img/categorypath_filter.png "Category path filters in strategy settings")
-
 There are two ways to specify a category path in a recommendation request:
 
 - When there are no context items, but the category is provided in the request: 
@@ -145,8 +143,4 @@ These models usually contain similar items, and additional filtering might remov
 the best results from the list of possible recommendations. 
 The only exception could be coping with copyright or legal issues by removing 
 unlicensed or adult content in certain markets or for certain customers. 
-However, this use case could be handled with equal or greater success by using [submodels](recommendation_models.md#submodels) or [content types](content_types.md).
-
-To support category filtering, the Personalization service must be fed with both 
-content and user attribute data.
-For more information about importing data, see [Import data](content_import.md).
+However, this use case could be handled with equal or greater success by using [submodels](recommendation_models.md#submodels) or [types of content](content_types.md).

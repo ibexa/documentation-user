@@ -17,9 +17,9 @@ Go to **Personalization** > **Models** to see a page that lists all available
 Here, you can click the **Edit** icon to access the model configuration screen and modify 
 the settings, for example:
 
-- A timeframe over which the algorithm gathers events that are used in the calculation
-- Submodels that can narrow down the list of model results
-- Segments that allow getting personalized content suitable for particular user groups
+- A timeframe over which the algorithm gathers [events](event_types.md) that are used in the calculation
+- [Submodels](recommendation_models.md#submodels) that can narrow down the list of model results
+- [Segments](#configure-segments) that allow getting personalized content suitable for particular user groups
 - A list of items included or excluded from the model
 
 For more information and a list of model types, see [Recommendation models](recommendation_models.md).
@@ -29,7 +29,7 @@ For more information and a list of model types, see [Recommendation models](reco
 Most of the models provide additional configuration parameters, which enable customization. 
 
 The parameters supported by different model types are described in the table below. 
-Some models support [submodels](#submodels). 
+Some models support [submodels](recommendation_models.md#submodels). 
 Additional differentiation criterion is the supported context. 
 If a model requires context, it can only be linked to scenarios that provide 
 the necessary context.
@@ -74,8 +74,8 @@ If a group is inactive for a certain period of time, the segments get `Inactive`
 
 Models on the Personalization server side are configured to build at intervals, 
 for example, every 24-hours.
-After you modify model settings, for each model which requires computation (all [popularity](#popularity-models) and [collaborative models](#collaborative-models)), 
-you can manually trigger the build.
+For models which require computation (all [popularity](recommendation_models.md#popularity-models) and [collaborative models](recommendation_models.md#collaborative-models)), 
+you can manually trigger the build, for example, after you modify model settings.
 
 To do this, go to **Personalization** > **Models**.
 Click the edit icon next to the model name, make necessary changes, and click 

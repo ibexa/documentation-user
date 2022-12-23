@@ -51,7 +51,7 @@ nav:
               - Configure scenarios: personalization/configure_scenarios.md
               - Scenarios: 
                   - Scenarios: personalization/scenarios.md
-                  - Content types: personalization/content_types.md
+                  - Types of content: personalization/content_types.md
                   - Filters: personalization/filters.md
         - Preview scenario results: personalization/preview_scenario_results.md
         - Integrate scenario results: personalization/integrate_scenario_results.md

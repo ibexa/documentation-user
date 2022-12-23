@@ -46,7 +46,7 @@ When scenarios are configured to display cross content type recommendations, you
 
 To get all output types in the [Personalized block](../content_management/create_edit_pages.md#personalized-block), in Page Builder, perform the following actions:
 
-1. In the block settings, set the scenario with configured crosscontent types output.
+1. In the block settings, set the scenario with configured cross content types output.
 1. Next, from the drop-down **Select a Content Type to be displayed**, select **All**.
 1. Increase the display limit to make sure all recommendations are shown.
 1. Click **Submit**.
