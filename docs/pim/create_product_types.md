@@ -15,7 +15,8 @@ If your [user role](../permission_management/work_with_permissions.md) has the `
 Each product has a product code that must be unique. It identifies the product in the system.
 Product code can have up to 64 characters. It can contain only letters, numbers, underscores, and dashes.
 
-3\. If needed, [add Fields that describe the product](../content_management/work_with_content_types.md).
+3\. Add Fields that describe the product by dragging them from the **Field types** 
+area to a section on the left, and then [configure them](../content_management/configure_ct_field_settings.md).
 
 4\. Add attributes by dragging them from the toolbox on the right.
 
