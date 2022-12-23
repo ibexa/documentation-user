@@ -2,7 +2,7 @@
 description: Recommendations rely on tracking different events that describe users' behavior on the website.
 ---
 
-# Event types
+# Events
 
 Before the Personalization service can generate implicit recommendations,
 it must collect events and calculate the results based on user behavior. 
