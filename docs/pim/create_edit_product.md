@@ -36,12 +36,12 @@ The new item appears in the tree.
 4\. Fill in or edit content fields of the product, for example, name, specification and description.
 Fields marked with an asterisk (*) are required.
 
+![Editing product information](img/create_product.png "Editing product information")
+
 5\. In the Attributes section, define the product's attributes, for example, dimensions, resolution or capacity.
 
 6\. If you are adding a new product, click the **Create** button.
 If you are editing an existing one, click the **Update** button.
-
-![Editing product information](img/create_product.png "Editing product information")
 
 After you create a product, you can [add image assets to a product](work_with_product_assets.md), [create variants to the main product](work_with_product_variants.md), [define product prices](manage_prices_and_stock.md), and [clasify products into different categories](work_with_product_categories.md).
 
