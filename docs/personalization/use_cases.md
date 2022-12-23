@@ -9,9 +9,10 @@ The most common ones are eCommerce and content publishing.
 
 ## eCommerce
 
-In eCommerce, recommendations can help customers find the exact product that fulfills their expectations. 
-When a user is not sure about what to purchase, recommendations can suggest similar, alternative 
-or complementary products. 
+In eCommerce, recommendations can help website visitors find the exact product 
+that fulfils their expectations. 
+When a user is not sure about what to purchase, recommendations can suggest similar, 
+alternative or complementary products. 
 Some typical use cases are:
 
 - The bestseller list shown on a home page
@@ -30,9 +31,10 @@ Scenarios are configurations that define what kind of recommendations should be 
 ## Content publishing
 
 In publishing, recommendations bring indirect value by keeping users on the website. 
-Unlike in eCommerce, publishers often provide content for free and are financed from advertisements. 
-Increasing the click-through (or conversion) rate to increase profits from advertisements is one of 
-the drivers here.
+Unlike in eCommerce, publishers often provide content for free and are financed 
+from advertisements. 
+Increasing the click-through (or conversion) rate to increase profits from 
+advertisements is one of the drivers here.
 Use cases in publishing can be the following:
 
 - A list of the most popular content shown on the home page

@@ -10,8 +10,10 @@ Models are statistics-based and perform calculations based on information about
 [content](content_types.md), users, and [events](event_types.md) in which they are involved.
 Calculations run in the background and the results are updated regularly to provide 
 the most accurate recommendations. 
-Models come predefined with the service, based on the arrangements that you make with Ibexa.
-You can request a specific model by contacting customer support.
+Models come predefined with the service, based on the arrangements that your 
+organization makes with Ibexa when defining the initial configuration.
+You can request that a specific model is created by contacting customer support.
+
 
 If your [user role](../permission_management/permissions_and_users.md) includes 
 the `Personalization/Edit` Policy, you can modify the models according to your requirements.
@@ -117,56 +119,10 @@ The model can be configured manually by a user.
 You can use this model to exclude test products or products that are used for system monitoring. 
 An element added to this list will never be recommended so it must be treated with care, because the blacklist model applies to all scenarios that exist in the system.
 
-
 #### History-based
 
 Pseudo recommendation model that shows the user products from their own history. 
 For example, the "You have just watched" box.
-
-## Advanced model configuration
-
-Most of the models provide additional configuration parameters, which enable customization. 
-
-The parameters supported by different model types are described in the table below. 
-Some models support [submodels](#submodels). 
-Additional differentiation criterion is the supported context. 
-If a model requires context, it can only be linked to scenarios that provide 
-the necessary context.
-
-|Model type|Available parameters|Submodel support|Context|
-|---|---|---|---|
-|Popularity|Relevant event history defines the time period for which the statistics must be analyzed. Depending on the type of product, it can be between several months and several hours. Fast event ageing can be used to weight newer events higher than older events.|yes</br>submodels based on category are enabled by default|not needed|
-|Also clicked/purchased / Ultimately bought|Both also clicked and ultimately purchased models allow defining the relevant event history.|yes, manual|required (either context items or user data)|
-|Random|This model requires the maximum age for the items that should be recommended by this model.|no|not supported|
-|History-based|The type of the history (CLICK-history or BUY-history) must be specified.|no|required (user data)|
-|Editor-based|The list of recommendations must be created manually by the editor.|no|not supported|
-|Blacklist|The list of items that should be excluded from the recommendations must be created manually by the editor.|no|not supported|
-
-Do not confuse event history age with item age. 
-History age is the age of the user's footprint (for example, "User clicked on the product A 
-two weeks ago"). 
-Item age is the time over which the item is available in the shop ("How new is the item"). 
-The history is recorded automatically based on [event](event_types.md) tracking. 
-The item catalog must be filled separately as a result of [data import](content_import.md).
-
-## Trigger model build
-
-Models on the Personalization server side are configured to build at intervals, for example, every 24-hours.
-For each model which requires computation (all [popularity](#popularity-models) and [collaborative models](#collaborative-models)), 
-you can manually trigger build after any modifications to the model's settings in the Back Office.
-
-To do this, in the **Personalization** section go to **Models**.
-Click the edit icon next to the computation model, add necessary changes, and click the **Trigger model build** button.
-The model's status changes to `Build in progress`. After the successful build, status changes to `Active`.
-
-![Models](img/models_edit.png "Models")
-
-Model statuses:
-
-- **Active** - model is successfully built
-- **Not active** - new model which hasn’t been triggered or used yet, or model that is added to the scenario, calculated and then removed from the scenario
-- **Build in progress** - model during the building process
-- **Failed** - there is no data to build the model or some error occured, building failed
 
 ## Submodels
 
@@ -236,25 +192,3 @@ The logic used for resolving a submodel is as follows:
     If you do not want to group recommendations based on a certain attribute, 
     remove the attribute parameter from the request. 
     The submodel is then omitted.
-
-## Segments
-
-Segments allow getting personalized content suitable for particular user groups. They compute models based on segment attribute factor.
-Information with user segment is provided in each event which comes from the tracking script.
-
-First, make sure you have [enabled personalization]([[= developer_doc =]]/personalization/integrate_recommendation_service/) and [configured item type tracking]([[= developer_doc =]]/personalization/enable_personalization/#set-up-item-type-tracking).
-
-If your [user Role](../permission_management/permissions_and_users.md) includes 
-the `Segment/All functions`, `Segment group/All functions` Policies, you can configure segment settings in the models according to your requirements.
-To do this, go to the **Models** section and click the **Edit** icon next to a name of the model.
-
-With segment groups you can assign users to different recommendation groups based on data gathered and deliver recommendations to these user groups.
-
-The **Segment** list displays only active segments and is generated from the events collected for relevant history (the actual data from recommendation engine, not what is added using the Back Office).
-
-The value of each segment is transfered to the event.
-
-Models are displayed only for a selected time period. 
-If a group is inactive for a certain period of time, the segments get `Inactive` status and cannot be used.
-
-![Time period](img/models_time_period.png "Time period configuration")

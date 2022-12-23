@@ -2,12 +2,12 @@
 description: Importing existing data enables the Personalization service to provide better results for recommendations.
 ---
 
-# Import data
+# Import source data
 
 Before the Personalization service can generate relevant recommendations, 
-it must be fed with data that relates to content items/products that are monitored, 
-and event tracking information.
-Some scenarios return better results if provided with user data.
+it must be fed with data that relates to [content](content_types.md) items/products that are monitored, 
+and [event](event_types.md) tracking information.
+Some [scenarios](scenarios.md) return better results if provided with user data.
 
 Data import operations are configured at the developer level, based on the arrangements 
 that you make with Ibexa. 
@@ -18,7 +18,7 @@ The Personalization service then processes the events and calculates the recomme
 !!! note "Host multiple websites"
 
     If your installation [hosts multiple websites](use_cases.md#multiple-website-hosting) and returns separate recommendations
-    for each of these websites, you must import data separately for each of these websites.
+    For each of these websites, you must import data separately.
 
 ## Content data import
 
