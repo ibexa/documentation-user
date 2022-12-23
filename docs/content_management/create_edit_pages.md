@@ -61,7 +61,7 @@ Using the toolbar buttons, you can perform the following actions:
 |![View toggler](img/page_builder_toolbar_devicestoggler.png)|Toggle through to see how the Page is rendered on different devices.|
 |![Elements menu](img/page_builder_toolbarelements.png)|Access menu with Elements.|
 
-In a newly created Page you can choose a [layout](work_with_content_types.md#configure-available-page-layouts) which defines the available zones.
+In a newly created Page you can choose a [layout](configure_ct_field_settings.md#available-page-layouts) which defines the available zones.
 
 ![Switch layout](img/switch_layout_window.png "Switch layout")
 

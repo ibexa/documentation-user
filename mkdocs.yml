@@ -11,7 +11,8 @@ nav:
        - User interface: getting_started/discover_ui.md
     - Content model management:
         - Content model: content_management/content_model.md
-        - Work with Content Types: content_management/work_with_content_types.md
+        - Create and edit Content Types: content_management/create_edit_content_types.md
+        - Configure Content Type Fields: content_management/configure_ct_field_settings.md
     - Content management:
         - Content items: content_management/content_items.md
         - Create and edit Content items: content_management/create_edit_content_items.md
