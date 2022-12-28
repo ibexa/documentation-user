@@ -38,7 +38,7 @@ the necessary context.
 |---|---|---|---|
 |Popularity|Relevant event history defines the time period for which the statistics must be analyzed. Depending on the type of product, it can be between several months and several hours. Fast event ageing can be used to weight newer events higher than older events.|yes</br>submodels based on category are enabled by default|not needed|
 |Also clicked/purchased / Ultimately bought|Both also clicked and ultimately purchased models allow defining the relevant event history.|yes, manual|required (either context items or user data)|
-|Random|This model requires the maximum age for the items that should be recommended by this model.|no|not supported|
+|Recently added|This model requires the maximum age for the items that should be recommended by this model.|yes|not supported|
 |History-based|The type of the history (CLICK-history or BUY-history) must be specified.|no|required (user data)|
 |Editor-based|The list of recommendations must be created manually by the editor.|no|not supported|
 |Blacklist|The list of items that should be excluded from the recommendations must be created manually by the editor.|no|not supported|
