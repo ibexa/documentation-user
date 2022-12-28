@@ -38,9 +38,8 @@ in the selected category and/or subcategories).
 
 Foresees user's purchase behavior and trends, and recommends items based on this behavior.
 The model analyzes trends within a configured time period (for example, thirty days) and predicts that a new item may have the same trend,
- and displays the predicted item in recommendations.
-uses time period and builds analysis on the trends that occured. Predicts which item will fit the given trend. 
-Model 
+and displays the predicted item in recommendations.
+
 ### Collaborative models
 
 These models are more complex and require combining data from different sources.
@@ -139,6 +138,10 @@ Model recommends items which are suitable for this pattern. Item recommendations
 
 It means, for example, if the pattern covers 100 days, when the optimal time comes from the day 80. the recommendation begins to display. When user purchases the recommended item on the day 92., 
 the recommendation is no longer showed and the counter resets.
+
+!!! tip
+
+    Minimum time period for this model is 4 days, but the model works better using longer time period.
 ## Submodels
 
 Statistics-based recommendations often have the disadvantage of providing recommendations limited 
