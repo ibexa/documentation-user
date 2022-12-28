@@ -134,8 +134,9 @@ For example, the "You have just watched" box.
 Recognizes purchase patterns and returns recommendations for items where these pattern can occur.
 This model is based on predictable purchase occuring at regular intervals going forward with a relatively high degree of certainty.
 Model recommends items which are suitable for this pattern. Item recommendations are displayed 20% before the estimated pattern of repeating purchasing the product.
+
 It means, for example, if the pattern covers 100 days, when the optimal time comes from the day 80. the recommendation begins to display. When user purchases the recommended item on the day 92., 
-the recommendation is no longer showed and the countes resets.
+the recommendation is no longer showed and the counter resets.
 ## Submodels
 
 Statistics-based recommendations often have the disadvantage of providing recommendations limited 
