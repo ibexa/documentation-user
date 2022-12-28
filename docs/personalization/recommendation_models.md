@@ -141,7 +141,7 @@ the recommendation is no longer showed and the counter resets.
 
 !!! tip
 
-    Minimum time period for this model is 4 days, but the model works better using longer time period.
+    Minimum time period for this model is 4 days, but the model works better if you set longer time period.
 ## Submodels
 
 Statistics-based recommendations often have the disadvantage of providing recommendations limited 
