@@ -89,7 +89,7 @@ It is best suited for landing or category pages.
 
 ## Editorial and other models
 
-#### Rcently added
+#### Recently added
 
 This model returns a list of items from the recent items added in a configured time period.
 For example, if you set item age to 10 days, the model returns item which were added to the database 10 days ago (recently added items). 
