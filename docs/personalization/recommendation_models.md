@@ -36,9 +36,8 @@ in the selected category and/or subcategories).
 
 #### Predictive
 
-Foresees user's purchase behavior and trends, and recommends items based on this behavior.
-The model analyzes trends within a configured time period (for example, thirty days) and predicts that a new item may have the same trend,
-and displays the predicted item in recommendations.
+Predicts user's purchase behavior and trends, and recommends items based on this behavior.
+The model analyzes trends within a configured time period (for example, within a 30-day timeframe), and predicts that a new item may have the same trend, and displays the predicted item in recommendations.
 
 ### Collaborative models
 
