@@ -4,49 +4,23 @@ description: Filters enable you to fine-tune recommendation results by eliminati
 
 # Filters
 
-Filters are tools that you can use to eliminate, demote or promote specific recommendation results.
-
-## General filters
-
 For every recommendation [scenario](scenarios.md), you can define a set of filters. 
-Filters are applied to all recommendations that come from [models](recommendation_models.md) selected in the strategy.
+They are tools that you can use to eliminate, demote or promote specific recommendation results.
+Filters are applied to all recommendations that come from [models](recommendation_models.md) selected in the strategy. 
 
-![General filters](img/scenario_filters.png "General filters in a scenario")
-
-For more information about configuring models that make up a scenario, 
-see [Advanced model configuration](recommendation_models.md#advanced-model-configuration).
-
-### User profile-based filters
+## User profile-based filters
 
 User profile-based filters are applicable in both publishing and eCommerce use cases. 
 
 |Filter|Requirements and restrictions|
 |---|---|
-|Do not recommend the item currently viewed|When you activate this filter, it removes the context items from the recommendation list. You might not want to use this filter if your strategy is based on the ["Bundle" and "Ultimately bought" models](recommendation_models.md#ultimately-bought).|
+|Do not recommend the item currently viewed|When you activate this filter, it removes the context items from the recommendation list. You might not want to use this filter if your strategy is based on the "Bundle" and ["Ultimately bought"](recommendation_models.md#ultimately-bought) models.|
 |Do not recommend items the user already consumed|The Personalization service stores the CONSUME events of every user for one year. When you activate this filter, the user will not be recommended the consumed content again.|
 |Max. repeated shows of identical recommendations per session|When you activate this filter and set a value, after a content item/product is recommended a certain number of times during the current user session, it is removed from all recommendation lists.|
 
-### Exclusions
+### Boost filters
 
-You can exclude categories from the recommendation response by providing fixed category paths or by context item category paths.
-
-!!! tip
-
-    You can use both fixed category and context item category paths at the same time.
-
-- **Exclude category of the context item** - excludes items in the recommendation response from the same categories as the context item in the recommendation request.
-Select this checkbox if you do not want to recommend items from the category of the currently rendered item. For example, 
-if the customer is browsing items from the *TV* category, you can ensure that recommendation boxes do not display recommendations from this category. This is automatically defined from the context.
-
-- **Exclude category** - define lists of categories which should not be recommended in a scenario.
-Excludes the category that is last in the path.
-For example, in the following category path: *Furniture/Living room/Sofas*, for this scenario all items from the *Sofas* category are excluded. You can add many categories.
-
-
-#### Boost filters
-
-Apart from filters that remove specified elements from recommendations, user 
-profile-based filters include a filter for moving certain items up on the list. 
+User profile-based filters include a filter for moving certain items up on the list. 
 If enabled, boosting is triggered when values of a selected attribute from 
 a user profile and the recommended item match. 
 For example, news from the user's home country can have higher priority than from 
@@ -62,9 +36,22 @@ Item boosting requires that the Personalization service is fed with both item
 and user attribute data.
 For more information about importing data, see [Import data](content_import.md).
 
-### eCommerce-specific filters
+### Exclusions
 
-The following filters are only applicable in eCommerce use cases.
+You can exclude categories from the recommendation response by providing fixed category paths or by context item category paths.
+
+!!! tip
+
+    You can use both fixed category and context item category paths at the same time.
+
+|Exclusion name|Function|
+|---|---|
+|Exclude category of the context item|Excludes items in the recommendation response from the same categories as the context item in the recommendation request. Use this exclusion if you do not want to recommend items from the category of the currently rendered item. For example, if the customer is browsing items from the *TV* category, you can ensure that recommendation boxes do not display recommendations from this category. This is automatically defined from the context.|
+|Exclude category|Defines lists of categories which should not be recommended in a scenario. Excludes the category that is last in the path. For example, in the following category path: *Furniture/Living room/Sofas*, all items from the *Sofas* category are excluded for this scenario. You can add many categories.|
+
+### Commerce-specific filters
+
+The following filters are only applicable in Commerce use cases.
 
 |Filter|Requirements and restrictions|
 |---|---|
@@ -83,8 +70,6 @@ When you activate a filter of this type, the service recommends only items from 
 item/product category. 
 The actual category used to filter on is taken from recommendation request parameters.
 
-![Category path filters](img/categorypath_filter.png "Category path filters in strategy settings")
-
 There are two ways to specify a category path in a recommendation request:
 
 - When there are no context items, but the category is provided in the request: 
@@ -95,7 +80,7 @@ There are two ways to specify a category path in a recommendation request:
   This approach is recommended only if it is technically impossible (or too complex) 
   to provide the category information explicitly.
 
-Depending on how you configure the filters, the Personalization service can take 
+Depending on how you configure category path filters, the Personalization service can take 
 different paths to find the actual set of categories to recommend the items/products from.
 
 The following example shows the category structure (which basically corresponds to website navigation):
@@ -116,14 +101,14 @@ items/products are fetched from, based an assumption that the reference category
 |"Recommend items from the same main category and its subcategories" set to 3 category levels and below|Category "Tables" and below.|
 
 You can provide multiple reference categories (both in the request and by defining 
-a context item or items).
+context items).
 In such a case, the superset of the recommendations is returned, and the results 
 are sorted based on a global weight of the recommendations. 
 Depending on the popularity of the categories, the more popular categories push 
 the less popular categories out of the results.
 
-If the recommended item is located in more than one category,
-at least one category should be requested in the recommendation call.
+If the recommended item is located in more than one category, at least one category 
+should be requested in the recommendation call.
 
 ### Multiple category path dimensions for popularity models
 
@@ -158,8 +143,4 @@ These models usually contain similar items, and additional filtering might remov
 the best results from the list of possible recommendations. 
 The only exception could be coping with copyright or legal issues by removing 
 unlicensed or adult content in certain markets or for certain customers. 
-However, this use case could be handled with equal or greater success by using [submodels](recommendation_models.md#submodels) or [content types](content_types.md).
-
-To support category filtering, the Personalization service must be fed with both 
-content and user attribute data.
-For more information about importing data, see [Import data](content_import.md).
+However, this use case could be handled with equal or greater success by using [submodels](recommendation_models.md#submodels) or [types of content](content_types.md).

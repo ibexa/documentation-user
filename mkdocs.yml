@@ -11,7 +11,8 @@ nav:
        - User interface: getting_started/discover_ui.md
     - Content model management:
         - Content model: content_management/content_model.md
-        - Work with Content Types: content_management/work_with_content_types.md
+        - Create and edit Content Types: content_management/create_edit_content_types.md
+        - Configure Content Type Fields: content_management/configure_ct_field_settings.md
     - Content management:
         - Content items: content_management/content_items.md
         - Create and edit Content items: content_management/create_edit_content_items.md
@@ -42,21 +43,26 @@ nav:
         - Personalization: personalization/personalization.md
         - Use cases: personalization/use_cases.md
         - Enable personalization: personalization/enable_personalization.md
-        - Configure personalization: personalization/configure_personalization.md
+        - Configure personalization:
+              - Configure personalization: personalization/configure_personalization.md
+              - Configure models: personalization/configure_models.md
+              - Recommendation models: 
+                  - Recommendation models: personalization/recommendation_models.md
+                  - Events: personalization/event_types.md
+              - Configure scenarios: personalization/configure_scenarios.md
+              - Scenarios: 
+                  - Scenarios: personalization/scenarios.md
+                  - Types of content: personalization/content_types.md
+                  - Filters: personalization/filters.md
         - Preview scenario results: personalization/preview_scenario_results.md
         - Integrate scenario results: personalization/integrate_scenario_results.md
-        - Cross content type recommendations: personalization/cross_content_type_reco.md
-        - Import data: personalization/content_import.md
+        - Import source data: personalization/content_import.md
         - Review performance: personalization/review_perso_performance.md
-        - Reference:
-              - Events: personalization/event_types.md
-              - Content types: personalization/content_types.md
-              - Recommendation models: personalization/recommendation_models.md
-              - Scenarios: personalization/scenarios.md
-              - Filters: personalization/filters.md
+
     - PIM:
-        - Products: pim/products.md
+        - Product Information Management: pim/products.md
         - Create product types: pim/create_product_types.md
+        - Create and edit products: pim/create_edit_product.md
         - Work with product assets: pim/work_with_product_assets.md
         - Work with product categories: pim/work_with_product_categories.md
         - Work with product variants: pim/work_with_product_variants.md
@@ -111,6 +117,8 @@ extra:
       url: '/projects/userguide'
     - title: 'Developer Documentation'
       url: '/'
+    - title: 'Connect Documentation'
+      url: '/projects/connect'
   # Global variables
   site_display_name: 'Ibexa Documentation'
   product_name: 'Ibexa DXP'

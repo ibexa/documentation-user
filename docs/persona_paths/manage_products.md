@@ -11,6 +11,7 @@ your stock and customers can easily browse your catalogs.
 
 [[= cards([
     "pim/create_product_types",
+    "pim/create_edit_product",
     "pim/work_with_product_assets",
     "pim/work_with_product_categories",
     "pim/work_with_product_variants",

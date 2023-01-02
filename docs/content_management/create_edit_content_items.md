@@ -69,7 +69,7 @@ Rich Text Fields are filled in using a special Online Editor. Its options appear
 
 ![Online Editor menu](img/online_editor_menu.png "Online Editor menu")
 
-To add a new element to the Field, select the plus icon to the left of the box and choose one of the available elements:
+To add a new element to the Field, choose one of the available elements:
 
 - Heading
 - Paragraph
@@ -112,7 +112,7 @@ add or delete rows and columns in any part of the table, as well as merge and sp
 
 ### Custom elements
 
-You installation can also have custom elements available in the Rich Text field.
+Your installation can also have custom elements available in the Rich Text field.
 Contact your website administrator about the details of using them.
 
 ### Text formatting

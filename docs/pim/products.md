@@ -56,6 +56,8 @@ They can be categorized and organized into catalogs.
 
 Also, for each product and product variant, you can define its availability, stock and price.
 
+For more information about creating products, see [Create product](create_edit_product.md#create-and-edit-products).
+
 ### Product assets
 
 When you create or edit products, you can add assets in a form of images.

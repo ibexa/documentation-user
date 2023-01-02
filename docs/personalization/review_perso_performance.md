@@ -35,7 +35,7 @@ The diagram part consists of four main blocks:
 - Collected events:
     Input data CLICK, BUY, and other events that the Personalization service collects 
     from the website. 
-    For more information, see [Event types](event_types.md).
+    For more information, see [Events](event_types.md).
 
 ![Diagrams on the dashboard](img/dashboard_statistics.png "Performance diagrams on the dashboard")
 

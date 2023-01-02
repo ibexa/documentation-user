@@ -40,7 +40,7 @@ Switch to the Field view using the Page Builder toolbar.
 ## Edit Page
 
 You edit Pages using the Page Builder.
-To start editing an existing Page, in the Back Office click **Page** and select the page from the list that appears below.
+To start editing an existing Page, in the Back Office select the page from the list that appears below.
 
 ![Selecting Page for editing](img/editing_page.png)
 
@@ -61,7 +61,7 @@ Using the toolbar buttons, you can perform the following actions:
 |![View toggler](img/page_builder_toolbar_devicestoggler.png)|Toggle through to see how the Page is rendered on different devices.|
 |![Elements menu](img/page_builder_toolbarelements.png)|Access menu with Elements.|
 
-In a newly created Page you can choose a [layout](work_with_content_types.md#configure-available-page-layouts) which defines the available zones.
+In a newly created Page you can choose a [layout](configure_ct_field_settings.md#available-page-layouts) which defines the available zones.
 
 ![Switch layout](img/switch_layout_window.png "Switch layout")
 
