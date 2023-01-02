@@ -40,3 +40,7 @@ plugins:
             'personalization/dashboard.md': 'personalization/review_perso_performance.md'
             'shop_administration/manage_users.md': 'customer_management/manage_customers.md'
             'site_organization/site_factory.md': 'website_organization/work_with_sites.md'
+            'shop_administration/shop_administration.md': 'persona_paths/shop_manager.md'
+            'shop_administration/manage_orders.md': 'persona_paths/shop_manager.md'
+            'shop_administration/manage_currencies_shipping.md': 'persona_paths/shop_manager.md'
+            'shop_administration/discover_dashboard.md': 'persona_paths/shop_manager.md'
