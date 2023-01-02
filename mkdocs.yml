@@ -68,15 +68,11 @@ nav:
         - Work with product variants: pim/work_with_product_variants.md
         - Work with product availability and stock: pim/manage_prices_and_stock.md
         - Work with catalogs: pim/work_with_catalogs.md
+        - Work with currencies: 'pim/manage_currencies.md'
     - Customer management:
-        - Manage customers: shop_administration/manage_customers.md
-        - Customer Portal: shop_administration/customer_portal.md
-        - Company self-registration: shop_administration/company_self_registration.md
-    - Shop administration:
-        - Shop administration: shop_administration/shop_administration.md
-        - Dashboard: shop_administration/discover_dashboard.md
-        - Manage orders: shop_administration/manage_orders.md
-        - Manage currencies and shipping cost: 'shop_administration/manage_currencies_shipping.md'
+        - Manage customers: customer_management/manage_customers.md
+        - Customer Portal: customer_management/customer_portal.md
+        - Company self-registration: customer_management/company_self_registration.md
     - Website organization:
         - Multisite: website_organization/multisite.md
         - Work with sites: website_organization/work_with_sites.md
