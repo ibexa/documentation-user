@@ -570,7 +570,6 @@ div.path {
     flex-direction: column;
 }
 
-.cards div.card-wrapper div div,
 .cards div.card-wrapper div div{
 
     border-radius: 5px;
