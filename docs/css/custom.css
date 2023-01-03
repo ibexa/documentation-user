@@ -575,6 +575,20 @@ div.path {
     flex-direction: column;
 }
 
+.cards div.card-wrapper div div{
+
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    padding: 0.7rem;
+    margin-bottom: 0.4rem;
+    border: 1px solid #E0E0E8;
+    min-width: 230px;
+    height: 240px;
+    box-sizing: border-box;
+    overflow: auto;
+    justify-content: center;
+}
+
 .cards div.card-wrapper div div,
 .path div.card-wrapper div div {
     border: 1px solid #D4D4D4;
@@ -602,9 +616,14 @@ div.path {
 
 .cards p.title,
 .path p.title {
-    font-weight: bold;
-    padding-bottom: 4px;
-    font-size: 18px;
+    font-size: 1em;
+    min-height: 2em;
+    font-weight: 550;
+    line-height: 1;
+    padding-bottom: 0.5em;
+    box-sizing: border-box;
+    margin-bottom: 2em;
+    justify-content: center;
 }
 
 .cards p.description,
