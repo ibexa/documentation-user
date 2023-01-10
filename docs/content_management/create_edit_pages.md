@@ -95,6 +95,7 @@ Use the same menu to remove the block from the Page by clicking the **Delete** (
 
 Settings available for blocks are divided into three tabs — **Basic**, **Design**, and **Scheduler**.
 The settings available on the **Basic** tab are tailored to the block's content.
+For a description of these settings, see [Block reference](block_reference.md).
 
 The remaining tabs contain parameters common to all blocks provided with [[= product_name =]].
 Use them to modify the layout and visibility of a block. For details, see [Scheduling publication](schedule_publishing.md).

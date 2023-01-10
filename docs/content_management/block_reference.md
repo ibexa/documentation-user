@@ -9,23 +9,23 @@ The following blocks are provided with a clean installation of [[= product_name 
 
 |Block|Description|
 |-----|-----------|
-|Banner|Displays an image Content item with a URL attached to it. For details, see [Banner block](#banner-block).|
-|Code|Enables you to place text, links, images, etc. on your Page using custom HTML. For details, see [Code block](#code-block).|
-|Collection|Displays a set of Content items you select manually from the Content structure. For details, see [Collection block](#collection-block).|
-|Content List|Displays Content items of a chosen Content Type (or Types) that are contained in a selected folder. For details, see [Content List block](#content-list-block).|
-|Content Scheduler|Displays Content items at a pre-defined time. For details, see [Content Scheduler block](schedule_publishing.md#content-scheduler-block).|
-|Dynamic targeting|Embeds recommended items based on the [Segment](content_organization/classify_content.md#segments) the user belongs to. For details, see [Dynamic targeting block](#dynamic-targeting-block).|
-|Embed|Embeds a Content item of any Content Type on the Page. For details, see [Embed block](#embed-block).|
-|Form|Embeds a Form Content item that you select from the Content Structure. For details, see [Form block](#form-block).|
-|Gallery|Displays all images contained in a selected folder. For details, see [Gallery block](#gallery-block).|
-|Last purchased|Displays a list of products that were recently purchased from PIM. For details, see [Last purchased block](#last-purchased-block).|
-|Last viewed|Displays a list of products from PIM that were recently viewed. For details, see [Last purchased block](#last-purchased-block).|
-|Personalized|Displays a list of Content items/products that are recommended to end users when specific scenarios are triggered. For details, see [Personalized block](#personalized-block).|
-|Recently added|Displays a list of products that were recently added to PIM. For details, see [Recently added block](#recently-added-block).|
-|RSS|Loads and displays news from RSS feeds (channels). For details, see [RSS block](#rss-block).|
-|Targeting|Embeds an Content item based on the [Segment](content_organization/classify_content.md#segments) the user belongs to. For details, see [Targeting block](#targeting-block).|
-|Text|Enables you to add to the Page a Rich Text block. For details, see [Text block](#text-block).|
-|Video|Embeds a video into the Page with standard playback controls. For details, see [Video block](#video-block).|
+|[Banner](#banner-block)|Displays an image Content item with a URL attached to it.|
+|[Code](#code-block)|Enables you to place text, links, images, etc. on your Page using custom HTML.|
+|[Collection](#collection-block)|Displays a set of Content items you select manually from the Content structure. |
+|[Content List](#content-list-block)|Displays Content items of a chosen Content Type (or Types) that are contained in a selected folder. |
+|[Content Scheduler](schedule_publishing.md#content-scheduler-block)|Displays Content items at a pre-defined time. |
+|[Dynamic targeting](#dynamic-targeting-block)|Embeds recommended items based on the [Segment](content_organization/classify_content.md#segments) the user belongs to. |
+|[Embed](#embed-block)|Embeds a Content item of any Content Type on the Page. |
+|[Form](#form-block)|Embeds a Form Content item that you select from the Content Structure. |
+|[Gallery](#gallery-block)|Displays all images contained in a selected folder. |
+|[Last purchased](#last-purchased-block)|Displays a list of products that were recently purchased from PIM. |
+|[Last viewed](#last-viewed-block)|Displays a list of products from PIM that were recently viewed. |
+|[Personalized](#personalized-block)|Displays a list of Content items/products that are recommended to end users when specific scenarios are triggered. |
+|[Recently added](#recently-added-block)|Displays a list of products that were recently added to PIM. |
+|[RSS](#rss-block)|Loads and displays news from RSS feeds (channels). |
+|[Targeting](#targeting-block)|Embeds an Content item based on the [Segment](content_organization/classify_content.md#segments) the user belongs to. |
+|[Text](#text-block)|Enables you to add to the Page a Rich Text block. |
+|[Video](#video-block)|Embeds a video into the Page with standard playback controls. |
 
 ## Banner block
 
@@ -36,14 +36,14 @@ On the **Basic** tab, perform the following actions:
 - In the **URL** box, enter a URL to open when clicking the selected image.
 
 
-#### Code block
+## Code block
 
 On the **Basic** tab, perform the following actions:
 
 - In the **Name** box, provide the name of the block that will appear on the Page.
 - In the **Content** box, enter the HTML code for the content you want to display on the Page.
 
-#### Collection block
+## Collection block
 
 On the **Basic** tab, perform the following actions:
 
@@ -53,7 +53,7 @@ and add to the collection Content items of any Content Type you want.
 All selected Content items appear in the **Selected items** box at the bottom of the window.
 When done selecting, click **Confirm**.
 
-#### Content List block
+## Content List block
 
 On the **Basic** tab, perform the following actions:
 
@@ -81,14 +81,14 @@ The rules are checked in order, so when a user belongs to more than one Segment,
 
 ![Dynamic targeting](img/page_builder_dynamic_targeting.png)
 
-#### Embed block
+## Embed block
 
 On the **Basic** tab, perform the following actions:
 
 - In the **Name** box, provide the name of the block that will appear on the Page.
 - Select content to embed by clicking **Select content**. Navigate to a Content item, select it and click **Confirm**.
 
-#### Form block
+## Form block
 
 Note that completing the settings of the Form block requires at least one Form Content item created.
 
@@ -103,7 +103,7 @@ On the **Basic** tab, perform the following actions:
     
     For more information about creating form blocks, see [Creating a newsletter form]([[= developer_doc =]]/content_management/pages/create_custom_page_block/) in developer documentation.
 
-#### Gallery block
+## Gallery block
 
 On the **Basic** tab, perform the following actions:
 
@@ -112,7 +112,7 @@ On the **Basic** tab, perform the following actions:
 After submitting the settings, all images in the folder will appear in the Gallery block.
 Note that selecting a folder containing Content items other than images results in displaying only a link to the folder they are stored in.
 
-#### Last purchased block
+## Last purchased block
 
 On the **Basic** tab, set values in the following fields:
 
@@ -123,7 +123,7 @@ On the **Basic** tab, set values in the following fields:
 
 On the **Design** tab, in the **View** field, select the layout be used to present a list of products and submit your changes.
 
-#### Last viewed block
+## Last viewed block
 
 On the **Basic** tab, set values in the following fields:
 
@@ -134,7 +134,7 @@ On the **Basic** tab, set values in the following fields:
 
 On the **Design** tab, in the **View** field, select the layout be used to present a list of products and submit your changes.
 
-#### Personalized block
+## Personalized block
 
 On the **Basic** tab, set values in the following fields:
 
@@ -145,7 +145,7 @@ On the **Basic** tab, set values in the following fields:
 
 On the **Design** tab, in the **View** field, change the layout to "Products" and submit your changes.
 
-#### Recently added block
+## Recently added block
 
 On the **Basic** tab, set values in the following fields:
 
@@ -155,7 +155,7 @@ On the **Basic** tab, set values in the following fields:
 
 On the **Design** tab, in the **View** field, select the layout be used to present a list of products and submit your changes.
 
-#### RSS block
+## RSS block
 
 On the **Basic** tab, perform the following actions:
 
@@ -182,7 +182,7 @@ You can preview the page for each of the available Segments:
 
 ![Previewing Page for a given Segment](img/page_builder_segment_preview.png)
 
-#### Text block
+## Text block
 
 On the **Basic** tab, perform the following actions:
 
@@ -190,7 +190,7 @@ On the **Basic** tab, perform the following actions:
 - In the **Content** box, enter text, images, videos, etc. using the Online Editor.
 For details, see [Editing Rich Text Fields](create_edit_content_items.md#edit-rich-text-fields).
 
-#### Video block
+## Video block
 
 On the **Basic** tab, perform the following actions:
 
