@@ -27,6 +27,8 @@ The following blocks are provided with a clean installation of [[= product_name 
 |[Text](#text-block)|Enables you to add to the Page a Rich Text block. |
 |[Video](#video-block)|Embeds a video into the Page with standard playback controls. |
 
+[[= include_file('docs/content_management/create_edit_pages.md', 86, 91) =]]
+
 ## Banner block
 
 On the **Basic** tab, perform the following actions:

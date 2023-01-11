@@ -84,6 +84,12 @@ but [developers can add their own]([[= developer_doc =]]/content_management/page
 
 For a list of blocks available out of the box, see [Block reference](block_reference.md).
 
+!!! note 
+
+    Before you add a block that uses results derived from a [Personalization](../personalization/personalization.md) scenario, 
+    for example, [Dynamic targeting](block_reference.md#dynamic-targeting-block) or [Recently added block](block_reference.md#recently-added-block), make sure that the scenario is 
+    [properly configured](../personalization/configure_scenarios.md).
+
 #### Configure block settings
 
 Each kind of block has its special properties.
