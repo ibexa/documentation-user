@@ -12,9 +12,14 @@ configuration, and then get and set up authentication parameters.
 
 ## Request access to the server
 
+After you get the initial configuration from Ibexa, you must accept the terms and conditions of the Personalization service
+and create an account to get access to the server.
+
+### Create account
+
 First, you must accept the terms and conditions of the Personalization service.
 
-To do this, in the Back Office, select **Personalization**, and then **Dashboard**.
+To do this, in the Back Office, on the left panel. click **Personalization**, and then **Dashboard**.
 On the welcome screen, enter the following details:
 
 - A full name of the person responsible for accepting the terms and conditions
@@ -24,21 +29,17 @@ On the welcome screen, enter the following details:
 Select the **I have read and agree to the Terms and Conditions** checkbox, and then click **Submit**.
 Your request is sent to Ibexa, and you receive an email with credentials in response.
 
-## Set up service parameters
+### Set up service parameters
 
 When you receive the email with credentials, ask your administrator to:
 
 - [add the credentials to your configuration]([[= developer_doc =]]/personalization/enable_personalization/#set-up-customer-credentials)
 - [configure events that you wish to track]([[= developer_doc =]]/personalization/enable_personalization/#set-up-item-type-tracking)
 
-## Change the installation key
+-------------------------
+The aim of this feature is to reduce the time and not necessary effort when creating new personalization customer account. When customer admin reaching out the Personalization section, there will be an option to create an account in the automated way. First the customer is asked for filling out the form with name, email address and installation key. After T&C acceptance can choose type of the account (commerce or publisher). Next step is to send request to the personalization endpoint and receive customer ID and secret key.
 
-If necessary, you can modify the installation key configured in the personalization settings.
-To do this, in the Back Office, select **Personalization** and then **Settings**.
-Modify the value in the **Installation key** field and save your changes.
 
-!!! note "Disable the service"
+![Basic scenario configuration](img/perso_create_account_1.png "Create account")
 
-    Clear the **Installation key** field to temporarily disable the Personalization service 
-    for your account.
-    Enter the same key to re-enable the feature.
+![Basic scenario configuration](img/perso_create_account_2.png "Account credentials")
