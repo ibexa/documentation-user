@@ -19,15 +19,20 @@ and create an account to get access to the server.
 
 First, you must accept the terms and conditions of the Personalization service.
 
-To do this, in the Back Office, on the left panel. click **Personalization**, and then **Dashboard**.
-On the welcome screen, enter the following details:
 
-- A full name of the person responsible for accepting the terms and conditions
-- An email address to which you want the confirmation to be sent
-- An installation key that can be found on the **Maintenance and Support agreement details** page in the service portal
+1. Go to the Back Office.
+1. On the left panel, go to **Personalization** > **Dashboard**.
+1. On the welcome screen, provide the following details:
 
-Select the **I have read and agree to the Terms and Conditions** checkbox, and then click **Submit**.
-Your request is sent to Ibexa, and you receive an email with credentials in response.
+    - A full name of the person responsible for accepting the terms and conditions
+    - An email address to which you want the confirmation to be sent
+    - An installation key that can be found on the **Maintenance and Support agreement details** page in the service portal
+
+1. Select the **I have read and agree to the Terms and Conditions** checkbox, and then click **Submit**.
+1. Next, enter the project name or your brand name.
+1. From the **Type** drop-down, select the account type (Commerce or Publisher).
+1. To proceed, click **Next**.
+
 
 ### Set up service parameters
 
