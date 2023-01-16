@@ -36,8 +36,8 @@ in the selected category and/or subcategories).
 
 #### Predictive
 
-Predicts users' purchase behavior and trends, and recommends items based on this behavior.
-The model analyzes trends within a configured time period (for example, within a 30-day timeframe), and predicts that a new item may have the same trend, and displays the predicted item in recommendations.
+A predictive popularity model predicts users' purchase behavior and trends, and recommends items based on this behavior.
+The model analyzes trends within a configured time period (for example, within a 30-day timeframe), predicts that a new item may have the same trend, and displays the predicted item in recommendations.
 
 ### Collaborative models
 
@@ -131,16 +131,17 @@ For example, the "You have just watched" box.
 
 #### Recurring purchase
 
-Recognizes purchase patterns and returns recommendations for items where these pattern can occur.
+A recurring purchase model recognizes purchase patterns and returns recommendations for items where these patterns can occur.
 This model is based on predictable purchase occuring at regular intervals going forward with a relatively high degree of certainty.
-Model recommends items which are suitable for this pattern. Item recommendations are displayed 20% before the estimated pattern of repeating purchasing the product.
+The model recommends items which are suitable for this pattern. Item recommendations are displayed 20% before the estimated pattern of repeating purchasing the product.
 
-It means, for example, if the pattern covers 100 days, when the optimal time comes from the day 80. the recommendation begins to display. When user purchases the recommended item on the day 92., 
-the recommendation is no longer showed and the counter resets.
+It means, for example, that if the pattern covers 100 days, when the optimal time comes from day 80., the recommendation begins to display. When a user purchases the recommended item on day 92., 
+the recommendation is no longer shown and the counter resets.
 
 !!! tip
 
-    Minimum time period for this model is 4 days, but the model works better if you set longer time period.
+    Minimum time period for this model is 4 days, but the model works better if you set a longer time period.
+    
 ## Submodels
 
 Statistics-based recommendations often have the disadvantage of providing recommendations limited 
