@@ -10,6 +10,7 @@ The following blocks are provided with a clean installation of [[= product_name 
 |Block|Description|
 |-----|-----------|
 |[Banner](#banner-block)|Displays an image Content item with a URL attached to it.|
+|[Catalog](#catalog-block)|Displays products from a specific catalog to a selected customer group.|
 |[Code](#code-block)|Enables you to place text, links, images, etc. on your Page using custom HTML.|
 |[Collection](#collection-block)|Displays a set of Content items you select manually from the Content structure. |
 |[Content List](#content-list-block)|Displays Content items of a chosen Content Type (or Types) that are contained in a selected folder. |
@@ -21,13 +22,14 @@ The following blocks are provided with a clean installation of [[= product_name 
 |[Last purchased](#last-purchased-block)|Displays a list of products that were recently purchased from PIM. |
 |[Last viewed](#last-viewed-block)|Displays a list of products from PIM that were recently viewed. |
 |[Personalized](#personalized-block)|Displays a list of Content items/products that are recommended to end users when specific scenarios are triggered. |
+|[Product collection](#product-collection-block)|Displays a list of specifically selected products.|
 |[Recently added](#recently-added-block)|Displays a list of products that were recently added to PIM. |
 |[RSS](#rss-block)|Loads and displays news from RSS feeds (channels). |
 |[Targeting](#targeting-block)|Embeds an Content item based on the [Segment](content_organization/classify_content.md#segments) the user belongs to. |
 |[Text](#text-block)|Enables you to add to the Page a Rich Text block. |
 |[Video](#video-block)|Embeds a video into the Page with standard playback controls. |
 
-[[= include_file('docs/content_management/create_edit_pages.md', 86, 91) =]]
+[[= include_file('docs/content_management/create_edit_pages.md', 86, 96) =]]
 
 ## Banner block
 
@@ -36,6 +38,24 @@ On the **Basic** tab, perform the following actions:
 - In the **Name** box, provide the name of the block that will appear on the Page.
 - In the **Image** section, click **Select content**, navigate through the content and select an image to display.
 - In the **URL** box, enter a URL to open when clicking the selected image.
+
+## Catalog block
+
+Before you configure this block, make sure that there are [catalogs](../pim/work_with_catalogs.md) that are defined 
+and published in your PIM.
+
+On the **Basic** tab, set values in the following fields:
+
+-	**Name** – Optionally, enter a name for the page block, for example, "15-inch laptops" or "Fishing rods".
+- **Setup customer group and catalog matching priority rules** - Assign at least one catalog 
+to a customer group: add a row, then, in **Customer group**, select a customer group,  
+-	**Product Types to be displayed** – Add rows to assign specific catalogs to selected 
+customer groups.
+-	**Default catalog** – Select a catalog that is displayed to end-users who are either 
+anonymous or do not belong to any of the customer groups assigned to specific catalogs.
+-	**Limit** – Set the number of products to be displayed.
+
+On the **Design** tab, in the **View** field, select the layout be used to present a list of products and submit your changes.
 
 
 ## Code block
@@ -146,6 +166,18 @@ On the **Basic** tab, set values in the following fields:
 -	**Display limit** – Set the number of products to be displayed, for example, 4.
 
 On the **Design** tab, in the **View** field, change the layout to "Products" and submit your changes.
+
+## Product collection block
+
+On the **Basic** tab, perform the following actions:
+
+- In the **Name** box, provide the name of the block that will appear on the Page, 
+for example, "Summer giveway".
+- In the **Product list** area, create a list of products: 
+    - In the **Add product code** field, enter a comma separated list of product codes and click **Add**. 
+    - Click **Select product**. Then, in content browser, select products and click **Confirm**.
+    
+On the **Design** tab, in the **View** field, select the layout be used to present a list of products and submit your changes.
 
 ## Recently added block
 
