@@ -133,7 +133,7 @@ For example, the "You have just watched" box.
 
 A recurring purchase model recognizes purchase patterns and returns recommendations for items where these patterns can occur.
 This model is based on predictable purchase occuring at regular intervals going forward with a relatively high degree of certainty.
-The model recommends items which are suitable for this pattern. Item recommendations are displayed 20% before the estimated pattern of repeating purchasing the product.
+The model recommends items which are suitable for this pattern. Item recommendations are displayed 20% before the completion of estimated time pattern of repeating purchasing the product.
 
 It means, for example, that if the pattern covers 100 days, when the optimal time comes from day 80., the recommendation begins to display. When a user purchases the recommended item on day 92., 
 the recommendation is no longer shown and the counter resets.
