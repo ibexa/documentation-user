@@ -8,7 +8,7 @@ The Personalization service is based on a client-server architecture.
 The recommendation client that is part of your installation must connect to 
 the server that is run and maintained by Ibexa.
 To use the service, you must make arrangements with Ibexa to define the initial 
-configuration, and then get and set up authentication parameters.
+configuration, and then register your account and set up authentication parameters.
 
 ## Request access to the server
 
@@ -31,20 +31,13 @@ First, you must accept the terms and conditions of the Personalization service.
 1. Select the **I have read and agree to the Terms and Conditions** checkbox, and then click **Submit**.
 1. Next, enter the project name or your brand name.
 1. From the **Type** drop-down, select the account type (Commerce or Publisher).
-1. To proceed, click **Next**.
+1. To proceed, click **Next**. After a few moments, a screen with with your ID and licence key displays.
 
-
+![Create account](img/perso_create_account_1.png "Create account")
+![Basic scenario configuration](img/perso_create_account_2.png "Account credentials")
 ### Set up service parameters
 
-When you receive the email with credentials, ask your administrator to:
+When you receive the the credentials, ask your administrator to:
 
 - [add the credentials to your configuration]([[= developer_doc =]]/personalization/enable_personalization/#set-up-customer-credentials)
 - [configure events that you wish to track]([[= developer_doc =]]/personalization/enable_personalization/#set-up-item-type-tracking)
-
--------------------------
-The aim of this feature is to reduce the time and not necessary effort when creating new personalization customer account. When customer admin reaching out the Personalization section, there will be an option to create an account in the automated way. First the customer is asked for filling out the form with name, email address and installation key. After T&C acceptance can choose type of the account (commerce or publisher). Next step is to send request to the personalization endpoint and receive customer ID and secret key.
-
-
-![Basic scenario configuration](img/perso_create_account_1.png "Create account")
-
-![Basic scenario configuration](img/perso_create_account_2.png "Account credentials")
