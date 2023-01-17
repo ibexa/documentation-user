@@ -31,7 +31,7 @@ First, you must accept the terms and conditions of the Personalization service.
 1. Select the **I have read and agree to the Terms and Conditions** checkbox, and then click **Submit**.
 1. Next, enter the project name or your brand name.
 1. From the **Type** drop-down, select the account type (Commerce or Publisher).
-1. To proceed, click **Next**. After a few moments, a screen with with your ID and license key displays.
+1. To proceed, click **Next**. After a few moments, a screen with your ID and license key displays.
 
 ![Create account](img/perso_create_account_1.png "Create account")
 ![Basic scenario configuration](img/perso_create_account_2.png "Account credentials")
