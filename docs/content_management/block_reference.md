@@ -174,9 +174,13 @@ On the **Basic** tab, perform the following actions:
 - In the **Name** box, provide the name of the block that will appear on the Page, 
 for example, "Summer giveway".
 - In the **Product list** area, create a list of products: 
-    - In the **Add product code** field, enter a comma separated list of product codes and click **Add**. 
+    - In the **Add product code** field, enter a comma separated list of product/variant codes and click **Add**. 
     - Click **Select product**. Then, in content browser, select products and click **Confirm**.
-    
+
+!!! note
+
+    Due to a technical limitation, content browser does not display product variants.
+
 On the **Design** tab, in the **View** field, select the layout be used to present a list of products and submit your changes.
 
 ## Recently added block
