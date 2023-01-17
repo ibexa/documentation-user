@@ -47,10 +47,7 @@ and published in your PIM.
 On the **Basic** tab, set values in the following fields:
 
 -	**Name** – Optionally, enter a name for the page block, for example, "15-inch laptops" or "Fishing rods".
-- **Setup customer group and catalog matching priority rules** - Assign at least one catalog 
-to a customer group: add a row, then, in **Customer group**, select a customer group,  
--	**Product Types to be displayed** – Add rows to assign specific catalogs to selected 
-customer groups.
+- **Setup customer group and catalog matching priority rules** - Create at least one assignment: add a row, then select a customer group and a matching catalog. 
 -	**Default catalog** – Select a catalog that is displayed to end-users who are either 
 anonymous or do not belong to any of the customer groups assigned to specific catalogs.
 -	**Limit** – Set the number of products to be displayed.
