@@ -46,13 +46,13 @@ and published in your PIM.
 
 On the **Basic** tab, set values in the following fields:
 
--	**Name** – Optionally, enter a name for the page block, for example, "15-inch laptops" or "Fishing rods".
+- **Name** – Optionally, enter a name for the page block, for example, "15-inch laptops" or "Fishing rods".
 - **Setup customer group and catalog matching priority rules** - Create at least one assignment: add a row, then select a customer group and a matching catalog. 
--	**Default catalog** – Select a catalog that is displayed to end-users who are either 
+- **Default catalog** – Select a catalog that is displayed to end-users who are either 
 anonymous or do not belong to any of the customer groups assigned to specific catalogs.
--	**Limit** – Set the number of products to be displayed.
+- **Limit** – Set the number of products to be displayed.
 
-On the **Design** tab, in the **View** field, select the layout be used to present a list of products and submit your changes.
+On the **Design** tab, in the **View** field, select the layout to be used to present a list of products and submit your changes.
 
 
 ## Code block
@@ -135,10 +135,10 @@ Note that selecting a folder containing Content items other than images results 
 
 On the **Basic** tab, set values in the following fields:
 
--	**Name** – Optionally, enter a name for the page block, for example, "Up-to-date products" or "Your recent purchases".
--	**Personalization scenario** – Select "Last purchased" to display products that were recently purchased from PIM by any user, or "Last purchased by user" to display products that were recently purchased by the current user.
--	**Product Types to be displayed** – Select the type of products to be displayed on the list, for example, "Hardware" or "Linear bearings".
--	**Limit** – Set the number of products to be displayed.
+- **Name** – Optionally, enter a name for the page block, for example, "Up-to-date products" or "Your recent purchases".
+- **Personalization scenario** – Select "Last purchased" to display products that were recently purchased from PIM by any user, or "Last purchased by user" to display products that were recently purchased by the current user.
+- **Product Types to be displayed** – Select the type of products to be displayed on the list, for example, "Hardware" or "Linear bearings".
+- **Limit** – Set the number of products to be displayed.
 
 On the **Design** tab, in the **View** field, select the layout be used to present a list of products and submit your changes.
 
@@ -146,10 +146,10 @@ On the **Design** tab, in the **View** field, select the layout be used to prese
 
 On the **Basic** tab, set values in the following fields:
 
--	**Name** – Optionally, enter a name for the page block, for example, "Popular products" or "Your browsing history".
--	**Personalization scenario** – Select "Last viewed" to display products that were recently viewed by any user, or "Last viewed by user" to display products that were recently viewed by the current user.
--	**Product Types to be displayed** – Select the type of products to be displayed on the list, for example, "Bicycles" or "Dental care".
--	**Limit** – Set the number of products to be displayed.
+- **Name** – Optionally, enter a name for the page block, for example, "Popular products" or "Your browsing history".
+- **Personalization scenario** – Select "Last viewed" to display products that were recently viewed by any user, or "Last viewed by user" to display products that were recently viewed by the current user.
+- **Product Types to be displayed** – Select the type of products to be displayed on the list, for example, "Bicycles" or "Dental care".
+- **Limit** – Set the number of products to be displayed.
 
 On the **Design** tab, in the **View** field, select the layout be used to present a list of products and submit your changes.
 
@@ -157,10 +157,10 @@ On the **Design** tab, in the **View** field, select the layout be used to prese
 
 On the **Basic** tab, set values in the following fields:
 
--	**Name** – Optionally, enter a name for the page block, for example, "Bestsellers".
--	**Select a scenario** – Select "Landing page" or "Top clicked".
--	**Select a Content Type...** – Select "Product".
--	**Display limit** – Set the number of products to be displayed, for example, 4.
+- **Name** – Optionally, enter a name for the page block, for example, "Bestsellers".
+- **Select a scenario** – Select "Landing page" or "Top clicked".
+- **Select a Content Type...** – Select "Product".
+- **Display limit** – Set the number of products to be displayed, for example, 4.
 
 On the **Design** tab, in the **View** field, change the layout to "Products" and submit your changes.
 
@@ -171,8 +171,8 @@ On the **Basic** tab, perform the following actions:
 - In the **Name** box, provide the name of the block that will appear on the Page, 
 for example, "Summer giveway".
 - In the **Product list** area, create a list of products: 
-    - In the **Add product code** field, enter a comma separated list of product/variant codes and click **Add**. 
-    - Click **Select product**. Then, in content browser, select products and click **Confirm**.
+- In the **Add product code** field, enter a comma separated list of product/variant codes and click **Add**. 
+- Click **Select product**. Then, in content browser, select products and click **Confirm**.
 
 !!! note
 
@@ -184,9 +184,9 @@ On the **Design** tab, in the **View** field, select the layout be used to prese
 
 On the **Basic** tab, set values in the following fields:
 
--	**Block name** – Optionally, enter a name for the page block, for example, "Newest additions".
--	**Product Types to be displayed** – Select the type of products to be displayed on the list, for example, "Personal hygiene" or "Drill bits".
--	**Display limit** – Set the number of products to be displayed, for example, 4.
+- **Block name** – Optionally, enter a name for the page block, for example, "Newest additions".
+- **Product Types to be displayed** – Select the type of products to be displayed on the list, for example, "Personal hygiene" or "Drill bits".
+- **Display limit** – Set the number of products to be displayed, for example, 4.
 
 On the **Design** tab, in the **View** field, select the layout be used to present a list of products and submit your changes.
 
