@@ -17,6 +17,12 @@ To create a catalog:
 3. Select filters that decide which products are included in the catalog.
 4. Click **Create**.
 
+When you create a catalog, it is draft mode.
+To make the block available, for example, in page blocks, you must publish it.
+
+1. In the **Catalogs** page, click the name of a catalog that you want to publish.
+2. On the catalog details page, the upper right corner, click **Publish**.
+
 ### Catalog filters
 
 When you create a new catalog, all products are included in it by default.
