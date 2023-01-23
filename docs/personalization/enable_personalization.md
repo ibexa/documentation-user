@@ -26,7 +26,7 @@ First, you must accept the terms and conditions of the Personalization service.
 
     - A full name of the person responsible for accepting the terms and conditions
     - An email address to which you want the confirmation to be sent
-    - An installation key that can be found on the **Maintenance and Support agreement details** page in the service portal
+    - An installation key that can be found on the **Maintenance and Support agreement details** page in the [Service Portal](https://support.ibexa.co/)
 
 1. Select the **I have read and agree to the Terms and Conditions** checkbox, and then click **Submit**.
 1. Next, enter the project name or your brand name.
