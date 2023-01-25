@@ -91,7 +91,7 @@ It is best suited for landing or category pages.
 
 #### Recently added
 
-This model returns a list of items from the recnetly added items in a configured time period.
+This model returns a list of items from the recently added items in a configured time period.
 For example, if you set item age to 10 days, the model returns items which were added to the database 10 days ago (recently added items). 
 
 It allows injecting new items (products, articles, an so on), to the recommendation while the "History-based" models 
