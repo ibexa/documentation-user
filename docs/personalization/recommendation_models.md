@@ -94,20 +94,19 @@ It is best suited for landing or category pages.
 
 ## Editorial and other models
 
-#### Random
+#### Recently added
 
-The model returns a semi-random list of products from the last 10 days. 
-It allows injecting new products to the recommendation while the "History-based" models 
+This model returns a list of items from the recently added items in a configured time period.
+For example, if you set item age to 10 days, the model returns items which were added to the database 10 days ago (recently added items). 
+
+It allows injecting new items (products, articles, an so on), to the recommendation while the "History-based" models 
 are not yet able to recommend products based on the statistics. 
 It is a simplified and unsophisticated alternative if no other information is available 
 to calculate and provide recommendations.
 
+![Item age](img/recently_added_item_age.png "Item age")
+
 This model is not based on historical records but relies on the imported product catalog.
-
-#### Random short
-
-The mechanism of this model is the same as in Random, but the difference is that it returns 
-a semi-random list of products from the last four hours.
 
 #### Editor-based
 
