@@ -12,33 +12,39 @@ configuration, and then get and set up authentication parameters.
 
 ## Request access to the server
 
+After you get the initial configuration from Ibexa, you must accept the terms and conditions of the Personalization service
+and create an account to get access to the server.
+
+### Create account
+
 First, you must accept the terms and conditions of the Personalization service.
 
-To do this, in the Back Office, select **Personalization**, and then **Dashboard**.
-On the welcome screen, enter the following details:
+1\. Go to the Back Office.
+
+2\. On the left panel, go to **Personalization** > **Dashboard**.
+
+3\. On the welcome screen, provide the following details:
 
 - A full name of the person responsible for accepting the terms and conditions
 - An email address to which you want the confirmation to be sent
 - An installation key that can be found on the **Maintenance and Support agreement details** page in the service portal
 
-Select the **I have read and agree to the Terms and Conditions** checkbox, and then click **Submit**.
-Your request is sent to Ibexa, and you receive an email with credentials in response.
+4\. Select the **I have read and agree to the Terms and Conditions** checkbox, and then click **Submit**.
+
+5\. Next, enter the project name or your brand name.
+
+![Create account](img/perso_create_account_1.png "Create account")
+
+6\. From the **Type** drop-down, select the account type (Commerce or Publisher).
+
+7\. To proceed, click **Next**. After a few moments, a screen with your ID and license key displays.
+
+
+![Basic scenario configuration](img/perso_create_account_2.png "Account credentials")
 
 ## Set up service parameters
 
-When you receive the email with credentials, ask your administrator to:
+When you receive the the credentials, ask your administrator to:
 
 - [add the credentials to your configuration]([[= developer_doc =]]/personalization/enable_personalization/#set-up-customer-credentials)
 - [configure events that you wish to track]([[= developer_doc =]]/personalization/enable_personalization/#set-up-item-type-tracking)
-
-## Change the installation key
-
-If necessary, you can modify the installation key configured in the personalization settings.
-To do this, in the Back Office, select **Personalization** and then **Settings**.
-Modify the value in the **Installation key** field and save your changes.
-
-!!! note "Disable the service"
-
-    Clear the **Installation key** field to temporarily disable the Personalization service 
-    for your account.
-    Enter the same key to re-enable the feature.
