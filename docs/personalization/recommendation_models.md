@@ -34,6 +34,11 @@ Models from this category return the most popular content items/products, based 
 usage history (recent events are more important) and category-based filtering (bestsellers 
 in the selected category and/or subcategories).
 
+#### Predictive
+
+A predictive popularity model predicts users' purchase behavior and trends, and recommends items based on this behavior.
+The model analyzes trends within a configured time period (for example, within a 30-day timeframe), predicts that a new item may have the same trend, and displays the predicted item in recommendations.
+
 ### Collaborative models
 
 These models are more complex and require combining data from different sources.
@@ -124,6 +129,19 @@ An element added to this list will never be recommended so it must be treated wi
 Pseudo recommendation model that shows the user products from their own history. 
 For example, the "You have just watched" box.
 
+#### Recurring purchase
+
+A recurring purchase model recognizes purchase patterns and returns recommendations for items where these patterns can occur.
+This model is based on predictable purchase occuring at regular intervals going forward with a relatively high degree of certainty.
+The model recommends items which are suitable for this pattern. Item recommendations are displayed 20% before the completion of estimated time pattern of repeating purchasing the product.
+
+It means, for example, that if the pattern covers 100 days, when the optimal time comes from day 80., the recommendation begins to display. When a user purchases the recommended item on day 92., 
+the recommendation is no longer shown and the counter resets.
+
+!!! tip
+
+    Minimum time period for this model is 4 days, but the model works better if you set a longer time period.
+    
 ## Submodels
 
 Statistics-based recommendations often have the disadvantage of providing recommendations limited 
