@@ -3,7 +3,7 @@ INHERIT: plugins.yml
 site_name: User Documentation
 repo_url: https://github.com/ezsystems/user-documentation
 site_url: https://doc.ibexa.co/projects/userguide/en/latest/
-copyright: "Copyright 1999-2022 Ibexa AS and others"
+copyright: "Copyright 1999-2023 Ibexa AS and others"
 nav:
     - 'Ibexa User Documentation': 'index.md'
     - 'Getting started': 'getting_started.md'
