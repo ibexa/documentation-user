@@ -119,7 +119,7 @@
                         <li><a href="https://doc.ibexa.co/en/latest/release_notes/ibexa_dxp_v4.4/#new-welcome-page">New welcome page</a></li>
                         <li><a href="https://doc.ibexa.co/en/latest/release_notes/ibexa_dxp_v4.4/#personalization-improvements">Personalization improvements</a></li>
                         <li><a href="https://doc.ibexa.co/en/latest/release_notes/ibexa_dxp_v4.4/#ibexa-connect">Ibexa Connect</a></li>
-                        <li><a href="https://doc.ibexa.co/en/latest/release_notes/ibexa_dxp_v4.4/#flysystem-v2">Flysystem v2</a></li>
+                        <li><a href="https://doc.ibexa.co/en/latest/release_notes/ibexa_dxp_v4.4/#new-page-blocks">New page blocks</a></li></a></li>
                     </ul>
                 </div>
             </div>
