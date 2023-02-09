@@ -30,4 +30,4 @@ If multiple content types are enabled, one must enable this output type for ever
 
 Every scenario supports a single input type and multiple output types (see [8. Scenarios](scenarios.md)). Every recommendation request delivers only content of one output content type (even if multiple are selected in the interface above). The output type is set during the recommendation request and must be covered by the list of the supported content types in the requested scenario.
 
-You can find more information about fetching recommendations in developer documentation: [Recommendation API](https://doc.ibexa.co/en/master/guide/personalization/developer_guide/recommendation_api)
+You can find more information about fetching recommendations in developer documentation: [Recommendation API](https://doc.ibexa.co/en/latest/guide/personalization/developer_guide/recommendation_api)

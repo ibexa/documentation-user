@@ -153,4 +153,4 @@ In its case, the `to` value indicates the range end and also belongs to it.
 
     Once configured, submodels are enabled for the model globally. All the scenarios which use this model will be aware of it. If it is not intended to activate the recommendation grouping in some cases, do not provide the attribute parameter in the request. The submodel is not used then.
 
-    See [Recommendation API](https://doc.ibexa.co/en/master/guide/personalization/developer_guide/recommendation_api) in the developer documentation for more information.
+    See [Recommendation API](https://doc.ibexa.co/en/latest/guide/personalization/developer_guide/recommendation_api) in the developer documentation for more information.
