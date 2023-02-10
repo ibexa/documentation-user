@@ -1,21 +1,40 @@
-# user-documentation
-Source for the [user documentation for eZ Platform](https://doc.ezplatform.com/projects/userguide/en/latest/), an open source CMS based on the Symfony Full Stack Framework in PHP.
+# Ibexa DXP (former eZ Platform) User Documentation
+
+This repository is the source for the [user documentation for Ibexa DXP](https://doc.ezplatform.com/projects/userguide/en/latest),
+a digital experience platform that is based on the Symfony Full Stack Framework in PHP.
 
 # Resources
 
-1. eZ Platform Developer Hub: https://ezplatform.com/
-1. eZ Platform Repository: https://github.com/ezsystems/ezplatform
-1. Open JIRA board: https://jira.ez.no/
-1. Ibexa Website: https://ibexa.co/
-1. Personalization Solution: https://doc.ezplatform.com/projects/ezpersonalization/en/latest/
+1. Ibexa DXP Developer Hub: https://developers.ibexa.co
+1. Ibexa DXP Repository: https://github.com/ibexa/oss
+1. Open JIRA board: https://issues.ibexa.co
+1. Ibexa Website: https://ibexa.co
+1. User documentation: https://doc.ibexa.co/projects/userguide
 
-## How to Contribute
-https://doc.ezplatform.com/en/master/community_resources/contributing/#contribute-to-documentation
+## How to contribute
 
-Invite yourself to the community Slack and join `#documentation-contrib`
+To contribute to the documentation, you can open a PR in this repository.
 
-https://ez-community-on-slack.herokuapp.com/
+If you'd like to see Ibexa DXP in your language, you can [contribute to the translations](https://doc.ibexa.co/en/latest/resources/contributing/contribute_translations/).
+
+## Build and preview documentation
+
+To build and preview your changes locally, you need to install Python along with its package manager (`pip`).
+Other required tools will be installed by using the following command:
+
+```bash
+pip install -r requirements.txt
+```
+
+Then you can run:
+
+```bash
+mkdocs serve
+```
+
+After a short while your documentation should be reachable at http://localhost:8000.
+If it isn't, check the output of the command.
 
 ## Where to View
 
-https://doc.ezplatform.com/projects/userguide/en/latest/
+https://doc.ibexa.co
