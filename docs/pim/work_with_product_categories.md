@@ -22,7 +22,7 @@ Depending on your permissions, you might be able to verify the presence of the f
     2. If the field is absent, drag and drop the **Taxonomy Entry Assignment** option from the **Field types** area to the **Field definitions** area.
     3. Expand the **New field type** that you just added and make the following settings:
         * Set a name for the field, for example, "Product category"
-        * Select the **Required** custom_checkbox
+        * Select the **Required** checkbox
         * In the **Taxonomy** field, select the "Product categories" option
 4. Optionally, modify other Product Type settings as required.
 7. Click **Save**.
