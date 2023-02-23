@@ -12,6 +12,9 @@ invite and view members and check your order history.
 
 ![Customer Portal Dashboard](img/cp_dashboard_customer_portal.png)
 
+To access Customer Portal follow this link 
+`<yourdomain>/corporate/login` and log in to your business account.
+
 In the dashboard, you will find a sales representative of your company and 
 a brief summary of your order history.
 For a detailed list of your order history, go to **Pending Order** and 

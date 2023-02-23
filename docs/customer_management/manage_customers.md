@@ -10,7 +10,7 @@ customers and organizations' accounts in your system, including their shop activ
 
 ## Create new company
 
-To create a new company, go to **Members** -> **Companies** section.
+To create a new company, go to **Customers** -> **Companies** section.
 There you can view a list of companies you have access to,
 you can also edit them or create a new one by selecting **Create** button in the top right corner.
 
@@ -30,7 +30,7 @@ Optionally, you can add a website and other contact details.
 
 ## Manage company
 
-Companies can be managed from the Back Office in the **Members** -> **Companies** section.
+Companies can be managed from the Back Office in the **Customers** -> **Companies** section.
 Each company has its own profile where you can find:
 
 - summary with basic information and order history
@@ -64,7 +64,7 @@ You can also set up Policies for every user who has a business account by editin
 ## Invite members
 
 To invite other members to the organization,
-go to **Members** -> **Companies** -> Select your company -> **Invitations**.
+go to **Customers** -> **Companies** -> Select your company -> **Invitations**.
 
 ![Invite members from the Back Office](img/cp_invitations_back_office.png)
 
