@@ -22,14 +22,14 @@ They need to provide their basic information, contact information and billing ad
 ## Application approval
 
 The application then goes through an approval process in the Back Office.
-To see a list of pending applications, go to **Members** -> **Applications**.
+To see a list of pending applications, go to **Customers** -> **Applications**.
 There you can edit them or check their current status.
 
 ![List of applications](img/cp_applications_list.png)
 
 Each application can be either edited, approved, rejected or put on hold.
 Applications with status reject and on hold remain on the list for future reference.
-Accepted ones move to **Members** -> **Companies** section.
+Accepted ones move to **Customers** -> **Companies** section.
 
 ![Application](img/cp_application.png)
 
@@ -43,6 +43,6 @@ Follow the same procedure with a customer group, it can be set up in **Commerce*
 Finally, the invitation link is sent back to the applier to finish the registration process
 and give them access to the [Customer Portal](customer_portal.md).
 
-Application is moved to **Members** -> **Companies** section and the company is created with **Active** status.
+Application is moved to **Customers** -> **Companies** section and the company is created with **Active** status.
 From there, you can manage the company and resend an invitation link if needed.
 For more information on managing companies in the Back Office, see [Customer management documentation](manage_customers.md#manage-company). 
