@@ -100,6 +100,7 @@ theme:
     name: material
     features:
         - content.code.annotate 
+        - content.code.copy
         - navigation.tracking
         - navigation.top
     custom_dir: 'theme'
