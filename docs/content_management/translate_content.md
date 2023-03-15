@@ -46,3 +46,31 @@ Click the SiteAccess list in the left side menu to see the full list of all Site
     to serve different language versions to visitors from different countries.
     
     See [Work with websites](../website_organization/work_with_sites.md) for more information about setting up websites.
+
+## Translation comparison
+
+You can compare different versions of the Translations of the Content item.
+
+There are two options of preview:
+- Split - side by side view to compare versions of the same language
+- Unified - single column view to compare versions of the same or different languages
+
+!!! caution
+
+    When you compare different languages, split is the only possible preview.
+    The switcher for preview change is disabled. 
+    The system does not highlight differences in this case.
+
+When you compare different versions within the same language, the system highlights all the changes:
+- yellow - content updated
+- blue - content added
+- red - content deleted
+
+You can use a filter to focus on specific language.
+The system will show only versions of chosen language in the drop-down lists.
+
+!!! note
+
+    You can compare only two different versions.
+    It is not possible to choose the same version from left and right drop-down lists.
+
