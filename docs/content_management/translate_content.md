@@ -54,7 +54,7 @@ You can compare different versions of the Translations of the Content item.
 To do it, go to the **Admin Panel**, open the **Content Structure** tab, choose specific Content Item in the Content Tree, 
 and then go to the **Versions** tab.
 
-Then, click the Version Compare icon: ![Version Compare Icon](version_compare_icon.png){.inline-image}.
+Then, click the Version Compare icon: ![Version Compare Icon](img/version_compare_icon.png){.inline-image}.
 
 There are two options of preview:
 
@@ -63,7 +63,7 @@ There are two options of preview:
 
 You can change the preview by using the switcher in the top right corner:
 
-![Preview switcher](preview_switcher.png "Preview switcher")
+![Preview switcher](img/preview_switcher.png "Preview switcher")
 
 !!! caution
 
@@ -76,7 +76,7 @@ When you compare different versions within the same language, the system highlig
 - blue - content added
 - red - content deleted
 
-![Comparison preview](comparison_preview.png "Comparison preview")
+![Comparison preview](img/comparison_preview.png "Comparison preview")
 
 If there are any translation of the Content item added in the system, the language filter appears in the top left corner. 
 You can use a filter to focus on specific language.
@@ -84,7 +84,7 @@ The system will then show only versions of chosen language in the drop-down list
 
 To do it, click on the arrow and choose a language from the drop-down list.
 
-![Language filter](language_filter.png "Language filter")
+![Language filter](img/language_filter.png "Language filter")
 
 !!! note
 
