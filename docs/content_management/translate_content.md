@@ -51,15 +51,15 @@ Click the SiteAccess list in the left side menu to see the full list of all Site
 
 You can compare different versions of the Translations of the Content item.
 
-To do it, go to the **Admin Panel**, open the **Content Structure** tab, choose specific Content Item in the Content Tree, 
+To do it, go to the **Admin Panel**, open the **Content Structure** tab, choose the Content item in the Content Tree, 
 and then go to the **Versions** tab.
 
 Then, click the Version Compare icon: ![Version Compare Icon](img/version_compare_icon.png){.inline-image}.
 
 There are two options of preview:
 
-- Split - default, side by side view to compare versions of the same language
-- Unified - single column view to compare versions of the same or different languages
+- Split - default, side by side view to compare versions of the same or different languages
+- Unified - single column view to compare versions of the same language
 
 You can change the preview by using the switcher in the top right corner:
 
@@ -78,9 +78,9 @@ When you compare different versions within the same language, the system highlig
 
 ![Comparison preview](img/comparison_preview.png "Comparison preview")
 
-If there are any translation of the Content item added in the system, the language filter appears in the top left corner. 
-You can use a filter to focus on specific language.
-The system will then show only versions of chosen language in the drop-down lists.
+If there are any translations of the Content item added in the system, the language filter appears in the top left corner. 
+You can use a filter to focus on a specific language.
+The system shows only versions of chosen language in the drop-down lists.
 
 To do it, click on the arrow and choose a language from the drop-down list.
 
@@ -90,4 +90,3 @@ To do it, click on the arrow and choose a language from the drop-down list.
 
     You can compare only two different versions.
     It is not possible to choose the same version from left and right drop-down lists.
-
