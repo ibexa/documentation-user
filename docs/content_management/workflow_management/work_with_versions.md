@@ -47,7 +47,7 @@ From the drop-down menus at the top of the screen, select the two versions that 
 
 ![Versions](img/versions.png "Versions drop-down list")
 
-There are two options of preview:
+There are two options of view:
 
 - Split - default, side by side view
 - Unified - single column view

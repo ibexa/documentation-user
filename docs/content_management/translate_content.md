@@ -56,19 +56,19 @@ and then go to the **Versions** tab.
 
 Then, click the **Version Compare** icon: ![Version Compare Icon](img/version_compare_icon.png){.inline-image}.
 
-There are two options of preview:
+There are two options of the view:
 
 - Split - default, side by side view to compare versions of the same or different languages
 - Unified - single column view to compare versions of the same language
 
-You can change the preview by using the switcher in the top right corner:
+You can change the view by using the switcher in the top right corner:
 
-![Preview switcher](img/preview_switcher.png "Preview switcher")
+![view switcher](img/view_switcher.png "View switcher")
 
 !!! caution
 
-    When you compare different languages, Split is the only possible preview.
-    The switcher for preview change is disabled and the system does not highlight differences in this case.
+    When you compare different languages, Split is the only possible view.
+    The switcher for the view change is disabled and the system does not highlight differences in this case.
 
 When you compare different versions within the same language, the system highlights all the changes:
 
@@ -76,7 +76,7 @@ When you compare different versions within the same language, the system highlig
 - blue - content added
 - red - content deleted
 
-![Comparison preview](img/comparison_preview.png "Comparison preview")
+![Comparison view](img/comparison_view.png "Comparison view")
 
 If there are any translations of the Content item added in the system, the language filter appears in the top left corner. 
 You can use a filter to focus on a specific language.
