@@ -51,7 +51,7 @@ Click the SiteAccess list in the left side menu to see the full list of all Site
 
 You can compare different versions of the Translations of the Content item.
 
-To do it, go to the **Admin Panel**, open the **Content Structure** tab, choose the Content item in the Content Tree, 
+To do it, open the **Content Structure** tab, choose the Content item in the Content Tree, 
 and then go to the **Versions** tab.
 
 Then, click the **Version Compare** icon: ![Version Compare Icon](img/version_compare_icon.png){.inline-image}.
