@@ -49,7 +49,7 @@ Click the SiteAccess list in the left side menu to see the full list of all Site
 
 ## Translation comparison
 
-You can compare different versions of the Translations of the Content item.
+You can compare different versions of the translations of the Content item.
 
 To do it, open the **Content Structure** tab, choose the Content item in the Content Tree, 
 and then go to the **Versions** tab.
@@ -67,10 +67,10 @@ You can change the view by using the switcher in the top right corner:
 
 !!! caution
 
-    When you compare different languages, Split is the only possible view.
+    When you compare different languages, split view is the only possible option.
     The switcher for the view change is disabled and the system does not highlight differences in this case.
 
-When you compare different versions within the same language, the system highlights all the changes:
+When you compare different versions within the same language, the system highlights the changes:
 
 - yellow - content updated
 - blue - content added

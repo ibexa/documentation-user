@@ -47,14 +47,14 @@ From the drop-down menus at the top of the screen, select the two versions that 
 
 ![Versions](img/versions.png "Versions drop-down list")
 
-There are two options of view:
+There are two options of the view:
 
 - Split - default, side by side view
 - Unified - single column view
 
 ![Version comparison in Unified view](img/unified_view.png "Version comparison in Unified view")
 
-When you compare two versions, the system highlights all the changes:
+When you compare two versions, the system highlights the changes:
 
 - yellow - content updated
 - blue - content added
