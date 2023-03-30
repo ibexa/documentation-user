@@ -27,6 +27,40 @@ If this is the case, use the selector field to switch between views for each of 
 
 There are several types of models available, however, the distinction between types is not visible in the user interface.
 
+### B2B models
+
+B2B models are perfect solution to create targeted content that answers to your B2B customer neeeds.
+Can help you build relationships with your B2B customers, generate most accurate recommendations.
+They show each user the most relevant content based on the user [segment group](configure_models.md#configure-segments). 
+B2B models in Personalization are considered as segment models.
+
+!!! note
+    B2B scenario to work properly needs only one segment, otherwise you get an error.
+
+#### Last events B2B models
+
+This model is built on the fly, and requires an access to the most recent events to work.
+There are two types of B2B models:
+
+- B2B last clicked - displays the most recent items which were clicked by a user with the same `segment ID`. For example, two users from the same `segment ID` can see the last clicked item by anyone from the same `segment ID`.
+
+- B2B last purchased - works the same as last clicked, however displays BUY events.
+
+The maximum time from which events can be fetched is 10 days. 
+
+#### B2B recurring purchase model
+
+This model is built on the fly. It anticipates and predicts purchase of products that were bought recursively within the same `segment ID`. 
+The item appears in this model for recommendation only when it was purchased at least twice by users from the same `segment ID`
+in the configured time frame.
+
+B2B recurring purchase models predict the date of the next purchase based on an average demand per day, extrapolated from BUY events.
+For items with the higher relevance, the closer predicted date of the next purchase is. 
+The item starts to appear when the time interval is covered in 80% between the date of the last purchased and predicted date of the next purchase. 
+
+For example, if the time interval is set to 10 days and the next purchase is predicted after these 10 days, recommendations are displayed two days before that date.
+
+
 ### Popularity models
 
 Basic popularity recommendations, such as "Top purchased", "Top consumed" or "Top clicked". 
