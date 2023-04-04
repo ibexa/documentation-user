@@ -44,7 +44,7 @@ On the **Basic** tab, perform the following actions:
 
 In the **Basic** tab, set values in the following fields:
 
-- **Name** – Optionally, enter a name for the page block, for example, "Your recent bestsellers".
+- **Name** – Enter a name for the page block, for example, "Your recent bestsellers".
 - **Personalization scenario** – Select "Bestsellers" to display products from PIM that were recently a bestsellers.
 - **Product Types to be displayed** – Select the type of products to be displayed on the list, for example, "Pendrives" or "Headphones".
 - **Limit** – Set the number of products to be displayed.
