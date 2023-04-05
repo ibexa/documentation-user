@@ -158,7 +158,7 @@ There are two types of B2B models:
 
 - B2B last clicked - returns the actual recent items which were clicked by a user with the same `segment ID`. For example, two users from the same `segment ID` can see the last clicked items by anyone from the same `segment ID`.
 
-- B2B last purchased - works the same as last clicked, however returns actual bought items.
+- B2B last purchased - works the same as last clicked, however, returns actual bought items.
 The maximum time from which events can be fetched is 10 days. 
 
 ### B2B recurring purchase model
