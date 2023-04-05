@@ -141,12 +141,13 @@ the recommendation is no longer shown and the counter resets.
 
     Minimum time period for this model is 4 days, but the model works better if you set a longer time period.
 
-### B2B models
+### B2B model
+
 This model shows which items were recently clicked or bought for a particular segment group of a company. 
 B2B models work for a group of users, not for an individual user, and are considered [segment](configure_models.md#configure-segments) models.
 
 !!! note
-    To get recommendations for the specified user segment, in the request, pass the parameter only for this segment.
+    To get recommendations for the specified segment, in the request, pass the parameter only for this segment.
     B2B requests are limited to only one segment ID.
 
 
@@ -160,7 +161,7 @@ There are two types of B2B models:
 - B2B last purchased - works the same as last clicked, however returns actual bought items.
 The maximum time from which events can be fetched is 10 days. 
 
-#### B2B recurring purchase model
+### B2B recurring purchase model
 
 This model is built on the fly. It anticipates and predicts purchase of products that were bought recursively within the same `segment ID`. 
 The item appears in this model for recommendation only when it was purchased at least twice by users from the same `segment ID`
