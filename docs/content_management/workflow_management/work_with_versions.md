@@ -39,23 +39,32 @@ by clicking the **Request access** icon.
 ## Compare versions
 
 You can compare two versions of the same Content item.
-To do it, in the Content item details screen, the **Versions** tab, click the 
-**Version compare** icon:
 
-![](img/compare_icon.png)
+To do it, in the Content item details screen, go to the **Versions** tab and click the 
+**Version Compare** icon: ![Version Compare Icon](img/version_compare_icon.png){.inline-image}.
 
 From the drop-down menus at the top of the screen, select the two versions that you want to compare.
 
-![](img/compare_results_1_col.png "Version comparison in two-column view")
+![Versions](img/versions.png "Versions drop-down list")
 
-You can choose to view the comparison in two columns, side by side,
-or in one column, with differences highlighted.
+There are two options of the view:
 
-![](img/compare_results_2_col.png "Version comparison in one-column view")
+- Split - default, side by side view
+- Unified - single column view
+
+![Version comparison in Unified view](img/unified_view.png "Version comparison in Unified view")
+
+When you compare two versions, the system highlights the changes:
+
+- yellow - content updated
+- blue - content added
+- red - content deleted
+
+![Version comparison in Split view](img/split_view.png "Version comparison in Split view")
 
 You can also compare media Field Types such as images.
 
-![](img/compare_results_media.png "Version comparison image")
+![Image comparison](img/image_comparison.png "Image comparison")
 
 !!! note
 
