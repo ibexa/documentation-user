@@ -10,6 +10,7 @@ The following blocks are provided with a clean installation of [[= product_name 
 |Block|Description|
 |-----|-----------|
 |[Banner](#banner-block)|Displays an image Content item with a URL attached to it.|
+|[Bestsellers](#bestsellers-block)|Displays a list of products from PIM that were recently a bestseller.|
 |[Catalog](#catalog-block)|Displays products from a specific catalog to a selected customer group.|
 |[Code](#code-block)|Enables you to place text, links, images, etc. on your Page using custom HTML.|
 |[Collection](#collection-block)|Displays a set of Content items you select manually from the Content structure. |
@@ -39,6 +40,17 @@ On the **Basic** tab, perform the following actions:
 - In the **Image** section, click **Select content**, navigate through the content and select an image to display.
 - In the **URL** box, enter a URL to open when clicking the selected image.
 
+## Bestsellers block
+
+On the **Basic** tab, set values in the following fields:
+
+- **Name** – Enter a name for the page block.
+- **Personalization scenario** – Select "Bestsellers" to display products from PIM that were recently a bestseller.
+- **Product Types to be displayed** – Select the type of products to be displayed on the list.
+- **Limit** – Set the number of products to be displayed.
+
+On the **Design** tab, in the **View** field, select the layout be used to present a list of products and submit your changes.
+
 ## Catalog block
 
 Before you configure this block, make sure that there are [catalogs](../pim/work_with_catalogs.md) that are defined 
@@ -53,7 +65,6 @@ anonymous or do not belong to any of the customer groups assigned to specific ca
 - **Limit** – Set the number of products to be displayed.
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of products and submit your changes.
-
 
 ## Code block
 
