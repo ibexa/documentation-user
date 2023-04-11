@@ -13,7 +13,8 @@ Content items/products are recommended to end users when specific [scenarios](sc
 are triggered. 
 One such example is the [Personalized block](../content_management/block_reference.md#personalized-block), where you can choose from a number of scenarios, 
 but there are also other blocks that are tailored to display the results of scenarios 
-of specific types, like [Recently added block](../content_management/block_reference.md#recently-added-block).
+of specific types, like [Recently added block](../content_management/block_reference.md#recently-added-block) 
+or [Bestsellers block](../content_management/block_reference.md#bestsellers-block).
 Depending on the scenario type, you may need to provide additional information 
 to see the recommendation results.
 
