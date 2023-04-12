@@ -46,16 +46,18 @@ nav:
         - Use cases: personalization/use_cases.md
         - Enable personalization: personalization/enable_personalization.md
         - Configure personalization:
-              - Configure personalization: personalization/configure_personalization.md
-              - Configure models: personalization/configure_models.md
-              - Recommendation models: 
-                  - Recommendation models: personalization/recommendation_models.md
-                  - Events: personalization/event_types.md
-              - Configure scenarios: personalization/configure_scenarios.md
-              - Scenarios: 
-                  - Scenarios: personalization/scenarios.md
-                  - Types of content: personalization/content_types.md
-                  - Filters: personalization/filters.md
+            - Configure personalization: personalization/configure_personalization.md
+            - Configure models: 
+                - Configure models: personalization/configure_models.md
+                - Segment management: personalization/segment_management.md
+            - Recommendation models: 
+                - Recommendation models: personalization/recommendation_models.md
+                - Events: personalization/event_types.md
+            - Configure scenarios: personalization/configure_scenarios.md
+            - Scenarios: 
+                - Scenarios: personalization/scenarios.md
+                - Types of content: personalization/content_types.md
+                - Filters: personalization/filters.md
         - Preview scenario results: personalization/preview_scenario_results.md
         - Integrate scenario results: personalization/integrate_scenario_results.md
         - Import source data: personalization/content_import.md
