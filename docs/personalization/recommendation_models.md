@@ -154,7 +154,7 @@ B2B models work for a group of users, not for an individual user, and are consid
 #### Last events B2B models
 
 This model is built on the fly, and requires an access to the most recent events to work.
-There are two types of B2B models:
+There are two types of B2B last models:
 
 - B2B last clicked - returns the actual recent items which were clicked by a user with the same `segment ID`. For example, two users from the same `segment ID` can see the last clicked items by anyone from the same `segment ID`.
 
