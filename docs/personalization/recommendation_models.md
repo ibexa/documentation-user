@@ -168,7 +168,7 @@ The item appears in this model for recommendation only when it was purchased at 
 in the configured time frame.
 
 B2B recurring purchase models predict the date of the next purchase based on an average demand per day, extrapolated from BUY events.
-For items with the higher relevance, the closer predicted date of the next purchase is. 
+The higher relevance of the item, the closer predicted date of the next purchase is. 
 The item starts to appear when the time interval is covered in 80% between the date of the last purchased and predicted date of the next purchase. 
 
 For example, if the time interval is set to 10 days and the next purchase is predicted after these 10 days, recommendations are displayed two days before that date.
