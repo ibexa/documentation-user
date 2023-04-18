@@ -140,6 +140,38 @@ the recommendation is no longer shown and the counter resets.
 !!! tip
 
     Minimum time period for this model is 4 days, but the model works better if you set a longer time period.
+
+### B2B model
+
+This model shows which items were recently clicked or bought for a particular segment group of a company. 
+B2B models work for a group of users, not for an individual user, and are considered [segment](configure_models.md#configure-segments) models.
+
+!!! note
+    To get recommendations for the specified segment, in the request, pass the parameter only for this segment.
+    B2B requests are limited to only one segment ID.
+
+
+#### Last events B2B models
+
+This model is built on the fly, and requires an access to the most recent events to work.
+There are two types of B2B last models:
+
+- B2B last clicked - returns the actual recent items which were clicked by a user with the same `segment ID`. For example, two users from the same `segment ID` can see the last clicked items by anyone from the same `segment ID`.
+
+- B2B last purchased - works the same as last clicked, however, returns actual bought items.
+The maximum time from which events can be fetched is 10 days. 
+
+### B2B recurring purchase model
+
+This model is built on the fly. It anticipates and predicts purchase of products that were bought recursively within the same `segment ID`. 
+The item appears in this model for recommendation only when it was purchased at least twice by users from the same `segment ID`
+in the configured time frame.
+
+B2B recurring purchase models predict the date of the next purchase based on an average demand per day, extrapolated from BUY events.
+The higher relevance of the item, the closer predicted date of the next purchase is. 
+The item starts to appear when the time interval is covered in 80% between the date of the last purchased and predicted date of the next purchase. 
+
+For example, if the time interval is set to 10 days and the next purchase is predicted after these 10 days, recommendations are displayed two days before that date.
     
 ## Submodels
 
