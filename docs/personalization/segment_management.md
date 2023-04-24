@@ -79,59 +79,61 @@ and
 
 - for sales hunters.
 
-```json hl_lines="5 28"
-    {
-   "contextItems": [],
-   recommendationItems: [
-      {
-         itemId: 587,
-         itemType: 57,
-         relevance: 1,
-         links: {
-            clickRecommended: "//event.test.perso.ibexa.co/api/41307/clickrecommended/someuser/57/587?scenario=landing_page&modelid=10316421&categorypath=&requestuuid=276a5930-dea3-11ed-8cdf-92a64ae30943",
-            rendered: "//event.test.perso.ibexa.co/api/41307/rendered/someuser/57/587?scenario=landing_page&modelid=10316421&categorypath=&requestuuid=276a5930-dea3-11ed-8cdf-92a64ae30943"
-         },
-         attributes: [
+??? "Reco call response"
+
+      ```json hl_lines="5 28"
+         {
+         "contextItems": [],
+         recommendationItems: [
             {
-               key: "title",
-               values: [
-                  "Woods edge living room"
+               itemId: 587,
+               itemType: 57,
+               relevance: 1,
+               links: {
+                  clickRecommended: "//event.test.perso.ibexa.co/api/41307/clickrecommended/someuser/57/587?scenario=landing_page&modelid=10316421&categorypath=&requestuuid=276a5930-dea3-11ed-8cdf-92a64ae30943",
+                  rendered: "//event.test.perso.ibexa.co/api/41307/rendered/someuser/57/587?scenario=landing_page&modelid=10316421&categorypath=&requestuuid=276a5930-dea3-11ed-8cdf-92a64ae30943"
+               },
+               attributes: [
+                  {
+                     key: "title",
+                     values: [
+                        "Woods edge living room"
+                     ]
+                  },
+                  {
+                     key: "teaser_image",
+                     values: [
+                        "/var/site/storage/images/4/5/7/0/754-1-eng-GB/245d16d84164-living-room3.jpg"
+                     ]
+                  }
                ]
             },
             {
-               key: "teaser_image",
-               values: [
-                  "/var/site/storage/images/4/5/7/0/754-1-eng-GB/245d16d84164-living-room3.jpg"
-               ]
-            }
-         ]
-      },
-      {
-         itemId: 588,
-         itemType: 57,
-         relevance: 1,
-         links: {
-            clickRecommended: "//event.test.perso.ibexa.co/api/41307/clickrecommended/someuser/57/588?scenario=landing_page&modelid=10316421&categorypath=&requestuuid=276a5930-dea3-11ed-8cdf-92a64ae30943",
-            rendered: "//event.test.perso.ibexa.co/api/41307/rendered/someuser/57/588?scenario=landing_page&modelid=10316421&categorypath=&requestuuid=276a5930-dea3-11ed-8cdf-92a64ae30943"
-         },
-         attributes: [
-            {
-               key: "title",
-               values: [
-                  "Minimalist luxury in a small and stylish bedroom"
-               ]
-            },
-            {
-               key: "teaser_image",
-               values: [
-                  "/var/site/storage/images/0/0/7/0/700-1-eng-GB/de8a98767362-bedroom2.jpg"
+               itemId: 588,
+               itemType: 57,
+               relevance: 1,
+               links: {
+                  clickRecommended: "//event.test.perso.ibexa.co/api/41307/clickrecommended/someuser/57/588?scenario=landing_page&modelid=10316421&categorypath=&requestuuid=276a5930-dea3-11ed-8cdf-92a64ae30943",
+                  rendered: "//event.test.perso.ibexa.co/api/41307/rendered/someuser/57/588?scenario=landing_page&modelid=10316421&categorypath=&requestuuid=276a5930-dea3-11ed-8cdf-92a64ae30943"
+               },
+               attributes: [
+                  {
+                     key: "title",
+                     values: [
+                        "Minimalist luxury in a small and stylish bedroom"
+                     ]
+                  },
+                  {
+                     key: "teaser_image",
+                     values: [
+                        "/var/site/storage/images/0/0/7/0/700-1-eng-GB/de8a98767362-bedroom2.jpg"
+                     ]
+                  }
                ]
             }
          ]
       }
-   ]
-}
-```
+      ```
 
 ### Create segment group with OR logic condition
 
@@ -164,41 +166,43 @@ or
 
 - by women from Germany at age 25-35
 
-```json hl_lines="5"
-   {
-   "contextItems": [],
-   recommendationItems: [
-      {
-         itemId: 587,
-         itemType: 57,
-         relevance: 1,
-         links: {
-            clickRecommended: "//event.test.perso.ibexa.co/api/41307/clickrecommended/someuser/57/587?scenario=landing_page&modelid=10316421&categorypath=&requestuuid=7ff8c8b0-e282-11ed-9a93-aefcc75529b6",
-            rendered: "//event.test.perso.ibexa.co/api/41307/rendered/someuser/57/587?scenario=landing_page&modelid=10316421&categorypath=&requestuuid=7ff8c8b0-e282-11ed-9a93-aefcc75529b6"
-         },
-         attributes: [
+??? "Reco call response"
+
+      ```json hl_lines="5"
+         {
+         "contextItems": [],
+         recommendationItems: [
             {
-               key: "ses_name",
-               "values": []
-            },
-            {
-               key: "title",
-               values: [
-                  "Woods edge living room"
-               ]
-            },
-            {
-               key: "ses_image",
-               "values": []
-            },
-            {
-               key: "teaser_image",
-               values: [
-                  "/var/site/storage/images/4/5/7/0/754-1-eng-GB/245d16d84164-living-room3.jpg"
+               itemId: 587,
+               itemType: 57,
+               relevance: 1,
+               links: {
+                  clickRecommended: "//event.test.perso.ibexa.co/api/41307/clickrecommended/someuser/57/587?scenario=landing_page&modelid=10316421&categorypath=&requestuuid=7ff8c8b0-e282-11ed-9a93-aefcc75529b6",
+                  rendered: "//event.test.perso.ibexa.co/api/41307/rendered/someuser/57/587?scenario=landing_page&modelid=10316421&categorypath=&requestuuid=7ff8c8b0-e282-11ed-9a93-aefcc75529b6"
+               },
+               attributes: [
+                  {
+                     key: "ses_name",
+                     "values": []
+                  },
+                  {
+                     key: "title",
+                     values: [
+                        "Woods edge living room"
+                     ]
+                  },
+                  {
+                     key: "ses_image",
+                     "values": []
+                  },
+                  {
+                     key: "teaser_image",
+                     values: [
+                        "/var/site/storage/images/4/5/7/0/754-1-eng-GB/245d16d84164-living-room3.jpg"
+                     ]
+                  }
                ]
             }
          ]
       }
-   ]
-}
-```
+      ```
