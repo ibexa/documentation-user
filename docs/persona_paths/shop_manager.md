@@ -18,4 +18,7 @@ including the following responsibilities:
     "pim/manage_currencies",
     "permission_management/permissions_and_users",
     "customer_management/manage_customers",
+    "commerce/order_management/work_with_orders",
+    "persona_paths/manage_payments",
+    "commerce/shipping_management/configure_shipping_methods"
 ], style="path") =]]
