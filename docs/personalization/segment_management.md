@@ -4,42 +4,41 @@ description: Manage segments and combine segment groups to get personalized cont
 
 # Segment management
 
-Segments allow getting personalized content suitable for particular user groups. They compute models based on segment attribute factor.
-Information with user segment is provided in each event which comes from the tracking script.
+Segments allow getting personalized content suitable for particular user groups. They compute models based on the segment attribute factor.
+Information about user segment is provided in each event which comes from the tracking script.
 
 ## Configure segments
 
-With segment groups you can assign users to different recommendation groups based on data gathered and deliver recommendations to these user groups.
+With segment groups you can assign users to different recommendation groups based on data gathered, and deliver recommendations to these user groups.
 
 The **Segment** list displays only active segments and is generated from the events collected for relevant history (the actual data from recommendation engine, not what is added using the Back Office).
 
 The value of each segment is transfered to the event.
 
 Models are displayed only for a selected time period. 
-If a group is inactive for a certain period of time, the segments get `Inactive` status and cannot be used.
+If a group is inactive for a certain period of time, the segments get an `Inactive` status and cannot be used.
 
 ![Time period](img/models_time_period.png "Time period configuration")
 
 ### Operators and segmentation logic
 
 Segmentation logic in segment groups allows you to divide target audience according into their specific traits, for example, demographic, 
-behaviors, age, to provide narrowed, and better tailored recommendations.
+behavior, or age, to provide narrowed and better tailored recommendations.
 You can build complex segment groups using parent and nested (child) segments connected with operators which enable precise filtering.
 
 With operators you can establish filtering rules for recommendations based on segments, and create nested groups within parent groups.
 
 !!! tip
 
-    You can add unlimited number of children in the parent group.
+    You can add an unlimited number of children in one parent group.
 
-**AND** - use when you want to intersect two or more values for a particular segment. All set conditions must be met.
+- **AND** - use when you want to intersect two or more values for a particular segment. All set conditions must be met.
+- **OR** - use when you want to broaden results; one of the conditions must be fulfilled.
 
-**OR** - use when you want to broaden results; one of the conditions must be fullfiled.
+Nested (child) segments can have different conditions from their parent. However, the relation between parent and child is always `AND`.
+Use them to create sub-segment groups which narrow down filtering of recommendations to specific traits of your users.
 
-Nested (child) segments can have different conditions than their parent. However, the relation between parent and child is always `AND`.
-Use them to create sub segment groups which narrow filtering of recommendations to specific traits of your users.
-
-Segments available in the **Elements** sections are reusable. It means, you can use the same segment in different segment groups.
+Segments available in the **Elements** sections are reusable. It means you can use the same segment in different segment groups.
 
 
 ![Parent segment group](img/perso_segment_group_and_parent.png "Parent segment group")
@@ -52,15 +51,15 @@ The following example shows segment groups with `AND` operators linking nested e
 
 - women
 - Poland 
-- sales hunters (as a type of customers.)
+- sales hunters (as a type of customer)
 
 
 ![AND segment group logic](img/perso_segment_group_sales_hunters.png "AND segment group logic")
 
 
-All three criteria are linked with `AND`operator so, all conditions must be fullfiled. 
+All three criteria are linked with and `AND` operator, so all conditions must be fulfilled. 
 
-Recommendation call in scenario using model with segments, contains requests to all specified segments with `AND` conditions:
+A recommendation call in a scenario that uses a model with segments contains requests to all specified segments with `AND` conditions:
 
 `https://reco.test.perso.ibexa.co/api/v2/41307/588/landing_page?numrecs=6&attribute=ses_name,title,ses_image,teaser_image&crosscontenttype=1&segments=7,11,14`
 
@@ -71,9 +70,9 @@ Where segments ID correspond to segment groups:
 - sales hunters - `segment ID=14`
 
 As a result, a reco call returns two events which qualify for these segment groups requirements.
-Two items with `ID=587` and `ID=588` relevant for the following segment combinations, clicked by:
+Two items with `ID=587` and `ID=588` are relevant for the following segment combinations, clicked by:
 
-- for womem from Poland
+- for women from Poland
 
 and
 
@@ -158,7 +157,7 @@ Where segments ID correspond to segment groups:
 - 25-35 - `segment ID=8`
 - Germany - `segment ID=10`
 
-As a result, a reco call returns only one event which qualify for these segment group requirements. The item with `ID=587` relevant for this segment combinations, clicked by:
+As a result, a reco call returns only one event which qualifies for these segment group requirements. The item with `ID=587` is relevant for this segment combination, clicked by:
 
 - women from Poland at age 25-35 
 
