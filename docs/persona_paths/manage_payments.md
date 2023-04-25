@@ -1,15 +1,11 @@
 ---
-description: Review existing orders, modify order details and change order stat.
+description: Create and payment methods, review and modify payment information.
 ---
 
-# Manage products
-
-In [[= product_name =]] you store aggregate product information in PIM.
-Learn to add, categorize and organize products, so that you have control over 
-your stock and customers can easily browse your catalogs.
+# Manage payment methods and payments
 
 
 [[= cards([
-    "commerce//payment/configure_/payment_methods"
-    "commerce/payment/work_with_payments",
+    "commerce/payment/payment/payment_methods",
+    "commerce/payment/work_with_payments"
 ], style="path") =]]
