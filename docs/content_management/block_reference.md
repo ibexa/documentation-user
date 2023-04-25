@@ -35,7 +35,7 @@ The following blocks are provided with a clean installation of [[= product_name 
 
 On the **Basic** tab, set values in the following fields:
 
-- **Name** - Enter a name for the page block.
+- **Name** - Enter a name for the Page block.
 - **Image** - Click **Select content**, navigate through the content and select an image to display.
 - **URL** - Enter a URL to open when clicking the selected image.
 
@@ -46,7 +46,7 @@ and published in your PIM.
 
 On the **Basic** tab, set values in the following fields:
 
-- **Name** – Enter a name for the page block.
+- **Name** – Enter a name for the Page block.
 - **Default catalog** – Select a catalog that is displayed to end-users who are either 
 anonymous or do not belong to any of the customer groups assigned to specific catalogs.
 - **Setup customer group and catalog matching priority rules** - Create at least one assignment: add a row, then select a customer group and a matching catalog. 
@@ -58,14 +58,14 @@ On the **Design** tab, in the **View** field, select the layout to be used to pr
 
 On the **Basic** tab, set values in the following fields:
 
-- **Name** - Enter a name for the page block.
+- **Name** - Enter a name for the Page block.
 - **Content** - Enter the HTML code for the content you want to display.
 
 ## Collection block
 
 On the **Basic** tab, set values in the following fields:
 
-- **Name** - Enter a name for the page block.
+- **Name** - Enter a name for the Page block.
 - **Location list** - Click **Select content**, navigate through the content
 and add to the collection Content items of any Content Type you want.
 All selected Content items appear in the **Selected items** box at the bottom of the window.
@@ -75,7 +75,7 @@ When done selecting, click **Confirm**.
 
 On the **Basic** tab, set values in the following fields:
 
-- **Name** - Enter a name for the page block.
+- **Name** - Enter a name for the Page block.
 - **Parent** - Click **Select content**, navigate through the content and select a folder containing Content items
 to display on the list. Click **Confirm**.
 - **Limit** - Set the number of products to be displayed.
@@ -88,7 +88,7 @@ Dynamic targeting block provides recommended items based on users related to the
 
 On the **Basic** tab, set values in the following fields:
 
-- **Name** - Enter a name for the page block.
+- **Name** - Enter a name for the Page block.
 - **Select default scenario** - Select the default scenario for recommended items that should be rendered if the current user
 is not assigned to any Segment.
 - **Setup segment and scenario matching priority rules** - Select a Segment group, a Segment identifier and Scenario that you want to display recommendations from.
@@ -102,7 +102,7 @@ The rules are checked in order, so when a user belongs to more than one Segment,
 
 On the **Basic** tab, set values in the following fields:
 
-- **Name** - Enter a name for the page block.
+- **Name** - Enter a name for the Page block.
 - **Content** - Click **Select content**, navigate through the content and select a Content item. Click **Confirm**.
 
 ## Form block
@@ -111,7 +111,7 @@ Note that completing the settings of the Form block requires at least one Form C
 
 On the **Basic** tab, set values in the following fields:
 
-- **Name** - Enter a name for the page block.
+- **Name** - Enter a name for the Page block.
 - **Form** - Click **Select content**, navigate through the content and select a Form Content item to append it to the block.
 
 !!! caution "Known limitation"
@@ -124,7 +124,7 @@ On the **Basic** tab, set values in the following fields:
 
 On the **Basic** tab, set values in the following fields:
 
-- **Name** - Enter a name for the page block.
+- **Name** - Enter a name for the Page block.
 - **Folder** - Click **Select content**, navigate through the content, select a folder containing images to display and click **Confirm**.
 After submitting the settings, all images in the folder will appear in the Gallery block.
 Note that selecting a folder containing Content items other than images results in displaying only a link to the folder they are stored in.
@@ -133,7 +133,7 @@ Note that selecting a folder containing Content items other than images results 
 
 On the **Basic** tab, set values in the following fields:
 
-- **Name** – Enter a name for the page block.
+- **Name** – Enter a name for the Page block.
 - **Personalization scenario** – Select "Last purchased" to display products that were recently purchased from PIM by any user, or "Last purchased by user" to display products that were recently purchased by the current user.
 - **Product Types to be displayed** – Select the type of products to be displayed on the list.
 - **Limit** – Set the number of products to be displayed.
@@ -144,7 +144,7 @@ On the **Design** tab, in the **View** field, select the layout be used to prese
 
 On the **Basic** tab, set values in the following fields:
 
-- **Name** – Enter a name for the page block.
+- **Name** – Enter a name for the Page block.
 - **Personalization scenario** – Select "Last viewed" to display products that were recently viewed by any user, or "Last viewed by user" to display products that were recently viewed by the current user.
 - **Product Types to be displayed** – Select the type of products to be displayed on the list.
 - **Limit** – Set the number of products to be displayed.
@@ -155,7 +155,7 @@ On the **Design** tab, in the **View** field, select the layout be used to prese
 
 On the **Basic** tab, set values in the following fields:
 
-- **Name** – Enter a name for the page block.
+- **Name** – Enter a name for the Page block.
 - **Select a scenario** – Select "Landing page" or "Top clicked".
 - **Select a Content Type to be displayed** – Select "Product".
 - **Display limit** – Set the number of products to be displayed.
@@ -166,7 +166,7 @@ On the **Design** tab, in the **View** field, change the layout to "Products" an
 
 On the **Basic** tab, set values in the following fields:
 
-- **Name** – Enter a name for the page block.
+- **Name** – Enter a name for the Page block.
 - **Product list** - create a list of products. Enter a comma separated list of product/variant codes and click **Add** or click **Select product**. Then, in content browser, select products and click **Confirm**.
 
 !!! note
@@ -179,7 +179,7 @@ On the **Design** tab, in the **View** field, select the layout be used to prese
 
 On the **Basic** tab, set values in the following fields:
 
-- **Name** – Enter a name for the page block.
+- **Name** – Enter a name for the Page block.
 - **Product Types to be displayed** – Select the type of products to be displayed on the list.
 - **Display limit** – Set the number of products to be displayed.
 
@@ -189,7 +189,7 @@ On the **Design** tab, in the **View** field, select the layout be used to prese
 
 On the **Basic** tab, set values in the following fields:
 
-- **Name** – Enter a name for the page block.
+- **Name** – Enter a name for the Page block.
 - **URL** - Enter the URL for the RSS news feed.
 - **Limit** - Set the number of news items to be displayed.
 - **Offset** - Set the limit of featured news items to be displayed.
@@ -200,7 +200,7 @@ Targeting block provides recommendation of content based on users related to the
 
 On the **Basic** tab, set values in the following fields:
 
-- **Name** – Enter a name for the page block.
+- **Name** – Enter a name for the Page block.
 - **Select default content** - Click **Select content**, navigate through the content
 and select the default Content item that will be displayed when no priority rules are valid.
 - **Setup segment and content matching priority rules** - Select a Segment Group and a Segment,
@@ -208,7 +208,7 @@ then click **Select content** and navigate to the Content item that you want to 
 
 The rules are checked in order, so when a user belongs to more than one Segment, the first rule applies.
 
-You can preview the page for each of the available Segments:
+You can preview the Page for each of the available Segments:
 
 ![Previewing Page for a given Segment](img/page_builder_segment_preview.png)
 
@@ -216,7 +216,7 @@ You can preview the page for each of the available Segments:
 
 On the **Basic** tab, set values in the following fields:
 
-- **Name** – Enter a name for the page block.
+- **Name** – Enter a name for the Page block.
 - **Content** - Enter text, images, videos, etc. using Online Editor.
 For details, see [Editing Rich Text Fields](create_edit_content_items.md#edit-rich-text-fields).
 
@@ -224,6 +224,6 @@ For details, see [Editing Rich Text Fields](create_edit_content_items.md#edit-ri
 
 On the **Basic** tab, set values in the following fields:
 
-- **Name** – Enter a name for the page block.
+- **Name** – Enter a name for the Page block.
 - **Video** - Click **Select content**, navigate through the content, select a video to display in the block and click **Confirm**.
 On the **Basic** tab you can preview the selected video before adding it to the Page.
