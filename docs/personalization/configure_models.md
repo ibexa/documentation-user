@@ -19,7 +19,7 @@ the settings, for example:
 
 - A timeframe over which the algorithm gathers [events](event_types.md) that are used in the calculation
 - [Submodels](recommendation_models.md#submodels) that can narrow down the list of model results
-- [Segments](../segment_management#configure-segments) that allow getting personalized content suitable for particular user groups
+- [Segments](segment_management.md#configure-segments) that allow getting personalized content suitable for particular user groups
 - A list of items included or excluded from the model
 
 For more information and a list of model types, see [Recommendation models](recommendation_models.md).
