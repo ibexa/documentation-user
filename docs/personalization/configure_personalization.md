@@ -19,6 +19,7 @@ To do this, navigate to one of the pages mentioned below and edit the item that 
 
 [[= cards([
     "personalization/configure_models",
+    "personalization/segment_management",
     "personalization/recommendation_models",
     "personalization/event_types",
     "personalization/configure_scenarios",
