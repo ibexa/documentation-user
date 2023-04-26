@@ -146,7 +146,7 @@ The following example shows segment groups with `OR` operator connecting nested 
 ![OR segment group logic](img/perso_segment_group_or.png "OR segment group logic")
 
 
-In these case to get recommendations, only one condition must be met: women from Poland or women from Germany.
+In this case to get recommendations, only one condition must be met: women from Poland or women from Germany.
 
 `https://reco.test.perso.ibexa.co/api/v2/41307/someuser/landing_page?numrecs=6&attribute=ses_name,title,ses_image,teaser_image&crosscontenttype=1&segments=7,8,10,11`
 
