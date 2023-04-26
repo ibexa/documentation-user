@@ -36,7 +36,7 @@ Accepted ones move to **Customers** -> **Companies** section.
 If you decide to approve a business partner's application, you need to specify its sales representative and a customer group.
 
 If you cannot see sales representatives, you need to go to **Admin** -> **Users** and add them under a **Sales rep** group before approval.
-Follow the same procedure with a customer group, it can be set up in **Commerce** -> **Customer Groups**.
+Follow the same procedure with a customer group, it can be set up in **Product catalog** -> **Customer Groups**.
 
 ![Application approval](img/cp_approving_application.png)
 
