@@ -25,7 +25,7 @@ The new item appears in the tree.
 
 1\. If you are adding a new product, use one of the methods mentioned above and skip to step 3.
 
-2\. If you are editing an existing product, in the collapsible **Category filter** area, select a category to find your product more quickly. Then click the **Edit** button next to a name of the product item that you want to modify and skip to step 4.
+2\. If you are editing an existing product, in the **Category filter** tree, select a category to find your product more quickly. Then click the **Edit** button next to a name of the product item that you want to modify and skip to step 4.
 
 ![Products list with action buttons](img/edit_product.png "Products list with action buttons")
 
