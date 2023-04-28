@@ -1,5 +1,6 @@
 ---
 description: What the shipping management module does.
+edition: commerce
 ---
 
 # Shipping management

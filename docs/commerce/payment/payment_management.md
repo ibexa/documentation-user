@@ -1,5 +1,6 @@
 ---
 description: What the payment module does.
+edition: commerce
 ---
 
 # Payment

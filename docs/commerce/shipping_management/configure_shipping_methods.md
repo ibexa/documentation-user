@@ -1,5 +1,6 @@
 ---
 description: Define new shipping methods or modify existing ones.
+edition: commerce
 ---
 
 # Create and edit shipping methods

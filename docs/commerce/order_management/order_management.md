@@ -1,5 +1,6 @@
 ---
 description: What the order management module does.
+edition: commerce
 ---
 
 # Order management

@@ -1,5 +1,6 @@
 ---
 description: Define new payment methods or modify existing ones.
+edition: commerce
 ---
 
 # Create and edit payment methods

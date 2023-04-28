@@ -1,5 +1,6 @@
 ---
 description: Review payment information, change payment status.
+edition: commerce
 ---
 
 # Work with payments

@@ -1,5 +1,6 @@
 ---
 description: Review order information, change order status.
+edition: commerce
 ---
 
 # Work with orders
