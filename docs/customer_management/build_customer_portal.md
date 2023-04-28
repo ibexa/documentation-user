@@ -42,7 +42,7 @@ For a list of blocks available out of the box, see [Block reference](block_refer
 
 If provided ready-to-use Page blocks are not sufficient, you can [add your own blocks]([[= developer_doc =]]/content_management/pages/create_custom_page_block/).
 
-Before you publish or save the Customer Portal page, edit its title and description in the Field view, you can find it in the top-left-side toolbar.
+Before you publish or save the Customer Portal page, edit its title and description in the Field view, you can find it in the top toolbar on the left side.
 
 If you are ready to publish the Customer Portal page, click **Publish** in the top right corner.
 You can also save it as a draft, even if some required fields are not filled in.
