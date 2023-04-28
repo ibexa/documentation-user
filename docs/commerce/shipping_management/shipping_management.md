@@ -1,14 +1,12 @@
 ---
-description: What the shipping management module does.
+description: Shipping management module handles shipping methods and shipments, and allows interacting with shipments in the system.
 edition: commerce
 ---
 
 # Shipping management
 
-Tasks of the module
+If the permissions assigned to your [user role](../permission_management/permissions_and_users.md) allow, the Shipping management module enables you to define and manage shipping methods of different types on the **Shipping methods** screen.
 
-Screenshot
+![Shipping methods screen](../img/shipping_methods_list.png "Shipping methods screen")
 
-Mention of interconnectivity between packages:
-
-- what effect does confirming or cancelling of an order have on Shipping management module
+The Shipping management module interacts with other packages of the system, so that shipment processing is cancelled automatically when the customer cancels their order.

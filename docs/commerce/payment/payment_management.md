@@ -1,15 +1,18 @@
 ---
-description: What the payment module does.
+description: Payment management module handles payment methods and payments, and allows interacting with them in the system.
 edition: commerce
 ---
 
-# Payment
+# Payment management
 
-Tasks of the module and functionalities for the user
+The Payment management module allows you to track the status of payments for orders placed through a storefront.
 
-Screenshot
+On the Back Office **Payments** screen, you can search for payments and filter the search results, as well as review payment details. 
+You might also be allowed to cancel payments.
 
-Mention of interconnectivity between packages:
+If the permissions assigned to your [user role](../permission_management/permissions_and_users.md) allow, you may also have access to the **Payment methods** screen, where you define, enable and disable offline payment methods.
 
-- what effect does confirming or cancelling of an order have on Payment module
+![Payments screen](../img/payments_list.png "Payments screen")
+
+The Payment management module interacts with other packages of the system, so that payment processing is cancelled automatically when you cancel your order.
 
