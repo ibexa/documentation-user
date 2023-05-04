@@ -5,7 +5,7 @@ edition: commerce
 
 # Create and edit payment methods
 
-If your [user role](../permission_management/work_with_permissions.md) has the `Payment method/Create` permission, you can create payment methods. 
+If your [user role](work_with_permissions.md) has the `Payment method/Create` permission, you can create payment methods. 
 With the `Payment method/Create` permission, you can modify existing ones.
 
 !!! note "Payment method limitations"
@@ -24,7 +24,7 @@ With the `Payment method/Create` permission, you can modify existing ones.
 
 1\. In the left panel, go to **Commerce** -> **Payment methods**.
 
-![Payment methods list](img/payment_methods_list.png)
+![Payment methods list](payment_methods_list.png)
 
 2\. Find the payment method that you intend to edit by using the search field anf filters
 

@@ -21,16 +21,16 @@ By default, depending on your permissions, you can access your own orders or all
 
 /// confirm
 
-![Order list](img/order_list.png)
+![Order list](order_list.png)
 
 Note: Order statuses visible in the xxx filter field are defined in Order workflow (link to dev doc).
 
 ## Changing order details
 
-If your [user role](../permission_management/work_with_permissions.md) has the `Order/Update` permission, you can modify an existing order. 
+If your [user role](work_with_permissions.md) has the `Order/Update` permission, you can modify an existing order. 
 With the `Order/Cancel` permission, you can cancel an existing order.
 
-![Order details view](img/order_list.png)
+![Order details view](order_list.png)
 
 !!! note "Canceling orders"
 

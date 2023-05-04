@@ -5,7 +5,7 @@ edition: commerce
 
 # Create and edit shipping methods
 
-If your [user role](../permission_management/work_with_permissions.md) has the `shipping method/Create` permission, you can create shipping methods. 
+If your [user role](work_with_permissions.md) has the `shipping method/Create` permission, you can create shipping methods. 
 With the `shipping method/Create` permission, you can modify existing ones.
 
 !!! note "Shipping method limitations"
@@ -24,7 +24,7 @@ With the `shipping method/Create` permission, you can modify existing ones.
 
 1\. In the left panel, go to **Commerce** -> **shipping methods**.
 
-![shipping methods list](img/shipping_methods_list.png)
+![shipping methods list](shipping_methods_list.png)
 
 2\. Find the shipping method that you intend to edit by using the search field anf filters
 

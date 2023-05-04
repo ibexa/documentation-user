@@ -68,7 +68,7 @@ nav:
         - Create and edit shipping methods: commerce/shipping_management/configure_shipping_methods.md 
         - Payment management: commerce/payment/payment_management.md
         - Work with payments: commerce/payment/work_with_payments.md
-        - Create and edit payment methods: commerce/payment/configure_payment_methods.md 
+        - Create and edit payment methods: commerce/payment/create_payment_methods.md 
     - PIM:
         - Product Information Management: pim/products.md
         - Create product types: pim/create_product_types.md

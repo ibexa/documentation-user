@@ -15,12 +15,12 @@ By default, depending on your permissions, you can access your own payments or a
 // use search to find payments and filters narrow down the search results list
 ...
 
-![Payment list](img/payment_list.png)
+![Payment list](payment_list.png)
 
 Note: Payment statuses are defined in Payment workflow (link to dev doc).
 
 ## Changing payment details
 
-If your [user role](../permission_management/work_with_permissions.md) has the `Payment/Edit` permission, you can change the status of an existing payment. 
+If your [user role](work_with_permissions.md) has the `Payment/Edit` permission, you can change the status of an existing payment. 
 
-![Payment details view](img/payment_list.png)
+![Payment details view](payment_list.png)
