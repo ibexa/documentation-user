@@ -8,29 +8,46 @@ edition: commerce
 In Ibexa DXP, you can view a list of orders and modify their statuses on the **Orders** screen.
 By default, depending on your permissions, you can access your own orders or all the orders that exist in the system.
 
-## Viewing order status
+## Filtering orders
 
-1\. In the left panel, go to **Commerce** -> **Orders**.
+1. In the left panel, go to **Commerce** -> **Orders**.
+2. Narrow down the list of displayed orders in one of the following ways:
+    - search for orders by typing part of customer or company name, or order identifier in the search box
+    - filter orders by selecting one or more filters
 
-// use search to find orders and filters narrow down the search results list
-...
+Available filters are:
 
-!!! note "Filter availability"
+- Status - Payment status, by default: Pending, Processing, Completed, Cancelled
 
-    Depending on your role, some of the filters may be unavailable.
+!!! note "Order statuses"
 
-/// confirm
+    Order statuses visible in the **Status** filter field are defined in the [Order workflow]([[= developer_doc =]]/commerce/order_management/configure_order_management/#order-processing-workflow).
+
+- Created - date when the order was created
+- Client type - either B2B or B2C client
+- Order source - the shop from which the order comes
+- Total value - total value of the order, in a specific currency
+- Currency - the currency in which the order was made
 
 ![Order list](order_list.png)
 
-Note: Order statuses visible in the xxx filter field are defined in Order workflow (link to dev doc).
+## Viewing order details
 
-## Changing order details
+To view the details of an order, click its line in the order list.
 
-If your [user role](work_with_permissions.md) has the `Order/Update` permission, you can modify an existing order. 
+There, you can view more information about the order, such as the details of the customer, payment and shipping.
+
+![Order detail view](order_detail_view.png)
+
+In the **Items** tab you can preview the products included in the order.
+
+![Viewing products included in the order](order_detail_items.png)
+
+## Changing order status
+
+If your [user role](work_with_permissions.md) has the `Order/Update` permission, you can change the status of an existing order:
+confirm it if it is in status "Pending", or complete it when it is in status "Processing".
 With the `Order/Cancel` permission, you can cancel an existing order.
-
-![Order details view](order_list.png)
 
 !!! note "Canceling orders"
 

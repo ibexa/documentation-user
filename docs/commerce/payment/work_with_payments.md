@@ -10,17 +10,34 @@ By default, depending on your permissions, you can access your own payments or a
 
 ## Viewing payment status
 
-1\. In the left panel, go to **Commerce** -> **Payments**.
+1. In the left panel, go to **Commerce** -> **Payments**.
+2. Narrow down the list of displayed payments in one of the following ways:
+    - search for orders by typing part of order ID or identifier in the search box
+    - filter orders by selecting one or more filters
 
-// use search to find payments and filters narrow down the search results list
-...
+Available filters are:
+
+- Payment method - method used for the payment
+- Status - Payment status, by default: Pending, Failed, Paid, Cancelled
+
+!!! note "Payment statuses"
+
+    Payment statuses visible in the **Status** filter field are defined in the [Payment workflow]([[= developer_doc =]]/commerce/payment/configure_payment/#default-payment-workflow-configuration).
+
+- Created - date when the order was created
+- Updated - date when the order was last updated
 
 ![Payment list](payment_list.png)
 
-Note: Payment statuses are defined in Payment workflow (link to dev doc).
+## Viewing payment details
+
+To view the details of an payment, click its line in the payment list.
+
+There, you can view summary of information about the payment.
+
+![Payment detail view](payment_detail_view.png)
 
 ## Changing payment details
 
-If your [user role](work_with_permissions.md) has the `Payment/Edit` permission, you can change the status of an existing payment. 
-
-![Payment details view](payment_list.png)
+If your [user role](work_with_permissions.md) has the `Payment/Edit` permission, you can change the status of an existing payment:
+confirm it if it is in status "Pending".
