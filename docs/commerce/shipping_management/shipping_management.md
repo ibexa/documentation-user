@@ -1,5 +1,5 @@
 ---
-description: Shipping management module handles shipping methods and shipments, and allows interacting with shipments in the system.
+description: Shipping management module handles shipping methods.
 edition: commerce
 ---
 
