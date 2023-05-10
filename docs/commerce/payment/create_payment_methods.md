@@ -33,4 +33,4 @@ With the `Payment method/Edit` permission, you can modify existing ones.
 2. Find the payment method that you intend to edit by using the search field and filters.
 3. Click the edit button next to the method in the list.
 4. Edit the necessary details.
-5. Confirm by clicking **Update**.
+5. Click **Update** to save your changes.

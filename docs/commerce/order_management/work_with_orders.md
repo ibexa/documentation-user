@@ -46,9 +46,10 @@ In the **Items** tab you can preview the products included in the order.
 ## Changing order status
 
 If your [user role](work_with_permissions.md) has the `Order/Update` permission, you can change the status of an existing order:
-confirm it if it is in status "Pending", or complete it when it is in status "Processing".
+confirm it if the order has "Pending" status, or complete it when it is in "Processing" status.
 With the `Order/Cancel` permission, you can cancel an existing order.
 
 !!! note "Canceling orders"
 
-    When an order is created, stocks are reduced for the products on that order. When you cancel an order, the stocks are reverted back to their original values.
+    When an order is created, stocks are reduced for the products on that order. 
+    When you cancel an order, the stocks are reverted back to their original values.

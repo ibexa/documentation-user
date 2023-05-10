@@ -9,4 +9,5 @@ If the permissions assigned to your [user role](permissions_and_users.md) allow,
 
 ![Shipping methods screen](shipping_methods_list.png "Shipping methods screen")
 
-The Shipping management module interacts with other packages of the system, so that shipment processing is cancelled automatically when the customer cancels their order.
+The Shipping management module interacts with other packages of the system, 
+so that shipment processing is cancelled automatically when the customer cancels their order.
