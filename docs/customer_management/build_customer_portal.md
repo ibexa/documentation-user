@@ -27,6 +27,7 @@ On the list of Content items, you will see two possibilities **Customer Portal**
 
 The first one is a container for your Customer Portal pages (this is not a root folder), and the second one represents the actual page.
 It is recommended to use Customer Portal containers to divide and store your portal pages.
+If your project requires it, the Customer Portal containers can also be defined as root folders in the configuration.
 
 First, select **Customer Portal** and name it appropriately.
 Next, navigate to the newly added container and create **Customer Portal Page**. 
