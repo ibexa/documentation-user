@@ -17,16 +17,16 @@ By default, depending on your permissions, you can access your own orders or all
 
 Available filters are:
 
-- Status - Payment status, by default: Pending, Processing, Completed, Cancelled
+- Statuses - multiselect list of order statuses, by default: Pending, Processing, Completed, Cancelled
 
 !!! note "Order statuses"
 
     Order statuses visible in the **Status** filter field are defined in the [Order workflow]([[= developer_doc =]]/commerce/order_management/configure_order_management/#order-processing-workflow).
 
-- Created - date when the order was created
+- Created - a range of dates between which the order was created
 - Client type - either B2B or B2C client
 - Order source - the shop from which the order comes
-- Total value - total value of the order, in a specific currency
+- Total value - a range of values that includes the total value of the order, in a selected currency
 - Currency - the currency in which the order was made
 
 ![Order list](order_list.png)
@@ -35,17 +35,17 @@ Available filters are:
 
 To view the details of an order, click its line in the order list.
 
-There, you can view more information about the order, such as the details of the customer, payment and shipping.
+On the order details screen, you can view more information about the order, such as customer, payment and shipment details.
 
 ![Order detail view](order_detail_view.png)
 
-In the **Items** tab you can preview the products included in the order.
+In the **Items** tab you can see a list of products included in the order.
 
 ![Viewing products included in the order](order_detail_items.png)
 
 ## Changing order status
 
-If your [user role](work_with_permissions.md) has the `Order/Update` permission, you can change the status of an existing order:
+If your [user role](work_with_permissions.md) includes the `Order/Update` permission, you can change the status of an existing order:
 confirm it if the order has "Pending" status, or complete it when it is in "Processing" status.
 With the `Order/Cancel` permission, you can cancel an existing order.
 

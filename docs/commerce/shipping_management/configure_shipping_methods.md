@@ -5,7 +5,7 @@ edition: commerce
 
 # Create and edit shipping methods
 
-If your [user role](work_with_permissions.md) has the `Shipping method/Create` permission, you can create shipping methods. 
+If your [user role](work_with_permissions.md) includes the `Shipping method/Create` permission, you can create shipping methods. 
 With the `Shipping method/Edit` permission, you can modify existing ones.
 
 !!! note "Shipping method limitations"
@@ -16,9 +16,9 @@ With the `Shipping method/Edit` permission, you can modify existing ones.
 
 ## Create a new shipping method 
 
-1. In the left panel, go to **Commerce** -> **Shipping methods**, and click **Create**.
-2. Select the language for the new shipping method, its type, and region it will apply to.
-3. In the next screen provide information about the new shipping method.
+1\. In the left panel, go to **Commerce** -> **Shipping methods**, and click **Create**.
+2\. Select the language for the new shipping method, its type, and region it will apply to.
+3\. In the next screen provide information about the new shipping method.
 
 ![Creating a nw shipping method](create_new_shipping_method.png)
 
@@ -29,15 +29,15 @@ Details about shipping cost differ between shipping methods:
 
 ![Configuring free shipping](free_shipping.png)
 
-4. Confirm by clicking **Create**.
+4\. Click **Create** to save your changes.
 
 ## Edit an existing shipping method
 
-1. In the left panel, go to **Commerce** -> **Shipping methods**.
+1\. In the left panel, go to **Commerce** -> **Shipping methods**.
 
 ![Shipping methods list](shipping_methods_list.png)
 
-2. Find the shipping method that you intend to edit by using the search field and filters.
-3. Click the edit button next to the method in the list.
-4. Edit the necessary details.
-5. Confirm by clicking **Update**.
+2\. Find the shipping method that you intend to edit by using the search field and filters.
+3\. Click the **Edit** button next to the method in the list.
+4\. Edit the necessary details.
+5\. Click **Update** to save your changes.
