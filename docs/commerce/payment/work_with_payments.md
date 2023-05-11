@@ -40,4 +40,4 @@ There, you can view summary of information about the payment.
 ## Changing payment details
 
 If your [user role](work_with_permissions.md) has the `Payment/Edit` permission, you can change the status of an existing payment:
-confirm it if it is in status "Pending".
+confirm it if the payment has "Pending" status.
