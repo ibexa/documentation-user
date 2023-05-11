@@ -17,7 +17,9 @@ With the `Shipping method/Edit` permission, you can modify existing ones.
 ## Create a new shipping method 
 
 1\. In the left panel, go to **Commerce** -> **Shipping methods**, and click **Create**.
+
 2\. Select the language for the new shipping method, its type, and region it will apply to.
+
 3\. In the next screen provide information about the new shipping method.
 
 ![Creating a nw shipping method](create_new_shipping_method.png)
@@ -38,6 +40,9 @@ Details about shipping cost differ between shipping methods:
 ![Shipping methods list](shipping_methods_list.png)
 
 2\. Find the shipping method that you intend to edit by using the search field and filters.
+
 3\. Click the **Edit** button next to the method in the list.
+
 4\. Edit the necessary details.
+
 5\. Click **Update** to save your changes.

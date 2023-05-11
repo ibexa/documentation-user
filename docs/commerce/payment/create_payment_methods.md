@@ -17,7 +17,9 @@ With the `Payment method/Edit` permission, you can modify existing ones.
 ## Create a new payment method 
 
 1\. In the left panel, go to **Commerce** -> **Payment methods**, and click **Create**.
+
 2\. Select the language for the new payment method and its type.
+
 3\. In the next screen provide information about the new payment method.
 
 ![Creating a new payment method](create_new_payment_method.png)
