@@ -12,9 +12,11 @@ of the Personalization service.
 
 The dashboard consists of several sections:
 
-- The top section contains tiles with the most important metrics, such as a number of recommendation calls, number of successful recommendations and so on.
+- The top section with tiles displaying the most important metrics: number of recommendation calls, number of clicked recommendations, imported items and collected events.
 - The diagrams section presents statistical information on how the Personalization service is used and how successful recommendations are, depending on key performance indicators.
-- The bottom section is made up of tables with detailed information, such as the most popular items.
+- The bottom section with tables presenting detailed information, such as the most popular clicked items and product purchased from recommendations.
+
+![Dashboard tiles](img/dashboard_tiles.png "Dashboard tiles")
 
 !!! note "Host multiple websites"
 
@@ -31,11 +33,15 @@ The diagram part consists of four main blocks:
 - Recommendation calls:
     The number of recommendation calls (total and per scenario).
 - Conversion rate:
-    The absolute number of converted/sold recommendations.
+    The absolute number of converted or sold recommendations.
 - Collected events:
-    Input data CLICK, BUY, and other events that the Personalization service collects 
-    from the website. 
+    Input data CLICK, BUY, and other events that the Personalization service collects from the website. 
     For more information, see [Events](event_types.md).
+
+In the upper left corner, you can specify the timeframe that you want to analyze.
+
+If you want to analyze metrics further, you can download the statistical information in an XLS format.
+To export data, click the **Download full report** button.
 
 ![Diagrams on the dashboard](img/dashboard_statistics.png "Performance diagrams on the dashboard")
 
@@ -44,14 +50,24 @@ the clicked recommendations.
 It is calculated by summing up the revenue coming from products that users have purchased 
 within 30 minutes from clicking a recommendation.
 
+Recommendation calls - loads recommendations, best categories for a user, reco call is send to Personalization engine.
+One call per scenario, each call can serve up to 50 items.
+
 Purchased recommendations is the number of products sold, without any 
 revenue/price information.
 
-Conversion (or click-through) rate is an indicator of the acceptance and, subsequently, 
-the quality of recommendations. 
-It is calculated by dividing the total number of clicked recommendations by the number of 
-recommendation calls. 
-This statistic delivers reliable information if event tracking is implemented correctly.
+Conversion (or click-through) - this statistic delivers reliable information if event tracking is implemented correctly. Conversion rate - an indicator which shows the recommendation effectiveness. The number of reco calls divided by the total number of clicked recommendations. This statistic delivers reliable information if event tracking is implemented correctly.
 
-You can select a timeframe for the diagrams from a list of presets, or define a custom date range.
-If necessary, you can download the statistical information in XLS format.
+## How statistics are calculated
+
+User's flow
+User clicks a product which is not recommended, the click is not included in the statistics.
+Additional value from recommendation engine, to show recommendation block, a reco call is sent.
+When user clicks recommendation (recommended item), two events are sent: 
+
+- user's click
+- user clicked recommended item.
+
+If user adds clicked recommended item to cart and buys it within 60 minutes, this item goes to purchased recommended statistics section. If item was worth 10 euro, the statistic increases both by 1 and 10 euro.
+
+Products purchased is only for commerce account types.
