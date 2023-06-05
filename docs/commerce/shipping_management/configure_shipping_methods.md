@@ -8,11 +8,16 @@ edition: commerce
 If your [user role](work_with_permissions.md) includes the `Shipping method/Create` permission, you can create shipping methods. 
 With the `Shipping method/Edit` permission, you can modify existing ones.
 
+Shipping method definitions describe how goods can be shipped to a store customer, with different rates for different geographic locations. 
+Example shipping methods are overnight delivery, self-pickup, DHL and so on.
+
 !!! note "Shipping method limitations"
 
     By default, you can only create shipping methods of 'Flat rate' and 'Free shipping' type. 
     
     Shipping methods created in legacy Commerce cannot be migrated when you upgrade. You have to define them from scratch.
+
+"Flat rate" shipping means delivering goods at a fixed, predefined cost, regardless of the number and type of items in the cart. 
 
 ## Create a new shipping method 
 
@@ -26,23 +31,33 @@ With the `Shipping method/Edit` permission, you can modify existing ones.
 
 Details about shipping cost differ between shipping methods:
 
-- Flat rate requires setting a specific fixed cost for shipping for a given currency.
-- Free shipping required setting the minimum order value (in a given currency) above which the shipping is free.
+- Flat rate requires setting a specific fixed cost for shipping, expressed as net value in a given currency. 
+This value is then displayed during checkout and added to the total order amount when the store customer selects a specific shipping method.
+- Free shipping requires setting the minimum order value (in a given currency) above which the shipping is free.
 
 ![Configuring free shipping](free_shipping.png)
 
-4\. Click **Create** to save your changes.
+4\. Toggle the **Availability** switch on, so that store customers can select this shipping method during checkout.
 
-## Edit an existing shipping method
+5\. Click **Create** to save your changes.
+
+## Edit or edit an existing shipping method
 
 1\. In the left panel, go to **Commerce** -> **Shipping methods**.
 
 ![Shipping methods list](shipping_methods_list.png)
 
-2\. Find the shipping method that you intend to edit by using the search field and filters.
+2\. Find the shipping method that you intend to edit or delete by using the search field and filters.
 
-3\. Click the **Edit** button next to the method in the list.
+3\. If you are deleting a shipping method, select a box next to its name and click **Delete**. Otherwise, skip to step 4.
 
-4\. Edit the necessary details.
+!!! note "Shipping methods for existing orders"
 
-5\. Click **Update** to save your changes.
+    If orders exist that use a specific shipping method, you can only deactivate this method by toggling the **Availability** switch off.
+
+
+4\. Click the **Edit** button next to the method in the list.
+
+5\. Edit the necessary details.
+
+6\. Click **Update** to save your changes.
