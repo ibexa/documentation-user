@@ -43,6 +43,13 @@ In the **Items** tab you can see a list of products included in the order.
 
 ![Viewing products included in the order](order_detail_items.png)
 
+Where fields have the following meaning:
+
+- **Subtotal (net)** - a sum of all product prices without taxes
+- **Shipping cost** - a net cost of the selected shipping method
+- **Taxes** - a total value of all taxes related to purchased products and the selected shipping method
+- **Total value (gross)** - the subtotal with all discounts, taxes, and service charges applied
+
 ## Changing order status
 
 If your [user role](work_with_permissions.md) includes the `Order/Update` permission, you can change the status of an existing order:
