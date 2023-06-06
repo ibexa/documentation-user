@@ -15,7 +15,7 @@ organization makes with Ibexa when defining the initial configuration.
 You can request that a specific model is created by contacting customer support.
 
 
-If your [user role](../permission_management/permissions_and_users.md) includes 
+If your [user Role](../permission_management/permissions_and_users.md) includes 
 the `Personalization/Edit` Policy, you can modify the models according to your requirements.
 To do this, navigate to the **Models** tab and click the **Edit** icon next to a name of the model.
 

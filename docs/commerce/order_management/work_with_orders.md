@@ -25,7 +25,7 @@ Available filters are:
 
 - Created - a range of dates between which the order was created
 - Client type - either B2B or B2C client
-- Order source - the shop from which the order comes
+- Order source - the store from which the order comes
 - Total value - a range of values that includes the total value of the order, in a selected currency
 - Currency - the currency in which the order was made
 
@@ -47,12 +47,12 @@ Where fields have the following meaning:
 
 - **Subtotal (net)** - a sum of all product prices without taxes
 - **Shipping cost** - a net cost of the selected shipping method
-- **Taxes** - a total value of all taxes related to purchased products and the selected shipping method
-- **Total value (gross)** - the subtotal with all discounts, taxes, and service charges applied
+- **Taxes** - a total value of all taxes, including those that apply to the selected shipping method and the products
+- **Total value (gross)** - a total value of the order, including all discounts, taxes, and service charges
 
 ## Changing order status
 
-If your [user role](work_with_permissions.md) includes the `Order/Update` permission, you can change the status of an existing order:
+If your [user Role](work_with_permissions.md) includes the `Order/Update` permission, you can change the status of an existing order:
 confirm it if the order has "Pending" status, or complete it when it is in "Processing" status.
 With the `Order/Cancel` permission, you can cancel an existing order.
 

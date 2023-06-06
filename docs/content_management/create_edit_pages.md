@@ -87,7 +87,7 @@ For a list of blocks available out of the box, see [Block reference](block_refer
 !!! note 
 
     Before you add a block that involves products, product types, or product categories, make 
-    sure your that your [user role](../permission_management/permissions_and_users.md) has 
+    sure your that your [user Role](../permission_management/permissions_and_users.md) has 
     the `Product/View` and `Product type/View` permission.
 
     Before you add a block that uses results derived from a [Personalization](../personalization/personalization.md) scenario, 

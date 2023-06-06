@@ -4,7 +4,7 @@ description: Configure models by setting up a timeframe, segments and other sett
 
 # Configure scenarios
 
-If your [user role](../permission_management/permissions_and_users.md) includes 
+If your [user Role](../permission_management/permissions_and_users.md) includes 
 the `Personalization/View` Policy, you can go to **Personalization** > **Scenarios** 
 and see a page that lists all available scenarios. 
 It also provides additional information, such as a description of each of the scenarios, 

@@ -3,12 +3,12 @@ description: Define new shipping methods or modify existing ones.
 edition: commerce
 ---
 
-# Create and edit shipping methods
+# Work with shipping methods
 
-If your [user role](work_with_permissions.md) includes the `Shipping method/Create` permission, you can create shipping methods. 
+If your [user Role](work_with_permissions.md) includes the `Shipping method/Create` permission, you can create shipping methods. 
 With the `Shipping method/Edit` permission, you can modify existing ones.
 
-Shipping method definitions describe how goods can be shipped to a store customer, with different rates for different geographic locations. 
+Shipping methods describe how goods can be shipped to a store customer, with different rates for different geographic locations. 
 Example shipping methods are overnight delivery, self-pickup, DHL and so on.
 
 !!! note "Shipping method limitations"
@@ -41,7 +41,7 @@ This value is then displayed during checkout and added to the total order amount
 
 5\. Click **Create** to save your changes.
 
-## Edit or edit an existing shipping method
+## Edit an existing shipping method
 
 1\. In the left panel, go to **Commerce** -> **Shipping methods**.
 
@@ -49,14 +49,21 @@ This value is then displayed during checkout and added to the total order amount
 
 2\. Find the shipping method that you intend to edit or delete by using the search field and filters.
 
-3\. If you are deleting a shipping method, select a box next to its name and click **Delete**, which concludes the procedure. Otherwise, skip to step 4.
+3\. Click the **Edit** button next to the method in the list.
+
+4\. Edit the necessary details.
+
+5\. Click **Update** to save your changes.
+
+## Delete an existing shipping method
+
+1\. In the left panel, go to **Commerce** -> **Shipping methods**.
+
+2\. Find the shipping method that you want to delete by using the search field and filters.
+
+3\. Select a box next to its name and click **Delete**.
 
 !!! note "Shipping methods for existing orders"
 
-    You cannot delete a shipping method if it is active or open orders exist that use this specific shipping method. You must first deactivate the method that you want to delete by toggling the **Availability** switch off.
-
-4\. Click the **Edit** button next to the method in the list.
-
-5\. Edit the necessary details.
-
-6\. Click **Update** to save your changes.
+    You cannot delete a shipping method if it is active or if it is used by open orders. 
+    You must first deactivate the method that you want to delete by toggling the **Availability** switch off.
