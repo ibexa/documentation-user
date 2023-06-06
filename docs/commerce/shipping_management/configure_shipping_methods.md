@@ -27,7 +27,7 @@ Example shipping methods are overnight delivery, self-pickup, DHL and so on.
 
 3\. In the next screen provide information about the new shipping method.
 
-![Creating a nw shipping method](create_new_shipping_method.png)
+![Creating a new shipping method](create_new_shipping_method.png)
 
 Details about shipping cost differ between shipping methods:
 
@@ -49,12 +49,11 @@ This value is then displayed during checkout and added to the total order amount
 
 2\. Find the shipping method that you intend to edit or delete by using the search field and filters.
 
-3\. If you are deleting a shipping method, select a box next to its name and click **Delete**. Otherwise, skip to step 4.
+3\. If you are deleting a shipping method, select a box next to its name and click **Delete**, which concludes the procedure. Otherwise, skip to step 4.
 
 !!! note "Shipping methods for existing orders"
 
-    If orders exist that use a specific shipping method, you can only deactivate this method by toggling the **Availability** switch off.
-
+    You cannot delete a shipping method if it is active or open orders exist that use this specific shipping method. You must first deactivate the method that you want to delete by toggling the **Availability** switch off.
 
 4\. Click the **Edit** button next to the method in the list.
 
