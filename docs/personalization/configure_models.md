@@ -4,7 +4,7 @@ description: Configure models by setting up a timeframe, segments and other sett
 
 # Configure models
 
-If your [user role](../permission_management/permissions_and_users.md) has 
+If your [user Role](../permission_management/permissions_and_users.md) has 
 the `Personalization/Edit` permission that includes your website, you can modify 
 model settings according to your requirements.
 

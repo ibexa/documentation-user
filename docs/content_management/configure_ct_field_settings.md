@@ -8,7 +8,7 @@ When you [modify a Content Type](create_edit_content_types.md) and add or modify
 you must configure different settings that control the way [[= product_name =]] 
 treats the contents of each Field. Apart from general settings, certain Field Types, for example, [Page](#default-configuration-of-pages) and [Relation](#content-relation-settings) Field Types may have additional settings.
 
-You can only create or modify Content Types when your [user role](../permission_management/work_with_permissions.md) has the `ContentType/Create` or `ContentType/Update` permission.
+You can only create or modify Content Types when your [user Role](../permission_management/work_with_permissions.md) has the `ContentType/Create` or `ContentType/Update` permission.
 
 To modify Field settings, in the **Field definitions** section, expand the **Landing page** header. 
 When done, click **Save** to apply changes to the Content Type.
