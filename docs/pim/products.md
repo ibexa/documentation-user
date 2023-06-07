@@ -23,7 +23,7 @@ appliances.
 
 A Product Types also defines the attributes that all products of this type can have.
 
-If your [user role](../permission_management/work_with_permissions.md) has the `ProductType/Edit` 
+If your [user Role](../permission_management/work_with_permissions.md) has the `ProductType/Edit` 
 permission, you can [modify Product Types and add individual attributes or attribute groups](create_product_types.md).
 
 ### Attributes

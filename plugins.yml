@@ -45,6 +45,7 @@ plugins:
             'shop_administration/manage_orders.md': 'persona_paths/shop_manager.md'
             'shop_administration/manage_currencies_shipping.md': 'persona_paths/shop_manager.md'
             'shop_administration/discover_dashboard.md': 'persona_paths/shop_manager.md'
-            'commerce/payment/configure_payment_method.md': 'commerce/payment/create_payment_methods.md'
-            'commerce/shipping/configure_shipping_method.md': 'commerce/shipping_management/configure_shipping_methods.md'
-            
+            'commerce/payment/configure_payment_method.md': 'commerce/payment/work_with_payment_methods.md'
+            'commerce/shipping/configure_shipping_method.md': 'commerce/shipping_management/work_with_shipping_methods.md'
+            'commerce/payment/create_payment_methods.md': 'commerce/payment/work_with_payment_methods.md'
+            'commerce/shipping_management/configure_shipping_methods.md': 'commerce/shipping_management/work_with_shipping_methods.md'

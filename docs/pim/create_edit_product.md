@@ -7,7 +7,7 @@ description: Create new products or modify existing ones.
 [Products](products.md#products) are a specific kind of [Content items](../content_management/content_items.md#content-items) that you use 
 to present your offer in the website, including product specification, and pricing.
 Individual products are instances of [Product Types](create_product_types.md#create-product-types).
-You can only create or modify products when your [user role](../permission_management/work_with_permissions.md) has the `Product/Edit` permission.
+You can only create or modify products when your [user Role](../permission_management/work_with_permissions.md) has the `Product/Edit` permission.
 
 To create a product, depending on how the Product Type is defined, you [may need to provide](products.md#product-completeness) certain pieces 
 of information in their respective [Fields](../content_management/content_model.md#fields-and-field-types).

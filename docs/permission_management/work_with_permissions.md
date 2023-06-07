@@ -1,12 +1,12 @@
 ---
-description: Modify role settings to control access to different areas of the application.
+description: Modify Role settings to control access to different areas of the application.
 ---
 
 # Work with permissions
 
 You can view and modify all [permissions](permission_system.md) by clicking **Roles** in the **Admin Panel**.
 
-Select the plus button and provide a name to get an empty, unassigned role.
+Select the plus button and provide a name to get an empty, unassigned Role.
 You can now see the list of Policies the Role has - at the moment, none.
 Click the plus button again, select a Policy from the list and save it.
 You then have an option to add Limitations to the Policy. 

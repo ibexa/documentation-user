@@ -7,7 +7,7 @@ description: Create or edit Content Types by listing Fields that make a Content 
 [Content Types](content_model.md#content-types) define what Fields are available in [Content items](content_items.md). 
 To suit your specific needs, you can modify the default Content Types, or add custom ones.
 
-You can only create or modify Content Types when your [user role](../permission_management/work_with_permissions.md) has the `ContentType/Create` or `ContentType/Update` permission.
+You can only create or modify Content Types when your [user Role](../permission_management/work_with_permissions.md) has the `ContentType/Create` or `ContentType/Update` permission.
 
 When you edit a Content Type, each Content item based on this Content Type changes.
 For example, when you add or remove a Field to the Content Type, the change 
