@@ -25,5 +25,6 @@ To do this, navigate to one of the pages mentioned below and edit the item that 
     "personalization/configure_scenarios",
     "personalization/scenarios",
     "personalization/content_types",
-    "personalization/filters"
+    "personalization/filters",
+    "personalization/triggers"
 ]) =]]
