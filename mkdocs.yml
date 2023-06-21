@@ -78,7 +78,8 @@ nav:
         - Work with product assets: pim/work_with_product_assets.md
         - Work with product categories: pim/work_with_product_categories.md
         - Work with product variants: pim/work_with_product_variants.md
-        - Work with product availability and stock: pim/manage_prices_and_stock.md
+        - Work with product prices: pim/manage_prices.md
+        - Work with product availability and stock: pim/manage_availability_and_stock.md
         - Work with catalogs: pim/work_with_catalogs.md
         - Work with currencies: 'pim/manage_currencies.md'
     - Customer management:
@@ -95,6 +96,8 @@ nav:
         - Manage users: user_management/manage_users.md
     - User paths:
         - Explorer: persona_paths/explorer.md
+        - Administrator: 
+            - Manage permissions and users: permission_management/permissions_and_users.md
         - Content editor: 
             - Content editor: persona_paths/editor.md
             - Manage content model: persona_paths/manage_content_model.md
@@ -103,7 +106,6 @@ nav:
             - Organize content: persona_paths/organize_content.md
         - Shop manager: 
             - Shop manager: persona_paths/shop_manager.md
-            - Manage permissions and users: permission_management/permissions_and_users.md
             - Manage products: persona_paths/manage_products.md
 
               

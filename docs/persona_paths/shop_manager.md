@@ -16,7 +16,7 @@ including the following responsibilities:
     "pim/products",
     "persona_paths/manage_products",
     "pim/manage_currencies",
-    "permission_management/permissions_and_users",
+    "pim/manage_prices",
     "customer_management/manage_customers",
     "commerce/shipping_management/work_with_shipping_methods",
     "commerce/payment/work_with_payment_methods",
