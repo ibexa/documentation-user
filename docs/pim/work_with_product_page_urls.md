@@ -4,14 +4,17 @@ description: You can create manage the system URLs for product items.
 
 # Product page URLs
 
-Every [Product](products.md) has its own URLs that is automatically generated. It is based on a pattern that says which field or fields are used to build the URL (URL alias name pattern).
+Every [Product item](products.md) has a system URL that is automatically generated. It is based on a pattern that combines fields and attributes to build the URL (URL alias name pattern).
 Product can have multiple URLs if it is included in many catalogs and exposed to many sites.
+
+Customized URLs are easy to remember, help for SEO optimatization and reduce bounce rates on the website.
+It improves the user experience - you can understand what the product is about just by reading the link. 
 
 ## Product Attributes identifiers
 
 Products have their own [attributes](products.md#attributes) that provide different information about them. 
 
-The following attribute types are available:
+The following attribute types can be used in URL alias name pattern field:
 
 - Checkbox
 - Color
@@ -19,11 +22,7 @@ The following attribute types are available:
 - Measurement
 - Selection
 
-You can use attributes identifiers in the URL alias pattern field. 
-A customized URL is short and easy to remember. 
-
-It can help to understand what the product is about just by reading the link. 
-It improves the user experience and reduces bounce rates on the website.
+You can use many attributes identifiers as well as fields identifiers in the URL alias pattern field. 
 
 Having keyword-rich URLs also improves the product's visibility in search engine results and boost the page's ranking in search results..
 
