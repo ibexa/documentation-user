@@ -16,7 +16,7 @@ plugins:
             'getting_started.md': 'getting_started/get_started.md'
             'taxonomy.md': 'content_management/taxonomy/taxonomy.md'
             'translating_content.md': 'content_management/translate_content.md'
-            'shop_administration/manage_prices_and_stock.md': 'pim/manage_prices_and_stock.md'
+            'shop_administration/manage_prices_and_stock.md': 'pim/manage_prices.md'
             'pim/manage_prices_and_stock.md': 'pim/manage_prices.md'
             'shop_administration/manage_products.md': 'pim/manage_products.md'
             'shop_administration/navigation_structure.md': 'getting_started/discover_ui.md'
