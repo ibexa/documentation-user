@@ -79,7 +79,7 @@
                         <div class="tile-body">
                             <ul>
                                 <li><a href="persona_paths/manage_products/">Manage products</a></li>
-                                <li><a href="persona_paths/manage_prices/">Manage products</a></li>
+                                <li><a href="persona_paths/manage_prices/">Manage prices</a></li>
                                 <li><a href="shop_administration/manage_users/">Manage customers</a></li>
                                 <li><a href="shop_administration/manage_orders/">Manage orders</a></li>
                         </ul>
