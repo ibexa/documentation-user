@@ -7,8 +7,9 @@ In [[= product_name =]] universe, it means that you must focus on many things,
 including the following responsibilities:
 
 - Create and maintain product information (descriptions, tech specs, media, etc.)
-- Maintain pricing and shipping cost information
-- Create engaging marketing content and publish it on the website
+- Maintain product pricing and shipping cost information
+- Manage shipping and payment methods
+- Manage and track orders
 
 ## What would you like to do today?
 

@@ -29,6 +29,7 @@ nav:
             - Content versions: content_management/content_versions.md
             - Work with versions: content_management/workflow_management/work_with_versions.md
             - Editorial workflow: content_management/workflow_management/editorial_workflow.md
+            - View workflow list: content_management/workflow_management/view_workflow_list.md
         - Content organization:
             - Copy, move or hide content: content_management/content_organization/copy_move_hide_content.md
             - Classify content: content_management/content_organization/classify_content.md
@@ -97,6 +98,7 @@ nav:
     - User paths:
         - Explorer: persona_paths/explorer.md
         - Administrator: 
+            - Application administrator: persona_paths/administrator.md
             - Manage permissions and users: permission_management/permissions_and_users.md
         - Content editor: 
             - Content editor: persona_paths/editor.md
