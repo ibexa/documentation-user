@@ -7,8 +7,9 @@ In [[= product_name =]] universe, it means that you must focus on many things,
 including the following responsibilities:
 
 - Create and maintain product information (descriptions, tech specs, media, etc.)
-- Maintain pricing and shipping cost information
-- Create engaging marketing content and publish it on the website
+- Maintain product pricing and shipping cost information
+- Manage shipping and payment methods
+- Manage and track orders
 
 ## What would you like to do today?
 
@@ -16,7 +17,7 @@ including the following responsibilities:
     "pim/products",
     "persona_paths/manage_products",
     "pim/manage_currencies",
-    "permission_management/permissions_and_users",
+    "pim/manage_prices",
     "customer_management/manage_customers",
     "commerce/shipping_management/work_with_shipping_methods",
     "commerce/payment/work_with_payment_methods",

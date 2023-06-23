@@ -33,18 +33,3 @@ In the Review queue table, you can access the draft for editing, review its hist
 and unlock the draft or request that a lock is released.
 
 For more information, see [Work with versions](work_with_versions.md).
-
-## Workflow list
-
-If you have Administrator permissions, you can view all configured workflows in the Admin Panel by selecting **Workflow**.
-
-![Workflow in Admin Panel](img/workflow_panel.png)
-
-You can preview a diagram of the workflow.
-
-![Workflow diagram](img/workflow_diagram.png)
-
-You can also select a configured workflow to see all Content items that are under 
-review as part of this workflow.
-
-![Content under review](img/workflow_content_under_review.png)

@@ -15,6 +15,7 @@ your stock and customers can easily browse your catalogs.
     "pim/work_with_product_assets",
     "pim/work_with_product_categories",
     "pim/work_with_product_variants",
-    "pim/manage_prices_and_stock",
+    "pim/manage_prices",
+    "pim/manage_availability_and_stock",
     "pim/work_with_catalogs"
 ], style="path") =]]
