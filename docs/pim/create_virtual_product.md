@@ -22,7 +22,7 @@ To create a virtual product, first, you have to create virtual Product Type.
 
 ![`Creating virtual Product Type`](img/virtual_product_type.png "Creating virtual Product Type")
 
-3\. Fill in basic product information.
+3\. Fill in basic product type information.
 
 4\. Add Fields that describe the product by dragging them from the **Field types** 
 area to a section on the left, and then [configure them](../content_management/configure_ct_field_settings.md).
