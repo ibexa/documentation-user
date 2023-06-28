@@ -4,7 +4,9 @@ description: Virtual products are a non-tangible items such as memberships, serv
 
 # Virtual products
 
-Virtual product is a special type of a [Product](products.md). Virtual products are a non-tangible items such as memberships, services, warranties. 
+Virtual product is a special type of a [Product](products.md). 
+
+Virtual products are a non-tangible items such as memberships, services, warranties. 
 They can be sold individually, or as part of a product bundle.
 
 As physical products, virtual products can have their own [variants](work_with_product_variants.md), [assets](work_with_product_assets.md) or [attributes](products.md#attributes). 
