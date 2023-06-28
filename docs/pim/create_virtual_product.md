@@ -10,7 +10,7 @@ Virtual products are a non-tangible items such as memberships, services, warrant
 They can be sold individually, or as part of a product bundle.
 
 As physical products, virtual products can have their own [variants](work_with_product_variants.md), [assets](work_with_product_assets.md) or [attributes](products.md#attributes). 
-You can as well create catalogs from them, check their completeness and set [prices, availability and stock](manage_prices_and_stock.md).
+You can as well create catalogs from them, check their completeness and set [prices, availability and stock](manage_availability_and_stock.md).
 
 ## Create virtual Product Type
 
