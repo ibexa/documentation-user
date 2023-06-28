@@ -43,7 +43,7 @@ Fields marked with an asterisk (*) are required.
 6\. If you are adding a new product, click the **Create** button.
 If you are editing an existing one, click the **Update** button.
 
-After you create a product, you can [add image assets to a product](work_with_product_assets.md), [create variants to the main product](work_with_product_variants.md), [define product prices](manage_prices_and_stock.md), and [clasify products into different categories](work_with_product_categories.md).
+After you create a product, you can [add image assets to a product](work_with_product_assets.md), [create variants to the main product](work_with_product_variants.md), [define product prices](manage_prices.md), [set the available quantity](manage_availability_and_stock.md) and [clasify products into different categories](work_with_product_categories.md).
 
 !!! note
 

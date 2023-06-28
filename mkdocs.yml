@@ -29,6 +29,7 @@ nav:
             - Content versions: content_management/content_versions.md
             - Work with versions: content_management/workflow_management/work_with_versions.md
             - Editorial workflow: content_management/workflow_management/editorial_workflow.md
+            - View workflow list: content_management/workflow_management/view_workflow_list.md
         - Content organization:
             - Copy, move or hide content: content_management/content_organization/copy_move_hide_content.md
             - Classify content: content_management/content_organization/classify_content.md
@@ -79,7 +80,8 @@ nav:
         - Work with product assets: pim/work_with_product_assets.md
         - Work with product categories: pim/work_with_product_categories.md
         - Work with product variants: pim/work_with_product_variants.md
-        - Work with product availability and stock: pim/manage_prices_and_stock.md
+        - Work with product prices: pim/manage_prices.md
+        - Work with product availability and stock: pim/manage_availability_and_stock.md
         - Work with catalogs: pim/work_with_catalogs.md
         - Work with currencies: 'pim/manage_currencies.md'
     - Customer management:
@@ -96,6 +98,9 @@ nav:
         - Manage users: user_management/manage_users.md
     - User paths:
         - Explorer: persona_paths/explorer.md
+        - Administrator: 
+            - Application administrator: persona_paths/administrator.md
+            - Manage permissions and users: permission_management/permissions_and_users.md
         - Content editor: 
             - Content editor: persona_paths/editor.md
             - Manage content model: persona_paths/manage_content_model.md
@@ -104,7 +109,6 @@ nav:
             - Organize content: persona_paths/organize_content.md
         - Shop manager: 
             - Shop manager: persona_paths/shop_manager.md
-            - Manage permissions and users: permission_management/permissions_and_users.md
             - Manage products: persona_paths/manage_products.md
 
               
@@ -137,7 +141,7 @@ extra:
   # Global variables
   site_display_name: 'Ibexa Documentation'
   product_name: 'Ibexa DXP'
-  product_name_content: 'Ibexa Content'
+  product_name_content: 'Ibexa Headless'
   product_name_exp: 'Ibexa Experience'
   product_name_com: 'Ibexa Commerce'
 

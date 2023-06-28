@@ -108,9 +108,14 @@ Typical examples are a t-shirt in different colors, or a laptop with different h
 
 You can [create variants based on product attributes](work_with_product_variants.md).
 
+## Product prices
+
+ You can [set a base price and custom prices](manage_prices.md) for the product and for its variants.
+ Prices can differ depending on [customer group](../customer_management/manage_customers.md) and [currency](../pim/manage_currencies.md) and be applied according to rules.
+
 ## Product availability and stock
 
-You can [control a product's availability](manage_prices_and_stock.md), which translates into 
+You can [control a product's availability](manage_availability_and_stock.md), which translates into 
 whether it is being offered for purchase, and the available stock.
 You can either set the exact number of product pieces available in stock or indicate 
 that availability is infinite, for example, for digital, downloadable products. 
