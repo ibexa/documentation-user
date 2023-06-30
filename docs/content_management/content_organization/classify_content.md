@@ -13,7 +13,7 @@ You can divide your Content tree into Sections to better organize it.
 Sections let you decide which Users will have access to which parts of the tree.
 To see which Section a Content item belongs to, look at its **Details** tabs.
 
-You can set up Sections in **Admin**, in the **Sections** tab.
+You can set up Sections by navigating to **Content** -> **Sections**.
 A few Sections are provided with each installation, and you can add new ones.
 
 ![List of Sections](img/sections.png "List of Sections")
