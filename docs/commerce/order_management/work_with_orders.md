@@ -50,10 +50,10 @@ Where fields have the following meaning:
 - **Taxes** - a total value of all taxes, including those that apply to the selected shipping method and the products
 - **Total value (gross)** - a total value of the order, including all discounts, taxes, and service charges
 
-!!! note "Virtual products order"
+!!! note "Ordering virtual products"
 
-    If the order includes only virtual products then the Shipment and Shipping address section is not available.
-    Virtual products don’t require shipment when they are purchased individually.
+    If the order includes only virtual products then the Shipment and Shipping address sections are not available.
+    Virtual products don't require shipment when they are the only product in a purchase.
  
 
 ## Changing order status

@@ -8,13 +8,13 @@ If your [user Role](../permission_management/work_with_permissions.md) has the `
 
 1\. In the left panel, go to **Product catalog** -> **Product Types** and click **Create**.
 
-2\. From the drop-down list choose `Physical` or `Virtual` type and click **Add**.
+2\. From the drop-down list choose "Physical" or "Virtual" type and click **Add**.
 
-![`Creating virtual Product Type`](img/virtual_product_type.png)
+![Creating virtual Product Type](virtual_product_type.png)
 
 3\. Fill in basic product information: name, identifier and description.
 
-![Adding a Product Type](img/create_product_type.png)
+![Adding a Product Type](create_product_type.png)
 
 Each product has a product code that must be unique. It identifies the product in the system.
 Product code can have up to 64 characters. It can contain only letters, numbers, underscores, and dashes.
