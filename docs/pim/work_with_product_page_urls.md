@@ -1,5 +1,5 @@
 ---
-description: You can create manage the system URLs for product items. 
+description: You can create URL alias name pattern and custom URLs for the Products.
 ---
 
 # Product page URLs
