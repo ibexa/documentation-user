@@ -74,8 +74,6 @@ Now, in the **URL** tab in the product's view, you can see new custom URL for th
 
 ![Custom URL](custom_url.png)
 
-## Manage Product page URLs
-
 You can manage all the product URLs, both system and custom ones: create new and edit or delete existing ones.
 
 
