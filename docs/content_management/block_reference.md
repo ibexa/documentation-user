@@ -20,13 +20,13 @@ The following blocks are provided with a clean installation of [[= product_name 
 |[Embed](#embed-block)|Embeds a Content item of any Content Type on the Page. |
 |[Form](#form-block)|Embeds a Form Content item that you select from the Content Structure. |
 |[Gallery](#gallery-block)|Displays all images contained in a selected folder. |
+|[Ibexa Connect](#ibexa-connect-block)|Retrieves and displays data from an Ibexa Connect webhook. |
 |[Last purchased](#last-purchased-block)|Displays a list of products that were recently purchased from PIM. |
 |[Last viewed](#last-viewed-block)|Displays a list of products from PIM that were recently viewed. |
 |[Personalized](#personalized-block)|Displays a list of Content items/products that are recommended to end users when specific scenarios are triggered. |
 |[Product collection](#product-collection-block)|Displays a list of specifically selected products.|
 |[Recently added](#recently-added-block)|Displays a list of products that were recently added to PIM. |
 |[RSS](#rss-block)|Loads and displays news from RSS feeds (channels). |
-|[Scenario](#scenario-block)|Retrieves and displays data from an Ibexa Connect webhook. |
 |[Targeting](#targeting-block)|Embeds an Content item based on the [Segment](content_organization/classify_content.md#segments) the user belongs to. |
 |[Text](#text-block)|Enables you to add to the Page a Rich Text block. |
 |[Video](#video-block)|Embeds a video into the Page with standard playback controls. |
@@ -142,6 +142,19 @@ On the **Basic** tab, set values in the following fields:
 After submitting the settings, all images in the folder will appear in the Gallery block.
 Note that selecting a folder containing Content items other than images results in displaying only a link to the folder they are stored in.
 
+## Ibexa Connect block
+
+On the **Basic** tab, set values in the following fields:
+
+- **Name** – Enter a name for the Page block.
+- **Webhook link** - Enter the link for the Ibexa Connect webhook.
+
+On the **Design** tab, in the **View** field, select the template be used to present the webhook.
+
+!!! caution "Using Ibexa Connect scenario block"
+    
+    For more information about using Ibexa Connect scenario block, see [Ibexa Connect scenario block]([[= developer_doc =]]/content_management/pages/ibexa_connect_scenario_block/) in developer documentation.
+
 ## Last purchased block
 
 On the **Basic** tab, set values in the following fields:
@@ -206,19 +219,6 @@ On the **Basic** tab, set values in the following fields:
 - **URL** - Enter the URL for the RSS news feed.
 - **Limit** - Set the number of news items to be displayed.
 - **Offset** - Set the limit of featured news items to be displayed.
-
-## Scenario block
-
-On the **Basic** tab, set values in the following fields:
-
-- **Name** – Enter a name for the Page block.
-- **Webhook link** - Enter the link for the Ibexa Connect webhook.
-
-On the **Design** tab, in the **View** field, select the template be used to present the webhook.
-
-!!! caution "Using Scenario block"
-    
-    For more information about using Scenario block, see [Work with scenario block]([[= developer_doc =]]/content_management/pages/work_with_scenario_block/) in developer documentation.
 
 ## Targeting block
 
