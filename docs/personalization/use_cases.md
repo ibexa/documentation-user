@@ -20,6 +20,7 @@ Some typical use cases are:
 - The "Related to your shopping cart" list on the shopping cart page
 - The "Bestsellers in the current category" list shown on the category's landing page
 - A recommendation bar with recommendations based on the current user's profile
+- An email with recommendations based on the contents of an abandoned shopping cart
 
 ![Recommendations on a home page](img/use_case_landing_page.png "Recommendations on a home page")
 
