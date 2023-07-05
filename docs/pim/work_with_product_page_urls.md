@@ -4,15 +4,15 @@ description: You can create URL alias name pattern and custom URLs for the Produ
 
 # Product page URLs
 
-Every [Product item](products.md) has a system URL that is automatically generated. It is based on a pattern that combines fields and attributes to build the URL (URL alias name pattern).
+Every [product item](products.md) has a system URL that is automatically generated. It is based on a pattern that combines fields and attributes to build the URL (URL alias name pattern).
 
-When you are creating new [Product Type](create_product_types.md) you can set up Product URL alias name pattern.
+When you are creating new [product type](create_product_types.md) you can set up product URL alias name pattern.
 
-To do it, fill in all necessary information and choose the attributes that you want to use in URL alias name pattern field and click **Save** button.
+To do it, fill in all the necessary information and choose the attributes that you want to use in URL alias name pattern field and click **Save** button.
 
 ![URL attributes](url_attributes.png)
 
-Now, you can see new URL alias name pattern in the Product Type's view.
+Now, you can see new URL alias name pattern in the product type's view.
 
 ![URL alias name pattern.png](url_alias_name_pattern.png)
 
@@ -44,15 +44,15 @@ Having keyword-rich URLs also improves the product's visibility in search engine
 
 ## Create custom URL
 
-You can create custom URL for each Product.
-Customized URLs are easy to remember, help for SEO optimatization and reduce bounce rates on the website.
+You can create custom URL for each product.
+Customized URLs are easy to remember, help with SEO optimization and reduce bounce rates on the website.
 It improves the user experience - you can understand what the product is about just by reading the link. 
 
 To do it, follow the steps:
 
 1\. In the left panel, go to **Product catalog** -> **Products**.
 
-2\. Choose the Product from the list.
+2\. Choose a product from the list.
 
 3\. Click on **URL** tab in the product's view. Here you can see both custom URL aliases and system URL.
 
@@ -66,7 +66,7 @@ To do it, follow the steps:
 
 6\. Click **Create**.
 
-Now, in the **URL** tab in the product's view, you can see new custom URL for the Product.
+Now, in the **URL** tab in the product's view, you can see new custom URL for the product.
 
 ![Custom URL](custom_url.png)
 
