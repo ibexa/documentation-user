@@ -18,7 +18,7 @@ Now, you can see new URL alias name pattern in the Product Type's view.
 
 ## Product Attributes identifiers
 
-Products have their own [attributes](products.md#attributes) that provide different information about them. 
+Products have their own [attributes](products.md#attributes) to define product specification.
 
 The following attribute types can be used in URL alias name pattern field:
 
@@ -29,22 +29,18 @@ The following attribute types can be used in URL alias name pattern field:
 - Measurement (single)
 - Measurement (range)
 
-!!! note
-
-    Float atribute is not available while creating URL alias name pattern.
-
 | Type | Returned value | Example|
 |---|---|---|
 | Checkbox | Label of the checkbox is checked | wireless |
 | Color | Hex code value | 8b0000 |
 | Integer | Integer | 26 |
+| Selection | Selected value with configured separator | children-infants |
 | Measurement (single) | Single value and unit | 256gb |
 | Measurement (range) | Value unit and minimum/maximum values | 20-25cm|
-| Selection | Selected value with configured separator | children-infants |
 
 You can use many attributes identifiers as well as fields identifiers in the URL alias pattern field. 
 
-Having keyword-rich URLs also improves the product's visibility in search engine results and boost the page's ranking in search results.
+Having keyword-rich URLs also improves the product's visibility in search engine results and boosts the page's ranking in search results.
 
 ## Create custom URL
 
