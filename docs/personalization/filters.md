@@ -48,7 +48,7 @@ You can exclude categories from the recommendation response by providing fixed c
 
 |Exclusion name|Function|
 |---|---|
-|Exclude category of the context item|Excludes items in the recommendation response from the same categories as the context item in the recommendation request. Use this exclusion if you do not want to recommend items from the category of the currently rendered item. For example, if the customer is browsing items from the *TV* category, you can ensure that recommendation boxes do not display recommendations from this category. This is automatically defined from the context.|
+|Exclude category of the context item|Excludes items in the recommendation response from the same categories as the context item in the recommendation request. Use this exclusion if you don't want to recommend items from the category of the currently rendered item. For example, if the customer is browsing items from the *TV* category, you can ensure that recommendation boxes don't display recommendations from this category. This is automatically defined from the context.|
 |Exclude category|Defines lists of categories which should not be recommended in a scenario. Excludes the category that is last in the path. For example, in the following category path: *Furniture/Living room/Sofas*, all items from the *Sofas* category are excluded for this scenario. You can add many categories.|
 
 ### Commerce-specific filters
@@ -57,17 +57,17 @@ The following filters are only applicable in Commerce use cases.
 
 |Filter|Requirements and restrictions|
 |---|---|
-|No top-selling items|When you activate this filter, items that come from the top selling model (even if the model itself is not linked to this scenario) are not placed on the recommendations list. This way you can stop promoting products that are already popular. If you apply this filter to a top selling scenario as it will filter out all recommendations.|
+|No top-selling items|When you activate this filter, items that come from the top selling model (even if the model itself isn't linked to this scenario) aren't placed on the recommendations list. This way you can stop promoting products that are already popular. If you apply this filter to a top selling scenario as it will filter out all recommendations.|
 |Item price should be equal or higher than the price of the context product|You can use this filter to filter out items that could be more attractive to the user from the recommendation list. It compares prices exported to the Personalization service with metadata of the currently viewed product.|
 |Minimum price of the recommended product|You can use this filter to remove cheap and popular items from the recommendation list. For example, as an optometrist you might prefer showing the most popular designer frames on the home page and avoid promoting insurance subsidized cheap models or cleaning cloths. Again, this filter relies on product metadata and uses prices exported to the Personalization service.|
-|Do not recommend if price unknown|If a product's price is not available then the product is not recommended.|
-|Do not recommend items the user already purchased|When you activate this filter, the user is not recommended the purchased products again.|
-|Do not recommend product variants| By default, this filter is deactivated: only [product variants](../pim/products.md#product-variants) are recommended and the user is not recommended base products. When you activate this filter, a recommendation response includes base products, while product variants are excluded. The filter does not affect products that have no variants. |
+|Do not recommend if price unknown|If a product's price is unavailable then the product isn't recommended.|
+|Do not recommend items the user already purchased|When you activate this filter, the user isn't recommended to purchase products again.|
+|Do not recommend product variants| By default, this filter is deactivated: only [product variants](../pim/products.md#product-variants) are recommended and base products aren't recommended. When you activate this filter, a recommendation response includes base products, while product variants are excluded. The filter does not affect products that have no variants. |
 
 !!! note "Product variants support"
 
     The **Do not recommend product variants** checkbox is visible only if your version of [[= product_name =]] [supports product variants]([[= developer_doc =]]/release_notes/ibexa_dxp_v4.2/#product-variants). 
-    Also, it is not visible before [data is imported](content_import.md) into the Personalization service, therefore you may need to revisit the scenario configuration page when data import completes.
+    Also, it is invisible before [data is imported](content_import.md) into the Personalization service, therefore you may need to revisit the [scenario configuration](configure_scenarios.md) page when data import completes.
 
 ## Category path filters
 
