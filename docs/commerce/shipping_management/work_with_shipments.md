@@ -1,5 +1,5 @@
 ---
-description: Review shipment information.
+description: Work with shipments and view shipment details.
 edition: commerce
 ---
 
@@ -24,6 +24,10 @@ Available statuses are:
 
 ![Shipment status](shipment_status.png)
 
+!!! note "Shipment statuses"
+
+    Shipment statuses visible in the **Status** filter field are defined in the [Shipment workflow]([[= developer_doc =]]/commerce/shipping_management/configure_shipment/#configure-shipment-workflow).
+
 To view shipment status:
 
 1\. In the left panel, go to **Commerce** -> **Shipments**.
@@ -46,15 +50,17 @@ Available filters are:
 
 To view the details of a shipment, click its line in the shipment list.
 
-On the shipment details screen, you can view a summary of information about the shipment. Shipment details include basic information about the shipment and the method used, total value, customer details, shipping address and order ID.
+You can see an overview of the shipment's details on the shipment details screen. 
+
+Shipment details include basic information about the shipment, customer details, shipping address, total value, order ID and the date of the last update.
 
 ![Shipment detail view](shipment_detail_view.png)
 
 ## Change shipment status
 
-If your [user Role](work_with_permissions.md) has the `Payment/Edit` permission, you can change the status of an existing shipment.
+If your [user Role](work_with_permissions.md) has the `Payment/Edit` permission, you can change the status of an existing shipment:
 
-- "Pending" -> "Ready to ship" - click **Prepare** button and confirm by clicking **Change** button. 
-- "Ready to ship" -> "Shipped" - click **Send** button and confirm by clicking **Change** button.
-- "Shipped" -> "Delivered" - click **Deliver** button and confirm by clicking **Change** button.
+- "Pending" -> "Ready to ship" - click **Prepare** button, then click **Change** to confirm. 
+- "Ready to ship" -> "Shipped" - click **Send** button, then click **Change** to confirm. 
+- "Shipped" -> "Delivered" - click **Deliver** button, then click **Change** to confirm. 
 
