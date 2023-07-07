@@ -50,7 +50,7 @@ On the **Basic** tab, set values in the following fields:
 - **Product Types to be displayed** – Select the type of products to be displayed on the list.
 - **Limit** – Set the number of products to be displayed.
 
-On the **Design** tab, in the **View** field, select the layout be used to present a list of products and submit your changes.
+On the **Design** tab, in the **View** field, select the layout to be used to present a list of products and submit your changes.
 
 ## Catalog block
 
@@ -149,7 +149,7 @@ On the **Basic** tab, set values in the following fields:
 - **Name** – Enter a name for the Page block.
 - **Webhook link** - Enter the link for the Ibexa Connect webhook.
 
-On the **Design** tab, in the **View** field, select the template be used to present the webhook.
+On the **Design** tab, in the **View** field, select the template to be used to present the webhook.
 
 !!! caution "Using Ibexa Connect scenario block"
     
@@ -164,7 +164,7 @@ On the **Basic** tab, set values in the following fields:
 - **Product Types to be displayed** – Select the type of products to be displayed on the list.
 - **Limit** – Set the number of products to be displayed.
 
-On the **Design** tab, in the **View** field, select the layout be used to present a list of products and submit your changes.
+On the **Design** tab, in the **View** field, select the layout to be used to present a list of products and submit your changes.
 
 ## Last viewed block
 
@@ -175,7 +175,7 @@ On the **Basic** tab, set values in the following fields:
 - **Product Types to be displayed** – Select the type of products to be displayed on the list.
 - **Limit** – Set the number of products to be displayed.
 
-On the **Design** tab, in the **View** field, select the layout be used to present a list of products and submit your changes.
+On the **Design** tab, in the **View** field, select the layout to be used to present a list of products and submit your changes.
 
 ## Personalized block
 
@@ -199,7 +199,7 @@ On the **Basic** tab, set values in the following fields:
 
     Due to a technical limitation, content browser does not display product variants.
 
-On the **Design** tab, in the **View** field, select the layout be used to present a list of products and submit your changes.
+On the **Design** tab, in the **View** field, select the layout to be used to present a list of products and submit your changes.
 
 ## Recently added block
 
@@ -209,7 +209,7 @@ On the **Basic** tab, set values in the following fields:
 - **Product Types to be displayed** – Select the type of products to be displayed on the list.
 - **Display limit** – Set the number of products to be displayed.
 
-On the **Design** tab, in the **View** field, select the layout be used to present a list of products and submit your changes.
+On the **Design** tab, in the **View** field, select the layout to be used to present a list of products and submit your changes.
 
 ## RSS block
 
