@@ -58,7 +58,7 @@ Shipment details include basic information about the shipment, customer details,
 
 ## Change shipment status
 
-If your [user Role](work_with_permissions.md) has the `Payment/Edit` permission, you can change the status of an existing shipment:
+If your [user Role](work_with_permissions.md) has the `Shipment/Edit` permission, you can change the status of an existing shipment:
 
 - "Pending" -> "Ready to ship" - click **Prepare** button, then click **Change** to confirm. 
 - "Ready to ship" -> "Shipped" - click **Send** button, then click **Change** to confirm. 
