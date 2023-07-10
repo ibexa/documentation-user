@@ -8,17 +8,21 @@ If your [user Role](../permission_management/work_with_permissions.md) has the `
 
 1\. In the left panel, go to **Product catalog** -> **Product Types** and click **Create**.
 
-![Adding a Product Type](img/create_product_type.png)
+2\. From the drop-down list choose "Physical" or "Virtual" type and click **Add**.
 
-2\. Fill in basic product information: name, identifier and description.
+![Creating virtual Product Type](virtual_product_type.png)
+
+3\. Fill in basic product information: name, identifier and description.
+
+![Adding a Product Type](create_product_type.png)
 
 Each product has a product code that must be unique. It identifies the product in the system.
 Product code can have up to 64 characters. It can contain only letters, numbers, underscores, and dashes.
 
-3\. Add Fields that describe the product by dragging them from the **Field types** 
+4\. Add Fields that describe the product by dragging them from the **Field types** 
 area to a section on the left, and then [configure them](../content_management/configure_ct_field_settings.md).
 
-4\. Add attributes by dragging them from the toolbox on the right.
+5\. Add attributes by dragging them from the toolbox on the right.
 
 ## Work with product attributes
 

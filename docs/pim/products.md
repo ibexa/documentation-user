@@ -21,6 +21,14 @@ can store different types of information.
 For example, products of publication type contain different Fields than white 
 appliances.
 
+You can choose between two available types: Physical and Virtual:
+
+- Physical - tangible products.
+They can use measurement attributes. They require shipment in the online purchase process.
+Examples: heaters, laptops, phones.
+- Virtual - non-tangible items. They can be sold individually, or as part of a product bundle.
+They do not require shipment in the online process. Examples: memberships, services, warranties. 
+
 A Product Types also defines the attributes that all products of this type can have.
 
 If your [user Role](../permission_management/work_with_permissions.md) has the `ProductType/Edit` 
