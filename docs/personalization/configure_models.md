@@ -4,7 +4,7 @@ description: Configure models by setting up a timeframe, segments and other sett
 
 # Configure models
 
-If your [user Role](../permission_management/permissions_and_users.md) has 
+If your [user role](../permission_management/permissions_and_users.md) has 
 the `Personalization/Edit` permission that includes your website, you can modify 
 model settings according to your requirements.
 
@@ -63,7 +63,7 @@ the **Trigger model build** button.
 On the list of models, the model's status changes to `Build in progress`. 
 When the build come our successful, the status changes to `Active`.
 
-![Models](img/models_edit.png "Models")
+![Model build status](img/models_edit.png "Model build status")
 
 Possible model statuses:
 
