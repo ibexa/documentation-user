@@ -17,7 +17,7 @@ Payment methods describe the way store customers pay for their orders during the
     
     Payment methods created in legacy Commerce cannot be migrated when you upgrade. You have to define them from scratch.
 
-## Create a new payment method 
+## Create new payment method 
 
 1\. In the left panel, go to **Commerce** -> **Payment methods**, and click **Create**.
 
@@ -31,7 +31,7 @@ Payment methods describe the way store customers pay for their orders during the
 
 5\. Click **Create** to save your changes.
 
-## Edit an existing payment method
+## Edit existing payment method
 
 1\. In the left panel, go to **Commerce** -> **Payment methods**.
 
@@ -45,7 +45,7 @@ Payment methods describe the way store customers pay for their orders during the
 
 5\. Click **Update** to save your changes.
 
-## Delete an existing payment method
+## Delete existing payment method
 
 1\. In the left panel, go to **Commerce** -> **Payment methods**.
 

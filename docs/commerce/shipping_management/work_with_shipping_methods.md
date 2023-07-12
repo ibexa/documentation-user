@@ -19,7 +19,7 @@ Example shipping methods are overnight delivery, self-pickup, DHL and so on.
 
 "Flat rate" shipping means delivering goods at a fixed, predefined cost, regardless of the number and type of items in the cart. 
 
-## Create a new shipping method 
+## Create new shipping method 
 
 1\. In the left panel, go to **Commerce** -> **Shipping methods**, and click **Create**.
 
@@ -41,7 +41,7 @@ This value is then displayed during checkout and added to the total order amount
 
 5\. Click **Create** to save your changes.
 
-## Edit an existing shipping method
+## Edit existing shipping method
 
 1\. In the left panel, go to **Commerce** -> **Shipping methods**.
 
@@ -55,7 +55,7 @@ This value is then displayed during checkout and added to the total order amount
 
 5\. Click **Update** to save your changes.
 
-## Delete an existing shipping method
+## Delete existing shipping method
 
 1\. In the left panel, go to **Commerce** -> **Shipping methods**.
 

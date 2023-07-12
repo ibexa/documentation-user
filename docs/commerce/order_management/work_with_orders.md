@@ -5,10 +5,10 @@ edition: commerce
 
 # Work with orders
 
-In Ibexa DXP, you can view a list of orders and modify their statuses on the **Orders** screen.
+In [[= product_name =]], you can view a list of orders and modify their statuses on the **Orders** screen.
 By default, depending on your permissions, you can access your own orders or all the orders that exist in the system.
 
-## Filtering orders
+## Filter orders in order list
 
 1. In the left panel, go to **Commerce** -> **Orders**.
 2. Narrow down the list of displayed orders in one of the following ways:
@@ -31,7 +31,7 @@ Available filters are:
 
 ![Order list](order_list.png)
 
-## Viewing order details
+## View order details
 
 To view the details of an order, click its line in the order list.
 
@@ -50,7 +50,7 @@ Where fields have the following meaning:
 - **Taxes** - a total value of all taxes, including those that apply to the selected shipping method and the products
 - **Total value (gross)** - a total value of the order, including all discounts, taxes, and service charges
 
-## Changing order status
+## Change order status
 
 If your [user Role](work_with_permissions.md) includes the `Order/Update` permission, you can change the status of an existing order:
 confirm it if the order has "Pending" status, or complete it when it is in "Processing" status.
