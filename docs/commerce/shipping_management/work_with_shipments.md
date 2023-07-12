@@ -5,10 +5,8 @@ edition: commerce
 
 # Work with shipments
 
-In Ibexa DXP, on the **Shipments** screen, you can view a list of shipments and modify their statuses.
+In [[= product_name =]], on the **Shipments** screen, you can view a list of shipments and modify their statuses.
 You can access shipments for your own orders or all the shipments that exist in the system, depending on your permissions.
-
-![Shipment list](shipment_list.png)
 
 ## View shipment status
 
@@ -22,7 +20,7 @@ Available statuses are:
 - Delivered
 - Cancelled
 
-![Shipment status](shipment_status.png)
+![Shipment list](shipment_list.png)
 
 !!! note "Shipment statuses"
 
@@ -37,6 +35,10 @@ To view shipment status:
 - search for shipments by typing part of order ID or identifier in the search box
 - filter shipments by selecting one or more filters
 
+## Filter shipments in shipment list
+
+You can use filters to narrow down the list of shipments.
+
 Available filters are:
 
 - Shipping method - method used for the shipment
@@ -46,11 +48,15 @@ Available filters are:
 
 ![Shipment filters](shipment_filters.png)
 
+To filter the list, set one of the filters and click `Apply` button.
+
+You can also clear all chosen filters - to do it, click `Clear filters`. 
+
 ## View shipment details
 
 To view the details of a shipment, click its line in the shipment list.
 
-You can see an overview of the shipment's details on the shipment details screen. 
+On the shipment details screen, you can see an overview of the shipment's details. 
 
 Shipment details include basic information about the shipment, customer details, shipping address, total value, order ID and the date of the last update.
 
