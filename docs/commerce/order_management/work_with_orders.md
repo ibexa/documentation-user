@@ -50,6 +50,11 @@ Where fields have the following meaning:
 - **Taxes** - a total value of all taxes, including those that apply to the selected shipping method and the products
 - **Total value (gross)** - a total value of the order, including all discounts, taxes, and service charges
 
+!!! note "Ordering virtual products"
+
+    If the order includes only virtual products then the Shipment and Shipping address sections are not available.
+    Virtual products don't require shipment when they are the only product in a purchase.
+
 ## Change order status
 
 If your [user Role](work_with_permissions.md) includes the `Order/Update` permission, you can change the status of an existing order:
