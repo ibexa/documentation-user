@@ -77,13 +77,15 @@ nav:
         - Product Information Management: pim/products.md
         - Create product types: pim/create_product_types.md
         - Create and edit products: pim/create_edit_product.md
+        - Create virtual products: pim/create_virtual_product.md
         - Work with product assets: pim/work_with_product_assets.md
         - Work with product categories: pim/work_with_product_categories.md
         - Work with product variants: pim/work_with_product_variants.md
         - Work with product prices: pim/manage_prices.md
         - Work with product availability and stock: pim/manage_availability_and_stock.md
         - Work with catalogs: pim/work_with_catalogs.md
-        - Work with currencies: 'pim/manage_currencies.md'
+        - Work with currencies: pim/manage_currencies.md
+        - Work with product page URLs: pim/work_with_product_page_urls.md
     - Customer management:
         - Customer Portal: customer_management/customer_portal.md
         - Create and edit Customer Portal: customer_management/build_customer_portal.md

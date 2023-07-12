@@ -54,8 +54,9 @@ Where fields have the following meaning:
 
     If the order includes only virtual products then the Shipment and Shipping address sections are not available.
     Virtual products don't require shipment when they are the only product in a purchase.
+ 
 
-## Change order status
+## Changing order status
 
 If your [user Role](work_with_permissions.md) includes the `Order/Update` permission, you can change the status of an existing order:
 confirm it if the order has "Pending" status, or complete it when it is in "Processing" status.
