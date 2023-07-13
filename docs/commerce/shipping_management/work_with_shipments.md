@@ -10,7 +10,7 @@ You can access shipments for your own orders or all the shipments that exist in 
 
 ## View shipment status
 
-Each shipment has a status due to the stage it is currently at.
+Each shipment has a status due to the stage it's currently at.
 
 Available statuses are:
 
