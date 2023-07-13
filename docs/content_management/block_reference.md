@@ -23,6 +23,7 @@ The following blocks are provided with a clean installation of [[= product_name 
 |[Ibexa Connect](#ibexa-connect-block)|Retrieves and displays data from an Ibexa Connect webhook. |
 |[Last purchased](#last-purchased-block)|Displays a list of products that were recently purchased from PIM. |
 |[Last viewed](#last-viewed-block)|Displays a list of products from PIM that were recently viewed. |
+|[Orders](#orders-block)|Displays a list of orders associated with a particular company or individual customer. |
 |[Personalized](#personalized-block)|Displays a list of Content items/products that are recommended to end users when specific scenarios are triggered. |
 |[Product collection](#product-collection-block)|Displays a list of specifically selected products.|
 |[Recently added](#recently-added-block)|Displays a list of products that were recently added to PIM. |
@@ -176,6 +177,18 @@ On the **Basic** tab, set values in the following fields:
 - **Limit** – Set the number of products to be displayed.
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of products and submit your changes.
+
+## Orders block
+
+On the **Basic** tab, set values in the following fields:
+
+- **Name** – Enter a name for the Page block.
+- **Columns** - Select columns that should be displayed in the orders table. Some columns are preselected, example: Order ID, Customer name, Total value etc.
+- **Statuses** - Set the statuses of orders that should be included in the list.
+- **Limit** - Set the number of orders to be displayed.
+- **Sort order** - Set the sort order for the displayed orders.
+
+On the **Design** tab, in the **View** field, select the layout to be used to present a list of orders and submit your changes.
 
 ## Personalized block
 
