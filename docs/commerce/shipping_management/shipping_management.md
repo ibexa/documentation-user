@@ -18,5 +18,6 @@ The Shipping management module interacts with other packages of the system,
 so that shipment processing is cancelled automatically when the customer cancels their order.
 
 [[= cards([
-    "commerce/shipping_management/work_with_shipping_methods"
-], columns=3) =]] 
+    "commerce/shipping_management/work_with_shipping_methods",
+    "commerce/shipping_management/work_with_shipments"
+], columns=2) =]] 

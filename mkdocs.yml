@@ -69,6 +69,7 @@ nav:
         - Order management: commerce/order_management/order_management.md
         - Work with orders: commerce/order_management/work_with_orders.md
         - Shipping management: commerce/shipping_management/shipping_management.md
+        - Work with shipments: commerce/shipping_management/work_with_shipments.md
         - Work with shipping methods: commerce/shipping_management/work_with_shipping_methods.md 
         - Payment management: commerce/payment/payment_management.md
         - Work with payments: commerce/payment/work_with_payments.md
