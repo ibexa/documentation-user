@@ -5,10 +5,10 @@ edition: commerce
 
 # Work with orders
 
-In Ibexa DXP, you can view a list of orders and modify their statuses on the **Orders** screen.
+In [[= product_name =]], you can view a list of orders and modify their statuses on the **Orders** screen.
 By default, depending on your permissions, you can access your own orders or all the orders that exist in the system.
 
-## Filtering orders
+## Filter orders in order list
 
 1. In the left panel, go to **Commerce** -> **Orders**.
 2. Narrow down the list of displayed orders in one of the following ways:
@@ -31,7 +31,7 @@ Available filters are:
 
 ![Order list](order_list.png)
 
-## Viewing order details
+## View order details
 
 To view the details of an order, click its line in the order list.
 
