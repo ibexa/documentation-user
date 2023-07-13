@@ -20,6 +20,7 @@ The following blocks are provided with a clean installation of [[= product_name 
 |[Embed](#embed-block)|Embeds a Content item of any Content Type on the Page. |
 |[Form](#form-block)|Embeds a Form Content item that you select from the Content Structure. |
 |[Gallery](#gallery-block)|Displays all images contained in a selected folder. |
+|[Ibexa Connect](#ibexa-connect-block)|Retrieves and displays data from an Ibexa Connect webhook. |
 |[Last purchased](#last-purchased-block)|Displays a list of products that were recently purchased from PIM. |
 |[Last viewed](#last-viewed-block)|Displays a list of products from PIM that were recently viewed. |
 |[Orders](#orders-block)|Displays a list of orders associated with a particular company or individual customer. |
@@ -141,6 +142,19 @@ On the **Basic** tab, set values in the following fields:
 - **Folder** - Click **Select content**, navigate through the content, select a folder containing images to display and click **Confirm**.
 After submitting the settings, all images in the folder will appear in the Gallery block.
 Note that selecting a folder containing Content items other than images results in displaying only a link to the folder they are stored in.
+
+## Ibexa Connect block
+
+On the **Basic** tab, set values in the following fields:
+
+- **Name** – Enter a name for the Page block.
+- **Webhook link** - Enter the link for the Ibexa Connect webhook.
+
+On the **Design** tab, in the **View** field, select the template to be used to present the webhook.
+
+!!! caution "Using Ibexa Connect scenario block"
+    
+    For more information about using Ibexa Connect scenario block, see [Ibexa Connect scenario block]([[= developer_doc =]]/content_management/pages/ibexa_connect_scenario_block/) in developer documentation.
 
 ## Last purchased block
 

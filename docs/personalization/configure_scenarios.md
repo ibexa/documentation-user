@@ -71,11 +71,13 @@ With filters you can eliminate, demote or promote specific recommendation result
 
 ![General filters](img/scenario_filters.png "General filters in a scenario")
 
-For a complete list of available general filter types and their meaning, see [Filters](filters.md#user-profile-based-filters).
+For a complete list of available general filter types and their meaning, see [General filters](filters.md#general-filters).
+
+## Configure category filters
 
 For each of the importance levels from the strategy configuration matrix, you can 
 configure category filters. 
-Click the **Configure** icon and make necessary changes.
+Click the **Configure** icon next to an importance level name and make necessary changes.
 
 ![Category path filters](img/categorypath_filter.png "Category path filters in strategy settings")
 
