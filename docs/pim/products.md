@@ -11,11 +11,11 @@ PIM's features are available from the left menu.
 
 ![PIM in the menu](img/catalog_menu.png)
 
-To create a product you must first decide which Product Type it belongs to.
+To create a product you must first decide which product type it belongs to.
 
-## Product Types
+## Product types
 
-Product Types represent categories that a product can belong to.
+Product types represent categories that a product can belong to.
 They define what combination of Fields is available in the product, and Fields 
 can store different types of information.
 For example, products of publication type contain different Fields than white 
@@ -27,7 +27,7 @@ You can choose between two available types: Physical and Virtual:
 They can use measurement attributes. They require shipment in the online purchase process.
 Examples: heaters, laptops, phones.
 - Virtual - non-tangible items. They can be sold individually, or as part of a product bundle.
-They do not require shipment in the online process. Examples: memberships, services, warranties. 
+They don't require shipment in the online process. Examples: memberships, services, warranties. 
 
 A Product Types also defines the attributes that all products of this type can have.
 
@@ -48,17 +48,17 @@ Available attribute types are:
 - Color - presented as a hex value
 - Float - represents a number with fractions
 - Integer - represents a number without fractions (a whole number)
-- Measurement (range) - measurement with a given unit and minimum/maximum values selectable per Product Type
+- Measurement (range) - measurement with a given unit and minimum/maximum values selectable per product type
 - Measurement (single) - measurement with a single value in given unit
 - Selection - one of a list of customizable options
 
 Each attribute belongs to an attribute group.
-An example of an attribute group can be dimensions (which consists of length, width, height, and so on).
+An example of an attribute group can be dimensions (which consists of length, width, and height).
 
 ## Products
 
-Products are instances of a particular Product Type.
-A product is an object that is based on a Product Type template.
+Products are instances of a particular product type.
+A product is an object that's based on a product type template.
 Products can have variants that you build around attributes.
 They can be categorized and organized into catalogs.
 
@@ -119,19 +119,19 @@ You can [create variants based on product attributes](work_with_product_variants
 ## Product prices
 
  You can [set a base price and custom prices](manage_prices.md) for the product and for its variants.
- Prices can differ depending on [customer group](../customer_management/manage_customers.md) and [currency](../pim/manage_currencies.md) and be applied according to rules.
+ Prices can differ depending on [customer group](../customer_management/manage_customers.md) and [currency](../pim/manage_currencies.md) and be applied according to the rules.
 
 ## Product availability and stock
 
 You can [control a product's availability](manage_availability_and_stock.md), which translates into 
-whether it is being offered for purchase, and the available stock.
+whether it's being offered for purchase, and the available stock.
 You can either set the exact number of product pieces available in stock or indicate 
 that availability is infinite, for example, for digital, downloadable products. 
 
 ## Product catalogs
 
 You can [create special catalogs](work_with_catalogs.md), for example, to differentiate the offering 
-that is presented to B2B and B2C users, retailers and distributors or different regions.
+that's presented to B2B and B2C users, retailers and distributors or different regions.
 Catalogs contain a sub-set of products from the system.
 
 ![Catalog menu with a sample catalog](img/catalog.png)
