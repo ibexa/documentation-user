@@ -3,13 +3,13 @@ description: Define new payment methods or modify existing ones.
 edition: commerce
 ---
 
-# work with payment methods
+# Work with payment methods
 
-It will be super.
+It is super.
 
 It is awesome.
 
-it's a test.
+It's a test.
 
 ## UJ is UTW
 
