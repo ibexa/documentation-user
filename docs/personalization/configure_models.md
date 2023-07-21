@@ -46,7 +46,7 @@ the necessary context.
 Do not confuse event history age with item age. 
 History age is the age of the user's footprint (for example, "User clicked on the product A 
 two weeks ago"). 
-Item age is the time over which the item is available in the shop ("How new is the item"). 
+Item age is the time over which the item is available in the web store ("How new is the item"). 
 The history is recorded automatically based on [event](event_types.md) tracking. 
 The item catalog must be filled separately as a result of [data import](content_import.md).
 

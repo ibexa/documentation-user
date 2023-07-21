@@ -126,10 +126,10 @@ structure of a website.
 If you need to represent available items of a website in different dimensions (taxonomies), 
 you can do this out of the box, by enriching the `categorypath` information of an item.
 
-For example, in a shop that sells furniture and plants, 
+For example, in a store that sells furniture and plants, 
 products can be structured based on website navigation. 
 Typically, customers would look for computer desks and get a list of recommendations 
-of all computer desks in the shop. 
+of all computer desks in the store. 
 When necessary, the Personalization service can also use another dimension 
 for filtering recommendations, for example, a "brand" dimension. 
 In this case, users would get recommendations for all items from the same "brand".

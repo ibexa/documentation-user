@@ -5,23 +5,21 @@ description: Products are containers that aggregate information about the items 
 # Products
 
 With **PIM**, [[= product_name =]] handles products offered in the website, 
-including their specifications, and pricing.
+including their specifications, attributes, assets, variants and pricing.
 
 PIM's features are available from the left menu.
 
-![PIM in the menu](img/catalog_menu.png)
+![PIM in the menu](img/catalog_menu.png "PIM in the menu")
 
 To create a product you must first decide which product type it belongs to.
 
 ## Product types
 
-Product types represent categories that a product can belong to.
-They define what combination of Fields is available in the product, and Fields 
-can store different types of information.
-For example, products of publication type contain different Fields than white 
-appliances.
+Product types are templates that contain a combination of [Fields](../content_management/content_model.md#fields-and-field-types) and [attributes](#attributes) that constitute a product definition.
+By default, each product type contains such Fields as name, specification, image or category, but you can change it as required.
+You need different product types, because products of type "Laptops" contain different Fields and attributes than those of type "White appliances".
 
-You can choose between two available types: Physical and Virtual:
+When you create a new product type, you can choose between two available product type flavors: Physical and Virtual:
 
 - Physical - tangible products.
 They can use measurement attributes. They require shipment in the online purchase process.
@@ -38,22 +36,10 @@ permission, you can [modify Product Types and add individual attributes or attri
 
 Attributes describe product characteristics.
 Customers can use them to filter and search for products.
+Attribute types define what kind of information you can store in an attribute.
+Typical product attribute examples include dimensions, weight, color, or format.
 
-Typical product attribute examples could include length, weight, color, or format.
-
-Attribute types define what type of information you can store in an attribute.
-Available attribute types are:
-
-- Checkbox
-- Color - presented as a hex value
-- Float - represents a number with fractions
-- Integer - represents a number without fractions (a whole number)
-- Measurement (range) - measurement with a given unit and minimum/maximum values selectable per product type
-- Measurement (single) - measurement with a single value in given unit
-- Selection - one of a list of customizable options
-
-Each attribute belongs to an attribute group.
-An example of an attribute group can be dimensions (which consists of length, width, and height).
+For more information, see [Work with product attributes](work_with_product_attributes.md).
 
 ## Products
 
@@ -76,7 +62,7 @@ Assets [can be assigned](work_with_product_assets.md) to the base product, and t
 When you create or edit a product, under the product name, you can see visual indication
 of what part of product information (tasks) you have completed, and what part is still missing.
 
-![Quick view of product completeness](img/product_completeness_bar.png)
+![Quick view of product completeness](img/product_completeness_bar.png "Quick view of product completeness")
 
 Here you can see full information about completed tasks in the product view's **Completeness** tab.
 
@@ -85,11 +71,12 @@ This tab lists all tasks required for product configuration, including:
 - content (such as images and descriptions)
 - attributes
 - assets
+- variants (if any of the attributes is enabled for variants)
 - availability
 - prices in different currencies
 - translations
 
-![Product completeness screen](img/product_completeness.png)
+![Product completeness screen](img/product_completeness.png "Product completeness screen")
 
 You can click the edit button next to an unfinished task in the Completeness table
 to move directly to the screen where you can add the missing information.
@@ -134,4 +121,4 @@ You can [create special catalogs](work_with_catalogs.md), for example, to differ
 that's presented to B2B and B2C users, retailers and distributors or different regions.
 Catalogs contain a sub-set of products from the system.
 
-![Catalog menu with a sample catalog](img/catalog.png)
+![Catalog menu with a sample catalog](img/catalog.png "Catalog menu with a sample catalog")
