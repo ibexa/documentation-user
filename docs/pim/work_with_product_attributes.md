@@ -20,7 +20,7 @@ Available attribute types are:
 - Measurement (single) - measurement with a single value in given unit
 - Selection - one of a list of customizable options
 
-If the default list of attributes is not sufficient, ask your development team to [create a custom attribute type](https://doc.ibexa.co/en/latest/pim/create_custom_attribute_type/).
+If the default list of attributes is not sufficient, ask your development team to [create a custom attribute type]([[= developer_doc =]]/pim/create_custom_attribute_type/).
 
 ## Create attribute groups
 

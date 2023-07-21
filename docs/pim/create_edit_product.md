@@ -14,7 +14,7 @@ of information in their respective [Fields](../content_management/content_model.
 
 You can create products by using either manual or bulk method.
 Bulk method can be used only at the developer level. 
-See [Products](https://doc.ibexa.co/en/latest/pim/product_api/#products) for a technical guide on how to do this.
+See [Products]([[= developer_doc =]]/pim/product_api/#products) for a technical guide on how to do this.
 
 1\. Click **Product catalog** -> **Products**. 
 
@@ -44,4 +44,4 @@ After you create a product, you can [add image assets to a product](work_with_pr
 
     Feature availability may differ depending on the specifics of your installation.
 
-For in-depth information, see [Products](https://doc.ibexa.co/en/latest/pim/products/) in developer documentation.
+For in-depth information, see [Products]([[= developer_doc =]]/pim/products/) in developer documentation.
