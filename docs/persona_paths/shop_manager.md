@@ -1,3 +1,7 @@
+---
+description: Perform tasks related to running a virtual store.
+---
+
 # Shop manager role
 
 When you run a digital presence of your store, it is important that you maintain the 

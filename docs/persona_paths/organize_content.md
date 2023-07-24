@@ -1,5 +1,5 @@
 ---
-description: Organize the content of your website by copyingor moving Content items, controlling Locations and URLs and applying classification techniques.
+description: Organize the content of your website by copying or moving Content items, controlling Locations and URLs and applying classification techniques.
 ---
 
 # Organize content
