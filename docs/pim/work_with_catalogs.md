@@ -17,7 +17,9 @@ To create a catalog:
 3. Select filters that decide which products are included in the catalog.
 4. Click **Create**.
 
-When you create a catalog, it is draft mode.
+![Creating a new catalog](img/catalog_create.png "Creating a new catalog")
+
+After you create a catalog, it is draft mode.
 To make the block available, for example, in page blocks, you must publish it.
 
 1. In the **Catalogs** page, click the name of a catalog that you want to publish.
@@ -36,7 +38,7 @@ You can narrow down this selection by applying the following filters from the **
 - Type
 - and additionally, filters based on all configured product attributes
 
-![Adding filters to catalog](img/catalogs_filters.png)
+![Adding filters to catalog](img/catalogs_filters.png "Adding filters to catalog")
 
 The **Products** section at the bottom of the catalog screen shows a preview of which products fit the current filters.
 The list is updated automatically when you add or modify filters.
@@ -44,7 +46,7 @@ You can also remove selected filters there.
 
 You can view all products in a catalog in its **Products** tab:
 
-![List of products in a catalog](img/catalogs_product_list.png)
+![List of products in a catalog](img/catalogs_product_list.png "List of products in a catalog")
 
 ## Copy catalogs
 

@@ -22,7 +22,7 @@ To generate variants:
 
 1. Go to the **Variants** tab in product view and click **Generate variants**.
 
-![Generating product variants](img/product_variants_generate.png)
+![Generating product variants](img/product_variants_generate.png "Generating product variants")
 
 2\. For each attribute listed, select the values you want to create variants for.
 
@@ -35,7 +35,7 @@ You can now see a list of all possible variants for the selected attribute value
 You can delete any generated product variant.
 To do it, select one or more variants in the list and click the **Delete** button.
 
-![Product variant list with option to delete a variant](img/product_variants_delete.png)
+![Product variant list with option to delete a variant](img/product_variants_delete.png "Product variant list with option to delete a variant")
 
 ### Manually create variants
 

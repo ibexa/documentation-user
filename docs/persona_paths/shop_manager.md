@@ -1,6 +1,6 @@
-# Shop manager role
+# Store manager role
 
-When you run a digital presence of your store, it is important that you maintain the 
+When you run a web store, it is important that you maintain the 
 right turnover of stock while winning new customers and retaining existing ones, 
 and ultimately, bringing profit to the company. 
 In [[= product_name =]] universe, it means that you must focus on many things, 

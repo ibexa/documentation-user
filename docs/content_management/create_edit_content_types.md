@@ -51,10 +51,10 @@ is propagated to every Content item of this type.
 |Description|Additional information that is displayed when a Content item is created based on this type.|Optional|
 |Content name pattern|Rules for creating a name for the Content item.|Optional|
 |URL alias name pattern|Rules for creating the URL alias for a Content item.|Optional|
-|Container|When checked, Content of this Type can serve as a container in the Content tree.|Optional|
-|Sort children by default by|Criterion by which children of this content will be sorted in the tree.|Required if **Container** is checked|
-|Sort children by default in order|Order in which the children will be sorted (ascending or descending).|Required if **Container** is checked|
-|Make content available even with missing translations|When checked, content of this Type will by default be always available, even if it does not have a language version corresponding to the current SiteAccess.|Optional|
+|Container|When checked, Content of this Type can serve as a container in the Content Tree.|Optional|
+|Sort children by default by|Criterion by which children of this content are sorted in the tree.|Required if **Container** is checked|
+|Sort children by default in order|Order in which the children are sorted (ascending or descending).|Required if **Container** is checked|
+|Make content available even with missing translations|When checked, content of this Type are by default always available, even if it does not have a language version corresponding to the current SiteAccess.|Optional|
 
 !!! note "Rules for creating patterns"
 
@@ -72,7 +72,7 @@ is propagated to every Content item of this type.
 To add a Field, from the **Field types** area, drag the required Field tile to 
 a section on the left. 
 To reorder Fields, drag and drop them within the section on the left. 
-To remove Fields from the section, click the X icon in the Field's header.
+To remove Fields from the section, click the **X** icon in the Field's header.
 
 ![Adding a Field](img/add_field.png "Adding a Field")
 

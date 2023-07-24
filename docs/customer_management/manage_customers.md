@@ -1,12 +1,12 @@
 ---
-description: You can manage and view customers and organizations' accounts in your system, including their shop activities such as orders.
+description: You can manage and view customers and organizations' accounts in your system, including their web store activities such as orders.
 edition: experience
 ---
 
 # Customer management
 
 In the Back Office, you can manage members of your team,
-customers and organizations' accounts in your system, including their shop activities such as orders.
+customers and organizations' accounts in your system, including their web store activities such as orders.
 
 ## Create new company
 
@@ -80,7 +80,7 @@ or use drag and drop to upload a file with a list of emails.
 You also have to assign a Role to each new member from a drop-down list.
 Click **Send** to send out invitations.
 
-Invited users will receive an email message with a registration link.
+Invited users receive an email message with a registration link.
 With it, they can register and create their account in [the Customer Portal](customer_portal.md).
 
 ![Register in Customer Portal](img/cp_register_account_portal.png)

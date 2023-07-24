@@ -75,6 +75,7 @@ nav:
     - PIM:
         - Product Information Management: pim/products.md
         - Create product types: pim/create_product_types.md
+        - Work with product attributes: pim/work_with_product_attributes.md
         - Create and edit products: pim/create_edit_product.md
         - Work with product assets: pim/work_with_product_assets.md
         - Work with product categories: pim/work_with_product_categories.md

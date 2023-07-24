@@ -213,7 +213,7 @@ The following results are possible for the products shown in the diagram:
 |color=lime|Value "lime" is found in the first group. There are products in this group. If a model has any of them, they are recommended.|
 |color=sand|Value "sand" is found in the fourth group. There are no products in the group, therefore nothing will be recommended by this model. The fallback model could be used if configured.|
 |color=white|Value "white" cannot be found in any of groups. The main model is used. Items from all submodel groups can appear in the result (as if the submodels were not configured at all).|
-|no attribute specified|The main model is used. The request is handled as if submodels were not configured at all. Products from the whole shop could appear in the recommendation list.|
+|no attribute specified|The main model is used. The request is handled as if submodels were not configured at all. Products from the whole store could appear in the recommendation list.|
 
 ### Numeric attributes
 
