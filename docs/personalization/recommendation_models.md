@@ -37,7 +37,7 @@ in the selected category and/or subcategories).
 #### Predictive
 
 A predictive popularity model predicts users' purchase behavior and trends, and recommends items based on this behavior.
-The model analyzes trends within a configured period (for example, within a 30-day timeframe), predicts that a new item may have the same trend, and displays the predicted item in recommendations.
+The model analyzes trends within a configured time period (for example, within a 30-day timeframe), predicts that a new item may have the same trend, and displays the predicted item in recommendations.
 
 ### Collaborative models
 
@@ -96,7 +96,7 @@ It's best suited for landing or category pages.
 
 #### Recently added
 
-This model returns a list of items from the recently added items in a configured period.
+This model returns a list of items from the recently added items in a configured time period.
 For example, if you set item age to 10 days, the model returns items which were added to the database 10 days ago (recently added items). 
 
 It allows injecting new items (products, articles, an so on), to the recommendation while the "History-based" models 
@@ -202,7 +202,7 @@ The submodel is then omitted.
 
     You can combine recommendations from two different submodels, regardless of their type, within a single recommendation call.
     A response to such call contains only recommendations that come from both submodels at the same time.
-    For more information, see [Customizing the recommendation request]([[= developer_doc =]]/personalization/api_reference/recommendation_api/#submodel-parameters) in developer documentation.
+    For more information, see [Customizing the recommendation request]([[= developer_doc =]]/personalization/api_reference/recommendation_api/#submodel-parameters) in the developer documentation.
 
 ### Nominal attributes
 
