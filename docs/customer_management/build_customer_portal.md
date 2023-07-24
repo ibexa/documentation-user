@@ -54,8 +54,6 @@ To do it, click **Save draft**.
 You can have multiple Customer Portal pages available in one Customer Portal by adding them under one Customer Portal container.
 If company members have sufficient `content/read` Policies and have the portal assigned to their Customer Group, they will see the changes in the left menu.
 
-To be able to see the multipage display in the Page Builder, you also need to be a member of the company with sufficient permissions.
-
 ![Multiple pages in one portal](img/cp_multiple_pages.png)
 
 You can manipulate the order of pages in a menu by assigning priority to them in the **Customer Portal** container under **View**->**Sub-items**.
