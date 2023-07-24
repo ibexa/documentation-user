@@ -27,7 +27,7 @@ area to the **Field definitions** section, and then [configure them](../content_
     When you create a new product type, you must define VAT rates that apply to all products of this type.
     In the **Field definitions** section, expand **Product Specification** and select categories for all applicable regions.
 
-5\. Add attributes by dragging them from the **Library** area to to the **Attributes** section.
+5\. Add attributes by dragging them or their groups from the **Library** area to the **Attributes** section.
 
 When you define attributes for the product type, you can add or remove either whole attribute groups or individual attributes. 
 
