@@ -1,5 +1,5 @@
 ---
-description: Perform tasks related to running a virtual store.
+description: Perform tasks related to running an electronic presence of your store.
 ---
 
 # Shop manager role
