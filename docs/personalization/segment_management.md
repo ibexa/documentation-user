@@ -11,12 +11,12 @@ Information about user segment is provided in each event which comes from the tr
 
 With segment groups you can assign users to different recommendation groups based on data gathered, and deliver recommendations to these user groups.
 
-The **Segment** list displays only active segments and is generated from the events collected for relevant history (the actual data from recommendation engine, not what is added using the Back Office).
+The **Segment** list displays only active segments and is generated from the events collected for relevant history (the actual data from recommendation engine, not what was added in the Back Office).
 
-The value of each segment is transfered to the event.
+The value of each segment is transferred to the event.
 
-Models are displayed only for a selected time period. 
-If a group is inactive for a certain period of time, the segments get an `Inactive` status and cannot be used.
+Models are displayed only for a selected period of time. 
+If a group is inactive for a certain time, the segments get an `Inactive` status and can't be used.
 
 ![Time period](img/models_time_period.png "Time period configuration")
 
@@ -33,7 +33,7 @@ With operators you can establish filtering rules for recommendations based on se
     You can add an unlimited number of children in one parent group.
 
 - **AND** - use when you want to intersect two or more values for a particular segment. All set conditions must be met.
-- **OR** - use when you want to broaden results; one of the conditions must be fulfilled.
+- **OR** - use when you want to broaden results, one of the conditions must be fulfilled.
 
 Nested (child) segments can have different conditions from their parent. However, the relation between parent and child is always `AND`.
 Use them to create sub-segment groups which narrow down filtering of recommendations to specific traits of your users.
@@ -69,7 +69,7 @@ Where segments ID correspond to segment groups:
 - Poland - `segment ID=11`
 - sales hunters - `segment ID=14`
 
-As a result, a reco call returns two events which qualify for these segment groups requirements.
+As a result, a recommendation call returns two events which qualify for these segment groups requirements.
 Two items with `ID=587` and `ID=588` are relevant for the following segment combinations, clicked by:
 
 - for women from Poland
@@ -78,7 +78,7 @@ and
 
 - for sales hunters.
 
-??? "Reco call response"
+??? "Recommendation call response"
 
       ```json hl_lines="5 28"
          {
@@ -140,7 +140,7 @@ The following example shows segment groups with `OR` operator connecting nested 
 
 - women
 - Poland
-- 25-35 (age)
+- 25–35 (age)
 - Germany
 
 ![OR segment group logic](img/perso_segment_group_or.png "OR segment group logic")
@@ -154,18 +154,18 @@ Where segments ID correspond to segment groups:
 
 - women - `segment ID=7`
 - Poland - `segment ID=11`
-- 25-35 - `segment ID=8`
+- 25–35 - `segment ID=8`
 - Germany - `segment ID=10`
 
-As a result, a reco call returns only one event which qualifies for these segment group requirements. The item with `ID=587` is relevant for this segment combination, clicked by:
+As a result, a recommendation call returns only one event which qualifies for these segment group requirements. The item with `ID=587` is relevant for this segment combination, clicked by:
 
-- women from Poland at age 25-35 
+- women from Poland at age 25–35 
 
 or 
 
-- by women from Germany at age 25-35
+- by women from Germany at age 25–35
 
-??? "Reco call response"
+??? "Recommendation call response"
 
       ```json hl_lines="5"
          {
