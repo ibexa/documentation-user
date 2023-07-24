@@ -6,17 +6,17 @@ description: You can create a structure of tags that can be assigned to products
 
 [Product categories](products.md#product-categories) are organized into a Category tree, which you can access from the **Product catalog** panel. The **Categories** screen is where you manually create a hierarchy of categories and manage category entries. 
 
-![Product category tree](img/product_categories.png)
+![Product category tree](img/product_categories.png "Product category tree")
 
 ## Enable product categories
 
-Before you can assign categories to products, make sure that the **Taxonomy Entry Assignment** field is added and set as required in all the [Product Types](products.md#product-types) that define products from PIM which you want to categorize. 
-The field could be absent if Product Types were migrated from an older version of the product.
+Before you can assign categories to products, make sure that the **Taxonomy Entry Assignment** field is added and set as required in all the [product types](products.md#product-types) that define products from PIM which you want to categorize. 
+The field could be absent if product types were migrated from an older version of the product.
 
 Depending on your permissions, you might be able to verify the presence of the field and add the field yourself:
 
-1. In the left panel, click **Product catalog** -> **Product Types** to open a list of available Product Types.
-2. Click the **Edit** icon next to a name of the Product Type that you want to review.
+1. In the left panel, click **Product catalog** -> **Product Types** to open a list of available product types.
+2. Click the **Edit** icon next to a name of the product type that you want to review.
 3. In the **Editing Product Type** modal, check whether the **Field definitions** area contains the **Categories** field of **Taxonomy Entry Assignment** type. 
     1. If the field is present, click **Discard changes** and skip the remaining steps.
     2. If the field is absent, drag and drop the **Taxonomy Entry Assignment** option from the **Field types** area to the **Field definitions** area.
@@ -24,7 +24,7 @@ Depending on your permissions, you might be able to verify the presence of the f
         * Set a name for the field, for example, "Product category"
         * Select the **Required** checkbox
         * In the **Taxonomy** field, select the "Product categories" option
-4. Optionally, modify other Product Type settings as required.
+4. Optionally, modify other product type settings as required.
 7. Click **Save**.
 
 You can now add product categories and then create relationships between products and product categories.
@@ -53,20 +53,20 @@ You can create or change product category relationships with products in two way
 
 !!! note
 
-    Products must be of Product Type which is [enabled for categorization](#enable-product-categories). 
+    Products must be of product type which is [enabled for categorization](#enable-product-categories). 
 
 ### Assign product categories by editing product details
 
 1. In the left panel, click **Product catalog** -> **Products** to navigate to the product list.
-2. To create a new Product item, click the  **Create** button, select the Product Types with product categories enabled, and click **Add**. Then skip to step 4.
+2. To create a new Product item, click the  **Create** button, select the product types with product categories enabled, and click **Add**. Then skip to step 4.
 3. To edit an existing Product item, click the **Edit** icon next to a name of the Product item that you want to modify.
-4. In the Product Type editing modal, go to the **Product category** area and click the **Select product categories** button.
+4. In the product type editing modal, go to the **Product category** area and click the **Select product categories** button.
 5. In the pop-up window, select checkboxes next to product categories related with the product.
 6. Click **Select product categories** to close the pop-up window.
 7. Optionally, modify other product information as required.
 8. Click **Create** or **Update** to save your changes.
 
-![Adding product categories](img/product_category_selection.png)
+![Adding product categories](img/product_category_selection.png "Adding product categories")
 
 ### Assign products by editing product category details
 
@@ -80,4 +80,4 @@ You can create or change product category relationships with products in two way
     1. In the **Products** tab, select checkboxes next to products selected for removal.
     2. Click the **Unassign** button
 
-![Related products list](img/product_categories_product_list.png)
+![Related products list](img/product_categories_product_list.png "Related products list")
