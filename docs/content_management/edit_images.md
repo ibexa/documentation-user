@@ -32,7 +32,7 @@ After you choose an aspect ratio, a grid appears on the preview.
 You can then resize the grid to mark an area of the image that you want to be visible.
 You can also enter the exact width and hight values in the **Crop size** area. 
 
-Click the tick icon to confirm the change or the X icon to cancel it and clear the preview.
+Click the tick icon to confirm the change or the **X** icon to cancel it and clear the preview.
 When you confirm the change, the preview refreshes to display a cropped image.
 
 !!! note "Saving changes"
@@ -56,7 +56,7 @@ so the area that contains the selected point is always visible.
 
 Click the **Show point** button to see a target on the preview.
 Drag the target to a point on the image that you want to focus on.
-Click the X icon to restore the original position of the target.
+Click the **X** icon to restore the original position of the target.
 
 ## Undo changes
 

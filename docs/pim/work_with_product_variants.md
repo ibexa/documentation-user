@@ -4,9 +4,9 @@ description: Create multiple variants of one product, based on attributes such a
 
 # Work with product variants
 
-To use an [attribute](products.md#attributes) to create [variants](products.md#product-variants), mark the attribute as **Used for product variants** when you create a [Product Type](create_product_types.md).
+To use an [attribute](products.md#attributes) to create [variants](products.md#product-variants), mark the attribute as **Used for product variants** when you create a [product type](create_product_types.md).
 
-![Product Type definition with attributes used for variants](img/product_type_attr_used_for_variants.png)
+![Product type definition with attributes used for variants](img/product_type_attr_used_for_variants.png "Product type definition with attributes used for variants")
 
 If a product has only one attribute that can be used for variants, you can create variants for this attribute.
 
@@ -22,7 +22,7 @@ To generate variants:
 
 1. Go to the **Variants** tab in product view and click **Generate variants**.
 
-![Generating product variants](img/product_variants_generate.png)
+![Generating product variants](img/product_variants_generate.png "Generating product variants")
 
 2\. For each attribute listed, select the values you want to create variants for.
 
@@ -35,7 +35,7 @@ You can now see a list of all possible variants for the selected attribute value
 You can delete any generated product variant.
 To do it, select one or more variants in the list and click the **Delete** button.
 
-![Product variant list with option to delete a variant](img/product_variants_delete.png)
+![Product variant list with option to delete a variant](img/product_variants_delete.png "Product variant list with option to delete a variant]")
 
 ### Manually create variants
 
