@@ -1,12 +1,12 @@
 ---
-description: Products can have a base price and custom prices defined per custom group and per currency.
+description: Products can have a base price and custom prices defined per customer group and per currency.
 ---
 
 # Work with prices
 
 [Products in catalog](products.md#products) can have a base price and custom prices defined per [customer group](../customer_management/manage_customers.md) and per [currency](../pim/manage_currencies.md).
 
-With price management features, you can set up product prices manually. 
+With price management features, you set up product prices manually. 
 A price can be set up per product and product variant.
 
 In addition, prices can vary per [customer group](../customer_management/customer_portal.md).
@@ -20,14 +20,14 @@ Here you can see the existing prices for the selected [currency](../pim/manage_c
 
 Select a currency in the dropdown menu to preview the price and click the edit button to modify it.
 
-![Prices tab](img/product_price.png)
+![Prices tab](img/product_price.png "Prices tab")
 
-For each product or product variant you can set prices separately for different customer groups.
+For each product or product variant you can set different prices for different customer groups.
 Next to the base price you can see the **Global Price rule** defined for this customer group,
 which is applied to the base price.
 However, you can also set a **Custom price rule** for this product.
-If you define it, the Global Price rules does not apply and the custom price rule is applied directly to the base price.
+If you define it, the global price rule don't apply and the custom price rule is applied directly to the base price.
 
 You can preview the resulting price for this product and the given customer group in the **Custom price** field.
 
-![Setting product prices](img/setting_product_price.png)
+![Setting product prices](img/setting_product_price.png "Setting product prices")

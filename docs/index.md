@@ -74,7 +74,7 @@
                             <svg class="tile-icon align-middle" width="32" height="32">
                                 <use fill="var(--ibexa-jazzberry)" xlink:href="images/ez-icons.svg#cart"></use>
                             </svg>
-                            <a href="persona_paths/shop_manager/">Shop management</a></li>
+                            <a href="persona_paths/shop_manager/">Store management</a></li>
                         </h5>
                         <div class="tile-body">
                             <ul>
