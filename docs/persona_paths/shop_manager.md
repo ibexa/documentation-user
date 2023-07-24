@@ -1,16 +1,16 @@
 ---
-description: Perform tasks related to running an electronic presence of your store.
+description: Perform tasks related to running an online store.
 ---
 
-# Shop manager role
+# Store manager role
 
-When you run a digital presence of your store, it is important that you maintain the 
+When you run an online store, it is important that you maintain the 
 right turnover of stock while winning new customers and retaining existing ones, 
 and ultimately, bringing profit to the company. 
-In [[= product_name =]] universe, it means that you must focus on many things, 
+In [[= product_name =]], it means that you must focus on many things, 
 including the following responsibilities:
 
-- Create and maintain product information (descriptions, tech specs, media, etc.)
+- Create and maintain product information (descriptions, tech specifications, media, etc.)
 - Maintain product pricing and shipping cost information
 - Manage shipping and payment methods
 - Manage and track orders

@@ -1,5 +1,5 @@
 ---
-description: Discover administrative tasks that you can perform in the back Office.
+description: Discover administrative tasks that you can perform in the Back Office.
 ---
 
 # Application administrator role
