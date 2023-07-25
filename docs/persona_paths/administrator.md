@@ -1,3 +1,7 @@
+---
+description: Discover administrative tasks that you can perform in the Back Office.
+---
+
 # Application administrator role
 
 When you perform administrative duties for your organization, you often are responsible for the configuration and maintenance of [[= product_name =]]-based application, as well as solving architectural challenges and performance problems.
