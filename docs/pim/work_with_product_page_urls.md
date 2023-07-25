@@ -10,11 +10,11 @@ When you are creating new [product type](create_product_types.md) you can set up
 
 To do it, fill in all the necessary information and choose the attributes that you want to use in URL alias name pattern field and click **Save** button.
 
-![URL attributes](url_attributes.png)
+![URL attributes](url_attributes.png "URL attributes")
 
 Now, you can see new URL alias name pattern in the product type's view.
 
-![URL alias name pattern.png](url_alias_name_pattern.png)
+![URL alias name pattern](url_alias_name_pattern.png "URL alias name pattern")
 
 ## Product Attributes identifiers
 
@@ -56,19 +56,19 @@ To do it, follow the steps:
 
 3\. Click on **URL** tab in the product's view. Here you can see both custom URL aliases and system URL.
 
-![URL tab](url_tab.png)
+![URL tab](url_tab.png "URL tab")
 
 4\. Click **Add new** button.
 
 5\. Provide custom URL in "URL" field and set up all necessary settings.
 
-![Create custom URL](create_custom_url.png)
+![Creating a custom URL](create_custom_url.png "Creating a custom URL")
 
 6\. Click **Create**.
 
 Now, in the **URL** tab in the product's view, you can see new custom URL for the product.
 
-![Custom URL](custom_url.png)
+![Custom URL](custom_url.png "Custom URL")
 
 You can manage all the product URLs, both system and custom ones: create new and edit or delete existing ones.
 

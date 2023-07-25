@@ -20,7 +20,7 @@ Here you can see the existing prices for the selected [currency](../pim/manage_c
 
 Select a currency in the dropdown menu to preview the price and click the edit button to modify it.
 
-![Prices tab](img/product_price.png)
+![Prices tab](img/product_price.png "Prices tab")
 
 For each product or product variant you can set different prices for different customer groups.
 Next to the base price you can see the **Global Price rule** defined for this customer group,
@@ -30,4 +30,4 @@ If you define it, the global price rule don't apply and the custom price rule is
 
 You can preview the resulting price for this product and the given customer group in the **Custom price** field.
 
-![Setting product prices](img/setting_product_price.png)
+![Setting product prices](img/setting_product_price.png "Setting product prices")

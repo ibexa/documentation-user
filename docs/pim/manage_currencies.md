@@ -11,7 +11,7 @@ You can configure currencies available in the system in the **Currencies** scree
 The system contains a list of different currencies.
 To use them in the catalog, edit and enable them.
 
-![Enabling a currency](img/enable_currency.png)
+![Enabling a currency](img/enable_currency.png "Enabling a currency")
 
 To create an additional currency, provide its code (e.g. EUR, USD, GBP) and the number of fractional digits,
 that is, the number of digits after the comma/period.
