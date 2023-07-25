@@ -1,3 +1,7 @@
+---
+description: Learn about creating and managing content.
+---
+
 # Content editor role
 
 Whether you work as a marketing manager for a corporation, feed content to a portal 
