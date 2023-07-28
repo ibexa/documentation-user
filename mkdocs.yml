@@ -111,8 +111,8 @@ nav:
             - Author content: persona_paths/author_content.md
             - Publish content: persona_paths/publish_content.md
             - Organize content: persona_paths/organize_content.md
-        - Shop manager: 
-            - Shop manager: persona_paths/shop_manager.md
+        - Store manager: 
+            - Store manager: persona_paths/shop_manager.md
             - Manage products: persona_paths/manage_products.md
 
               
