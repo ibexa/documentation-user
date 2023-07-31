@@ -143,74 +143,58 @@
         <div class="col-12">
             <h2>Manage your DXP</h2>
         </div>
-        <div class="col-12 col-lg-6 col-fhd-3">
+        <div class="col-12 col-lg-4 col-fhd-3">
             <div class="info-tile info-tile--link-card">
                 <div class="info-tile__content">
                     <h3>
-                        <a href="content_management/content_management/">
-                            <svg><use xlink:href="images/icons.svg#content-draft" /></svg>
-                            Content
+                        <a href="persona_paths/explorer/">
+                            <svg class="tile-icon align-middle" width="32" height="32">
+                                <use fill="var(--ibexa-jazzberry)" xlink:href="images/ez-icons.svg#publish"></use>
+                            </svg>
+                            Exploration
                         </a>
                     </h3>
                     <ul>
-                        <li><a href="persona_paths/manage_content_model/">Manage content model</a></li>
-                        <li><a href="persona_paths/author_content/">Author content</a></li>
-                        <li><a href="persona_paths/publish_content/">Publish content</a></li>
-                        <li><a href="persona_paths/organize_content/">Organize content</a></li>
+                        <li><a href="getting_started/discover_ui/">Discover UI</a></li>
+                        <li><a href="content_management/content_model/">Content model</a></li>
+                        <li><a href="pim/products/">PIM</a></li>
+                        <li><a href="personalization/personalization/">Personalization</a></li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="col-12 col-lg-6 col-fhd-3">
+        <div class="col-12 col-lg-4 col-fhd-3">
             <div class="info-tile info-tile--link-card">
                 <div class="info-tile__content">
                     <h3>
-                        <a href="pim/pim/">
-                            <svg><use xlink:href="images/icons.svg#product" /></svg>
-                            Product
+                        <a href="persona_paths/editor/">
+                            <svg><use xlink:href="images/icons.svg#content-draft" /></svg>
+                            Content editing
+                        </a>
+                    </h3>
+                    <ul>
+                        <li><a href="persona_paths/author_content/">Create content</a></li>
+                        <li><a href="content_management/create_edit_pages/">Create Pages</a></li>
+                        <li><a href="persona_paths/publish_content/">Publish content</a></li>
+                        <li><a href="persona_paths/organize_content">Organize content</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 col-fhd-3">
+            <div class="info-tile info-tile--link-card">
+                <div class="info-tile__content">
+                    <h3>
+                        <a href="persona_paths/shop_manager/">
+                            <svg><use xlink:href="images/icons.svg#cart" /></svg>
+                            Store management
                         </a>
                     </h3>
                     <ul>
                         <li><a href="persona_paths/manage_products/">Manage products</a></li>
-                        <li><a href="pim/create_edit_product/">Create and edit products</a></li>
-                        <li><a href="pim/work_with_product_variants/">Work with product variants</a></li>
-                        <li><a href="pim/work_with_catalogs/">Work with catalogs</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="col-12 col-lg-6 col-fhd-3">
-            <div class="info-tile info-tile--link-card">
-                <div class="info-tile__content">
-                    <h3>
-                        <a href="commerce/commerce/">
-                            <svg><use xlink:href="images/icons.svg#cart" /></svg>
-                            Commerce
-                        </a>
-                    </h3>
-                    <ul>
-                        <li><a href="commerce/order_management/work_with_orders/">Work with orders</a></li>
-                        <li><a href="commerce/shipping_management/work_with_shipping_methods/">Work with shipping methods</a></li>
-                        <li><a href="commerce/payment/work_with_payment_methods/">Work with payment methods</a></li>
-                        <li><a href="commerce/payment/work_with_payments/">StorefronWork with paymentst</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="col-12 col-lg-6 col-fhd-3">
-            <div class="info-tile info-tile--link-card">
-                <div class="info-tile__content">
-                    <h3>
-                        <a href="customer_management/customer_management/">
-                            <svg><use xlink:href="images/icons.svg#profile" /></svg>
-                            Customer
-                        </a>
-                    </h3>
-                    <ul>
-                        <li><a href="customer_management/customer_portal/">Manage Customer Portal account</a></li>
-                        <li><a href="customer_management/manage_customers/">Manage customers</a></li>
-                        <li><a href="customer_management/company_self_registration/">Company self-registration</a></li>
-                        <li><a href="customer_management/build_customer_portal/">Create and edit Customer Portal</a></li>
+                        <li><a href="persona_paths/manage_prices/">Manage prices</a></li>
+                        <li><a href="shop_administration/manage_users/">Manage customers</a></li>
+                        <li><a href="shop_administration/manage_orders/">Manage orders</a></li>
                     </ul>
                 </div>
             </div>
