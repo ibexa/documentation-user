@@ -124,16 +124,14 @@
                     <div class="row">
                         <div class="col-12 col-lg-6 col-fhd-3">
                             <ul>
-                                <li><a href="api/php_api/php_api/">PHP API</a></li>
-                                <li><a href="search/solr_search_engine/">Solr search engine</a></li>
-                                <li><a href="search/search_api/">Search API</a></li>
+                                <li><a href="website_organization/work_with_sites/">Site Factory</a></li>
+                                <li><a href="content_management/translate_content/">Translations</a></li>
                             </ul>
                         </div>
                         <div class="col-12 col-lg-6 col-fhd-3">
                             <ul>
-                                <li><a href="content_management/content_model/">Content model</a></li>
-                                <li><a href="content_management/images/images/">Images</a></li>
-                                <li><a href="content_management/pages/page_blocks/">Page blocks</a></li>
+                                <li><a href="content_management/workflow_management/editorial_workflow/">Editorial workflow</a></li>
+                                <li><a href="search/">Search for content</a></li>
                             </ul>
                         </div>
                     </div>
