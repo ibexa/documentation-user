@@ -192,7 +192,7 @@
                         <li><a href="commerce/order_management/work_with_orders/">Work with orders</a></li>
                         <li><a href="commerce/shipping_management/work_with_shipping_methods/">Work with shipping methods</a></li>
                         <li><a href="commerce/payment/work_with_payment_methods/">Work with payment methods</a></li>
-                        <li><a href="commerce/payment/work_with_payments/">StorefronWork with paymentst</a></li>
+                        <li><a href="commerce/payment/work_with_payments/">Work with payments</a></li>
                     </ul>
                 </div>
             </div>
