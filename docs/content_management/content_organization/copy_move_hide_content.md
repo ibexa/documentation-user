@@ -70,7 +70,16 @@ and select and date and time when the Content item will be hidden:
 
 ![Schedule hiding panel](img/schedule_hiding.png)
 
-A hidden Content item is unavailable for anyone on the front page. It is also grayed out in the Content Tree.
+A hidden Content item is not shown in the frontend when using the default templates. It is also grayed out in the Content Tree.
 
 This is different from [hiding Locations](manage_locations_urls.md#hide-locations), because it affects the Content item
 in all of its Locations.
+
+!!! caution "Visibility and permissions"
+
+    The visibility flag is a convenient feature for withdrawing content from the frontend. It acts as a simple filter in the default frontend templates.
+    It isn't permission-based, and **doesn't restrict access to content**. Hidden content can be read through other means, like the REST API.
+
+    If you need to restrict access to a given Content item, create a role that grants read access for a given [**Section**](sections.md) or
+    [**Object State**](object_states.md), and set a different Section or Object State for the given Content.
+    Or use other permission-based [**Limitations**](limitations.md).
