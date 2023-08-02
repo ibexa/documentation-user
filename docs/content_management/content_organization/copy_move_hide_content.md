@@ -80,6 +80,8 @@ in all of its Locations.
     The visibility flag is a convenient feature for withdrawing content from the frontend. It acts as a simple filter in the default frontend templates.
     It isn't permission-based, and **doesn't restrict access to content**. Hidden content can be read through other means, like the REST API.
 
-    If you need to restrict access to a given Content item, create a role that grants read access for a given [**Section**](sections.md) or
-    [**Object State**](object_states.md), and set a different Section or Object State for the given Content.
-    Or use other permission-based [**Limitations**](limitations.md).
+    If you need to restrict access to a given Content item, create a role that grants read access for a given
+    [**Section**](https://doc.ibexa.co/en/latest/administration/content_organization/sections/)
+    or [**Object State**](https://doc.ibexa.co/en/latest/administration/content_organization/object_states/),
+    and set a different Section or Object State for the given Content.
+    Or use other permission-based [**Limitations**](https://doc.ibexa.co/en/latest/permissions/limitations/).
