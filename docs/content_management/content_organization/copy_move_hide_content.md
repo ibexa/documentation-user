@@ -82,6 +82,6 @@ in all of its Locations.
 
     If you need to restrict access to a given Content item, create a role that grants read access for a given
     [**Section**](https://doc.ibexa.co/projects/userguide/en/latest/content_management/content_organization/classify_content/#sections)
-    or [**Object State**](https://doc.ibexa.co/en/latest/administration/content_organization/object_states/),
+    or [**Object State**](https://doc.ibexa.co/projects/userguide/en/latest/content_management/content_organization/classify_content/#object-states),
     and set a different Section or Object State for the given Content.
     Or use other permission-based [**Limitations**](https://doc.ibexa.co/en/latest/permissions/limitations/).
