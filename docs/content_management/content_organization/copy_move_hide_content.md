@@ -81,7 +81,7 @@ in all of its Locations.
     It isn't permission-based, and **doesn't restrict access to content**. Hidden content can be read through other means, like the REST API.
 
     If you need to restrict access to a given Content item, create a role that grants read access for a given
-    [**Section**](https://doc.ibexa.co/en/latest/administration/content_organization/sections/)
+    [**Section**](https://doc.ibexa.co/projects/userguide/en/latest/content_management/content_organization/classify_content/#sections)
     or [**Object State**](https://doc.ibexa.co/en/latest/administration/content_organization/object_states/),
     and set a different Section or Object State for the given Content.
     Or use other permission-based [**Limitations**](https://doc.ibexa.co/en/latest/permissions/limitations/).
