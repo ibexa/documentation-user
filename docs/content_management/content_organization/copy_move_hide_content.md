@@ -84,4 +84,4 @@ in all of its Locations.
     [**Section**](https://doc.ibexa.co/projects/userguide/en/latest/content_management/content_organization/classify_content/#sections)
     or [**Object State**](https://doc.ibexa.co/projects/userguide/en/latest/content_management/content_organization/classify_content/#object-states),
     and set a different Section or Object State for the given Content.
-    Or use other permission-based [**Limitations**](https://doc.ibexa.co/en/latest/permissions/limitations/).
+    Or use other permission-based [**Limitations**](https://doc.ibexa.co/projects/userguide/en/latest/permission_management/work_with_permissions/).
