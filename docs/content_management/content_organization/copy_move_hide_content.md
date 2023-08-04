@@ -77,7 +77,8 @@ in all of its Locations.
 
 !!! caution "Visibility and permissions"
 
-    The [visibility switcher](https://doc.ibexa.co/projects/userguide/en/latest/content_management/content_organization/manage_locations_urls/#hide-locations) is a convenient feature for withdrawing content from the frontend. It acts as a simple filter in the default frontend templates.
+    The [visibility switcher](https://doc.ibexa.co/projects/userguide/en/latest/content_management/content_organization/manage_locations_urls/#hide-locations) is a convenient feature for withdrawing content from the frontend.
+    It acts as a filter in the frontend by default. You can choose to respect it or ignore it in your code.
     It isn't permission-based, and **doesn't restrict access to content**. Hidden content can be read through other means, like the REST API.
 
     If you need to restrict access to a given Content item, you could create a role that grants read access for a given
