@@ -70,7 +70,19 @@ and select and date and time when the Content item will be hidden:
 
 ![Schedule hiding panel](img/schedule_hiding.png)
 
-A hidden Content item is unavailable for anyone on the front page. It is also grayed out in the Content Tree.
+A hidden Content item is not shown in the frontend when using the default templates. It is also grayed out in the Content Tree.
 
 This is different from [hiding Locations](manage_locations_urls.md#hide-locations), because it affects the Content item
 in all of its Locations.
+
+!!! caution "Visibility and permissions"
+
+    The [visibility switcher](https://doc.ibexa.co/projects/userguide/en/latest/content_management/content_organization/manage_locations_urls/#hide-locations) is a convenient feature for withdrawing content from the frontend.
+    It acts as a filter in the frontend by default. You can choose to respect it or ignore it in your code.
+    It isn't permission-based, and **doesn't restrict access to content**. Hidden content can be read through other means, like the REST API.
+
+    If you need to restrict access to a given Content item, you could create a role that grants read access for a given
+    [**Section**](https://doc.ibexa.co/projects/userguide/en/latest/content_management/content_organization/classify_content/#sections)
+    or [**Object State**](https://doc.ibexa.co/projects/userguide/en/latest/content_management/content_organization/classify_content/#object-states),
+    and set a different Section or Object State for the given Content.
+    Or use other permission-based [**Limitations**](https://doc.ibexa.co/projects/userguide/en/latest/permission_management/work_with_permissions/).
