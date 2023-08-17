@@ -30,7 +30,7 @@ You can either choose one of the preset aspect ratio options (square, vertical o
 
 After you choose an aspect ratio, a grid appears on the preview.
 You can then resize the grid to mark an area of the image that you want to be visible.
-You can also enter the exact width and hight values in the **Crop size** area. 
+You can also enter the exact width and height values in the **Crop size** area. 
 
 Click the tick icon to confirm the change or the X icon to cancel it and clear the preview.
 When you confirm the change, the preview refreshes to display a cropped image.
