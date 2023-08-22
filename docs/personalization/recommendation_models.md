@@ -8,21 +8,17 @@ Chapter [2. Use Cases](use_cases.md) describes where recommendations can be used
 
 Classic popularity recommendation. The model can be customized using time-dependent weights (recent events are more important) and category based filtering (bestsellers in selected category and/or subcategories).
 
-#### Also clicked/purchased
+#### Also clicked / purchased
 
-This type of recommendation is often called "Collaborative Filtering based on user data" and is a proven approach to calculating recommendations. It recommends products which are usually clicked or purchased together. It is very simple to configure, needs no maintenance and it is a very powerful model.
+This type of recommendation is often called "Collaborative Filtering based on user data" and is a proven approach to calculating recommendations. It recommends products which are usually clicked or purchased together. It is very simple to configure, needs no maintenance.
 
 #### Ultimately bought
 
-<<<<<<< HEAD
 This model combines click and buy events. In human readable form it could be something like "Users who looked for that kind of product finally bought this". It therefore provides a "matching factor" of searching and buying. This model suggests alternative products which customers bought after they clicked on the selected product. In contrast to the "also-bought" model it recommends products that are related but not purchased together. This model is the best choice to suggest alternative products for their search. For example, a user searches for a book which explains how to cut trees. If they finds a book and on the book page this exact same book is being recommended, it means that several users interested in cutting trees bought this book (and not others), which hints that this book is the very best choice.
-=======
-#### Also clicked / purchased
->>>>>>> 7e94a41... Update random model description (#110)
 
 #### History based
 
-Pseudo recommendation model to show the user products from his own history. Like "you have just watched" box.
+Pseudo recommendation model to show the user products from their own history. Like "you have just watched" box.
 
 ### Additional models are available for advanced editions
 
