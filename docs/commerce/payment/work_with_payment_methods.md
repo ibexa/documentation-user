@@ -23,6 +23,8 @@ Payment methods describe the way store customers pay for their orders during the
 
 2\. Select the language for the new payment method and its type.
 
+![New payment method](new_payment_method.png)
+
 3\. In the next screen provide information about the new payment method.
 
 ![Creating a new payment method](create_new_payment_method.png)
@@ -57,3 +59,18 @@ Payment methods describe the way store customers pay for their orders during the
 
     You cannot delete a payment method if it is active or if it is used by unpaid orders. 
     You must first deactivate the method that you want to delete by toggling the **Availability** switch off.
+
+## Filter payment methods
+
+1. In the left panel, go to **Commerce** -> **Payment methods**.
+2. Narrow down the list of displayed payment methods in one of the following ways:
+
+    - search for payment method by typing part of its name or identifier in the search box
+    - filter payment methods by selecting one or more filters
+
+    Available filters are:
+
+    - Method type - method of the payment
+    - Availability - payment method availability: Active, Inactive
+
+3. Click **Apply** to confirm.
