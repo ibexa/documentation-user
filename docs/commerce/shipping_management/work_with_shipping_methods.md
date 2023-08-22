@@ -67,3 +67,19 @@ This value is then displayed during checkout and added to the total order amount
 
     You cannot delete a shipping method if it is active or if it is used by open orders. 
     You must first deactivate the method that you want to delete by toggling the **Availability** switch off.
+
+## Filter shipping methods
+
+1. In the left panel, go to **Commerce** -> **Shipping methods**.
+2. Narrow down the list of displayed shipping methods in one of the following ways:
+
+    - search for shipping method by typing part of its name or identifier in the search box
+    - filter shipping methods by selecting one or more filters
+
+    Available filters are:
+
+    - Method type - method of the shipping
+    - Availability - shipping method availability: Active, Inactive
+    - Region - region that the shipping method applies to
+
+3. Click **Apply** to confirm.

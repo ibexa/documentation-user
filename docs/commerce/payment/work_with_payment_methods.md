@@ -65,7 +65,7 @@ Payment methods describe the way store customers pay for their orders during the
 1. In the left panel, go to **Commerce** -> **Payment methods**.
 2. Narrow down the list of displayed payment methods in one of the following ways:
 
-    - search for payment methods by typing part of irs name or identifier in the search box
+    - search for payment method by typing part of its name or identifier in the search box
     - filter payment methods by selecting one or more filters
 
     Available filters are:
