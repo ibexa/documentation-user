@@ -14,36 +14,37 @@ For more information about building and styling forms, see [developer documentat
 
 ## Create forms 
 
-In a selected place of the content tree, click **Create content** and select **Form**. 
-Provide the title, for example, "User experience survey" and click **Build form**. 
+Editors can use the created form anywhere on the website.
+Forms can be used in page blocks, embedded in the online editor or even used as a field relation. 
+The same form can be placed at multiple locations on the website.
 
-![Dragging fields in a Form](img/form_builder.png)
+To create a form:
 
-Build a form by dragging different types of fields into it.
-The available types are:
+1\. In a selected place of the content tree, click **Create content**.
 
-- Single line input
-- Multiple line input
-- Number
-- Checkbox
-- Checkboxes
-- Radio
-- Dropdown
-- Email
-- Date
-- URL
-- File
-- Captcha
-- Button
-- Hidden field
+2\. Select **Form** content type.
 
-Each field has settings that you can access with the options button.
-The settings differ depending on the type of field.
+![Select form](img/select_form.png)
+
+3\. Provide the title and click **Build form**.
+
+![Build form](img/build_form.png)
+
+4\. Drag (A) or click (B) on the type from the form fields toolbar. 
+To create more complicated and detailed form, you can use more than one form field type.
+
+![Draag form fields](img/drag_form_fields.png)
+
+5\. Click on the **Settings** icon to access form field settings. The settings differ depending on the type of field.
+
+![Form settings](img/form_settings.png)
 
 **Button** is a special kind of field. You use it for submitting the form.
 You can choose one of a few options of what is shown to the user after filling in and submitting the form.
 
 ![Options of a Form submission button](img/form_builder_button.png)
+
+6\. Fill in necessary information and click **Submit**.
 
 ## View results
 
@@ -55,3 +56,42 @@ You can also delete any submissions (for example if they were made while testing
 The **Download submissions** button enables you to download all the submissions in a .CSV (comma-separated value) file.
 
 ![Form Builder submissions](img/form_builder_submissions.png)
+
+## Use case - create newsletter
+
+In the following example you will learn how to create Newsletter form and use it with Page Builder.
+
+1\. Create a new Content item in the chosen localization in the content tree and choose **Form** type.
+
+2\. Enter **Newsletter** as a title and click **Build** form.
+
+![Build newsletter](img/build_newsletter.png)
+
+3\. From the **Basic form fields** toolbar choose: Single line input (two times), Email, Checkboxes and Button.
+
+![Basic form fields](img/newsletter_fields.png)
+
+4\.  Click on **Settings** icon and modify chosen form fields:
+
+- Single line input: **Name**: Name
+- Single line input #2: **Name**: Surname
+- Email: **Name**: Email address
+- Checkboxes: **Name**: Gender, **Options**: click **Add** button and add three values: Male, Female, Other.
+- Button: **Name**: Sign up!, **Action**: choose Show a message and in the **Message to displa**y field enter: Thank you!
+
+![Newsletter settings](img/newsletter_settings.png)
+
+5\. Click **Save** button and then **Confirm**.
+
+6\. Now, you can use **a Newsletter** form on your page. Open your site using Page Builder and from the **Elements** toolbar choose **Form**. Drag it and drop on the zone. 
+
+![Add to page](img/newsletter_add_to_page.png)
+
+7\. Click **Block settings** icon and then, in the Form window click **Select content** button. Find your form in the content tree and choose it, then click **Confirm** and **Submit** buttons.
+
+![Block settings](img/newsletter_button_submit.png)
+
+8\. Now, you can see a Newsletter form on your page.
+
+![Newsletter form](img/newsletter_result.png)
+
