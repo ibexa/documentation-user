@@ -22,7 +22,7 @@ To create a form:
 
 1\. In a selected place of the content tree, click **Create content**.
 
-2\. Select **Form** content type.
+2\. Select **Form** Content Type.
 
 ![Select form](img/select_form.png)
 
@@ -31,7 +31,7 @@ To create a form:
 ![Build form](img/build_form.png)
 
 4\. Drag (A) or click (B) on the type from the form fields toolbar. 
-To create more complicated and detailed form, you can use more than one form field type.
+To create more complicated and detailed form, you can use more than one form Field Type.
 
 ![Draag form fields](img/drag_form_fields.png)
 
@@ -59,7 +59,7 @@ The **Download submissions** button enables you to download all the submissions 
 
 ## Use case - create newsletter
 
-In the following example you will learn how to create Newsletter form and use it with Page Builder.
+In the following example, you will learn how to create a Newsletter form and use it with Page Builder.
 
 1\. Create a new Content item in the chosen localization in the content tree and choose **Form** type.
 
