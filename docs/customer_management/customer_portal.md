@@ -25,7 +25,7 @@ For a detailed list of your order history, go to **Pending Order** and
 To view and manage members of your company, go to the **Members** section.
 There you can:
 
-- change the status of each member
+- change the status of each member, cannot be performed on logged-in users
 - change their role
 - edit their basic information
 
