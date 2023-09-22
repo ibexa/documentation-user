@@ -51,6 +51,8 @@ Note that the Contact Person in the company has to be a member of that company.
 You can also manage companies from **Admin** in the left menu.
 There, in the **Corporate** section, you can find a list of members,
 billing addresses and technical details regarding the organization such as visibility, IDs, relations and so on.
+You can manage companies information, activate, deactivate members and change their personal information.
+Logged-in users cannot be deactivated.
 
 ![Corporate Back Office](img/cp_admin_company_view.png)
 
