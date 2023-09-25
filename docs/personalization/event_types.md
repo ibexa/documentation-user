@@ -17,19 +17,19 @@ The table below lists all possible events that could be used in the system.
 
 |Event|Description|
 |---|---|
-|CLICK|Sent to the Personalization service when a user opens a page on the website.|
-|BUY|Sent if something was purchased.|
-|CONSUME|Similar to the BUY event but without a payment. Designed for content publisher websites. Sent when an article or a web page is consumed (read or watched).|
-|RENDERED|Sent when a recommendation is shown on the web page. This information is used by [filters](filters.md) to suppress repeated recommendations of the same item.|
-|TRIGGEROPENED|Sent when a user opens a [trigger message](triggers.md), for example, by opening an email message. Used in acceptance statistics.|
-|FOLLOW / CLICKRECOMMENDED|Sent when a user clicks the recommended product. Used in acceptance statistics.|
-|CLICKTRIGGERED|Sent when a user clicks the link delivered in a trigger message to see the recommended item. Used in acceptance statistics.|
-|TRANSFER / LOGIN|A special type of event to deal with user login after the user already surfed on the web page anonymously. Always sent when the identifier of the user changes. As a result, the anonymous history of the user is transferred to the new identifier. This happens automatically in the Personalization service.|
 |BASKET|Sent when the user adds the specified product to the shopping cart. Enables creating recommendations for products that customers are interested in but ultimately did not purchase.|
-|DELETEFROMBASKET|Sent when the end user removes items from their shopping cart. Helps eliminate recommendations for products that the customer has either lost interest in or already purchased elsewhere.|
 |BLACKLIST|Allows a user to suppress currently displayed recommendations. When the Personalization service receives this event, the product or item is no longer recommended to the specified user. By default, recommendations are suppressed for one year.|
+|BUY|Sent if something was purchased.|
+|CLICK|Sent to the Personalization service when a user opens a page on the website.|
+|CLICKRECOMMENDED / FOLLOW|Sent when a user clicks the recommended product. Used in acceptance statistics.|
+|CLICKTRIGGERED|Sent when a user clicks the link delivered in a trigger message to see the recommended item. Used in statistics.|
+|CONSUME|Similar to the BUY event but without a payment. Designed for content publisher websites. Sent when an article or a web page is consumed (read or watched).|
+|DELETEFROMBASKET|Sent when the end user removes items from their shopping cart. Helps eliminate recommendations for products that the customer has either lost interest in or already purchased elsewhere.|
 |OWNS|Same as BUY, but does not influence the statistics. Can be sent when a user already owns the product that was purchased somewhere else, to avoid recommending it again.|
 |RATE|Additional [models](recommendation_models.md) can be created with this type of events. Allows building recommendations not only for implicit tracking events like CLICK or BUY, but also for events with explicit value like "rated" or "liked". These events need additional integration into the web page to allow the user to give an appropriate feedback. The event is triggered as a result of this user feedback.|
+|RENDERED|Sent when a recommendation is shown on the web page. This information is used by [filters](filters.md) to suppress repeated recommendations of the same item.|
+|TRANSFER / LOGIN|A special type of event to deal with user login after the user already surfed on the web page anonymously. Always sent when the identifier of the user changes. As a result, the anonymous history of the user is transferred to the new identifier. This happens automatically in the Personalization service.|
+|TRIGGEROPENED|Sent when a user opens a [trigger message](triggers.md), for example, an email. Used in statistics.|
 
 All events require the current user ID and the ID of one or more context items. 
 Some events require additional information. 
