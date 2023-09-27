@@ -12,7 +12,8 @@ As a store manager, you can expect that more engaged customers translate to bigg
 There are several email triggers available in [[= product_name =]], including the following two:
 
 - Abandoned basket trigger: Personalization engine monitors the user's cart and pushes a message when cart status remains unchanged for a set time. 
-The message contains items that have been abandoned in the cart.
+The message contains items that have been abandoned in the cart. 
+The Personalization service monitors [events](event_types.md) to avoid recommending items that the end user has bought or removed from basket.  
 
 - Reactivation aka. "We miss you" trigger: Personalization engine monitors the user's overall activity and pushes a message when they have not returned to the site for a set time. 
 Recommendations are generated based on the user's purchasing and browsing history.
@@ -37,3 +38,10 @@ For each email trigger type, you need to decide on several crucial parameters, f
 - [attributes](recommendation_models.md/#nominal-attributes) to be included in the response
 - time that must pass before email start being sent
 - number of repetitions
+
+If you don't decide otherwise, trigger recipients are selected based on an analysis of BUY and TRANSFER events.
+For the "Reactivation" model, you can decide:
+
+- what events set off the trigger
+- what [recommendation models](recommendation_models.md), together with their context, are used to calculate the response. 
+"Also purchased", "Also clicked", and "Top purchased" are used by default.
