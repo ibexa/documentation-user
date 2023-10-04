@@ -10,7 +10,7 @@ The following blocks are provided with a clean installation of [[= product_name 
 |Block|Description|
 |-----|-----------|
 |[Banner](#banner-block)|Displays an image Content item with a URL attached to it.|
-|[Bestsellers](#bestsellers-block)|Displays a list of products from PIM that were recently a bestseller.|
+|[Bestsellers](#bestsellers-block)|Displays a list of products that were recently a bestseller.|
 |[Catalog](#catalog-block)|Displays products from a specific catalog to a selected customer group.|
 |[Code](#code-block)|Enables you to place text, links, images, etc. on your Page using custom HTML.|
 |[Collection](#collection-block)|Displays a set of Content items you select manually from the Content structure. |
@@ -47,7 +47,7 @@ On the **Basic** tab, set values in the following fields:
 On the **Basic** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
-- **Personalization scenario** – Select "Bestsellers" to display products from PIM that were recently a bestseller.
+- **Personalization scenario** – Select "Bestsellers" to display products that were recently a bestseller.
 - **Product Types to be displayed** – Select the type of products to be displayed on the list.
 - **Limit** – Set the number of products to be displayed.
 
