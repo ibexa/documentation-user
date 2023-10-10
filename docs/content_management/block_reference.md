@@ -26,6 +26,7 @@ The following blocks are provided with a clean installation of [[= product_name 
 |[Product collection](#product-collection-block)|Displays a list of specifically selected products.|
 |[Recently added](#recently-added-block)|Displays a list of products that were recently added to PIM. |
 |[RSS](#rss-block)|Loads and displays news from RSS feeds (channels). |
+|[Sales representative](#sales-representative)|Loads and displays company's sales representative.|
 |[Targeting](#targeting-block)|Embeds an Content item based on the [Segment](content_organization/classify_content.md#segments) the user belongs to. |
 |[Text](#text-block)|Enables you to add to the Page a Rich Text block. |
 |[Video](#video-block)|Embeds a video into the Page with standard playback controls. |
@@ -190,6 +191,14 @@ for example, "Summer giveway".
     Due to a technical limitation, content browser does not display product variants.
 
 On the **Design** tab, in the **View** field, select the layout be used to present a list of products and submit your changes.
+
+## Sales representative
+
+On the **Basic** tab, set values in the following fields:
+
+- **Name** – Enter a name for the Page block.
+
+On the **Design** tab, in the **View** field, select the layout to be used to present a list of products and submit your changes.
 
 ## Recently added block
 
