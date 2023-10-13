@@ -4,7 +4,7 @@ description: You can instantly publish a newly created Content item or save its 
 
 # Publish content instantly
 
-When you publish a Content item, it is given a Location ID and placed in the Content tree.
+When you publish a Content item, it is given a Location ID and placed in the Content Tree.
 After you click **Publish**, the Content item is validated and if any of the required 
 Fields are not configured, you see a notification.
 Once the Content item passes the validation, it is immediately available to the visitor.

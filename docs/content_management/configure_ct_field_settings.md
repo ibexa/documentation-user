@@ -4,15 +4,21 @@ description: Configure Field settings in Content Types.
 
 # Configure Content Type Fields
 
-When you [modify a Content Type](create_edit_content_types.md) and add or modify [Fields](content_model.md#fields-and-field-types), 
+When you work with a Content Type to add or modify [Fields](content_model.md#fields-and-field-types), 
 you must configure different settings that control the way [[= product_name =]] 
-treats the contents of each Field. Apart from general settings, certain Field Types, for example, [Page](#default-configuration-of-pages) and [Relation](#content-relation-settings) Field Types may have additional settings.
+treats the contents of each Field. Apart from general settings, certain Field Types, for example, [Landing Page](#default-configuration-of-pages) and [Content relation](#content-relation-settings) Field Types may have additional settings.
 
 You can only create or modify Content Types when your [user Role](../permission_management/work_with_permissions.md) has the `ContentType/Create` or `ContentType/Update` permission.
 
-To modify Field settings, in the **Field definitions** section, expand the **Landing page** header. 
-When done, click **Save** to apply changes to the Content Type.
+1. [Open a Content Type](create_edit_content_types.md) for editing.
 
+1. In the **Field definitions** area, find or add a section, for example, **Content** or **Metadata**. 
+
+1. Expand the header of a Field that you want to modify and change the settings. 
+
+1. To discard your changes, if you are creating a new Content Type, click **Discard**, and if you are updating an existing Content Type, click **Delete draft**.
+
+1. To save your changes, click **Save** and continue editing, **Save and close**.
 ## General settings
 
 Depending on their type, Fields can have different combinations of the following 
@@ -28,15 +34,15 @@ general settings.
 |Translatable|Indicates whether a value of the Field can be translated.|Optional|
 |Can be a thumbnail|Indicates whether the Field can be a thumbnail.|Optional|
 
-## Default configuration of Pages
+## Default configuration of pages
 
-The following settings control the behavior of Content items of [Page](../content_management/create_edit_pages.md) type. 
-You modify them in the **Field definitions** section, the **Landing page** Field.
+The following settings control the behavior of Content items of [page](../content_management/create_edit_pages.md) type. 
+You modify them in the **Field definitions** section, the **Landing Page** Field.
 
 ### Block display
 
 You can define which page blocks are available to an editor in the page edit mode.
-You do it, for example, when a [developer creates a new block]([[= developer_doc =]]/content_management/pages/create_custom_page_block/) and you want to allow its selection.
+You do it, for example, after a [developer creates a new block]([[= developer_doc =]]/content_management/pages/create_custom_page_block/) and you want to allow adding it to the page.
 
 Expand the **Select blocks** section and select page blocks that you want to be included in the page.
 
@@ -67,8 +73,7 @@ the layout to be able to edit the Page.
 ### Preferred editing mode
 
 You can set the editing mode that is launched when an editor starts editing the Page.
-
-Expand the **Select Editor launch mode** section, and select from the available options.
+To do it, in the **Select Editor launch mode** section, select one of the available options.
 
 ![Editor launch mode](img/select_editor_mode.png "Select Editor launch mode")
 
@@ -77,14 +82,14 @@ Expand the **Select Editor launch mode** section, and select from the available 
 When you add or modify a **[Content relation](create_edit_content_items.md#relation_field)** or **Content relation (multiple)** 
 Field in a Content Type, you can decide:
 
-- which Content tree location opens in the 
+- which Content Tree location opens in the 
 [Content Browser](content_model.md#content-browser) when the user browses to a related 
 Content item 
-- whether relations can be to Content items of a specific type only, or any Content Type.
+- whether relations can be to Content items of a specific type only, or any Content Type
 
 #### Relation starting location
 
-In the **Select starting location** area, select from the available options:
+In the **Select starting Location** area, select from the available options:
 
 - **Default** - the starting location is automatically assigned to the default location in the tree of a created Content item.
 - **Browse** - use to manually select the location from the Content Browser.
@@ -93,7 +98,7 @@ In the **Select starting location** area, select from the available options:
 
 ![Select starting location](img/select_start_location.png "Selecting a starting location")
 
-#### Allowed Content types
+#### Allowed Content Types
 
-In the **Allowed Content types** area, expand the pull-down list and select from the available Content Types.
+In the **Allowed Content Types** area, expand the pull-down list and select from the available Content Types.
 No selection means that relations to all Content Types are allowed.

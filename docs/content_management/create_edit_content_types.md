@@ -28,7 +28,7 @@ is propagated to every Content item of this type.
     You can delete a Content Type only when there are no Content items that belong to it.
     This also includes Content items in the Trash.
 
-1\. In the left panel, go to **Content** -> **Content Types** and select a Content Type group by clicking its name, for example, **Content**.
+1\. In the left panel, go to **Content** -> **Content Types** and select a Content Type Group by clicking its name, for example, **Content**.
 
 !!! note
 
@@ -36,9 +36,9 @@ is propagated to every Content item of this type.
 
 ![Content Type list](img/content_types.png "A list of Content Types")
 
-2\. If you are adding a new Content Type, on the Content Type group's detail screen, click **Add new** and skip to step 4.
+2\. If you are adding a new Content Type, on the Content Type Group's detail screen, click **Create** and skip to step 4.
 
-3\. If you are modifying an existing Content Type, on the Content Type group's detail screen, click the **Edit** icon next to a name of the Content Type.
+3\. If you are modifying an existing Content Type, on the Content Type Group's detail screen, click the **Edit** icon next to a name of the Content Type.
 
 ![Editing a Content Type](img/content_type_general_properties.png "Editing a Content Type")
 
@@ -70,25 +70,29 @@ is propagated to every Content item of this type.
 5\. In the **Field definitions** area, modify Fields that constitute the Content Type.
 
 To add a Field, from the **Field types** area, drag the required Field tile to 
-a section on the left. 
+the **Content** section on the left. 
 To reorder Fields, drag and drop them within the section on the left. 
 To remove Fields from the section, click the **X** icon in the Field's header.
 
 ![Adding a Field](img/add_field.png "Adding a Field")
 
+If your application requires a more granular organization of Fields within a Content Type, you can click **+ Add** to add more sections.
+
 !!! note
 
-    If your application requires a more granular organization of Fields within a Content Type, you can click **Add** to add more Field definition sections. 
+    When you add a **Metadata** section, which you can use for tags, product categories, etc., it is later presented as an additional tab in Content item editing screen.
+    When you add other sections, they are later presented as anchors in Content item editing screen.
+    All sections are later presented as headers on the Content item details screen, the **View** tab.
 
 6\. Configure [field settings](configure_ct_field_settings.md).
 
 7\. Optionally, [enable and configure SEO for the Content Type](../search_engine_optimization/work_with_seo.md).
 
-8\. To save your changes, if you are creating a new Content Type, click **Create**, and if you are updating an existing Content Type, click **Save**.
+8\. To discard your changes, if you are creating a new Content Type, click **Discard**, and if you are updating an existing Content Type, click **Delete draft**.
 
-Once a confirmation message is displayed, you can use breadcrumbs to navigate back to the Content Type list.
+9\. To save your changes, click **Save** and continue editing, or **Save and close** to focus on other tasks.
 
-![Confirmation message](img/notification_ct.png "Confirmation message")
+Once the Content Type details screen is displayed, you can use breadcrumbs to navigate back to the Content Type list.
 
 !!! note "More information"
 

@@ -6,11 +6,11 @@ description: Manage the content of your website by controlling Locations and URL
 
 ## Content Locations
 
-A Content item by itself does not have a place in the Content tree and is not visible for a visitor of the website.
+A Content item by itself does not have a place in the Content Tree and is not visible for a visitor of the website.
 To be available on the website, it has to be assigned a Location ID.
 A new Content item is automatically assigned a Location when you publish it.
 
-A Content item can have more than one Location ID. In such a case you can find it in more than one place in the Content tree.
+A Content item can have more than one Location ID. In such a case you can find it in more than one place in the Content Tree.
 A single Location can only have one Content item in it.
 
 !!! tip "Example"
@@ -33,11 +33,11 @@ Notice that this way only affects a *Location*, not the *Content item*.
 Even if you hide the content in one Location, it remains visible in its other Locations.
 You can also [hide the Content item itself](copy_move_hide_content.md#hide-content).
 
-When a Location is hidden, all of its children (other Content items that are under it in the tree) will also be automatically hidden.
+When a Location is hidden, all of its children (other Content items that are under it in the tree) are also automatically hidden.
 They can only be revealed if the parent Location is revealed as well.
 
-A hidden Location will be invisible for everyone viewing the website.
-If you are looking for a way to allow only some users to view parts of the Content tree,
+A hidden Location is invisible for everyone viewing the website.
+If you are looking for a way to allow only some users to view parts of the Content Tree,
 use [Sections](classify_content.md#sections) and combine them with [proper permissions](../../permission_management/permission_system.md).
 
 ### Swap Locations
@@ -98,9 +98,9 @@ The URL alias must be unique for the whole installation, regardless of the langu
 For each new alias, you can set the following options:
 
 - Language - the language of the Content item that the alias redirects to.
-- Redirect to alias destination - when toggled on, the alias will redirect to the Content item's actual URL.
-- Place at the website root - when toggled, the alias will be created in the root of the website.
-If this is toggled off, the alias will be relative to the parent of the Content item.
+- Redirect to alias destination - when toggled on, the alias redirects to the Content item's actual URL.
+- Place at the website root - when toggled, the alias is created in the root of the website.
+If this is toggled off, the alias is relative to the parent of the Content item.
 - SiteAccess - when selected, the prefix of the respective SiteAccess is added to the alias path.
 
 ### URL wildcards

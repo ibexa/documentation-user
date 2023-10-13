@@ -3,9 +3,9 @@ description: Create multi-zone Pages with dynamic blocks. Use them as landing pa
 edition: experience
 ---
 
-# Create and edit Pages
+# Create and edit pages
 
-**Page** is a special Content Type that contains zones onto which you can drop 
+Page is a special type of Content items that contains zones onto which you can drop 
 different dynamic blocks.
 You can edit pages to personalize the layout and contents of your website.
 
@@ -14,23 +14,26 @@ Whenever you edit a Page, a [new version](content_versions.md) is created in the
 !!! tip
     The Page Content Type contains a **Landing Page** Field Type which manages 
     the zones and blocks.
-    Any Content item that has the **Landing Page** Field Type will behave like 
-    the Page Content Type.
+    Any Content item that has the **Landing Page** Field Type behaves like 
+    a page.
 
 ## Create Page
 
-To create a new Page, in the upper toolbar click **Content** and from the list below select **Content structure**.
-On the right-side toolbar, click **Create** and from the list of Content items select **Landing page**.
-On the **Page creation** modal, select the layout and click **Create draft**.
+1. In the left panel, select **Content**, **Content structure** and, in a Content Tree, select a parent Content item.
+1. Click **Create content**, select a base language and, from the list of available Content Types select one of page type, for example, **Landing Page**.
+1. In the [Page Builder toolbar](#page-builder-toolbar) click **Fields** and define the page's title and description.
+1. Click  **Switch layout** and select the layout.
+1. [Edit the page](#edit-page).
+1. To discard your changes, click **Delete draft**.
+1. To save your changes, click **Save draft**. 
+You can now navigate away from the Page by clicking the **Close** button.
+1. When the page is ready for publication:
 
-You can also add a new Page in the Page Builder.
-Open the Page Builder by clicking **Site** and selecting a website from the list that 
-appears next to the **List** icon.
-On the [Page Builder toolbar](#page-builder-toolbar) click the plus button and from the list select **Landing page**.
-On the **Page creation** modal, select the layout and click **Create draft**.
+    - Click **Publish** to publish it immediately.
+    - Click **Publish later** to set a specific publication date.
 
-Before you publish or save the Page, edit its title and description.
-Switch to the Field view using the Page Builder toolbar.
+    For more information, see [Publish content](publish_content.md).
+
 
 !!! note "Autosave"
 
@@ -39,10 +42,7 @@ Switch to the Field view using the Page Builder toolbar.
 
 ## Edit Page
 
-You edit Pages using the Page Builder.
-To start editing an existing Page, in the Back Office select the page from the list that appears below.
-
-![Selecting Page for editing](img/editing_page.png)
+You edit Pages by using the Page Builder.
 
 ### Page Builder toolbar
 
@@ -99,9 +99,9 @@ For a list of blocks available out of the box, see [Block reference](block_refer
 Each kind of block has its special properties.
 You can access them by placing the cursor on the added block and clicking the 
 **Block settings** (cog) icon.
-Use the same menu to remove the block from the Page by clicking the **Delete** (trash) icon.
+Use the same menu to remove the block from the Page by clicking the **Delete block** (X) icon.
 
-![Elements settings](img/page_builder_elementsettings.png)
+![Elements settings](img/page_builder_elementsettings.png "Block header")
 
 Settings available for blocks are divided into three tabs — **Basic**, **Design**, and **Scheduler**.
 The settings available on the **Basic** tab are tailored to the block's content.
@@ -115,13 +115,3 @@ You cannot publish a Page if you have not set all the required settings of all b
 !!! tip
     Settings and function of custom-made blocks of content depend on their design.
     For details on adjusting and using them, contact your website administrator.
-
-After you change the block settings, click **Submit** to save the changes or **Discard** to cancel.
-
-## Publish Page
-
-If you are ready to publish the Page, click **Publish** in the top-right corner.
-To save it as a draft to finish editing it later, even if some required fields are not filled in, click **Save draft**.
-You can then navigate away from the Page by clicking the logo in the upper left corner, or the browser's **Back button**.
-
-For more information, see [Publish content](publish_content.md).

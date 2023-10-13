@@ -9,8 +9,8 @@ a number of mechanisms that you can use.
 
 ## Sections
 
-You can divide your Content tree into Sections to better organize it.
-Sections let you decide which Users will have access to which parts of the tree.
+You can divide your Content Tree into Sections to better organize it.
+Sections let you decide which Users have access to which parts of the tree.
 To see which Section a Content item belongs to, look at its **Details** tabs.
 
 You can set up Sections by navigating to **Content** -> **Sections**.
@@ -55,7 +55,7 @@ You can use them to display different content to different Page visitors by usin
 
 You can create and configure Segments and Segment Groups in the **Admin** section of the Back Office.
 
-![](img/admin_panel_segment_groups.png)
+![Segment groups](img/admin_panel_segment_groups.png "Segment groups")
 
 !!! note
 

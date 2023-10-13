@@ -12,10 +12,12 @@ To do it, make sure you can [edit Content Types](../content_management/content_m
 
 ## Enable SEO
 
-1. Click **Content** to display content management options, and then **Content Types**.
-2. Drill down the content group and click the edit icon next to the Content Type that you want to modify.
-3. Go to the **SEO** section and switch the **Enable SEO for this content type** toggle.
-4. Click **Save** to save your changes.
+1. In the left panel, go to **Content** -> **Content Types** and select a Content Type Group by clicking its name, for example, **Content**.
+2. [Create a new Content Type](create_edit_content_types.md) or click the edit icon next to the Content Type that you want to modify.
+3. Go to the **SEO** section and switch the **Enable SEO for this Content Type** toggle.
+4. To save your changes, click **Save and close**, or **Save** to continue editing.
+
+![SEO tags](img/SEO_tags.png "SEO configuration")
 
 ## Define Meta tags
 
@@ -33,10 +35,8 @@ When you populate the SEO fields, you can create patterns by using a schema with
 attributes which correspond to identifiers of fields that make up the Content Type.
 As a result, SEO tags are filled in at Content item generation phase with specific 
 contents of such fields. For example, if you enter `<title>.<format> - <author>` 
-as a value of the **Title** tag, the search engine will return 
+as a value of the **Title** tag, the search engine returns 
 `Silmarillion. Illustrated edition - J.R.R. Tolkien`.
-
-![SEO tags](img/SEO_tags.png)`
 
 You can also fine-tune the way your content is presented when linked from 
 a social media platform by populating the social media-specific meta tags 
@@ -49,7 +49,7 @@ the definitions that you provided in the search engine meta tag fields.-->
 ## Preview meta tags of Content item
 
 You can preview what the actual SEO tags for a specific Content item 
-will look like when they are passed to a search engine or social media platform.
+look like when they are passed to a search engine or social media platform.
 
 1. In Content Tree, navigate to the Content item.
 2. On the Content item details screen, click the SEO tab.
@@ -66,6 +66,7 @@ receives a literary prize.
 
 1. In Content Tree, navigate to the Content item, and click the **Edit** button.
 2. Go to the **SEO** section and, in relevant fields, replace the patterns that 
-originate from the Content Type definition. 
+originate from the [Content Type definition](#define-meta-tags). 
+3. **Publish** your changes, **Save and close** or **Delete draft** to return to the Content Tree.
 
 You can either use plain text or patterns, like in the case of Content Types. 
