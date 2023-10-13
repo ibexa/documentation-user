@@ -22,11 +22,6 @@ Product code can have up to 64 characters. It can contain only letters, numbers,
 4\. Add Fields that describe the product by dragging them from the **Field types** 
 area to the **Field definitions** section, and then [configure them](../content_management/configure_ct_field_settings.md).
 
-!!! note "VAT rates"
-
-    When you create a new product type, you must define VAT rates that apply to all products of this type.
-    In the **Field definitions** section, expand **Product Specification** and select categories for all applicable regions.
-
 5\. Add attributes by dragging them or their groups from the **Library** area to the **Attributes** section.
 
 When you define attributes for the product type, you can add or remove either whole attribute groups or individual attributes. 
@@ -38,3 +33,12 @@ Do this by clicking the **X** icon next to the group or attribute.
 
 For every attribute, you can select **Used for product variants**.
 Attributes that have this option are used to [automatically generate product variants](work_with_product_variants.md#generate-variants).
+
+6\. Below the **Attributes** section, in the **VAT rates** area, assign VAT rates that apply to all products of this type.
+
+![Assigning VAT rates](vat_rates_product_type.png "Assigning VAT rates")
+
+!!! tip
+
+    When your website supports a large number of regions, the search field helps you find the right region.
+
