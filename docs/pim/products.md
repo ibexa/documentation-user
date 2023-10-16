@@ -15,7 +15,7 @@ To create a product you must first decide which product type it belongs to.
 
 ## Product types
 
-Product types are templates that contain a combination of [Fields](../content_management/content_model.md#fields-and-field-types) and [attributes](#attributes) that constitute a product definition.
+Product types are templates that contain a combination of [Fields](../content_management/content_model.md#fields-and-field-types) and [attributes](#attributes) which constitute a product definition.
 By default, each product type contains such Fields as name, specification, image or category, but you can change it as required.
 You need different product types, because products of type "Laptops" contain different Fields and attributes than those of type "White appliances".
 
@@ -27,7 +27,11 @@ Examples: heaters, laptops, phones.
 - Virtual - non-tangible items. They can be sold individually, or as part of a product bundle.
 They don't require shipment in the online process. Examples: memberships, services, warranties. 
 
-A product type also defines the attributes that all products of this type can have.
+A product type also defines both the attributes and VAT rates for all its products.
+
+When a product type is created, you can review its fields, attributes, and VAT rate settings on the product type's details screen, without having to open it for editing.
+
+![VAT rates in product type's details view](img/vat_rates_product_details.png "VAT rates in product type's details view")
 
 If your [user Role](../permission_management/work_with_permissions.md) has the `ProductType/Edit` 
 permission, you can [modify product types and add individual attributes or attribute groups](create_product_types.md).
