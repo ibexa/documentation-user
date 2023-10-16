@@ -27,7 +27,7 @@ Examples: heaters, laptops, phones.
 - Virtual - non-tangible items. They can be sold individually, or as part of a product bundle.
 They don't require shipment in the online process. Examples: memberships, services, warranties. 
 
-A product type also defines the attributes that all products of this type can have, as well as VAT rates that apply to all products of this type.
+A product type also defines both the attributes and VAT rates for all its products.
 
 When a product type is created, you can review its fields, attributes, and VAT rate settings on the product type's details screen, without having to open it for editing.
 
