@@ -40,5 +40,5 @@ Attributes that have this option are used to [automatically generate product var
 
 !!! tip
 
-    When your website supports a large number of regions, use the search field to find the right region.
+    When your website supports multiple regions, you can use the search field to find the right one.
 
