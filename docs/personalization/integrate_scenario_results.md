@@ -19,15 +19,12 @@ Depending on the scenario type, you may need to provide additional information
 to see the recommendation results.
 
 The blocks, as well as the number and selection of available scenarios within 
-these blocks depend on the arrangements that your organization makes with Ibexa 
+these blocks depend on the arrangements that your organization makes with [[= product_name_base =]] 
 when defining the initial configuration.
 
 Follow these steps to add and configure the Personalized block to a Page:
 
-1. Navigate to the **Site** > **List** tab, and then click the **Preview** 
-icon next to the website in which you want to place a personalization block.
-
-1. On the Page Builder screen, click the **Preview/Edit** selector to switch to editing mode.
+1. In [Content Tree](discover_ui.md#content-tree), navigate to the page in which you want to place a personalization block.
 
 1. From the **Elements** menu, drag and drop the **Personalized** block to a location on the page layout.
  

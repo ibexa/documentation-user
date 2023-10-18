@@ -36,12 +36,11 @@ Role, in the **Review queue** table, you can either release the lock by clicking
 the **Unlock** icon, or request that the lock is released by the reviewer 
 by clicking the **Request access** icon.
 
-## Compare versions
-
+## Compare versions 
 You can compare two versions of the same Content item.
 
 To do it, in the Content item details screen, go to the **Versions** tab and click the 
-**Version Compare** icon: ![Version Compare Icon](img/version_compare_icon.png){.inline-image}.
+**Version compare** icon: ![Version Compare Icon](img/version_compare_icon.png){.inline-image}.
 
 From the drop-down menus at the top of the screen, select the two versions that you want to compare.
 

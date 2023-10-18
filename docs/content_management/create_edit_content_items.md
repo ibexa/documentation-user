@@ -36,10 +36,7 @@ description: Create content for your website with different Fields, rich text, t
         A Content item can look different on different [SiteAccesses](translate_content.md#siteaccess).
         You can select a SiteAccess to preview by using a drop-down in the preview screen.
 
-1. To discard your changes:
-
-    - If you are creating a new Content item, click **Discard**.
-    - If you are updating an existing Content item, click **Delete draft**.
+1. To discard your changes, click **Delete draft**.
 
 1. Save your changes:
 
@@ -159,9 +156,9 @@ To keep your content organized and easy to find, you can add taxonomy entries to
 For this feature to work as described, the Content Type must have a **Metadata** section, with a _Taxonomy Entry_ field in it. 
 
 1. Switch to the **Meta** tab.
-1. Click the **Select Tags** button.
+1. Click the **Select path** button.
 1. In the pop-up window, select the tags you want to add.
 
-![Selecting Taxonomy Entries](img/taxonomy_select_taxonomy_entries.png "Taxonomy entries")
+![Selecting Taxonomy entries](img/taxonomy_select_taxonomy_entries.png "Selecting Taxonomy entries")
 
 See more in [Assign tag to content from taxonomy tree](taxonomy/work_with_tags.md#assign-tag-to-content-from-taxonomy-tree).

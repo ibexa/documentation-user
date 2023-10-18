@@ -3,16 +3,16 @@ description: Use surveys, questionnaires, sign-up forms and other interactive fo
 edition: experience
 ---
 
-# Work with forms 
+# Work with forms
 
-You can use forms to increase the functionality of the website by adding a survey, 
+You can use forms to increase the functionality of the website by adding a survey,
 questionnaire, sign-up form, etc.
-You can then review the results gathered from website users, for example, to improve 
+You can then review the results gathered from website users, for example, to improve
 user experience.
 
 For more information about building and styling forms, see [developer documentation]([[= developer_doc =]]/content_management/forms/forms).
 
-## Create forms 
+## Create forms
 
 Editors can use the created form anywhere on the website.
 Forms can be used in page blocks, embedded in the online editor or even used as a field relation. 
@@ -33,7 +33,7 @@ To create a form:
 4\. Drag (A) or click (B) on the type from the form fields toolbar. 
 To create more complicated and detailed form, you can use more than one form Field Type.
 
-![Draag form fields](img/drag_form_fields.png)
+![Drag form fields](img/drag_form_fields.png)
 
 5\. Click on the **Settings** icon to access form field settings. The settings differ depending on the type of field.
 
@@ -53,7 +53,7 @@ Once you publish a form and users start filling it in, you can preview the resul
 Here you can view the details of each submission.
 You can also delete any submissions (for example if they were made while testing or contain spam).
 
-The **Download submissions** button enables you to download all the submissions in a .CSV (comma-separated value) file.
+Click **Download submissions** icon to download all the submissions in a .CSV (comma-separated value) file.
 
 ![Form Builder submissions](img/form_builder_submissions.png)
 

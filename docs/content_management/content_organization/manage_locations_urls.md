@@ -20,7 +20,7 @@ A single Location can only have one Content item in it.
 
 Even if a Content item is placed in more than one Location, one of the Locations is always treated as the main one.
 
-To assign other Locations to content, view this Content item's **Location** tab and click the plus button.
+To assign other Locations to content, view this Content item's **Location** tab and click **+ Add**.
 Then select the new parent from the Content Browser.
 
 ![Content with two locations](img/content_with_two_locations.png "Content with two Locations")
@@ -61,7 +61,7 @@ in the **Location** tab and selecting a Content item to swap with.
 ## URL management
 
 In your website, you can manage external URL addresses and URL wildcards.
-You do this in the Back Office, **Admin** tab, the **URL Management** node.
+You do this in the Back Office, **Admin** tab, the **URL management** node.
 
 For more information about URL management, see the [Ibexa Developer Documentation.]([[= developer_doc =]]/content_management/url_management/url_management/).
 
@@ -90,7 +90,7 @@ The Link manager list also shows whether the link is alive or dead in the **Stat
 
 Each Content item can have one or more URL aliases. They are additional URLs that can be used to access this Content item.
 
-You can add URL aliases in the URL tab under **Custom URL aliases for <Content name>** by clicking the plus button.
+You can add URL aliases in the URL tab under **Custom URL aliases for...** by clicking **+ Add**.
 The URL alias must be unique for the whole installation, regardless of the language.
 
 ![Creating a new URL alias](img/create_new_url_alias.png)
