@@ -46,6 +46,24 @@ You can choose one of a few options of what is shown to the user after filling i
 
 6\. Fill in necessary information and click **Submit**.
 
+7\. Click **Save** or **Close** to exit the Form Builder.
+
+8\. To discard your changes, click **Delete draft**.
+
+9\. Save your changes:
+
+- Click **Save** to continue editing.
+- Click **Save and close** to focus on other tasks and come back later.
+
+10\. To have another editor look at the newly created Content item, click Send to review.
+
+11\. When the form is ready for publication:
+
+- Click **Publish** to publish it immediately.
+- Click **Publish later** to set a specific publication date.
+
+    For more information, see [Publish content](publish_content.md).
+
 ## View results
 
 Once you publish a form and users start filling it in, you can preview the results in the **Submissions** tab in the Content item view.
