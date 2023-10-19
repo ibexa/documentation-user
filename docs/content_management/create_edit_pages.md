@@ -48,18 +48,20 @@ To start editing an existing Page, in the Back Office select the page from the l
 
 The Page Builder comes with a toolbar that enables you to perform advanced editing and previewing of the Page.
 
-![Page Builder Toolbar](img/page_builder_toolbar.png)
+![Page Builder Toolbar](page_builder_toolbar.png)
 
 Using the toolbar buttons, you can perform the following actions:
 
 |Button|Description|
 |------|-----------|
-|![Edit and preview switch](img/page_builder_toolbar_editpreview.png)|Switch between previewing and editing the Page.|
-|![Layout switch](img/page_builder_switch_layout.png)|Switch between Page layouts.|
-|![Preview segments](img/page_builder_toolbar_preview_segment.png)|Access preview of the Page for a given Segment.|
-|![Timeline button](img/page_builder_toolbartimelinetoggler.png)|Access the timeline to preview how the Page changes with time. You can also view the list of all upcoming scheduled events. For details, see [Timeline](schedule_publishing.md#timeline).|
-|![View toggler](img/page_builder_toolbar_devicestoggler.png)|Toggle through to see how the Page is rendered on different devices.|
-|![Elements menu](img/page_builder_toolbarelements.png)|Access menu with Elements.|
+|![Fields](page_builder_toolbar_editpreview.png)|Open editing window.|
+|![Visibility](page_builder_toolbar_preview_segment.png)|Access preview of the Page for a given Segment.|
+|![Schedule](page_builder_toolbartimelinetoggler.png)|Access the timeline to preview how the Page changes with time. You can also view the list of all upcoming scheduled events. For details, see [Timeline](schedule_publishing.md#timeline).|
+|![View toggler](page_builder_toolbar_devicestoggler.png)|Toggle through to see how the Page is rendered on different devices.|
+|![Undo](page_builder_toolbar_undo.png)|Undo latest changes.|
+|![Redo](page_builder_toolbar_redo.png)|Redo latest changes.|
+|![Structure view](page_builder_toolbar_structure_view.png)|Switch to structure view.|
+|![Elements menu](page_builder_toolbar_elements.png)|Access menu with Elements.|
 
 In a newly created Page you can choose a [layout](configure_ct_field_settings.md#available-page-layouts) which defines the available zones.
 
