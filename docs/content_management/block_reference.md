@@ -111,7 +111,7 @@ is not assigned to any Segment.
 
 The rules are checked in order, so when a user belongs to more than one Segment, the first rule applies.
 
-![Dynamic targeting](page_builder_dynamic_targeting.png)
+![Dynamic targeting](img/page_builder_dynamic_targeting.png)
 
 ## Embed block
 
@@ -258,7 +258,7 @@ The rules are checked in order, so when a user belongs to more than one Segment,
 
 You can preview the Page for each of the available Segments:
 
-![Previewing Page for a given Segment](page_builder_segment_preview.png)
+![Previewing Page for a given Segment](img/page_builder_segment_preview.png)
 
 ## Text block
 

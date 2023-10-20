@@ -40,11 +40,11 @@ You do it, for example, when a [developer creates a new block]([[= developer_doc
 
 Expand the **Select blocks** section and select page blocks that you want to be included in the page.
 
-![Page blocks](select_page_blocks.png "Select page blocks")
+![Page blocks](img/select_page_blocks.png "Select page blocks")
 
 Now, only selected page blocks are available in the edit mode.
 
-![Elements menu](page_blocks_toolbar.png "Elements menu")
+![Elements menu](img/page_blocks_toolbar.png "Elements menu")
 
 !!! caution
 
@@ -59,7 +59,7 @@ You can decide which page layouts are available for an editor.
 Expand the **Select layouts** section, and define which layouts are available 
 for this Page.
 
-![Layouts](select_layouts.png "Layouts")
+![Layouts](img/select_layouts.png "Layouts")
 
 If you deselect a layout that is currently used on a Page, the editor has to change 
 the layout to be able to edit the Page.
@@ -70,7 +70,7 @@ You can set the editing mode that is launched when an editor starts editing the 
 
 Expand the **Select Editor launch mode** section, and select from the available options.
 
-![Editor launch mode](select_editor_mode.png "Select Editor launch mode")
+![Editor launch mode](img/select_editor_mode.png "Select Editor launch mode")
 
 ## Content relation settings
 
@@ -91,7 +91,7 @@ In the **Select starting location** area, select from the available options:
 - **Content location** - the starting location is the location of the Content item that is edited by the user. For example, if the user edits the Content item with the location `50`, it sets the starting location to this value with children under this location.
 - **Root default location** - use if you want the Content Browser to start at the defined location with only children available for selection.
 
-![Select starting location](select_start_location.png "Selecting a starting location")
+![Select starting location](img/select_start_location.png "Selecting a starting location")
 
 #### Allowed Content types
 
