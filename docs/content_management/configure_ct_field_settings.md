@@ -10,8 +10,8 @@ treats the contents of each Field. Apart from general settings, certain Field Ty
 
 You can only create or modify Content Types when your [user Role](../permission_management/work_with_permissions.md) has the `ContentType/Create` or `ContentType/Update` permission.
 
-To modify Field settings, in the **Field definitions** section, expand the **Landing page** header. 
-When done, click **Save** to apply changes to the Content Type.
+To modify Field settings, in the **Field definitions** section, expand the **Landing Page** header. 
+When done, click **Save and close** to apply changes to the Content Type.
 
 ## General settings
 
@@ -31,7 +31,7 @@ general settings.
 ## Default configuration of Pages
 
 The following settings control the behavior of Content items of [Page](../content_management/create_edit_pages.md) type. 
-You modify them in the **Field definitions** section, the **Landing page** Field.
+You modify them in the **Field definitions** section, the **Landing Page** Field.
 
 ### Block display
 
@@ -77,7 +77,7 @@ Expand the **Select Editor launch mode** section, and select from the available 
 When you add or modify a **[Content relation](create_edit_content_items.md#relation_field)** or **Content relation (multiple)** 
 Field in a Content Type, you can decide:
 
-- which Content tree location opens in the 
+- which Content Tree location opens in the 
 [Content Browser](content_model.md#content-browser) when the user browses to a related 
 Content item 
 - whether relations can be to Content items of a specific type only, or any Content Type.
