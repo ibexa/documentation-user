@@ -10,8 +10,8 @@ treats the contents of each Field. Apart from general settings, certain Field Ty
 
 You can only create or modify Content Types when your [user Role](../permission_management/work_with_permissions.md) has the `ContentType/Create` or `ContentType/Update` permission.
 
-To modify Field settings, in the **Field definitions** section, expand the **Landing page** header. 
-When done, click **Save** to apply changes to the Content Type.
+To modify Field settings, in the **Field definitions** section, expand the **Landing Page** header. 
+When done, click **Save and close** to apply changes to the Content Type.
 
 ## General settings
 
@@ -31,7 +31,7 @@ general settings.
 ## Default configuration of Pages
 
 The following settings control the behavior of Content items of [Page](../content_management/create_edit_pages.md) type. 
-You modify them in the **Field definitions** section, the **Landing page** Field.
+You modify them in the **Field definitions** section, the **Landing Page** Field.
 
 ### Block display
 
@@ -40,11 +40,11 @@ You do it, for example, when a [developer creates a new block]([[= developer_doc
 
 Expand the **Select blocks** section and select page blocks that you want to be included in the page.
 
-![Page blocks](img/select_page_blocks.png "Select page blocks")
+![Page blocks](select_page_blocks.png "Select page blocks")
 
 Now, only selected page blocks are available in the edit mode.
 
-![Elements menu](img/page_blocks_toolbar.png "Elements menu")
+![Elements menu](page_blocks_toolbar.png "Elements menu")
 
 !!! caution
 
@@ -59,7 +59,7 @@ You can decide which page layouts are available for an editor.
 Expand the **Select layouts** section, and define which layouts are available 
 for this Page.
 
-![Layouts](img/select_layouts.png "Layouts")
+![Layouts](select_layouts.png "Layouts")
 
 If you deselect a layout that is currently used on a Page, the editor has to change 
 the layout to be able to edit the Page.
@@ -70,14 +70,14 @@ You can set the editing mode that is launched when an editor starts editing the 
 
 Expand the **Select Editor launch mode** section, and select from the available options.
 
-![Editor launch mode](img/select_editor_mode.png "Select Editor launch mode")
+![Editor launch mode](select_editor_mode.png "Select Editor launch mode")
 
 ## Content relation settings
 
 When you add or modify a **[Content relation](create_edit_content_items.md#relation_field)** or **Content relation (multiple)** 
 Field in a Content Type, you can decide:
 
-- which Content tree location opens in the 
+- which Content Tree location opens in the 
 [Content Browser](content_model.md#content-browser) when the user browses to a related 
 Content item 
 - whether relations can be to Content items of a specific type only, or any Content Type.
@@ -91,7 +91,7 @@ In the **Select starting location** area, select from the available options:
 - **Content location** - the starting location is the location of the Content item that is edited by the user. For example, if the user edits the Content item with the location `50`, it sets the starting location to this value with children under this location.
 - **Root default location** - use if you want the Content Browser to start at the defined location with only children available for selection.
 
-![Select starting location](img/select_start_location.png "Selecting a starting location")
+![Select starting location](select_start_location.png "Selecting a starting location")
 
 #### Allowed Content types
 

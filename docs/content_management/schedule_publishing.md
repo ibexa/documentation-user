@@ -17,7 +17,7 @@ You can use it to set the date and time when the block becomes visible and when 
 If you configure the reveal and/or hide dates for a Page block, you can then see the scheduled blocks (except for the Content Scheduler) in the calendar.
 This way you can see what content will be available in the future.
 
-![Schedule tab](img/schedule_tab.png)
+![Schedule tab](schedule_tab.png)
 
 ## Content Scheduler block [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
@@ -29,7 +29,7 @@ At this time the Content item will become visible.
 The Content Scheduler block has a limit of Content items.
 If the limit is filled and a new Content item is displayed, the oldest item will disappear from the block.
 
-![Content Scheduler](img/content_scheduler.png)
+![Content Scheduler](content_scheduler.png)
 
 ## Date-based publishing
 

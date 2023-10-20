@@ -111,7 +111,7 @@ is not assigned to any Segment.
 
 The rules are checked in order, so when a user belongs to more than one Segment, the first rule applies.
 
-![Dynamic targeting](img/page_builder_dynamic_targeting.png)
+![Dynamic targeting](page_builder_dynamic_targeting.png)
 
 ## Embed block
 
@@ -196,7 +196,7 @@ On the **Design** tab, in the **View** field, select the layout to be used to pr
 On the **Basic** tab, set values in the following fields:
 
 - **Name** – Enter a name for the Page block.
-- **Select a scenario** – Select "Landing page" or "Top clicked".
+- **Select a scenario** – Select "Landing Page" or "Top clicked".
 - **Select a Content Type to be displayed** – Select "Product".
 - **Display limit** – Set the number of products to be displayed.
 
@@ -258,7 +258,7 @@ The rules are checked in order, so when a user belongs to more than one Segment,
 
 You can preview the Page for each of the available Segments:
 
-![Previewing Page for a given Segment](img/page_builder_segment_preview.png)
+![Previewing Page for a given Segment](page_builder_segment_preview.png)
 
 ## Text block
 
