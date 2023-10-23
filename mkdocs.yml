@@ -59,7 +59,7 @@ nav:
                 - Scenarios: personalization/scenarios.md
                 - Types of content: personalization/content_types.md
                 - Filters: personalization/filters.md
-            - Email triggers: personalization/triggers.md
+            - Tiggers: personalization/triggers.md
         - Preview scenario results: personalization/preview_scenario_results.md
         - Integrate scenario results: personalization/integrate_scenario_results.md
         - Import source data: personalization/content_import.md

@@ -1,13 +1,15 @@
 ---
-description: Triggers enable sending recommendations as emails to customers.
+description: Triggers enable sending recommendations as push messages to customers.
 ---
 
-# Email triggers
+# Triggers
 
-With email triggers, you can increase the engagement of your visitors and customers by delivering recommendations straight to their mailboxes.
-As a store manager, you can expect that more engaged customers translate to bigger income, improved fulfillment of customer needs, while saving time and effort.
+Triggers are push messages delivered to end users, for example, through email.
+With triggers, you can increase the engagement of your visitors and customers by delivering recommendations straight to their mailboxes.
+As a store manager, you can expect that more engaged customers translate to bigger income, and improved fulfillment of customer needs.
+All this while saving time and effort.
 
-## Email trigger types
+## Trigger types
 
 [[= product_name =]] lets you use several triggers, including the following ones:
 
@@ -25,22 +27,23 @@ Recommendations are generated based on the user's purchasing and browsing histor
 ## Trigger calculation frequency
 
 Personalization engine checks user context data against trigger conditions every night.
-Email triggers are automatically initiated when a specific user's action, inaction or pattern of actions meet certain conditions that are defined in the service.
+Trigger messages are automatically initiated when a specific user's action, inaction or pattern of actions meet certain conditions that are defined in the service.
 
-## Configuring email triggers
+## Configuring triggers
 
-Email trigger calculations are done on a server that is run and maintained by [[= product_name_base =]].
-Also, [[= product_name =]] does not provide a mechanism to send emails to the recipient, but delivers a response with recommendations to an endpoint provided by your organization, for example, an [[= product_name_connect =]] [webhook](https://doc.ibexa.co/projects/connect/en/latest/tools/webhooks/).
-Each response includes a list of recommendations, and a user email address that can be used to route a message to the recipient.
+Trigger message calculations are done on a server that is run and maintained by Ibexa.
+The server delivers a response with recommendations to an endpoint provided by your organization, for example, an Ibexa Connect [webhook](https://doc.ibexa.co/projects/connect/en/latest/tools/webhooks/).
+You may then deliver the message to the end users by using a method of your choice, for example, email.
+Apart from a list of recommendations, the response can include an email address for routing a message to the recipient.
 
-To enable email triggers for your organization, contact your administrator or development team about [preparing a webhook address and processing the response delivered to the webhook]([[= developer_doc =]]/personalization/integrate_recommendation_service/#send-emails-with-recommendations) and [[= product_name_base =]] about the configuration specifics.
+To enable triggers for your organization, contact your administrator or development team about [preparing a webhook address and processing the response delivered to the webhook]([[= developer_doc =]]/personalization/integrate_recommendation_service/#send-messages-with-recommendations), and Ibexa about the configuration specifics.
 
-You can define one or more email triggers of certain type, to support different use cases.
-For each email trigger type, you need to decide on several crucial parameters, for example:
+You can define one or more triggers of certain type, to support different use cases.
+For each trigger type, you need to decide on several crucial parameters, for example:
 
 - one or more [types of content](content_types.md)
 - [attributes](recommendation_models.md/#nominal-attributes) to be included in the response
-- time that must pass before email start being sent
+- time that must pass before messages start being sent
 - number of repetitions
 - message frequency
 - number of recommended items
