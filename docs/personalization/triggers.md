@@ -6,7 +6,7 @@ description: Triggers enable sending recommendations as push messages to custome
 
 Triggers are push messages delivered to end users, for example, through email.
 With triggers, you can increase the engagement of your visitors and customers by delivering recommendations straight to their mailboxes.
-As a store manager, you can expect that more engaged customers translate to bigger income, and improved fulfillment of customer needs.
+As a store manager, you can expect bigger income, and improved fulfillment of customer needs.
 All this while saving time and effort.
 
 ## Trigger types
