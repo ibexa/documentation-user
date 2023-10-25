@@ -40,35 +40,78 @@ Switch to the Field view using the Page Builder toolbar.
 ## Edit Page
 
 You edit Pages using the Page Builder.
-To start editing an existing Page, in the Back Office select the page from the list that appears below.
+To start editing an existing Page, in the Back Office from the Content Tree choose the page that you want you edit and click **Edit** button.
 
 ![Selecting Page for editing](img/editing_page.png)
 
-### Page Builder toolbar
+### Page Builder interface
 
-The Page Builder comes with a toolbar that enables you to perform advanced editing and previewing of the Page.
+Page Builder has plain and intuitive interface. It is easy to create a Page without having advanced technical skills.
 
-![Page Builder Toolbar](page_builder_toolbar.png)
+![Page Builder interface](page_builder_interface.png)
 
-Using the toolbar buttons, you can perform the following actions:
+Page Builder user interface consists of:
+
+A. Drop zone
+
+B. Elements / Structure view toolbar
+
+C. Settings toolbar (including Fields, Visibility and Schedule settings)
+
+D. Mode toolbar (including PC, tablet and mobile mode)
+
+E. Buttons:
 
 |Button|Description|
 |------|-----------|
-|![Fields](page_builder_toolbar_editpreview.png)|Open editing window.|
-|![Visibility](page_builder_toolbar_preview_segment.png)|Access preview of the Page for a given Segment.|
-|![Schedule](page_builder_toolbartimelinetoggler.png)|Access the timeline to preview how the Page changes with time. You can also view the list of all upcoming scheduled events. For details, see [Timeline](schedule_publishing.md#timeline).|
+|![Edit and preview switch](page_builder_toolbar_editpreview.png)|Switch between previewing and editing the Page.|
+|![Preview segments](page_builder_toolbar_preview_segment.png)|Access preview of the Page for a given Segment.|
+|![Timeline button](page_builder_toolbartimelinetoggler.png)|Access the timeline to preview how the Page changes with time. You can also view the list of all upcoming scheduled events.|
 |![View toggler](page_builder_toolbar_devicestoggler.png)|Toggle through to see how the Page is rendered on different devices.|
-|![Undo](page_builder_toolbar_undo.png)|Undo latest changes.|
-|![Redo](page_builder_toolbar_redo.png)|Redo latest changes.|
-|![Structure view](page_builder_toolbar_structure_view.png)|Switch to structure view.|
-|![Elements menu](page_builder_toolbar_elements.png)|Access menu with Elements.|
+|![Elements menu](page_builder_toolbarelements.png)|Move Elements / Structure view to the other side of the screen.|
+|![Undo](page_builder_undo.png)|Undo latest change.|
+|![Redo](page_builder_redo.png)|Redo latest change.|
 
-In a newly created Page you can choose a [layout](configure_ct_field_settings.md#available-page-layouts) which defines the available zones.
+F. Saving options
 
-![Switch layout](img/switch_layout_window.png "Switch layout")
+|Option|Description|
+|------|-----------|
+|Close|Close the page without saving it.|
+|Send to review|Save the page and send it to review.|
+|Publish / Publish later|Publish the page or schedule publishing for later.|
+|Save draft|Save the page draft*.|
+|Delete draft|Delete the page draft.|
+
+* To help you preserve your work, system saves drafts of Content items automatically. For more information, see [Autosave](https://doc.ibexa.co/projects/userguide/en/master/content_management/content_versions/#autosave).
+
+Page Builder has two main views that you can use while creating a page:
+
+- Elements toolbar - consists of all available elements that you can use by dragging them and dropping on a drop zone.
+
+![Elements toolbar](elements_toolbar.png)
+
+- Structure view - shows a structure of your page, including their division into zones and the blocks that they contain.
+
+![Structure view](structure_view.png)
+
+### Choose layout
+
+For newly created Page you can choose a [layout](configure_ct_field_settings.md#available-page-layouts) which defines the available zones.
+
+![Switch layout](img/switch_layout_window.png)
 
 Applying a layout divides the Page into the defined zones. The zones are placeholders for Content items.
+
+On the Page creation modal, select the layout and click **Create draft**.
 Now you are ready to add blocks of content to the Page.
+
+The page layouts that an editor has access to are up to you to choose.
+In the `Select layouts` section, you can select layouts that you want to be available for the Page.
+
+The default, built-in Page layout has only one zone, but developers can create other layouts in configuration.
+For more information, see [Configure layout](https://doc.ibexa.co/en/latest/templating/render_content/render_page/#configure-layout).
+
+In a newly created Page you can choose a [layout](configure_ct_field_settings.md#available-page-layouts) which defines the available zones.
 
 ### Add blocks
 
@@ -77,7 +120,11 @@ Each block is unique in its function and enables you to customize the content ap
 
 Add a block by dragging it from the menu to an empty place on a zone.
 Do not worry about placing blocks in the proper place from the start.
-You can reorder them at any time by dragging and dropping them in the desired location.
+You can reorder blocks in a few ways:
+
+- drag and drop block in the desired location on a drop zone
+- select block and use up and down arrow on the keyboard
+- access Structure view and use 'Move up' and 'Move down' function in the settings of the block
 
 [[= product_name =]] comes with a set of ready-to-use Page blocks,
 but [developers can add their own]([[= developer_doc =]]/content_management/pages/create_custom_page_block/).
@@ -101,9 +148,19 @@ For a list of blocks available out of the box, see [Block reference](block_refer
 Each kind of block has its special properties.
 You can access them by placing the cursor on the added block and clicking the 
 **Block settings** (cog) icon.
-Use the same menu to remove the block from the Page by clicking the **Delete** (trash) icon.
 
-![Elements settings](img/page_builder_elementsettings.png)
+You can manage each block by accessing its settings. To do it, click settings icon next to the block's name.
+
+![Block settings](img/block_settings.png)
+
+Available settings are:
+
+- Move up - allows you to change position of the block on the page by moving it up
+- Move down - allows you to change position of the block on the page by moving it down
+- Configuration - allows you to access configuration window
+- Duplicate - duplicates existing block by creating its copy
+- Refresh - refreshes preview of the block
+- Delete - deletes existing block
 
 Settings available for blocks are divided into three tabs — **Basic**, **Design**, and **Scheduler**.
 The settings available on the **Basic** tab are tailored to the block's content.
