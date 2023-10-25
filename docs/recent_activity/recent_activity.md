@@ -25,7 +25,7 @@ On the right, a "Filters" block allows
 * to only follow the activity of a user or a list of users
 * to narrow the display to a type of item or action
 
-Select what you want to focus on and click the "Apply" button. Stop filtering by clicking the "Clear" button. 
+Select what you want to focus on and click the "Apply" button. Stop filtering by clicking the "Clear" button.
 
 TODO: How to display what happened last week?
 
