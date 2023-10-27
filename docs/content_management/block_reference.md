@@ -196,7 +196,7 @@ On the **Design** tab, in the **View** field, select the layout to be used to pr
 On the **Basic** tab, set values in the following fields:
 
 - **Name** – Enter a name for the Page block.
-- **Select a scenario** – Select "Landing page" or "Top clicked".
+- **Select a scenario** – Select "Landing Page" or "Top clicked".
 - **Select a Content Type to be displayed** – Select "Product".
 - **Display limit** – Set the number of products to be displayed.
 

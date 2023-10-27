@@ -37,7 +37,7 @@ general settings.
 
 ## Default configuration of pages
 
-The following settings control the behavior of Content items of [page](../content_management/create_edit_pages.md) type. 
+The following settings control the behavior of Content items of [Page](../content_management/create_edit_pages.md) type. 
 You modify them in the **Field definitions** section, the **Landing Page** Field.
 
 ### Block display
