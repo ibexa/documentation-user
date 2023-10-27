@@ -5,14 +5,14 @@ edition: experience
 
 # Work with forms
 
-You can use forms to increase the functionality of the website by adding a survey,
+You can use forms to increase the functionality of the website by adding a survey, 
 questionnaire, sign-up form, etc.
-You can then review the results gathered from website users, for example, to improve
+You can then review the results gathered from website users, for example, to improve 
 user experience.
 
 For more information about building and styling forms, see [developer documentation]([[= developer_doc =]]/content_management/forms/forms).
 
-## Create forms
+## Create forms 
 
 Editors can use the created form anywhere on the website.
 Forms can be used in page blocks, embedded in the online editor or even used as a field relation. 
@@ -53,7 +53,7 @@ You can choose one of a few options of what is shown to the user after filling i
 9\. Save your changes:
 
 - Click **Save** to continue editing.
-- Click **Save and close** to focus on other tasks and come back later.
+- Click **Save and close** to focus on other tasks.
 
 10\. To have another editor look at the newly created Content item, click Send to review.
 
@@ -95,7 +95,7 @@ In the following example, you will learn how to create a Newsletter form and use
 - Single line input #2: **Name**: Surname
 - Email: **Name**: Email address
 - Checkboxes: **Name**: Gender, **Options**: click **Add** button and add three values: Male, Female, Other.
-- Button: **Name**: Sign up!, **Action**: choose Show a message and in the **Message to displa**y field enter: Thank you!
+- Button: **Name**: Sign up!, **Action**: choose Show a message and in the **Message to display** field enter: Thank you!
 
 ![Newsletter settings](img/newsletter_settings.png)
 

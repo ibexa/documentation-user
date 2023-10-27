@@ -6,7 +6,7 @@ description: Get started with Ibexa DXP by logging in to the Back Office.
 
 [[= product_name =]] consists of the technical platform for creating and managing 
 online experiences, designed for developers and end-users alike.
-It includes a Web framework, APIs and a content repository.
+It includes a Web framework, APIs and a Content Repository.
 It features a customizable user interface where you can work with the content, 
 products, media, as well as manage other functionalities and administer the platform.
 
@@ -35,7 +35,7 @@ Otherwise, to login, you must get your user credentials from the administrator a
 
 ![Login screen](img/login_form.png "Login screen")
 
-### Change the password and other user settings
+### Change the password and other user settngs
 
 You can access your user settings on the right side of the top bar:
 

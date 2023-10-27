@@ -35,7 +35,7 @@ When you populate the SEO fields, you can create patterns by using a schema with
 attributes which correspond to identifiers of fields that make up the Content Type.
 As a result, SEO tags are filled in at Content item generation phase with specific 
 contents of such fields. For example, if you enter `<title>.<format> - <author>` 
-as a value of the **Title** tag, the search engine returns 
+as a value of the **Title** tag, the search engine will return 
 `Silmarillion. Illustrated edition - J.R.R. Tolkien`.
 
 You can also fine-tune the way your content is presented when linked from 
@@ -49,7 +49,7 @@ the definitions that you provided in the search engine meta tag fields.-->
 ## Preview meta tags of Content item
 
 You can preview what the actual SEO tags for a specific Content item 
-look like when they are passed to a search engine or social media platform.
+will look like when they are passed to a search engine or social media platform.
 
 1. In Content Tree, navigate to the Content item.
 2. On the Content item details screen, click the SEO tab.

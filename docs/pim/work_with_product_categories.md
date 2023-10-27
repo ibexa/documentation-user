@@ -18,14 +18,14 @@ Depending on your permissions, you might be able to verify the presence of the f
 1. In the left panel, click **Product catalog** -> **Product Types** to open a list of available product types.
 2. Click the **Edit** icon next to a name of the product type that you want to review.
 3. In the **Editing Product Type** modal, check whether the **Field definitions** area contains the **Categories** field of **Taxonomy Entry Assignment** type. 
-    1. If the field is present, click **Discard changes** and skip the remaining steps.
+    1. If the field is present, click **Delete draft** and skip the remaining steps.
     2. If the field is absent, drag and drop the **Taxonomy Entry Assignment** option from the **Field types** area to the **Field definitions** area.
     3. Expand the **New field type** that you just added and make the following settings:
         * Set a name for the field, for example, "Product category"
         * Select the **Required** checkbox
         * In the **Taxonomy** field, select the "Product categories" option
 4. Optionally, modify other product type settings as required.
-7. Click **Save**.
+7. To save your changes, click **Save** and continue editing, or **Save and close** to focus on other tasks.
 
 You can now add product categories and then create relationships between products and product categories.
 
@@ -62,7 +62,7 @@ You can create or change product category relationships with products in two way
 3. To edit an existing Product item, click the **Edit** icon next to a name of the Product item that you want to modify.
 4. In the product type editing modal, go to the **Product category** area and click the **Select product categories** button.
 5. In the pop-up window, select checkboxes next to product categories related with the product.
-6. Click **Select product categories** to close the pop-up window.
+6. Click **Select** to close the pop-up window.
 7. Optionally, modify other product information as required.
 8. Click **Create** or **Update** to save your changes.
 

@@ -41,7 +41,7 @@ description: Create content for your website with different Fields, rich text, t
 1. Save your changes:
 
     - Click **Save** to continue editing.
-    - Click **Save and close** to focus on other tasks and come back later.
+    - Click **Save and close** to focus on other tasks.
 
 1. To have [another editor look at the newly created Content item](editorial_workflow.md), click **Send to review**. 
 

@@ -18,7 +18,7 @@ The following blocks are provided with a clean installation of [[= product_name 
 |[Content Scheduler](schedule_publishing.md#content-scheduler-block)|Displays Content items at a pre-defined time. |
 |[Dynamic targeting](#dynamic-targeting-block)|Embeds recommended items based on the [Segment](content_organization/classify_content.md#segments) the user belongs to. |
 |[Embed](#embed-block)|Embeds a Content item of any Content Type on the Page. |
-|[Form](#form-block)|Embeds a Form Content item that you select from the Content structure. |
+|[Form](#form-block)|Embeds a Form Content item that you select from the Content Structure. |
 |[Gallery](#gallery-block)|Displays all images contained in a selected folder. |
 |[Ibexa Connect](#ibexa-connect-block)|Retrieves and displays data from an Ibexa Connect webhook. |
 |[Last purchased](#last-purchased-block)|Displays a list of products that were recently purchased from PIM. |

@@ -19,7 +19,7 @@ Depending on the scenario type, you may need to provide additional information
 to see the recommendation results.
 
 The blocks, as well as the number and selection of available scenarios within 
-these blocks depend on the arrangements that your organization makes with [[= product_name_base =]] 
+these blocks depend on the arrangements that your organization makes with Ibexa 
 when defining the initial configuration.
 
 Follow these steps to add and configure the Personalized block to a Page:

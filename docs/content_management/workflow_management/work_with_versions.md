@@ -40,7 +40,7 @@ by clicking the **Request access** icon.
 You can compare two versions of the same Content item.
 
 To do it, in the Content item details screen, go to the **Versions** tab and click the 
-**Version compare** icon: ![Version Compare Icon](img/version_compare_icon.png){.inline-image}.
+**Version Compare** icon: ![Version Compare Icon](img/version_compare_icon.png){.inline-image}.
 
 From the drop-down menus at the top of the screen, select the two versions that you want to compare.
 

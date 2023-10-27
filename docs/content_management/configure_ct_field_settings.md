@@ -18,7 +18,8 @@ You can only create or modify Content Types when your [user Role](../permission_
 
 1. To discard your changes, if you are creating a new Content Type, click **Discard**, and if you are updating an existing Content Type, click **Delete draft**.
 
-1. To save your changes, click **Save** and continue editing, **Save and close**.
+1. To save your changes, click **Save** and continue editing, or **Save and close** to focus on other tasks.
+
 ## General settings
 
 Depending on their type, Fields can have different combinations of the following 
