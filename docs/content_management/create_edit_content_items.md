@@ -118,7 +118,7 @@ Contact your website administrator about the details of using them.
 ### SeenThis! streaming
 
 !!! note
-    This custom tag is in an opt-in bundle, to use it, install the bundle first.
+    This custom tag is in an opt-in bundle, to use it, install `ibexa/connector-seenthis` bundle first.
 
 Use SeenThis! tag to enable displaying of video with maximum quality regardless of connection and server integration.
 
