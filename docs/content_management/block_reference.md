@@ -236,21 +236,21 @@ On the **Basic** tab, set values in the following fields:
 - **Name** – Enter a name for the page block.
 - **Video ID** – Enter the ID of the video to be streamed.
 - **Tracker ID** – Enter the tracking code.
-- **Big play button** – Set to display large play button.
+- **Big play button** – Set to display a large play button.
 - **Autoplay** – Configure whether the video starts automatically.
 - **Muted** – Configure whether the video starts muted.
 - **Play button** – Set the number of products to be displayed.
 - **Mute button** – Set whether the mute button is displayed or not.
-- **Loop** – Set to play a video in a loop mode.
+- **Loop** – Set whether to play a video in a loop mode.
 - **Loop count** – Set the number of loop repetitions.
-- **Include audio** – Set to include or not audio with the video.
+- **Include audio** – Configure whether to include audio with the video.
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of products and submit your changes.
 
 
 !!! note
 
-    SeenThis technology might be blocked by some ad blocker solutions. If you can't see the block once configured, check ad blocker configuration.
+    SeenThis! technology might be blocked by some ad blocker solutions. If you can't see the block once configured, check the ad blocker configuration.
 
 ## Recently added block
 
