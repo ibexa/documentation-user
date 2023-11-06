@@ -115,6 +115,15 @@ add or delete rows and columns in any part of the table, as well as merge and sp
 Your installation can also have custom elements available in the Rich Text field.
 Contact your website administrator about the details of using them.
 
+### SeenThis! streaming
+
+!!! note
+    This custom tag is in an opt-in bundle, to use it, install `ibexa/connector-seenthis` bundle first.
+
+Use SeenThis! tag to enable displaying of video with maximum quality regardless of connection and server integration.
+
+For more information, see [SeenThis! page block](block_reference.md#seenthis-block) documentation.
+
 ### Text formatting
 
 When you select a section of text, you get access to text formatting options such as bold or underline.

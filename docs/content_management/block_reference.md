@@ -29,6 +29,7 @@ The following blocks are provided with a clean installation of [[= product_name 
 |[Recently added](#recently-added-block)|Displays a list of products that were recently added to PIM. |
 |[RSS](#rss-block)|Loads and displays news from RSS feeds (channels). |
 |[Sales representative](#sales-representative)|Loads and displays company's sales representative.|
+|[SeenThis!](#seenthis-block)|Displays video with exceeded standard video restrictions of 3.5MB.|
 |[Targeting](#targeting-block)|Embeds an Content item based on the [Segment](content_organization/classify_content.md#segments) the user belongs to. |
 |[Text](#text-block)|Enables you to add to the Page a Rich Text block. |
 |[Video](#video-block)|Embeds a video into the Page with standard playback controls. |
@@ -222,6 +223,34 @@ On the **Basic** tab, set values in the following fields:
 - **Name** – Enter a name for the Page block.
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of products and submit your changes.
+
+## SeenThis! block
+
+Integration with (SeenThis!)[https://seenthis.co/] service. SeenThis! block provides an adaptive streaming technology with no limitations as conventional streaming service. It allows to preserve the best video quality with minimum amount of data transfer.
+
+!!! note
+    This page block is in an opt-in bundle, to use it, install `ibexa/connector-seenthis` bundle first.
+
+On the **Basic** tab, set values in the following fields:
+
+- **Name** – Enter a name for the page block.
+- **Video ID** – Enter the ID of the video to be streamed.
+- **Tracker ID** – Enter the tracking code.
+- **Big play button** – Set to display a large play button.
+- **Autoplay** – Configure whether the video starts automatically.
+- **Muted** – Configure whether the video starts muted.
+- **Play button** – Set the number of products to be displayed.
+- **Mute button** – Set whether the mute button is displayed or not.
+- **Loop** – Set whether to play a video in a loop mode.
+- **Loop count** – Set the number of loop repetitions.
+- **Include audio** – Configure whether to include audio with the video.
+
+On the **Design** tab, in the **View** field, select the layout to be used to present a list of products and submit your changes.
+
+
+!!! note
+
+    SeenThis! technology might be blocked by some ad blocker solutions. If you can't see the block once configured, check the ad blocker configuration.
 
 ## Recently added block
 
