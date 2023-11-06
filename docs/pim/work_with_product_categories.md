@@ -25,7 +25,10 @@ Depending on your permissions, you might be able to verify the presence of the f
         * Select the **Required** checkbox
         * In the **Taxonomy** field, select the "Product categories" option
 4. Optionally, modify other product type settings as required.
-7. To save your changes, click **Save** and continue editing, or **Save and close** to focus on other tasks.
+7. To save your changes:
+
+    - Click **Save** to continue editing.
+    - Click **Save and close** to close the window.
 
 You can now add product categories and then create relationships between products and product categories.
 

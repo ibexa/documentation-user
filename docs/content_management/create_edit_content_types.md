@@ -36,9 +36,9 @@ is propagated to every Content item of this type.
 
 ![Content Type list](img/content_types.png "A list of Content Types")
 
-2\. If you are adding a new Content Type, on the Content Type Group's detail screen, click **Create** and skip to step 4.
+2\. If you are adding a new Content Type, on the Content Type group's detail screen, click **Create** and skip to step 4.
 
-3\. If you are modifying an existing Content Type, on the Content Type Group's detail screen, click the **Edit** icon next to a name of the Content Type.
+3\. If you are modifying an existing Content Type, on the Content Type group's detail screen, click the **Edit** icon next to a name of the Content Type.
 
 ![Editing a Content Type](img/content_type_general_properties.png "Editing a Content Type")
 
@@ -62,7 +62,7 @@ is propagated to every Content item of this type.
     correspond to the identifiers of Fields that make up the Content Type. 
     This way, when Content Items of this type are created, their names and URL 
     aliases are generated according to the defined pattern. 
-    
+
     For example, if you enter `<short_title>` as a value of the **Content name 
     pattern** field, the resulting items will be identified in the user interface 
     by their short titles.
@@ -88,11 +88,17 @@ If your application requires a more granular organization of Fields within a Con
 
 7\. Optionally, [enable and configure SEO for the Content Type](../search_engine_optimization/work_with_seo.md).
 
-8\. To discard your changes, if you are creating a new Content Type, click **Discard**, and if you are updating an existing Content Type, click **Delete draft**.
+8\. To discard your changes:
 
-9\. To save your changes, click **Save** and continue editing, or **Save and close** to focus on other tasks.
+- If you are creating a new Content Type, click **Discard**.
+- If you are updating an existing Content Type, click **Delete draft**.
 
-Once the Content Type details screen is displayed, you can use breadcrumbs to navigate back to the Content Type list.
+9\. To save your changes:
+
+- Click **Save** and continue editing.
+- Click **Save and close** to focus on other tasks.
+
+Once the Content Type details screen is displayed, you can navigate back to the Content Type list.
 
 !!! note "More information"
 

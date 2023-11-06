@@ -16,8 +16,8 @@ nav:
     - Content management:
         - Content items: content_management/content_items.md
         - Create and edit Content items: content_management/create_edit_content_items.md
-        - Create and edit Pages: 
-            - Create and edit Pages: content_management/create_edit_pages.md
+        - Create and edit pages: 
+            - Create and edit pages: content_management/create_edit_pages.md
             - Block reference: content_management/block_reference.md
         - Translate content: content_management/translate_content.md
         - Work with forms: content_management/work_with_forms.md

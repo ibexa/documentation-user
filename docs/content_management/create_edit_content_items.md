@@ -38,12 +38,12 @@ description: Create content for your website with different Fields, rich text, t
 
 1. To discard your changes, click **Delete draft**.
 
-1. Save your changes:
+1. To save your changes:
 
     - Click **Save** to continue editing.
-    - Click **Save and close** to focus on other tasks.
+    - Click **Save and close** to close the window.
 
-1. To have [another editor look at the newly created Content item](editorial_workflow.md), click **Send to review**. 
+1. To send your changes to another editor [for review](editorial_workflow.md), click **Send to review**. 
 
 1. When the Content item is ready for publication:
 
@@ -80,7 +80,8 @@ Each Content item is based on a [Content Type](create_edit_content_types.md). Th
 you have to fill in when creating a new item.
 It may also determine the layout or style in which this item is displayed.
 
-Fields marked with an asterisk (\*) are required. You can't save the Content item without filling them in.
+Fields marked with an asterisk (\*) are required. 
+You can't save the Content item without filling them in.
 
 Some Fields, such as *Relation* Fields (which link two Content items) or *Image* Fields
 require you to select a different Content item to link to.
@@ -153,7 +154,7 @@ Here you can also add a link to the text. You can link to an external website, o
 ### Add taxonomy entries
 
 To keep your content organized and easy to find, you can add taxonomy entries to a Content item while creating or editing it.
-For this feature to work as described, the Content Type must have a **Metadata** section, with a _Taxonomy Entry_ field in it. 
+For this feature to work as described, the Content Type must have a **Metadata** section, with a **Taxonomy Entry** field in it.
 
 1. Switch to the **Meta** tab.
 1. Click the **Select path** button.

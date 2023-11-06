@@ -4,7 +4,7 @@ description: You can schedule publication of content and Page blocks for specifi
 
 # Schedule content publication
 
-Three methods are available for you to schedule content to be published, revealed or hidden in the future:
+There are three ways in which you can schedule content to be published, revealed or hidden in the future:
 
 - [Scheduler tab](#scheduler-tab) in any Page block's configuration
 - [Content Scheduler block](#content-scheduler-block) on a Page

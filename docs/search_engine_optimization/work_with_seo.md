@@ -12,7 +12,7 @@ To do it, make sure you can [edit Content Types](../content_management/content_m
 
 ## Enable SEO
 
-1. In the left panel, go to **Content** -> **Content Types** and select a Content Type Group by clicking its name, for example, **Content**.
+1. In the left panel, go to **Content** -> **Content Types** and select a Content Type group by clicking its name, for example, **Content**.
 2. [Create a new Content Type](create_edit_content_types.md) or click the edit icon next to the Content Type that you want to modify.
 3. Go to the **SEO** section and switch the **Enable SEO for this Content Type** toggle.
 4. To save your changes, click **Save and close**, or **Save** to continue editing.

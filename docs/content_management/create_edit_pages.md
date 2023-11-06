@@ -20,12 +20,13 @@ Whenever you edit a Page, a [new version](content_versions.md) is created in the
 ## Create Page
 
 1. In the left panel, select **Content**, **Content structure** and, in a Content Tree, select a parent Content item.
-1. Click **Create content**, select a base language and, from the list of available Content Types select one of page type, for example, **Landing Page**.
+1. Click **Create content** and select a base language.
+1. From a list of available Content Types, select one of page type, for example, **Landing Page**, and click the **Create** button.
 1. In the [Page Builder toolbar](#page-builder-toolbar) click **Fields** and define the page's title and description.
 1. Click  **Switch layout** and select the layout.
 1. [Edit the page](#edit-page).
 1. To discard your changes, click **Delete draft**.
-1. To save your changes, click **Save draft**. 
+1. To save your changes, click **Save draft**.
 You can now navigate away from the Page by clicking the **Close** button.
 1. When the page is ready for publication:
 

@@ -50,12 +50,12 @@ You can choose one of a few options of what is shown to the user after filling i
 
 8\. To discard your changes, click **Delete draft**.
 
-9\. Save your changes:
+9\. Tp save your changes:
 
 - Click **Save** to continue editing.
-- Click **Save and close** to focus on other tasks.
+- Click **Save and close** to close the window.
 
-10\. To have another editor look at the newly created Content item, click Send to review.
+10\. To send your changes to another editor [for review](editorial_workflow.md), click **Send to review**. 
 
 11\. When the form is ready for publication:
 
