@@ -33,8 +33,8 @@ After choosing and confirming new Location, all selected files are moved to it.
 
 You can remove content by clicking **Send to Trash** in the menu.
 If you remove a Content item that has children (other content under it in the content tree),
-both this item and the children are removed. This also breaks the connection between the items,
-so it's impossible to restore them with the same structure.
+both this item and the children will be removed. This also breaks the connection between the items,
+so you will not be able to restore them with the same structure.
 
 Notice that the Content item is not removed completely.
 It is moved to Trash, which you can access from the left menu.
@@ -43,8 +43,8 @@ If the Content item's parent has been removed, you need to select a new parent L
 
 ![Warning before emptying the trash](img/empty_trash_warning.png "Warning before emptying the Trash")
 
-If a Content item has more than one Location, selecting **Send to Trash** removes the Content item only from the current Location.
-The content appears in Trash only once you have removed the last Location.
+If a Content item has more than one Location, selecting **Send to Trash** will remove the Content item only from the current Location.
+The content will appear in Trash only once you have removed the last Location.
 
 You can permanently remove a Content item by checking it and clicking the trash icon.
 You can also permanently remove all content from the Trash by clicking **Empty Trash**.
@@ -55,7 +55,7 @@ You can also permanently remove all content from the Trash by clicking **Empty T
 
 ## Multi-file delete
 
-To delete multiple items, select them and click **Delete selected items** in the **Sub-items** top bar. Confirm your choice in the pop-up window with the **Send to Trash** button. All selected files are moved to trash.
+To delete multiple items, select them and click **Delete selected items** in the **Sub-items** top bar. Confirm your choice in the pop-up window with the **Send to Trash** button. All selected files will be moved to trash.
 
 ![Multi-file delete](img/multi_file_delete.png)
 
@@ -66,7 +66,7 @@ You can hide a Content item by clicking **Hide** in the menu.
 ![Hide content icon](img/hide_content_icon.png)
 
 When you click **Hide**, you can choose to **Hide later**
-and select and date and time when the Content item is hidden:
+and select and date and time when the Content item will be hidden:
 
 ![Schedule hiding panel](img/schedule_hiding.png)
 

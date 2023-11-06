@@ -10,7 +10,7 @@ a number of mechanisms that you can use.
 ## Sections
 
 You can divide your Content Tree into Sections to better organize it.
-Sections let you decide which Users have access to which parts of the tree.
+Sections let you decide which Users will have access to which parts of the tree.
 To see which Section a Content item belongs to, look at its **Details** tabs.
 
 You can set up Sections by navigating to **Content** -> **Sections**.

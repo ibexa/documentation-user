@@ -15,7 +15,7 @@ Three methods are available for you to schedule content to be published, reveale
 The Scheduler tab is available in the configuration of all Page blocks.
 You can use it to set the date and time when the block becomes visible and when it disappears from a Page.
 If you configure the reveal and/or hide dates for a Page block, you can then see the scheduled blocks (except for the Content Scheduler) in the calendar.
-This way you can see what content is planned to be available in the future.
+This way you can see what content is planned will be available in the future.
 
 ![Schedule tab](img/schedule_tab.png)
 
@@ -24,10 +24,10 @@ This way you can see what content is planned to be available in the future.
 In the Content Scheduler block you can select Content items to be displayed at a selected time.
 
 For each Content item you can choose an airtime - a date and time in the future.
-At this time the Content item becomes visible.
+At this time the Content item will become visible.
 
 The Content Scheduler block has a limit of Content items.
-If the limit is filled and a new Content item is displayed, the oldest item disappears from the block.
+If the limit is filled and a new Content item is displayed, the oldest item will disappear from the block.
 
 ![Content Scheduler](img/content_scheduler.png)
 
@@ -37,7 +37,8 @@ When editing a Content item, select **Publish later** in the menu on the right.
 
 ![Publish Later button in the menu](img/publish_later.png "Publish Later button in the menu")
 
-A **Future publication settings** window is displayed. Choose a date and time and the content is published at that time.
+A **Future publication settings** window is displayed.
+Choose a date and time and the content will be published at that time.
 
 If you had planned a future publication date and enter the edit mode of the same Content item,
 you also have a new option in the menu: **Discard publish later**.
@@ -50,7 +51,7 @@ To comfortably browse all the future events, use the [Calendar widget](#calendar
 
 ## Date-based hiding
 
-When your Content item is published, you can schedule a date and time and the content is hidden at that time.
+When your Content item is published, you can schedule a date and time and the content will be hidden at that time.
 To do this, go to the **Content** tab and select **Content structure** or **Media**.
 Then, navigate to the Content item that you want to hide and click **Hide** in the menu.
 
@@ -61,9 +62,9 @@ This change affects the Content item in all of its [Locations](content_organizat
 
 ## Timeline [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
-The timeline in Page mode shows all changes that are planned to happen to the Page in the future.
+The timeline in Page mode shows all changes that will happen to the Page in the future.
 
-You can use the slider to preview what the Page is planned to look like at a given time.
+You can use the slider to preview what the Page will look like at a given time.
 Use the button on the right of the time to see a list of all upcoming changes.
 
 ![List of upcoming events in the timeline](img/timeline_list.png)

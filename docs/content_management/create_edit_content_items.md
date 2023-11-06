@@ -8,7 +8,7 @@ description: Create content for your website with different Fields, rich text, t
 
 1. Create a new Content item in one of the following ways:
 
-    - In the [Content Tree](../getting_started/discover_ui.md#content-tree), click **Create content** at the top of the screen.
+    - In the [Content Tree](../getting_started/discover_ui.md#content-tree), at the top of the screen, click **Create content** .
     The new Content item becomes a child of the Content item that you are currently viewing.
     - In the upper-right corner of the [My dashboard](../getting_started/discover_ui.md#my-dashboard) screen, click **Create content**.
     You must then choose a location for the new item in [Content Browser](../getting_started/discover_ui.md#content-browser) and click **Create**.
@@ -19,12 +19,12 @@ description: Create content for your website with different Fields, rich text, t
 
 1. In a slide-out pane, make initial choices in the following fields:
 
-    - **Select a language** - From a pull-down list, select the base language for the Content item.
-    - **Select a Content Type** - Use this field to narrow down the list of choices displayed below. Then select a Content Type to serve as a template for the Content item.
+    - **Select a language** - from a drop-down list, select the base language for the Content item.
+    - **Select a Content Type** - use this field to narrow down the list of choices displayed below. Then select a Content Type to serve as a template for the Content item.
 
     !!! note
        
-        If you are using [[= product_name_exp =]] or [[= product_name_com =]], the options include forms and pages.
+        If you're using [[= product_name_exp =]] or [[= product_name_com =]], the options include forms and pages.
         You then [build forms](work_with_forms.md) and [create pages](create_edit_pages.md) by using their respective specialist tools.
 
 1. [Fill in the Fields](#edit-new-or-existing-content-items) of the Content item.
@@ -61,7 +61,7 @@ description: Create content for your website with different Fields, rich text, t
 
 ##### Upload multiple Content items
 
-When you view the Content item details in the Content Tree, you can upload files such as images, videos, PDF documents, etc.
+When you view the Content item details in the Content Tree, you can upload files such as images, videos, PDF documents, and so on.
 This way you can add multiple sub-items without editing the original Content item.
 To do it, on the Content item details screen, in the **Sub-items** top bar, click **Upload** 
 and choose all items that you want to upload.
@@ -161,4 +161,4 @@ For this feature to work as described, the Content Type must have a **Metadata**
 
 ![Selecting Taxonomy entries](img/taxonomy_select_taxonomy_entries.png "Selecting Taxonomy entries")
 
-See more in [Assign tag to content from taxonomy tree](taxonomy/work_with_tags.md#assign-tag-to-content-from-taxonomy-tree).
+For more information, see [Assign tag to content from taxonomy tree](taxonomy/work_with_tags.md#assign-tag-to-content-from-taxonomy-tree).

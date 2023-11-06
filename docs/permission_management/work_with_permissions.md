@@ -18,7 +18,7 @@ You can then return to a list of Policies by clicking **Save and close** or **Di
 
 After you are done choosing all Policies, you can assign the Role to users.
 Go to the **Assignments** tab and click **Assign to Users/Groups**.
-Here you can choose users and/or groups to be assigned to this Role, with possible additional Limitations.
+Here you can choose users and/or groups that will be assigned to this Role, with possible additional Limitations.
 A User or user group may be assigned multiple Roles.
 
 ![Users assigned to Role](img/users_assigned.png "Users assigned to Role")

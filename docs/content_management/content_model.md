@@ -31,14 +31,14 @@ A [Content item](content_items.md) is an instance of a particular Content Type, 
 
 When a Content item is created, it inherits the Fields from its Content Type.
 However, the values of the Fields (their "contents") are empty, and you need to fill them separately for each Content item.
-The Fields in a Content Type are only definitions. This means that they describe what Fields of what kinds are be present in a Content item, but as a rule they do not provide these Fields' values.
+The Fields in a Content Type are only definitions. This means that they describe what Fields of what kinds will be present in a Content item, but as a rule they do not provide these Fields' values.
 
-As a consequence, all Content items of the same Content Type share the same set of Fields, but their Field values are different.
+As a consequence, all Content items of the same Content Type will share the same set of Fields, but their Field values will be different.
 
 For example, you need to store book information.
 You create a new Content Type called "Book" and add to it Fields such as Title, Author, Genre, ISBN, etc.
 Next, based on this Content Type, you can create any number of Content items.
-The empty Fields are ready to be filled in with the information about each specific book:
+The empty Fields will be ready to be filled in with the information about each specific book:
 
 ![Content model diagram](img/content_model_diagram.png "Content model diagram")
 
@@ -54,7 +54,7 @@ e.g. Text line, Rich text, Email, Author list, Content relation, Map location, F
 
 **Content Types:**
 
-- A Content Type defines Fields that a Content item is composed of.
+- A Content Type defines Fields that a Content item will be composed of.
 - Every Field is modeled after a Field Type which defines the kind of data it contains.
 
 **Content Items:**

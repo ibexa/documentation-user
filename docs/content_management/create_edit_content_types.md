@@ -28,7 +28,7 @@ is propagated to every Content item of this type.
     You can delete a Content Type only when there are no Content items that belong to it.
     This also includes Content items in the Trash.
 
-1\. In the left panel, go to **Content** -> **Content Types** and select a Content Type Group by clicking its name, for example, **Content**.
+1\. In the left panel, go to **Content** -> **Content Types** and select a Content Type group by clicking its name, for example, **Content**.
 
 !!! note
 
@@ -80,7 +80,7 @@ If your application requires a more granular organization of Fields within a Con
 
 !!! note
 
-    When you add a **Metadata** section, which you can use for tags, product categories, etc., it is later presented as an additional tab in Content item editing screen.
+    When you add a **Metadata** section, which you can use for tags, product categories, and so on, it is later presented as an additional tab in Content item editing screen.
     When you add other sections, they are later presented as anchors in Content item editing screen.
     All sections are later presented as headers on the Content item details screen, the **View** tab.
 

@@ -10,7 +10,7 @@ The version visible to a visitor depends on the way your installation is set up 
 ## Add translations
 
 You can create a new translation of a Content item by going to the **Translations** tab and clicking **+ Add**.
-On the next screen, select the source and target languages and click **Create**.
+Select the source and target languages and click **Create**.
 All the Fields are then pre-filled with the values they have in the base translation.
 If you do not choose a base translation, the Fields remain empty.
 While working, you can save your work and continue or click **Delete draft** to discard your changes.
