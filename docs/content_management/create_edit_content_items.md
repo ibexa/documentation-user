@@ -6,18 +6,20 @@ description: Create content for your website with different Fields, rich text, t
 
 ## Create Content items
 
-1. Create a new Content item in one of the following ways:
+1. Start creating a new Content item in one of the following ways:
 
-    - In the [Content Tree](../getting_started/discover_ui.md#content-tree), at the top of the screen, click **Create content** .
-    The new Content item becomes a child of the Content item that you are currently viewing.
+    - In the left panel, go to **Content** -> **Content structure**. Then select a parent Content item and click **Create content**. 
+    
+        The new Content item becomes a child of the Content item that you originally selected.
+    
     - In the upper-right corner of the [My dashboard](../getting_started/discover_ui.md#my-dashboard) screen, click **Create content**.
-    You must then choose a location for the new item in [Content Browser](../getting_started/discover_ui.md#content-browser) and click **Create**.
+    Then choose a location for the new item in [Content Browser](../getting_started/discover_ui.md#content-browser) and click **Create**.
 
     !!! tip
 
-        An alternative way of creating Content items is to [drag one or more files](#upload-multiple-content-items) onto the **Sub-items** box when viewing any other Content item in the Content Tree. 
+        An alternative way of creating Content items is to [drag one or more files](#upload-multiple-content-items) onto the **Sub-items** box when viewing any other Content item in a [Content Tree](../getting_started/discover_ui.md#content-tree). 
 
-1. In a slide-out pane, make initial choices in the following fields:
+1. In a slide-out pane, make initial choices in the following fields, and click **Create**:
 
     - **Select a language** - from a drop-down list, select the base language for the Content item.
     - **Select a Content Type** - use this field to narrow down the list of choices displayed below. Then select a Content Type to serve as a template for the Content item.
@@ -36,7 +38,7 @@ description: Create content for your website with different Fields, rich text, t
         A Content item can look different on different [SiteAccesses](translate_content.md#siteaccess).
         You can select a SiteAccess to preview by using a drop-down in the preview screen.
 
-1. To discard your changes, click **Delete draft**.
+1. To discard your changes and close the window, click **Delete draft**.
 
 1. To save your changes:
 

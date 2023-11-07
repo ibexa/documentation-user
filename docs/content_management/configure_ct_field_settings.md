@@ -4,27 +4,42 @@ description: Configure Field settings in Content Types.
 
 # Configure Content Type Fields
 
-When you work with a Content Type to add or modify [Fields](content_model.md#fields-and-field-types), 
+When you work with a [Content Type](content_model.md#content-types) to add or modify [Fields](content_model.md#fields-and-field-types), 
 you must configure different settings that control the way [[= product_name =]] 
 treats the contents of each Field. Apart from general settings, certain Field Types, for example, [Landing Page](#default-configuration-of-pages) and [Content relation](#content-relation-settings) Field Types may have additional settings.
 
 You can only create or modify Content Types when your [user Role](../permission_management/work_with_permissions.md) has the `ContentType/Create` or `ContentType/Update` permission.
 
-1. [Open a Content Type](create_edit_content_types.md) for editing.
+1\. [Create or open a Content Type](create_edit_content_types.md) for editing.
 
-1. In the **Field definitions** area, find or add a section, for example, **Content** or **Metadata**. 
+2\. In the **Field definitions** area, find a section, for example, **Content**. 
 
-1. Expand the header of a Field that you want to modify and change the settings. 
+3\. If your application requires a more granular organization of Fields within a Content Type, click **+ Add** to add more sections.
 
-1. To discard your changes:
+When you add a **Metadata** section, it is later presented as an additional tab in [Content item](content_items.md) editing screen.
+You can use it for tags, product categories, and so on.
+When you add other sections, they are later presented as anchors in Content item editing screen.
+All sections are later presented as headers on the Content item details screen, the **View** tab.
 
-- If you are creating a new Content Type, click **Discard**.
-- If you are updating an existing Content Type, click **Delete draft**.
+4\. Add, reorder or remove Fields as required:
 
-1. To save your changes:
+- To add a Field, from the **Field types** area, drag the required Field tile to the section on the left. 
+- To reorder Fields, drag and drop them within the section or between sections on the left.
+- To remove Fields from the section completely, click the **X** icon in the Field's header.
+
+![Adding a Field](img/add_field.png "Adding a Field")
+
+5\. Expand the header of a Field that you want to modify, then [change its settings](#general-settings). 
+
+6\. To save your changes:
 
 - Click **Save** and continue editing.
 - Click **Save and close** to close the window.
+
+7\. To discard your changes and close the window:
+
+- If you are creating a new Content Type, click **Discard**.
+- If you are updating an existing Content Type, click **Delete draft**.
 
 ## General settings
 
@@ -48,7 +63,7 @@ You modify them in the **Field definitions** section, the **Landing Page** Field
 ### Block display
 
 You can define which page blocks are available to an editor in the page edit mode.
-You do it, for example, after a [developer creates a new block]([[= developer_doc =]]/content_management/pages/create_custom_page_block/) and you want to allow adding it to the page.
+You do it, for example, when a [developer creates a new block]([[= developer_doc =]]/content_management/pages/create_custom_page_block/) and you want to allow adding it to the page.
 
 Expand the **Select blocks** section and select page blocks that you want to be included in the page.
 
@@ -106,5 +121,5 @@ In the **Select starting Location** area, select from the available options:
 
 #### Allowed Content Types
 
-In the **Allowed Content Types** area, expand the pull-down list and select from the available Content Types.
+In the **Allowed Content Types** area, expand the drop-down list and select from the available Content Types.
 No selection means that relations to all Content Types are allowed.

@@ -28,7 +28,7 @@ is propagated to every Content item of this type.
     You can delete a Content Type only when there are no Content items that belong to it.
     This also includes Content items in the Trash.
 
-1\. In the left panel, go to **Content** -> **Content Types** and select a Content Type group by clicking its name, for example, **Content**.
+1\. In the left panel, go to **Content** -> **Content Types**. Then select a Content Type group by clicking its name, for example, **Content**.
 
 !!! note
 
@@ -67,36 +67,19 @@ is propagated to every Content item of this type.
     pattern** field, the resulting items will be identified in the user interface 
     by their short titles.
 
-5\. In the **Field definitions** area, modify Fields that constitute the Content Type.
+5\. In the **Field definitions** area, [add or modify Fields that constitute the Content Type](configure_ct_field_settings.md).
 
-To add a Field, from the **Field types** area, drag the required Field tile to 
-the **Content** section on the left. 
-To reorder Fields, drag and drop them within the section on the left. 
-To remove Fields from the section, click the **X** icon in the Field's header.
+6\. Optionally, [enable and configure SEO for the Content Type](../search_engine_optimization/work_with_seo.md).
 
-![Adding a Field](img/add_field.png "Adding a Field")
-
-If your application requires a more granular organization of Fields within a Content Type, you can click **+ Add** to add more sections.
-
-!!! note
-
-    When you add a **Metadata** section, which you can use for tags, product categories, and so on, it is later presented as an additional tab in Content item editing screen.
-    When you add other sections, they are later presented as anchors in Content item editing screen.
-    All sections are later presented as headers on the Content item details screen, the **View** tab.
-
-6\. Configure [field settings](configure_ct_field_settings.md).
-
-7\. Optionally, [enable and configure SEO for the Content Type](../search_engine_optimization/work_with_seo.md).
-
-8\. To discard your changes:
-
-- If you are creating a new Content Type, click **Discard**.
-- If you are updating an existing Content Type, click **Delete draft**.
-
-9\. To save your changes:
+7\. To save your changes:
 
 - Click **Save** and continue editing.
 - Click **Save and close** to close the window.
+
+8\. To discard your changes and close the window:
+
+- If you are creating a new Content Type, click **Discard**.
+- If you are updating an existing Content Type, click **Delete draft**.
 
 Once the Content Type details screen is displayed, you can navigate back to the Content Type list.
 

@@ -20,9 +20,12 @@ The same form can be placed at multiple locations on the website.
 
 To create a form:
 
-1\. In a selected place of the content tree, click **Create content**.
+1\. In the left panel, go to **Content** -> **Form** and click **Create content**.
 
-2\. Select **Form** Content Type.
+2\. In a slide-out pane, make initial choices in the following fields, and click **Create**:
+
+- **Select a language** - from a drop-down list, select the base language for the Content item.
+- **Select a Content Type** - use this field to narrow down the list of Content Type choices displayed below. Then select **Form**, and click the **Create** button.
 
 ![Select form](img/select_form.png)
 
@@ -48,7 +51,7 @@ You can choose one of a few options of what is shown to the user after filling i
 
 7\. Click **Save** or **Close** to exit the Form Builder.
 
-8\. To discard your changes, click **Delete draft**.
+8\. To discard your changes and close the window, click **Delete draft**.
 
 9\. To save your changes:
 
