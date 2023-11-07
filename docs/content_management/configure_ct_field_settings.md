@@ -16,14 +16,19 @@ You can only create or modify Content Types when your [user Role](../permission_
 
 1. Expand the header of a Field that you want to modify and change the settings. 
 
-1. To discard your changes, if you are creating a new Content Type, click **Discard**, and if you are updating an existing Content Type, click **Delete draft**.
+1. To discard your changes:
 
-1. To save your changes, click **Save** and continue editing, or **Save and close** to focus on other tasks.
+- If you are creating a new Content Type, click **Discard**.
+- If you are updating an existing Content Type, click **Delete draft**.
+
+1. To save your changes:
+
+- Click **Save** and continue editing.
+- Click **Save and close** to close the window.
 
 ## General settings
 
-Depending on their type, Fields can have different combinations of the following 
-general settings. 
+Depending on their type, Fields can have different combinations of the following general settings. 
 
 |Setting|Description|Use|
 --------|-----------|---|

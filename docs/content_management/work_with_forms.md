@@ -50,7 +50,7 @@ You can choose one of a few options of what is shown to the user after filling i
 
 8\. To discard your changes, click **Delete draft**.
 
-9\. Tp save your changes:
+9\. To save your changes:
 
 - Click **Save** to continue editing.
 - Click **Save and close** to close the window.

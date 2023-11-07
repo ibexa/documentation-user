@@ -96,7 +96,7 @@ If your application requires a more granular organization of Fields within a Con
 9\. To save your changes:
 
 - Click **Save** and continue editing.
-- Click **Save and close** to focus on other tasks.
+- Click **Save and close** to close the window.
 
 Once the Content Type details screen is displayed, you can navigate back to the Content Type list.
 
