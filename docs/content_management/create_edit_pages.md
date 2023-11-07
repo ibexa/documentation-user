@@ -76,8 +76,8 @@ E. Buttons:
 |![Timeline button](page_builder_toolbartimelinetoggler.png)|Access the timeline to preview how the Page changes with time. You can also view the list of all upcoming scheduled events.|
 |![View toggler](page_builder_toolbar_devicestoggler.png)|Toggle through to see how the Page is rendered on different devices.|
 |![Elements menu](page_builder_toolbarelements.png)|Move Elements / Structure view to the other side of the screen.|
-|![Undo](page_builder_undo.png)|Undo latest change.|
-|![Redo](page_builder_redo.png)|Redo latest change.|
+|![Undo](page_builder_toolbar_undo.png)|Undo latest change.|
+|![Redo](page_builder_toolbar_redo.png)|Redo latest change.|
 
 F. Saving options
 
@@ -125,8 +125,6 @@ In a newly created Page you can choose a [layout](configure_ct_field_settings.md
 In Page Builder you can access a menu of **Elements** — a set of blocks of content that you can add to the zones of the Page.
 Each block is unique in its function and enables you to customize the content appearing on the Page.
 
-![Elements menu](img/elements_menu.png "Elements menu")
-
 Add a block by dragging it from the menu to an empty place on a zone.
 Do not worry about placing blocks in the proper place from the start.
 You can reorder blocks in a few ways:
@@ -171,7 +169,7 @@ Available settings are:
 - Move up - allows you to change position of the block on the page by moving it up
 - Move down - allows you to change position of the block on the page by moving it down
 - Configuration - allows you to access configuration window
-- Duplicate - duplicates existing block by creating its copy
+- Duplicate - duplicates existing block with its settings by creating its copy
 - Refresh - refreshes preview of the block
 - Delete - deletes existing block
 
