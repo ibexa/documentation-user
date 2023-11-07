@@ -5,9 +5,10 @@ edition: experience
 
 # Create and edit Pages
 
-**Page** is a special Content Type that contains zones onto which you can drop 
-different dynamic blocks.
-You can edit pages to personalize the layout and contents of your website.
+**Page** is a special Content Type.
+You can create and modify Pages with a visual drag-and-drop editor - Page Builder.
+Page is divided into zones into which you can drop various dynamic blocks.
+By editing pages you can customize the layout and content of your website.
 
 Whenever you edit a Page, a [new version](content_versions.md) is created in the repository.
 
@@ -19,9 +20,15 @@ Whenever you edit a Page, a [new version](content_versions.md) is created in the
 
 ## Create Page
 
-To create a new Page, in the upper toolbar click **Content** and from the list below select **Content structure**.
-On the right-side toolbar, click **Create** and from the list of Content items select **Landing page**.
-On the **Page creation** modal, select the layout and click **Create draft**.
+To create a new page:
+
+A\. In the left panel, go to **Content**.
+
+B\. Select **Content structure**.
+
+C\. On the right-side toolbar, click **Create content** and from the list of Content items select **Landing Page**.
+
+D\. Select the layout and click **Create**.
 
 You can also add a new Page in the Page Builder.
 Open the Page Builder by clicking **Site** and selecting a website from the list that 
@@ -118,6 +125,8 @@ In a newly created Page you can choose a [layout](configure_ct_field_settings.md
 In Page Builder you can access a menu of **Elements** — a set of blocks of content that you can add to the zones of the Page.
 Each block is unique in its function and enables you to customize the content appearing on the Page.
 
+![Elements menu](img/elements_menu.png "Elements menu")
+
 Add a block by dragging it from the menu to an empty place on a zone.
 Do not worry about placing blocks in the proper place from the start.
 You can reorder blocks in a few ways:
@@ -125,6 +134,10 @@ You can reorder blocks in a few ways:
 - drag and drop block in the desired location on a drop zone
 - select block and use up and down arrow on the keyboard
 - access Structure view and use 'Move up' and 'Move down' function in the settings of the block
+
+When you add a new block to the drop zone, drop it in the blue highlighted area. Before you drop it, a bold line appears  - it helps you see the position of the newly added block in relation to other, already added blocks.
+
+![Drop zone line](drop_zone_line.png)
 
 [[= product_name =]] comes with a set of ready-to-use Page blocks,
 but [developers can add their own]([[= developer_doc =]]/content_management/pages/create_custom_page_block/).
