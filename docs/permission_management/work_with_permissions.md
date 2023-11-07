@@ -6,11 +6,11 @@ description: Modify Role settings to control access to different areas of the ap
 
 You can view and modify all [permissions](permission_system.md) by clicking **Roles** in the **Admin Panel**.
 
-1\. Click **Create** and provide a name to get an empty, unassigned Role.
+## Create a new Role
 
-2\. Click **Save and close** to see a list of Policies that the Role has.
-
-3\. Click **Add**, select a Policy from the list and click **Save and close**.
+1. Go to **Admin** -> **Roles** and click **Create**.
+1. Provide a name and click **Save and close** to see a list of Policies that the Role has.
+1. Click **+ Add**, select a Policy from the list and click **Save and close**.
 
 You then may have an option to add Limitations to the Policy.
 The available Limitations depend on the chosen Policy.
@@ -18,10 +18,14 @@ You can then return to a list of Policies by clicking **Save and close** or **Di
 
 ![Details of a Role](img/role_details.png "Details of a Role")
 
-4\. Assign the Role to users:
+## Assign a Role to users
 
-- Go to the **Assignments** tab and click **Assign to Users/Groups**.
-- Choose users and/or groups to be assigned to this Role, with possible additional Limitations.
+1. Go to **Admin** -> **Roles** and select a Role.
+1. Go to the **Assignments** tab and click **Assign to Users/Groups**.
+1. Choose users and/or groups to be assigned to this Role.
+1. In the **Limitatons** area, select additional Limitations if necessary.
+1. To discard your changes and close the window, click **Discard**.
+1. To save your changes, click **Save and close**.
 
 ![Users assigned to Role](img/users_assigned.png "Users assigned to Role")
 
