@@ -120,6 +120,22 @@ To add a new element to the Field, choose one of the available elements:
 Each of these elements can have its own settings, such as text formatting.
 The option bar also lets you reorder or remove any elements in the Rich Text Field.
 
+#### Focus mode
+
+While editing Rich Text Fields, you can switch to focus mode.
+Focus mode expandes the workspace to full screen.
+It is helpful when you need to work with longer texts that take more space.
+
+![Focus mode](img/focus_mode.png "Focus mode")
+
+To access focus mode, click **Focus mode** on the right side above the workspace.
+
+![Access focus mode](img/access_focus_mode.png "Access focus mode")
+
+To exit focus mode, click **Default mode** or press Esc on the keyboard.
+
+![Exit focus mode](img/exit_focus_mode.png "Exit focus mode")
+
 #### Anchors
 
 For longer texts, insert an anchor linking a fragment of text with another fragment or section
