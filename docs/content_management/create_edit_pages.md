@@ -117,3 +117,30 @@ You cannot publish a Page if you have not set all the required settings of all b
 !!! tip
     Settings and function of custom-made blocks of content depend on their design.
     For details on adjusting and using them, contact your website administrator.
+
+After you change the block settings, click **Submit** to save the changes or **Discard** to cancel.
+
+##### Focus mode
+
+While configuring blocks that include Rich Text section, for example, Text block, you can switch to focus mode.
+
+Focus mode expandes the workspace to full screen and shows only editor toolbar.
+It is helpful when you need to work with longer texts that take more space and focuses your attention on the editing content.
+
+![Focus mode](img/focus_mode.png "Focus mode")
+
+To access focus mode, click **Focus mode** on the right side above the workspace.
+
+![Access focus mode](img/access_focus_mode_PB.png "Access focus mode")
+
+To exit focus mode, click **Default mode** or press Esc on the keyboard.
+
+![Exit focus mode](img/exit_focus_mode.png "Exit focus mode")
+
+## Publish Page
+
+If you are ready to publish the Page, click **Publish** in the top-right corner.
+To save it as a draft to finish editing it later, even if some required fields are not filled in, click **Save draft**.
+You can then navigate away from the Page by clicking the logo in the upper left corner, or the browser's **Back button**.
+
+For more information, see [Publish content](publish_content.md).
