@@ -226,7 +226,7 @@ On the **Design** tab, in the **View** field, select the layout to be used to pr
 
 ## SeenThis! block
 
-Integration with (SeenThis!)[https://seenthis.co/] service. SeenThis! block provides an adaptive streaming technology with no limitations as conventional streaming service. It allows to preserve the best video quality with minimum amount of data transfer.
+Integration with [SeenThis!](https://seenthis.co/) service. SeenThis! block provides an adaptive streaming technology with no limitations as conventional streaming service. It allows to preserve the best video quality with minimum amount of data transfer.
 
 !!! note
     This page block is in an opt-in bundle, to use it, install `ibexa/connector-seenthis` bundle first.
