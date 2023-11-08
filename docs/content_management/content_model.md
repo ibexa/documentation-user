@@ -31,8 +31,7 @@ A [Content item](content_items.md) is an instance of a particular Content Type, 
 
 When a Content item is created, it inherits the Fields from its Content Type.
 However, the values of the Fields (their "contents") are empty, and you need to fill them separately for each Content item.
-The Fields in a Content Type are only definitions. This means that they describe what Fields of what kinds will be present in a Content item,
-but as a rule they do not provide these Fields' values.
+The Fields in a Content Type are only definitions. This means that they describe what Fields of what kinds will be present in a Content item, but as a rule they do not provide these Fields' values.
 
 As a consequence, all Content items of the same Content Type will share the same set of Fields, but their Field values will be different.
 

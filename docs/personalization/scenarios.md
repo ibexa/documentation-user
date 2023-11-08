@@ -21,11 +21,11 @@ Every recommendation request can deliver content of one or all output types of c
 The output type is set during the recommendation request and must be covered by 
 the list of the supported types of content in the requested scenario.
 
-### Cross content type recommendations
+### Cross Content Type recommendations
 
-You can use cross content type option to get combined recommendation items from different types of content.
+You can use cross Content Type option to get combined recommendation items from different types of content.
 
-Cross content type option is used to combine best recommendation items from different types of content.
+Cross Content Type option is used to combine best recommendation items from different types of content.
 It applies to scenarios which have more than one output type configured.
 
 

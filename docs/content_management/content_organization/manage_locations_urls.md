@@ -6,11 +6,11 @@ description: Manage the content of your website by controlling Locations and URL
 
 ## Content Locations
 
-A Content item by itself does not have a place in the Content tree and is not visible for a visitor of the website.
+A Content item by itself does not have a place in the Content Tree and is not visible for a visitor of the website.
 To be available on the website, it has to be assigned a Location ID.
 A new Content item is automatically assigned a Location when you publish it.
 
-A Content item can have more than one Location ID. In such a case you can find it in more than one place in the Content tree.
+A Content item can have more than one Location ID. In such a case you can find it in more than one place in the Content Tree.
 A single Location can only have one Content item in it.
 
 !!! tip "Example"
@@ -20,7 +20,7 @@ A single Location can only have one Content item in it.
 
 Even if a Content item is placed in more than one Location, one of the Locations is always treated as the main one.
 
-To assign other Locations to content, view this Content item's **Location** tab and click the plus button.
+To assign other Locations to content, view this Content item's **Location** tab and click **+ Add**.
 Then select the new parent from the Content Browser.
 
 ![Content with two locations](img/content_with_two_locations.png "Content with two Locations")
@@ -37,7 +37,7 @@ When a Location is hidden, all of its children (other Content items that are und
 They can only be revealed if the parent Location is revealed as well.
 
 A hidden Location will be invisible for everyone viewing the website.
-If you are looking for a way to allow only some users to view parts of the Content tree,
+If you are looking for a way to allow only some users to view parts of the Content Tree,
 use [Sections](classify_content.md#sections) and combine them with [proper permissions](../../permission_management/permission_system.md).
 
 ### Swap Locations
@@ -61,7 +61,7 @@ in the **Location** tab and selecting a Content item to swap with.
 ## URL management
 
 In your website, you can manage external URL addresses and URL wildcards.
-You do this in the Back Office, **Admin** tab, the **URL Management** node.
+You do this in the Back Office, **Admin** tab, the **URL management** node.
 
 For more information about URL management, see the [Ibexa Developer Documentation.]([[= developer_doc =]]/content_management/url_management/url_management/).
 
@@ -90,7 +90,7 @@ The Link manager list also shows whether the link is alive or dead in the **Stat
 
 Each Content item can have one or more URL aliases. They are additional URLs that can be used to access this Content item.
 
-You can add URL aliases in the URL tab under **Custom URL aliases for <Content name>** by clicking the plus button.
+You can add URL aliases in the URL tab under **Custom URL aliases for...** by clicking **+ Add**.
 The URL alias must be unique for the whole installation, regardless of the language.
 
 ![Creating a new URL alias](img/create_new_url_alias.png)

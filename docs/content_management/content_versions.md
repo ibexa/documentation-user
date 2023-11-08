@@ -18,11 +18,10 @@ It is not available to the visitor and you cannot edit it, but you can create ne
 Finally, **drafts** are versions that have not been published yet.
 There can be many drafts of the same Content item.
 They can be created by the autosave feature, by the reviewer as part of the 
-[editorial workflow](workflow_management/editorial_workflow.md), or when you save 
-the work and navigate out of the Content item editing screen to focus on a different task.
+[editorial workflow](workflow_management/editorial_workflow.md), or when you save
+the work and close the Content item editing screen.
 
-You can view all versions of a Content item on the Content item details screen, 
-in the **Versions** tab.
+You can view all versions of a Content item on the Content item details screen, in the **Versions** tab.
 
 ![All versions of a Content item](img/content_item_versions.png "All versions of a Content item")
 
