@@ -124,7 +124,7 @@ The option bar also lets you reorder or remove any elements in the Rich Text Fie
 
 While editing Rich Text Fields, you can switch to focus mode.
 
-Focus mode expandes the workspace to full screen and shows only editor toolbar.
+Focus mode expands the workspace to full screen and shows only editor toolbar.
 It's helpful when you need to work with longer texts that take more space and when you want to focus your attention on the editing content.
 
 ![Focus mode](img/focus_mode.png "Focus mode")
