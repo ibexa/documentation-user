@@ -137,10 +137,24 @@ When you add a new block to the drop zone, drop it in the blue highlighted area.
 
 ![Drop zone line](drop_zone_line.png)
 
+When you add a block by dragging it from Elements menu into the drop zone,
+the block settings panel open immediately where you can configure all block properties.
+
+![Block properties](block_properties.png)
+
+This is a default behavior. You can globally turn off automatic opening of the block settings panel in the user settings.
+First, access your user settings on the right side of the top bar:
+
+![Elements menu](img/user_settings.png "User settings")
+
+Then, go to **My preferences** tab, **Edit** section.
+Here, you can find `Automatically open block settings in builder` setting, which, by default, is set up to `enabled` value.
+To change this behavior, click on **Edit** icon, find the setting, and change its value to `disabled`.
+
+![Elements menu](img/user_settings_blocks.png "User settings - blocks settings")
+
 [[= product_name =]] comes with a set of ready-to-use Page blocks,
 but [developers can add their own]([[= developer_doc =]]/content_management/pages/create_custom_page_block/).
-
-![Elements menu](img/elements_menu.png "Elements menu")
 
 For a list of blocks available out of the box, see [Block reference](block_reference.md).
 
