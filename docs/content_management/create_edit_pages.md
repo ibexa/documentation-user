@@ -83,11 +83,11 @@ Page Builder has two main views that you can use while creating a page:
 
 - Elements toolbar - consists of all available elements that you can use by dragging them and dropping on a drop zone.
 
-![Elements toolbar](elements_toolbar.png)
+![Elements toolbar](img/elements_toolbar.png)
 
 - Structure view - shows a structure of your page, including their division into zones and the blocks that they contain.
 
-![Structure view](structure_view.png)
+![Structure view](img/structure_view.png)
 
 ### Choose layout
 
