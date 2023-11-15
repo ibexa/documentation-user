@@ -79,18 +79,6 @@ E. Buttons:
 |![Undo](page_builder_toolbar_undo.png)|Undo latest change.|
 |![Redo](page_builder_toolbar_redo.png)|Redo latest change.|
 
-F. Saving options
-
-|Option|Description|
-|------|-----------|
-|Close|Close the page without saving it.|
-|Send to review|Save the page and send it to review.|
-|Publish / Publish later|Publish the page or schedule publishing for later.|
-|Save draft|Save the page draft*.|
-|Delete draft|Delete the page draft.|
-
-* To help you preserve your work, system saves drafts of Content items automatically. For more information, see [Autosave](https://doc.ibexa.co/projects/userguide/en/master/content_management/content_versions/#autosave).
-
 Page Builder has two main views that you can use while creating a page:
 
 - Elements toolbar - consists of all available elements that you can use by dragging them and dropping on a drop zone.
@@ -209,3 +197,15 @@ To save it as a draft to finish editing it later, even if some required fields a
 You can then navigate away from the Page by clicking the logo in the upper left corner, or the browser's **Back button**.
 
 For more information, see [Publish content](publish_content.md).
+
+There are several options for managing work on the page:
+
+|Option|Description|
+|------|-----------|
+|Close|Close the page without saving it.|
+|Send to review|Save the page and send it to review.|
+|Publish / Publish later|Publish the page or schedule publishing for later.|
+|Save draft|Save the page draft*.|
+|Delete draft|Delete the page draft.|
+
+* To help you preserve your work, system saves drafts of Content items automatically. For more information, see [Autosave](https://doc.ibexa.co/projects/userguide/en/master/content_management/content_versions/#autosave).
