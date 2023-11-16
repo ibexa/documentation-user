@@ -63,7 +63,7 @@ In the block configuration on the **Design** tab, under the **View** field, you 
 
 ### Scheduler tab
 
-In the block configuration on the **Scheduler** tab, you can set a date for the block to be revealed and hidden.
+In the block configuration on the **Scheduler** tab, you can set a date for the block to be revealed or hidden.
 
 ## Banner block
 
@@ -267,7 +267,7 @@ On the **Properties** tab, set values in the following fields:
 
 ## RSS block
 
-Imports and showcase news content from RSS feeds (channels), helping users stay informed with the latest updates and diverse news sources.
+Imports and showcases news content from RSS feeds (channels), helping users stay informed with the latest updates and diverse news sources.
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
