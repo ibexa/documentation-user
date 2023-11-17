@@ -96,7 +96,7 @@ and published in your PIM.
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
-- **Default catalog** – Select a catalog that is displayed to end-users who are anonymous or not part of any customer group assigned to specific catalogs
+- **Default catalog** – Select a catalog that is displayed to end-users who are anonymous or not part of any customer group assigned to specific catalogs.
 - **Set up customer group and catalog** — Add at least one assignment: add a row, then select a customer group and a matching catalog.
 - **Display limit** – Set the number of products to be displayed.
 
@@ -149,7 +149,7 @@ The rules are checked in order, so when a user belongs to more than one Segment,
 
 ## Embed block
 
-Place any Content item directly on the Page. This function works across all Content Types seamlessly.
+Place any Content item directly on the page. This function works across all Content Types seamlessly.
 On the **Properties** tab, set values in the following fields:
 
 - **Name** — Enter a name for the page block.
@@ -157,7 +157,7 @@ On the **Properties** tab, set values in the following fields:
 
 ## Form block
 
-Place a selected form from the content structure onto the Page.
+Place a selected form from the content structure onto the page.
 Integrate specific forms into your content to enhance client interaction.
 Completing the settings of the Form block requires at least one Form Content item created.
 
@@ -185,7 +185,7 @@ Selecting a folder containing Content items other than images results in display
 
 ## Ibexa Connect block
 
-Access and showcase data retrieved from an Ibexa Connect webhook. Streamline information presentation for seamless insights and improved decision-making
+Access and showcase data retrieved from an Ibexa Connect webhook. Streamline information presentation for seamless insights and improved decision-making.
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
@@ -198,7 +198,7 @@ On the **Properties** tab, set values in the following fields:
 ## Last purchased block
 
 Showcases a list of recently purchased products from PIM.
-Keep track of recent sales and improve product visibility.
+Helps keep track of recent sales and improve product visibility.
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
@@ -209,7 +209,7 @@ On the **Properties** tab, set values in the following fields:
 ## Last viewed block
 
 Showcases a list of recently viewed products from PIM.
-Track and show recent product interests for quick access and informed decisions.
+Helps track and show recent product interests for quick access and informed decisions.
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
@@ -220,7 +220,7 @@ On the **Properties** tab, set values in the following fields:
 ## Orders block
 
 Showcases a list of orders linked to a specific company or individual customer.
-Track purchase history for streamlined customer service and personalized interactions.
+Helps track purchase history for streamlined customer service and personalized interactions.
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
@@ -278,7 +278,7 @@ On the **Properties** tab, set values in the following fields:
 ## Sales representative
 
 Imports and showcases sales representatives for the company in the Customer Portal.
-Empowers users with a way to connect with the team handling their sales needs.
+Gives users a way to connect with the team that handles their sales needs.
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
@@ -339,7 +339,7 @@ For details, see [Editing Rich Text Fields](create_edit_content_items.md#edit-ri
 ## Video block
 
 Integrates a video into the Page with standard playback controls.
-Enhance content variety and captivate audiences with seamless video viewing.
+Helps enhance content variety and captivate audiences with seamless video viewing.
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
