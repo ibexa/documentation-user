@@ -77,7 +77,7 @@ On the **Properties** tab, set values in the following fields:
 
 ## Bestsellers block
 
-Displays products that have recently been top sellers, helping users discover popular items quickly.
+Displays products that were recently top sellers, to help users discover popular items quickly.
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
@@ -104,7 +104,7 @@ On the **Design** tab, in the **View** field, select the layout to be used to pr
 
 ## Code block
 
-Enables you to add customized text, links, images, and more to your Page by utilizing custom HTML.
+Enables you to use custom HTML to add customized text, links, images, and more to your page.
 On the **Properties** tab, set values in the following fields:
 
 - **Name** — Enter a name for the page block.
