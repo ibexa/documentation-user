@@ -125,7 +125,7 @@ After you change the block settings, click **Submit** to save the changes or **D
 While configuring blocks that include Rich Text section, for example, Text block, you can switch to focus mode.
 
 Focus mode expands the workspace to full screen and shows only editor toolbar.
-It's helpful when you need to work with longer texts that take more space and when you want to focus your attention on the editing content.
+It's helpful when you need to work with longer texts that take more space and when you want to focus your attention on editing text.
 
 ![Focus mode](img/focus_mode.png "Focus mode")
 
