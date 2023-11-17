@@ -139,7 +139,7 @@ Then, go to **My preferences** tab, **Edit** section.
 Here, you can find `Automatically open block settings in builder` setting, which, by default, is set up to `enabled` value.
 To change this behavior, click on **Edit** icon, find the setting, and change its value to `disabled`.
 
-![Elements menu](img/user_settings_blocks.png "User settings - blocks settings")
+![User settings - blocks](img/user_settings_blocks.png "User settings - blocks settings")
 
 [[= product_name =]] comes with a set of ready-to-use Page blocks,
 but [developers can add their own]([[= developer_doc =]]/content_management/pages/create_custom_page_block/).
@@ -156,26 +156,28 @@ For a list of blocks available out of the box, see [Block reference](block_refer
     for example, [Dynamic targeting](block_reference.md#dynamic-targeting-block) or [Recently added block](block_reference.md#recently-added-block), make sure that the scenario is 
     [properly configured](../personalization/configure_scenarios.md).
 
-#### Configure block settings
+You can work with the block, for example, duplicate it, change its position or delete it.
 
-Each kind of block has its special properties.
-You can access them by placing the cursor on the added block and clicking the 
-**Block settings** (cog) icon.
+To access settings menu, hover over the block - block settings menu toolbar appears.
 
-You can manage each block by accessing its settings. To do it, click settings icon next to the block's name.
-
-![Block settings](img/block_settings.png)
+![Block settings menu](img/block_settings_menu.png "Block settings menu")
 
 Available settings are:
 
-- Move up - allows you to change position of the block on the page by moving it up
-- Move down - allows you to change position of the block on the page by moving it down
-- Configuration - allows you to access configuration window
+- Move up block - allows you to change position of the block on the page by moving it up
+- Move down block - allows you to change position of the block on the page by moving it down
+- Block settings - allows you to access properties window
 - Duplicate - duplicates existing block with its settings by creating its copy
 - Refresh - refreshes preview of the block
 - Delete - deletes existing block
 
-Settings available for blocks are divided into three tabs — **Basic**, **Design**, and **Scheduler**.
+#### Configure block settings
+
+Each kind of block has its special properties.
+You can access them by placing the cursor on the added block and clicking the 
+**Block settings** icon.
+
+Properties of the blocks are divided into three tabs — **Basic**, **Design**, and **Scheduler**.
 The settings available on the **Basic** tab are tailored to the block's content.
 For a description of these settings, see [Block reference](block_reference.md).
 
