@@ -59,11 +59,11 @@ The settings include:
 
 ### Design tab
 
-In the block configuration on the **Design** tab, under the **View** field, you can select the layout for presenting a block.
+In the block configuration, on the **Design** tab, under the **View** field, you can select the layout for presenting a block.
 
 ### Scheduler tab
 
-In the block configuration on the **Scheduler** tab, you can set a date for the block to be revealed or hidden.
+In the block configuration, on the **Scheduler** tab, you can set a date for the block to be revealed or hidden.
 
 ## Banner block
 
