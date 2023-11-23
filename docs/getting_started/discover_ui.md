@@ -6,7 +6,7 @@ description: Take a quick tour of the Back Office.
 
 ## My dashboard
 
-The first screen that you see after logging in is **My dashboard**.
+The first screen that you see after logging in is **Dashboard**.
 It is default dashboard and contains blocks:
 
 - **Recent activity** - contains the list of last activities (maximum 10), including timestamp, user data and activity type. 
@@ -17,35 +17,37 @@ Available filters are: User(s), Activity type (create, update, publish, delete, 
 - **Ibexa news** - contains the list of recent blog posts or articles published at `ibexa.co` blog.  
 It includes title, image, timestamp, and link to article details. List can containt minimum 1 and maximum 10 links.
 
-- **Review queue**
+- **Review queue** - contains the list of content that needs review.
 
-- **My content**
+- **My content** - contains the list of content items created by the user currently logged in.
 
-- **Common content**
+- **Common content** - contains the list of content items created by all the organization that the user belongs to.
 
 You can select any of these items and view them in detail or start [editing them](create_edit_content_items.md) from this point.
 You can also [reschedule or cancel planned publications](../content_management/schedule_publishing.md#reschedule_or_cancel_publications) using the dashboard.
 
-![My dashboard](img/dashboard.png "My dashboard")
+![Dashboard](img/dashboard.png "Dashboard")
 
-You can always return to the **My dashboard** screen by clicking the logo in the upper left corner.
+You can always return to the **Dashboard** screen by clicking the logo in the upper left corner.
 
 ## Customizable dashboard
 
 You can customize the dashboard depending on your needs.
 
-Customized dashboard previews a set of widgets selected by user.
+Customized dashboard previews a set of widgets selected by the user.
 
 It provides quick overview of these areas, that are commonly used, excluding those that are not used or used rarely.
 This solution improves productivity, allows to enhance the default dashboard with additional widgets, and helps to make better business decisions based on data.
 
 By easily accessing important information, users can work more efficiently with a clear view of tasks and deadlines.
-
 Customization includes also choosing one of predefined layouts and adding custom ones to use them in dashboards.
 
 ### Customize dashboard
 
 To customize dashboard, on the main page, click **Go to dashboard builder**. 
+
+![Customize dashboard](img/customize_dashboard.png "Customize dashboard")
+
 This action opens an online editor - Dashboard builder.
 
 #### Dashboard builder interface
@@ -58,11 +60,13 @@ B. Page blocks / Structure view toolbar
 
 C. Buttons:
 
-|![Editing dashboard](page_builder_toolbar_editpreview.png)|Edit basic information, like Title and Description.|
-|![Switch layout](page_builder_toolbar_devicestoggler.png)|Switch layout for the dashboard.|
-|![Elements menu](page_builder_toolbarelements.png)|Move Page blocks / Structure view to the other side of the screen.|
-|![Undo](page_builder_toolbar_undo.png)|Undo latest change.|
-|![Redo](page_builder_toolbar_redo.png)|Redo latest change.|
+|Name|Icon|Description|
+--------|-----------|----------
+|Editing dashboard|![Editing dashboard](dashboard_edit.png)|Edit basic information, like Title and Description.|
+|Switch layout|![Switch layout](dashboard_layout.png)|Switch layout for the dashboard.|
+|Elements menu|![Elements menu](dashboard_toolbarelements.png)|Move Page blocks / Structure view to the other side of the screen.|
+|Undo|![Undo](dashboard_undo.png)|Undo latest change.|
+|Redo|![Redo](dashboard_redo.png)|Redo latest change.|
 
 Dashboard builder has two main views that you can use while creating a page:
 
@@ -70,15 +74,14 @@ Dashboard builder has two main views that you can use while creating a page:
 
 ![Page blocks](img/page_blocks_toolbar.png)
 
-- Structure view - shows a structure of your dashboard, including their division into zones and the blocks that they contain.
+- Structure view - shows a structure of your dashboard, including its division into zones and the blocks that they contain.
 
 ![Structure view](img/structure_view.png)
 
 ### Choose layout
 
 For new dashboard you can choose layout which defines the available zones.
-
-Applying a layout divides the dashboard into the defined zones. The zones are placeholders for page blocks.
+Applying a layout divides the dashboard into the defined zones. The zones are placeholders for blocks.
 
 To choose layout, click **Swicth layout** button in the left side of the upper toolbar. 
 
