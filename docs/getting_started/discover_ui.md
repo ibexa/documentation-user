@@ -4,36 +4,37 @@ description: Take a quick tour of the Back Office.
 
 # User interface
 
-## My dashboard
+## Dashboard
 
 The first screen that you see after logging in is **Dashboard**.
 It is default dashboard and contains blocks:
 
-- **Recent activity** - contains the list of last activities (maximum 10), including timestamp, user data and activity type. 
+- **Recent activity** - a list of last activities (maximum 10), including timestamp, user data and activity type. 
 Available filters are: User(s), Activity type (create, update, publish, delete, hide , show) and Activity area (product, content).
 
 - **Quick actions** - displays most popular/used actions and shortcuts, for example, **Create content**. 
 
-- **Ibexa news** - contains the list of recent blog posts or articles published at `ibexa.co` blog.  
+- **Review queue** - a list of Content items which user or User group can review.
+
+- **My content** - a list of content items created by the user currently logged in.
+
+- **Common content** - a list of content items created by all the organization that the user belongs to.
+
+- **Ibexa news** - alist of recent blog posts or articles published at `ibexa.co` blog.  
 It includes title, image, timestamp, and link to article details. List can containt minimum 1 and maximum 10 links.
 
-- **Review queue** - contains the list of content that needs review.
-
-- **My content** - contains the list of content items created by the user currently logged in.
-
-- **Common content** - contains the list of content items created by all the organization that the user belongs to.
+![Dashboard](img/dashboard.png "Dashboard")
 
 You can select any of these items and view them in detail or start [editing them](create_edit_content_items.md) from this point.
 You can also [reschedule or cancel planned publications](../content_management/schedule_publishing.md#reschedule_or_cancel_publications) using the dashboard.
 
-![Dashboard](img/dashboard.png "Dashboard")
-
 You can always return to the **Dashboard** screen by clicking the logo in the upper left corner.
+
+![Dashboard icon](img/dashboard_icon.png)
 
 ## Customizable dashboard
 
 You can customize the dashboard depending on your needs.
-
 Customized dashboard previews a set of widgets selected by the user.
 
 It provides quick overview of these areas, that are commonly used, excluding those that are not used or used rarely.
@@ -48,84 +49,67 @@ To customize dashboard, on the main page, click **Go to dashboard builder**.
 
 ![Customize dashboard](img/customize_dashboard.png "Customize dashboard")
 
-This action opens an online editor - Dashboard builder.
+This action opens an online editor - Dashboard Builder.
 
-#### Dashboard builder interface
+#### Dashboard Builder interface
 
-Dashboard builder user interface consists of:
+Dashboard Builder user interface consists of:
 
 A. Drop zone
 
-B. Page blocks / Structure view toolbar
+B. Elements / Structure view toolbar
 
 C. Buttons:
 
-|Name|Icon|Description|
+|Name|Icon|Use|
 --------|-----------|----------
-|Editing dashboard|![Editing dashboard](dashboard_edit.png)|Edit basic information, like Title and Description.|
-|Switch layout|![Switch layout](dashboard_layout.png)|Switch layout for the dashboard.|
-|Elements menu|![Elements menu](dashboard_toolbarelements.png)|Move Page blocks / Structure view to the other side of the screen.|
-|Undo|![Undo](dashboard_undo.png)|Undo latest change.|
-|Redo|![Redo](dashboard_redo.png)|Redo latest change.|
+|Fields|![Fields](img/dashboard_fields.png)|Edit dashboard name.|
+|Switch layout|![Switch layout](img/dashboard_switch_layout.png)|Switch layout for the dashboard.|
+|Undo|![Undo](img/dashboard_undo.png)|Undo latest change.|
+|Redo|![Redo](img/dashboard_redo.png)|Redo latest change.|
+|Structure view|![Structure view](img/dashboard_structure_view.png)|Access Structure view toolbar.|
+|Elements menu|![Elements menu](img/dashboard_elements.png)|Access Elements toolbar.|
+|View switch|![View switch](img/dashboard_switch_toolbar.png)|Move Elements / Structure toolbar to the other side of the screen.|
 
-Dashboard builder has two main views that you can use while creating a page:
+Dashboard Builder has two main toolbars that you can use while creating a dashboard:
 
-- Page blocks toolbar - consists of all available blocks that you can use by dragging them and dropping on a drop zone.
+- Elements toolbar - consists of all available blocks that you can use by dragging them and dropping on a drop zone.
 
-![Page blocks](img/page_blocks_toolbar.png)
+![Elements](img/dashboard_elements_toolbar.png)
 
-- Structure view - shows a structure of your dashboard, including its division into zones and the blocks that they contain.
+- Structure view toolbar - shows a structure of your dashboard, including its division into zones and the blocks that they contain.
 
-![Structure view](img/structure_view.png)
+![Structure view](img/dashboard_structure_view_toolbar.png)
 
 ### Choose layout
 
 For new dashboard you can choose layout which defines the available zones.
 Applying a layout divides the dashboard into the defined zones. The zones are placeholders for blocks.
 
-To choose layout, click **Swicth layout** button in the left side of the upper toolbar. 
+When you open Dashboard builder, layout window appears. 
+Choose one from available layouts and click **Save**.
 
-![Switch layout](img/switch_layout_window.png)
+To switch layout, click **Switch layout** button in the left side of the upper toolbar. 
 
-Choose one of the available layouts and click **Save**.
+![Switch layout](img/dashboard_switch_layout_window.png)
+
+Choose one of the available layouts and click **Submit**.
 
 #### Add blocks
 
-In Dashboard builder you can access a menu of **Page blocks** — a set of blocks of content that you can add to the zones of the Dashboard.
+In Dashboard Builder you can access a menu of **Elements** — a set of blocks of content that you can add to the zones of the Dashboard.
 
-You can choose from available blocks from the categories below:
+You can choose from available blocks:
 
-1\. General:
-
-- Recent activity
+- Ibexa News
 - Quick actions
-- Ibexa news
-
-2\. Content:
-
-- My content
+- My Content
+- Common Content
 - Review queue
-- Common content
-
-3\. Product [[% include 'snippets/experience_badge.md' %]]:
-
-- Products by category
-- 	Products with the lowest stock
-
-4.\ Commerce [[% include 'snippets/commerce_badge.md' %]]:
-
 - Recent orders
 - Orders by status
-
-5\. Personalization:
-
-- Top clicked items
-
-6\. Others:
-
-- Permissions
-- Default role with Dashboard permissions
-- PHP API Dashboard service
+- Products with lowest stock
+- Products by category
 
 Add a block by dragging it from the menu to an empty place on a zone.
 Do not worry about placing blocks in the proper place from the start.
@@ -138,19 +122,19 @@ You can reorder blocks in a few ways:
 
 When you add a new block to the drop zone, drop it in the blue highlighted area. Before you drop it, a bold line appears  - it helps you see the position of the newly added block in relation to other, already added blocks.
 
-![Drop zone line](drop_zone_line.png)
+![Drop zone line](img/dashboard_blue_line.png)
 
-When you add a block by dragging it from Page blocks menu into the drop zone,
+When you add a block by dragging it from Elements menu into the drop zone,
 the block settings panel open immediately where you can configure all block properties.
 
-![Block properties](block_properties.png)
+![Block properties](img/dashboard_block_properties.png)
 
 This is a default behavior. You can globally turn off automatic opening of the block settings panel in the user settings.
 First, access your user settings on the right side of the top bar:
 
-![Elements menu](img/user_settings.png "User settings")
+![User settings](img/user_settings.png "User settings")
 
-Then, go to **My preferences** tab, **Edit** section.
+Then, go to **Preferences** tab, **Edit** section.
 Here, you can find `Automatically open block settings in builder` setting, which, by default, is set up to `enabled` value.
 To change this behavior, click on **Edit** icon, find the setting, and change its value to `disabled`.
 
@@ -158,7 +142,7 @@ To change this behavior, click on **Edit** icon, find the setting, and change it
 
 #### Work with blocks
 
-Each kind of block has its special properties.
+Each block has its special properties.
 You can access them by placing the cursor on the added block and clicking the **Block settings** icon.
 
 ## Menu
