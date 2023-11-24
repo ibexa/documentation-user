@@ -9,10 +9,10 @@ description: Take a quick tour of the Back Office.
 The first screen that you see after logging in is **Dashboard**.
 It is default dashboard and contains following blocks:
 
-- **Recent activity** - a list of last activities (maximum 10), including timestamp, user data and activity type. 
-Available filters are: User(s), Activity type (create, update, publish, delete, hide , show) and Activity area (product, content).
+- **Recent activity** - a list of last activities (maximum 10), including timestamp, user data and activity type.
+Available filters are: User(s), Activity type (create, update, publish, delete, hide, show) and Activity area (product, content).
 
-- **Quick actions** - displays most popular/used actions and shortcuts, for example, **Create content**. 
+- **Quick actions** - displays most popular/used actions and shortcuts, for example, **Create content**.
 
 - **Review queue** - a list of Content items which user or User group can review.
 
@@ -20,7 +20,7 @@ Available filters are: User(s), Activity type (create, update, publish, delete, 
 
 - **Common content** - a list of content items created by all the organization that the user belongs to.
 
-- **Ibexa news** - alist of recent blog posts or articles published at `ibexa.co` blog.  
+- **[[= product_name_base =]] news** - alist of recent blog posts or articles published at `ibexa.co` blog.
 It includes title, image, timestamp, and link to article details. List can containt minimum 1 and maximum 10 links.
 
 ![Dashboard](img/dashboard.png "Dashboard")
@@ -37,15 +37,15 @@ You can always return to the **Dashboard** screen by clicking the logo in the up
 You can customize the dashboard depending on your needs.
 Customized dashboard previews a set of widgets selected by the user.
 
-It provides quick overview of these areas, that are commonly used, excluding those that are not used or used rarely.
+It provides quick overview of these areas, that are commonly used, excluding those that are not used, or used rarely.
 This solution improves productivity, allows to enhance the default dashboard with additional widgets, and helps to make better business decisions based on data.
 
-By easily accessing important information, users can work more efficiently with a clear view of tasks and deadlines.
+By highlighting important information, users can work more efficiently with a clear view of tasks and deadlines.
 Customization includes also choosing one of predefined layouts and adding custom ones to use them in dashboards.
 
 ### Customize dashboard
 
-To customize dashboard, on the main page, click **Go to dashboard builder**. 
+To customize dashboard, on the main page, click **Go to dashboard builder**.
 
 ![Customize dashboard](img/customize_dashboard.png "Customize dashboard")
 
@@ -86,10 +86,10 @@ Dashboard Builder has two main toolbars that you can use while creating a dashbo
 For new dashboard you can choose layout which defines the available zones.
 Applying a layout divides the dashboard into the defined zones. The zones are placeholders for blocks.
 
-When you open Dashboard builder, layout window appears. 
+When you open Dashboard Builder, layout window appears.
 Choose one from available layouts and click **Save**.
 
-To switch layout, click **Switch layout** button in the left side of the upper toolbar. 
+To switch layout, click **Switch layout** button in the left side of the upper toolbar.
 
 ![Switch layout](img/dashboard_switch_layout_window.png)
 
@@ -97,11 +97,11 @@ Choose one of the available layouts and click **Submit**.
 
 #### Add blocks
 
-In Dashboard Builder you can access a menu of **Elements** — a set of blocks of content that you can add to the zones of the Dashboard.
+In Dashboard Builder you can access a menu of **Elements** — a set of blocks of content that you can add to the zones of the dashboard.
 
 You can choose from available blocks:
 
-- Ibexa News
+- [[= product_name_base =]] News
 - Quick actions
 - My Content
 - Common Content
