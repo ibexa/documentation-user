@@ -7,7 +7,7 @@ description: Take a quick tour of the Back Office.
 ## Dashboard
 
 The first screen that you see after logging in is **Dashboard**.
-It is default dashboard and contains blocks:
+It is default dashboard and contains following blocks:
 
 - **Recent activity** - a list of last activities (maximum 10), including timestamp, user data and activity type. 
 Available filters are: User(s), Activity type (create, update, publish, delete, hide , show) and Activity area (product, content).
@@ -73,11 +73,11 @@ C. Buttons:
 
 Dashboard Builder has two main toolbars that you can use while creating a dashboard:
 
-- Elements toolbar - consists of all available blocks that you can use by dragging them and dropping on a drop zone.
+- **Elements** - consists of all available blocks that you can use by dragging them and dropping on a drop zone.
 
 ![Elements](img/dashboard_elements_toolbar.png)
 
-- Structure view toolbar - shows a structure of your dashboard, including its division into zones and the blocks that they contain.
+- **Structure view** - shows a structure of your dashboard, including its division into zones and the blocks that they contain.
 
 ![Structure view](img/dashboard_structure_view_toolbar.png)
 
@@ -138,12 +138,37 @@ Then, go to **Preferences** tab, **Edit** section.
 Here, you can find `Automatically open block settings in builder` setting, which, by default, is set up to `enabled` value.
 To change this behavior, click on **Edit** icon, find the setting, and change its value to `disabled`.
 
-![Elements menu](img/user_settings_blocks.png "User settings - blocks settings")
+![Blocks settings](img/user_settings_blocks.png "User settings - blocks settings")
 
 #### Work with blocks
 
 Each block has its special properties.
 You can access them by placing the cursor on the added block and clicking the **Block settings** icon.
+
+![Block settings - Dashboard Builder](img/block_settings_builder.png "Block settings - Dashboard Builder")
+
+#### Edit dashboard
+
+At any time you can edit an active dashboard.
+To do it, click en edit icon in the top right corner.
+
+![Edit dashboard](img/edit_active_dashboard.png "Edit dashboard")
+
+This action opens Dashboard Builder that allows you to edit an active dashboard and publish its updated version.
+You can see all the implemented changes after reloading starting screen.
+
+#### Choose dashboard
+
+When you create new customized dashboard, you can choose, which one you want to set as an active.
+
+To do it, access your user settings on the right side of the top bar.
+Then, go to **Preferences** tab, **Dashboard** section, and click **Edit**.
+
+Here you can see a list of all available dashboard, including Default dashboard and all created customized dashboards.
+
+![Select active dashboard](img/select_active_dashboard.png "Select active dashboard")
+
+Select the dashboard, that you want to set as active, and click **Save**.
 
 ## Menu
 
