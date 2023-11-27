@@ -133,7 +133,7 @@ To access focus mode, click **Focus mode** on the right side above the workspace
 
 ![Access focus mode](img/access_focus_mode_PB.png "Access focus mode")
 
-To exit focus mode, click **Default mode** or press Esc on the keyboard.
+To exit focus mode, click **Exit focus mode** or press Esc on the keyboard.
 
 ![Exit focus mode](img/exit_focus_mode.png "Exit focus mode")
 
