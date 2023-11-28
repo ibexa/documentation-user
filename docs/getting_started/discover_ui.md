@@ -20,7 +20,7 @@ Available filters are: User(s), Activity type (create, update, publish, delete, 
 
 - **Common content** - a list of content items created by all the organization that the user belongs to.
 
-- **[[= product_name_base =]] news** - alist of recent blog posts or articles published at `ibexa.co` blog.
+- **[[= product_name_base =]] news** - a list of recent blog posts or articles published at `ibexa.co` blog.
 It includes title, image, timestamp, and link to article details. List can containt minimum 1 and maximum 10 links.
 
 ![Dashboard](img/dashboard.png "Dashboard")
