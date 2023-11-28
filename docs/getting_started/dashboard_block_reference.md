@@ -18,7 +18,11 @@ The following blocks are provided with a clean installation of [[= product_name 
 |[Quick actions](#quick-actions-block)|Displays most popular/used actions and shortcuts.|
 |[Review queue](#review-queue-block)|Displays a list of Content items which user or User group can review.|
 
-[[= include_file('docs/content_management/create_edit_pages.md', 86, 96) =]]
+!!! note 
+
+    Before you add a block that involves products, product types, or product categories, make 
+    sure your that your [user Role](../permission_management/permissions_and_users.md) has 
+    the `Product/View` and `Product type/View` permission.
 
 ## Common Content block
 
