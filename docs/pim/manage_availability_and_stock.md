@@ -1,10 +1,13 @@
 ---
-description: Products in catalog can be made unavailable, either in certain quantity or with infinite stock.
+description: Products can be made unavailable or available, either in certain quantity or with infinite stock.
 ---
 
 # Work with availability and stock
 
-[Products in catalog](products.md#products) can be unavailable, or can be made available in certain quantity, or with infinite stock.
+In case of [products](products.md), being available translates into being offered for purchase.
+
+You can control a product's availability, and the available stock.
+You can either set the exact number of product pieces available in stock or indicate that availability is infinite, for example, for digital, downloadable products.
 
 ## Set product availability
 
