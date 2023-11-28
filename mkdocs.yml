@@ -9,6 +9,7 @@ nav:
     - Getting started:
        - Get started: getting_started/get_started.md
        - User interface: getting_started/discover_ui.md
+       - Dashboard block reference: getting_started/dashboard_block_reference.md
     - Content model management:
         - Content model: content_management/content_model.md
         - Create and edit Content Types: content_management/create_edit_content_types.md

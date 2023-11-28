@@ -12,7 +12,7 @@ The following blocks are provided with a clean installation of [[= product_name 
 |[Common content](#common-content-block)|Displays a list of content items created by all the organization that the user belongs to.|
 |[Ibexa News](#ibexa-news-block)|Displays a list of recent blog posts or articles published at `ibexa.co` blog.|
 |[My Content](#my-content-block)|Displays a list of content items created by the user currently logged in.|
-|[Orders by status](#orders-by-status-block-block)|Displays a list of orders by their status.|
+|[Orders by status](#orders-by-status-block)|Displays a list of orders by their status.|
 |[Products by category](#products-by-category-block)|Displays a list of products by their category.|
 |[Products with lowest stock](#products-by-category-block)|Displays a list of products with the lowest stock.|
 |[Quick actions](#quick-actions-block)|Displays most popular/used actions and shortcuts.|
@@ -20,7 +20,7 @@ The following blocks are provided with a clean installation of [[= product_name 
 
 [[= include_file('docs/content_management/create_edit_pages.md', 86, 96) =]]
 
-## Common Content
+## Common Content block
 
 Displays a list of content items created by all the organization that the user belongs to.
 
@@ -30,7 +30,7 @@ On the **Properties** tab, set values in the following fields:
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of content and submit your changes.
 
-## Ibexa News
+## Ibexa News block
 
 Presents a list of recent blog posts or articles published at `ibexa.co` blog.
 It includes title, image, timestamp, and link to article details.
@@ -42,7 +42,7 @@ On the **Properties** tab, set values in the following fields:
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of news and submit your changes.
 
-## My Content
+## My Content block
 
 Displays a list of content items created by the user currently logged in.
 
