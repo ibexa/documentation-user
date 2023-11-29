@@ -17,13 +17,13 @@ Depending on your permissions, you might be able to verify the presence of the f
 
 1. In the left panel, click **Product catalog** -> **Product Types** to open a list of available product types.
 2. Click the **Edit** icon next to a name of the product type that you want to review.
-3. In the **Editing Product Type** modal, check whether the **Field definitions** area contains the **Categories** field of **Taxonomy Entry Assignment** type. 
+3. In the **Editing Product Type** modal, check whether the **Field definitions** area contains the **Categories** field of **Taxonomy Entry Assignment** type.
     1. If the field is present, click **Delete draft** and skip the remaining steps.
     2. If the field is absent, drag and drop the **Taxonomy Entry Assignment** option from the **Field types** area to the **Field definitions** area.
     3. Expand the **New field type** that you just added and make the following settings:
         * Set a name for the field, for example, "Product category"
         * Select the **Required** checkbox
-        * In the **Taxonomy** field, select the "Product categories" option
+        * In the **Taxonomy** field, select the "Product categories" taxonomy type
 4. Optionally, modify other product type settings as required.
 7. To save your changes:
 
@@ -31,6 +31,10 @@ Depending on your permissions, you might be able to verify the presence of the f
     - Click **Save and close** to close the window.
 
 You can now add product categories and then create relationships between products and product categories.
+
+!!! caution "Duplicate taxonomy entry fields"
+    In your product type, you may want to have both product categories and [tags](taxonomy.md) on the list of Field definitions.
+    Because tags are assigned per product item, not per Field, when working with a product type, you cannot use two **Taxonomy Entry Assignment** Fields with the same taxonomy type in one Product type.
 
 ## Add product category to product category hierarchy
 
