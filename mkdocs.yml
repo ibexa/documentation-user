@@ -90,7 +90,7 @@ nav:
             - Work with product prices: pim/manage_prices.md
             - Work with product availability and stock: pim/manage_availability_and_stock.md
         - Work with catalogs: pim/work_with_catalogs.md
-        - Work with categories: pim/work_with_product_categories.md
+        - Work with product categories: pim/work_with_product_categories.md
         - Work with product page URLs: pim/work_with_product_page_urls.md
     - Customer management:
         - Customer Portal: customer_management/customer_portal.md
