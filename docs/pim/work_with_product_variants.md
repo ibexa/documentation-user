@@ -5,7 +5,7 @@ description: Create multiple variants of one product, based on attributes such a
 # Work with product variants
 
 With product variants you can have multiple versions of one product, differing in some characteristics.
-Typical examples are a t-shirt in different colors, or a laptop with different hard disk sizes.
+Typical examples would be a t-shirt in different sizes and colors, or the same model of laptop with different hard disk sizes.
 
 To use an [attribute](products.md#attributes) to create [variants](products.md#product-variants), mark the attribute as **Used for product variants** when you create a [product type](create_product_types.md).
 
