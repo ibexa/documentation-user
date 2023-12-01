@@ -1,12 +1,25 @@
 ---
-description: You can create a structure of tags that can be assigned to products to help categorize products, to assist users in searching. You create, manage and assign categories manually.
+description: You can create a structure of tags that can be assigned to products to help categorize products, to assist visitors in searching. You create, manage and assign categories manually.
 ---
 
 # Work with product categories
 
-[Product categories](products.md#product-categories) are organized into a Category tree, which you can access from the **Product catalog** panel. The **Categories** screen is where you manually create a hierarchy of categories and manage category entries. 
+[Product](products.md) categories are organized into a Category tree, which you can access from the **Product catalog** panel. The **Categories** screen is where you manually create a hierarchy of categories and manage category entries. 
 
 ![Product category tree](img/product_categories.png "Product category tree")
+
+## Product categories
+
+With product categories you can organize products within PIM and create relationships between them.
+One of the reasons for applying product categories is assisting visitors in searching for products.
+
+Each category can be assigned to multiple products, and each product can belong to multiple categories of different or similar character, for example:
+
+- Business Laptops
+- Windows OS Devices
+- Stock clearance
+
+You can enable the use of product categories, assign products to categories and vice versa, and define your own categories.
 
 ## Enable product categories
 
