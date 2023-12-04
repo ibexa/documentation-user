@@ -8,7 +8,7 @@ On the Back Office, in Admin -> Activity list, you can consult what happens rece
 
 By default, the following actions are logged:
 
-- [Content](content_items.md) [create](create_edit_content_items.md#create-content-items), [publish](publish_instantly.md#publish-content-instantly), update, [delete](copy_move_hide_content.md#multi-file-move), hide and reveal
+- [Content](content_items.md) [create](create_edit_content_items.md#create-content-items), [publish](publish_instantly.md#publish-content-instantly), update, trash, recover, [delete](copy_move_hide_content.md#multi-file-move), delete translation, hide and reveal
 - Location create, delete, [hide](manage_locations_urls.md#hide-locations), reveal, update, move, [swap](manage_locations_urls.md#swap-locations) and subtree copy
 - Product [create](create_edit_product.md), update and delete
 - Product variant [create](work_with_product_variants.md#generate-variants), update and [delete](work_with_product_variants.md#delete-variants)
