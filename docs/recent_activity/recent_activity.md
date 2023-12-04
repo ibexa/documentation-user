@@ -12,7 +12,7 @@ By default, the following actions are logged:
 - Location create, delete, [hide](manage_locations_urls.md#hide-locations), reveal, update, move, [swap](manage_locations_urls.md#swap-locations) and subtree copy
 - Product [create](create_edit_product.md), update and delete
 - Product variant [create](work_with_product_variants.md#generate-variants), update and [delete](work_with_product_variants.md#delete-variants)
-- [Site](website_organization/work_with_sites.md) [create](work_with_sites.md#create-a-website), [update](work_with_sites.md#edit-an-existing-website) and [delete](work_with_sites.md#delete-an-existing-website)
+- [Site](work_with_sites.md) [create](work_with_sites.md#create-a-website), [update](work_with_sites.md#edit-an-existing-website) and [delete](work_with_sites.md#delete-an-existing-website)
 
 By default, log entries are kept 30 days.
 
