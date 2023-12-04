@@ -28,7 +28,7 @@ is propagated to every Content item of this type.
     You can delete a Content Type only when there are no Content items that belong to it.
     This also includes Content items in the Trash.
 
-1\. In the left panel, go to **Content** -> **Content Types** and select a Content Type group by clicking its name, for example, **Content**.
+1\. In the left panel, go to **Content** -> **Content Types**. Then select a Content Type group by clicking its name, for example, **Content**.
 
 !!! note
 
@@ -36,7 +36,7 @@ is propagated to every Content item of this type.
 
 ![Content Type list](img/content_types.png "A list of Content Types")
 
-2\. If you are adding a new Content Type, on the Content Type group's detail screen, click **Add new** and skip to step 4.
+2\. If you are adding a new Content Type, on the Content Type group's detail screen, click **Create** and skip to step 4.
 
 3\. If you are modifying an existing Content Type, on the Content Type group's detail screen, click the **Edit** icon next to a name of the Content Type.
 
@@ -62,33 +62,26 @@ is propagated to every Content item of this type.
     correspond to the identifiers of Fields that make up the Content Type. 
     This way, when Content Items of this type are created, their names and URL 
     aliases are generated according to the defined pattern. 
-    
+
     For example, if you enter `<short_title>` as a value of the **Content name 
     pattern** field, the resulting items will be identified in the user interface 
     by their short titles.
 
-5\. In the **Field definitions** area, modify Fields that constitute the Content Type.
+5\. In the **Field definitions** area, [add or modify Fields that constitute the Content Type](configure_ct_field_settings.md).
 
-To add a Field, from the **Field types** area, drag the required Field tile to 
-a section on the left. 
-To reorder Fields, drag and drop them within the section on the left. 
-To remove Fields from the section, click the **X** icon in the Field's header.
+6\. Optionally, [enable and configure SEO for the Content Type](../search_engine_optimization/work_with_seo.md).
 
-![Adding a Field](img/add_field.png "Adding a Field")
+7\. To save your changes:
 
-!!! note
+- Click **Save** and continue editing.
+- Click **Save and close** to close the window.
 
-    If your application requires a more granular organization of Fields within a Content Type, you can click **Add** to add more Field definition sections. 
+8\. To discard your changes and close the window:
 
-6\. Configure [field settings](configure_ct_field_settings.md).
+- If you are creating a new Content Type, click **Discard**.
+- If you are updating an existing Content Type, click **Delete draft**.
 
-7\. Optionally, [enable and configure SEO for the Content Type](../search_engine_optimization/work_with_seo.md).
-
-8\. To save your changes, if you are creating a new Content Type, click **Create**, and if you are updating an existing Content Type, click **Save**.
-
-Once a confirmation message is displayed, you can use breadcrumbs to navigate back to the Content Type list.
-
-![Confirmation message](img/notification_ct.png "Confirmation message")
+Once the Content Type details screen is displayed, you can navigate back to the Content Type list.
 
 !!! note "More information"
 

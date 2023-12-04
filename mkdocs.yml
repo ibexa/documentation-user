@@ -16,8 +16,8 @@ nav:
     - Content management:
         - Content items: content_management/content_items.md
         - Create and edit Content items: content_management/create_edit_content_items.md
-        - Create and edit Pages: 
-            - Create and edit Pages: content_management/create_edit_pages.md
+        - Create and edit pages: 
+            - Create and edit pages: content_management/create_edit_pages.md
             - Block reference: content_management/block_reference.md
         - Translate content: content_management/translate_content.md
         - Work with forms: content_management/work_with_forms.md
@@ -59,7 +59,7 @@ nav:
                 - Scenarios: personalization/scenarios.md
                 - Types of content: personalization/content_types.md
                 - Filters: personalization/filters.md
-            - Email triggers: personalization/triggers.md
+            - Triggers: personalization/triggers.md
         - Preview scenario results: personalization/preview_scenario_results.md
         - Integrate scenario results: personalization/integrate_scenario_results.md
         - Import source data: personalization/content_import.md
@@ -75,18 +75,22 @@ nav:
         - Work with payments: commerce/payment/work_with_payments.md
         - Work with payment methods: commerce/payment/work_with_payment_methods.md 
     - PIM:
-        - Product Information Management: pim/products.md
-        - Create product types: pim/create_product_types.md
-        - Work with product attributes: pim/work_with_product_attributes.md
-        - Create and edit products: pim/create_edit_product.md
-        - Create virtual products: pim/create_virtual_product.md
-        - Work with product assets: pim/work_with_product_assets.md
-        - Work with product categories: pim/work_with_product_categories.md
-        - Work with product variants: pim/work_with_product_variants.md
-        - Work with product prices: pim/manage_prices.md
-        - Work with product availability and stock: pim/manage_availability_and_stock.md
+        - Product Information Management: pim/pim.md
+        - PIM settings:
+            - Product types: pim/product_types.md
+            - Create product types: pim/create_product_types.md
+            - Work with product attributes: pim/work_with_product_attributes.md
+            - Work with currencies: pim/manage_currencies.md
+        - Products:
+            - Products: pim/products.md
+            - Create and edit products: pim/create_edit_product.md
+            - Create virtual products: pim/create_virtual_product.md
+            - Work with product assets: pim/work_with_product_assets.md
+            - Work with product variants: pim/work_with_product_variants.md
+            - Work with product prices: pim/manage_prices.md
+            - Work with product availability and stock: pim/manage_availability_and_stock.md
         - Work with catalogs: pim/work_with_catalogs.md
-        - Work with currencies: pim/manage_currencies.md
+        - Work with product categories: pim/work_with_product_categories.md
         - Work with product page URLs: pim/work_with_product_page_urls.md
     - Customer management:
         - Customer Portal: customer_management/customer_portal.md
