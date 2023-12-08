@@ -21,7 +21,6 @@ nav:
             - Block reference: content_management/block_reference.md
         - Translate content: content_management/translate_content.md
         - Work with forms: content_management/work_with_forms.md
-        - Edit images: content_management/edit_images.md
         - Taxonomy management:
             - Taxonomy: content_management/taxonomy/taxonomy.md
             - Work with tags: content_management/taxonomy/work_with_tags.md
@@ -37,6 +36,9 @@ nav:
     - Content publishing:
         - Publish content: content_management/publish_instantly.md
         - Schedule publication: content_management/schedule_publishing.md
+    - Image management:
+        - Upload and store images: image_management/upload_images.md
+        - Edit images: image_management/edit_images.md     
     - Search: 
         - Search for content: search/search_for_content.md
         - Search Engine Optimization: 
@@ -92,6 +94,8 @@ nav:
         - Work with catalogs: pim/work_with_catalogs.md
         - Work with product categories: pim/work_with_product_categories.md
         - Work with product page URLs: pim/work_with_product_page_urls.md
+    - DAM:
+        - Ibexa DAM: dam/ibexa_dam.md
     - Customer management:
         - Customer Portal: customer_management/customer_portal.md
         - Create and edit Customer Portal: customer_management/build_customer_portal.md
