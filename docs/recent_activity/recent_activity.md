@@ -2,7 +2,9 @@
 description: Monitor recent activity logged actions.
 ---
 
-# Recent activity
+# Recent activity log
+
+## Activity list
 
 On the Back Office, in Admin -> Activity list, you can consult what happens recently on the database.
 
@@ -18,7 +20,7 @@ By default, log entries are kept 30 days.
 
 TODO: Generic screenshot of the activity list
 
-## Filter activity log
+### Filter activities
 
 On the right, a "Filters" block allows
 
@@ -30,3 +32,11 @@ Select what you want to focus on and click the "Apply" button. Stop filtering by
 TODO: How to display what happened last week?
 
 TODO: Example screenshot of the Filters block with caption explaining what it chooses to display
+
+## Dashboard block
+
+You can add a "Recent activity" block to your [dashboard](discover_ui.md#dashboard).
+
+!["Recent activity" block](img/recent_activity_block.png)
+
+TODO: block config
