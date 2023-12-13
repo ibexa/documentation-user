@@ -50,11 +50,6 @@ If all required fields are filled out you can select **Create,** and the website
     For example, if you create a website that uses the `fr` path in Site Factory, and the administrator 
     defines a French website manually in configuration files, your website is ignored by the system.
 
-## Preview a website
-
-To preview the website, select the **Location preview** icon (the eye icon) that is situated next to the website name.
-It will transfer you to Page Builder website preview.
-
 ## Edit an existing website
 
 To edit the website select **Site settings** icon that is situated next to the website name.
