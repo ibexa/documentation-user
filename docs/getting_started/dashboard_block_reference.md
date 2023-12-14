@@ -3,7 +3,7 @@ description: Pick from a list of dynamic blocks to create customized dashboard.
 edition: experience
 ---
 
-# Block reference
+# Dashboard block reference
 
 The following blocks are provided with a clean installation of [[= product_name =]]:
 

@@ -20,7 +20,7 @@ Available filters are: User(s), Activity type (create, update, publish, delete, 
 
 - **Common content** - a list of content items created by all the organization that the user belongs to.
 
-- **[[= product_name_base =]] news** - a list of recent blog posts or articles published at `ibexa.co` blog.
+- **Ibexa news** - a list of recent blog posts or articles published at `ibexa.co` blog.
 It includes title, image, timestamp, and link to article details. List can containt minimum 1 and maximum 10 links.
 
 ![Dashboard](img/dashboard.png "Dashboard")
@@ -101,7 +101,7 @@ In Dashboard Builder you can access a menu of **Elements** — a set of blocks o
 
 You can choose from available blocks:
 
-- [[= product_name_base =]] News
+- Ibexa News
 - Quick actions
 - My Content
 - Common Content
@@ -146,6 +146,10 @@ Each block has its special properties.
 You can access them by placing the cursor on the added block and clicking the **Block settings** icon.
 
 ![Block settings - Dashboard Builder](img/block_settings_builder.png "Block settings - Dashboard Builder")
+
+Settings available for blocks are divided into three tabs — **Properties**, **Design**, and **Scheduler**.
+The settings available on the **Properties** tab are tailored to the block's content.
+For a description of these settings, see [Dashboard block reference](dashboard_block_reference.md).
 
 #### Edit dashboard
 
