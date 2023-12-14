@@ -34,7 +34,21 @@ You can create subfolders by clicking the folder and repeating the above procedu
 
 ## Add image
 
+1\. Go to **Content** -> **Media**.
 
+2\. In the upper-right corner click **Create content**.
+
+3\. From the available Content types, select **Image** and click **Create**.
+
+4\. Provide image title.
+
+5\. In the **Asset** section, click **Upload file** and from the system browser, select an image.
+
+6\. To find images using tags, in the **Tags** field, enter keywords.
+
+Tagging image assets helps keep the media library organized and enables searching images by tags in the DAM.
+
+7\. Click **Publish**.
 
 !!!note 
     The maximum file size and file extension limitations may differ depending on your configuration.
@@ -43,32 +57,32 @@ You can create subfolders by clicking the folder and repeating the above procedu
 ## Edit images
 
 After you upload the image, you can adjust it according to your needs. Use built-in Image Editor.
-For detailed instructions how to edit images, see the [Image Editor documentation](content_management/edit_images/).
+For detailed instructions how to edit images, see the [Image Editor documentation](../image_management/edit_images.md).
 
 ## Move images
 
-Move assets between folders.
+[Move assets between folders](../content_management/content_organization/copy_move_hide_content.md).
 
-content_management/content_organization/copy_move_hide_content/#move-or-copy
+
 
 ## Manage image locations
+
+
 
 ## Multiupload
 
 To upload many image assets, you can use multiupload.
 
 1\. In the Media section, go to the folder you want to upload to.
+
 2\. Go to the **Sub-items** tab and click **Upload**.
+
+3\. In the pop-up window, click **Upload** and from the system browser, select an image or drag and drop files.
+
 
 ## Add translations
 
-Zarządzanie folderami
-Upload zdjec
-Move zdjęc
-Zarzadzanie lokacja zdjęć
-Multi upload
-Edycja
-Translacje
+If you work with multiple languages and want to use searching by languages in DAM, you can add translations
+to image assets.
 
-Zasada dodawania tagów do obrazków
-Translacje - nie mogę bo nie mam innych języków na tej platformie
+To see how to add translations, go to [translate content section](../content_management/translate_content.md/#add-translations).

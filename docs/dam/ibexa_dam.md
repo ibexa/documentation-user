@@ -27,7 +27,9 @@ Enables your to tags, perform extended searches to find the proper image assets 
 
 ### Sorting
 
-### Search
+### Search/Find assets
+
+
 
 ### Filtering
 
