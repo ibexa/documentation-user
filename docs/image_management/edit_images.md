@@ -21,7 +21,7 @@ The Image Editor enables:
 
 Image Editor is available whenever you see the **Edit** icon on the preview.
 
-![Image Editor icon](img/image_editor_icon.png)
+![Image Editor icon](image_editor_icon.png)
 
 ## Flip
 
@@ -68,7 +68,7 @@ Click the **X** icon to restore the original position of the target.
 Click the left or right arrow button to undo or redo the most recent change.
 Click **Reset image** to restore the original appearance of the image.
 
-![Image Editor: Undo](img/image_editor_undo.png)
+![Image Editor: Undo](image_editor_undo.png)
 
 ## Save changes
 

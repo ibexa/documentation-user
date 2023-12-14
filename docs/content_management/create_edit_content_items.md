@@ -94,7 +94,7 @@ A *Location* Field is a point on the map. You can type the place name, enter its
 !!! note
 
     When you create or edit a Content item that contains an *Image* or an *Image asset* Field, 
-    you can perform basic image editing functions by using an [Image Editor](edit_images.md).
+    you can perform basic image editing functions by using an [Image Editor](../image_management/edit_images.md).
 
 ### Edit Rich Text Fields
 

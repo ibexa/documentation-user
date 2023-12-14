@@ -12,7 +12,7 @@ plugins:
             'content_model.md': 'persona_paths/manage_content_model.md'
             'creating_content_basic.md': 'persona_paths/author_content.md'
             'creating_forms.md': 'content_management/work_with_forms.md'
-            'editing_images.md': 'content_management/edit_images.md'
+            'editing_images.md': 'image_management/edit_images.md'
             'getting_started.md': 'getting_started/get_started.md'
             'taxonomy.md': 'content_management/taxonomy/taxonomy.md'
             'translating_content.md': 'content_management/translate_content.md'
