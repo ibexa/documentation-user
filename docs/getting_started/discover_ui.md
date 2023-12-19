@@ -9,19 +9,19 @@ description: Take a quick tour of the Back Office.
 The first screen that you see after logging in is **Dashboard**.
 It is default dashboard and contains following blocks:
 
-- **Recent activity** - a list of last activities (maximum 10), including timestamp, user data and activity type.
+- **Quick actions** - displays most popular/used actions and shortcuts, for example, **Create Content**.
+
+- **Recent activity** - a list of last activities (maximum 10), including timestamp, user data, and activity type.
 Available filters are: User(s), Activity type (create, update, publish, delete, hide, show) and Activity area (product, content).
-
-- **Quick actions** - displays most popular/used actions and shortcuts, for example, **Create content**.
-
-- **Review queue** - a list of Content items which user or User group can review.
-
-- **My content** - a list of content items created by the user currently logged in.
-
-- **Common content** - a list of content items created by all the organization that the user belongs to.
 
 - **Ibexa news** - a list of recent blog posts or articles published at `ibexa.co` blog.
 It includes title, image, timestamp, and link to article details. List can containt minimum 1 and maximum 10 links.
+
+- **Review queue** - a list of Content items which user or User group can review.
+
+- **My content** - a list of Content items created by the user currently logged in.
+
+- **Common content** - a list of Content items created by all the organization that the user belongs to.
 
 ![Dashboard](img/dashboard.png "Dashboard")
 
@@ -50,6 +50,8 @@ To customize dashboard, on the main page, click **Go to dashboard builder**.
 ![Customize dashboard](img/customize_dashboard.png "Customize dashboard")
 
 This action opens an online editor - Dashboard Builder.
+
+![Dashboard Builder](img/dashboard_builder.png "Dashboard Builder")
 
 #### Dashboard Builder interface
 
@@ -101,15 +103,21 @@ In Dashboard Builder you can access a menu of **Elements** — a set of blocks o
 
 You can choose from available blocks:
 
-- Ibexa News
-- Quick actions
-- My Content
-- Common Content
-- Review queue
 - Recent orders
 - Orders by status
+- Ibexa news
+- Quick actions
+- My content
+- Common content
+- Review queue
+- Recent activity
 - Products with lowest stock
 - Products by category
+- Top 10 clicked items
+
+!!! Tip
+
+    For detailed description of available blocks, see [Dashboard block reference](dashboard_block_reference.md).
 
 Add a block by dragging it from the menu to an empty place on a zone.
 Do not worry about placing blocks in the proper place from the start.
@@ -154,7 +162,7 @@ For a description of these settings, see [Dashboard block reference](dashboard_b
 #### Edit dashboard
 
 At any time you can edit an active dashboard.
-To do it, click en edit icon in the top right corner.
+To do it, click an icon in the top right corner, and then click **Edit My dashboard**.
 
 ![Edit dashboard](img/edit_active_dashboard.png "Edit dashboard")
 
