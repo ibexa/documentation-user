@@ -120,22 +120,22 @@ You cannot publish a Page if you have not set all the required settings of all b
 
 After you change the block settings, click **Submit** to save the changes or **Discard** to cancel.
 
-##### Focus mode
+##### Distraction free mode
 
-While configuring blocks that include Rich Text section, for example, Text block, you can switch to focus mode.
+While configuring blocks that include Rich Text section, for example, Text block, you can switch to distraction free mode.
 
-Focus mode expands the workspace to full screen and shows only editor toolbar.
+Distraction free mode expands the workspace to full screen and shows only editor toolbar.
 It's helpful when you need to work with longer texts that take more space and when you want to focus your attention on editing text.
 
-![Focus mode](img/focus_mode.png "Focus mode")
+![Distraction free mode](img/distraction_free_mode.png "Distraction free mode")
 
-To access focus mode, click **Focus mode** on the right side above the workspace.
+To access distraction free mode, click **Distraction free mode** on the right side above the workspace.
 
-![Access focus mode](img/access_focus_mode_PB.png "Access focus mode")
+![Access distraction free mode](img/access_distraction_free_mode_PB.png "Access distraction free mode")
 
-To exit focus mode, click **Exit focus mode** or press Esc on the keyboard.
+To exit distraction free mode, click **Exit distraction free mode** or press Esc on the keyboard.
 
-![Exit focus mode](img/exit_focus_mode.png "Exit focus mode")
+![Exit distraction free mode](img/exit_distraction_free_mode.png "Exit distraction free mode")
 
 ## Publish Page
 
