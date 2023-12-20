@@ -118,7 +118,7 @@ You can reorder them at any time by dragging and dropping them in the desired lo
 You can reorder blocks in a few ways:
 
 - drag and drop block in the desired location on a drop zone
-- select block and use up and down arrow on the keyboard
+- use **Move up block** or **Move down block** option from the block toolbar
 - access Structure view and use 'Move up' and 'Move down' function in the settings of the block
 
 When you add a new block to the drop zone, drop it in the blue highlighted area. Before you drop it, a bold line appears  - it helps you see the position of the newly added block in relation to other, already added blocks.
@@ -152,19 +152,21 @@ Settings available for blocks are divided into three tabs — **Properties**, **
 The settings available on the **Properties** tab are tailored to the block's content.
 For a description of these settings, see [Dashboard block reference](dashboard_block_reference.md).
 
+To save changes, click **Save and close**.
+
 #### Edit dashboard
 
-At any time you can edit an active dashboard.
+At any time you can edit an active customized dashboard.
 To do it, click an icon in the top right corner, and then click **Edit My dashboard**.
 
 ![Edit dashboard](img/edit_active_dashboard.png "Edit dashboard")
 
-This action opens Dashboard Builder that allows you to edit an active dashboard and publish its updated version.
+This action opens Dashboard Builder that allows you to edit an active customized dashboard and publish its updated version.
 You can see all the implemented changes after reloading starting screen.
 
 #### Select active dashboard
 
-When you create new customized dashboard, you can choose, which one you want to set as an active.
+When you create new customized dashboard, you can choose, which dashboard you want to set as an active.
 
 To do it, access your user settings on the right side of the top bar.
 Then, go to **Preferences** tab, **Dashboard** section, and click **Edit**.
