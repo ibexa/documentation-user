@@ -21,14 +21,12 @@ It includes title, image, timestamp, and link to article details. List can conta
 
 - **My content** - a list of Content items created by the user currently logged in.
 
-- **Common content** - a list of Content items created by all the organization that the user belongs to.
+- **Common content** - a list of Content items created by all the organization that the user belongs to. You can select any of these items and view them in detail or start [editing them](create_edit_content_items.md) from this point.
+You can also [reschedule or cancel planned publications](../content_management/schedule_publishing.md#reschedule_or_cancel_publications) using the dashboard.
 
 ![Dashboard](img/dashboard.png "Dashboard")
 
-You can select any of these items and view them in detail or start [editing them](create_edit_content_items.md) from this point.
-You can also [reschedule or cancel planned publications](../content_management/schedule_publishing.md#reschedule_or_cancel_publications) using the dashboard.
-
-You can always return to the **Dashboard** screen by clicking the logo in the upper left corner.
+From any page you can always return to the **Dashboard** screen by clicking the logo in the upper left corner.
 
 ![Dashboard icon](img/dashboard_icon.png)
 
@@ -45,7 +43,7 @@ Customization includes also choosing one of predefined layouts and adding custom
 
 ### Customize dashboard
 
-To customize dashboard, on the main page, click **Go to dashboard builder**.
+To customize dashboard, on the main page, click **Customize dashboard**.
 
 ![Customize dashboard](img/customize_dashboard.png "Customize dashboard")
 
@@ -88,18 +86,13 @@ Dashboard Builder has two main toolbars that you can use while creating a dashbo
 For new dashboard you can choose layout which defines the available zones.
 Applying a layout divides the dashboard into the defined zones. The zones are placeholders for blocks.
 
-When you open Dashboard Builder, layout window appears.
-Choose one from available layouts and click **Save**.
-
-To switch layout, click **Switch layout** button in the left side of the upper toolbar.
+To do it, click the **Switch layout** icon on the left side of the upper toolbar, then choose one from available layouts, and click **Submit**.
 
 ![Switch layout](img/dashboard_switch_layout_window.png)
 
-Choose one of the available layouts and click **Submit**.
-
 #### Add blocks
 
-In Dashboard Builder you can access a menu of **Elements** — a set of blocks of content that you can add to the zones of the dashboard.
+In Dashboard Builder you can access a menu of **Elements** — it includes a set of blocks of content that you can add to the zones of the dashboard.
 
 You can choose from available blocks:
 
@@ -169,7 +162,7 @@ To do it, click an icon in the top right corner, and then click **Edit My dashbo
 This action opens Dashboard Builder that allows you to edit an active dashboard and publish its updated version.
 You can see all the implemented changes after reloading starting screen.
 
-#### Choose dashboard
+#### Select active dashboard
 
 When you create new customized dashboard, you can choose, which one you want to set as an active.
 
