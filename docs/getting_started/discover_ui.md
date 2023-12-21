@@ -177,6 +177,18 @@ Here you can see a list of all available dashboard, including Default dashboard 
 
 Select the dashboard, that you want to set as active, and click **Save**.
 
+#### Permissions
+
+In order to be able to customize dashboard, you need to have `dashboard/cutomize` policy.
+By default, all the users belonging to the `Editors` User Group, have `Dashboard` role assigned, so they can edit, create, or delete dashboard.
+If, by any reason, you want to narrow this permission, you can set up specific limitations.
+
+For more information about setting up a permission system, see [Work with permissions](work_with_permissions.md).
+
+!!! Tip
+
+    For a list of available policies, permissions, and limitations, see [Permissions]([[= developer_doc =]]/permissions/permissions/), [Limitations]([[= developer_doc =]]/permissions/limitations/), and [Policies]([[= developer_doc =]]/permissions/policies/).
+
 ## Menu
 
 The left side menu allows you to move between important sections of the application.
