@@ -1,24 +1,19 @@
 ---
-description: Products can be made unavailable or available, either in certain quantity or with infinite stock.
+description: Products in catalog can be made unavailable, either in certain quantity or with infinite stock.
 ---
 
 # Work with availability and stock
 
-Products can be unavailable or available, either in certain quantity or with infinite stock.
-Being available translates into being offered for purchase.
-
-You can control the product's availability, and the available stock.
-When setting stock, you can set the exact number of pieces, or indicate that stock is infinite, for example, for digital, downloadable products.
-
-If a product has variants, you must set availability and stock for each variant separately.
+[Products in catalog](products.md#products) can be unavailable, or can be made available in certain quantity, or with infinite stock.
 
 ## Set product availability
 
-To control the availability and stock, in product or product variant view, go to **Availability** tab.
+To control a product's availability and the available stock, in product or variant view go to **Availability** tab.
+If a product can have variants, you must set availability for each variant separately.
 
 ![Product availability](img/product_availability_tab.png "Product availability")
 
-Then, click **Create** to add availability to a product that doesn't have it,
+In the **Availability** tab, click **Create** to add availability to a product that doesn't have it,
 or **Edit** to modify existing availability settings.
 
 Use the **Available** switcher to indicate whether the product is currently available in the catalog.

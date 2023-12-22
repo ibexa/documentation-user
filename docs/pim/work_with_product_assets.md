@@ -4,8 +4,7 @@ description: Add image assets to products or product variants.
 
 # Work with product assets
 
-When you [create or edit products](create_edit_product.md), you can add assets in a form of images. 
-Assets can be assigned to the base product, and to one or more of its [variants](work_with_product_variants.md).
+You can add image assets to products or product variants.
 
 To add assets to a product, in the product's **Assets** tab browse or drag and 
 drop image files from disk, or select an existing image asset from library.

@@ -5,15 +5,8 @@ description: Catalogs allow creating filtered product lists for special purposes
 
 # Work with catalogs
 
-You can create special catalogs, for example, to differentiate the offering 
-that's presented to B2B and B2C users, retailers and distributors or different regions.
-
-## Catalogs
-
-Catalogs are collections of products selected by using configurable filters.
-They are specific to each of your websites or storefronts, which means that they contain products that are presented or sold in a specific website.
-
-![Catalog menu with a sample catalog](img/catalog.png "Catalog menu with a sample catalog")
+With [catalogs](products.md#product-catalogs) you can create product lists for special purposes, for example, 
+for B2B and B2C uses, for retailers and distributors or for different regions.
 
 ## Create catalogs
 

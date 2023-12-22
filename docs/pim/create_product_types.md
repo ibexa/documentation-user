@@ -32,6 +32,5 @@ When you define attributes for the product type, you can add whole attribute gro
 You can also remove whole groups or single attributes from groups that you don't want to use for the given product type.
 Do this by clicking the **X** icon next to the group or attribute.
 
-<a name="vat"></a>
 For every attribute, you can select **Used for product variants**.
 Attributes that have this option are used to [automatically generate product variants](work_with_product_variants.md#generate-variants).

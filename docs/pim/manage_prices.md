@@ -2,12 +2,14 @@
 description: Products can have a base price and custom prices defined per customer group and per currency.
 ---
 
-# Work with product prices
+# Work with prices
 
-[Products](products.md) and product [variants](work_with_product_variants.md) can have a base price and multiple custom prices.
-Prices can differ depending on [customer group](../customer_management/manage_customers.md) and [currency](../pim/manage_currencies.md) and be applied according to the rules.
+[Products in catalog](products.md#products) can have a base price and custom prices defined per [customer group](../customer_management/manage_customers.md) and per [currency](../pim/manage_currencies.md).
 
-With price management features, you set up product prices manually.
+With price management features, you set up product prices manually. 
+A price can be set up per product and product variant.
+
+In addition, prices can vary per [customer group](../customer_management/customer_portal.md).
 
 !!! note
 
