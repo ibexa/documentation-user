@@ -35,6 +35,29 @@ Otherwise, to login, you must get your user credentials from the administrator a
 
 ![Login screen](img/login_form.png "Login screen")
 
+### Edit user profile
+
+
+
+You can edit your profile and modify the following data:
+
+- avatar
+- first and last name
+- department
+- position
+- location
+- signature
+
+In the upper-right corner, click the avatar icon. From the drop-down menu, select **Profile**.
+
+In the User profile screen, in the **Summary section**, click **Edit**.
+
+Go to Image and click Upload file or drag and drop your photo.
+
+Now your avatar photo has been uploaded and is visible in the Back Office.
+
+If you don't set the your own image, a default avatar with your initials is then displayed.
+
 ### Change the password and other user settngs
 
 You can access your user settings on the right side of the top bar:
