@@ -41,12 +41,9 @@ Otherwise, to login, you must get your user credentials from the administrator a
 
 You can edit your profile and modify the following data:
 
-- avatar
-- first and last name
-- department
-- position
-- location
-- signature
+- Avatar image
+- First and last name
+- Signature
 
 In the upper-right corner, click the avatar icon. From the drop-down menu, select **Profile**.
 
@@ -55,6 +52,8 @@ In the User profile screen, in the **Summary section**, click **Edit**.
 Go to Image and click Upload file or drag and drop your photo.
 
 Now your avatar photo has been uploaded and is visible in the Back Office.
+
+To save changes, click **Update**.
 
 If you don't set the your own image, a default avatar with your initials is then displayed.
 
