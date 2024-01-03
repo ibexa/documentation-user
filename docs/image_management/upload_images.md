@@ -2,13 +2,10 @@
 description: Upload images to Ibexa DXP to manage them.
 ---
 
-!!! note
-    Some options may not be available depending on your configuration and permissions.
-
-
 # Upload and store images
 
-
+!!! note
+    Some options may not be available depending on your configuration and permissions.
 
 ## Manage folders
 
@@ -61,11 +58,8 @@ For detailed instructions how to edit images, see the [Image Editor documentatio
 
 ## Move images
 
-[Move assets between folders](../content_management/content_organization/copy_move_hide_content.md).
-
-
-
-## Manage image locations
+To learn how to effectively manage image assets, see [Move assets between folders](../content_management/content_organization/copy_move_hide_content.md)
+section.
 
 
 

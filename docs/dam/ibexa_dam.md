@@ -6,12 +6,12 @@ edition: headless
 
 # Ibexa DAM
 
-Digital Asset Management is platform dedicated to editors. Enables storing in central location, organizing, distributing, 
+Digital Asset Management is a platform dedicated to editors. It enables storing in central location, organizing, distributing, 
 and sharing media assets across many channels.
 
 
-Ibexa DAM image picker is developed to work any web browser that supports modern standards. However for the best user experience in editorial work
-it's recommended to use 1366x768 screen resolution. an interface for editors.
+[[= product_name_dam =]] DAM image picker is developed to work with any web browser that supports modern standards. However for the best user experience in editorial work
+it's recommended to use 1366x768 screen resolution.
 List of supported web browsers:
 
 - Mozilla® Firefox® most recent stable version (recommended)
@@ -20,27 +20,15 @@ List of supported web browsers:
 - Apple® Safari® most recent stable version, desktop and tablet
 
 
-!!! Actito limitations
-
-    The maximum allowable size for an individual image is 1.5MB.
-
-    DAM image picker accepts the following media formats:
-
-    - jpeg
-    - jpg
-    - png
-    - gif
-
-
 ## View modes
 
-The main windows is available in two display versions: grid and list view.
+The main window is available in two display versions: grid and list view.
 
-To change the view mode, in the upper-right corner click **View** and select the view you need.
+To change the view mode, in the upper-right corner, click **View** and select the view you need.
 
 ### Grid view
 
-Grid view contains image preview, file format and image size.
+Grid view contains image preview, file format, and image size.
 
 
 ### List view
@@ -52,7 +40,7 @@ List view contains a thumbnail, title, format, size, dimensions, creation, and u
 ### Sorting
 
 You can sort image assets by alphabetical order or by the creation date.
-To sort image assets, in the upper-right corner click **Date** and select the
+To sort image assets, in the upper-right corner, click **Date** and select the
 sorting method you need.
 
 ## Search assets
@@ -61,7 +49,7 @@ sorting method you need.
 
 ### Keyword search
 
-The search option allows to find image assets using a word of phrase. 
+The search option allows to find image assets using a word or phrase.
 To use it, in the upper part of the screen, click the
 **Search** field. Enter a search keyword. The platform searches assets for matches
 based on the keyword, including file title.
@@ -88,12 +76,15 @@ for filtering assets.
 To navigate through folders, go to left-side panel **Folders**, and in the folders tree view, click
 folder you want to open.
 
+!!! note
+
+    Filtering by attribues and folders is complimentary, it means you can
+
 ### Insert images
 
 To insert an image asset into the HTML editor, locate the image by using search options, or manually locate the asset in the folder.
 Next, click the image thumbnail. The selected item is marked with a red dot in the upper-left corner.
-To confirm the selection, in the bottom toolbar, click **Insert** 
+To confirm the selection, in the bottom toolbar, click **Insert**.
 
 You can only select one image at a time.
-
 To deselect the image, click the thumbnail again.
