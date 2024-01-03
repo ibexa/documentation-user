@@ -45,15 +45,16 @@ You can edit your profile and modify the following data:
 - First and last name
 - Signature
 
-In the upper-right corner, click the avatar icon. From the drop-down menu, select **Profile**.
 
-In the User profile screen, in the **Summary section**, click **Edit**.
+1\. To modify profile, in the upper-right corner, click the avatar icon. From the drop-down menu, select **Profile**.
 
-Go to Image and click Upload file or drag and drop your photo.
+2\. In the User profile screen, in the **Summary section**, click **Edit**.
 
-Now your avatar photo has been uploaded and is visible in the Back Office.
+3\. Go to Image and click Upload file or drag and drop your photo.
 
-To save changes, click **Update**.
+4\. Now your avatar photo has been uploaded and is visible in the Back Office.
+
+5\. To save changes, click **Update**.
 
 If you don't set the your own image, a default avatar with your initials is then displayed.
 
