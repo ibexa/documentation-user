@@ -44,4 +44,4 @@ After you create a product, you can [add image assets to a product](work_with_pr
 
     Feature availability may differ depending on the specifics of your installation.
 
-For in-depth information, see [Products]([[= developer_doc =]]/pim/products/) in the developer documentation..
+For in-depth information, see [Products]([[= developer_doc =]]/pim/products/) in developer documentation.
