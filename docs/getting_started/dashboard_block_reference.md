@@ -21,10 +21,10 @@ The following blocks are provided with a clean installation of [[= product_name 
 |[Review queue](#review-queue-block)|Displays a list of Content items which user or User group can review.|
 |[Top 10 clicked items](#top-10-clicked-items-block)|Displays a table presenting top 10 clicked items.|
 
-!!! note 
+!!! note
 
-    Before you add a block that involves products, product types, or product categories, make 
-    sure your that your [user Role](../permission_management/permissions_and_users.md) has 
+    Before you add a block that involves products, product types, or product categories, make
+    sure your that your [user Role](../permission_management/permissions_and_users.md) has
     the `Product/View` and `Product type/View` permission.
 
 ## Common content block
@@ -77,7 +77,7 @@ On the **Design** tab, in the **View** field, select the layout to be used to pr
 ## Products by category block
 
 Displays a chart presenting the percentage of products in selected number of categories.
-Some products can be assigned to multiple categories, or be uncategorized. 
+Some products can be assigned to multiple categories, or be uncategorized.
 You can either enable or disable to show or hide uncategorized products in the chart.
 
 On the **Properties** tab, set values in the following fields:
@@ -158,7 +158,7 @@ On the **Design** tab, in the **View** field, select the layout to be used to pr
 
 Displays a table presenting top 10 clicked items.
 
-Table contains following columns: Item clicked (including item name), Item type, Recommended (presenting number of recommendations of selected item), 
+Table contains following columns: Item clicked (including item name), Item type, Recommended (presenting number of recommendations of selected item),
 Clicked (presenting total number of clicks on selected item).
 
 Available filters are: Item types, Customer ID, Number of displayed items (default value = 10), Time period.
