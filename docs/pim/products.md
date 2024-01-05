@@ -18,14 +18,14 @@ For more information about creating products, see [Create product](create_edit_p
 
 ### Product completeness
 
-Before your customers can purchase products, the website [administrator must configure]([[= user_doc =]]/pim/enable_purchasing_products/) at least one region and one currency for the shop, and VAT rates for each of the regions.
+Before your customers can purchase products, the website [administrator must configure]([[= developer_doc =]]/pim/enable_purchasing_products/) at least one region and one currency for the shop, and VAT rates for each of the regions.
 You must then set:
 
 - VAT rates for the product type
 - at least one price for the product
 - availability with positive or infinite stock for the product
 
-When you create or edit a product, under the product name, you can see a progress bar with an approximate indication
+When you review product details, under the product name, you can see a progress bar with an approximate indication
 of how much of the product information you provided, and how much is still missing.
 
 ![Quick view of product completeness](img/product_completeness_bar.png "Quick view of product completeness")
@@ -43,6 +43,6 @@ It lists all tasks required for product configuration, including:
 
 ![Product completeness screen](img/product_completeness.png "Product completeness screen")
 
-You can click the edit button next to an unfinished task in the Completeness table
+You can click the **Edit** button next to an unfinished task in the Completeness table
 to go directly to the screen where you can add the missing information.
 

@@ -16,7 +16,7 @@ With price management features, you set up product prices manually.
 To set a price, navigate to the product's or product variant's **Prices** tab.
 Here you can see the existing prices for the selected [currency](../pim/manage_currencies.md).
 
-Select a currency in the dropdown menu to preview the price and click the edit button to modify it.
+Select a currency in the dropdown menu to preview the price and click the **Edit** button to modify it.
 
 ![Prices tab](img/product_price.png "Prices tab")
 
