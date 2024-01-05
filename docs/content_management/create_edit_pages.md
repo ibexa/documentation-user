@@ -13,9 +13,9 @@ By editing pages you can customize the layout and content of your website.
 Whenever you edit a Page, a [new version](content_versions.md) is created in the repository.
 
 !!! tip
-    The Page Content Type contains a **Landing Page** Field Type which manages 
+    The Page Content Type contains a **Landing Page** Field Type which manages
     the zones and blocks.
-    Any Content item that has the **Landing Page** Field Type will behave like 
+    Any Content item that has the **Landing Page** Field Type will behave like
     the Page Content Type.
 
 ## Create Page
@@ -30,12 +30,6 @@ C\. On the right-side toolbar, click **Create content** and from the list of Con
 
 D\. Select the layout and click **Create**.
 
-You can also add a new Page in the Page Builder.
-Open the Page Builder by clicking **Site** and selecting a website from the list that 
-appears next to the **List** icon.
-On the [Page Builder toolbar](#page-builder-toolbar) click the plus button and from the list select **Landing page**.
-On the **Page creation** modal, select the layout and click **Create draft**.
-
 Before you publish or save the Page, edit its title and description.
 Switch to the Field view using the Page Builder toolbar.
 
@@ -46,7 +40,7 @@ Switch to the Field view using the Page Builder toolbar.
 
 ## Edit Page
 
-You edit Pages using the Page Builder.
+You can edit Pages using the Page Builder.
 To start editing an existing Page, in the Back Office from the Content Tree choose the page that you want you edit and click **Edit** button.
 
 ![Selecting Page for editing](img/editing_page.png)
@@ -65,7 +59,7 @@ B. Elements / Structure view toolbar
 
 C. Settings toolbar (including Fields, Visibility and Schedule settings)
 
-D. Mode toolbar (including PC, tablet and mobile mode)
+D. Mode toolbar (including Desktop, Tablet and Mobile mode)
 
 E. Buttons:
 
@@ -106,8 +100,6 @@ In the `Select layouts` section, you can select layouts that you want to be avai
 The default, built-in Page layout has only one zone, but developers can create other layouts in configuration.
 For more information, see [Configure layout](https://doc.ibexa.co/en/latest/templating/render_content/render_page/#configure-layout).
 
-In a newly created Page you can choose a [layout](configure_ct_field_settings.md#available-page-layouts) which defines the available zones.
-
 ### Add blocks
 
 In Page Builder you can access a menu of **Elements** — a set of blocks of content that you can add to the zones of the Page.
@@ -118,7 +110,6 @@ Do not worry about placing blocks in the proper place from the start.
 You can reorder blocks in a few ways:
 
 - drag and drop block in the desired location on a drop zone
-- select block and use up and down arrow on the keyboard
 - access Structure view and use 'Move up' and 'Move down' function in the settings of the block
 
 When you add a new block to the drop zone, drop it in the blue highlighted area. Before you drop it, a bold line appears  - it helps you see the position of the newly added block in relation to other, already added blocks.
@@ -146,14 +137,14 @@ but [developers can add their own]([[= developer_doc =]]/content_management/page
 
 For a list of blocks available out of the box, see [Block reference](block_reference.md).
 
-!!! note 
+!!! note
 
-    Before you add a block that involves products, product types, or product categories, make 
-    sure your that your [user Role](../permission_management/permissions_and_users.md) has 
+    Before you add a block that involves products, product types, or product categories, make
+    sure your that your [user Role](../permission_management/permissions_and_users.md) has
     the `Product/View` and `Product type/View` permission.
 
-    Before you add a block that uses results derived from a [Personalization](../personalization/personalization.md) scenario, 
-    for example, [Dynamic targeting](block_reference.md#dynamic-targeting-block) or [Recently added block](block_reference.md#recently-added-block), make sure that the scenario is 
+    Before you add a block that uses results derived from a [Personalization](../personalization/personalization.md) scenario,
+    for example, [Dynamic targeting](block_reference.md#dynamic-targeting-block) or [Recently added block](block_reference.md#recently-added-block), make sure that the scenario is
     [properly configured](../personalization/configure_scenarios.md).
 
 You can work with the block, for example, duplicate it, change its position or delete it.
@@ -174,7 +165,7 @@ Available settings are:
 #### Configure block settings
 
 Each kind of block has its special properties.
-You can access them by placing the cursor on the added block and clicking the 
+You can access them by placing the cursor on the added block and clicking the
 **Block settings** icon.
 
 Properties of the blocks are divided into three tabs — **Basic**, **Design**, and **Scheduler**.
