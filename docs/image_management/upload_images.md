@@ -18,7 +18,7 @@ If you want to upload them to different location, navigate to the folder you wan
 
 2\. In the upper-right corner click **Create content**.
 
-3\. From the available Content types, select Folder and click Create.
+3\. From the available Content types, select **Folder**, and click **Create**.
 
 4\. Enter name for the new folder.
 
@@ -47,7 +47,7 @@ Tagging image assets helps keep the media library organized and enables searchin
 
 7\. Click **Publish**.
 
-!!!note 
+!!!note
     The maximum file size and file extension limitations may differ depending on your configuration.
 
 

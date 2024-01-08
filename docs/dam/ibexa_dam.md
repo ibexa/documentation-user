@@ -3,14 +3,12 @@ description: DAM module interface for uploading and managing image assets.
 edition: headless
 ---
 
-
 # Ibexa DAM
 
 Digital Asset Management is a platform dedicated to editors. It enables storing in central location, organizing, distributing, 
 and sharing media assets across many channels.
 
-
-[[= product_name_dam =]] DAM image picker is developed to work with any web browser that supports modern standards. However for the best user experience in editorial work
+[[= product_name_dam =]] image picker is developed to work with any web browser that supports modern standards. However for the best user experience in editorial work
 it's recommended to use 1366x768 screen resolution.
 List of supported web browsers:
 
@@ -18,7 +16,6 @@ List of supported web browsers:
 - Google Chrome™ most recent stable version (recommended)
 - Chromium™ based browsers such as Microsoft® Edge® and Opera®, most recent stable version, desktop and tablet
 - Apple® Safari® most recent stable version, desktop and tablet
-
 
 ## View modes
 
@@ -30,12 +27,9 @@ To change the view mode, in the upper-right corner, click **View** and select th
 
 Grid view contains image preview, file format, and image size.
 
-
 ### List view
 
 List view contains a thumbnail, title, format, size, dimensions, creation, and update date.
-
-
 
 ### Sorting
 
@@ -44,8 +38,6 @@ To sort image assets, in the upper-right corner, click **Date** and select the
 sorting method you need.
 
 ## Search assets
-
-
 
 ### Keyword search
 
@@ -73,12 +65,14 @@ You can combine searches by all types of filtering: keyword search and attribute
 
 Assets are organized and stored in folders. The folder structure serves as another option
 for filtering assets.
+
 To navigate through folders, go to left-side panel **Folders**, and in the folders tree view, click
 folder you want to open.
 
 !!! note
 
-    Filtering by attribues and folders is complimentary, it means you can
+    Filtering by attribues and folders is complimentary, it means you have to use these two methods at once
+    to get search results.
 
 ### Insert images
 
