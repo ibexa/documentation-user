@@ -120,6 +120,34 @@ You cannot publish a Page if you have not set all the required settings of all b
 
 After you change the block settings, click **Submit** to save the changes or **Discard** to cancel.
 
+#### Edit embedded items
+
+You can edit embedded Content items without leaving Page Builder.
+
+To do it, first select Content item that you want to insert in the block.
+Then, click the icon on the right side and click **Edit**.
+
+![Edit embedded Content item](img/edit_embedded_content_item.png "Edit embedded Content item")
+
+This action opens a new tab in the browser with an editing screen of the selected Content item.
+When you finish editing the item, click **Publish** and go back to Page Builder tab.
+All the Content item details automatically update in the block window.
+
+If the Content item has more than one translation available, you need to select the language.
+
+![Edit embedded Content item - select language](img/edit_item_select_language.png "Edit embedded Content item - select language")
+
+This function is available for following blocks:
+
+- Banner
+- Collection
+- Content Scheduler
+- Embed
+- Gallery
+- Product collection
+- Targeting
+- Text
+
 ##### Distraction free mode
 
 While configuring blocks that include Rich Text section, for example, Text block, you can switch to distraction free mode.
