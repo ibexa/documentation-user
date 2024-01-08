@@ -59,7 +59,7 @@ B. Elements / Structure view toolbar
 
 C. Settings toolbar (including Fields, Visibility and Schedule settings)
 
-D. Mode toolbar (including Desktop, Tablet and Mobile mode)
+D. Device mode toolbar (including Desktop, Tablet and Mobile mode)
 
 E. Buttons:
 
