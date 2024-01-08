@@ -10,7 +10,7 @@ that's presented to B2B and B2C users, retailers and distributors or different r
 
 ## Catalogs
 
-Catalogs are collections of products selected by using configurable filters.
+Catalogs are collections of [products](products.md) selected by using configurable filters.
 They are specific to each of your websites or storefronts, which means that they contain products that are presented or sold in a specific website.
 
 ![Catalog menu with a sample catalog](img/catalog.png "Catalog menu with a sample catalog")
