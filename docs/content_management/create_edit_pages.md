@@ -57,7 +57,7 @@ Page Builder user interface consists of:
 
 A. Drop zone
 
-B. Elements / Structure view toolbar
+B. Elements / Structure view toolbox
 
 C. Settings toolbar (including Fields, Visibility and Schedule settings)
 
@@ -74,19 +74,19 @@ The following table presents buttons and provides a short description of their f
 |![Preview segments](page_builder_toolbar_preview_segment.png)|Access preview of the Page for a given segment.|
 |![Timeline button](page_builder_toolbartimelinetoggler.png)|Access the timeline to preview how the Page changes with time. You can also view the list of all upcoming scheduled events.|
 |![View toggler](page_builder_toolbar_devicestoggler.png)|Toggle through to see how the Page is rendered on different devices.|
-|![Elements toolbox](page_builder_toolbarelements.png)|Move Elements / Structure view toolbar to the other side of the screen.|
+|![Elements toolbox](page_builder_toolboxelements.png)|Move Elements / Structure view toolbox to the other side of the screen.|
 |![Undo](page_builder_toolbar_undo.png)|Undo latest change.|
 |![Redo](page_builder_toolbar_redo.png)|Redo latest change.|
 
 Page Builder has two main views that you can use while creating a page:
 
-- Elements toolbar - consists of all available elements that you can use by dragging them and dropping on a drop zone.
+- Elements toolbox - consists of all available elements that you can use by dragging them and dropping on a drop zone.
 
-![Elements toolbar](img/elements_toolbar.png)
+![Elements toolbox](img/elements_toolbox.png)
 
-- Structure view toolbar - shows a structure of your page, including their division into zones and the blocks that they contain.
+- Structure view toolbox - shows a structure of your page, including their division into zones and the blocks that they contain.
 
-![Structure view toolbar](img/structure_view.png)
+![Structure view toolbox](img/structure_view.png)
 
 ### Work with layout
 
@@ -111,9 +111,9 @@ You can reorder blocks later, in a few ways:
 
 - drag and drop block in the desired location on a drop zone
 - hover over the block and use 'Move up' and 'Move down' function in the settings of the block
-- access Structure view toolbar and use 'Move up' and 'Move down' function in the settings of the block
+- access Structure view toolbox and use 'Move up' and 'Move down' function in the settings of the block
 
-![Structure view toolbar - reorder blocks](structure_view_move.png)
+![Structure view toolbox - reorder blocks](structure_view_move.png)
 
 When you add a new block to the drop zone, drop it in the blue highlighted area. 
 Before you drop it, a bold line appears  - it helps you see the position of the newly added block in relation to other, already added blocks.
