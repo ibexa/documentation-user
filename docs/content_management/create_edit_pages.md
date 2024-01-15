@@ -120,6 +120,20 @@ You cannot publish a Page if you have not set all the required settings of all b
 
 After you change the block settings, click **Submit** to save the changes or **Discard** to cancel.
 
+### Save page
+
+There are several options for saving work on the page:
+
+|Option|Description|
+|------|-----------|
+|Close|Close the page without saving it.|
+|Send to review|Save the page and send it to review.|
+|Publish / Publish later|[Publish](publish_content.md) the page or schedule publishing for later. |
+|Save draft|Save the page draft*.|
+|Delete draft|Delete the page draft.|
+
+* To help you preserve your work, system saves drafts of Content items automatically. For more information, see [Autosave](https://doc.ibexa.co/projects/userguide/en/master/content_management/content_versions/#autosave).
+
 #### Edit embedded items
 
 You can edit embedded Content items without leaving Page Builder.
