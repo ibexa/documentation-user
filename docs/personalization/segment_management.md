@@ -61,7 +61,7 @@ All three criteria are linked with and `AND` operator, so all conditions must be
 
 A recommendation call in a scenario that uses a model with segments contains requests to all specified segments with `AND` conditions:
 
-`https://reco.test.perso.ibexa.co/api/v2/41307/588/landing_page?numrecs=6&attribute=ses_name,title,ses_image,teaser_image&crosscontenttype=1&segments=7,11,14`
+`https://reco.perso.ibexa.co/api/v2/41307/588/landing_page?numrecs=6&attribute=ses_name,title,ses_image,teaser_image&crosscontenttype=1&segments=7,11,14`
 
 Where segments ID correspond to segment groups:
 
@@ -89,8 +89,8 @@ and
                itemType: 57,
                relevance: 1,
                links: {
-                  clickRecommended: "//event.test.perso.ibexa.co/api/41307/clickrecommended/someuser/57/587?scenario=landing_page&modelid=10316421&categorypath=&requestuuid=276a5930-dea3-11ed-8cdf-92a64ae30943",
-                  rendered: "//event.test.perso.ibexa.co/api/41307/rendered/someuser/57/587?scenario=landing_page&modelid=10316421&categorypath=&requestuuid=276a5930-dea3-11ed-8cdf-92a64ae30943"
+                  clickRecommended: "//event.perso.ibexa.co/api/41307/clickrecommended/someuser/57/587?scenario=landing_page&modelid=10316421&categorypath=&requestuuid=276a5930-dea3-11ed-8cdf-92a64ae30943",
+                  rendered: "//event.perso.ibexa.co/api/41307/rendered/someuser/57/587?scenario=landing_page&modelid=10316421&categorypath=&requestuuid=276a5930-dea3-11ed-8cdf-92a64ae30943"
                },
                attributes: [
                   {
@@ -112,8 +112,8 @@ and
                itemType: 57,
                relevance: 1,
                links: {
-                  clickRecommended: "//event.test.perso.ibexa.co/api/41307/clickrecommended/someuser/57/588?scenario=landing_page&modelid=10316421&categorypath=&requestuuid=276a5930-dea3-11ed-8cdf-92a64ae30943",
-                  rendered: "//event.test.perso.ibexa.co/api/41307/rendered/someuser/57/588?scenario=landing_page&modelid=10316421&categorypath=&requestuuid=276a5930-dea3-11ed-8cdf-92a64ae30943"
+                  clickRecommended: "//event.perso.ibexa.co/api/41307/clickrecommended/someuser/57/588?scenario=landing_page&modelid=10316421&categorypath=&requestuuid=276a5930-dea3-11ed-8cdf-92a64ae30943",
+                  rendered: "//event.perso.ibexa.co/api/41307/rendered/someuser/57/588?scenario=landing_page&modelid=10316421&categorypath=&requestuuid=276a5930-dea3-11ed-8cdf-92a64ae30943"
                },
                attributes: [
                   {
@@ -148,7 +148,7 @@ The following example shows segment groups with `OR` operator connecting nested 
 
 In this case to get recommendations, only one condition must be met: women from Poland or women from Germany.
 
-`https://reco.test.perso.ibexa.co/api/v2/41307/someuser/landing_page?numrecs=6&attribute=ses_name,title,ses_image,teaser_image&crosscontenttype=1&segments=7,8,10,11`
+`https://reco.perso.ibexa.co/api/v2/41307/someuser/landing_page?numrecs=6&attribute=ses_name,title,ses_image,teaser_image&crosscontenttype=1&segments=7,8,10,11`
 
 Where segments ID correspond to segment groups:
 
@@ -176,8 +176,8 @@ or
                itemType: 57,
                relevance: 1,
                links: {
-                  clickRecommended: "//event.test.perso.ibexa.co/api/41307/clickrecommended/someuser/57/587?scenario=landing_page&modelid=10316421&categorypath=&requestuuid=7ff8c8b0-e282-11ed-9a93-aefcc75529b6",
-                  rendered: "//event.test.perso.ibexa.co/api/41307/rendered/someuser/57/587?scenario=landing_page&modelid=10316421&categorypath=&requestuuid=7ff8c8b0-e282-11ed-9a93-aefcc75529b6"
+                  clickRecommended: "//event.perso.ibexa.co/api/41307/clickrecommended/someuser/57/587?scenario=landing_page&modelid=10316421&categorypath=&requestuuid=7ff8c8b0-e282-11ed-9a93-aefcc75529b6",
+                  rendered: "//event.perso.ibexa.co/api/41307/rendered/someuser/57/587?scenario=landing_page&modelid=10316421&categorypath=&requestuuid=7ff8c8b0-e282-11ed-9a93-aefcc75529b6"
                },
                attributes: [
                   {
