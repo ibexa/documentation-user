@@ -120,22 +120,22 @@ To add a new element to the Field, choose one of the available elements:
 Each of these elements can have its own settings, such as text formatting.
 The option bar also lets you reorder or remove any elements in the Rich Text Field.
 
-### Edit embedded Content items
+#### Edit embedded Content items
 
 You can edit embedded Content items without leaving current window.
 
 To do it, first insert selected Content item in the Rich Text Field.
-Then, click the icon on the right side and click **Edit**.
+Then, click the three dots icon on the right side and click **Edit**.
 
 ![Edit embedded Content item](img/edit_embedded_item_richtext.png "Edit embedded Content item")
-
-This action opens a new tab in the browser with an editing screen of the selected Content item.
-When you finish editing the item, click **Publish**.
-To see implemeneted changes refresh the browser page.
 
 If the Content item has more than one translation available, you need to select the language.
 
 ![Edit embedded Content item - select language](img/edit_embedded_item_language_richtext.png "Edit embedded Content item - select language")
+
+This action opens a new browser tab with an editing screen of the selected Content item.
+When you finish editing the item, click **Publish**.
+To see implemented changes refresh the browser page.
 
 This option is also available when you want to set up a [relation](../configure_ct_field_settings/#content-relation-settings) with another Content item.
 
