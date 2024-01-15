@@ -194,19 +194,33 @@ You cannot publish a Page if you have not set all the required settings of all b
 
 After you change the block settings, click **Submit** to save the changes or **Discard** to cancel.
 
-### Save page
+#### Edit embedded items
 
-There are several options for saving work on the page:
+You can edit embedded Content items without leaving Page Builder.
 
-|Option|Description|
-|------|-----------|
-|Close|Close the page without saving it.|
-|Send to review|Save the page and send it to review.|
-|Publish / Publish later|[Publish](publish_content.md) the page or schedule publishing for later. |
-|Save draft|Save the page draft*.|
-|Delete draft|Delete the page draft.|
+To do it, first select Content item that you want to insert in the block.
+Then, click the icon on the right side and click **Edit**.
 
-* To help you preserve your work, system saves drafts of Content items automatically. For more information, see [Autosave](https://doc.ibexa.co/projects/userguide/en/master/content_management/content_versions/#autosave).
+![Edit embedded Content item](img/edit_embedded_content_item.png "Edit embedded Content item")
+
+This action opens a new tab in the browser with an editing screen of the selected Content item.
+When you finish editing the item, click **Publish** and go back to Page Builder tab.
+All the Content item details automatically update in the block window.
+
+If the Content item has more than one translation available, you need to select the language.
+
+![Edit embedded Content item - select language](img/edit_item_select_language.png "Edit embedded Content item - select language")
+
+This function is available for following blocks:
+
+- Banner
+- Collection
+- Content Scheduler
+- Embed
+- Gallery
+- Product collection
+- Targeting
+- Text
 
 ##### Distraction free mode
 
@@ -225,10 +239,16 @@ To exit distraction free mode, click **Exit distraction free mode** or press Esc
 
 ![Exit distraction free mode](img/exit_distraction_free_mode.png "Exit distraction free mode")
 
-## Publish Page
+## Save page
 
-If you are ready to publish the Page, click **Publish** in the top-right corner.
-To save it as a draft to finish editing it later, even if some required fields are not filled in, click **Save draft**.
-You can then navigate away from the Page by clicking the logo in the upper left corner, or the browser's **Back button**.
+There are several options for saving work on the page:
 
-For more information, see [Publish content](publish_content.md).
+|Option|Description|
+|------|-----------|
+|Close|Close the page without saving it.|
+|Send to review|Save the page and send it to review.|
+|Publish / Publish later|[Publish](publish_content.md) the page or schedule publishing for later. |
+|Save draft|Save the page draft*.|
+|Delete draft|Delete the page draft.|
+
+* To help you preserve your work, system saves drafts of Content items automatically. For more information, see [Autosave](https://doc.ibexa.co/projects/userguide/en/master/content_management/content_versions/#autosave).
