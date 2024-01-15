@@ -54,9 +54,9 @@ You can edit your profile and modify the following data:
 
 2\.From the drop-down menu, select **Profile**.
 
-3\. In the User profile screen, in the **Summary section**, click **Edit**.
+3\. In the User profile screen, in the **Summary** section, click **Edit**.
 
-4\. Go to **Image** and click Upload file or drag and drop your photo.
+4\. Go to **Image** and click **Upload file** or drag and drop your photo.
 If necessary, you can edit the foto using Image Editor.
 
 ![Edit avatar](img/user_profile_avatar.png "Edit avatar")
@@ -95,7 +95,7 @@ such as preferred timezone, date and time format, or Back Office language.
 |[Autosave draft every given period](../content_management/content_versions.md/#autosave)|Enables or disables autosaving drafts.|
 |Seconds till next draft autosave|Sets time period for next autosave.|
 |Enable character count in Online Editor|Enables or disables charactes count.|
-|Automatically open block settings in builders|Enables or disables the beahvior of blocks used in builders.|
+|Automatically open block settings in builders|Enables or disables the behavior of blocks used in builders.|
 
 **Browsing**
 
