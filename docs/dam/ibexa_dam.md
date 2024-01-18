@@ -8,8 +8,8 @@ edition: headless
 Digital Asset Management is a platform dedicated to editors. It enables storing in central location, organizing, distributing, 
 and sharing media assets across many channels.
 
-[[= product_name_dam =]] image picker is developed to work with any web browser that supports modern standards. However for the best user experience in editorial work
-it's recommended to use 1366x768 screen resolution.
+[[= product_name_dam =]] image picker is developed to work with any web browser that supports modern standards. The minimum screen resolution is
+1366 x 768.
 List of supported web browsers:
 
 - Mozilla® Firefox® most recent stable version (recommended)
@@ -60,6 +60,11 @@ With filtering by attributes, you can narrow search results to the following att
 
 To use it, in the right-side panel select attributes and click the **Apply** button.
 You can combine searches by all types of filtering: keyword search and attributes filter.
+
+!!! note "Search engine support"
+
+    Filtering works only when [[= product_name_base =]] uses `solr` or `elasticsearch` search engine.
+    Legacy Search Engine (LSE) isn't supported.
 
 ### Navigation
 
