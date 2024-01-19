@@ -23,8 +23,8 @@ If you only want to have the same Content item to another place in the Content T
 
 ### Multi-file move
 
-To move multiple items, select them and click **Move selected items** from the **Sub-items** top bar.
-Then choose a Location from the **Choose Location** modal that opens up.
+In the Content item's details screen, go to **Sub-items** tab, select multiple items, and click **Move**.
+Then choose a Location from the [content browser](../../getting_started/discover_ui.md#content-browser) in the **Choose Location** modal that opens up.
 After choosing and confirming new Location, all selected files are moved to it.
 
 ![Multi-file move](img/multi_file_move.png)
@@ -55,7 +55,13 @@ You can also permanently remove all content from the Trash by clicking **Empty T
 
 ## Multi-file delete
 
-To delete multiple items, select them and click **Delete selected items** in the **Sub-items** top bar. Confirm your choice in the pop-up window with the **Send to Trash** button. All selected files will be moved to trash.
+There are multiple ways to delete multiple items, for example:
+
+- in Content tree, hold the Shift key and select multiple item. 
+Then click the three dots menu and select **Delete**. 
+- in the Content item's details screen, the **Sub-items** tab, select multiple items and click **Delete**
+
+Confirm your choice in the pop-up window with the **Send to trash** button. All selected files are be moved to trash.
 
 ![Multi-file delete](img/multi_file_delete.png)
 

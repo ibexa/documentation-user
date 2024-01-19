@@ -69,7 +69,57 @@ You can also use the **Content Browser** to search the Repository for content, e
 !!! note
 
     If you have administrator permissions, you can also view and manage User accounts and site skeletons in the **Admin** tab.
-    
+
     For more information about users and permissions, see [Users](../permission_management/permissions_and_users.md).
-    
+
     For more information about site skeletons, see [Site skeletons]([[= developer_doc =]]/multisite/site_factory/site_factory_configuration/#site-skeletons).
+
+## Focus mode
+
+Focus mode helps editors focus on information that is only relevant to their line of work and omit technical details that would otherwise introduce distraction.
+It is enabled when you first log into [[= product_name =]], and influences the way information is displayed in the user interface.
+If you need access to certain settings or technical details, you can [disable the focus mode](#disable-focus-mode) at any time.
+
+Dark Content Tree
+: In areas where the Content Tree is displayed, for example, in **Content structure**, the tree is displayed on a dark background.
+
+![Dark Content Tree](img/FM_dark_content_tree.png "Dark Content Tree")
+
+Settings unavailable in Content area
+: Compared to the regular mode, in Focus mode, in **Content** area of the main menu, the **Settings** part of the menu is not available.
+
+![Content menu settings area](img/FM_menu_settings.png "Content menu settings area")
+
+Content item view
+: If you select a specific [SiteAccess](translate_content.md#siteaccess) from the **Site context** drop down list on the right side of the top bar and then browse Content items in Content tree, they are displayed in full view, with a limited set of actions available.
+To display the Content item details view with more actions, click **Exit full view**.
+
+![Content item in full view](img/FM_content_item_full_view.png "Content item in full view")
+
+!!! tip
+
+    Even when you're out of the full view or not in Focus mode, you can still preview the Content item in the **View** tab.
+
+Different details view tabs in Focus mode vs. regular mode
+: In Focus mode, the tabs in Content item's detail view are different than the ones visible in regular view.
+Additionally, they are displayed in different order to expose the ones that are more important from the editor's perspective.
+
+![Tabs in Content item's details view](img/FM_content_item_tabs_comparison.png "Tabs in Content item's details view")
+
+Different columns available for selection
+: You can decide which columns are displayed in the **Sub-items** table, to adjust the view to your use case.
+The list of columns available for selection differs between the Focus and regular mode.
+
+![Columns in Sub-items table](img/FM_subitems_column_list_comparison.png "Columns in Sub-items table")
+
+### Disable Focus mode
+
+Focus mode is enabled by default when you first log into [[= product_name =]], but you can toggle it in two places:
+
+- in User settings
+
+![Focus mode user setting](img/FM_user_settings.png "Focus mode user setting")
+
+- in the drop-down menu on the right side of the top bar
+
+![Focus mode switch](img/FM_switch.png "Focus mode switch")

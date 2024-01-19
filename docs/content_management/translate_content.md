@@ -65,6 +65,8 @@ For more information, see [Work with versions](work_with_versions.md#compare-ver
 
 When you edit a Page, a bar at the top of the screen lists the most recently used [SiteAccesses](https://doc.ibexa.co/projects/userguide/en/master/website_organization/multisite/#siteaccess) on your website. Use this bar to switch between the different versions and work on them.
 
+<a name="siteaccess"></a>
+
 !!! note "SiteAccess concept"
 
     SiteAccesses are a means to present different versions of the website to different 
