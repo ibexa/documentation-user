@@ -46,15 +46,17 @@ the same way as when editing only one language.
 
 You can compare different versions of the translations of the Content item.
 
-1\. In the left panel, go to **Content** -> **Content structure**. Then select a Content item.
+1. [Turn the Focus mode off](../getting_started/discover_ui.md#disable-focus-mode).
 
-2\. Go to **Versions** tab and click the **Version compare** icon: ![Version Compare Icon](img/version_compare_icon.png){.inline-image}.
+1. In the left panel, go to **Content** -> **Content structure**. Then select a Content item.
 
-3\. In the **Comparing versions** screen, pick the split view by using the switcher in the top right corner:
+1. Go to **Versions** tab and click the **Version compare** icon: ![Version Compare Icon](img/version_compare_icon.png){.inline-image}.
+
+1. In the **Comparing versions** screen, pick the split view by using the switcher in the top right corner:
 
 ![View switcher](img/view_switcher.png "View switcher")
 
-4\. From the dropdowns, select two different language versions of the same Content item.
+1. From the dropdowns, select two different language versions of the same Content item.
 The screen refreshes to display the side by side view of its Fields.
 
 ![Compare translations screen](img/compare_translations.png "Compare translations screen")

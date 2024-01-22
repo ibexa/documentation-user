@@ -20,7 +20,7 @@ A single Location can only have one Content item in it.
 
 Even if a Content item is placed in more than one Location, one of the Locations is always treated as the main one.
 
-To assign other Locations to content, view this Content item's **Location** tab and click **+ Add**.
+To assign other Locations to content, [turn the Focus mode off](../../getting_started/discover_ui.md#disable-focus-mode), go to this Content item's **Locations** tab and click **+ Add**.
 Then select the new parent from the Content Browser.
 
 ![Content with two locations](img/content_with_two_locations.png "Content with two Locations")
@@ -28,7 +28,7 @@ Then select the new parent from the Content Browser.
 ### Hide Locations
 
 You can manage the availability of content by hiding or revealing it.
-You can do this in the Content item's Locations tab by using the Visibility switcher.
+You can do this in the Content item's **Locations** tab by using the Visibility switcher.
 Notice that this way only affects a *Location*, not the *Content item*.
 Even if you hide the content in one Location, it remains visible in its other Locations.
 You can also [hide the Content item itself](copy_move_hide_content.md#hide-content).
@@ -90,7 +90,7 @@ The Link manager list also shows whether the link is alive or dead in the **Stat
 
 Each Content item can have one or more URL aliases. They are additional URLs that can be used to access this Content item.
 
-You can add URL aliases in the URL tab under **Custom URL aliases for...** by clicking **+ Add**.
+To add URL aliases, go to the **URL** tab, and click **+ Add** in the **Custom URL aliases for...** area.
 The URL alias must be unique for the whole installation, regardless of the language.
 
 ![Creating a new URL alias](img/create_new_url_alias.png)

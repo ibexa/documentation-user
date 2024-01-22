@@ -91,7 +91,7 @@ Settings unavailable in Content area
 ![Content menu settings area](img/FM_menu_settings.png "Content menu settings area")
 
 Content item view
-: If you select a specific [SiteAccess](translate_content.md#siteaccess) from the **Site context** drop down list on the right side of the top bar and then browse Content items in Content tree, they are displayed in full view, with a limited set of actions available.
+: If you select a specific [SiteAccess](translate_content.md#siteaccess) from the **Site context** drop down list on the right side of the top bar and then browse Content items in Content Tree, they are displayed in full view, with a limited set of actions available.
 To display the Content item details view with more actions, click **Exit full view**.
 
 ![Content item in full view](img/FM_content_item_full_view.png "Content item in full view")

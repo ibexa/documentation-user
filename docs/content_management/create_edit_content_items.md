@@ -17,7 +17,7 @@ description: Create content for your website with different Fields, rich text, t
 
     !!! tip
 
-        An alternative way of creating Content items is to [drag one or more files](#upload-multiple-content-items) onto the **Sub-items** tab when viewing any Content item in a [Content tree](../getting_started/discover_ui.md#content-tree). 
+        An alternative way of creating Content items is to [drag one or more files](#upload-multiple-content-items) onto the **Sub-items** tab when viewing any Content item in a [Content Tree](../getting_started/discover_ui.md#content-tree). 
 
 1. In a slide-out pane, make initial choices in the following fields, and click **Create**:
 
@@ -216,7 +216,9 @@ For more information, see [Assign tag to content from taxonomy tree](taxonomy/wo
 There are several places where you can see how the Content item could look to an end-user. 
 For example, you can click **Preview** in the Content item's details screen and then use a drop-down menu to switch between [SiteAccesses](translate_content.md#siteaccess).
 
-Additionally, if you select a specific SiteAccess from the **Site context** drop down list on the right side of the top bar, two things happen:
+Additionally, if you select a specific SiteAccess from the **Site context** drop down list on the right side of the top bar, three things happen:
 
-- when you hover over Content items in the Content tree, miniature previews appear
-- the **View** tab appears in the Content item's details view, where you can quickly preview the Content item
+- in Focus mode, when you browse Content items in Content Tree, their full screen preview is displayed
+- if you [turn the Focus mode off](../getting_started/discover_ui.md#disable-focus-mode) or click **Exit full view**, the **View** tab appears in the Content item's details view, where you can quickly preview the Content item
+- regardless of mode, when you hover over Content items in the Content Tree, miniature previews appear
+
