@@ -4,6 +4,25 @@ description: Take a quick tour of the Back Office.
 
 # User interface
 
+## Top bar
+
+At the top of many screens you might see a top bar.
+Depending on your location within the Back Office, it can contain the following important features:
+
+- Logo in the left corner, which is a direct link to the [dashboard](#my-dashboard)
+- "Focus mode" callout which informs you that the [focus mode](#focus-mode) is on
+- Global search field that allows you to [find content](../search/search_for_content.md) by checking all searchable Fields
+- Drop-down list that changes the site context
+- Notification icon that informs you about incoming assignments, for example, items assigned for [your review](../content_management/workflow_management/editorial_workflow.md#review-queue)
+- User avatar with a drop down menu with access to [user profile and settings](get_started.md#edit-user-profile)
+
+!!! note "Site context"
+
+    Changing the site context results in the [Content Tree](#content-tree) showing content items that belong to the selected website.
+    The appearance of Content items can also change if they use different designs or languages depending on the [SiteAccess](../website_organization/multisite.md#siteaccess) settings.
+
+![Top bar with site context selector](img/top_bar.png "Top bar with site context selector")
+
 ## My dashboard
 
 The first screen that you see after logging in is **My dashboard**. 
@@ -23,7 +42,7 @@ You can always return to the **My dashboard** screen by clicking the logo in the
 
 The left side menu allows you to move between important sections of the application.
 
-![Side menu](img/top_bar.png "Side menu")
+![Side menu](img/side_menu.png "Side menu")
 
 Depending on the product edition and your [permissions](../permission_management/permission_system.md), the top level sections on the leftmost pane may include, for example:
 
@@ -86,9 +105,9 @@ Dark Content Tree
 ![Dark Content Tree](img/FM_dark_content_tree.png "Dark Content Tree")
 
 Settings unavailable in Content area
-: Compared to the regular mode, in Focus mode, in **Content** area of the main menu, the **Settings** part of the menu is not available.
+: Compared to the regular mode, in Focus mode, in **Content** area of the left-hand menu, the **Settings** part of the menu is not available.
 
-![Content menu settings area](img/FM_menu_settings.png "Content menu settings area")
+![Standard mode vs. Focus mode](img/FM_menu_settings.png "Content menu in standard mode vs. Focus mode")
 
 Content item view
 : If you select a specific [SiteAccess](translate_content.md#siteaccess) from the **Site context** drop down list on the right side of the top bar and then browse Content items in Content Tree, they are displayed in full view, with a limited set of actions available.
@@ -104,13 +123,13 @@ Different details view tabs in Focus mode vs. regular mode
 : In Focus mode, the tabs in Content item's detail view are different than the ones visible in regular view.
 Additionally, they are displayed in different order to expose the ones that are more important from the editor's perspective.
 
-![Tabs in Content item's details view](img/FM_content_item_tabs_comparison.png "Tabs in Content item's details view")
+![Tabs in Content item's details view](img/FM_content_item_tabs_comparison.png "Content item tabs in standard mode vs. Focus mode")
 
 Different columns available for selection
 : You can decide which columns are displayed in the **Sub-items** table, to adjust the view to your use case.
 The list of columns available for selection differs between the Focus and regular mode.
 
-![Columns in Sub-items table](img/FM_subitems_column_list_comparison.png "Columns in Sub-items table")
+![Columns in Sub-items table](img/FM_subitems_column_list_comparison.png "Sub-items table columns in standard mode vs. Focus mode")
 
 ### Disable Focus mode
 
