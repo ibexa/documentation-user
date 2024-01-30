@@ -37,15 +37,12 @@ Otherwise, to login, you must get your user credentials from the administrator a
 
 ### Edit user profile
 
-
-
 You can edit your profile and modify the following data:
 
 - Avatar image
 - First and last name
 - Signature
 - Department
-
 
 !!! note
     The fields may differ depending on your system configuration.
@@ -57,16 +54,15 @@ You can edit your profile and modify the following data:
 3\. In the User profile screen, in the **Summary** section, click **Edit**.
 
 4\. Go to **Image** and click **Upload file** or drag and drop your photo.
-If necessary, you can edit the foto using Image Editor.
+If necessary, you can edit the foto with the Image Editor.
 
 ![Edit avatar](img/user_profile_avatar.png "Edit avatar")
-
 
 5\. Now your avatar photo has been uploaded and is visible in the Back Office.
 
 6\. To save changes, click **Update**.
 
-If you don't set the your own image, a default avatar with your initials is then displayed.
+If you don't set your own image, a default avatar with your initials is displayed.
 
 ### Change the password and other user settngs
 
@@ -108,17 +104,11 @@ such as preferred timezone, date and time format, or Back Office language.
 
 |Setting|Description|
 --------|-----------|
-|Focus mode|Enables or disables focus mode.|
+|Focus mode|Enables or disables the [focus mode](discover_ui.md#focus-mode).|
 
 **Dashboard**
 
 |Setting|Description|
 --------|-----------|
 |Active dashboard|Sets which dashboard is displayed after you log in.|
-
-
-
-
-
-
 
