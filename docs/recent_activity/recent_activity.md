@@ -18,20 +18,22 @@ By default, the following actions are logged:
 
 By default, log entries are kept 30 days.
 
-TODO: Generic screenshot of the activity list
+Log entries are grouped by logical bonds like events, batches, or sessions.
+
+TODO: Generic screenshot of the activity list with a group unfolded
 
 ### Filter activities
 
-On the right, a "Filters" block allows
+On the right, a "Filters" block offers:
 
-* to only follow the activity of a user or a list of users
-* to narrow the display to a type of item or action
+* to only follow the activity of a user or a list of users,
+* to narrow the display to groups having given types of items, or actions.
 
 Select what you want to focus on and click the "Apply" button. Stop filtering by clicking the "Clear" button.
 
-TODO: How to display what happened last week?
+The following setting example lists activity log groups containing a "publish" entry, and occurring withing a week from today.
 
-TODO: Example screenshot of the Filters block with caption explaining what it chooses to display
+![Published last week](img/filters.png)
 
 ## Dashboard block
 
@@ -39,4 +41,10 @@ You can add a "Recent activity" block to your [dashboard](discover_ui.md#dashboa
 
 !["Recent activity" block](img/recent_activity_block.png)
 
-TODO: block config
+You can set the block to display only log groups containing activities by some particular users, or concerning particular object classes.
+
+TODO: Setting panel screenshot with the block visible behind it
+
+## User profile
+
+TODO
