@@ -5,13 +5,14 @@ description: Preview content items of various types in many places of the Back O
 # Preview Content items
 
 There are several places where you can see how the Content item could look to an end-user.
-The system behaves differently depending on whether you are in regular or [Focus mode](../getting_started/discover_ui.md#focus-mode) and whether you selected a specific site from the **Site context** drop down list in the top bar.
+The system behaves differently depending on whether you are in [Focus mode](../getting_started/discover_ui.md#focus-mode) or not and whether you selected a specific site from the **Site context** drop-down list in the top bar.
 
-- When you [edit a Page](create_edit_content_items.md), the editor provides a WYSIWYG experience, and you switch between Page views available for visitors from different segments and in different points in time by clicking either of the following icons.
+- When you [edit a Page](create_edit_content_items.md), the editor provides a WYSIWYG experience.
+By clicking the following icons, you can switch between different Page views.
 
 |Icon|Description|
 |------|-----------|
-|![Preview segments](page_builder_toolbar_preview_segment.png)|Access preview of the Page for a given segment.|
+|![Preview segments](page_builder_toolbar_preview_segment.png)|Access preview of the Page for a given [segment](content_organization/classify_content.md#segments).|
 |![Timeline button](page_builder_toolbartimelinetoggler.png)|Access the timeline to preview how the Page changes with time. You can also view the list of all upcoming scheduled events.|
 
 - When you [edit a Content item](create_edit_content_items.md), click **Preview**
@@ -24,7 +25,7 @@ The system behaves differently depending on whether you are in regular or [Focus
 
 ![View toggler](page_builder_toolbar_devicestoggler.png "View toggler")
 
-Additionally, if you select a specific SiteAccess from the **Site context** drop down list in the top bar, three things happen:
+Additionally, if you select a specific SiteAccess from the **Site context** drop-down list in the top bar, three things happen:
 
 - when you hover over Content items in the Content Tree, miniature previews appear
 - in Focus mode, when you browse Content items in Content Tree, their full screen preview is displayed

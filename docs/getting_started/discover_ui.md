@@ -14,7 +14,7 @@ Depending on your location within the Back Office, it can contain the following 
 - Global search field that allows you to [find content](../search/search_for_content.md) by checking all searchable Fields
 - Drop-down that changes the site context
 - Notification icon that informs you about incoming assignments, for example, items assigned for [your review](../content_management/workflow_management/editorial_workflow.md#review-queue)
-- User avatar with a drop down menu with access to [user profile and settings](get_started.md#edit-user-profile)
+- User avatar with a drop-down menu with access to [user profile and settings](get_started.md#edit-user-profile)
 
 !!! note "Site context"
 
@@ -99,18 +99,18 @@ Focus mode helps editors focus on information that is only relevant to their lin
 It is enabled by default, after you log in.
 If you need access to certain settings or technical details, you can [disable the focus mode](#disable-focus-mode) at any time.
 
-Dark Content Tree
+Dark theme for Content Tree
 : In areas where the Content Tree is displayed, for example, in **Content structure**, the tree is displayed on a dark background.
 
-![Dark Content Tree](img/FM_dark_content_tree.png "Dark Content Tree")
+![Dark theme for Content Tree](img/FM_dark_content_tree.png "Dark theme for Content Tree")
 
 Settings unavailable in Content area
-: Compared to the regular mode, in Focus mode, in **Content** area of the left-hand menu, the **Settings** part of the menu is not available.
+: In Focus mode, in **Content** area of the left-hand menu, the **Settings** part of the menu is not available.
 
 ![Standard mode vs. Focus mode](img/FM_menu_settings.png "Content menu in standard mode vs. Focus mode")
 
 Content item view
-: If you select a specific [SiteAccess](translate_content.md#siteaccess) from the **Site context** drop down list on the right side of the top bar and then browse Content items in Content Tree, they are displayed in full view, with a limited set of actions available.
+: If you select a specific [SiteAccess](translate_content.md#siteaccess) from the **Site context** drop-down list on the right side of the top bar and then browse Content items in Content Tree, they are displayed in full view, with a limited set of actions available.
 To display the Content item details view with more actions, click **Exit full view**.
 
 ![Content item in full view](img/FM_content_item_full_view.png "Content item in full view")
@@ -119,15 +119,15 @@ To display the Content item details view with more actions, click **Exit full vi
 
     Even when you're out of the full view or not in Focus mode, you can still preview the Content item in the **View** tab.
 
-Different details view tabs in Focus mode vs. regular mode
-: In Focus mode, the tabs in Content item's detail view are different than the ones visible in regular view.
+Different details view tabs in Focus mode and when it is disabled
+: In Focus mode, the tabs in Content item's detail view are different than the ones visible when it is disabled.
 Additionally, they are displayed in different order to expose the ones that are more important from the editor's perspective.
 
 ![Tabs in Content item's details view](img/FM_content_item_tabs_comparison.png "Content item tabs in standard mode vs. Focus mode")
 
 Different columns available for selection
 : You can decide which columns are displayed in the **Sub-items** table, to adjust the view to your use case.
-The list of columns available for selection differs between the Focus and regular mode.
+The list of columns available for selection differs between the Focus mode and when it is disabled.
 
 ![Columns in Sub-items table](img/FM_subitems_column_list_comparison.png "Sub-items table columns in standard mode vs. Focus mode")
 
