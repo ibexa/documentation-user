@@ -52,11 +52,11 @@ You can compare different versions of the translations of the Content item.
 
 3\. Go to **Versions** tab and click the **Version compare** icon: ![Version Compare Icon](img/version_compare_icon.png){.inline-image}.
 
-4\. In the **Comparing versions** screen, pick the split view by using the switcher in the top right corner:
+4\. In the **Comparing versions** screen, click the split view by using the switcher in the top right corner:
 
 ![View switcher](img/view_switcher.png "View switcher")
 
-5\. From the dropdowns, select two different language versions of the same Content item.
+5\. From the drop-downs, select two different language versions of the same Content item.
 The screen refreshes to display the side by side view of its Fields.
 
 ![Compare translations screen](img/compare_translations.png "Compare translations screen")

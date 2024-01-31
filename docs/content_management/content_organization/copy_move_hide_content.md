@@ -57,11 +57,11 @@ You can also permanently remove all content from the Trash by clicking **Empty T
 
 There are multiple ways to delete multiple items, for example:
 
-- in Content Tree, hold the Shift key and select multiple item.
+- in Content Tree, select multiple items.
 Then click the three dots menu and select **Delete**
 - in Content item's details screen, the **Sub-items** tab, select multiple items and click **Delete**
 
-Confirm your choice in the pop-up window with the **Send to trash** button. All selected files are be moved to trash.
+Confirm your choice in the pop-up window with the **Send to trash** button. All selected files are moved to trash.
 
 ![Multi-file delete](img/multi_file_delete.png)
 

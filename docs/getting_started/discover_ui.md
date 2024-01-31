@@ -6,13 +6,13 @@ description: Take a quick tour of the Back Office.
 
 ## Top bar
 
-At the top of many screens you might see a top bar.
+At the top of the main screen you can see a top bar.
 Depending on your location within the Back Office, it can contain the following important features:
 
 - Logo in the left corner, which is a direct link to the [dashboard](#my-dashboard)
-- "Focus mode" callout which informs you that the [focus mode](#focus-mode) is on
+- "Focus mode" badge which informs you that the [focus mode](#focus-mode) is on
 - Global search field that allows you to [find content](../search/search_for_content.md) by checking all searchable Fields
-- Drop-down list that changes the site context
+- Drop-down that changes the site context
 - Notification icon that informs you about incoming assignments, for example, items assigned for [your review](../content_management/workflow_management/editorial_workflow.md#review-queue)
 - User avatar with a drop down menu with access to [user profile and settings](get_started.md#edit-user-profile)
 
@@ -95,8 +95,8 @@ You can also use the **Content Browser** to search the Repository for content, e
 
 ## Focus mode
 
-Focus mode helps editors focus on information that is only relevant to their line of work and omit technical details that would otherwise introduce distraction.
-It is enabled when you first log into [[= product_name =]], and influences the way information is displayed in the user interface.
+Focus mode helps editors focus on information that is only relevant to their line of work and omit technical details that would distract.
+It is enabled by default, after you log in.
 If you need access to certain settings or technical details, you can [disable the focus mode](#disable-focus-mode) at any time.
 
 Dark Content Tree

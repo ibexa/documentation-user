@@ -32,7 +32,6 @@ description: Create content for your website with different Fields, rich text, t
 1. [Fill in the Fields](#edit-new-or-existing-content-items) of the Content item.
 
 1. Click **Preview** to see how the Content item could look to an end-user.
-       
     !!! tip
     
         A Content item can look different on different [SiteAccesses](translate_content.md#siteaccess).
