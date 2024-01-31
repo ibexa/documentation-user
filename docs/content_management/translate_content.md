@@ -46,7 +46,7 @@ the same way as when editing only one language.
 
 You can compare different versions of the translations of the Content item.
 
-1\. [Turn the Focus mode off](../getting_started/discover_ui.md#disable-focus-mode).
+1\. [disable the Focus mode](../getting_started/discover_ui.md#disable-focus-mode).
 
 2\. In the left panel, go to **Content** -> **Content structure**. Then select a Content item.
 

@@ -22,7 +22,7 @@ They can be created by the autosave feature, by the reviewer as part of the
 the work and close the Content item editing screen.
 
 You can view all versions of a Content item on the Content item details screen.
-To do it, [turn the Focus mode off](../getting_started/discover_ui.md#disable-focus-mode), and go to this Content item's **Versions** tab.
+To do it, [disable the Focus mode](../getting_started/discover_ui.md#disable-focus-mode), and go to this Content item's **Versions** tab.
 
 ![All versions of a Content item](img/content_item_versions.png "All versions of a Content item")
 
@@ -31,7 +31,7 @@ For more information, see [Editorial workflow](workflow_management/editorial_wor
 ### Autosave
 
 While you edit a Content item or product, [[= product_name =]] saves your work automatically to help you preserve the progress in an event of a failure.
-To recover your work, [turn the Focus mode off](../getting_started/discover_ui.md#disable-focus-mode), go to this Content item's **Versions** tab, and open the most recent draft.
+To recover your work, [disable the Focus mode](../getting_started/discover_ui.md#disable-focus-mode), go to this Content item's **Versions** tab, and open the most recent draft.
 Alternatively, open the most recent draft of your work on the **My dashboard** page, the **Drafts** table.
 
 Autosave is enabled by default, and set to save a draft every 60 seconds.

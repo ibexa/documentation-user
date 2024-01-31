@@ -28,7 +28,7 @@ or click **Save and close** to close the window.
     A discarded draft is removed instantly, not placed in the Trash, so it can't be restored.
 
 Once you leave the editor after saving your draft, you can return to modify it, or create a new draft.
-To edit an existing draft, [turn the Focus mode off](../getting_started/discover_ui.md#disable-focus-mode), go to this Content item's **Versions** tab and click the edit icon in the proper line.
+To edit an existing draft, [disable the Focus mode](../getting_started/discover_ui.md#disable-focus-mode), go to this Content item's **Versions** tab and click the edit icon in the proper line.
 When you select **Edit** in a Content item that has one or more open drafts,
 you are asked which draft you want to continue working on.
 You also have the option to create a new draft based on the currently published version.

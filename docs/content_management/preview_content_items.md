@@ -28,4 +28,4 @@ Additionally, if you select a specific SiteAccess from the **Site context** drop
 
 - when you hover over Content items in the Content Tree, miniature previews appear
 - in Focus mode, when you browse Content items in Content Tree, their full screen preview is displayed
-- if you [turn the Focus mode off](../getting_started/discover_ui.md#disable-focus-mode) or click **Exit full view**, the **View** tab appears in the Content item's details view, where you can quickly preview the Content item
+- if you [disable the Focus mode](../getting_started/discover_ui.md#disable-focus-mode) or click **Exit full view**, the **View** tab appears in the Content item's details view, where you can quickly preview the Content item

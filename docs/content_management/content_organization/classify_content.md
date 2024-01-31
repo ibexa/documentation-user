@@ -11,7 +11,7 @@ a number of mechanisms that you can use.
 
 You can divide your Content Tree into Sections to better organize it.
 Sections let you decide which Users will have access to which parts of the tree.
-To see which Section a Content item belongs to, [turn the Focus mode off](../../getting_started/discover_ui.md#disable-focus-mode), and look at its **Technical details** tab.
+To see which Section a Content item belongs to, [disable the Focus mode](../../getting_started/discover_ui.md#disable-focus-mode), and look at its **Technical details** tab.
 
 You can set up Sections by navigating to **Content** -> **Sections**.
 A few Sections are provided with each installation, and you can add new ones.
@@ -29,7 +29,7 @@ Access to Sections can be restricted by [setting up proper permissions](../../pe
 ## Object states
 
 You can assign specific Object states to all Content items in your website.
-To do it, [turn the Focus mode off](../../getting_started/discover_ui.md#disable-focus-mode), go to the Content item details view, and make necessary changes in the **Object state details** section.
+To do it, [disable the Focus mode](../../getting_started/discover_ui.md#disable-focus-mode), go to the Content item details view, and make necessary changes in the **Object state details** section.
 
 ![Object state details](img/object_state_details.png)
 

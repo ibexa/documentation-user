@@ -20,7 +20,7 @@ A single Location can only have one Content item in it.
 
 Even if a Content item is placed in more than one Location, one of the Locations is always treated as the main one.
 
-To assign other Locations to content, [turn the Focus mode off](../../getting_started/discover_ui.md#disable-focus-mode), go to this Content item's **Locations** tab and click **+ Add**.
+To assign other Locations to content, [disable the Focus mode](../../getting_started/discover_ui.md#disable-focus-mode), go to this Content item's **Locations** tab and click **+ Add**.
 Then select the new parent from the Content Browser.
 
 ![Content with two locations](img/content_with_two_locations.png "Content with two Locations")
