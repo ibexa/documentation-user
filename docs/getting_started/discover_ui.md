@@ -40,11 +40,13 @@ You can also [reschedule or cancel planned publications](../content_management/s
 
 You can always return to the **My dashboard** screen by clicking the logo in the upper left corner.
 
-The left side menu allows you to move between important sections of the application.
+## Main menu 
 
-![Side menu](img/side_menu.png "Side menu")
+The main menu allows you to move between important sections of the application.
 
-Depending on the product edition and your [permissions](../permission_management/permission_system.md), the top level sections on the leftmost pane may include, for example:
+![Main menu](img/side_menu.png "Main menu")
+
+Depending on the product edition and your [permissions](../permission_management/permission_system.md), the main menu may include, for example:
 
 - **Content**, which gives you access to the content Repository.
 It lets you navigate the Content Tree, create, edit, move, copy, delete content, etc.
@@ -54,8 +56,8 @@ It lets you navigate the Content Tree, create, edit, move, copy, delete content,
 
 ## Content Tree
 
-If you want to navigate through your website with a menu, go to the **Content** tab, and select **Content structure**.
-**Content Tree** in the left sidebar opens an expandable content menu of your website.
+If you want to navigate through your website with a menu, in the main menu, go to the **Content** -> **Content structure**.
+The **Content Tree** area is an expandable content menu of your website.
 
 ![Content Tree in the menu](img/left_menu_tree.png "Content Tree in the menu")
 
@@ -105,9 +107,9 @@ Dark theme for Content Tree
 ![Dark theme for Content Tree](img/FM_dark_content_tree.png "Dark theme for Content Tree")
 
 Settings unavailable in Content area
-: In Focus mode, in **Content** area of the left-hand menu, the **Settings** part of the menu is not available.
+: In Focus mode, in **Content** area of the main menu, the **Settings** part of the menu is not available.
 
-![Standard mode vs. Focus mode](img/FM_menu_settings.png "Content menu in standard mode vs. Focus mode")
+![Content tab in Focus mode](img/FM_menu_without_settings.png)
 
 Content item view
 : If you select a specific [SiteAccess](translate_content.md#siteaccess) from the **Site context** drop-down list on the right side of the top bar and then browse Content items in Content Tree, they are displayed in full view, with a limited set of actions available.
@@ -123,13 +125,13 @@ Different details view tabs in Focus mode and when it is disabled
 : In Focus mode, the tabs in Content item's detail view are different than the ones visible when it is disabled.
 Additionally, they are displayed in different order to expose the ones that are more important from the editor's perspective.
 
-![Tabs in Content item's details view](img/FM_content_item_tabs_comparison.png "Content item tabs in standard mode vs. Focus mode")
+![Content item tabs in Focus mode](img/FM_less_ci_tabs.png "Content item tabs in Focus mode")
 
 Different columns available for selection
 : You can decide which columns are displayed in the **Sub-items** table, to adjust the view to your use case.
-The list of columns available for selection differs between the Focus mode and when it is disabled.
+The list of columns available for selection is limited in Focus mode.
 
-![Columns in Sub-items table](img/FM_subitems_column_list_comparison.png "Sub-items table columns in standard mode vs. Focus mode")
+![Columns in Sub-items table](img/FM_subitems_column_list.png "Columns in Sub-items table")
 
 ### Disable Focus mode
 
