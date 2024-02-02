@@ -148,7 +148,7 @@ You can access them by placing the cursor on the added block and clicking the **
 
 ![Block settings - Dashboard Builder](img/block_settings_builder.png "Block settings - Dashboard Builder")
 
-Settings available for blocks are divided into three tabs — **Properties**, **Design**, and **Scheduler**.
+Settings available for blocks are divided into two tabs: **Properties** and **Design**.
 The settings available on the **Properties** tab are tailored to the block's content.
 For a description of these settings, see [Dashboard block reference](dashboard_block_reference.md).
 
@@ -171,11 +171,9 @@ When you create new customized dashboard, you can choose, which dashboard you wa
 To do it, access your user settings on the right side of the top bar.
 Then, go to **Preferences** tab, **Dashboard** section, and click **Edit**.
 
-Here you can see a list of all available dashboard, including Default dashboard and all created customized dashboards.
+Select the dashboard, that you want to set as active, and click **Save**.
 
 ![Select active dashboard](img/select_active_dashboard.png "Select active dashboard")
-
-Select the dashboard, that you want to set as active, and click **Save**.
 
 #### Permissions
 

@@ -10,7 +10,7 @@ The following blocks are provided with a clean installation of [[= product_name 
 |Block|Description|
 |-----|-----------|
 |[Common content](#common-content-block)|Displays a list of content items created by all the organization that the user belongs to.|
-|[Ibexa News](#ibexa-news-block)|Displays a list of recent blog posts or articles published at `ibexa.co` blog.|
+|[Ibexa News](#ibexa-news-block)|Displays a list of recent blog posts or articles published at `ibexa.co` blog (product related).|
 |[My content](#my-content-block)|Displays a list of content items created by the user currently logged in.|
 |[Orders by status](#orders-by-status-block)|Displays a chart presenting orders and their status.|
 |[Products by category](#products-by-category-block)|Displays a chart presenting products by their category.|
@@ -40,8 +40,8 @@ On the **Design** tab, in the **View** field, select the layout to be used to pr
 
 ## Ibexa News block
 
-Presents a list of recent blog posts or articles published at `ibexa.co` blog.
-It includes title, image, timestamp, and link to article details.
+Presents a list of recent blog posts or articles published at `ibexa.co` blog (product related).
+It includes title, image, publication date, and link to article details.
 
 On the **Properties** tab, set values in the following fields:
 
@@ -118,7 +118,7 @@ On the **Design** tab, in the **View** field, select the layout to be used to pr
 Displays a list of recent activity of Users.
 It also includes the link to view All activities available in Admin tab.
 
-Recent activity block contains the following data: Timestamp, User (avatar, first and last name) with link to the user profile,
+Recent activity block contains the following data: action time, User reference (avatar, first and last name) with link to the user profile (if available),
 Activity type with the context.
 
 Available filters are: Users, Activity type, Activity area (default value = All), Number of activities (default value = 5, maximum value = 10).
