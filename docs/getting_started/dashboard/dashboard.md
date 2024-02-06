@@ -18,7 +18,7 @@ By default, it contains the following blocks:
 
 For a detailed description of all available blocks, see [Dashboard block reference](dashboard_block_reference.md).
 
-You can return to the **Dashboard** screen from any other page by clicking the '[[= product_name_base =]]' logoon the left of the top bar, or the home icon in the main menu.
+You can return to the **Dashboard** screen from any other page by clicking the '[[= product_name_base =]]' logo on the left of the top bar, or the home icon in the main menu.
 
 ![Dashboard icon](dashboard_icon.png)
 
