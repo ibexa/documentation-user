@@ -20,7 +20,7 @@ By default, log entries are kept 30 days.
 
 Log entries are grouped by logical bonds like events, batches, or sessions.
 
-TODO: Generic screenshot of the activity list with a group unfolded
+![Activity list](img/4.6_activity_list.png)
 
 ### Filter activities
 
