@@ -17,7 +17,7 @@ description: Create content for your website with different Fields, rich text, t
 
     !!! tip
 
-        An alternative way of creating Content items is to [drag one or more files](#upload-multiple-content-items) onto the **Sub-items** box when viewing any other Content item in a [Content Tree](../getting_started/discover_ui.md#content-tree). 
+        An alternative way of creating Content items is to [drag one or more files](#upload-multiple-content-items) onto the **Sub-items** tab when viewing any Content item in a [Content Tree](../getting_started/discover_ui.md#content-tree). 
 
 1. In a slide-out pane, make initial choices in the following fields, and click **Create**:
 
@@ -31,8 +31,7 @@ description: Create content for your website with different Fields, rich text, t
 
 1. [Fill in the Fields](#edit-new-or-existing-content-items) of the Content item.
 
-1. Click **Preview** to see, how the Content item could look to an end-user.
-
+1. Click **Preview** to see how the Content item could look to an end-user.
     !!! tip
     
         A Content item can look different on different [SiteAccesses](translate_content.md#siteaccess).
@@ -65,10 +64,8 @@ description: Create content for your website with different Fields, rich text, t
 
 When you view the Content item details in the Content Tree, you can upload files such as images, videos, PDF documents, and so on.
 This way you can add multiple sub-items without editing the original Content item.
-To do it, on the Content item details screen, in the **Sub-items** top bar, click **Upload** 
-and choose all items that you want to upload.
-When a file is uploaded with multi-file upload, it is automatically stored in a 
-Field of the Content item.
+To do it, on the Content item details screen, in the **Sub-items** tab, click **Upload** and choose all items that you want to upload.
+When a file is uploaded with multi-file upload, it is automatically stored in a Field of the Content item.
 
 !!! note
 
@@ -212,3 +209,4 @@ For this feature to work as described, the Content Type must have a **Metadata**
 ![Selecting Taxonomy entries](img/taxonomy_select_taxonomy_entries.png "Selecting Taxonomy entries")
 
 For more information, see [Assign tag to content from taxonomy tree](taxonomy/work_with_tags.md#assign-tag-to-content-from-taxonomy-tree).
+

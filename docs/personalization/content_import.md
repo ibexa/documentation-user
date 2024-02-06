@@ -41,7 +41,7 @@ For more information about user attribute import, see [User API]([[= developer_d
 
 ## List of import operations
 
-In the Back Office, from the top bar under **Personalization**, you can access 
+In the Back Office, from the main menu, under **Personalization**, you can access 
 the **Import** page that displays a list of historical import operations and their details, 
 such as the number of imported content items/products, their type and language.
 

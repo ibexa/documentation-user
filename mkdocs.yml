@@ -19,6 +19,7 @@ nav:
         - Create and edit pages: 
             - Create and edit pages: content_management/create_edit_pages.md
             - Block reference: content_management/block_reference.md
+        - Preview Content items: content_management/preview_content_items.md
         - Translate content: content_management/translate_content.md
         - Work with forms: content_management/work_with_forms.md
         - Taxonomy management:
