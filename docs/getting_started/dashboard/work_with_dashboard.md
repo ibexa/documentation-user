@@ -9,14 +9,14 @@ You can work with dashboard: edit and customize it depending on your needs.
 ## Permissions
 
 To be able to customize a dashboard, you need the `dashboard/customize` policy.
-By default, all users belonging to the `Editors` User Group have the `Dashboard` role assigned, so that they can edit, create, or delete dashboard.
+By default, all users belonging to the `Editors` User Group have the `Dashboard` role assigned, so that they can edit, create, or delete a dashboard.
 If, by any reason, you want to narrow this permission, you can set up specific limitations.
 
 For more information about setting up a permission system, see [Work with permissions](work_with_permissions.md).
 
 ## Customize dashboard
 
-To customize dashboard, on the main page, click **Customize dashboard**.
+To customize the dashboard, on the main page, click **Customize dashboard**.
 
 ![Customize dashboard](customize_dashboard.png "Customize dashboard")
 
@@ -56,8 +56,9 @@ Dashboard Builder has two main toolbars that you can use while creating a dashbo
 
 ### Choose layout
 
-For new dashboard you can choose layout which defines the available zones.
-Applying a layout divides the dashboard into the defined zones. The zones are placeholders for blocks.
+For a new dashboard you can choose layout which defines the available zones.
+Applying a layout divides the dashboard into the defined zones.
+The zones are placeholders for blocks.
 
 To do it, click the **Switch layout** icon on the left side of the upper toolbar, then choose one from available layouts, and click **Submit**.
 
@@ -65,7 +66,7 @@ To do it, click the **Switch layout** icon on the left side of the upper toolbar
 
 ### Add blocks
 
-In Dashboard Builder you can access a menu of **Elements** which includes a set of blocks of content that you can add to the zones of the dashboard.
+In Dashboard Builder, you can access a menu of **Elements**, which includes a set of blocks of content that you can add to the zones of the dashboard.
 
 !!! Tip
 
@@ -121,16 +122,16 @@ To do it, click the three dots icon in the top right corner, and then click **Ed
 
 ![Edit dashboard](edit_active_dashboard.png "Edit dashboard")
 
-This action opens Dashboard Builder that allows you to edit an active customized dashboard and publish its updated version.
-You can see all the implemented changes after reloading starting screen.
+This action opens the Dashboard Builder that allows you to edit an active customized dashboard and publish its updated version.
+All the changes that you make are visible after you save them and go back to the dashboard.
 
 ## Select active dashboard
 
-When you create new customized dashboard, you can choose, which dashboard you want to set as an active.
+When you create a new customized dashboard, you can choose, which dashboard is set as an active.
 
 To do it, access your user settings on the right side of the top bar.
 Then, go to **Preferences** tab, **Dashboard** section, and click **Edit**.
 
-Select the dashboard, that you want to set as active, and click **Save**.
+Select the dashboard to be set as active, and click **Save**.
 
 ![Select active dashboard](select_active_dashboard.png "Select active dashboard")

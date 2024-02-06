@@ -7,11 +7,12 @@ description: Take a quick tour of the Back Office.
 ## Dashboard
 
 The first screen that you see after logging in is [Dashboard](dashboard.md).
-It is default dashboard and contains selected blocks.
+It is the default dashboard and contains selected blocks.
 
 ![Dashboard](dashboard.png "Dashboard")
 
-You can also customize dashboard. For more information, see [Work with dashboard](work_with_dashboard.md).
+You can customize the dashboard by changing the blocks and the layout.
+For more information, see [Work with dashboard](work_with_dashboard.md).
 
 ## Menu
 

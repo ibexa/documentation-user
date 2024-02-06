@@ -4,7 +4,8 @@ description: Get to know about dashboard.
 
 # Dashboard
 
-Default dashboard, that you see after logging in, contains following blocks:
+Dashboard it the first screen that you see after you log into [[= product_name =]].
+By default, it contains the following blocks:
 
 - Quick actions
 - Recent activity
@@ -17,14 +18,14 @@ Default dashboard, that you see after logging in, contains following blocks:
 
 For a detailed description of all available blocks, see [Dashboard block reference](dashboard_block_reference.md).
 
-From any page you can always return to the **Dashboard** screen by clicking the logo in the upper left corner.
+You can return to the **Dashboard** screen from any other page by clicking the '[[= product_name_base =]]' logoon the left of the top bar, or the home icon in the main menu.
 
 ![Dashboard icon](dashboard_icon.png)
 
 ## Customizable dashboard
 
 You can customize the dashboard depending on your needs.
-Customized dashboard previews a set of widgets selected by the user.
+A customized dashboard contains a set of widgets selected by the user.
 
 Customization allows you to quickly visit the areas that are used more often and exclude those less important:
 
