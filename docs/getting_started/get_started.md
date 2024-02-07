@@ -64,7 +64,7 @@ If necessary, you can edit the foto with the Image Editor.
 
 If you don't set your own image, a default avatar with your initials is displayed.
 
-### Change the password and other user settngs
+### Change the password and other user settings
 
 You can access your user settings on the right side of the top bar:
 
