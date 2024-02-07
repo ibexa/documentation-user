@@ -4,7 +4,7 @@ description: Get to know about dashboard.
 
 # Dashboard
 
-Dashboard it the first screen that you see after you log into [[= product_name =]].
+Dashboard is the first screen that you see after you log into [[= product_name =]].
 By default, it contains the following blocks:
 
 - Quick actions
