@@ -10,7 +10,7 @@ The following blocks are provided with a clean installation of [[= product_name 
 |Block|Description|
 |-----|-----------|
 |[Common content](#common-content-block)|Displays a list of content items created by all members of the organization that the user belongs to.|
-|[Ibexa News](#ibexa-news-block)|Displays a list of recent blog posts or articles published at `ibexa.co` blog (product related).|
+|[Ibexa News](#ibexa-news-block)|Displays a list of recent blog posts or articles published at [ibexa.co blog](https://www.ibexa.co/blog) (product related).|
 |[My content](#my-content-block)|Displays a list of content items created by the user who is currently logged in.|
 |[Orders by status](#orders-by-status-block)|Displays a chart presenting orders and their status.|
 |[Products by category](#products-by-category-block)|Displays a chart presenting products by their category.|
@@ -18,7 +18,7 @@ The following blocks are provided with a clean installation of [[= product_name 
 |[Quick actions](#quick-actions-block)|Displays most popular/used actions and shortcuts.|
 |[Recent activity](#recent-activity-block)|Displays a list of recent activity of all users.|
 |[Recent orders](#recent-orders-block)|Displays a table presenting recent orders.|
-|[Review queue](#review-queue-block)|Displays a list of Content items which user or User group can review.|
+|[Review queue](#review-queue-block)|Displays a list of content items which user or User group can review.|
 |[Top 10 clicked items](#top-10-clicked-items-block)|Displays a table presenting top 10 clicked items.|
 
 !!! note
@@ -30,7 +30,7 @@ The following blocks are provided with a clean installation of [[= product_name 
 ## Common content block
 
 Displays a list of content items created by all members of the organization that the user belongs to.
-It shows the following tabs: Content, Scheduled, Media.
+It shows the following tabs: **Content**, **Scheduled**, **Media**.
 
 On the **Properties** tab, set values in the following fields:
 
@@ -145,7 +145,7 @@ On the **Design** tab, in the **View** field, select the layout to be used to pr
 
 ## Review queue block
 
-Displays a list of Content items which user or User group can review.
+Displays a list of content items which user or User group can review.
 
 On the **Properties** tab, set values in the following fields:
 

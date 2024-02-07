@@ -97,7 +97,7 @@ First, access your user settings on the right side of the top bar:
 ![User settings](user_settings_builder.png "User settings")
 
 Then, go to **Preferences** tab, **Edit** section.
-Here, you can find `Automatically open block settings in builder` setting, which is enabled by default.
+Here, you can find **Automatically open block settings in builder** setting, which is enabled by default.
 To change this behavior, click on **Edit** icon, find the setting, and change its value to `disabled`.
 
 ![Blocks settings](user_settings_blocks_builder.png "User settings - blocks settings")
