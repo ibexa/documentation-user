@@ -1,6 +1,6 @@
 ---
 description: Pick from a list of dynamic blocks to create a customized dashboard.
-edition: experience
+edition: 
 ---
 
 # Dashboard block reference
@@ -15,9 +15,9 @@ The following blocks are provided with a clean installation of [[= product_name 
 |[Orders by status](#orders-by-status-block)|Displays a chart presenting orders and their status.|
 |[Products by category](#products-by-category-block)|Displays a chart presenting products by their category.|
 |[Products with lowest stock](#products-by-category-block)|Displays a table presenting products with the lowest stock.|
-|[Quick actions](#quick-actions-block)|Displays most popular/used actions and shortcuts.|
-|[Recent activity](#recent-activity-block)|Displays a list of recent activity of all users.|
-|[Recent orders](#recent-orders-block)|Displays a table presenting recent orders.|
+|[Quick actions](#quick-actions-block)|Displays selected mostly used actions and shortcuts.|
+|[Recent activity](#recent-activity-block)|Displays a list of recent activity of all or selected users.|
+|[Recent orders](#recent-orders-block)|Displays a table presenting recent orders and their status.|
 |[Review queue](#review-queue-block)|Displays a list of content items which user or User group can review.|
 |[Top 10 clicked items](#top-10-clicked-items-block)|Displays a table presenting top 10 clicked items.|
 
@@ -61,32 +61,30 @@ On the **Properties** tab, set values in the following fields:
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of content and submit your changes.
 
-## Orders by status block
+## Orders by status block [[% include 'snippets/commerce_badge.md' %]]
 
 Displays a chart presenting orders split by status, with their number and percentage.
 
 On the **Properties** tab, set values in the following fields:
 
 - **Name** - Enter a name for the block.
-- **Statuses** - Set the statuses of orders that should be included in the list: Pending, Processing, Cancelled, Completed. Default value = All.
-- **Periods** - Set the time period: All time, Last day, Last week, Last month. Default value = Last month.
+- **Statuses** - Set the statuses of orders that should be included in the list. Default value = All. The list of statuses depends on configured [order workflow](https://doc.ibexa.co/en/latest/commerce/order_management/configure_order_management/) and can be customized.
+- **Time periods** - Set the time period: All time, Last day, Last week, Last month. Default value = Last month.
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of orders and submit your changes.
 
-## Products by category block
+## Products by category block [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
 Displays a chart presenting the products split by category, together with the percentage.
-Some products can be assigned to multiple categories, or be uncategorized.
-You can choose to show or hide uncategorized products in the chart.
 
 On the **Properties** tab, set values in the following fields:
 
 - **Name** - Enter a name for the block.
-- **Categories limit** - Set a maximum number of categories to be displayed.
+- **Number of categories** - Set a maximum number of categories to be displayed.
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of products and submit your changes.
 
-## Products with lowest stock block
+## Products with lowest stock block [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
 Displays a table of products with the lowest stock.
 Products are sorted based on Stock value (sorted from lowest to highest stock).
@@ -97,39 +95,39 @@ On the **Properties** tab, set values in the following fields:
 
 - **Name** - Enter a name for the block.
 - **Number of products to be displayed** - Set a number of products to be displayed. Default value = 10.
-- **Stock** - Enter the number of products in stock. Default value = 10.
+- **Stock** - Set up the maximum stock value (only products with stock number greater than zero and less than the set maximum number will be displayed). Default value = 10.
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of products and submit your changes.
 
 ## Quick actions block
 
-Displays most popular/used actions and shortcuts, for example, **Create content**.
+Displays selected mostly used actions and shortcuts, for example, **Create content**.
 
 On the **Properties** tab, set values in the following fields:
 
 - **Name** - Enter a name for the block.
-- **Actions** - Select actions to be displayed as shortucts: Create content, Create form, Create product, Create catalog, Create company.
+- **Actions** - Select actions to be displayed as shortucts: Create content, Create form, Create product, Create catalog, Create company. Default value = All.
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of quick actions and submit your changes.
 
 ## Recent activity block
 
-Displays a list of recent activity of all users.
+Displays a list of recent activity of all or selected users.
 It also includes a link to view all activities available in Admin tab.
 
 Recent activity block contains the following data: action time, User reference (avatar, first and last name) with a link to the user profile (if available),
 Activity type with the context.
 
-Available filters are: Users, Activity type, Activity area (default value = All), Number of activities (default value = 5, maximum value = 10).
-
 On the **Properties** tab, set values in the following fields:
 
 - **Name** - Enter a name for the block.
+- **User** - Select users whose recent actions should be visible. By default, activities of all users are configured.
+- **Object class** - Choose an object class to be displayed. Default value = All.
 - **Results limit** - Set a maximum number of activity logs to be displayed.
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of content items for review and submit your changes.
 
-## Recent orders block
+## Recent orders block [[% include 'snippets/commerce_badge.md' %]]
 
 Displays a table presenting recent orders with the newest creation date/recently placed.
 
@@ -155,12 +153,12 @@ On the **Design** tab, in the **View** field, select the layout to be used to pr
 
 ## Top 10 clicked items block
 
+Requires [Ibexa Personalization](personalization.md) enabled.
+
 Displays a table presenting top 10 clicked items.
 
 Table contains following columns: Item clicked (including item name), Item type, Recommended (presenting number of recommendations of selected item),
 Clicked (presenting total number of clicks on selected item).
-
-Available filters are: Item types, Customer ID, Number of displayed items (default value = 10), Time period.
 
 On the **Properties** tab, set values in the following fields:
 

@@ -56,7 +56,7 @@ Dashboard Builder has two main toolbars that you can use while creating a dashbo
 
 ### Choose layout
 
-For a new dashboard you can choose layout which defines the available zones.
+For a new dashboard you can choose layout which defines the available zones and helps to organize the dashboard view.
 Applying a layout divides the dashboard into the defined zones.
 The zones are placeholders for blocks.
 
@@ -115,6 +115,22 @@ For a description of these settings, see [Dashboard block reference](dashboard_b
 
 To save changes, click **Save and close**.
 
+You can also work with the block, for example, duplicate it, change its position, or delete it.
+
+Hover over the block and the toolbar appears.
+Click the three dots icon to see more options.
+
+The following actions are available:
+
+- Move up block - allows you to change position of the block by moving it up
+- Move down block - allows you to change position of the block by moving it down
+- Block settings - allows you to access properties window
+- Duplicate - duplicates existing block with its settings
+- Refresh - refreshes preview of the block
+- Delete - deletes existing block
+
+![Dashboard block settings](dashboard_block_actions.png "Dashboard block settings")
+
 ## Edit dashboard
 
 At any time you can edit an active customized dashboard.
@@ -124,6 +140,16 @@ To do it, click the three dots icon in the top right corner, and then click **Ed
 
 This action opens the Dashboard Builder that allows you to edit an active customized dashboard and publish its updated version.
 All the changes that you make are visible after you save them and go back to the dashboard.
+
+## Save dashboard
+
+There are several options for saving work in the Dashboard Builder:
+
+|Option|Description|
+|------|-----------|
+|Publish|[Publish](publish_content.md) the dashboard draft. |
+|Save draft|Save the dashboard draft.|
+|Delete draft|Delete the dashboard draft.|
 
 ## Select active dashboard
 
@@ -135,3 +161,8 @@ Then, go to **Preferences** tab, **Dashboard** section, and click **Edit**.
 Select the dashboard to be set as active, and click **Save**.
 
 ![Select active dashboard](select_active_dashboard.png "Select active dashboard")
+
+You can also select active dashboard and switch between default and customized dashboard in the main dashboard view.
+Click the three dots menu and use the **Switch to...** action.
+
+![Switch between dashboards](switch_dashboard.png "Switch between dashboards")

@@ -5,16 +5,18 @@ description: Get to know about dashboard.
 # Dashboard
 
 Dashboard is the first screen that you see after you log into [[= product_name =]].
+It provides users a quick overview about specific content to make better business decisions based on data and work more efficiently with a clear and easy access to important information.
+
 By default, it contains the following blocks:
 
-- Quick actions
-- Recent activity
-- Ibexa news
-- Review queue
-- My content
-- Common content
+- [Quick actions](dashboard_block_reference.md#quick-actions-block)
+- [Recent activity](dashboard_block_reference.md#recent-activity-block)
+- [Ibexa News](dashboard_block_reference.md#ibexa-news-block)
+- [Review queue](dashboard_block_reference.md#review-queue-block)
+- [My content](dashboard_block_reference.md#my-content-block)
+- [Common content](dashboard_block_reference.md#common-content-block)
 
-![Dashboard](dashboard.png "Dashboard")
+![Dashboard](dashboard.png "Default dashboard")
 
 For a detailed description of all available blocks, see [Dashboard block reference](dashboard_block_reference.md).
 
