@@ -121,9 +121,9 @@ Activity type with the context.
 On the **Properties** tab, set values in the following fields:
 
 - **Name** - Enter a name for the block.
-- **User** - Select users whose recent actions should be visible. By default, activities of all users are configured.
-- **Object class** - Choose an object class to be displayed. Default value = All.
-- **Results limit** - Set a maximum number of activity logs to be displayed.
+- **Users** - Select users whose recent actions should be visible. By default, activities of all users are configured.
+- **Activity area** - Choose an activity area to be displayed. Default value = All.
+- **Number of activities** - Set a maximum number of activity logs to be displayed. Minimum value = 1, and maximum = 10.
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of content items for review and submit your changes.
 
