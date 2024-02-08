@@ -20,6 +20,10 @@ To customize the dashboard, on the main page, click **Customize dashboard**.
 
 ![Customize dashboard](customize_dashboard.png "Customize dashboard")
 
+If the banner is closed, click the three dots icon, and use the **Customize dashboard** action.
+
+![Customize dashboard - three dots icon](customize_dashboard_icon.png "Customize dashboard - three dots icon")
+
 This action opens an online editor - Dashboard Builder.
 
 ![Dashboard Builder](dashboard_builder.png "Dashboard Builder")
