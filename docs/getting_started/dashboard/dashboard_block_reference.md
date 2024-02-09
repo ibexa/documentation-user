@@ -69,7 +69,7 @@ On the **Properties** tab, set values in the following fields:
 
 - **Name** - Enter a name for the block.
 - **Statuses** - Set the statuses of orders that should be included in the list. Default value = All. The list of statuses depends on configured [order workflow](https://doc.ibexa.co/en/latest/commerce/order_management/configure_order_management/) and can be customized.
-- **Time periods** - Set the time period: All time, Last day, Last week, Last month. Default value = Last month.
+- **Time period** - Set the time period: All time, Last day, Last week, Last month. Default value = Last month.
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of orders and submit your changes.
 
@@ -80,7 +80,7 @@ Displays a chart presenting the products split by category, together with the pe
 On the **Properties** tab, set values in the following fields:
 
 - **Name** - Enter a name for the block.
-- **Number of categories** - Set a maximum number of categories to be displayed.
+- **Number of categories** - Set a maximum number of categories to be displayed. Default value = 3, minimum value = 1, and maximum = 20.
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of products and submit your changes.
 
@@ -94,8 +94,8 @@ The table contains the following columns: Name, Image, Code, Category, Type, Var
 On the **Properties** tab, set values in the following fields:
 
 - **Name** - Enter a name for the block.
-- **Number of visible products** - Set a number of products to be displayed. Default value = 10.
-- **Stock threshold** - Set up the maximum stock value (only products with stock number greater than zero and less than the set maximum number will be displayed). Default value = 10.
+- **Number of products to be displayed** - Set a number of products to be displayed. Default value = 10.
+- **Stock** - Set up the maximum stock value (only products with stock number greater than zero and less than the set maximum number will be displayed). Default value = 10.
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of products and submit your changes.
 
@@ -121,9 +121,9 @@ Activity type with the context.
 On the **Properties** tab, set values in the following fields:
 
 - **Name** - Enter a name for the block.
-- **Users** - Select users whose recent actions should be visible. By default, activities of all users are configured.
-- **Activity area** - Choose an activity area to be displayed. Default value = All.
-- **Number of activities** - Set a maximum number of activity logs to be displayed. Minimum value = 1, and maximum = 10.
+- **User** - Select users whose recent actions should be visible. By default, activities of all users are configured.
+- **Object class** - Choose an activity area to be displayed. Default value = All.
+- **Results limit** - Set a maximum number of activity logs to be displayed. Minimum value = 1, and maximum = 10.
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of content items for review and submit your changes.
 
@@ -163,6 +163,6 @@ Clicked (presenting total number of clicks on selected item).
 On the **Properties** tab, set values in the following fields:
 
 - **Name** - Enter a name for the block.
-- **Customer ID** - Select customer Id whose top 10 clicks are displayed.
+- **Customer Id** - Select customer Id whose top 10 clicks are displayed.
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of content items for review and submit your changes.
