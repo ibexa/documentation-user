@@ -1,6 +1,5 @@
 ---
 description: Pick from a list of dynamic blocks to create a customized dashboard.
-edition: 
 ---
 
 # Dashboard block reference
@@ -38,7 +37,7 @@ On the **Properties** tab, set values in the following fields:
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of content and submit your changes.
 
-## Ibexa News block
+## Ibexa News block [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
 Presents a list of recent blog posts or articles published at `ibexa.co` blog (product related).
 It includes title, image, publication date, and link to article details.
@@ -99,7 +98,7 @@ On the **Properties** tab, set values in the following fields:
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of products and submit your changes.
 
-## Quick actions block
+## Quick actions block [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
 Displays selected mostly used actions and shortcuts, for example, **Create content**.
 
@@ -110,7 +109,7 @@ On the **Properties** tab, set values in the following fields:
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of quick actions and submit your changes.
 
-## Recent activity block
+## Recent activity block [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
 Displays a list of recent activity of all or selected users.
 It also includes a link to view all activities available in Admin tab.
@@ -151,7 +150,7 @@ On the **Properties** tab, set values in the following fields:
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of content items for review and submit your changes.
 
-## Top 10 clicked items block
+## Top 10 clicked items block [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
 Requires [Ibexa Personalization](personalization.md) enabled.
 
