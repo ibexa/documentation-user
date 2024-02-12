@@ -5,7 +5,7 @@ description: Edit images in the Image Editor to flip, crop and select a focal po
 # Edit images
 
 When you browse the [Media library](content_model.md#content-and-media), 
-or create or edit a Content Item that contains an *Image* 
+or create or edit a Content item that contains an *Image* 
 or *Image asset* Field, you can perform basic image editing functions by using the Image Editor. 
 
 The Image Editor enables: 
@@ -16,7 +16,7 @@ The Image Editor enables:
 
 Image Editor is available whenever you see the **Edit** icon on the preview.
 
-![Image Editor icon](img/image_editor_icon.png)
+![Image Editor icon](image_editor_icon.png)
 
 ## Flip
 
@@ -63,7 +63,7 @@ Click the **X** icon to restore the original position of the target.
 Click the left or right arrow button to undo or redo the most recent change.
 Click **Reset image** to restore the original appearance of the image.
 
-![Image Editor: Undo](img/image_editor_undo.png)
+![Image Editor: Undo](image_editor_undo.png)
 
 ## Save changes
 

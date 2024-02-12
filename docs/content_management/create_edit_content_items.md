@@ -17,7 +17,7 @@ description: Create content for your website with different Fields, rich text, t
 
     !!! tip
 
-        An alternative way of creating Content items is to [drag one or more files](#upload-multiple-content-items) onto the **Sub-items** box when viewing any other Content item in a [Content Tree](../getting_started/discover_ui.md#content-tree). 
+        An alternative way of creating Content items is to [drag one or more files](#upload-multiple-content-items) onto the **Sub-items** tab when viewing any Content item in a [Content Tree](../getting_started/discover_ui.md#content-tree). 
 
 1. In a slide-out pane, make initial choices in the following fields, and click **Create**:
 
@@ -31,8 +31,7 @@ description: Create content for your website with different Fields, rich text, t
 
 1. [Fill in the Fields](#edit-new-or-existing-content-items) of the Content item.
 
-1. Click **Preview** to see, how the Content item could look to an end-user.
-
+1. Click **Preview** to see how the Content item could look to an end-user.
     !!! tip
     
         A Content item can look different on different [SiteAccesses](translate_content.md#siteaccess).
@@ -65,10 +64,8 @@ description: Create content for your website with different Fields, rich text, t
 
 When you view the Content item details in the Content Tree, you can upload files such as images, videos, PDF documents, and so on.
 This way you can add multiple sub-items without editing the original Content item.
-To do it, on the Content item details screen, in the **Sub-items** top bar, click **Upload** 
-and choose all items that you want to upload.
-When a file is uploaded with multi-file upload, it is automatically stored in a 
-Field of the Content item.
+To do it, on the Content item details screen, in the **Sub-items** tab, click **Upload** and choose all items that you want to upload.
+When a file is uploaded with multi-file upload, it is automatically stored in a Field of the Content item.
 
 !!! note
 
@@ -94,7 +91,7 @@ A *Location* Field is a point on the map. You can type the place name, enter its
 !!! note
 
     When you create or edit a Content item that contains an *Image* or an *Image asset* Field, 
-    you can perform basic image editing functions by using an [Image Editor](edit_images.md).
+    you can perform basic image editing functions by using an [Image Editor](../image_management/edit_images.md).
 
 ### Edit Rich Text Fields
 
@@ -120,22 +117,43 @@ To add a new element to the Field, choose one of the available elements:
 Each of these elements can have its own settings, such as text formatting.
 The option bar also lets you reorder or remove any elements in the Rich Text Field.
 
-#### Focus mode
+#### Edit embedded Content items
 
-While editing Rich Text Fields, you can switch to focus mode.
+You can edit embedded Content items without leaving current window.
 
-Focus mode expands the workspace to full screen and shows only editor toolbar.
-It's helpful when you need to work with longer texts that take more space and when you want to focus your attention on the editing content.
+To do it, first insert selected Content item in the Rich Text Field.
+Then, click the three dots icon on the right side and click **Edit**.
 
-![Focus mode](img/focus_mode.png "Focus mode")
+![Edit embedded Content item](img/edit_embedded_item_richtext.png "Edit embedded Content item")
 
-To access focus mode, click **Focus mode** on the right side above the workspace.
+If the Content item has more than one translation available, you need to select the language.
 
-![Access focus mode](img/access_focus_mode.png "Access focus mode")
+![Edit embedded Content item - select language](img/edit_embedded_item_language_richtext.png "Edit embedded Content item - select language")
 
-To exit focus mode, click **Default mode** or press Esc on the keyboard.
+This action opens a new browser tab with an editing screen of the selected Content item.
+When you finish editing the item, click **Publish**.
+To see implemented changes refresh the browser page.
 
-![Exit focus mode](img/exit_focus_mode.png "Exit focus mode")
+This option is also available when you want to set up a [relation](../configure_ct_field_settings/#content-relation-settings) with another Content item.
+
+![Edit embedded Content item - set up a relation](img/edit_embedded_items_relation.png "Edit embedded Content item - set up a relation")
+
+#### Distraction free mode
+
+While editing Rich Text Fields, you can switch to distraction free mode.
+
+Distraction free mode expands the workspace to full screen and shows only editor toolbar.
+It's helpful when you need to work with longer texts that take more space and when you want to focus your attention on editing text.
+
+![Distraction free mode](img/distraction_free_mode.png "Distraction free mode")
+
+To access distraction free mode, click **Distraction free mode** on the right side above the workspace.
+
+![Access distraction free mode](img/access_distraction_free_mode.png "Access distraction free mode")
+
+To exit distraction free mode, click **Exit distraction free mode** or press Esc on the keyboard.
+
+![Exit distraction mode](img/exit_distraction_free_mode.png "Exit distraction free mode")
 
 #### Anchors
 
@@ -191,3 +209,4 @@ For this feature to work as described, the Content Type must have a **Metadata**
 ![Selecting Taxonomy entries](img/taxonomy_select_taxonomy_entries.png "Selecting Taxonomy entries")
 
 For more information, see [Assign tag to content from taxonomy tree](taxonomy/work_with_tags.md#assign-tag-to-content-from-taxonomy-tree).
+
