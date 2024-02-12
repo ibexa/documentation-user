@@ -80,7 +80,7 @@ Displays a chart presenting the products split by category, together with the pe
 On the **Properties** tab, set values in the following fields:
 
 - **Name** - Enter a name for the block.
-- **Number of categories** - Set a maximum number of categories to be displayed. Default value = 3, minimum value = 1, and maximum = 20.
+- **Number of categories** - Set a maximum number of categories to be displayed. Default value = 10.
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of products and submit your changes.
 
