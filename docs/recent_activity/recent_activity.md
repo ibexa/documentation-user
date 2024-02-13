@@ -6,7 +6,7 @@ description: Monitor recent activity logged actions.
 
 ## Activity list
 
-On the Back Office, in Admin -> Activity list, you can consult what happens recently on the database.
+On the Back Office, in Admin -> Activity list, you can consult what actions were taken by users recently.
 
 By default, the following actions are logged:
 
@@ -18,7 +18,7 @@ By default, the following actions are logged:
 
 By default, log entries are kept 30 days.
 
-Log entries are grouped by logical bonds like events, batches, or sessions.
+Log entries are grouped by logical bonds like web requests, events, batches, or sessions.
 
 ![Activity list](img/4.6_activity_list.png)
 
