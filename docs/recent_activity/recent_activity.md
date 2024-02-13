@@ -43,7 +43,9 @@ You can add a "Recent activity" block to your [dashboard](discover_ui.md#dashboa
 
 You can set the block to display only log groups containing activities by some particular users, or concerning particular object classes.
 
-TODO: Setting panel screenshot with the block visible behind it
+For example, the following Dashboard block focuses on Content and Location activity.
+
+!["Content recent activity" block settings](img/recent_activity_block_settings.png)
 
 ## User profile
 
