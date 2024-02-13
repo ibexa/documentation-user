@@ -49,6 +49,6 @@ For example, the following Dashboard block focuses on Content and Location activ
 
 ## User profile
 
-On a user profile, recent activity of this user in shown.
+A user profile displays recent activity from this user.
 
 !["Recent activity" in user profile](img/recent_activity_user_profile.png)
