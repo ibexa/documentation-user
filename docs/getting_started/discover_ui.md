@@ -9,7 +9,7 @@ description: Take a quick tour of the Back Office.
 At the top of the main screen you can see a top bar.
 Depending on your location within the Back Office, it can contain the following important features:
 
-- Logo in the left corner, which is a direct link to the [dashboard](#my-dashboard)
+- Logo in the left corner, which is a direct link to the [dashboard](#dashboard)
 - "Focus mode" badge which informs you that the [focus mode](#focus-mode) is on
 - Global search field that allows you to [find content](../search/search_for_content.md) by checking all searchable Fields
 - Drop-down that changes the site context
@@ -23,22 +23,15 @@ Depending on your location within the Back Office, it can contain the following 
 
 ![Top bar with site context selector](img/top_bar.png "Top bar with site context selector")
 
-## My dashboard
+## Dashboard
 
-The first screen that you see after logging in is **My dashboard**. 
-It contains shortcuts to most commonly used areas:
+The first screen that you see after logging in is [Dashboard](dashboard.md).
+It is the default dashboard and contains selected blocks.
 
-- review queue
-- your drafts
-- the content that you have created
-- recently modified content, etc.
+![Dashboard](dashboard.png "Dashboard")
 
-You can select any of these items and view them in detail or start [editing them](create_edit_content_items.md) from this point.
-You can also [reschedule or cancel planned publications](../content_management/schedule_publishing.md#reschedule_or_cancel_publications) using the dashboard.
-
-![My dashboard](img/dashboard.png "My dashboard")
-
-You can always return to the **My dashboard** screen by clicking the logo in the upper left corner.
+You can customize the dashboard by changing the blocks and the layout.
+For more information, see [Work with dashboard](work_with_dashboard.md).
 
 ## Main menu 
 
@@ -92,7 +85,7 @@ You can also use the **Content Browser** to search the Repository for content, e
     If you have administrator permissions, you can also view and manage User accounts and site skeletons in the **Admin** tab.
 
     For more information about users and permissions, see [Users](../permission_management/permissions_and_users.md).
-
+    
     For more information about site skeletons, see [Site skeletons]([[= developer_doc =]]/multisite/site_factory/site_factory_configuration/#site-skeletons).
 
 ## Focus mode
