@@ -11,8 +11,9 @@ TODO: Update following screenshot to have the sorting menu visible and several t
 ![Basic Search](img/basic_search.png)
 
 Everywhere in the Back Office, completion suggestions are proposed while typing in the search box.
-If a suggestion is what you're looking for, click on it in the suggestion drop-down.
-If no suggestion correspond to your search, press Enter key or click "View all results".
+In addition to clicking in it, you can also focus on the search bar using the keyboard shortcut `Ctrl+/` on Windows/Linux, or `Cmd+/` on macOS.
+If a suggestion is what you're looking for, click on it in the suggestion drop-down, or use `down` and `up` keys to highlight it, then press enter to open it.
+If no suggestion correspond to your search, press `Enter` key or click "View all results".
 
 ![Suggestion drop-down](img/suggestion.png)
 
