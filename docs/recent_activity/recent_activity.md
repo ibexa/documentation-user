@@ -6,7 +6,7 @@ description: Monitor recent activity logged actions.
 
 ## Activity list
 
-On the Back Office, in Admin -> Activity list, you can consult what actions were taken by users recently.
+On the Back Office, in **Admin** -> **Activity list**, you can consult what actions were taken by users recently.
 
 !!! note
 
