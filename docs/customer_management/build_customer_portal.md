@@ -17,7 +17,7 @@ If you are unfamiliar with how Page Builder works, see [Create and edit Pages](c
 To create a new Customer Portal, go to **Content** and from the menu select **Content structure**.
 There, navigate to the root folder for your Customer Portals. 
 If you don't have one, you can add it yourself.
-Remember to specify its `location_id` in the configuration, you will find it under **Details**.
+Remember to specify its `location_id` in the configuration, you will find it under **Technical details**.
 For more information, see [Configure Page Builder access to Customer Portal.]([[= developer_doc =]]/customer_management/cp_page_builder/#configure-page-builder-access-to-customer-portal)
 
 Inside a root folder you can select **Create content** from the right-side toolbar.

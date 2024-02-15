@@ -7,8 +7,12 @@ copyright: "Copyright 1999-2023 Ibexa AS and others"
 nav:
     - Ibexa User Documentation: index.md
     - Getting started:
-       - Get started: getting_started/get_started.md
-       - User interface: getting_started/discover_ui.md
+        - Get started: getting_started/get_started.md
+        - User interface: getting_started/discover_ui.md
+        - Dashboard:
+            - Dashboard: getting_started/dashboard/dashboard.md
+            - Work with dashboard: getting_started/dashboard/work_with_dashboard.md
+            - Dashboard block reference: getting_started/dashboard/dashboard_block_reference.md
     - Content model management:
         - Content model: content_management/content_model.md
         - Create and edit Content Types: content_management/create_edit_content_types.md
@@ -19,15 +23,16 @@ nav:
         - Create and edit pages: 
             - Create and edit pages: content_management/create_edit_pages.md
             - Block reference: content_management/block_reference.md
+        - Preview Content items: content_management/preview_content_items.md
         - Translate content: content_management/translate_content.md
         - Work with forms: content_management/work_with_forms.md
-        - Edit images: content_management/edit_images.md
         - Taxonomy management:
             - Taxonomy: content_management/taxonomy/taxonomy.md
             - Work with tags: content_management/taxonomy/work_with_tags.md
         - Content versions:
             - Content versions: content_management/content_versions.md
             - Work with versions: content_management/workflow_management/work_with_versions.md
+        - Editorial workflow:
             - Editorial workflow: content_management/workflow_management/editorial_workflow.md
             - View workflow list: content_management/workflow_management/view_workflow_list.md
         - Content organization:
@@ -37,6 +42,9 @@ nav:
     - Content publishing:
         - Publish content: content_management/publish_instantly.md
         - Schedule publication: content_management/schedule_publishing.md
+    - Image management:
+        - Upload and store images: image_management/upload_images.md
+        - Edit images: image_management/edit_images.md     
     - Search: 
         - Search for content: search/search_for_content.md
         - Search Engine Optimization: 
@@ -92,6 +100,8 @@ nav:
         - Work with catalogs: pim/work_with_catalogs.md
         - Work with product categories: pim/work_with_product_categories.md
         - Work with product page URLs: pim/work_with_product_page_urls.md
+    - DAM:
+        - Ibexa DAM: dam/ibexa_dam.md
     - Customer management:
         - Customer Portal: customer_management/customer_portal.md
         - Create and edit Customer Portal: customer_management/build_customer_portal.md
@@ -110,9 +120,9 @@ nav:
         - Administrator: 
             - Application administrator: persona_paths/administrator.md
             - Manage permissions and users: permission_management/permissions_and_users.md
+            - Manage content model: persona_paths/manage_content_model.md
         - Content editor: 
             - Content editor: persona_paths/editor.md
-            - Manage content model: persona_paths/manage_content_model.md
             - Author content: persona_paths/author_content.md
             - Publish content: persona_paths/publish_content.md
             - Organize content: persona_paths/organize_content.md
@@ -149,10 +159,17 @@ extra:
       url: '/projects/connect'
   # Global variables
   site_display_name: 'Ibexa Documentation'
+  product_name_base: 'Ibexa'
   product_name: 'Ibexa DXP'
-  product_name_content: 'Ibexa Headless'
+  product_name_content: 'Ibexa Content'
+  product_name_headless: 'Ibexa Headless'
   product_name_exp: 'Ibexa Experience'
   product_name_com: 'Ibexa Commerce'
+  product_name_cdp: 'Ibexa CDP'
+  product_name_connect: 'Ibexa Connect'
+  product_name_cloud: 'Ibexa Cloud'
+  product_name_oss: 'Ibexa OSS'
+  product_name_dam: 'Ibexa DAM'
 
   developer_doc: 'https://doc.ibexa.co/en/latest'
 

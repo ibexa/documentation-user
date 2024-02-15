@@ -4,13 +4,13 @@ description: Products can be made unavailable or available, either in certain qu
 
 # Work with availability and stock
 
-Products can be unavailable or available, either in certain quantity or with infinite stock.
+[Products](products.md) can be unavailable or available, either in certain quantity or with infinite stock.
 Being available translates into being offered for purchase.
 
 You can control the product's availability, and the available stock.
 When setting stock, you can set the exact number of pieces, or indicate that stock is infinite, for example, for digital, downloadable products.
 
-If a product has variants, you must set availability and stock for each variant separately.
+If a product has [variants](work_with_product_variants.md), you must set availability and stock for each variant separately.
 
 ## Set product availability
 

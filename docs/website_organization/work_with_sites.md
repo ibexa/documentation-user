@@ -14,7 +14,7 @@ For more information see developer documentation on [Site Factory]([[= developer
 
 ## Create a website
 
-To access Site Factory, in the leftmost pane, click the **Site** icon and then **List**.
+To access Site Factory, in the leftmost pane, click the **Site management* icon and then **List**.
 If Site Factory is enabled, and you have sufficient permissions, you should see 
 the **Create** button. Click it to access the **Creating New Site** modal.
 
@@ -27,7 +27,7 @@ First, you select a name, a predefined design, and a Parent Location for your we
 ![Create a new website step one](img/site_factory_new_site_step_1.png)
 
 If the design defines a Site skeleton, you can choose if you want to copy the entire content structure of the design with a toggle.
-To preview the Site skeleton architecture, click **Site**, and then **Site skeletons**.
+To preview the Site skeleton architecture, click **Site management**, and then **Site skeletons**.
 
 Next, you can decide if the website will go live after creation or will be offline with the Status switcher.
 In this section you also define the SiteAccess URL addresses with their main languages, fallback languages, and optional paths for the website.
@@ -41,7 +41,7 @@ For more information about SiteAccesses, see [Multisite]([[= developer_doc =]]/m
 
 ![Create a new website step two](img/site_factory_new_site_step_2.png)
 
-If all required fields are filled out you can select **Create,** and the website will be added to the website list in the **Site** tab.
+If all required fields are filled out you can select **Create**, and the website is be added to the website list in the **Site management** area.
 
 !!! note
 
@@ -49,11 +49,6 @@ If all required fields are filled out you can select **Create,** and the website
     than a SiteAccess defined by the administrator as part of [configuration]([[= developer_doc =]]/multisite/multisite_configuration/#siteaccess-configuration). 
     For example, if you create a website that uses the `fr` path in Site Factory, and the administrator 
     defines a French website manually in configuration files, your website is ignored by the system.
-
-## Preview a website
-
-To preview the website, select the **Location preview** icon (the eye icon) that is situated next to the website name.
-It will transfer you to Page Builder website preview.
 
 ## Edit an existing website
 
