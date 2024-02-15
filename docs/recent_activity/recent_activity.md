@@ -8,6 +8,11 @@ description: Monitor recent activity logged actions.
 
 On the Back Office, in Admin -> Activity list, you can consult what actions were taken by users recently.
 
+!!! note
+
+    - To see the Admin menu, you must have the "Setup / Administrate" [permission](permission_system.md).
+    - To see the Activity list, you must have the "Activity Log / Read" permission (this permission might be limitated to only see your own activity).
+
 By default, the following actions are logged:
 
 - [Content](content_items.md) [create](create_edit_content_items.md#create-content-items), [publish](publish_instantly.md#publish-content-instantly), update, trash, recover, [delete](copy_move_hide_content.md#multi-file-move), delete translation, hide and reveal
@@ -37,7 +42,7 @@ The following setting example lists activity log groups containing a "publish" e
 
 ## Dashboard block
 
-You can add a "Recent activity" block to your [dashboard](discover_ui.md#dashboard).
+You can add a "Recent activity" block to your [dashboard](discover_ui.md#dashboard) (if you have the right permission).
 
 !["Recent activity" block](img/recent_activity_block.png)
 
@@ -49,6 +54,7 @@ For example, the following dashboard block focuses on Content and Location activ
 
 ## User profile
 
-A user profile displays recent activity from this user.
+A user profile displays recent activity from this user
+(only if current user has permission to see own or other user activity log).
 
 !["Recent activity" in user profile](img/recent_activity_user_profile.png)
