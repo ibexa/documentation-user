@@ -209,4 +209,3 @@ For this feature to work as described, the Content Type must have a **Metadata**
 ![Selecting Taxonomy entries](img/taxonomy_select_taxonomy_entries.png "Selecting Taxonomy entries")
 
 For more information, see [Assign tag to content from taxonomy tree](taxonomy/work_with_tags.md#assign-tag-to-content-from-taxonomy-tree).
-
