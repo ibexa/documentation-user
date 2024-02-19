@@ -48,6 +48,8 @@ def define_env(env):
         canonical = current_page.canonical_url
         url_parts = re.search("//([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/", canonical)
         (site, project, edition, language, version) = url_parts.groups()
+        url_parts = re.search("^/([^/]+)/([^/]+)/([^/]+)/([^/]+)/", absolute_url)
+        (project, edition, language, version) = url_parts.groups()
         version = force_version or version
 
         if isinstance(pages, str):
@@ -87,4 +89,4 @@ def define_env(env):
                     )
                 )
 
-        return """<div class="%s col-%s">%s</div>""" % (style, columns, "\n".join(cards))
+        return """<div class="%s col-%s">%s %s %s</div>""" % (style, columns, "\n".join(cards), current_page.abs_url, current_page.canonical_url)
