@@ -144,8 +144,10 @@
             <div class="info-tile info-tile--link-card">
                 <div class="info-tile__content">
                     <h3>
-                        <svg><use xlink:href="images/icons.svg#content-draft" /></svg>
-                        Content
+                        <a href="content_management/content_items/">
+                            <svg><use xlink:href="images/icons.svg#content-draft" /></svg>
+                            Content
+                        </a>
                     </h3>
                     <ul>
                         <li><a href="persona_paths/manage_content_model/">Manage content model</a></li>
@@ -196,8 +198,10 @@
             <div class="info-tile info-tile--link-card">
                 <div class="info-tile__content">
                     <h3>
-                        <svg><use xlink:href="images/icons.svg#profile" /></svg>
-                        Customer
+                        <a href="customer_management/customer_portal/">
+                            <svg><use xlink:href="images/icons.svg#profile" /></svg>
+                            Customer
+                        </a>
                     </h3>
                     <ul>
                         <li><a href="customer_management/customer_portal/">Manage Customer Portal account</a></li>
