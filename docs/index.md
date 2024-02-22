@@ -77,7 +77,7 @@
                     <div>The <a href="https://doc.ibexa.co/en/latest/release_notes/ibexa_dxp_v4.5/" target="_blank">latest version of Ibexa DXP is v4.5</a>. You can now update your application to the latest version.</div>
                 </div>
                 <div class="notification__cta">
-                    <a href="https://doc.ibexa.co/en/latest/update_and_migration/from_4.4/update_from_4.4/">Update your application</a>
+                    <a href="https://doc.ibexa.co/en/latest/update_and_migration/from_4.5/update_from_4.5/">Update your application</a>
                 </div>
                 <div class="notification__image">
                     <img src="images/notification-image.png" alt="The latest release" />
