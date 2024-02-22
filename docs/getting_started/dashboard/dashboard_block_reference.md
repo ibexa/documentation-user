@@ -45,7 +45,7 @@ It includes title, image, publication date, and link to article details.
 On the **Properties** tab, set values in the following fields:
 
 - **Name** - Enter a name for the block.
-- **News limit** - Set a maximum number of news to be displayed. Default = 7, minimum value = 1, and maximum = 10.
+- **Number of news** - Set a maximum number of news to be displayed. Default = 7, minimum value = 1, and maximum = 10.
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of news and submit your changes.
 
