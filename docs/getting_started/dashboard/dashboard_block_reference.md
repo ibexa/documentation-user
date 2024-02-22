@@ -136,7 +136,7 @@ On the **Properties** tab, set values in the following fields:
 
 - **Name** - Enter a name for the block.
 - **Statuses** - Set the statuses of orders that should be included in the list: Pending, Processing, Cancelled, Completed. Default value = All.
-- **Limit** - Set a maximum number of orders to be displayed. Default value = 10.
+- **Number of orders** - Set a maximum number of orders to be displayed. Default value = 10.
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of orders and submit your changes.
 
