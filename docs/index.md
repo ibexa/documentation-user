@@ -147,7 +147,7 @@
             <div class="info-tile info-tile--link-card">
                 <div class="info-tile__content">
                     <h3>
-                        <a href="content_management/content_management/">
+                        <a href="content_management/content_items/">
                             <svg><use xlink:href="images/icons.svg#content-draft" /></svg>
                             Content
                         </a>
@@ -201,7 +201,7 @@
             <div class="info-tile info-tile--link-card">
                 <div class="info-tile__content">
                     <h3>
-                        <a href="customer_management/customer_management/">
+                        <a href="customer_management/customer_portal/">
                             <svg><use xlink:href="images/icons.svg#profile" /></svg>
                             Customer
                         </a>
