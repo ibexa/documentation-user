@@ -162,6 +162,6 @@ Clicked (presenting total number of clicks on selected item).
 On the **Properties** tab, set values in the following fields:
 
 - **Name** - Enter a name for the block.
-- **Customer Id** - Select customer Id whose top 10 clicks are displayed.
+- **Customer ID** - Select customer ID whose top 10 clicks are displayed.
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of content items for review and submit your changes.
