@@ -27,6 +27,12 @@ Log entries are grouped by logical bonds like web requests, events, batches, or 
 
 ![Activity list](img/4.6_activity_list.png)
 
+!!! note
+
+    With some development, some other actions could be logged, see [custom log entry developer documentation]([[= developer_doc =]]/administration/recent_activity/recent_activity/#adding-custom-activity-log-entries)
+
+    The log entries' life time can be shorten or extended through configuration, see [configuration developer documentation]([[= developer_doc =]]/administration/recent_activity/recent_activity/#configuration-and-cronjob)
+
 ### Filter activities
 
 You can filter the activities to:
