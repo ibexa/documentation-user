@@ -89,4 +89,4 @@ def define_env(env):
                     )
                 )
 
-        return """<div class="%s col-%s">%s %s %s</div>""" % (style, columns, "\n".join(cards), current_page.abs_url, current_page.canonical_url)
+        return """<div class="%s col-%s">%s</div>""" % (style, columns, "\n".join(cards))
