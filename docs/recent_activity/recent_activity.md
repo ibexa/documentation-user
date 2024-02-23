@@ -15,11 +15,11 @@ In the Back Office, **Admin** -> **Activity list**, you can see a list of recent
 
 By default, the following actions are displayed:
 
-- [Content](content_items.md) create, create draft, publish, update, trash, recover, delete, delete translation, hide and reveal
-- [Location](manage_locations_urls.md#content-locations) create, delete, hide, reveal, update, move, swap and subtree copy
-- [Product](products.md) create, update and delete
-- [Product variant](work_with_product_variants.md) create, update and delete
-- [Site](work_with_sites.md) create, update and delete
+- [Content](content_items.md) create, create draft, publish, update, trash, recover, delete, delete translation, hide, and reveal
+- [Location](manage_locations_urls.md#content-locations) create, delete, hide, reveal, update, move, swap, and subtree copy
+- [Product](products.md) create, update, and delete
+- [Product variant](work_with_product_variants.md) create, update, and delete
+- [Site](work_with_sites.md) create, update, and delete
 
 By default, log entries are kept 30 days.
 
