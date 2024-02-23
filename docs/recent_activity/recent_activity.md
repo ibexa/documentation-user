@@ -10,8 +10,8 @@ In the Back Office, **Admin** -> **Activity list**, you can see a list of recent
 
 !!! note
 
-    - To see the Admin menu, you must have the "Setup / Administrate" [permission](permission_system.md).
-    - To see the Activity list, you must have the "Activity Log / Read" permission (this permission might be limitated to only see your own activity).
+    To see the **Admin** menu, you need the **Setup / Administrate** [permission](permission_system.md).
+    To see the Activity list, you need the **Activity Log / Read** permission (this permission can be limited to allow seeing your own activity only).
 
 By default, the following actions are displayed:
 
