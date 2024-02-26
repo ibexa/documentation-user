@@ -40,7 +40,7 @@ You can filter the activities to:
 * follow the activity of selected users or user group,
 * narrow the results to selected item types, or actions.
 
-To do it, on the right side, in the **Filters** menu, choose selected filters, and click the **Apply** button. 
+To do it, on the right side, in the **Filters** menu, choose selected filters, and click the **Apply** button.
 Click the **Clear** button to reset all the filters.
 
 The following example shows, how to narrow the results by selecting **Action** and **Time** filters.
@@ -51,7 +51,8 @@ With these settings, activity list displays only `Publish` actions from `Last we
 ## Recent activity dashboard block [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
 You can add a **Recent activity** block to your [dashboard](discover_ui.md#dashboard).
-To be able to customize a dashboard, you need the **Dashboard / Customize** policy.
+To be able to customize a dashboard, you need the **Dashboard / Customize** permission.
+To be able to see the content of this block, you need the **Activity Log / Read** permission.
 
 !["Recent activity" block](img/recent_activity_block.png)
 
