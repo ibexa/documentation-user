@@ -134,7 +134,7 @@ This action opens a new browser tab with an editing screen of the selected Conte
 When you finish editing the item, click **Publish**.
 To see implemented changes refresh the browser page.
 
-This option is also available when you want to set up a [relation](../configure_ct_field_settings/#content-relation-settings) with another Content item.
+This option is also available when you want to set up a [relation](configure_ct_field_settings.md#content-relation-settings) with another Content item.
 
 ![Edit embedded Content item - set up a relation](img/edit_embedded_items_relation.png "Edit embedded Content item - set up a relation")
 
@@ -209,4 +209,3 @@ For this feature to work as described, the Content Type must have a **Metadata**
 ![Selecting Taxonomy entries](img/taxonomy_select_taxonomy_entries.png "Selecting Taxonomy entries")
 
 For more information, see [Assign tag to content from taxonomy tree](taxonomy/work_with_tags.md#assign-tag-to-content-from-taxonomy-tree).
-
