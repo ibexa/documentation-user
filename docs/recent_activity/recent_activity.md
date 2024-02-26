@@ -50,7 +50,7 @@ With these settings, activity list displays only `Publish` actions from `Last we
 
 ## Recent activity dashboard block [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
-You can add a **Recent activity** block to your [dashboard](discover_ui.md#dashboard).
+You can add a [**Recent activity** block](dashboard_block_reference.md#recent-activity-block) to your [dashboard](dashboard.md).
 To be able to customize a dashboard, you need the **Dashboard / Customize** permission.
 To be able to see the content of this block, you need the **Activity Log / Read** permission.
 
