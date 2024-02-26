@@ -64,7 +64,7 @@ For example, the following dashboard block focuses on Content and Location activ
 
 ## User profile
 
-User profile displays recent activity of the user.
+[User profile](get_started.md#view-and-edit-user-profile) displays recent activity of the user.
 To be able to see recent activity log, you need the **Activity Log / Read** permission.
 
 ![Recent activity in the user profile](img/recent_activity_user_profile.png)

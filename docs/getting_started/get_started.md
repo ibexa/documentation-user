@@ -35,7 +35,15 @@ Otherwise, to login, you must get your user credentials from the administrator a
 
 ![Login screen](img/login_form.png "Login screen")
 
-### Edit user profile
+### View and edit user profile
+
+To view your profile, follow those steps:
+
+1\. In the upper-right corner, click the avatar icon.
+
+2\. From the drop-down menu, select **Profile**.
+
+Your user profile displays your [recent activity](recent_activity.md) only if the viewer has the **Activity Log / Read** permission.
 
 You can edit your profile and modify the following data:
 
@@ -47,9 +55,7 @@ You can edit your profile and modify the following data:
 !!! note
     The fields may differ depending on your system configuration.
 
-1\. To modify profile, in the upper-right corner, click the avatar icon. 
-
-2\.From the drop-down menu, select **Profile**.
+To edit your profile, continue with those steps:
 
 3\. In the User profile screen, in the **Summary** section, click **Edit**.
 
