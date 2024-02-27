@@ -8,10 +8,12 @@ You can enter a search keyword and the application checks all the searchable Fie
 
 ![Basic Search](img/basic_search.png)
 
-Everywhere in the Back Office, completion suggestions are proposed while typing in the search box.
-In addition to clicking in it, you can also focus on the search bar using the keyboard shortcut `Ctrl+/` on Windows/Linux, or `Cmd+/` on macOS.
-If a suggestion is what you're looking for, click on it in the suggestion drop-down, or use `down` and `up` keys to highlight it, then press enter to open it.
-If no suggestion correspond to your search, press `Enter` key or click "View all results".
+Everywhere in the Back Office, completion suggestions are proposed while you type in the search box.
+In addition to clicking in it, you can also move focus to search bar using the keyboard shortcut `Ctrl+/` on Windows/Linux, or `Cmd+/` on macOS.
+
+- If a suggestion is what you're looking for, to use it, click on it in the suggestion drop-down, or use `down` and `up` keys to highlight it, and then press the `Enter` key.
+
+- If no suggestion corresponds to your search, press the `Enter` key or click **View all results**.
 
 ![Suggestion drop-down](img/suggestion.png)
 
@@ -19,7 +21,8 @@ If several languages are available, you can select a language to search in at th
 The results contain Content items that are translated into this language.
 The result list also shows which languages the Content item is translated to.
 
-By default, the results are sorted by decreasing relevance. Thanks to the drop-down menu on top-right, you can sort them by name, publication date, or modification date.
+By default, the results are sorted by decreasing relevance. 
+By selecting an option from a drop-down menu in the top right corner, you can sort them by name, publication date, or modification date.
 
 ![Sorting menu](img/sorting_menu.png)
 
@@ -39,7 +42,7 @@ All new or custom content types, sections and languages are automatically added 
 
 A Content item count is indicated between parenthesis for content type and section filters (if your search engine allows faceting, unlike the Legacy one).
 
-Select your filters, then click **Apply** button to update results accordingly.
-Click **Clear** button to reset and remove all filters.
+Select your filters, then click **Apply** to update the results.
+Click **Clear** to reset and remove all filters.
 
 ![Filtered Search](img/filtered_search.png)
