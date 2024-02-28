@@ -43,7 +43,7 @@ It includes title, image, publication date, and link to article details.
 On the **Properties** tab, set values in the following fields:
 
 - **Name** - Enter a name for the block.
-- **News limit** - Set a maximum number of news to be displayed. Default = 7, minimum value = 1, and maximum = 10.
+- **Number of news** - Set a maximum number of news to be displayed. Default = 7, minimum value = 1, and maximum = 10.
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of news and submit your changes.
 
@@ -122,9 +122,9 @@ Recent activity block contains the following data:
 On the **Properties** tab, set values in the following fields:
 
 - **Name** - Enter a name for the block.
-- **User** - Select users whose recent actions should be visible. By default, activities of all users are configured.
-- **Object class** - Choose an activity area to be displayed. Default value = All.
-- **Results limit** - Set a maximum number of activity logs to be displayed. Minimum value = 1, and maximum = 10.
+- **Users** - Select users whose recent actions should be visible. By default, activities of all users are configured.
+- **Activity area** - Choose an activity area to be displayed. Default value = All.
+- **Number of activities** - Set a maximum number of activity logs to be displayed. Minimum value = 1, and maximum = 10.
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of content items for review and submit your changes.
 
@@ -138,7 +138,7 @@ On the **Properties** tab, set values in the following fields:
 
 - **Name** - Enter a name for the block.
 - **Statuses** - Set the statuses of orders that should be included in the list: Pending, Processing, Cancelled, Completed. Default value = All.
-- **Limit** - Set a maximum number of orders to be displayed. Default value = 10.
+- **Number of orders** - Set a maximum number of orders to be displayed. Default value = 10.
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of orders and submit your changes.
 
@@ -164,6 +164,6 @@ Clicked (presenting total number of clicks on selected item).
 On the **Properties** tab, set values in the following fields:
 
 - **Name** - Enter a name for the block.
-- **Customer Id** - Select customer Id whose top 10 clicks are displayed.
+- **Customer ID** - Select customer ID whose top 10 clicks are displayed.
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of content items for review and submit your changes.
