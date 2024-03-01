@@ -22,7 +22,7 @@ description: Create content for your website with different Fields, rich text, t
 1. In a slide-out pane, make initial choices in the following fields, and click **Create**:
 
     - **Select a language** - from a drop-down list, select the base language for the Content item.
-    - **Select a Content Type** - use this field to narrow down the list of choices displayed below. Then select a Content Type to serve as a template for the Content item.
+    - **Select a content type** - use this field to narrow down the list of choices displayed below. Then select a content type to serve as a template for the Content item.
 
     !!! note
        
@@ -69,13 +69,13 @@ When a file is uploaded with multi-file upload, it is automatically stored in a 
 
 !!! note
 
-    The Content Type for the uploaded files is selected automatically by the system.
+    The content type for the uploaded files is selected automatically by the system.
 
 ![Multi-file upload](img/multi_file_upload.png)
 
 ## Edit new or existing Content items
 
-Each Content item is based on a [Content Type](create_edit_content_types.md). The Content Type defines what Fields 
+Each Content item is based on a [content type](create_edit_content_types.md). The content type defines what Fields 
 you have to fill in when creating a new item.
 It may also determine the layout or style in which this item is displayed.
 
@@ -200,7 +200,7 @@ Here you can also add a link to the text. You can link to an external website, o
 ### Add taxonomy entries
 
 To keep your content organized and easy to find, you can add taxonomy entries to a Content item while creating or editing it.
-For this feature to work as described, the Content Type must have a **Metadata** section, with a **Taxonomy Entry** field in it.
+For this feature to work as described, the content type must have a **Metadata** section, with a **Taxonomy Entry** field in it.
 
 1. Switch to the **Meta** tab.
 1. Click the **Select path** button.

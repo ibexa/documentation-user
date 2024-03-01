@@ -25,7 +25,7 @@ To create a form:
 2\. In a slide-out pane, make initial choices in the following fields, and click **Create**:
 
 - **Select a language** - from a drop-down list, select the base language for the Content item.
-- **Select a Content Type** - use this field to narrow down the list of Content Type choices displayed below. Then select **Form**, and click the **Create** button.
+- **Select a content type** - use this field to narrow down the list of content type choices displayed below. Then select **Form**, and click the **Create** button.
 
 ![Select form](img/select_form.png)
 
