@@ -8,20 +8,20 @@ For the Search Engine Optimization (SEO) feature to help you optimize the search
 and visibility of your content, you must enable it first, and
 then, define the contents of individual tags.
 
-To do it, make sure you can [edit Content Types](../content_management/content_model.md#content_types).
+To do it, make sure you can [edit content types](../content_management/content_model.md#content_types).
 
 ## Enable SEO
 
-1. In the left panel, go to **Content** -> **Content Types** and select a Content Type group by clicking its name, for example, **Content**.
-2. [Create a new Content Type](create_edit_content_types.md) or click the edit icon next to the Content Type that you want to modify.
-3. Go to the **SEO** section and switch the **Enable SEO for this Content Type** toggle.
+1. In the left panel, go to **Content** -> **Content types** and select a content type group by clicking its name, for example, **Content**.
+2. [Create a new content type](create_edit_content_types.md) or click the edit icon next to the content type that you want to modify.
+3. Go to the **SEO** section and switch the **Enable SEO for this content type** toggle.
 4. To save your changes, click **Save and close**, or **Save** to continue editing.
 
 ![SEO tags](img/SEO_tags.png "SEO configuration")
 
 ## Define Meta tags
 
-When you edit the Content Type definition, in the **SEO** section, go to the 
+When you edit the content type definition, in the **SEO** section, go to the 
 **Meta tags** area, and provide values for the following meta tags:
 
 - **Title**
@@ -32,7 +32,7 @@ When you edit the Content Type definition, in the **SEO** section, go to the
 To learn more about the function of each of the tags, see [Meta tags](seo.md#meta-tags).
 
 When you populate the SEO fields, you can create patterns by using a schema with 
-attributes which correspond to identifiers of fields that make up the Content Type.
+attributes which correspond to identifiers of fields that make up the content type.
 As a result, SEO tags are filled in at Content item generation phase with specific 
 contents of such fields. For example, if you enter `<title>.<format> - <author>` 
 as a value of the **Title** tag, the search engine will return 
@@ -60,13 +60,13 @@ will look like when they are passed to a search engine or social media platform.
 ## Override meta tags of Content item
 
 When you want a specific Content item to appear in search results differently than 
-the other items of a specific Content Type, you can override the contents of SEO tags.
+the other items of a specific content type, you can override the contents of SEO tags.
 You might want, for example, to add a shout out to the title after the author of content 
 receives a literary prize.
 
 1. In Content Tree, navigate to the Content item, and click the **Edit** button.
 2. Go to the **SEO** section and, in relevant fields, replace the patterns that 
-originate from the [Content Type definition](#define-meta-tags). 
+originate from the [content type definition](#define-meta-tags). 
 3. **Publish** your changes, **Save and close** or **Delete draft** to return to the Content Tree.
 
-You can either use plain text or patterns, like in the case of Content Types. 
+You can either use plain text or patterns, like in the case of content types. 

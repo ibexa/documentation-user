@@ -83,9 +83,9 @@ Click the **Configure** icon next to an importance level name and make necessary
 
 For a detailed description, see [Category path filters](filters.md#category-path-filters).
 
-## Configure cross Content Type recommendations
+## Configure cross content type recommendations
 
-Cross Content Type option is used to combine best recommendation items from 
+Cross content type option is used to combine best recommendation items from 
 different [types of content](content_types.md). 
 It applies to scenarios which have more than one output type configured.
 
@@ -93,7 +93,7 @@ To get multiple output types in the recommendation request, perform the followin
 
 1. Go to **Personalization** -> **Scenarios**.
 
-2. Click the **Edit** icon next to the scenario for which you want to set cross Content Type recommendations.
+2. Click the **Edit** icon next to the scenario for which you want to set cross content type recommendations.
 
 3. In the **Output type** multiselect field, select the types for which you want to get recommendations in the request.
 
@@ -104,11 +104,11 @@ To get multiple output types in the recommendation request, perform the followin
 ## Preview scenario results
 
 To check the results of your changes, [preview the scenario results](preview_scenario_results.md).
-You may need to provide additional information, for example, to test the cross Content Type recommendations, in the preview configuration screen, from the **Output type** drop-down, select **All**.
+You may need to provide additional information, for example, to test the cross content type recommendations, in the preview configuration screen, from the **Output type** drop-down, select **All**.
 
 
 !!! note
 
     The **All** option becomes available only after you select multiple types of content in the scenario settings.
 
-![Cross Content Type preview settings](img/perso_cross_content_type.png "Cross Content Type preview setting")
+![Cross content type preview settings](img/perso_cross_content_type.png "Cross content type preview setting")

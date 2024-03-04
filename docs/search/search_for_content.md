@@ -16,13 +16,13 @@ The result list also shows which languages the Content item is translated to.
 
 Filtered search allows you to filter by:
 
- - Content Type
+ - Content type
  - Section
  - Modified date
  - Created date
  - Creator
  - Subtree
 
-All new or custom Content Types and Sections are automatically added to the drop-down filter lists.
+All new or custom content types and Sections are automatically added to the drop-down filter lists.
 
 ![Filtered Search](img/filtered_search.png)

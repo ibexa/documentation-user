@@ -37,7 +37,7 @@ but to each Policy you need to assign a Limitation which would mean that the per
 (Sports Section, Local News Section etc.) that the editor works in.
 
 Aside from Policies that define access to Content items, there are also many other Policy types concerned with administrating the system.
-They cover actions such as activating new Users, creating Sections, modifying Content Types, etc.
+They cover actions such as activating new Users, creating Sections, modifying content types, etc.
 
 
 For more information about setting up a permission system, see [Work with permissions](work_with_permissions.md).

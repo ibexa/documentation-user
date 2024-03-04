@@ -1,10 +1,10 @@
 ---
-description: Learn about the content model, Content Types and Fields.
+description: Learn about the content model, content types and Fields.
 ---
 
 # Manage content model
 
-If you have Administrator permissions, you can develop a content model that is used in your [[= product_name =]] installation. Learn more and create or modify Content Types.
+If you have Administrator permissions, you can develop a content model that is used in your [[= product_name =]] installation. Learn more and create or modify content types.
 
 [[= cards([
     "content_management/content_model",

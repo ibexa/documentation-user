@@ -14,10 +14,10 @@ The following blocks are provided with a clean installation of [[= product_name 
 |[Catalog](#catalog-block)|Displays products from a specific catalog to a selected customer group.|
 |[Code](#code-block)|Enables you to place text, links, images, etc. on your Page using custom HTML.|
 |[Collection](#collection-block)|Displays a set of Content items you select manually from the Content structure. |
-|[Content List](#content-list-block)|Displays Content items of a chosen Content Type (or Types) that are contained in a selected folder. |
+|[Content List](#content-list-block)|Displays Content items of a chosen content type (or Types) that are contained in a selected folder. |
 |[Content Scheduler](schedule_publishing.md#content-scheduler-block)|Displays Content items at a pre-defined time. |
 |[Dynamic targeting](#dynamic-targeting-block)|Embeds recommended items based on the [Segment](content_organization/classify_content.md#segments) the user belongs to. |
-|[Embed](#embed-block)|Embeds a Content item of any Content Type on the Page. |
+|[Embed](#embed-block)|Embeds a Content item of any content type on the Page. |
 |[Form](#form-block)|Embeds a Form Content item that you select from the Content Structure. |
 |[Gallery](#gallery-block)|Displays all images contained in a selected folder. |
 |[Ibexa Connect](#ibexa-connect-block)|Retrieves and displays data from an Ibexa Connect webhook. |
@@ -116,20 +116,20 @@ Displays a collection of Content items manually selected from the Content struct
 On the **Properties** tab, set values in the following fields:
 
 - **Name** — Enter a name for the page block.
-- **Location list** — Click **Select content**, browse the available content, and add to the collection Content items of any Content Type you want.
+- **Location list** — Click **Select content**, browse the available content, and add to the collection Content items of any content type you want.
 
 All selected Content items appear in the **Selected items** box at the bottom of the window.
 When done selecting, click **Confirm**.
 
 ## Content List block
 
-Displays Content items of specified Content Type from a selected folder, simplifying access to categorized information or targeted content presentation on your site.
+Displays Content items of specified content type from a selected folder, simplifying access to categorized information or targeted content presentation on your site.
 On the **Properties** tab, set values in the following fields:
 
 - **Name** — Enter a name for the page block.
 - **Parent** — Click **Select content**, browse the content, and select a folder containing Content items to display in the list.
 - **Limit** — Set the number of products to be displayed.
-- **Content Types to be displayed** — Select Content Type(s) to be displayed.
+- **Content types to be displayed** — Select content type(s) to be displayed.
 
 ## Dynamic targeting block
 
@@ -149,7 +149,7 @@ The rules are checked in order, so when a user belongs to more than one Segment,
 
 ## Embed block
 
-Place any Content item directly on the page. This function works across all Content Types seamlessly.
+Place any Content item directly on the page. This function works across all content types seamlessly.
 On the **Properties** tab, set values in the following fields:
 
 - **Name** — Enter a name for the page block.
@@ -237,7 +237,7 @@ On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
 - **Select a scenario** – Select "Landing Page" or "Top clicked".
-- **Select a Content Type to be displayed** – Select "Product".
+- **Select a content type to be displayed** – Select "Product".
 - **Display limit** – Set the number of products to be displayed.
 
 On the **Design** tab, in the **View** field, change the layout to "Products" and submit your changes.
