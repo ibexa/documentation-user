@@ -5,7 +5,7 @@ edition: experience
 
 # Create and edit pages
 
-Page is a special Content Type.
+Page is a special content type.
 You can modify pages with a visual drag-and-drop editor, the [Page Builder](#page-builder-interface).
 Pages are divided into drop zones into which you can drop various dynamic blocks.
 By editing pages, you can customize the layout and content of your website.
@@ -13,7 +13,7 @@ By editing pages, you can customize the layout and content of your website.
 Whenever you edit a Page, a [new version](content_versions.md) is created in the repository.
 
 !!! tip
-    The Page Content Type contains a **Landing Page** Field Type which manages
+    The Page content type contains a **Landing Page** Field Type which manages
     the zones and blocks.
     Any Content item that has the **Landing Page** Field Type behaves like
     a page.
@@ -23,7 +23,7 @@ Whenever you edit a Page, a [new version](content_versions.md) is created in the
 1. In the left panel, go to **Content** -> **Content structure**. Then select a parent Content item and click **Create content**.
 1. In a slide-out pane, make initial choices in the following fields, and click **Create**:
     - **Select a language** - from a drop-down list, select the base language for the Content item.
-    - **Select a Content Type** - use this field to narrow down the list of Content Type choices displayed below. Then select one of page type, for example, **Landing Page**, and click the **Create** button.
+    - **Select a content type** - use this field to narrow down the list of content type choices displayed below. Then select one of page type, for example, **Landing Page**, and click the **Create** button.
 1. In the [Page Builder toolbar](#page-builder-toolbar) click **Fields** and define the page's title and description.
 1. Click  **Switch layout** and select the layout.
 1. [Edit the page](#edit-page).

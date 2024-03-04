@@ -1,20 +1,20 @@
 ---
-description: Configure Field settings in Content Types.
+description: Configure Field settings in content types.
 ---
 
-# Configure Content Type Fields
+# Configure content type Fields
 
-When you work with a [Content Type](content_model.md#content-types) to add or modify [Fields](content_model.md#fields-and-field-types), 
+When you work with a [content type](content_model.md#content-types) to add or modify [Fields](content_model.md#fields-and-field-types), 
 you must configure different settings that control the way [[= product_name =]] 
 treats the contents of each Field. Apart from general settings, certain Field Types, for example, [Landing Page](#default-configuration-of-pages) and [Content relation](#content-relation-settings) Field Types may have additional settings.
 
-You can only create or modify Content Types when your [user Role](../permission_management/work_with_permissions.md) has the `ContentType/Create` or `ContentType/Update` permission.
+You can only create or modify content types when your [user Role](../permission_management/work_with_permissions.md) has the `ContentType/Create` or `ContentType/Update` permission.
 
-1\. [Create or open a Content Type](create_edit_content_types.md) for editing.
+1\. [Create or open a content type](create_edit_content_types.md) for editing.
 
 2\. In the **Field definitions** area, find a section, for example, **Content**. 
 
-3\. If your application requires a more granular organization of Fields within a Content Type, click **+ Add** to add more sections.
+3\. If your application requires a more granular organization of Fields within a content type, click **+ Add** to add more sections.
 
 When you add a **Metadata** section, it is later presented as an additional tab in [Content item](content_items.md) editing screen.
 You can use it for tags, product categories, and so on.
@@ -38,8 +38,8 @@ All sections are later presented as headers on the Content item details screen, 
 
 7\. To discard your changes and close the window:
 
-- If you are creating a new Content Type, click **Discard**.
-- If you are updating an existing Content Type, click **Delete draft**.
+- If you are creating a new content type, click **Discard**.
+- If you are updating an existing content type, click **Delete draft**.
 
 ## General settings
 
@@ -48,7 +48,7 @@ Depending on their type, Fields can have different combinations of the following
 |Setting|Description|Use|
 --------|-----------|---|
 |Name|A user-friendly name that describes the Field, used in the interface. It can be up to 255 characters long and consist of letters, digits, spaces and special characters.|Required|
-|Identifier|An identifier for system use in configuration files, templates, or PHP code. It can be up to 50 characters long and can only contain lowercase letters, digits and underscores. Also used in name patterns for the Content Type.|Required|
+|Identifier|An identifier for system use in configuration files, templates, or PHP code. It can be up to 50 characters long and can only contain lowercase letters, digits and underscores. Also used in name patterns for the content type.|Required|
 |Description|A detailed description of the Field. It is displayed next to it when the user edits the Content item.|Optional|
 |Required|Indicates whether a value of the Field is required for the Content item to be saved or published.|Optional|
 |Searchable|Indicates whether a value of the Field is included in the search.|Optional|
@@ -101,12 +101,12 @@ To do it, in the **Select Editor launch mode** section, select one of the availa
 ## Content relation settings
 
 When you add or modify a **[Content relation](create_edit_content_items.md#relation_field)** or **Content relation (multiple)** 
-Field in a Content Type, you can decide:
+Field in a content type, you can decide:
 
 - which Content Tree location opens in the 
 [Content Browser](content_model.md#content-browser) when the user browses to a related 
 Content item 
-- whether relations can be to Content items of a specific type only, or any Content Type
+- whether relations can be to Content items of a specific type only, or any content type
 
 #### Relation starting location
 
@@ -119,7 +119,7 @@ In the **Select starting Location** area, select from the available options:
 
 ![Select starting location](img/select_start_location.png "Selecting a starting location")
 
-#### Allowed Content Types
+#### Allowed content types
 
-In the **Allowed Content Types** area, expand the drop-down list and select from the available Content Types.
-No selection means that relations to all Content Types are allowed.
+In the **Allowed content types** area, expand the drop-down list and select from the available content types.
+No selection means that relations to all content types are allowed.
