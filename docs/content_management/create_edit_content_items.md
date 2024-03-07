@@ -2,39 +2,39 @@
 description: Create content for your website with different Fields, rich text, tags, and then publish it.
 ---
 
-# Create and edit Content items
+# Create and edit content items
 
-## Create Content items
+## Create content items
 
-1. Start creating a new Content item in one of the following ways:
+1. Start creating a new content item in one of the following ways:
 
-    - In the left panel, go to **Content** -> **Content structure**. Then select a parent Content item and click **Create content**. 
+    - In the left panel, go to **Content** -> **Content structure**. Then select a parent content item and click **Create content**. 
     
-        The new Content item becomes a child of the Content item that you originally selected.
+        The new content item becomes a child of the content item that you originally selected.
     
     - In the upper-right corner of the [My dashboard](../getting_started/discover_ui.md#my-dashboard) screen, click **Create content**.
     Then choose a location for the new item in [Content Browser](../getting_started/discover_ui.md#content-browser) and click **Create**.
 
     !!! tip
 
-        An alternative way of creating Content items is to [drag one or more files](#upload-multiple-content-items) onto the **Sub-items** tab when viewing any Content item in a [Content Tree](../getting_started/discover_ui.md#content-tree). 
+        An alternative way of creating content items is to [drag one or more files](#upload-multiple-content-items) onto the **Sub-items** tab when viewing any content item in a [Content Tree](../getting_started/discover_ui.md#content-tree). 
 
 1. In a slide-out pane, make initial choices in the following fields, and click **Create**:
 
-    - **Select a language** - from a drop-down list, select the base language for the Content item.
-    - **Select a content type** - use this field to narrow down the list of choices displayed below. Then select a content type to serve as a template for the Content item.
+    - **Select a language** - from a drop-down list, select the base language for the content item.
+    - **Select a content type** - use this field to narrow down the list of choices displayed below. Then select a content type to serve as a template for the content item.
 
     !!! note
        
         If you're using [[= product_name_exp =]] or [[= product_name_com =]], the options include forms and pages.
         You then [build forms](work_with_forms.md) and [create pages](create_edit_pages.md) by using their respective specialist tools.
 
-1. [Fill in the Fields](#edit-new-or-existing-content-items) of the Content item.
+1. [Fill in the Fields](#edit-new-or-existing-content-items) of the content item.
 
-1. Click **Preview** to see how the Content item could look to an end-user.
+1. Click **Preview** to see how the content item could look to an end-user.
     !!! tip
     
-        A Content item can look different on different [SiteAccesses](translate_content.md#siteaccess).
+        A content item can look different on different [SiteAccesses](translate_content.md#siteaccess).
         You can select a SiteAccess to preview by using a drop-down in the preview screen.
 
 1. To discard your changes and close the window, click **Delete draft**.
@@ -46,7 +46,7 @@ description: Create content for your website with different Fields, rich text, t
 
 1. To send your changes to another editor [for review](editorial_workflow.md), click **Send to review**. 
 
-1. When the Content item is ready for publication:
+1. When the content item is ready for publication:
 
     - Click **Publish** to publish it immediately.
     - Click **Publish later** to set a specific publication date.
@@ -55,17 +55,17 @@ description: Create content for your website with different Fields, rich text, t
 
 !!! note "Versioning and autosave"
 
-    Whenever you edit a Content item, a [new version](content_versions.md) is created in the repository.
+    Whenever you edit a content item, a [new version](content_versions.md) is created in the repository.
 
-    To help you preserve your work, [[= product_name =]] saves drafts of Content items automatically.
+    To help you preserve your work, [[= product_name =]] saves drafts of content items automatically.
     For more information, see [Autosave](content_versions.md#autosave).
 
-##### Upload multiple Content items
+##### Upload multiple content items
 
-When you view the Content item details in the Content Tree, you can upload files such as images, videos, PDF documents, and so on.
-This way you can add multiple sub-items without editing the original Content item.
-To do it, on the Content item details screen, in the **Sub-items** tab, click **Upload** and choose all items that you want to upload.
-When a file is uploaded with multi-file upload, it is automatically stored in a Field of the Content item.
+When you view the content item details in the Content Tree, you can upload files such as images, videos, PDF documents, and so on.
+This way you can add multiple sub-items without editing the original content item.
+To do it, on the content item details screen, in the **Sub-items** tab, click **Upload** and choose all items that you want to upload.
+When a file is uploaded with multi-file upload, it is automatically stored in a Field of the content item.
 
 !!! note
 
@@ -73,24 +73,24 @@ When a file is uploaded with multi-file upload, it is automatically stored in a 
 
 ![Multi-file upload](img/multi_file_upload.png)
 
-## Edit new or existing Content items
+## Edit new or existing content items
 
-Each Content item is based on a [content type](create_edit_content_types.md). The content type defines what Fields 
+Each content item is based on a [content type](create_edit_content_types.md). The content type defines what Fields 
 you have to fill in when creating a new item.
 It may also determine the layout or style in which this item is displayed.
 
 Fields marked with an asterisk (\*) are required. 
-You can't save the Content item without filling them in.
+You can't save the content item without filling them in.
 
-Some Fields, such as *Relation* Fields (which link two Content items) or *Image* Fields
-require you to select a different Content item to link to.
+Some Fields, such as *Relation* Fields (which link two content items) or *Image* Fields
+require you to select a different content item to link to.
 A *Location* Field is a point on the map. You can type the place name, enter its coordinates, or select it on the map.
 
 <a name="relation_field"></a>
 
 !!! note
 
-    When you create or edit a Content item that contains an *Image* or an *Image asset* Field, 
+    When you create or edit a content item that contains an *Image* or an *Image asset* Field, 
     you can perform basic image editing functions by using an [Image Editor](../image_management/edit_images.md).
 
 ### Edit Rich Text Fields
@@ -117,26 +117,26 @@ To add a new element to the Field, choose one of the available elements:
 Each of these elements can have its own settings, such as text formatting.
 The option bar also lets you reorder or remove any elements in the Rich Text Field.
 
-#### Edit embedded Content items
+#### Edit embedded content items
 
-You can edit embedded Content items without leaving current window.
+You can edit embedded content items without leaving current window.
 
-To do it, first insert selected Content item in the Rich Text Field.
+To do it, first insert selected content item in the Rich Text Field.
 Then, click the three dots icon on the right side and click **Edit**.
 
-![Edit embedded Content item](img/edit_embedded_item_richtext.png "Edit embedded Content item")
+![Edit embedded content item](img/edit_embedded_item_richtext.png "Edit embedded content item")
 
-If the Content item has more than one translation available, you need to select the language.
+If the content item has more than one translation available, you need to select the language.
 
-![Edit embedded Content item - select language](img/edit_embedded_item_language_richtext.png "Edit embedded Content item - select language")
+![Edit embedded content item - select language](img/edit_embedded_item_language_richtext.png "Edit embedded content item - select language")
 
-This action opens a new browser tab with an editing screen of the selected Content item.
+This action opens a new browser tab with an editing screen of the selected content item.
 When you finish editing the item, click **Publish**.
 To see implemented changes refresh the browser page.
 
-This option is also available when you want to set up a [relation](configure_ct_field_settings.md#content-relation-settings) with another Content item.
+This option is also available when you want to set up a [relation](configure_ct_field_settings.md#content-relation-settings) with another content item.
 
-![Edit embedded Content item - set up a relation](img/edit_embedded_items_relation.png "Edit embedded Content item - set up a relation")
+![Edit embedded content item - set up a relation](img/edit_embedded_items_relation.png "Edit embedded content item - set up a relation")
 
 #### Distraction free mode
 
@@ -195,11 +195,11 @@ For more information, see [SeenThis! page block](block_reference.md#seenthis-blo
 ### Text formatting
 
 When you select a section of text, you get access to text formatting options such as bold or underline.
-Here you can also add a link to the text. You can link to an external website, or to another Content item.
+Here you can also add a link to the text. You can link to an external website, or to another content item.
 
 ### Add taxonomy entries
 
-To keep your content organized and easy to find, you can add taxonomy entries to a Content item while creating or editing it.
+To keep your content organized and easy to find, you can add taxonomy entries to a content item while creating or editing it.
 For this feature to work as described, the content type must have a **Metadata** section, with a **Taxonomy Entry** field in it.
 
 1. Switch to the **Meta** tab.

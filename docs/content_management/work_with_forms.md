@@ -24,7 +24,7 @@ To create a form:
 
 2\. In a slide-out pane, make initial choices in the following fields, and click **Create**:
 
-- **Select a language** - from a drop-down list, select the base language for the Content item.
+- **Select a language** - from a drop-down list, select the base language for the content item.
 - **Select a content type** - use this field to narrow down the list of content type choices displayed below. Then select **Form**, and click the **Create** button.
 
 ![Select form](img/select_form.png)
@@ -69,7 +69,7 @@ You can choose one of a few options of what is shown to the user after filling i
 
 ## View results
 
-Once you publish a form and users start filling it in, you can preview the results in the **Submissions** tab in the Content item view.
+Once you publish a form and users start filling it in, you can preview the results in the **Submissions** tab in the content item view.
 
 Here you can view the details of each submission.
 You can also delete any submissions (for example if they were made while testing or contain spam).
@@ -82,7 +82,7 @@ Click **Download submissions** icon to download all the submissions in a .CSV (c
 
 In the following example, you will learn how to create a Newsletter form and use it with Page Builder.
 
-1\. Create a new Content item in the chosen localization in the content tree and choose **Form** type.
+1\. Create a new content item in the chosen localization in the content tree and choose **Form** type.
 
 2\. Enter **Newsletter** as a title and click **Build** form.
 

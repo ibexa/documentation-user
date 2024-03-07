@@ -21,7 +21,7 @@ Remember to specify its `location_id` in the configuration, you will find it und
 For more information, see [Configure Page Builder access to Customer Portal.]([[= developer_doc =]]/customer_management/cp_page_builder/#configure-page-builder-access-to-customer-portal)
 
 Inside a root folder you can select **Create content** from the right-side toolbar.
-On the list of Content items, you will see two possibilities **Customer Portal** and **Customer Portal Page**.
+On the list of content items, you will see two possibilities **Customer Portal** and **Customer Portal Page**.
 
 ![Create content tab](img/cp_portal_vs_page.png)
 

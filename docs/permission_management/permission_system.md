@@ -36,7 +36,7 @@ Local Editor, Sports Editor, etc. All of these Roles will have the same Policies
 but to each Policy you need to assign a Limitation which would mean that the permission covers only one Section
 (Sports Section, Local News Section etc.) that the editor works in.
 
-Aside from Policies that define access to Content items, there are also many other Policy types concerned with administrating the system.
+Aside from Policies that define access to content items, there are also many other Policy types concerned with administrating the system.
 They cover actions such as activating new Users, creating Sections, modifying content types, etc.
 
 

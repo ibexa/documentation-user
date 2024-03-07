@@ -1,17 +1,17 @@
 ---
-description: Create or edit content types by listing Fields that make a Content item.
+description: Create or edit content types by listing Fields that make a content item.
 ---
 
 # Create and edit content types
 
-[Content types](content_model.md#content-types) define what Fields are available in [Content items](content_items.md). 
+[Content types](content_model.md#content-types) define what Fields are available in [content items](content_items.md). 
 To suit your specific needs, you can modify the default content types, or add custom ones.
 
 You can only create or modify content types when your [user Role](../permission_management/work_with_permissions.md) has the `ContentType/Create` or `ContentType/Update` permission.
 
-When you edit a content type, each Content item based on this content type changes.
+When you edit a content type, each content item based on this content type changes.
 For example, when you add or remove a Field to the content type, the change 
-is propagated to every Content item of this type.
+is propagated to every content item of this type.
 
 !!! note
 
@@ -25,8 +25,8 @@ is propagated to every Content item of this type.
 
 !!! caution "Deleting content types"
 
-    You can delete a content type only when there are no Content items that belong to it.
-    This also includes Content items in the Trash.
+    You can delete a content type only when there are no content items that belong to it.
+    This also includes content items in the Trash.
 
 1\. In the left panel, go to **Content** -> **Content types**. Then select a content type group by clicking its name, for example, **Content**.
 
@@ -48,9 +48,9 @@ is propagated to every Content item of this type.
 --------|-----------|---|
 |Name|A name of the content type.|Required|
 |Identifier|A unique identifier of the content type in the system. Up to 50 characters and can only consist of letters, numbers and underscores.|Required|
-|Description|Additional information that is displayed when a Content item is created based on this type.|Optional|
-|Content name pattern|Rules for creating a name for the Content item.|Optional|
-|URL alias name pattern|Rules for creating the URL alias for a Content item.|Optional|
+|Description|Additional information that is displayed when a content item is created based on this type.|Optional|
+|Content name pattern|Rules for creating a name for the content item.|Optional|
+|URL alias name pattern|Rules for creating the URL alias for a content item.|Optional|
 |Container|When checked, Content of this Type can serve as a container in the Content Tree.|Optional|
 |Sort children by default by|Criterion by which children of this content are sorted in the tree.|Required if **Container** is checked|
 |Sort children by default in order|Order in which the children are sorted (ascending or descending).|Required if **Container** is checked|
@@ -60,7 +60,7 @@ is propagated to every Content item of this type.
 
     When populating the patterns, you can use a schema with attributes which 
     correspond to the identifiers of Fields that make up the content type. 
-    This way, when Content Items of this type are created, their names and URL 
+    This way, when content items of this type are created, their names and URL 
     aliases are generated according to the defined pattern. 
 
     For example, if you enter `<short_title>` as a value of the **Content name 
