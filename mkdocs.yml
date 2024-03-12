@@ -43,7 +43,7 @@ theme:
     palette:
         primary: 'blue grey'
         accent: 'deep orange'
-    logo: 'images/ibexa-dxp-logo.svg'
+    logo: 'images/ibexa-dxp-logo.png'
 
 plugins:
     - search
