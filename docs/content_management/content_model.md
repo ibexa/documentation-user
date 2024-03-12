@@ -57,7 +57,7 @@ e.g. Text line, Rich text, Email, Author list, Content relation, Map location, F
 - A content type defines Fields that a content item will be composed of.
 - Every Field is modeled after a Field Type which defines the kind of data it contains.
 
-**Content Items:**
+**Content items:**
 
 - A content item consists of a number of Fields.
 - Every content item is based on a content type.

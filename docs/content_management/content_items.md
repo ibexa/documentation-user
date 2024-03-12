@@ -1,5 +1,5 @@
 ---
-description: content items are containers that Ibexa DXP uses to store content data.
+description: Content items are containers that Ibexa DXP uses to store content data.
 ---
 
 # Content items
