@@ -15,14 +15,14 @@ Whenever you edit a Page, a [new version](content_versions.md) is created in the
 !!! tip
     The Page content type contains a **Landing Page** Field Type which manages
     the zones and blocks.
-    Any Content item that has the **Landing Page** Field Type behaves like
+    Any content item that has the **Landing Page** Field Type behaves like
     a page.
 
 ## Create Page
 
-1. In the left panel, go to **Content** -> **Content structure**. Then select a parent Content item and click **Create content**.
+1. In the left panel, go to **Content** -> **Content structure**. Then select a parent content item and click **Create content**.
 1. In a slide-out pane, make initial choices in the following fields, and click **Create**:
-    - **Select a language** - from a drop-down list, select the base language for the Content item.
+    - **Select a language** - from a drop-down list, select the base language for the content item.
     - **Select a content type** - use this field to narrow down the list of content type choices displayed below. Then select one of page type, for example, **Landing Page**, and click the **Create** button.
 1. In the [Page Builder toolbar](#page-builder-toolbar) click **Fields** and define the page's title and description.
 1. Click  **Switch layout** and select the layout.
@@ -39,7 +39,7 @@ You can now navigate away from the Page by clicking the **Close** button.
 
 !!! note "Autosave"
 
-    To help you preserve your work, [[= product_name =]] saves drafts of Content items automatically.
+    To help you preserve your work, [[= product_name =]] saves drafts of content items automatically.
     For more information, see [Autosave](content_versions.md#autosave).
 
 ## Edit Page
@@ -196,20 +196,20 @@ After you change the block settings, click **Submit** to save the changes or **D
 
 #### Edit embedded items
 
-You can edit embedded Content items without leaving Page Builder.
+You can edit embedded content items without leaving Page Builder.
 
-To do it, first select Content item that you want to insert in the block.
+To do it, first select content item that you want to insert in the block.
 Then, click the icon on the right side and click **Edit**.
 
-![Edit embedded Content item](img/edit_embedded_content_item.png "Edit embedded Content item")
+![Edit embedded content item](img/edit_embedded_content_item.png "Edit embedded content item")
 
-This action opens a new tab in the browser with an editing screen of the selected Content item.
+This action opens a new tab in the browser with an editing screen of the selected content item.
 When you finish editing the item, click **Publish** and go back to Page Builder tab.
-All the Content item details automatically update in the block window.
+All the content item details automatically update in the block window.
 
-If the Content item has more than one translation available, you need to select the language.
+If the content item has more than one translation available, you need to select the language.
 
-![Edit embedded Content item - select language](img/edit_item_select_language.png "Edit embedded Content item - select language")
+![Edit embedded content item - select language](img/edit_item_select_language.png "Edit embedded content item - select language")
 
 This function is available for following blocks:
 
@@ -251,4 +251,4 @@ There are several options for saving work on the page:
 |Save draft|Save the page draft*.|
 |Delete draft|Delete the page draft.|
 
-* To help you preserve your work, system saves drafts of Content items automatically. For more information, see [Autosave](https://doc.ibexa.co/projects/userguide/en/master/content_management/content_versions/#autosave).
+* To help you preserve your work, system saves drafts of content items automatically. For more information, see [Autosave](https://doc.ibexa.co/projects/userguide/en/master/content_management/content_versions/#autosave).

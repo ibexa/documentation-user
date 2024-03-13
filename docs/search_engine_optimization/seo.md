@@ -27,8 +27,8 @@ A `Canonical` tag is used by the search engine's internal algorithm.
 After you define the tags for your content, they are rendered as part of the `<HEAD>` 
 section of a web page, from where the search engine intercepts their values.
 
-- `Title` is displayed as a prominent heading in the search. You want to make it relevant and attractive for users to click on. It represents the title of the Content item that you want to promote.
-- `Description` appears next to or below the title. Here you tell visitors what the content is about. Your goal is to optimize it for better visibility both on desktop and mobile.  It represents a summary of your Content item
+- `Title` is displayed as a prominent heading in the search. You want to make it relevant and attractive for users to click on. It represents the title of the content item that you want to promote.
+- `Description` appears next to or below the title. Here you tell visitors what the content is about. Your goal is to optimize it for better visibility both on desktop and mobile.  It represents a summary of your content item
 - `Keywords` can help the search engine position the results. Keywords can be ideas and topics that define what your content is about.
 - `Canonical URL` tells search engines which copy of content is the original that should appear in search results. It prevents duplicates from competing against each other.
 

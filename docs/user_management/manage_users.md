@@ -4,12 +4,12 @@ description: You can view and manage user accounts in your system.
 
 # Manage users
 
-Users in [[= product_name =]] are treated the same way as other Content items.
+Users in [[= product_name =]] are treated the same way as other content items.
 They are organized in groups, which helps you manage them and their permissions.
 
 You can view all User Groups and Users in the **Admin Panel** by selecting **Users**.
 Here, you can manage users, their relations, Roles and Policies.
-As you can see, the interface is the same as when working with regular Content items.
+As you can see, the interface is the same as when working with regular content items.
 
 
 ![Users section](img/users_section.png)

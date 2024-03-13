@@ -33,7 +33,7 @@ To learn more about the function of each of the tags, see [Meta tags](seo.md#met
 
 When you populate the SEO fields, you can create patterns by using a schema with 
 attributes which correspond to identifiers of fields that make up the content type.
-As a result, SEO tags are filled in at Content item generation phase with specific 
+As a result, SEO tags are filled in at content item generation phase with specific 
 contents of such fields. For example, if you enter `<title>.<format> - <author>` 
 as a value of the **Title** tag, the search engine will return 
 `Silmarillion. Illustrated edition - J.R.R. Tolkien`.
@@ -46,25 +46,25 @@ to configure the Facebook and Twitter presentation respectively.
 <!--If you leave these fields blank, social media snippets are generated based on 
 the definitions that you provided in the search engine meta tag fields.-->
 
-## Preview meta tags of Content item
+## Preview meta tags of content item
 
-You can preview what the actual SEO tags for a specific Content item 
+You can preview what the actual SEO tags for a specific content item 
 will look like when they are passed to a search engine or social media platform.
 
-1. In Content Tree, navigate to the Content item.
-2. On the Content item details screen, click the SEO tab.
+1. In Content Tree, navigate to the content item.
+2. On the content item details screen, click the SEO tab.
 3. Review the contents of the **resolved** fields.
 
-![SEO tab in Content item details](img/SEO_tab.png)`
+![SEO tab in content item details](img/SEO_tab.png)`
 
-## Override meta tags of Content item
+## Override meta tags of content item
 
-When you want a specific Content item to appear in search results differently than 
+When you want a specific content item to appear in search results differently than 
 the other items of a specific content type, you can override the contents of SEO tags.
 You might want, for example, to add a shout out to the title after the author of content 
 receives a literary prize.
 
-1. In Content Tree, navigate to the Content item, and click the **Edit** button.
+1. In Content Tree, navigate to the content item, and click the **Edit** button.
 2. Go to the **SEO** section and, in relevant fields, replace the patterns that 
 originate from the [content type definition](#define-meta-tags). 
 3. **Publish** your changes, **Save and close** or **Delete draft** to return to the Content Tree.

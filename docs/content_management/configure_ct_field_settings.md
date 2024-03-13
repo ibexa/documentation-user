@@ -16,10 +16,10 @@ You can only create or modify content types when your [user Role](../permission_
 
 3\. If your application requires a more granular organization of Fields within a content type, click **+ Add** to add more sections.
 
-When you add a **Metadata** section, it is later presented as an additional tab in [Content item](content_items.md) editing screen.
+When you add a **Metadata** section, it is later presented as an additional tab in [content item](content_items.md) editing screen.
 You can use it for tags, product categories, and so on.
-When you add other sections, they are later presented as anchors in Content item editing screen.
-All sections are later presented as headers on the Content item details screen, the **View** tab.
+When you add other sections, they are later presented as anchors in content item editing screen.
+All sections are later presented as headers on the content item details screen, the **View** tab.
 
 4\. Add, reorder or remove Fields as required:
 
@@ -49,15 +49,15 @@ Depending on their type, Fields can have different combinations of the following
 --------|-----------|---|
 |Name|A user-friendly name that describes the Field, used in the interface. It can be up to 255 characters long and consist of letters, digits, spaces and special characters.|Required|
 |Identifier|An identifier for system use in configuration files, templates, or PHP code. It can be up to 50 characters long and can only contain lowercase letters, digits and underscores. Also used in name patterns for the content type.|Required|
-|Description|A detailed description of the Field. It is displayed next to it when the user edits the Content item.|Optional|
-|Required|Indicates whether a value of the Field is required for the Content item to be saved or published.|Optional|
+|Description|A detailed description of the Field. It is displayed next to it when the user edits the content item.|Optional|
+|Required|Indicates whether a value of the Field is required for the content item to be saved or published.|Optional|
 |Searchable|Indicates whether a value of the Field is included in the search.|Optional|
 |Translatable|Indicates whether a value of the Field can be translated.|Optional|
 |Can be a thumbnail|Indicates whether the Field can be a thumbnail.|Optional|
 
 ## Default configuration of pages
 
-The following settings control the behavior of Content items of [Page](../content_management/create_edit_pages.md) type. 
+The following settings control the behavior of content items of [Page](../content_management/create_edit_pages.md) type. 
 You modify them in the **Field definitions** section, the **Landing Page** Field.
 
 ### Block display
@@ -105,16 +105,16 @@ Field in a content type, you can decide:
 
 - which Content Tree location opens in the 
 [Content Browser](content_model.md#content-browser) when the user browses to a related 
-Content item 
-- whether relations can be to Content items of a specific type only, or any content type
+content item 
+- whether relations can be to content items of a specific type only, or any content type
 
 #### Relation starting location
 
 In the **Select starting Location** area, select from the available options:
 
-- **Default** - the starting location is automatically assigned to the default location in the tree of a created Content item.
+- **Default** - the starting location is automatically assigned to the default location in the tree of a created content item.
 - **Browse** - use to manually select the location from the Content Browser.
-- **Content location** - the starting location is the location of the Content item that is edited by the user. For example, if the user edits the Content item with the location `50`, it sets the starting location to this value with children under this location.
+- **Content location** - the starting location is the location of the content item that is edited by the user. For example, if the user edits the content item with the location `50`, it sets the starting location to this value with children under this location.
 - **Root default location** - use if you want the Content Browser to start at the defined location with only children available for selection.
 
 ![Select starting location](img/select_start_location.png "Selecting a starting location")

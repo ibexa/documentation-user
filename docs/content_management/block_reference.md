@@ -9,28 +9,28 @@ The following blocks are provided with a clean installation of [[= product_name 
 
 |Block|Description|
 |-----|-----------|
-|[Banner](#banner-block)|Displays an image Content item with a URL attached to it.|
+|[Banner](#banner-block)|Displays an image content item with a URL attached to it.|
 |[Bestsellers](#bestsellers-block)|Displays a list of products that were recently a bestseller.|
 |[Catalog](#catalog-block)|Displays products from a specific catalog to a selected customer group.|
 |[Code](#code-block)|Enables you to place text, links, images, etc. on your Page using custom HTML.|
-|[Collection](#collection-block)|Displays a set of Content items you select manually from the Content structure. |
-|[Content List](#content-list-block)|Displays Content items of a chosen content type (or Types) that are contained in a selected folder. |
-|[Content Scheduler](schedule_publishing.md#content-scheduler-block)|Displays Content items at a pre-defined time. |
+|[Collection](#collection-block)|Displays a set of content items you select manually from the Content structure. |
+|[Content List](#content-list-block)|Displays content items of a chosen content type (or Types) that are contained in a selected folder. |
+|[Content Scheduler](schedule_publishing.md#content-scheduler-block)|Displays content items at a pre-defined time. |
 |[Dynamic targeting](#dynamic-targeting-block)|Embeds recommended items based on the [Segment](content_organization/classify_content.md#segments) the user belongs to. |
-|[Embed](#embed-block)|Embeds a Content item of any content type on the Page. |
-|[Form](#form-block)|Embeds a Form Content item that you select from the Content Structure. |
+|[Embed](#embed-block)|Embeds a content item of any content type on the Page. |
+|[Form](#form-block)|Embeds a Form content item that you select from the Content Structure. |
 |[Gallery](#gallery-block)|Displays all images contained in a selected folder. |
 |[Ibexa Connect](#ibexa-connect-block)|Retrieves and displays data from an Ibexa Connect webhook. |
 |[Last purchased](#last-purchased-block)|Displays a list of products that were recently purchased from PIM. |
 |[Last viewed](#last-viewed-block)|Displays a list of products from PIM that were recently viewed. |
 |[Orders](#orders-block)|Displays a list of orders associated with a particular company or individual customer. |
-|[Personalized](#personalized-block)|Displays a list of Content items/products that are recommended to end users when specific scenarios are triggered. |
+|[Personalized](#personalized-block)|Displays a list of content items/products that are recommended to end users when specific scenarios are triggered. |
 |[Product collection](#product-collection-block)|Displays a list of specifically selected products.|
 |[Recently added](#recently-added-block)|Displays a list of products that were recently added to PIM. |
 |[RSS](#rss-block)|Loads and displays news from RSS feeds (channels). |
 |[Sales representative](#sales-representative)|Loads and displays company's sales representative.|
 |[SeenThis!](#seenthis-block)|Displays video with exceeded standard video restrictions of 3.5MB.|
-|[Targeting](#targeting-block)|Embeds an Content item based on the [Segment](content_organization/classify_content.md#segments) the user belongs to. |
+|[Targeting](#targeting-block)|Embeds an content item based on the [Segment](content_organization/classify_content.md#segments) the user belongs to. |
 |[Text](#text-block)|Enables you to add to the Page a Rich Text block. |
 |[Video](#video-block)|Embeds a video into the Page with standard playback controls. |
 
@@ -112,22 +112,22 @@ On the **Properties** tab, set values in the following fields:
 
 ## Collection block
 
-Displays a collection of Content items manually selected from the Content structure, allowing you to feature specific content for promotional campaigns or highlight essential information on your website.
+Displays a collection of content items manually selected from the Content structure, allowing you to feature specific content for promotional campaigns or highlight essential information on your website.
 On the **Properties** tab, set values in the following fields:
 
 - **Name** — Enter a name for the page block.
-- **Location list** — Click **Select content**, browse the available content, and add to the collection Content items of any content type you want.
+- **Location list** — Click **Select content**, browse the available content, and add to the collection content items of any content type you want.
 
-All selected Content items appear in the **Selected items** box at the bottom of the window.
+All selected content items appear in the **Selected items** box at the bottom of the window.
 When done selecting, click **Confirm**.
 
 ## Content List block
 
-Displays Content items of specified content type from a selected folder, simplifying access to categorized information or targeted content presentation on your site.
+Displays content items of specified content type from a selected folder, simplifying access to categorized information or targeted content presentation on your site.
 On the **Properties** tab, set values in the following fields:
 
 - **Name** — Enter a name for the page block.
-- **Parent** — Click **Select content**, browse the content, and select a folder containing Content items to display in the list.
+- **Parent** — Click **Select content**, browse the content, and select a folder containing content items to display in the list.
 - **Limit** — Set the number of products to be displayed.
 - **Content types to be displayed** — Select content type(s) to be displayed.
 
@@ -149,22 +149,22 @@ The rules are checked in order, so when a user belongs to more than one Segment,
 
 ## Embed block
 
-Place any Content item directly on the page. This function works across all content types seamlessly.
+Place any content item directly on the page. This function works across all content types seamlessly.
 On the **Properties** tab, set values in the following fields:
 
 - **Name** — Enter a name for the page block.
-- **Content** — Click **Select content**, browse the content, and select a Content item.
+- **Content** — Click **Select content**, browse the content, and select a content item.
 
 ## Form block
 
 Place a selected form from the content structure onto the page.
 Integrate specific forms into your content to enhance client interaction.
-Completing the settings of the Form block requires at least one Form Content item created.
+Completing the settings of the Form block requires at least one Form content item created.
 
 On the **Properties** tab, set values in the following fields:
 
 - **Name** — Enter a name for the page block.
-- **Form** — Click **Select content**, browse the content, and select a Form Content item to append it to the block.
+- **Form** — Click **Select content**, browse the content, and select a Form content item to append it to the block.
 
 !!! caution "Known limitation"
 
@@ -181,7 +181,7 @@ On the **Properties** tab, set values in the following fields:
 - **Folder** — Click **Select content**, browse the content, and select a folder containing images to display.
 
 After submitting the settings, all images in the folder are shown in the Gallery block.
-Selecting a folder containing Content items other than images results in displaying only a link to the folder where they are stored.
+Selecting a folder containing content items other than images results in displaying only a link to the folder where they are stored.
 
 ## Ibexa Connect block
 
@@ -231,7 +231,7 @@ On the **Properties** tab, set values in the following fields:
 
 ## Personalized block
 
-Showcases recommended Content items or products triggered by specific scenarios for end users.
+Showcases recommended content items or products triggered by specific scenarios for end users.
 Enhances user experience by suggesting tailored options for various situations.
 On the **Properties** tab, set values in the following fields:
 
@@ -317,9 +317,9 @@ Targeting block provides recommendation of content based on users related to the
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
-- **Select default content** — Click **Select content**, browse the content, and choose the default Content item to display when no priority rules are valid.
+- **Select default content** — Click **Select content**, browse the content, and choose the default content item to display when no priority rules are valid.
 - **Setup segment and content matching priority rules** — Select a Segment Group and a Segment,
-then click **Select content** and navigate to the Content item that you want to display for the selected group.
+then click **Select content** and navigate to the content item that you want to display for the selected group.
 
 The rules are checked in order, so when a user belongs to more than one Segment, the first rule applies.
 
