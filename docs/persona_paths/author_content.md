@@ -1,10 +1,10 @@
 ---
-description: Add and modify various Content items, such as pages, articles, forms, or media.
+description: Add and modify various content items, such as pages, articles, forms, or media.
 ---
 
 # Author content
 
-In [[= product_name =]] you store content data in Content items. Learn to add and modify various Content items, so that you can then show them to the audience.
+In [[= product_name =]] you store content data in content items. Learn to add and modify various content items, so that you can then show them to the audience.
 
 [[= cards([
     "content_management/content_items",

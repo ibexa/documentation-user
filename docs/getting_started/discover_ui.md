@@ -19,7 +19,7 @@ Depending on your location within the Back Office, it can contain the following 
 !!! note "Site context"
 
     Changing the site context results in the [Content Tree](#content-tree) showing content items that belong to the selected website.
-    The appearance of Content items can also change if they use different designs or languages depending on the [SiteAccess](../website_organization/multisite.md#siteaccess) settings.
+    The appearance of content items can also change if they use different designs or languages depending on the [SiteAccess](../website_organization/multisite.md#siteaccess) settings.
 
 ![Top bar with site context selector](img/top_bar.png "Top bar with site context selector")
 
@@ -67,7 +67,7 @@ For more information on custom configuration, go to [Content Tree]([[= developer
 ## Content browser
 
 During your work with [[= product_name =]] you might need to select content from the Repository.
-This happens, for example, when you want to move or copy a Content item, embed an image, link two Content items, etc.
+This happens, for example, when you want to move or copy a content item, embed an image, link two content items, etc.
 In such cases, you use the **Content Browser**.
 
 To access the **Content Browser**, go to the **Content** tab and select **Content structure** or **Media**.
@@ -105,17 +105,17 @@ Settings unavailable in Content area
 ![Content tab in Focus mode](img/FM_menu_without_settings.png)
 
 Content item view
-: If you select a specific [SiteAccess](translate_content.md#siteaccess) from the **Site context** drop-down list on the right side of the top bar and then browse Content items in Content Tree, they are displayed in full view, with a limited set of actions available.
-To display the Content item details view with more actions, click **Exit full view**.
+: If you select a specific [SiteAccess](translate_content.md#siteaccess) from the **Site context** drop-down list on the right side of the top bar and then browse content items in Content Tree, they are displayed in full view, with a limited set of actions available.
+To display the content item details view with more actions, click **Exit full view**.
 
 ![Content item in full view](img/FM_content_item_full_view.png "Content item in full view")
 
 !!! tip
 
-    Even when you're out of the full view or not in Focus mode, you can still preview the Content item in the **View** tab.
+    Even when you're out of the full view or not in Focus mode, you can still preview the content item in the **View** tab.
 
 Different details view tabs in Focus mode and when it is disabled
-: In Focus mode, the tabs in Content item's detail view are different than the ones visible when it is disabled.
+: In Focus mode, the tabs in content item's detail view are different than the ones visible when it is disabled.
 Additionally, they are displayed in different order to expose the ones that are more important from the editor's perspective.
 
 ![Content item tabs in Focus mode](img/FM_less_ci_tabs.png "Content item tabs in Focus mode")

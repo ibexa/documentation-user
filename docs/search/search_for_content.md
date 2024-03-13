@@ -8,9 +8,9 @@ You can enter a search keyword and the application checks all the searchable Fie
 ![Basic Search](img/basic_search.png)
 
 You can also select a language to search in.
-The results will contain Content items that are translated into this language.
+The results will contain content items that are translated into this language.
 
-The result list also shows which languages the Content item is translated to.
+The result list also shows which languages the content item is translated to.
 
 ## Filtered search
 

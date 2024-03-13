@@ -1,10 +1,10 @@
 ---
-description: Create multiple language versions of Content items.
+description: Create multiple language versions of content items.
 ---
 
 # Translate content
 
-The content on your website can be translated into different languages. Each Content item can have different language versions.
+The content on your website can be translated into different languages. Each content item can have different language versions.
 The version visible to a visitor depends on the way your installation is set up (see [SiteAccess concept](#edit-page-for-different-language-versions-of-a-website)).
 
 ## Add website languages
@@ -25,7 +25,7 @@ After adding a language, you may have to reload the application to be able to us
 
 ## Add translations
 
-1\. In the left panel, go to **Content** -> **Content structure**. Then select a Content item.
+1\. In the left panel, go to **Content** -> **Content structure**. Then select a content item.
 
 2\. Go to **Translations** tab and click **+ Add**.
 
@@ -37,18 +37,18 @@ If you do not choose a base translation, the Fields remain empty.
 While working, you can save your work and continue or click **Delete draft** to discard your changes.
 When done, you can save your work and close the window, publish the translated article immediately, or pick another publication date.
 
-Every time you add or edit a translation, a new version of the Content item is created,
+Every time you add or edit a translation, a new version of the content item is created,
 the same way as when editing only one language.
 
 ![Adding a new translation](img/adding_translation.png "Adding a new translation")
 
 ## Translation comparison
 
-You can compare different versions of the translations of the Content item.
+You can compare different versions of the translations of the content item.
 
 1\. [disable the Focus mode](../getting_started/discover_ui.md#disable-focus-mode).
 
-2\. In the left panel, go to **Content** -> **Content structure**. Then select a Content item.
+2\. In the left panel, go to **Content** -> **Content structure**. Then select a content item.
 
 3\. Go to **Versions** tab and click the **Version compare** icon: ![Version Compare Icon](img/version_compare_icon.png){.inline-image}.
 
@@ -56,7 +56,7 @@ You can compare different versions of the translations of the Content item.
 
 ![View switcher](img/view_switcher.png "View switcher")
 
-5\. From the drop-downs, select two different language versions of the same Content item.
+5\. From the drop-downs, select two different language versions of the same content item.
 The screen refreshes to display the side by side view of its Fields.
 
 ![Compare translations screen](img/compare_translations.png "Compare translations screen")
