@@ -111,11 +111,19 @@ On the **Design** tab, in the **View** field, select the layout to be used to pr
 
 ## Recent activity block [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
-Displays a list of recent activity of all or selected users.
-It also includes a link to view all activities available in Admin tab.
+Displays recent activity of all or selected users, and for selected object classes. Lists the following details:
 
-Recent activity block contains the following data: action time, User reference (avatar, first and last name) with a link to the user profile (if available),
-Activity type with the context.
+- action time
+- user reference (avatar, first and last name) with a link to the user profile (if available)
+- activity type with context
+
+It also includes a link to view all activities in the Admin tab of the Back Office.
+
+!!! note
+
+    For the [recent activity](recent_activity.md) log to be displayed, your [user role](permission_system.md) must have the **Activity Log / Read** permission.
+
+
 
 On the **Properties** tab, set values in the following fields:
 

@@ -1,19 +1,29 @@
 ---
-description: Monitor recent activity logged actions.
+description: Monitor recently logged user actions.
+edition: experience
 ---
 
-# Recent activity log [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
+# Review recent user activity
 
-## Activity list
+[[= product_name =]] logs various operations on the repository and in the application.
+If you have administrator permissions and your [user role](permission_system.md) has the **Activity Log / Read** permission, you can review the most recent activity log in the Back Office, the Admin tab.
 
-In the Back Office, **Admin** -> **Activity list**, you can see a list of recent activity of all or selected users.
+Depending on the system configuration, activity logs may also be shown:
+
+- on the Dashboard, the [Recent activity block](dashboard_block_reference.md#recent-activity-block)
+- within the [user profile](../getting_started/get_started.md#view-and-edit-user-profile)
 
 !!! note
 
-    To see the **Admin** menu, you need the **Setup / Administrate** [permission](permission_system.md).
-    To see the Activity list, you need the **Activity Log / Read** permission (this permission can be limited to allow seeing your own activity only).
+    By default, log entries are kept for 30 days.
+    This time can be modified through configuration.
+    For more information, see [developer documentation]([[= developer_doc =]]/administration/recent_activity/recent_activity/#configuration-and-cronjob).
 
-By default, the following actions are displayed:
+## View user activity in Back Office
+
+In the Back Office, go to **Admin** -> **Activity list**, to see recent activity of all or selected users.
+
+The following actions are displayed:
 
 - [Content](content_items.md) create, create draft, publish, update, trash, recover, delete, delete translation, hide, and reveal
 - [Location](manage_locations_urls.md#content-locations) create, delete, hide, reveal, update, move, swap, and subtree copy
@@ -21,50 +31,24 @@ By default, the following actions are displayed:
 - [Product variant](work_with_product_variants.md) create, update, and delete
 - [Site](work_with_sites.md) create, update, and delete
 
-By default, log entries are kept 30 days.
-
 Log entries are grouped by logical bonds like web requests, events, batches, or sessions.
 
-![Activity list](img/4.6_activity_list.png)
+![Activity list](img/4.6_activity_list.png "Activity list")
 
 !!! note
 
-    With some development, some other actions could be logged, see [custom log entry developer documentation]([[= developer_doc =]]/administration/recent_activity/recent_activity/#adding-custom-activity-log-entries)
+    If your implementation requires that other actions are logged, see [custom log entry developer documentation]([[= developer_doc =]]/administration/recent_activity/recent_activity/#adding-custom-activity-log-entries).
 
-    The log entries' life time can be shorten or extended through configuration, see [configuration developer documentation]([[= developer_doc =]]/administration/recent_activity/recent_activity/#configuration-and-cronjob)
+### Filter activity
 
-### Filter activities
+You can filter the actions to:
 
-You can filter the activities to:
+* follow the activity of a selected user or user group
+* narrow down the results to selected item types or actions
 
-* follow the activity of selected users or user group,
-* narrow the results to selected item types, or actions.
+To do it, in the **Filters** area, select filters of your choice, and click **Apply**.
+Click **Clear** to reset all the filters.
 
-To do it, on the right side, in the **Filters** menu, choose selected filters, and click the **Apply** button.
-Click the **Clear** button to reset all the filters.
+For example, you can narrow down the results by selecting the **Action** and **Time** filters, so that the activity list displays actions only of the `Publish` type from `Last week`.
 
-The following example shows, how to narrow the results by selecting **Action** and **Time** filters.
-With these settings, activity list displays only `Publish` actions from `Last week` time period.
-
-![Published last week](img/filters.png)
-
-## Recent activity dashboard block [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
-
-You can add a [**Recent activity** block](dashboard_block_reference.md#recent-activity-block) to your [dashboard](dashboard.md).
-To be able to customize a dashboard, you need the **Dashboard / Customize** permission.
-To be able to see the content of this block, you need the **Activity Log / Read** permission.
-
-!["Recent activity" block](img/recent_activity_block.png)
-
-You can set the block to display only activities of selected users, or concerning particular object classes.
-
-For example, the following dashboard block focuses on Content and Location activity.
-
-!["Content recent activity" block settings](img/recent_activity_block_settings.png)
-
-## User profile
-
-[User profile](get_started.md#view-and-edit-user-profile) displays recent activity of the user.
-To be able to see recent activity log, you need the **Activity Log / Read** permission.
-
-![Recent activity in the user profile](img/recent_activity_user_profile.png)
+![Published last week filter set](img/filters.png "Published last week filter set")
