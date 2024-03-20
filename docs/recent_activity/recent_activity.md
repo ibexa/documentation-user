@@ -5,28 +5,39 @@ edition: experience
 
 # Recent activity log
 
-## Activity list
+[[= product_name =]] logs various operations on the repository and in the application.
 
-In the Back Office, **Admin** -> **Activity list**, you can see a list of recent activity of all or selected users.
+If you have **Setup / Administrate** and **Activity Log / Read** [permissions](permission_system.md),
+you can review the most recent activity log in  the Back Office, **Admin** -> **Activity list**.
+
+![Activity list](img/4.6_activity_list.png "Activity list")
+
+By default, actions on the following items are displayed:
+
+- [Content](content_items.md)
+- [Location](manage_locations_urls.md#content-locations)
+- [Product](products.md)
+- [Product variant](work_with_product_variants.md)
+- [Site](work_with_sites.md)
 
 !!! note
 
-    To see the **Admin** menu, you need the **Setup / Administrate** [permission](permission_system.md).
-    To see the Activity list, you need the **Activity Log / Read** permission (this permission can be limited to allow seeing your own activity only).
+    If your implementation requires that other actions are logged,
+    see [custom log entry developer documentation]([[= developer_doc =]]/administration/recent_activity/recent_activity/#adding-custom-activity-log-entries).
 
-By default, the following actions are displayed:
+    By default, log entries are kept for 30 days.
+    This time can be modified through configuration.
+    For more information, see [developer documentation]([[= developer_doc =]]/administration/recent_activity/recent_activity/#configuration-and-cronjob).
 
-- [Content](content_items.md) create, create draft, publish, update, trash, recover, delete, delete translation, hide, and reveal
-- [Location](manage_locations_urls.md#content-locations) create, delete, hide, reveal, update, move, swap, and subtree copy
-- [Product](products.md) create, update, and delete
-- [Product variant](work_with_product_variants.md) create, update, and delete
-- [Site](work_with_sites.md) create, update, and delete
+Log entries are grouped by date,
+then by logical bond (like web request, or migration file).
 
-By default, log entries are kept 30 days.
+Each activity log entry shows
 
-Log entries are grouped by logical bonds like web requests, events, batches, or sessions.
-
-![Activity list](img/4.6_activity_list.png)
+- when the action was performed,
+- who performed it (avatar, first name, last name),
+- the action itself as a verb,
+- and the item the action was performed on.
 
 !!! note
 
@@ -34,7 +45,12 @@ Log entries are grouped by logical bonds like web requests, events, batches, or 
 
     The log entries' life time can be shorten or extended through configuration, see [configuration developer documentation]([[= developer_doc =]]/administration/recent_activity/recent_activity/#configuration-and-cronjob)
 
-### Filter activities
+Depending on the system configuration, activity logs may also be shown:
+
+- on the Dashboard with the [Recent activity block](dashboard_block_reference.md#recent-activity-block)
+- within the [user profile](get_started.md#edit-user-profile) 
+
+## Filter activities
 
 You can filter the activities to:
 
@@ -47,25 +63,4 @@ Click the **Clear** button to reset all the filters.
 The following example shows, how to narrow the results by selecting **Action** and **Time** filters.
 With these settings, activity list displays only `Publish` actions from `Last week` time period.
 
-![Published last week](img/filters.png)
-
-## Recent activity dashboard block [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
-
-You can add a [**Recent activity** block](dashboard_block_reference.md#recent-activity-block) to your [dashboard](dashboard.md).
-To be able to customize a dashboard, you need the **Dashboard / Customize** permission.
-To be able to see the content of this block, you need the **Activity Log / Read** permission.
-
-!["Recent activity" block](img/recent_activity_block.png)
-
-You can set the block to display only activities of selected users, or concerning particular object classes.
-
-For example, the following dashboard block focuses on Content and Location activity.
-
-!["Content recent activity" block settings](img/recent_activity_block_settings.png)
-
-## User profile
-
-User profile displays recent activity of the user.
-To be able to see recent activity log, you need the **Activity Log / Read** permission.
-
-![Recent activity in the user profile](img/recent_activity_user_profile.png)
+![Published last week](img/filters.png "Published last week filter set")
