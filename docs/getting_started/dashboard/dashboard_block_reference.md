@@ -126,6 +126,10 @@ On the **Properties** tab, set values in the following fields:
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of content items for review and submit your changes.
 
+!!! note
+
+    For the [recent activity](recent_activity.md) log to be displayed, you must have the **Activity Log / Read** [permission](permission_system.md).
+
 ## Recent orders block [[% include 'snippets/commerce_badge.md' %]]
 
 Displays a table presenting recent orders with the newest creation date/recently placed.
