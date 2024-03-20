@@ -1,8 +1,9 @@
 ---
 description: Monitor recent activity logged actions.
+edition: experience
 ---
 
-# Recent activity log [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
+# Recent activity log
 
 ## Activity list
 
