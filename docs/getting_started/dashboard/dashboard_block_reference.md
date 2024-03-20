@@ -114,7 +114,8 @@ On the **Design** tab, in the **View** field, select the layout to be used to pr
 Displays a list of recent activity of all or selected users.
 It also includes a link to view all activities available in Admin tab.
 
-Recent activity block contains the following data: action time, User reference (avatar, first and last name) with a link to the user profile (if available),
+Recent activity block contains the following data: action time,
+User reference (avatar, first and last name) with a link to the user profile (if available),
 Activity type with the context.
 
 On the **Properties** tab, set values in the following fields:
