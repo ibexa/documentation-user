@@ -35,9 +35,32 @@ Otherwise, to login, you must get your user credentials from the administrator a
 
 ![Login screen](img/login_form.png "Login screen")
 
-### Edit user profile
+### View and edit user profile
 
-You can edit your profile and modify the following data:
+If you are an editor, depending on the system configuration, you may be able to view and edit the user profile, which can contain the following information:
+
+- Avatar image
+- First and last name
+- Email
+- Department
+- Position
+- Location
+- Signature
+- Roles the user is assigned to
+- Recent activity
+
+!!! note
+
+    For the [recent activity](recent_activity.md) log to be displayed, your [user role](../permission_management/permissions_and_users.md) must have the **Activity Log / Read** permission.
+
+![User profile](img/user_profile_preview.png "User profile")
+
+To access your user profile, in the upper-right corner of the screen, click your avatar icon.
+Then, from the drop-down menu, select **Profile**.
+
+To edit your user profile, in the **User profile** screen, in the **Summary** section, click **Edit**.
+
+You can now modify the following entries:
 
 - Avatar image
 - First and last name
@@ -45,24 +68,20 @@ You can edit your profile and modify the following data:
 - Department
 
 !!! note
+
     The fields may differ depending on your system configuration.
 
-1\. To modify profile, in the upper-right corner, click the avatar icon. 
-
-2\.From the drop-down menu, select **Profile**.
-
-3\. In the User profile screen, in the **Summary** section, click **Edit**.
-
-4\. Go to **Image** and click **Upload file** or drag and drop your photo.
-If necessary, you can edit the foto with the Image Editor.
+To edit your avatar, in the **Image** area, click **Upload file** or drag and drop your photo.
+If necessary, you can [edit the photo with the Image Editor](edit_images.md).
+After you finish, the avatar is uploaded and is visible in the Back Office.
 
 ![Edit avatar](img/user_profile_avatar.png "Edit avatar")
 
-5\. Now your avatar photo has been uploaded and is visible in the Back Office.
+!!! note
 
-6\. To save changes, click **Update**.
+    If you don't set your own image, a default avatar with your initials is displayed.
 
-If you don't set your own image, a default avatar with your initials is displayed.
+To save changes to the user profile, click **Update**.
 
 ### Change the password and other user settings
 
