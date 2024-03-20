@@ -37,7 +37,7 @@ Otherwise, to login, you must get your user credentials from the administrator a
 
 ### View and edit user profile
 
-If you are an editor, depending of the system configuration, you may be able to view and edit the user profile, which can contain the following information:
+If you are an editor, depending on the system configuration, you may be able to view and edit the user profile, which can contain the following information:
 
 - Avatar image
 - First and last name
@@ -55,10 +55,10 @@ If you are an editor, depending of the system configuration, you may be able to 
 
 ![User profile](img/user_profile_preview.png "User profile")
 
-To access the user profile, in the upper-right corner of the screen, click your avatar icon.
+To access your user profile, in the upper-right corner of the screen, click your avatar icon.
 Then, from the drop-down menu, select **Profile**.
 
-To edit the user profile, in the User profile screen, in the **Summary** section, click **Edit**.
+To edit your user profile, in the **User profile** screen, in the **Summary** section, click **Edit**.
 
 You can now modify the following entries:
 
@@ -67,8 +67,12 @@ You can now modify the following entries:
 - Signature
 - Department
 
+!!! note
+
+    The fields may differ depending on your system configuration.
+
 To edit your avatar, in the **Image** area, click **Upload file** or drag and drop your photo.
-If necessary, you can edit the photo with the Image Editor.
+If necessary, you can [edit the photo with the Image Editor](edit_images.md).
 After you finish, the avatar is uploaded and is visible in the Back Office.
 
 ![Edit avatar](img/user_profile_avatar.png "Edit avatar")
