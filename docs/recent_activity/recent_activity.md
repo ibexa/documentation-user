@@ -10,7 +10,7 @@ edition: experience
 If you have **Setup / Administrate** and **Activity Log / Read** [permissions](permission_system.md),
 you can review the most recent activity log in  the Back Office, **Admin** -> **Activity list**.
 
-![Activity list](img/4.6_activity_list.png "Activity list")
+![Activity list](4.6_activity_list.png "Activity list")
 
 By default, actions on the following items are displayed:
 
@@ -63,4 +63,4 @@ Click the **Clear** button to reset all the filters.
 The following example shows, how to narrow the results by selecting **Action** and **Time** filters.
 With these settings, activity list displays only `Publish` actions from `Last week` time period.
 
-![Published last week](img/filters.png "Published last week filter set")
+![Published last week](recent_activity_filters.png "Published last week filter set")
