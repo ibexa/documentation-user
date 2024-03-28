@@ -16,7 +16,7 @@ User profile-based filters are applicable in both publishing and eCommerce use c
 
 |Filter|Requirements and restrictions|
 |---|---|
-|Do not recommend the item currently viewed|When you activate this filter, it removes the context items from the recommendation list. You might not want to use this filter if your strategy is based on the "Bundle" and ["Ultimately bought"](recommendation_models.md#ultimately-bought) models.|
+|Do not recommend the item currently viewed|When you activate this filter, it removes the context items from the recommendation list. You might not want to use this filter if your strategy is based on the ["Ultimately bought"](recommendation_models.md#ultimately-bought) model.|
 |Do not recommend items the user already consumed|The Personalization service stores the CONSUME events of every user for one year. When you activate this filter, the user will not be recommended the consumed content again.|
 |Max. repeated shows of identical recommendations per session|When you activate this filter and set a value, after a content item/product is recommended a certain number of times during the current user session, it is removed from all recommendation lists.|
 
