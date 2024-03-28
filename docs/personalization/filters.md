@@ -75,7 +75,7 @@ For every recommendation scenario a set of filters can be defined. They are appl
 |---|---|
 |Do not recommend items the user has already purchased|The recommendation engine stores the buy (e-commerce) and consume (publisher) events of every user for one year. When this filter is activated, the user won't get these products recommended again.|
 |Max. repeated shows of identical recommendations per session|If this filter is activated, this content/product will be removed from all recommendation lists of the current user session after being recommended n times before.|
-|Do not recommend the item currently viewed|Remove the context items from the recommendation list. Usually it makes sense to activate this filter except in the "Bundle" and "Ultimately bought" recommendation case ([6. Recommendation Models](recommendation_models.md)).|
+|Do not recommend the item currently viewed|Remove the context items from the recommendation list. Usually it makes sense to activate this filter except in the "Ultimately bought" recommendation case ([6. Recommendation Models](recommendation_models.md)).|
 
 **Filters which are available only in the advanced solution**
 
