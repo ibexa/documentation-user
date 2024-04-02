@@ -2,7 +2,7 @@
 description: Get started with Ibexa DXP by logging in to the Back Office.
 ---
 
-# Get started
+# Get started - THIS IS A TEST
 
 [[= product_name =]] consists of the technical platform for creating and managing 
 online experiences, designed for developers and end-users alike.
