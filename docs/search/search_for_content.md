@@ -9,7 +9,7 @@ You can enter a search keyword and the application checks all the searchable Fie
 ![Basic Search](img/basic_search.png)
 
 Everywhere in the Back Office, completion suggestions are proposed while you type in the search box.
-In addition to clicking in it, you can also move focus to search bar using the keyboard shortcut `Ctrl+/` on Windows/Linux, or `Cmd+/` on macOS.
+In addition to clicking in the search box, you can also move focus to it by using the keyboard shortcut `Ctrl+/` on Windows/Linux, or `Cmd+/` on macOS.
 
 - If a suggestion is what you're looking for, to use it, click on it in the suggestion drop-down, or use `down` and `up` keys to highlight it, and then press the `Enter` key.
 
