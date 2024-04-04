@@ -12,7 +12,7 @@ You can preview a diagram of the workflow.
 
 ![Workflow diagram](img/workflow_diagram.png)
 
-You can also select a configured workflow to see all Content items that are under 
+You can also select a configured workflow to see all content items that are under 
 review as part of this workflow.
 
 ![Content under review](img/workflow_content_under_review.png)

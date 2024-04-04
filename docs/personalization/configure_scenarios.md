@@ -1,5 +1,5 @@
 ---
-description: Configure models by setting up a timeframe, segments and other settings that define which Content items are recommended.
+description: Configure models by setting up a timeframe, segments and other settings that define which content items are recommended.
 ---
 
 # Configure scenarios
@@ -91,28 +91,24 @@ It applies to scenarios which have more than one output type configured.
 
 To get multiple output types in the recommendation request, perform the following actions:
 
-1\. Go to **Personalization** -> **Scenarios**.
+1. Go to **Personalization** -> **Scenarios**.
 
-2\. Click the **Edit** icon next to the scenario for which you want to set cross content type recommendations.
+2. Click the **Edit** icon next to the scenario for which you want to set cross content type recommendations.
 
-3\. In the **Output type** multiselect field, select the types for which you want to get recommendations in the request.
+3. In the **Output type** multiselect field, select the types for which you want to get recommendations in the request.
 
-It contains a list of all types of content exported for the specified customer ID.
+    It contains a list of all types of content exported for the specified customer ID.
 
-4\. Next, go to Preview Scenario.
+4. Click **Save and close**.
 
-5\. From the **Output type** drop-down, select **All**. 
+## Preview scenario results
 
-The **All** option automatically appears after types of content are selected in the scenario settings.
+To check the results of your changes, [preview the scenario results](preview_scenario_results.md).
+You may need to provide additional information, for example, to test the cross content type recommendations, in the preview configuration screen, from the **Output type** drop-down, select **All**.
+
 
 !!! note
 
-    The **All** option can be translated according to your needs.
+    The **All** option becomes available only after you select multiple types of content in the scenario settings.
 
-![Cross content type](img/perso_cross_content_type.png)
-
-## Preview scenario results 
-
-Go to **Personalization** > **Scenarios** to see a page that lists all available scenarios. 
-Click the **Preview** icon to see an example of recommendations that the scenario returns.
-You may need to provide additional information to see the results.
+![Cross content type preview settings](img/perso_cross_content_type.png "Cross content type preview setting")

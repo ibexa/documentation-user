@@ -4,7 +4,7 @@ description: Create new products or modify existing ones.
 
 # Create and edit products
 
-[Products](products.md#products) are a specific kind of [Content items](../content_management/content_items.md#content-items) that you use 
+[Products](products.md#products) are a specific kind of [content items](../content_management/content_items.md#content-items) that you use 
 to present your offer in the website, including product specification, and pricing.
 Individual products are instances of [product types](create_product_types.md#create-product-types).
 You can only create or modify products when your [user Role](../permission_management/work_with_permissions.md) has the `Product/Edit` permission.

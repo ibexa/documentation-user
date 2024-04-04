@@ -9,9 +9,9 @@ a number of mechanisms that you can use.
 
 ## Sections
 
-You can divide your Content tree into Sections to better organize it.
+You can divide your Content Tree into Sections to better organize it.
 Sections let you decide which Users will have access to which parts of the tree.
-To see which Section a Content item belongs to, look at its **Details** tabs.
+To see which Section a content item belongs to, [disable the Focus mode](../../getting_started/discover_ui.md#disable-focus-mode), and look at its **Technical details** tab.
 
 You can set up Sections by navigating to **Content** -> **Sections**.
 A few Sections are provided with each installation, and you can add new ones.
@@ -21,15 +21,15 @@ A few Sections are provided with each installation, and you can add new ones.
 In the **Sections** tab, you can assign Sections to content or delete them.
 You can only delete Sections that do not contain any content.
 
-Each Content item must belong to a Section. By default, new content is placed in the same Section as its parent.
-If you want to remove a Content item from a Section, you just need to assign it to a different one.
+Each content item must belong to a Section. By default, new content is placed in the same Section as its parent.
+If you want to remove a content item from a Section, you just need to assign it to a different one.
 
 Access to Sections can be restricted by [setting up proper permissions](../../permission_management/work_with_permissions.md).
 
 ## Object states
 
-You can assign specific Object states to all Content items in your website.
-You can do it when viewing the Content item, in the **Details** tab, in the **Object state details** section.
+You can assign specific Object states to all content items in your website.
+To do it, [disable the Focus mode](../../getting_started/discover_ui.md#disable-focus-mode), go to the content item details view, and make necessary changes in the **Object state details** section.
 
 ![Object state details](img/object_state_details.png)
 
@@ -40,7 +40,7 @@ You can do it when viewing the Content item, in the **Details** tab, in the **Ob
 
 ## Bookmarks
 
-You can bookmark any Content item by clicking the star icon next to the Content name.
+You can bookmark any content item by clicking the star icon next to the Content name.
 
 ![Bookmark icon](img/bookmark_icon.png)
 
@@ -55,7 +55,7 @@ You can use them to display different content to different Page visitors by usin
 
 You can create and configure Segments and Segment Groups in the **Admin** section of the Back Office.
 
-![](img/admin_panel_segment_groups.png)
+![Segment groups](img/admin_panel_segment_groups.png "Segment groups")
 
 !!! note
 

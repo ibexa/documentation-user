@@ -1,10 +1,10 @@
 ---
-description: Organize the content of your website by copying or moving Content items, controlling Locations and URLs and classifying content.
+description: Organize the content of your website by copying or moving content items, controlling Locations and URLs and classifying content.
 ---
 
 # Organize content
 
-In [[= product_name =]] you store content data in Content items. Learn to add and modify various Content items, so that you can then show them to the audience.
+In [[= product_name =]] you store content data in content items. Learn to add and modify various content items, so that you can then show them to the audience.
 
 [[= cards([
     "content_management/content_organization/copy_move_hide_content",

@@ -22,7 +22,7 @@ The most common ones are [eCommerce and content publishing](use_cases.md).
     Documentation mentions eCommerce use cases more often,
     but provides a thorough understanding of the content publishing context as well.
 
-    Both products and Content items can be referred to as content and the BUY [event](event_types.md) can be understood as
+    Both products and content items can be referred to as content and the BUY [event](event_types.md) can be understood as
     the CONSUME event.
 
 Before you can use the Personalization service, you must [enable it](enable_personalization.md).

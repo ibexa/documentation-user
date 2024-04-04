@@ -19,7 +19,7 @@ In addition to clicking in the search box, you can also move focus to it by usin
 
 On the results page, if several languages are available, you can select a language to search in at the top of the left **Filters** menu.
 The results contain Content items that are translated into this language.
-The result list also shows which languages the Content item is translated to.
+The result list also shows which languages the content item is translated to.
 
 By default, the results are sorted by decreasing relevance.
 By selecting an option from a drop-down menu in the top right corner, you can sort them by name, publication date, or modification date.

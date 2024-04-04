@@ -3,7 +3,7 @@ description: Use surveys, questionnaires, sign-up forms and other interactive fo
 edition: experience
 ---
 
-# Work with forms 
+# Work with forms
 
 You can use forms to increase the functionality of the website by adding a survey, 
 questionnaire, sign-up form, etc.
@@ -20,9 +20,12 @@ The same form can be placed at multiple locations on the website.
 
 To create a form:
 
-1\. In a selected place of the content tree, click **Create content**.
+1\. In the left panel, go to **Content** -> **Form** and click **Create content**.
 
-2\. Select **Form** Content Type.
+2\. In a slide-out pane, make initial choices in the following fields, and click **Create**:
+
+- **Select a language** - from a drop-down list, select the base language for the content item.
+- **Select a content type** - use this field to narrow down the list of content type choices displayed below. Then select **Form**, and click the **Create** button.
 
 ![Select form](img/select_form.png)
 
@@ -33,7 +36,7 @@ To create a form:
 4\. Drag (A) or click (B) on the type from the form fields toolbar. 
 To create more complicated and detailed form, you can use more than one form Field Type.
 
-![Draag form fields](img/drag_form_fields.png)
+![Drag form fields](img/drag_form_fields.png)
 
 5\. Click on the **Settings** icon to access form field settings. The settings differ depending on the type of field.
 
@@ -46,14 +49,32 @@ You can choose one of a few options of what is shown to the user after filling i
 
 6\. Fill in necessary information and click **Submit**.
 
+7\. Click **Save** or **Close** to exit the Form Builder.
+
+8\. To discard your changes and close the window, click **Delete draft**.
+
+9\. To save your changes:
+
+- Click **Save** to continue editing.
+- Click **Save and close** to close the window.
+
+10\. To send your changes to another editor [for review](editorial_workflow.md), click **Send to review**. 
+
+11\. When the form is ready for publication:
+
+- Click **Publish** to publish it immediately.
+- Click **Publish later** to set a specific publication date.
+
+    For more information, see [Publish content](publish_content.md).
+
 ## View results
 
-Once you publish a form and users start filling it in, you can preview the results in the **Submissions** tab in the Content item view.
+Once you publish a form and users start filling it in, you can preview the results in the **Submissions** tab in the content item view.
 
 Here you can view the details of each submission.
 You can also delete any submissions (for example if they were made while testing or contain spam).
 
-The **Download submissions** button enables you to download all the submissions in a .CSV (comma-separated value) file.
+Click **Download submissions** icon to download all the submissions in a .CSV (comma-separated value) file.
 
 ![Form Builder submissions](img/form_builder_submissions.png)
 
@@ -61,7 +82,7 @@ The **Download submissions** button enables you to download all the submissions 
 
 In the following example, you will learn how to create a Newsletter form and use it with Page Builder.
 
-1\. Create a new Content item in the chosen localization in the content tree and choose **Form** type.
+1\. Create a new content item in the chosen localization in the content tree and choose **Form** type.
 
 2\. Enter **Newsletter** as a title and click **Build** form.
 
@@ -77,7 +98,7 @@ In the following example, you will learn how to create a Newsletter form and use
 - Single line input #2: **Name**: Surname
 - Email: **Name**: Email address
 - Checkboxes: **Name**: Gender, **Options**: click **Add** button and add three values: Male, Female, Other.
-- Button: **Name**: Sign up!, **Action**: choose Show a message and in the **Message to displa**y field enter: Thank you!
+- Button: **Name**: Sign up!, **Action**: choose Show a message and in the **Message to display** field enter: Thank you!
 
 ![Newsletter settings](img/newsletter_settings.png)
 
