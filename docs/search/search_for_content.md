@@ -40,7 +40,7 @@ Filtered search allows you to filter by:
 
 All new or custom content types, sections and languages are automatically added to the drop-down filter lists.
 
-A Content item count is indicated between parenthesis for content type and section filters (if your search engine allows faceting, unlike the Legacy one).
+Depending on the system configuration, a Content item count can be indicated for content type and section filters.
 
 Select your filters, then click **Apply** to update the results.
 Click **Clear** to reset and remove all filters.
