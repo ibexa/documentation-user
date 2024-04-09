@@ -39,12 +39,6 @@ Each activity log entry shows
 - the action itself as a verb,
 - and the item the action was performed on.
 
-!!! note
-
-    With some development, some other actions could be logged, see [custom log entry developer documentation]([[= developer_doc =]]/administration/recent_activity/recent_activity/#adding-custom-activity-log-entries)
-
-    The log entries' life time can be shorten or extended through configuration, see [configuration developer documentation]([[= developer_doc =]]/administration/recent_activity/recent_activity/#configuration-and-cronjob)
-
 Depending on the system configuration, activity logs may also be shown:
 
 - on the Dashboard with the [Recent activity block](dashboard_block_reference.md#recent-activity-block)
