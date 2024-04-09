@@ -226,7 +226,7 @@ On the **Properties** tab, set values in the following fields:
 - **Name** – Enter a name for the page block.
 - **Columns** — Select columns that should be displayed in the orders table. Some columns are preselected, example: Order ID, Customer name, Total value etc.
 - **Statuses** — Set the statuses of orders that should be included in the list.
-- **Limit** — Set the number of orders to be displayed.
+- **Number of orders** — Set the number of orders to be displayed.
 - **Sort order** — Set the sort order for the displayed orders.
 
 ## Personalized block
