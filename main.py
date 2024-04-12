@@ -46,8 +46,6 @@ def define_env(env):
         current_page = env.variables.page
         absolute_url = current_page.abs_url
         canonical = current_page.canonical_url
-        url_parts = re.search("//([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/", canonical)
-        (site, project, edition, language, version) = url_parts.groups()
         url_parts = re.search("^/([^/]+)/([^/]+)/([^/]+)/([^/]+)/", absolute_url)
         (project, edition, language, version) = url_parts.groups()
         version = force_version or version
@@ -75,8 +73,6 @@ def define_env(env):
                 cards.append(
                     CARDS_TEMPLATE % (
                         '/'.join((
-                            '',
-                            site,
                             project,
                             edition,
                             language,
