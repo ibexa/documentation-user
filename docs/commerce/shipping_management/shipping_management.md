@@ -19,4 +19,4 @@ so that shipment processing is cancelled automatically when the customer cancels
 
 [[= cards([
     "commerce/shipping_management/work_with_shipping_methods"
-], columns=3) =]] 
+], columns=3, force_version="4.5") =]] 

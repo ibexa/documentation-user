@@ -23,4 +23,4 @@ to browse a list of topics that bring you closer to understanding the product.
     "customer_management/customer_portal",
     "website_organization/multisite",
     "permission_management/permissions_and_users"
-]) =]]
+], force_version="4.5") =]]

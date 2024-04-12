@@ -25,4 +25,4 @@ Users who work as content editors can be tasked with the following responsibilit
     "content_management/taxonomy/work_with_tags",
     "persona_paths/publish_content",
     "persona_paths/organize_content"
-], style="path") =]]
+], style="path", force_version="4.5") =]]

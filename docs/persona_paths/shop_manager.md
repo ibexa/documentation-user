@@ -27,4 +27,4 @@ including the following responsibilities:
     "commerce/payment/work_with_payment_methods",
     "commerce/order_management/work_with_orders",
     "commerce/payment/work_with_payments"
-], style="path") =]]
+], style="path", force_version="4.5") =]]

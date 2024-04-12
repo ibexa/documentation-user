@@ -26,4 +26,4 @@ To do this, navigate to one of the pages mentioned below and edit the item that 
     "personalization/scenarios",
     "personalization/content_types",
     "personalization/filters"
-]) =]]
+], force_version="4.5") =]]

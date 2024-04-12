@@ -14,4 +14,4 @@ In [[= product_name =]] you store content data in Content items. Learn to add an
     "content_management/translate_content",
     "content_management/edit_images",
     "content_management/content_organization/copy_move_hide_content"
-], style="path") =]]
+], style="path", force_version="4.5") =]]

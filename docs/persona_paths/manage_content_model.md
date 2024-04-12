@@ -9,5 +9,5 @@ If you have Administrator permissions, you can develop a content model that is u
 [[= cards([
     "content_management/content_model",
     "content_management/create_edit_content_types"
-], style="path") =]]
+], style="path", force_version="4.5") =]]
 

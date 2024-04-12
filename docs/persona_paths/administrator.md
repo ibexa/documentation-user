@@ -17,4 +17,4 @@ However, certain things can be done in the Back Office.
     "permission_management/permissions_and_users",
     "persona_paths/manage_content_model",
     "content_management/workflow_management/view_workflow_list"
-], columns=2) =]]
+], columns=2, force_version="4.5") =]]

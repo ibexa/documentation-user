@@ -9,4 +9,4 @@ Once you are done editing the content, make it immediately accessible or schedul
 [[= cards([
     "content_management/publish_instantly",
     "content_management/schedule_publishing"
-], columns=2) =]] 
+], columns=2, force_version="4.5") =]] 

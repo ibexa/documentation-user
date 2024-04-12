@@ -10,4 +10,4 @@ With the permission system of [[= product_name =]] you can control which users h
     "permission_management/permission_system",
     "permission_management/work_with_permissions",
     "user_management/manage_users",
-], columns=4) =]]
+], columns=4, force_version="4.5") =]]

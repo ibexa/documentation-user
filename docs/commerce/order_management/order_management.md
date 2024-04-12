@@ -20,4 +20,4 @@ The Order management package interacts with other packages of the system, so tha
 
 [[= cards([
     "commerce/order_management/work_with_orders"
-], columns=3) =]] 
+], columns=3, force_version="4.5") =]] 

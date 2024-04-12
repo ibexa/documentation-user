@@ -21,4 +21,4 @@ PIM's features are available from the left-hand menu.
     "pim/create_edit_product",
     "pim/work_with_catalogs",
     "pim/work_with_product_categories"
-], columns=3) =]] 
+], columns=3, force_version="4.5") =]] 

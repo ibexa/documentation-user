@@ -28,4 +28,4 @@ Once the order is placed, users can interact with it by working with the followi
     "commerce/order_management/order_management",
     "commerce/payment/payment_management",
     "commerce/shipping_management/shipping_management"
-], columns=3) =]] 
+], columns=3, force_version="4.5") =]] 

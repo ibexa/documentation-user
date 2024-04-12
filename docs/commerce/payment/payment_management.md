@@ -19,4 +19,4 @@ The Payment management module interacts with other packages of the system, so th
 [[= cards([
     "commerce/payment/work_with_payments",
     "commerce/payment/work_with_payment_methods"
-], columns=3) =]] 
+], columns=3, force_version="4.5") =]] 
