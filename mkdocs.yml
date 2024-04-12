@@ -15,15 +15,15 @@ nav:
             - Dashboard block reference: getting_started/dashboard/dashboard_block_reference.md
     - Content model management:
         - Content model: content_management/content_model.md
-        - Create and edit Content Types: content_management/create_edit_content_types.md
-        - Configure Content Type Fields: content_management/configure_ct_field_settings.md
+        - Create and edit content types: content_management/create_edit_content_types.md
+        - Configure content type Fields: content_management/configure_ct_field_settings.md
     - Content management:
         - Content items: content_management/content_items.md
-        - Create and edit Content items: content_management/create_edit_content_items.md
+        - Create and edit content items: content_management/create_edit_content_items.md
         - Create and edit pages: 
             - Create and edit pages: content_management/create_edit_pages.md
             - Block reference: content_management/block_reference.md
-        - Preview Content items: content_management/preview_content_items.md
+        - Preview content items: content_management/preview_content_items.md
         - Translate content: content_management/translate_content.md
         - Work with forms: content_management/work_with_forms.md
         - Taxonomy management:
@@ -143,7 +143,7 @@ theme:
     palette:
         primary: 'blue grey'
         accent: 'deep orange'
-    logo: 'images/ibexa-dxp-logo.svg'
+    logo: 'images/ibexa-dxp-logo.png'
 
 extra:
   append_bootstrap:

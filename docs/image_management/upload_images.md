@@ -18,7 +18,7 @@ If you want to upload them to different location, navigate to the folder you wan
 
 2\. In the upper-right corner click **Create content**.
 
-3\. From the available Content types, select **Folder**, and click **Create**.
+3\. From the available content types, select **Folder**, and click **Create**.
 
 4\. Enter name for the new folder.
 
@@ -35,7 +35,7 @@ You can create subfolders by clicking the folder and repeating the above procedu
 
 2\. In the upper-right corner click **Create content**.
 
-3\. From the available Content types, select **Image** and click **Create**.
+3\. From the available content types, select **Image** and click **Create**.
 
 4\. Provide image title.
 

@@ -8,21 +8,21 @@ You can enter a search keyword and the application checks all the searchable Fie
 ![Basic Search](img/basic_search.png)
 
 You can also select a language to search in.
-The results will contain Content items that are translated into this language.
+The results will contain content items that are translated into this language.
 
-The result list also shows which languages the Content item is translated to.
+The result list also shows which languages the content item is translated to.
 
 ## Filtered search
 
 Filtered search allows you to filter by:
 
- - Content Type
+ - Content type
  - Section
  - Modified date
  - Created date
  - Creator
  - Subtree
 
-All new or custom Content Types and Sections are automatically added to the drop-down filter lists.
+All new or custom content types and Sections are automatically added to the drop-down filter lists.
 
 ![Filtered Search](img/filtered_search.png)

@@ -1,5 +1,5 @@
 ---
-description: Configure your Personalization service by setting up models and scenarios which define which Content items are recommended.
+description: Configure your Personalization service by setting up models and scenarios which define which content items are recommended.
 ---
 
 # Configure personalization

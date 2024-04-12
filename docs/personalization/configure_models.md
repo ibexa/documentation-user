@@ -1,5 +1,5 @@
 ---
-description: Configure models by setting up a timeframe, segments and other settings that define which Content items are recommended.
+description: Configure models by setting up a timeframe, segments and other settings that define which content items are recommended.
 ---
 
 # Configure models
