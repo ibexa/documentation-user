@@ -8,12 +8,14 @@ $(function() {
             destUrl = document.location.protocol + '//' + document.location.host + destUrl;
         }
         destUrl = new URL(destUrl);
-        let destPath = destUrl.pathname.split('/'),
-            srcPath = document.location.pathname.split('/');
-        if (destPath[version_path_index] !== srcPath[version_path_index]) {
-            destPath[version_path_index] = srcPath[version_path_index];
+        if (destUrl.host === document.location.host) {
+            let destPath = destUrl.pathname.split('/'),
+                srcPath = document.location.pathname.split('/');
+            if (destPath[version_path_index] !== srcPath[version_path_index]) {
+                destPath[version_path_index] = srcPath[version_path_index];
+            }
+            destUrl.pathname = destPath.join('/');
+            $(this).attr('href', destUrl.pathname);
         }
-        destUrl.pathname = destPath.join('/');
-        $(this).attr('href', destUrl.href);
     });
 });
