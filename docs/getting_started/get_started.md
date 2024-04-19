@@ -71,7 +71,7 @@ You can access your user settings on the right side of the top bar:
 ![User preferences menu](img/user_preferences.png)
 
 Here you can change your user password and define your user preferences,
-such as preferred timezone, date and time format, or Back Office language.
+such as preferred timezone, short of full date and time format, or Back Office language.
 
 **Location**
 
@@ -80,7 +80,8 @@ such as preferred timezone, date and time format, or Back Office language.
 |Default currency|Sets the default currency used in the Back Office.|
 |Toggle In-Context translation feature|Enables or disables integration with Crowdin to navigate the interface while translating.|
 |User Time Zone|Sets time zone in the Back Office.|
-|Date and time format|Sets format used in the Back Office.|
+|Short date and time format|Sets short date and time format used in the Back Office.|
+|Full date and time format|Sets full date and time format used in the Back Office.|
 |Language|Sets the default language used in the Back Office.|
 
 
