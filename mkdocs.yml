@@ -114,6 +114,7 @@ nav:
         - Permission system: permission_management/permission_system.md
         - Work with permissions: permission_management/work_with_permissions.md
         - Manage users: user_management/manage_users.md
+        - Recent activity: recent_activity/recent_activity.md
     - User paths:
         - Explorer: persona_paths/explorer.md
         - Administrator: 
