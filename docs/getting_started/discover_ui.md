@@ -14,7 +14,7 @@ Depending on your location within the Back Office, it can contain the following 
 - Global search field that allows you to [find content](../search/search_for_content.md) by checking all searchable Fields
 - Drop-down that changes the site context
 - Notification icon that informs you about incoming assignments, for example, items assigned for [your review](../content_management/workflow_management/editorial_workflow.md#review-queue)
-- User avatar with a drop-down menu with access to [user profile and settings](get_started.md#edit-user-profile)
+- User avatar with a drop-down menu with access to [user profile and settings](get_started.md#view-and-edit-user-profile)
 
 !!! note "Site context"
 
