@@ -29,7 +29,7 @@ By selecting an option from a drop-down menu in the top right corner, you can so
 The search engine not only displays suggestions, but also supports spell checking.
 If there is a typo in your search phrase, the search engine suggests a related, acuurate term.
 
-![Spell checking](img/spell_checking.png.png)
+![Spell checking](img/spell_checking.png)
 
 ## Filtered search
 
