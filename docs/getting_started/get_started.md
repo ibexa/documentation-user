@@ -71,7 +71,7 @@ You can access your user settings on the right side of the top bar:
 ![User preferences menu](img/user_preferences.png)
 
 Here you can change your user password and define your user preferences,
-such as preferred timezone, short of full date and time format, or Back Office language.
+such as preferred timezone, short and full date and time format, or Back Office language.
 
 **Location**
 
