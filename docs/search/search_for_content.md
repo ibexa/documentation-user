@@ -26,6 +26,11 @@ By selecting an option from a drop-down menu in the top right corner, you can so
 
 ![Sorting menu](img/sorting_menu.png)
 
+The search engine not only displays suggestions, but also supports spell checking.
+If you misspell a search phrase, the search engine suggests a related, accurate term.
+
+![Spell checking](img/spell_checking.png)
+
 ## Filtered search
 
 Filtered search allows you to filter by:
