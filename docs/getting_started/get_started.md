@@ -82,7 +82,7 @@ After you finish, the avatar is uploaded and is visible in the back office.
 
 To save changes to the user profile, click **Update**.
 
-### Change the password and other user settings
+### User settings
 
 You can access your user settings on the right side of the top bar:
 
