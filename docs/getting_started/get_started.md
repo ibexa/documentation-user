@@ -140,7 +140,7 @@ Then, click **Change password**.
 
 ![Change password](img/change_password.png "Change password")
 
-Fill out all the required fields and click **Save and close** to save changes.
-Click **Discard** to remove your changes and return to the previous screen.
+Fill in all the required fields and click **Save and close** to save changes.
+Click **Discard** to reject your changes and return to the previous screen.
 
 ![Editing password](img/editing_password.png "Editing password")
