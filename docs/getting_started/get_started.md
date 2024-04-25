@@ -83,13 +83,13 @@ After you finish, the avatar is uploaded and is visible in the Back Office.
 
 To save changes to the user profile, click **Update**.
 
-### Change the password and other user settings
+### User settings
 
 You can access your user settings on the right side of the top bar:
 
 ![User preferences menu](img/user_preferences.png)
 
-Here you can change your user password and define your user preferences,
+Here you can [change your user password](get_started.md#change-the-password) and define your user preferences,
 such as preferred timezone, short and full date and time format, or Back Office language.
 
 **Location**
@@ -132,3 +132,12 @@ such as preferred timezone, short and full date and time format, or Back Office 
 --------|-----------|
 |Active dashboard|Sets which dashboard is displayed after you log in.|
 
+### Change the password
+
+You can change your user password at any time.
+To do it, first, access your user profile, and go to **Account settings** tab.
+Then, click **Change password**.
+Fill out all the required fields and click **Save and close** to save changes.
+Click **Discard** to remove your changes and return to the previous screen.
+
+![Change password](img/change_password.png "Change password")
