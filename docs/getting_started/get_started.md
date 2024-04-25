@@ -137,7 +137,10 @@ such as preferred timezone, short and full date and time format, or Back Office 
 You can change your user password at any time.
 To do it, first, access your user profile, and go to **Account settings** tab.
 Then, click **Change password**.
+
+![Change password](img/change_password.png "Change password")
+
 Fill out all the required fields and click **Save and close** to save changes.
 Click **Discard** to remove your changes and return to the previous screen.
 
-![Change password](img/change_password.png "Change password")
+![Editing password](img/editing_password.png "Editing password")
