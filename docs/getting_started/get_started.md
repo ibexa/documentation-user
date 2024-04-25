@@ -134,7 +134,7 @@ such as preferred timezone, short and full date and time format, or Back Office 
 
 ### Change the password
 
-You can change your user password at any time.
+You can change your user [password]([[= developer_doc =]]/users/passwords/) at any time.
 To do it, first, access your user profile, and go to **Account settings** tab.
 Then, click **Change password**.
 
