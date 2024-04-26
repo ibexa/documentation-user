@@ -78,7 +78,7 @@ $(document).ready(function() {
     docsearch({
         container: '#docsearch',
         appId: 'WLX2XJZTRM',
-        apiKey: '2f787880034cca4df5db377f12ac3d8a',
+        apiKey: '40ac288790bce56f11de4f1fb8e8ded4',
         indexName: 'ezplatform_userguide',
         inputSelector: '#search_input',
         transformData: function(hits) {
