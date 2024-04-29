@@ -31,7 +31,7 @@
     {% block content %}
         {% set ns = namespace(bootstrap_extra_css='') %}
         {% for md_file in config.extra.append_bootstrap if 'docs' + md_file in page.edit_url %}
-          {% set ns.bootstrap_extra_css = ' bootstrap-iso ez-guidelines' %}
+          {% set ns.bootstrap_extra_css = ' bootstrap-iso' %}
           {% include "partials/integrations/bootstrap.html" %}
         {% endfor %}
 
