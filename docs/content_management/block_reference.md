@@ -26,6 +26,7 @@ The following blocks are provided with a clean installation of [[= product_name 
 |[Orders](#orders-block)|Displays a list of orders associated with a particular company or individual customer. |
 |[Personalized](#personalized-block)|Displays a list of content items/products that are recommended to end users when specific scenarios are triggered. |
 |[Product collection](#product-collection-block)|Displays a list of specifically selected products.|
+|[Qualifio](#qualifio-block)|Displays a campaign selected from Ibexa Engage.|
 |[Recently added](#recently-added-block)|Displays a list of products that were recently added to PIM. |
 |[RSS](#rss-block)|Loads and displays news from RSS feeds (channels). |
 |[Sales representative](#sales-representative)|Loads and displays company's sales representative.|
@@ -253,6 +254,14 @@ On the **Properties** tab, set values in the following fields:
 !!! note
 
     Due to a technical limitation, content browser does not display product variants.
+
+## Qualifio block
+
+Displays campaign created and configured in Ibexa Engage.
+On the **Properties** tab, set values in the following fields:
+
+- **Name** – Enter a name for the campaign.
+- **Campaign** – Select campaign to display on the Landing Page.
 
 ## Recently added block
 
