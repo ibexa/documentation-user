@@ -45,7 +45,7 @@ To display your campaign on your website, use of the available tools - Campaign 
 ### Campaign block
 
 To promote your campaign, you can add [Campaign block](../content_management/block_reference.md#campaign-block) in Page Builder.
-In the **Campaign** tab you can choose campaign from the drop-down list. This list includes all available campaigns created and configured in Qualifio.
+In the **Campaign** tab you can choose campaign from the drop-down list. This list includes all campaigns available on user's Qualifio account which are active or scheduled to launch in the future.
 
 ### Campaign custom tag
 
