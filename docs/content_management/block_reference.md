@@ -11,7 +11,7 @@ The following blocks are provided with a clean installation of [[= product_name 
 |-----|-----------|
 |[Banner](#banner-block)|Displays an image content item with a URL attached to it.|
 |[Bestsellers](#bestsellers-block)|Displays a list of products that were recently a bestseller.|
-|[Campaign](#qualifio-block)|Displays a campaign selected from Ibexa Engage.|
+|[Campaign](#campaign-block)|Displays a campaign selected from Ibexa Engage.|
 |[Catalog](#catalog-block)|Displays products from a specific catalog to a selected customer group.|
 |[Code](#code-block)|Enables you to place text, links, images, etc. on your Page using custom HTML.|
 |[Collection](#collection-block)|Displays a set of content items you select manually from the Content structure. |

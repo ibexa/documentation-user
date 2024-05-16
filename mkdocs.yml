@@ -81,7 +81,9 @@ nav:
         - Work with shipping methods: commerce/shipping_management/work_with_shipping_methods.md 
         - Payment management: commerce/payment/payment_management.md
         - Work with payments: commerce/payment/work_with_payments.md
-        - Work with payment methods: commerce/payment/work_with_payment_methods.md 
+        - Work with payment methods: commerce/payment/work_with_payment_methods.md
+    - Ibexa Engage:
+        - Ibexa Engage: ibexa_engage/ibexa_engage.md 
     - PIM:
         - Product Information Management: pim/pim.md
         - PIM settings:
@@ -170,6 +172,7 @@ extra:
   product_name_cloud: 'Ibexa Cloud'
   product_name_oss: 'Ibexa OSS'
   product_name_dam: 'Ibexa DAM'
+  product_name_engage: 'Ibexa Engage'
 
   developer_doc: 'https://doc.ibexa.co/en/latest'
 
