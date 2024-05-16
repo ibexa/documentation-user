@@ -32,7 +32,7 @@ Every campaign includes a minimum of one publication channel that you can choose
 
 - **Minisite** - uses a unique URL from Qualifio that can hosts the campaign. This URL points to your subdomain.
 
-- **Mobile** - uses a link from Qialifio to integrate a campaign that is optimized for mobile usage.
+- **Mobile** - uses a link from Qualifio to integrate a campaign that is optimized for mobile usage.
 
 Each publication channel type is automatically responsive and can be use on any mobile device.
 
