@@ -11,6 +11,7 @@ The following blocks are provided with a clean installation of [[= product_name 
 |-----|-----------|
 |[Banner](#banner-block)|Displays an image content item with a URL attached to it.|
 |[Bestsellers](#bestsellers-block)|Displays a list of products that were recently a bestseller.|
+|[Campaign](#qualifio-block)|Displays a campaign selected from Ibexa Engage.|
 |[Catalog](#catalog-block)|Displays products from a specific catalog to a selected customer group.|
 |[Code](#code-block)|Enables you to place text, links, images, etc. on your Page using custom HTML.|
 |[Collection](#collection-block)|Displays a set of content items you select manually from the Content structure. |
@@ -26,7 +27,6 @@ The following blocks are provided with a clean installation of [[= product_name 
 |[Orders](#orders-block)|Displays a list of orders associated with a particular company or individual customer. |
 |[Personalized](#personalized-block)|Displays a list of content items/products that are recommended to end users when specific scenarios are triggered. |
 |[Product collection](#product-collection-block)|Displays a list of specifically selected products.|
-|[Qualifio](#qualifio-block)|Displays a campaign selected from Ibexa Engage.|
 |[Recently added](#recently-added-block)|Displays a list of products that were recently added to PIM. |
 |[RSS](#rss-block)|Loads and displays news from RSS feeds (channels). |
 |[Sales representative](#sales-representative)|Loads and displays company's sales representative.|
@@ -87,6 +87,25 @@ On the **Properties** tab, set values in the following fields:
 - **Limit** – Set the number of products to be displayed.
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of products and submit your changes.
+
+## Campaign block
+
+Displays campaign created and configured in Ibexa Engage.
+On the **Properties** tab, set values in the following fields:
+
+- **Name** – Enter a name for the campaign.
+- **Campaign** – Select campaign to display on the Landing Page.
+
+## Recently added block
+
+Highlights recently added products from PIM.
+Quickly informs users about new additions for quicker distribution and popularizing added products.
+On the **Properties** tab, set values in the following fields:
+
+- **Name** – Enter a name for the page block.
+- **Personalization Scenario** – Select "Recently added items" to display products that were recently added to PIM.
+- **Product Types to be displayed** – Select the type of products to be displayed on the list.
+- **Limit** – Set the number of products to be displayed.
 
 ## Catalog block
 
@@ -254,25 +273,6 @@ On the **Properties** tab, set values in the following fields:
 !!! note
 
     Due to a technical limitation, content browser does not display product variants.
-
-## Qualifio block
-
-Displays campaign created and configured in Ibexa Engage.
-On the **Properties** tab, set values in the following fields:
-
-- **Name** – Enter a name for the campaign.
-- **Campaign** – Select campaign to display on the Landing Page.
-
-## Recently added block
-
-Highlights recently added products from PIM.
-Quickly informs users about new additions for quicker distribution and popularizing added products.
-On the **Properties** tab, set values in the following fields:
-
-- **Name** – Enter a name for the page block.
-- **Personalization Scenario** – Select "Recently added items" to display products that were recently added to PIM.
-- **Product Types to be displayed** – Select the type of products to be displayed on the list.
-- **Limit** – Set the number of products to be displayed.
 
 ## RSS block
 
