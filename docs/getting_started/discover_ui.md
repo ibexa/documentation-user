@@ -14,7 +14,10 @@ Depending on your location within the Back Office, it can contain the following 
 - Global search field that allows you to [find content](../search/search_for_content.md) by checking all searchable Fields
 - Drop-down that changes the site context
 - Notification icon that informs you about incoming assignments, for example, items assigned for [your review](../content_management/workflow_management/editorial_workflow.md#review-queue)
+- App switcher which includes links to official websites of the QNTM group ecosystem companies, world-class ad-tech and mar-tech solution providers
 - User avatar with a drop-down menu with access to [user profile and settings](get_started.md#view-and-edit-user-profile)
+
+![Top bar](img/top_bar_all.png "Top bar")
 
 !!! note "Site context"
 
@@ -22,6 +25,8 @@ Depending on your location within the Back Office, it can contain the following 
     The appearance of content items can also change if they use different designs or languages depending on the [SiteAccess](../website_organization/multisite.md#siteaccess) settings.
 
 ![Top bar with site context selector](img/top_bar.png "Top bar with site context selector")
+
+![App switcher](img/app_switcher.png "App switcher")
 
 ## Dashboard
 
