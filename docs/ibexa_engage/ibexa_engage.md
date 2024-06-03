@@ -22,10 +22,16 @@ To use [[= product_name_engage =]], you must make arrangements with [[= product_
 
 4\. Select the **I have read and agree to the Terms and Conditions** checkbox, and then click **Send request**.
 
-[[= product_name =]] creates and provides user account. An invitation link is sent during the setup process.
-Once the registration and configuration process is completed, the welcome page displays information about campaign tools and link to [Qualifio documentation](https://support.qualifio.com/hc/en-us/categories/202280638-Campaigns) where you can get information about creating and managing campaigns.
+![Welcome page - form](img/welcome_page_form.png "Welcome page - form")
 
-Under **Ibexa Engage** on the left panel menu, you can find Campaign list that includes all available campaigns.
+[[= product_name =]] creates and provides user account. An invitation link is sent during the setup process.
+Once the registration and configuration process is completed, the welcome page displays information about campaign tools available with [[= product_name_engage =]] and link to [Qualifio documentation](https://support.qualifio.com/hc/en-us/categories/202280638-Campaigns) where you can get information about creating and managing campaigns.
+
+![Welcome page - active account](img/welcome_page_activated.png "Welcome page - active account")
+
+Click **Manage campaigns in Qualifio** button to open Qualifio page, where you can create and manage campaigns.
+
+![Qualifio page](img/qualifio_page.png "Qualifio page - campaigns manager")
 
 ## Campaign
 
