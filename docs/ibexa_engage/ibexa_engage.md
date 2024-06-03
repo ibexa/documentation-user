@@ -66,7 +66,8 @@ Every campaign includes a minimum of one publication channel that you can choose
 ## Work with campaigns
 
 You can create, configure, and create campaigns using [Qualifio Engage](https://developers.qualifio.com/docs/engage/).
-To display your campaign on your website, use of the available tools - Campaign block or Campaign custom tag.
+To access the Qualifio Back Office page and create or manage campaigns, click the **Manage campaigns in Qualifio** button under the **Ibexa Engage** menu.
+To display your campaign on the website, use one of the available tools - Campaign block or Campaign custom tag.
 For more information about creating and managing campaigns, see [Qualifio Engage documentation](https://support.qualifio.com/hc/en-us/categories/202280638-Qualifio-Engage).
 
 ### Campaign block
