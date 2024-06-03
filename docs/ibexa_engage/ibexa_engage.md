@@ -35,20 +35,20 @@ Click **Manage campaigns in Qualifio** button to open Qualifio page, where you c
 
 ## Campaign
 
-A campaign is a collection of ideas that the user can customize and divide into steps.
+A campaign is a set of different concepts, grouped per steps, and open to configuration.
 
-It consists of a welcome screen, a form step, an interaction element, and an exit screen.
+It can contain a welcome screen, a form step, an interaction element, an exit screen, and so on.
 
 You can use Qualifio's existing templates and interactive elements, such as quizzes, pools, and forms, to create visually appealing, customized campaigns.
-Qualifio configures the backgrounds, themes, and designs.
+Users can configure the backgrounds, themes, and designs.
 
 Use campaign to interact with viewers, boost ad impressions, or gather cookies from targeted audiences.
 
 Each campaign comes with a unique ID - string of numbers, that the platform automatically defines at the creation. Campaign ID is a reference to the campaign in the applications, services and data connections.
-
-You can set up prizes for customer when an email or another required pool is filled.
-A prize can be, like special discount, bonus, or free access to some content.
 You can set up a specific time frame for each campaign, use conditions, and design.
+
+You can also set up prizes for customer when an email or another required pool is filled.
+A prize can be, like special discount, bonus, or free access to some content.
 
 ## Publication channel
 
