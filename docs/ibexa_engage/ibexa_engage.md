@@ -31,7 +31,7 @@ Once the registration and configuration process is completed, the welcome page d
 
 Click **Manage campaigns in Qualifio** button to open Qualifio page, where you can create and manage campaigns.
 
-![Qualifio page](img/qualifio_page.png "Qualifio page - campaigns manager")
+![Qualifio Manager](img/qualifio_manager.png "Qualifio Manager - campaign list")
 
 ## Campaign
 
