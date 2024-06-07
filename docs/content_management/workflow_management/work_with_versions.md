@@ -6,16 +6,25 @@ description: Perform various tasks on content item versions, as part of editoria
 
 In [[= product_name =]], content items can have one published [version](../content_versions.md), 
 and several draft and archived versions.
-You can perform various tasks on content item versions, either to advance them 
-through the workflow or compare edits from different users.
-
+You can perform various tasks on content item versions, either to advance them through the workflow or compare edits from different users.
 
 ## Edit drafts
 
-If you are assigned to a draft version of a content item for [review](editorial_workflow.md), 
-when you click the **Edit draft** icon in **My dashboard**, the **Review queue** 
-table, you see the **Event(s)** timeline that lists all the transitions that this 
-content has gone through.
+There are several ways in which you can start editing an existing draft:
+
+- by picking a draft for editing from the content item's details screen, **Versions** tab, the **Open drafts** list
+
+![Open drafts list](img/open_drafts.png "Open drafts list")
+
+- by trying to edit a content item that already has open drafts. You then see a draft conflict screen, where you can pick a draft for editing, or crate a new one.
+
+![Draft conflict](img/draft_conflict.png "Draft conflict")
+
+- when you are assigned to a draft version of the content item for [review](editorial_workflow.md), by picking a draft for editing from the [Dashboard](discover_ui.md#dashboard) > the **Review queue** table 
+
+![Review queue](img/workflow_review_queue.png "Review queue")
+
+When you review a content item, you see the **Event(s)** timeline that lists all the transitions that this content has gone through.
 
 ![Events timeline](img/workflow_events_timeline.png)
 
@@ -23,20 +32,14 @@ If draft locking is supported, you also see a message that confirms that the dra
 
 ![Draft assignment message](img/lock_message.png)
 
-## Release locked drafts
+### Release locked drafts
 
-If you are assigned to a draft version of a content item and have locked it for 
-review, you can release the lock by closing the modal window, publishing the draft, 
-or sending it to another reviewer.
-You can also do it in **My dashboard**, the **Review queue** table, by clicking 
-the **Unlock** icon.
+If you are assigned to a draft version of a content item and have locked it for review, you can release the lock by closing the modal window, publishing the draft, or sending it to another reviewer.
+You can also do it in the **Dashboard**, the **Review queue** table, by clicking the **Unlock** icon.
 
-If you are not assigned to the draft, depending on the permissions set for your 
-Role, in the **Review queue** table, you can either release the lock by clicking 
-the **Unlock** icon, or request that the lock is released by the reviewer 
-by clicking the **Request access** icon.
+If you are not assigned to the draft, depending on the permissions set for your Role, in the **Review queue** table, you can either release the lock by clicking the **Unlock** icon, or request that the lock is released by the reviewer by clicking the **Request access** icon.
 
-## Compare versions 
+## Compare versions
 You can compare two versions of the same content item.
 
 To do it, [disable the Focus mode](../../getting_started/discover_ui.md#disable-focus-mode).
