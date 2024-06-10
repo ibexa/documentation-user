@@ -18,7 +18,7 @@ All these options are available in the menu when you are in the edit mode.
 ### Publishing vs. saving
 
 Clicking **Save** does not immediately publish the content item.
-Instead, it saves the [new version](content_versions.md) of the content as a [draft]().
+Instead, it saves the [new version](content_versions.md) of the content as a [draft](content_versions.md/#drafts).
 You can then keep on editing the same content and save it again when needed,
 or click **Save and close** to close the window.
 

@@ -14,17 +14,15 @@ To do it, [disable the Focus mode](../getting_started/discover_ui.md#disable-foc
 
 ![All versions of a content item](img/content_item_versions.png "All versions of a content item")
 
-For more information, see [Editorial workflow](workflow_management/editorial_workflow.md) and [Work with versions](work_with_versions.md).
+### Published version
 
-### Published versions
-
-Published version is the version that is currently presented to the audience.
+Published version is the version that is currently presented to the visitors.
 Every content item can have only one published version at a time.
 
 ### Archived versions
 
 Whenever you edit and publish a content item again, its previous published version becomes an archived version.
-It is not available to the visitor and you cannot edit it, but you can create new drafts based on any archived version.
+It is not available to the visitors and you cannot edit it, but you can create new drafts based on any archived version.
 
 ### Drafts
 
@@ -34,9 +32,9 @@ Drafts can be created in many ways, including:
 
 - by the [autosave](#autosave) feature
 - by reviewers, as part of the [editorial workflow](workflow_management/editorial_workflow.md)
-- by editors, when they close a content item's editing screen after making changes, without publishing them
+- by editors, when they close a content item's editing screen after making changes, but without publishing them
 
-For more information about working with content item versions, see [Working with versions](work_with_versions.md).
+For more information, see [Work with versions](work_with_versions.md).
 
 #### Autosave
 

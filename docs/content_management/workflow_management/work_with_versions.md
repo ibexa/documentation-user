@@ -12,7 +12,8 @@ You can perform various tasks on content item versions, either to advance them t
 
 There are several ways in which you can start editing an existing draft:
 
-- by picking a draft for editing from the content item's details screen, **Versions** tab, the **Open drafts** list
+- by picking a draft for editing from the content item's details screen, **Versions** tab, the **Open drafts** list.
+You may need to [disable the Focus mode](../../getting_started/discover_ui.md#disable-focus-mode) first. 
 
 ![Open drafts list](img/open_drafts.png "Open drafts list")
 
@@ -20,7 +21,7 @@ There are several ways in which you can start editing an existing draft:
 
 ![Draft conflict](img/draft_conflict.png "Draft conflict")
 
-- when you are assigned to a draft version of the content item for [review](editorial_workflow.md), by picking a draft for editing from the [Dashboard](discover_ui.md#dashboard) > the **Review queue** table 
+- when you are assigned to a draft version of the content item for [review](editorial_workflow.md), by picking a draft for editing from the [Dashboard](discover_ui.md#dashboard), **Review queue**
 
 ![Review queue](img/workflow_review_queue.png "Review queue")
 
