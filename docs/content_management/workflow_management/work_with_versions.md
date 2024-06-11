@@ -17,7 +17,7 @@ You may need to [disable the Focus mode](../../getting_started/discover_ui.md#di
 
 ![Open drafts list](img/open_drafts.png "Open drafts list")
 
-- by trying to edit a content item that already has open drafts.
+- by editing a content item that already has open drafts.
 You then see a [**Draft conflict**](content_versions.md#draft-conflicts) screen, where you can pick a draft for editing, or create a new one.
 The new draft is based on the published version of the content item and does not contain changes from other drafts.
 
