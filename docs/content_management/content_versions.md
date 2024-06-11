@@ -32,11 +32,16 @@ Drafts can be created in many ways, including:
 
 - by the [autosave](#autosave) feature
 - by reviewers, as part of the [editorial workflow](workflow_management/editorial_workflow.md)
-- by editors, when they close a content item's editing screen after making changes, but without publishing them
+- by editors, when they save a content item while editing it or close a content item's editing screen after making changes, but without publishing them
 
-For more information, see [Work with versions](work_with_versions.md).
+#### Draft conflicts
 
-#### Autosave
+Drafts of the same content item that originate from different sources can contain conflicting changes.
+Such draft conflicts can be resolved by using the [Version Compare](work_with_versions.md#compare-versions) feature.
+
+For more information about various operations on content versions, see [Work with versions](work_with_versions.md).
+
+## Autosave
 
 While you edit a content item or product, [[= product_name =]] automatically saves your work as a new draft to help you preserve the progress in an event of a failure.
 To recover your work, [disable the Focus mode](../getting_started/discover_ui.md#disable-focus-mode), go to this content item's **Versions** tab, and open the most recent draft.

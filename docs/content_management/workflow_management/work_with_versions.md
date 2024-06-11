@@ -17,7 +17,8 @@ You may need to [disable the Focus mode](../../getting_started/discover_ui.md#di
 
 ![Open drafts list](img/open_drafts.png "Open drafts list")
 
-- by trying to edit a content item that already has open drafts. You then see a draft conflict screen, where you can pick a draft for editing, or crate a new one.
+- by trying to edit a content item that already has open drafts.
+You then see a [**Draft conflict**](content_versions.md#draft-conflicts) screen, where you can pick a draft for editing, or create a new one.
 
 ![Draft conflict](img/draft_conflict.png "Draft conflict")
 
@@ -41,11 +42,11 @@ You can also do it in the **Dashboard**, the **Review queue** table, by clicking
 If you are not assigned to the draft, depending on the permissions set for your Role, in the **Review queue** table, you can either release the lock by clicking the **Unlock** icon, or request that the lock is released by the reviewer by clicking the **Request access** icon.
 
 ## Compare versions
-You can compare two versions of the same content item.
+You can compare two versions of the same content item, for example, to resolve a conflict between drafts coming from different sources.
 
 To do it, [disable the Focus mode](../../getting_started/discover_ui.md#disable-focus-mode).
 Then, in the content item details screen, go to the **Versions** tab and click the 
-**Version Compare** icon: ![Version Compare Icon](img/version_compare_icon.png){.inline-image}.
+**Version Compare** icon: ![Version Compare icon](img/version_compare_icon.png){.inline-image}.
 
 From the drop-down menus at the top of the screen, select the two versions that you want to compare.
 
