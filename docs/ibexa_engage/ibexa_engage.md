@@ -20,7 +20,7 @@ To use [[= product_name_engage =]], you must make arrangements with [[= product_
 - First and last name
 - Email address
 
-4\. Select the **I have read and agree to the Terms and Conditions** checkbox, and then click **Send request**.
+4\. Accept **Terms and Conditions** checkbox, and then click **Send request**.
 
 ![Welcome page - form](img/welcome_page_form.png "Welcome page - form")
 
@@ -43,7 +43,7 @@ Campaign can contain a welcome screen, a form step, an interaction element, an e
 You can use Qualifio's existing templates and interactive elements, such as quizzes, pools, and forms, to create visually appealing, customized campaigns.
 Users can configure the backgrounds, themes, or designs, and set up a specific time frame for each campaign.
 
-Each campaign comes with a unique ID - string of numbers, that the platform automatically defines at the creation. Campaign ID is a reference to the campaign in the applications, services and data connections.
+Each campaign comes with a unique ID - string of numbers, that the platform automatically defines during the creation of campaign. Campaign ID is a reference to the campaign in the applications, services and data connections.
 
 There are two types of campaigns:
 
@@ -61,7 +61,7 @@ Every campaign includes a minimum of one publication channel that you can choose
 - **Mobile** - uses a link from Qualifio to integrate a campaign that is optimized for mobile usage.
 
 !!! note
-    Each publication channel type is automatically responsive and can be used on any mobile device.
+    By default, every type of publication channel is responsive and compatible with all mobile devices.
 
 ## Work with campaigns
 
@@ -73,13 +73,13 @@ For more information about creating and managing campaigns, see [Qualifio Engage
 ### Campaign block
 
 To promote your campaign, you can add [Campaign block](../content_management/block_reference.md#campaign-block) in Page Builder.
-In the **Campaign** tab you can choose campaign from the drop-down list. This list includes all campaigns available on user's Qualifio account which are active or scheduled to launch in the future.
+In the **Campaign** block you can choose campaign from the drop-down list. This list includes all campaigns available on user's Qualifio account which are active or scheduled to launch in the future.
 
 ![Campaign block](img/campaign_block.png "Campaign block")
 
 ### Campaign custom tag
 
-You can embed campaign in the Rich text field with Campaign custom tag.
+You can embed campaign in the Rich Text field with Campaign custom tag.
 To do it, select custom tag from the toolbar, and a choose campaign.
 
 ![Campaign custom tag](img/campaign_custom_tag.png "Campaign custom tag")
