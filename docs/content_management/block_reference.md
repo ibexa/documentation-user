@@ -96,17 +96,6 @@ On the **Properties** tab, set values in the following fields:
 - **Name** – Enter a name for the campaign.
 - **Campaign** – Select campaign to display on the Landing Page. The list includes all campaigns available on user's Qualifio account which are active or scheduled to launch in the future.
 
-## Recently added block
-
-Highlights recently added products from PIM.
-Quickly informs users about new additions for quicker distribution and popularizing added products.
-On the **Properties** tab, set values in the following fields:
-
-- **Name** – Enter a name for the page block.
-- **Personalization Scenario** – Select "Recently added items" to display products that were recently added to PIM.
-- **Product Types to be displayed** – Select the type of products to be displayed on the list.
-- **Limit** – Set the number of products to be displayed.
-
 ## Catalog block
 
 Shows products from a chosen catalog tailored for a particular group of customers, ensuring a personalized browsing experience.
@@ -273,6 +262,17 @@ On the **Properties** tab, set values in the following fields:
 !!! note
 
     Due to a technical limitation, content browser does not display product variants.
+
+## Recently added block
+
+Highlights recently added products from PIM.
+Quickly informs users about new additions for quicker distribution and popularizing added products.
+On the **Properties** tab, set values in the following fields:
+
+- **Name** – Enter a name for the page block.
+- **Personalization Scenario** – Select "Recently added items" to display products that were recently added to PIM.
+- **Product Types to be displayed** – Select the type of products to be displayed on the list.
+- **Limit** – Set the number of products to be displayed.
 
 ## RSS block
 
