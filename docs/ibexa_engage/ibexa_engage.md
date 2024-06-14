@@ -1,15 +1,16 @@
 ---
-description: Ibexa Engage helps to engage audiences and collect valuable data by using interactive content.
+description: Ibexa Engage helps engage audiences and collect valuable data by using interactive content.
 ---
 
 # Ibexa Engage
 
-[[= product_name_engage =]] is a data collection tool. It gives you the ability to use the [Qualifio](https://qualifio.com/) tools to engage your audiences.
+[[= product_name_engage =]] is a data collection tool.
+It gives you the ability to use the [Qualifio](https://qualifio.com/) tools to engage your audiences.
 You can use interactive content to build relationships and collect important data, for example, a list of recent orders, or personal information about customers.
 
 ## Request access
 
-To use [[= product_name_engage =]], you must make arrangements with [[= product_name =]] to define the initial configuration, and then get and set up user account.
+To use [[= product_name_engage =]], you must make arrangements with [[= product_name_base =]] to define the initial configuration, and then get and set up a user account.
 
 1\. Go to the Back Office.
 
@@ -20,43 +21,44 @@ To use [[= product_name_engage =]], you must make arrangements with [[= product_
 - First and last name
 - Email address
 
-4\. Accept **Terms and Conditions** checkbox, and then click **Send request**.
+4\. Accept **Terms and Conditions**, and then click **Send request**.
 
 ![Welcome page - form](img/welcome_page_form.png "Welcome page - form")
 
-[[= product_name_base =]] team creates and provides user account. An invitation link is sent during the setup process.
-Once the registration and configuration process is completed, the welcome page displays information about campaign tools available with [[= product_name_engage =]] and link to [Qualifio documentation](https://support.qualifio.com/hc/en-us/categories/202280638-Campaigns) where you can get information about creating and managing campaigns.
+[[= product_name_base =]] team creates the user account and provides you with its details.
+An invitation link is sent during the setup process.
+Once the registration and configuration process is completed, the welcome page displays information about campaign tools available with [[= product_name_engage =]] and a link to [Qualifio documentation](https://support.qualifio.com/hc/en-us/categories/202280638-Campaigns) where you can get information about creating and managing campaigns.
 
 ![Welcome page - active account](img/welcome_page_activated.png "Welcome page - active account")
 
-Click **Manage campaigns in Qualifio** button to open Qualifio page, where you can create and manage campaigns.
+Click the **Manage campaigns in Qualifio** button to open a Qualifio page, where you can create and manage campaigns.
 
 ![Qualifio Manager](img/qualifio_manager.png "Qualifio Manager - campaign list")
 
 ## Campaign
 
-A campaign is a set of different concepts, grouped per steps, and open to configuration.
-You can use campaign to interact with viewers, boost ad impressions, or gather cookies from targeted audiences.
+A campaign is a set of different concepts, grouped into steps, and open to configuration.
+You can use a campaign to interact with viewers, boost ad impressions, or gather cookies from targeted audiences.
 
 Campaign can contain a welcome screen, a form step, an interaction element, an exit screen, and so on.
 
 You can use Qualifio's existing templates and interactive elements, such as quizzes, pools, and forms, to create visually appealing, customized campaigns.
-Users can configure the backgrounds, themes, or designs, and set up a specific time frame for each campaign.
+You can also configure the backgrounds, themes, or designs, and set up a specific time frame for each campaign.
 
 Each campaign comes with a unique ID - string of numbers, that the platform automatically defines during the creation of campaign. Campaign ID is a reference to the campaign in the applications, services and data connections.
 
 There are two types of campaigns:
 
 - **Anonymous** - engages with the audience, increases the advertising impressions, or collects cookies of personalized audiences.
-- **Identified** - gathers information on the user by filling out an identification form.
+- **Identified** - gathers information about the user who fills out an identification form.
 
 ## Publication channel
 
-Every campaign includes a minimum of one publication channel that you can choose from the three options the platform provides for publishing a campaign:
+Every campaign includes at least one publication channel, which you can choose from the three options the platform offers:
 
 - **Widget/iframe** - uses a JavaScript code or an HTML iframe from Qualifio. Additionally, you can use oEmbed, Facebook Instant articles, and AMP technologies to publish iframes. You need to manually paste the code into your website or CMS.
 
-- **Minisite** - uses a unique URL from Qualifio that can hosts the campaign. This URL points to your subdomain.
+- **Minisite** - uses a unique URL from Qualifio that hosts the campaign. This URL points to your subdomain.
 
 - **Mobile** - uses a link from Qualifio to integrate a campaign that is optimized for mobile usage.
 
@@ -65,21 +67,23 @@ Every campaign includes a minimum of one publication channel that you can choose
 
 ## Work with campaigns
 
-You can create, configure, and create campaigns using [Qualifio Engage](https://developers.qualifio.com/docs/engage/).
-To access the Qualifio Back Office page and create or manage campaigns, click the **Manage campaigns in Qualifio** button under the **Ibexa Engage** menu.
+You can create, configure, and manage campaigns by using [Qualifio Engage](https://developers.qualifio.com/docs/engage/).
+To access the Qualifio Manager page and create or manage campaigns, click the **Manage campaigns in Qualifio** button under the **Ibexa Engage** menu.
 To display your campaign on the website, use one of the available tools - Campaign block or Campaign custom tag.
+
 For more information about creating and managing campaigns, see [Qualifio Engage documentation](https://support.qualifio.com/hc/en-us/categories/202280638-Qualifio-Engage).
 
 ### Campaign block
 
-To promote your campaign, you can add [Campaign block](../content_management/block_reference.md#campaign-block) in Page Builder.
-In the **Campaign** block you can choose campaign from the drop-down list. This list includes all campaigns available on user's Qualifio account which are active or scheduled to launch in the future.
+To promote your campaign, you can add a [Campaign block](../content_management/block_reference.md#campaign-block) to a page in Page Builder.
+In the block's settings, you can select a campaign that you want to display from a drop-down list.
+This list includes all campaigns available on user's Qualifio account which are active or scheduled to launch in the future.
 
 ![Campaign block](img/campaign_block.png "Campaign block")
 
 ### Campaign custom tag
 
-You can embed campaign in the Rich Text field with Campaign custom tag.
-To do it, select custom tag from the toolbar, and a choose campaign.
+You can embed a campaign within the [Rich Text field](../content_management/create_edit_content_items.md#edit-rich-text-fields) by using a Campaign custom tag.
+To do it, select a custom tag from the toolbar, and a choose campaign.
 
 ![Campaign custom tag](img/campaign_custom_tag.png "Campaign custom tag")

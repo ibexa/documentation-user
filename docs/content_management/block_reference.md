@@ -90,11 +90,11 @@ On the **Design** tab, in the **View** field, select the layout to be used to pr
 
 ## Campaign block
 
-Displays campaign created and configured in Ibexa Engage. 
+Displays a campaign created and configured in [Ibexa Engage](../ibexa_engage/ibexa_engage.md). 
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the campaign.
-- **Campaign** – Select campaign to display on the Landing Page. The list includes all campaigns available on user's Qualifio account which are active or scheduled to launch in the future.
+- **Campaign** – Select a campaign that you want to display on the page. The list contains only those campaigns from your Qualifio account, which are active or scheduled to launch in the future.
 
 ## Catalog block
 
