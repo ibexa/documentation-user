@@ -21,7 +21,7 @@ Click it to access the **Creating New Site** modal.
 Here, you can create an entirely new website or a different language version of an already existing website.
 First, select a name, a predefined design, and a Parent location for your website.
 
-![Create a new website step one](img/site_factory_new_site_step_1.png)
+![Create a new website - step one](img/site_factory_new_site_step_1.png)
 
 If the design defines a Site skeleton, you can choose if you want to copy the entire content structure of the design with a toggle.
 To preview the Site skeleton architecture, click **Site management**, and then **Site skeletons**.
@@ -36,18 +36,23 @@ In this section you also define the SiteAccess URL addresses with their main lan
 
 For more information about SiteAccesses, see [Multisite]([[= developer_doc =]]/multisite/multisite/).
 
-![Create a new website step two](img/site_factory_new_site_step_2.png)
+![Create a new website - step two](img/site_factory_new_site_step_2.png)
 
-If all required fields are filled out you can select **Create**, and the website is be added to the website list in the **Site management** area.
+If all required fields are filled out, click **Save and close** to create new website and add it to the website list in the **Site management** area.
 
 !!! note
 
     A SiteAccess that you create in Site Factory is always treated with lower priority than a SiteAccess defined by the administrator as part of [configuration]([[= developer_doc =]]/multisite/multisite_configuration/#siteaccess-configuration).
     For example, if you create a website that uses the `fr` path in Site Factory, and the administrator defines a French website manually in configuration files, your website is ignored by the system.
 
+You can see all the details of created website.
+To do it, go to **Site management** -> **Sites** and click the three dots icon next to the website name. Then, select **Site details**.
+
+![Site details](img/site_details.png)
+
 ## Edit an existing website
 
-To edit the website select **Site settings** icon that is situated next to the website name.
+To edit the website, click the three dots icon that is situated next to the website name, and select **Site settings**.
 Here, you can edit all the elements you selected during creation of the website:
 
 - name
