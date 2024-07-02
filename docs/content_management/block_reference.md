@@ -11,6 +11,7 @@ The following blocks are provided with a clean installation of [[= product_name 
 |-----|-----------|
 |[Banner](#banner-block)|Displays an image content item with a URL attached to it.|
 |[Bestsellers](#bestsellers-block)|Displays a list of products that were recently a bestseller.|
+|[Campaign](#campaign-block)|Displays a campaign selected from Ibexa Engage.|
 |[Catalog](#catalog-block)|Displays products from a specific catalog to a selected customer group.|
 |[Code](#code-block)|Enables you to place text, links, images, etc. on your Page using custom HTML.|
 |[Collection](#collection-block)|Displays a set of content items you select manually from the Content structure. |
@@ -86,6 +87,14 @@ On the **Properties** tab, set values in the following fields:
 - **Limit** – Set the number of products to be displayed.
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of products and submit your changes.
+
+## Campaign block
+
+Displays a campaign created and configured in [Ibexa Engage](../ibexa_engage/ibexa_engage.md). 
+On the **Properties** tab, set values in the following fields:
+
+- **Name** – Enter a name for the campaign.
+- **Campaign** – Select a campaign that you want to display on the page. The list contains only those campaigns from your Qualifio account, which are active or scheduled to launch in the future.
 
 ## Catalog block
 

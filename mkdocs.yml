@@ -100,6 +100,8 @@ nav:
         - Integrate scenario results: personalization/integrate_scenario_results.md
         - Import source data: personalization/content_import.md
         - Review performance: personalization/review_perso_performance.md
+    - Ibexa Engage:
+        - Ibexa Engage: ibexa_engage/ibexa_engage.md 
     - DAM:
         - Ibexa DAM: dam/ibexa_dam.md
     - Customer management:
@@ -170,6 +172,7 @@ extra:
   product_name_cloud: 'Ibexa Cloud'
   product_name_oss: 'Ibexa OSS'
   product_name_dam: 'Ibexa DAM'
+  product_name_engage: 'Ibexa Engage'
 
   developer_doc: 'https://doc.ibexa.co/en/latest'
 
