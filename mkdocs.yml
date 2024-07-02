@@ -39,6 +39,24 @@ nav:
             - Copy, move or hide content: content_management/content_organization/copy_move_hide_content.md
             - Classify content: content_management/content_organization/classify_content.md
             - Manage content Locations and URLs: content_management/content_organization/manage_locations_urls.md
+    - PIM:
+        - Product Information Management: pim/pim.md
+        - PIM settings:
+            - Product types: pim/product_types.md
+            - Create product types: pim/create_product_types.md
+            - Work with product attributes: pim/work_with_product_attributes.md
+            - Work with currencies: pim/manage_currencies.md
+        - Products:
+            - Products: pim/products.md
+            - Create and edit products: pim/create_edit_product.md
+            - Create virtual products: pim/create_virtual_product.md
+            - Work with product assets: pim/work_with_product_assets.md
+            - Work with product variants: pim/work_with_product_variants.md
+            - Work with product prices: pim/manage_prices.md
+            - Work with product availability and stock: pim/manage_availability_and_stock.md
+        - Work with catalogs: pim/work_with_catalogs.md
+        - Work with product categories: pim/work_with_product_categories.md
+        - Work with product page URLs: pim/work_with_product_page_urls.md
     - Content publishing:
         - Publish content: content_management/publish_instantly.md
         - Schedule publication: content_management/schedule_publishing.md
@@ -50,6 +68,16 @@ nav:
         - Search Engine Optimization: 
             - SEO: search_engine_optimization/seo.md
             - Work with SEO: search_engine_optimization/work_with_seo.md
+    - Commerce:
+        - Commerce: commerce/commerce.md
+        - Order management: commerce/order_management/order_management.md
+        - Work with orders: commerce/order_management/work_with_orders.md
+        - Shipping management: commerce/shipping_management/shipping_management.md
+        - Work with shipments: commerce/shipping_management/work_with_shipments.md
+        - Work with shipping methods: commerce/shipping_management/work_with_shipping_methods.md 
+        - Payment management: commerce/payment/payment_management.md
+        - Work with payments: commerce/payment/work_with_payments.md
+        - Work with payment methods: commerce/payment/work_with_payment_methods.md
     - Personalization:
         - Personalization: personalization/personalization.md
         - Use cases: personalization/use_cases.md
@@ -72,36 +100,8 @@ nav:
         - Integrate scenario results: personalization/integrate_scenario_results.md
         - Import source data: personalization/content_import.md
         - Review performance: personalization/review_perso_performance.md
-    - Commerce:
-        - Commerce: commerce/commerce.md
-        - Order management: commerce/order_management/order_management.md
-        - Work with orders: commerce/order_management/work_with_orders.md
-        - Shipping management: commerce/shipping_management/shipping_management.md
-        - Work with shipments: commerce/shipping_management/work_with_shipments.md
-        - Work with shipping methods: commerce/shipping_management/work_with_shipping_methods.md 
-        - Payment management: commerce/payment/payment_management.md
-        - Work with payments: commerce/payment/work_with_payments.md
-        - Work with payment methods: commerce/payment/work_with_payment_methods.md
     - Ibexa Engage:
         - Ibexa Engage: ibexa_engage/ibexa_engage.md 
-    - PIM:
-        - Product Information Management: pim/pim.md
-        - PIM settings:
-            - Product types: pim/product_types.md
-            - Create product types: pim/create_product_types.md
-            - Work with product attributes: pim/work_with_product_attributes.md
-            - Work with currencies: pim/manage_currencies.md
-        - Products:
-            - Products: pim/products.md
-            - Create and edit products: pim/create_edit_product.md
-            - Create virtual products: pim/create_virtual_product.md
-            - Work with product assets: pim/work_with_product_assets.md
-            - Work with product variants: pim/work_with_product_variants.md
-            - Work with product prices: pim/manage_prices.md
-            - Work with product availability and stock: pim/manage_availability_and_stock.md
-        - Work with catalogs: pim/work_with_catalogs.md
-        - Work with product categories: pim/work_with_product_categories.md
-        - Work with product page URLs: pim/work_with_product_page_urls.md
     - DAM:
         - Ibexa DAM: dam/ibexa_dam.md
     - Customer management:
