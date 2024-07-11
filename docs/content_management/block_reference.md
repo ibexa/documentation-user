@@ -292,7 +292,7 @@ On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
 
-On the **Design** tab, in the **View** field, select the layout to be used to present a list of products and submit your changes.
+On the **Design** tab, in the **View** field, select the layout to be used to present the Sales representative's details and submit your changes.
 
 ## SeenThis! block
 
