@@ -85,6 +85,6 @@ This list includes all campaigns available on user's Qualifio account which are 
 ### Campaign custom tag
 
 You can embed a campaign within the [Rich Text field](../content_management/create_edit_content_items.md#edit-rich-text-fields) by using a Campaign custom tag.
-To do it, select a custom tag from the toolbar, and a choose campaign.
+To do it, select a custom tag from the toolbar, and provide campaign ID (available in Qualifio Manager).
 
 ![Campaign custom tag](img/campaign_custom_tag.png "Campaign custom tag")
