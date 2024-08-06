@@ -80,6 +80,7 @@ On the **Properties** tab, set values in the following fields:
 
 - **Name** - Enter a name for the block.
 - **Number of categories** - Set a maximum number of categories to be displayed. Default value = 10.
+- **Show uncategorized products** - If selected, displays uncategorized products in the chart.
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of products and submit your changes.
 
