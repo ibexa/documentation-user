@@ -39,6 +39,8 @@ Each identifier must be unique. It can have up to 64 characters and contain only
 
 1\. In the left panel, click **Product catalog** -> **Attributes** and click **Create**.
 
+![Create new attribute](img/create_new_attribute.png "Create new attribute")
+
 2\. From the drop-down list, choose an attribute type and click **Add**.
 
 ![Attribute types](img/attribute_types.png "Attribute types")
@@ -61,4 +63,4 @@ After you assign an attribute to a group and save your changes, the assignment c
 
 ![Measurement types](img/measurement_types.png "Measurement types")
 
-7\. Click **Save**.
+7\. Click **Save and close**.

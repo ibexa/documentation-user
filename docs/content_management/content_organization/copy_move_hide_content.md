@@ -24,10 +24,13 @@ If you only want to have the same content item to another place in the Content T
 ### Multi-file move
 
 In the content item's details screen, go to **Sub-items** tab, select multiple items, and click **Move**.
-Then choose a Location from the [content browser](../../getting_started/discover_ui.md#content-browser) in the **Choose Location** modal that opens up.
-After choosing and confirming new Location, all selected files are moved to it.
 
 ![Multi-file move](img/multi_file_move.png)
+
+Then choose a destination from the [content browser](../../getting_started/discover_ui.md#content-browser) in the **Select destination** modal that opens up.
+After choosing and confirming new destination, all selected files are moved to it.
+
+![Multi-file move](img/multi_file_move_location.png)
 
 ## Remove content
 

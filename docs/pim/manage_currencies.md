@@ -6,7 +6,8 @@ description: Define currencies that the system uses for calculating product pric
 
 Currencies are taken into account when calculating product price.
 
-You can configure currencies available in the system in the **Currencies** screen.
+You can configure currencies available in the system.
+To do it, in the left panel, go to **Product catalog** -> **Currencies**.
 
 The system contains a list of different currencies.
 To use them in the catalog, edit and enable them.
