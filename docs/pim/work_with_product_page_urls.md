@@ -8,7 +8,9 @@ Every [product item](products.md) has a system URL that is automatically generat
 
 When you are creating new [product type](create_product_types.md) you can set up product URL alias name pattern.
 
-To do it, fill in all the necessary information and choose the attributes that you want to use in URL alias name pattern field and click **Save** button.
+To do it, fill in all the necessary information, choose the attributes that you want to use in URL alias name pattern, copy their ID, and paste in the **URL alias name pattern** field using following pattern: <attribute:id>-<attribute:id>-(...), then click **Save and close** button.
+
+Below you can see an example of URL alias name pattern:
 
 ![URL attributes](url_attributes.png "URL attributes")
 

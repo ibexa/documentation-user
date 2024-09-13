@@ -9,6 +9,8 @@ Currencies are taken into account when calculating product price.
 You can configure currencies available in the system.
 To do it, in the left panel, go to **Product catalog** -> **Currencies**.
 
+![Manage currencies](img/manage_currencies.png "Manage currencies")
+
 The system contains a list of different currencies.
 To use them in the catalog, edit and enable them.
 
