@@ -20,7 +20,7 @@ A single Location can only have one content item in it.
 
 Even if a content item is placed in more than one Location, one of the Locations is always treated as the main one.
 
-To assign other Locations to content, [disable the Focus mode](../../getting_started/discover_ui.md#disable-focus-mode), go to this content item's **Locations** tab and click **+ Add**.
+To assign other Locations to content, [disable the Focus mode](../../getting_started/discover_ui.md#disable-focus-mode), go to the content item's **Locations** tab and click **+ Add**.
 Then select the new parent from the Content Browser.
 
 ![Content with two locations](img/content_with_two_locations.png "Content with two Locations")
@@ -91,6 +91,9 @@ The Link manager list also shows whether the link is alive or dead in the **Stat
 Each content item can have one or more URL aliases. They are additional URLs that can be used to access this content item.
 
 To add URL aliases, go to the **URL** tab, and click **+ Add** in the **Custom URL aliases for...** area.
+
+![Add new URL alias](img/add_new_url.png)
+
 The URL alias must be unique for the whole installation, regardless of the language.
 
 ![Creating a new URL alias](img/create_new_url_alias.png)

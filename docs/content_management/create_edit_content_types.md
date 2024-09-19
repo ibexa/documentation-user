@@ -40,9 +40,13 @@ is propagated to every content item of this type.
 
 3\. If you are modifying an existing content type, on the content type group's detail screen, click the **Edit** icon next to a name of the content type.
 
+![Create or edit content type](img/create_edit_content_type.png "Create or edit content type")
+
+4\. In the **Global properties** area, fill in global content type properties.
+
 ![Editing a content type](img/content_type_general_properties.png "Editing a content type")
 
-4\. In the **Global properties** area, fill in global content type properties. Each content type has the following global properties:
+Each content type has the following global properties:
 
 |Setting|Description|Use|
 --------|-----------|---|

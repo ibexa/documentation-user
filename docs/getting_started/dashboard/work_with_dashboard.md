@@ -35,7 +35,7 @@ Dashboard Builder user interface consists of:
 
 A. Drop zone
 
-B. Elements / Structure view toolbar
+B. Dashboard blocks / Structure view toolbar
 
 C. Buttons:
 
@@ -46,14 +46,14 @@ C. Buttons:
 |Undo|![Undo](dashboard_undo.png)|Undo latest change.|
 |Redo|![Redo](dashboard_redo.png)|Redo latest change.|
 |Structure view|![Structure view](dashboard_structure_view.png)|Access Structure view toolbar.|
-|Elements menu|![Elements menu](dashboard_elements.png)|Access Elements toolbar.|
+|Dashboard blocks|![Dashboard blocks](dashboard_blocks.png)|Access Dashboard blocks toolbar.|
 |View switch|![View switch](dashboard_switch_toolbar.png)|Move Elements / Structure toolbar to the other side of the screen.|
 
 Dashboard Builder has two main toolbars that you can use while creating a dashboard:
 
 - **Elements** - consists of all available blocks that you can use by dragging them and dropping on a drop zone.
 
-![Elements](dashboard_elements_toolbar.png)
+![Dashboard blocks](dashboard_blocks_toolbar.png)
 
 - **Structure view** - shows a structure of your dashboard, including its division into zones and the blocks that they contain.
 
@@ -101,9 +101,9 @@ First, access your user settings on the right side of the top bar:
 
 ![User settings](user_settings_builder.png "User settings")
 
-Then, go to **Preferences** tab, **Edit** section.
+Then, go to **Preferences** tab, **Content authoring** section, and click **Edit**.
 Here, you can find **Automatically open block settings in builder** setting, which is enabled by default.
-To change this behavior, click on **Edit** icon, find the setting, and change its value to `disabled`.
+To change this behavior, click on the arrow to see drop-down list and select `Disabled` option.
 
 ![Blocks settings](user_settings_blocks_builder.png "User settings - blocks settings")
 

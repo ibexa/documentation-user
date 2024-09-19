@@ -8,6 +8,8 @@ If your [user Role](../permission_management/work_with_permissions.md) has the `
 
 1\. In the left panel, go to **Product catalog** -> **Product Types** and click **Create**.
 
+![Create new product type](create_new_product_type.png "Create new product type")
+
 2\. From the drop-down list choose "Physical" or "Virtual" type and click **Add**.
 
 ![Selecting a type of product type](virtual_product_type.png "Selecting a type of product type")

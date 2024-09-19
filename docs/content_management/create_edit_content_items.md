@@ -99,17 +99,17 @@ Rich Text Fields are filled in using a special Online Editor. Its options appear
 
 ![Online Editor menu](img/online_editor_menu.png "Online Editor menu")
 
-To add a new element to the Field, choose one of the available elements:
+You can chooose from available options to edit and customize Rich Text Field, for example, move up or down its elements, select heading style, add text elements, like superscript, block quote, or anchor.
 
-- Heading
-- Paragraph
+You can also add new elements to the Field. To do it, choose one of the available elements:
+
 - Unordered list
 - Ordered list
-- Image
-- Embed
 - Table
+- Embed
+- Image
 - YouTube
-- Twitter
+- X
 - Facebook
 
 ![Available Rich Text block elements](img/rich_text_block_elements.png "Available Rich Text block elements")
