@@ -71,7 +71,7 @@ Expand the **Select blocks** section and select page blocks that you want to be 
 
 Now, only selected page blocks are available in the edit mode.
 
-![Elements menu](img/page_blocks_toolbar.png "Elements menu")
+![Page blocks menu](img/page_blocks_toolbar_selected_blocks.png "Page blocks menu")
 
 !!! caution
 

@@ -29,7 +29,7 @@ Access to Sections can be restricted by [setting up proper permissions](../../pe
 ## Object states
 
 You can assign specific Object states to all content items in your website.
-To do it, [disable the Focus mode](../../getting_started/discover_ui.md#disable-focus-mode), go to the content item details view, and make necessary changes in the **Object state details** section.
+To do it, [disable the Focus mode](../../getting_started/discover_ui.md#disable-focus-mode), go to the **Technical details** tab, and make necessary changes in the **Object state details** section.
 
 ![Object state details](img/object_state_details.png)
 

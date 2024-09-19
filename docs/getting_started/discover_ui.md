@@ -7,26 +7,33 @@ description: Take a quick tour of the Back Office.
 ## Top bar
 
 At the top of the main screen you can see a top bar.
-Depending on your location within the Back Office, it can contain the following important features:
-
-- Logo in the left corner, which is a direct link to the [dashboard](#dashboard)
-- "Focus mode" badge which informs you that the [focus mode](#focus-mode) is on
-- Global search field that allows you to [find content](../search/search_for_content.md) by checking all searchable Fields
-- Drop-down that changes the site context
-- Notification icon that informs you about incoming assignments, for example, items assigned for [your review](../content_management/workflow_management/editorial_workflow.md#review-queue)
-- App switcher which includes links to official websites of the QNTM group ecosystem companies, world-class ad-tech and mar-tech solution providers
-- User avatar with a drop-down menu with access to [user profile and settings](get_started.md#view-and-edit-user-profile)
 
 ![Top bar](img/top_bar_all.png "Top bar")
+
+Depending on your location within the Back Office, it can contain the following important features:
+
+A\. Logo in the left corner, which is a direct link to the [dashboard](#dashboard)
+
+B\. "Focus mode" badge which informs you that the [focus mode](#focus-mode) is on
+
+C\. Global search field that allows you to [find content](../search/search_for_content.md) by checking all searchable Fields
+
+D\. Drop-down that changes the site context
+
+![Top bar with site context selector](img/top_bar.png "Top bar with site context selector")
+
+E\. Notification icon that informs you about incoming assignments, for example, items assigned for [your review](../content_management/workflow_management/editorial_workflow.md#review-queue)
+
+F\. App switcher which includes links to official websites of the QNTM group ecosystem companies, world-class ad-tech and mar-tech solution providers
+
+![App switcher](img/app_switcher.png "App switcher")
+
+G\. User avatar with a drop-down menu with access to [user profile and settings](get_started.md#view-and-edit-user-profile)
 
 !!! note "Site context"
 
     Changing the site context results in the [Content Tree](#content-tree) showing content items that belong to the selected website.
     The appearance of content items can also change if they use different designs or languages depending on the [SiteAccess](../website_organization/multisite.md#siteaccess) settings.
-
-![Top bar with site context selector](img/top_bar.png "Top bar with site context selector")
-
-![App switcher](img/app_switcher.png "App switcher")
 
 ## Dashboard
 
@@ -43,6 +50,11 @@ For more information, see [Work with dashboard](work_with_dashboard.md).
 The main menu allows you to move between important sections of the application.
 
 ![Main menu](img/side_menu.png "Main menu")
+
+You can adjust the size of the menu sidebar. To do this, click on the side edge of the panel, then drag and adjust to the desired size.
+You can also hide it by clicking the button in the down right corner.
+
+![Main menu - adjust](img/menu_adjust.png "Adjust main menu or hide it")
 
 Depending on the product edition and your [permissions](../permission_management/permission_system.md), the main menu may include, for example:
 
@@ -77,7 +89,7 @@ In such cases, you use the **Content Browser**.
 
 To access the **Content Browser**, go to the **Content** tab and select **Content structure** or **Media**.
 Then, select a file you want to copy or move and click the corresponding button in the top right corner.
-The Content Browser window opens, and you can select the new location of the selected file or its copy.
+The Content Browser window opens, and you can select the new destination of the selected file or its copy.
 
 ![Content Browser](img/udw.png "Content Browser")
 
@@ -103,11 +115,6 @@ Dark theme for Content Tree
 : In areas where the Content Tree is displayed, for example, in **Content structure**, the tree is displayed on a dark background.
 
 ![Dark theme for Content Tree](img/FM_dark_content_tree.png "Dark theme for Content Tree")
-
-Settings unavailable in Content area
-: In Focus mode, in **Content** area of the main menu, the **Settings** part of the menu is not available.
-
-![Content tab in Focus mode](img/FM_menu_without_settings.png)
 
 Content item view
 : If you select a specific [SiteAccess](translate_content.md#siteaccess) from the **Site context** drop-down list on the right side of the top bar and then browse content items in Content Tree, they are displayed in full view, with a limited set of actions available.
