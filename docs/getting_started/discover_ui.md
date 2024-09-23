@@ -38,7 +38,7 @@ G\. User avatar with a drop-down menu with access to [user profile and settings]
 ## Dashboard
 
 The first screen that you see after logging in is [Dashboard](dashboard.md).
-It is the default dashboard and contains selected blocks.
+It's the default dashboard and contains selected blocks.
 
 ![Dashboard](dashboard.png "Dashboard")
 
@@ -77,7 +77,7 @@ Hidden content is greyed out in the tree view.
 
 To simplify the Content Tree, big lists are collapsed and include a **Show more** icon. 
 You can select it to expand the branches of the tree.
-Available from the context menu, the **Collapse all** option that closes all expanded sections.
+**Collapse all** option, which is available in the context menu, closes all expanded sections.
 
 For more information on custom configuration, go to [Content Tree]([[= developer_doc =]]/administration/back_office/content_tree/) in developer documentation.
 
@@ -111,12 +111,12 @@ Focus mode helps editors focus on information that is only relevant to their lin
 It is enabled by default, after you log in.
 If you need access to certain settings or technical details, you can [disable the focus mode](#disable-focus-mode) at any time.
 
-Dark theme for Content Tree
+- **Dark theme for Content Tree**
 : In areas where the Content Tree is displayed, for example, in **Content structure**, the tree is displayed on a dark background.
 
 ![Dark theme for Content Tree](img/FM_dark_content_tree.png "Dark theme for Content Tree")
 
-Content item view
+- **Content item view**
 : If you select a specific [SiteAccess](translate_content.md#siteaccess) from the **Site context** drop-down list on the right side of the top bar and then browse content items in Content Tree, they are displayed in full view, with a limited set of actions available.
 To display the content item details view with more actions, click **Exit full view**.
 
@@ -126,13 +126,13 @@ To display the content item details view with more actions, click **Exit full vi
 
     Even when you're out of the full view or not in Focus mode, you can still preview the content item in the **View** tab.
 
-Different details view tabs in Focus mode and when it is disabled
+- **Different details view tabs**
 : In Focus mode, the tabs in content item's detail view are different than the ones visible when it is disabled.
 Additionally, they are displayed in different order to expose the ones that are more important from the editor's perspective.
 
 ![Content item tabs in Focus mode](img/FM_less_ci_tabs.png "Content item tabs in Focus mode")
 
-Different columns available for selection
+- **Different columns available for selection**
 : You can decide which columns are displayed in the **Sub-items** table, to adjust the view to your use case.
 The list of columns available for selection is limited in Focus mode.
 
