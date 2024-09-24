@@ -1,5 +1,5 @@
 ---
-description: Customer management allows you to manage and view accounts for customers and organizations in your system, as well as create customer portals and allow for company self-registration.
+description: Customer management allows you to manage and view accounts for customers and organizations in your system, as well as create customer portals and allows for company self-registration.
 ---
 
 # Customer management
