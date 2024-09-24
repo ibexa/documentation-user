@@ -12,7 +12,7 @@ description: Create content for your website with different Fields, rich text, t
     
         The new content item becomes a child of the content item that you originally selected.
     
-    - In the upper-right corner of the [My dashboard](../getting_started/discover_ui.md#my-dashboard) screen, click **Create content**.
+    - In the **Quick actions** block of the [Dashboard](../getting_started/discover_ui.md#dashboard) screen, click **Create content**.
     Then choose a location for the new item in [Content Browser](../getting_started/discover_ui.md#content-browser) and click **Create**.
 
     !!! tip
@@ -32,6 +32,7 @@ description: Create content for your website with different Fields, rich text, t
 1. [Fill in the Fields](#edit-new-or-existing-content-items) of the content item.
 
 1. Click **Preview** to see how the content item could look to an end-user.
+
     !!! tip
     
         A content item can look different on different [SiteAccesses](translate_content.md#siteaccess).
