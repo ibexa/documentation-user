@@ -16,7 +16,7 @@ Content management enables you to create, edit, and manage content items and con
     "content_management/work_with_forms",
     "content_management/taxonomy/taxonomy",
     "content_management/taxonomy/work_with_tags",
-    "content_management/workflow_management/content_versions",
+    "content_management/content_versions",
     "content_management/workflow_management/work_with_versions",
     "content_management/workflow_management/editorial_workflow",
     "content_management/workflow_management/view_workflow_list",
