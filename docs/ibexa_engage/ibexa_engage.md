@@ -13,7 +13,7 @@ You can use interactive content to build relationships and collect important dat
 
 To use [[= product_name_engage =]], you must make arrangements with [[= product_name_base =]] to define the initial configuration, and then get and set up a user account.
 
-1\. Go to the Back Office.
+1\. On the left menu panel, go to **Ibexa Engage**.
 
 2\. On the left panel, go to **Ibexa Engage**.
 

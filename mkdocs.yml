@@ -18,6 +18,7 @@ nav:
         - Create and edit content types: content_management/create_edit_content_types.md
         - Configure content type Fields: content_management/configure_ct_field_settings.md
     - Content management:
+        - Content management: content_management/content_management.md
         - Content items: content_management/content_items.md
         - Create and edit content items: content_management/create_edit_content_items.md
         - Create and edit pages: 
@@ -105,6 +106,7 @@ nav:
     - DAM:
         - Ibexa DAM: dam/ibexa_dam.md
     - Customer management:
+        - Customer management: customer_management/customer_management.md
         - Customer Portal: customer_management/customer_portal.md
         - Create and edit Customer Portal: customer_management/build_customer_portal.md
         - Manage customers: customer_management/manage_customers.md

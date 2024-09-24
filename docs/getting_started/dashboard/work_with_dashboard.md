@@ -47,11 +47,11 @@ C. Buttons:
 |Redo|![Redo](dashboard_redo.png)|Redo latest change.|
 |Structure view|![Structure view](dashboard_structure_view.png)|Access Structure view toolbar.|
 |Dashboard blocks|![Dashboard blocks](dashboard_blocks.png)|Access Dashboard blocks toolbar.|
-|View switch|![View switch](dashboard_switch_toolbar.png)|Move Elements / Structure toolbar to the other side of the screen.|
+|View switch|![View switch](dashboard_switch_toolbar.png)|Move toolbar to the other side of the screen.|
 
 Dashboard Builder has two main toolbars that you can use while creating a dashboard:
 
-- **Elements** - consists of all available blocks that you can use by dragging them and dropping on a drop zone.
+- **Dashboard blocks** - consists of all available blocks that you can use by dragging them and dropping on a drop zone.
 
 ![Dashboard blocks](dashboard_blocks_toolbar.png)
 
@@ -71,7 +71,7 @@ To do it, click the **Switch layout** icon on the left side of the upper toolbar
 
 ### Add blocks
 
-In Dashboard Builder, you can access a menu of **Elements**, which includes a set of blocks of content that you can add to the zones of the dashboard.
+In Dashboard Builder, you can access a menu of **Dashboard blocks**, which includes a set of blocks of content that you can add to the zones of the dashboard.
 
 !!! Tip
 
@@ -84,14 +84,14 @@ You can reorder blocks in a few ways:
 
 - drag and drop block in the desired location on a drop zone
 - use **Move up block** or **Move down block** option from the block toolbar
-- access Structure view and use 'Move up' and 'Move down' function in the settings of the block
+- access Structure view and use **Move up** or **Move down** option in the settings of the block
 
 When you add a new block to the drop zone, drop it in the blue highlighted area.
 Before you drop it, a bold line appears  - it helps you see the position of the newly added block in relation to other, already added blocks.
 
 ![Drop zone line](dashboard_blue_line.png)
 
-When you add a block by dragging it from Elements menu into the drop zone, the block settings panel open immediately where you can configure all block properties.
+When you add a block by dragging it from **Dashboard blocks** menu into the drop zone, the block settings panel open immediately where you can configure all block properties.
 
 ![Block properties](dashboard_block_properties.png)
 
@@ -122,7 +122,7 @@ To save changes, click **Save and close**.
 
 You can also work with the block, for example, duplicate it, change its position, or delete it.
 
-Hover over the block and the toolbar appears.
+When you hover over the block, the drop zone toolbar appears.
 Click the three dots icon to see more options.
 
 The following actions are available:
