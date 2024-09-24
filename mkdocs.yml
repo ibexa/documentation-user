@@ -31,7 +31,7 @@ nav:
             - Taxonomy: content_management/taxonomy/taxonomy.md
             - Work with tags: content_management/taxonomy/work_with_tags.md
         - Content versions:
-            - Content versions: content_management/workflow_management/content_versions.md
+            - Content versions: content_management/content_versions.md
             - Work with versions: content_management/workflow_management/work_with_versions.md
         - Editorial workflow:
             - Editorial workflow: content_management/workflow_management/editorial_workflow.md
