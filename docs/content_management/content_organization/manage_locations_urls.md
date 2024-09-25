@@ -37,7 +37,7 @@ When a Location is hidden, all of its children (other content items that are und
 They can only be revealed if the parent Location is revealed as well.
 
 A hidden Location is invisible for everyone viewing the website.
-If you are looking for a way to allow only some users to view parts of the content tree,
+If you're looking for a way to allow only some users to view parts of the content tree,
 use [Sections](classify_content.md#sections) and combine them with [proper permissions](../../permission_management/permission_system.md).
 
 ### Swap Locations
@@ -49,14 +49,14 @@ in the **Location** tab and selecting a content item to swap with.
 
     Swapping Locations republishes their respective URL aliases.
     This means that if the swapped content item was accessible by the URL that had a number at the end
-    (added due to a name conflict), then after the swap the number will be removed (if possible).
+    (added due to a name conflict), then after the swap the number is removed (if possible).
     The opposite case also applies.
 
     Swapping Locations for content item with the same name and parent results in swapping their URL aliases.
     This means that if the content item was previously accessible by a URL without a number at the end,
-    after the swap it will be accessible by a URL with a number at the end (and the other way around).
+    after the swap it's' accessible by a URL with a number at the end (and the other way around).
 
-    If at some point there were more than two content items with the same name under the same parent, then result of swapping such content items might not be obvious. The general rule is that the content item that previously had a higher number at the end of its URL alias will have its URL alias republished first, resulting in the lowest nonconflicting number (or the lack of) at the end of its URL alias. The content item that previously had a lower number at the end of its URL alias will have its URL alias republished second, resulting in the second lowest nonconflicting number at the end of its URL alias.
+    If at some point there were more than two content items with the same name under the same parent, then result of swapping such content items might not be obvious. The general rule is that the content item that previously had a higher number at the end of its URL alias have its URL alias republished first, resulting in the lowest nonconflicting number (or the lack of) at the end of its URL alias. The content item that previously had a lower number at the end of its URL alias have its URL alias republished second, resulting in the second lowest nonconflicting number at the end of its URL alias.
 
 ## URL management
 
@@ -76,7 +76,7 @@ The Link manager tab shows a list of all links in the website. Click any item in
 
 ![Detail of a link in Link manager](img/link_manager_detail.png)
 
-You can change any link in the Link manager. It is then updated in every place where it is used, across all content items.
+You can change any link in the Link manager. It's then updated in every place where it's used, across all content items.
 
 The Link manager list also shows whether the link is alive or dead in the **Status** column. The **Last checked** column displays when the status was last verified.
 
@@ -84,11 +84,11 @@ The Link manager list also shows whether the link is alive or dead in the **Stat
 
     When you edit a link in the Link manager, you cannot change the URL address to one that already exists in the system.
 
-    Once you save the link, it is automatically be marked as "Valid".
+    Once you save the link, it's automatically be marked as "Valid".
 
 ### URL aliases
 
-Each content item can have one or more URL aliases. They are additional URLs that can be used to access this content item.
+Each content item can have one or more URL aliases. They're additional URLs that can be used to access this content item.
 
 To add URL aliases, go to the **URL** tab, and click **+ Add** in the **Custom URL aliases for...** area.
 

@@ -35,7 +35,7 @@ The Personalization service has little information about the users of the websit
 Additional attributes, such as the user's age or home city, might help the service generate 
 a successful recommendation, for example, by enabling the use of [boost filters](filters.md#boost-filters).
 User attributes could be retrieved based on the external user ID.
-However, it is rarely possible to combine the external user ID within the user's attribute set.
+However, it's rarely possible to combine the external user ID within the user's attribute set.
 
 For more information about user attribute import, see [User API]([[= developer_doc =]]/personalization/api_reference/user_api/) in the developer documentation.
 

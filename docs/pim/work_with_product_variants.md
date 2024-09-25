@@ -50,5 +50,5 @@ To do this, click **Add** next to the variant list, enter a product code and sel
 You can set up product availability separately for each product variant.
 
 You can also set up prices per product variant.
-The prices will override prices set for the main product.
+This new prices overrides prices set for the main product.
 If you do not define a price for a variant, the price of the main product is used.

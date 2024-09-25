@@ -6,7 +6,7 @@ edition: commerce
 # Work with payments
 
 In [[= product_name =]], you can view a list of payments and modify their statuses on the **Payments** screen.
-By default, depending on your permissions, you can access payments for your own orders or all the payments that exist in the system.
+By default, depending on your permissions, you can access payments for your own orders, or all the payments that exist in the system.
 
 ## Filter payments in payment list
 

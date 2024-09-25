@@ -50,15 +50,15 @@ Available filters are:
 
 To filter the list, set one of the filters and click `Apply` button.
 
-You can also clear all chosen filters - to do it, click `Clear filters`. 
+You can also clear all chosen filters - to do it, click `Clear filters`.
 
 ## View shipment details
 
 To view the details of a shipment, click its line in the shipment list.
 
-On the shipment details screen, you can see an overview of the shipment's details. 
+On the shipment details screen, you can see an overview of the shipment's details.
 
-Shipment details include basic information about the shipment, customer details, shipping address, total value, order ID and the date of the last update.
+Shipment details include basic information about the shipment, customer details, shipping address, total value, order ID, and the date of the last update.
 
 ![Shipment detail view](shipment_detail_view.png)
 
@@ -66,6 +66,6 @@ Shipment details include basic information about the shipment, customer details,
 
 If your [user role](work_with_permissions.md) has the `Shipment/Edit` permission, you can change the status of an existing shipment:
 
-- "Pending" -> "Ready to ship" - click **Prepare** button, then click **Change** to confirm. 
-- "Ready to ship" -> "Shipped" - click **Send** button, then click **Change** to confirm. 
+- "Pending" -> "Ready to ship" - click **Prepare** button, then click **Change** to confirm.
+- "Ready to ship" -> "Shipped" - click **Send** button, then click **Change** to confirm.
 - "Shipped" -> "Delivered" - click **Deliver** button, then click **Change** to confirm. 

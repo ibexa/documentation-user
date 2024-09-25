@@ -5,7 +5,7 @@ description: Preview content items of various types in many places of the back o
 # Preview content items
 
 There are several places where you can see how the content item could look to an end-user.
-The system behaves differently depending on whether you are in [Focus mode](../getting_started/discover_ui.md#focus-mode) or not and whether you selected a specific site from the **Site context** drop-down list in the top bar.
+The system behaves differently depending on whether you're in [Focus Mode](../getting_started/discover_ui.md#focus-mode) or not and whether you selected a specific site from the **Site context** drop-down list in the top bar.
 
 - When you [edit a Page](create_edit_content_items.md), the editor provides a visual experience.
 By clicking the following icons, you can switch between different Page views.

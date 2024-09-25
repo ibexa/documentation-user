@@ -12,7 +12,7 @@ There are several possible use cases for types of content, for example:
 - A store can split all the products into food and non-food product groups.
 - An owner of several web stores can use a single account for all of them.
 
-Based on the types of content concept, it is possible to make so-called cross 
+Based on the types of content concept, it's possible to make so-called cross 
 content type recommendations (like "Users who watched this film also read this 
 book" or "Users who bought these wallets also bought these belts").
 

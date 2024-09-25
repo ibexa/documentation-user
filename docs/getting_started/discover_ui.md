@@ -71,7 +71,7 @@ The **Content Tree** area is an expandable content menu of your website.
 
 ![Content tree in the menu](img/left_menu_tree.png "Content tree in the menu")
 
-Unique icons for each content type instantly show you what type of content you are selecting. To add custom icons to your content tree, follow [configuration tutorial in developer documentation.]([[= developer_doc =]]/administration/back_office/back_office_elements/custom_icons/#customize-content-type-icons)
+Unique icons for each content type instantly show you what type of content you're selecting. To add custom icons to your content tree, follow [configuration tutorial in developer documentation.]([[= developer_doc =]]/administration/back_office/back_office_elements/custom_icons/#customize-content-type-icons)
 
 Hidden content is greyed out in the tree view.
 
@@ -108,7 +108,7 @@ You can also use the **Content Browser** to search the Repository for content, e
 ## Focus mode
 
 Focus mode helps editors focus on information that is only relevant to their line of work and omit technical details that would distract.
-It is enabled by default, after you log in.
+It's enabled by default, after you log in.
 If you need access to certain settings or technical details, you can [disable the focus mode](#disable-focus-mode) at any time.
 
 - **Dark theme for content tree**
@@ -117,7 +117,7 @@ If you need access to certain settings or technical details, you can [disable th
 ![Dark theme for content tree](img/FM_dark_content_tree.png "Dark theme for content tree")
 
 - **Content item view**
-: If you select a specific [SiteAccess](translate_content.md#siteaccess) from the **Site context** drop-down list on the right side of the top bar and then browse content items in content tree, they are displayed in full view, with a limited set of actions available.
+: If you select a specific [SiteAccess](translate_content.md#siteaccess) from the **Site context** drop-down list on the right side of the top bar and then browse content items in content tree, they're displayed in full view, with a limited set of actions available.
 To display the content item details view with more actions, click **Exit full view**.
 
 ![Content item in full view](img/FM_content_item_full_view.png "Content item in full view")
@@ -127,8 +127,8 @@ To display the content item details view with more actions, click **Exit full vi
     Even when you're out of the full view or not in Focus mode, you can still preview the content item in the **View** tab.
 
 - **Different details view tabs**
-: In Focus mode, the tabs in content item's detail view are different than the ones visible when it is disabled.
-Additionally, they are displayed in different order to expose the ones that are more important from the editor's perspective.
+: In Focus mode, the tabs in content item's detail view are different than the ones visible when it's disabled.
+Additionally, they're displayed in different order to expose the ones that are more important from the editor's perspective.
 
 ![Content item tabs in Focus mode](img/FM_less_ci_tabs.png "Content item tabs in Focus mode")
 

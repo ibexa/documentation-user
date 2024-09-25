@@ -80,7 +80,7 @@ Click **Download submissions** icon to download all the submissions in a .CSV (c
 
 ## Use case - create newsletter
 
-In the following example, you will learn how to create a Newsletter form and use it with Page Builder.
+In the following example, you can learn how to create a Newsletter form and use it with Page Builder.
 
 1\. Create a new content item in the chosen localization in the content tree and choose **Form** type.
 

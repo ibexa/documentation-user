@@ -36,18 +36,18 @@ After choosing and confirming new destination, all selected files are moved to i
 
 You can remove content by clicking **Send to Trash** in the menu.
 If you remove a content item that has children (other content under it in the content tree),
-both this item and the children will be removed. This also breaks the connection between the items,
-so you will not be able to restore them with the same structure.
+both this item and the children are removed. This also breaks the connection between the items,
+so you cannot restore them with the same structure.
 
 Notice that the content item is not removed completely.
-It is moved to Trash, which you can access from the left menu.
+It's moved to Trash, which you can access from the left menu.
 In the Trash, you can search for content items and sort your search results based on different criteria. You can then select removed content items and restore them to their original Locations or to new Locations you choose.
 If the content item's parent has been removed, you need to select a new parent Location.
 
 ![Warning before emptying the trash](img/empty_trash_warning.png "Warning before emptying the Trash")
 
-If a content item has more than one Location, selecting **Send to Trash** will remove the content item only from the current Location.
-The content will appear in Trash only once you have removed the last Location.
+If a content item has more than one Location, selecting **Send to Trash** removes the content item only from the current Location.
+The content appears in Trash only once you have removed the last Location.
 
 You can permanently remove a content item by checking it and clicking the trash icon.
 You can also permanently remove all content from the Trash by clicking **Empty Trash**.
@@ -75,11 +75,11 @@ You can hide a content item by clicking **Hide** in the menu.
 ![Hide content icon](img/hide_content_icon.png)
 
 When you click **Hide**, you can choose to **Hide later**
-and select and date and time when the content item will be hidden:
+and select and date and time when the content item is hidden:
 
 ![Schedule hiding panel](img/schedule_hiding.png)
 
-A hidden content item is not shown in the frontend when using the default templates. It is also grayed out in the content tree.
+A hidden content item is not shown in the frontend when using the default templates. It's also grayed out in the content tree.
 
 This is different from [hiding Locations](manage_locations_urls.md#hide-locations), because it affects the content item
 in all of its Locations.

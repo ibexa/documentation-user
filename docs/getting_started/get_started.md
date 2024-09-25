@@ -25,7 +25,7 @@ Depending on the product edition, [[= product_name =]] can provide advanced capa
 To access the back office (or the user/editor interface), add `/admin` to the address provided by the administrator.
 For example, if your website's URL is `www.my-site.com`, you enter the editing interface through `www.my-site.com/admin`.
 
-If you are the administrator, the default administrator account information is:
+If you're the administrator, the default administrator account information is:
 
 - username: `admin`
 - password:` publish`
@@ -117,7 +117,7 @@ such as preferred timezone, short and full date and time format, or back office 
 |Setting|Description|
 --------|-----------|
 |Number of items displayed in the table|Sets the number of items displayed in sub-items.|
-|Location preview|Enables or disabled a thumbnail preview on the content tree.|
+|Location preview|Enables or disabled a thumbnail preview on the content ree.|
 
 **Mode**
 

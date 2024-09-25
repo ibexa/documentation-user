@@ -18,9 +18,9 @@ See [Products]([[= developer_doc =]]/pim/product_api/#products) for a technical 
 
 1\. Click **Product catalog** -> **Products**. 
 
-2\. If you are adding a new product, click **Create** and skip to step 4.
+2\. If you're adding a new product, click **Create** and skip to step 4.
 
-3\. If you are editing an existing product, in the **Category filter** tree, select a category to find your product more quickly. Then click the **Edit** button next to a name of the product item that you want to modify and skip to step 5.
+3\. If you're editing an existing product, in the **Category filter** tree, select a category to find your product more quickly. Then click the **Edit** button next to a name of the product item that you want to modify and skip to step 5.
 
 ![Products list with action buttons](img/edit_product.png "Products list with action buttons")
 
@@ -35,8 +35,8 @@ Fields marked with an asterisk (*) are required.
 
 6\. In the Attributes section, define the product's attributes, for example, dimensions, resolution or capacity.
 
-7\. If you are adding a new product, click the **Create** button.
-If you are editing an existing one, click the **Update** button.
+7\. If you're adding a new product, click the **Create** button.
+If you're editing an existing one, click the **Update** button.
 
 After you create a product, you can [add image assets to a product](work_with_product_assets.md), [create variants to the main product](work_with_product_variants.md), [define product prices](manage_prices.md), [set the available quantity](manage_availability_and_stock.md) and [classify products into different categories](work_with_product_categories.md).
 

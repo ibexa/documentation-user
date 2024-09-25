@@ -12,7 +12,7 @@ of the Personalization service.
 
 The dashboard consists of several sections:
 
-- The top section contains tiles with the most important metrics, such as a number of recommendation calls, number of successful recommendations and so on.
+- The top section contains tiles with the most important metrics, such as a number of recommendation calls, or number of successful recommendations.
 - The diagrams section presents statistical information on how the Personalization service is used and how successful recommendations are, depending on key performance indicators.
 - The bottom section is made up of tables with detailed information, such as the most popular items.
 
@@ -41,7 +41,7 @@ The diagram part consists of four main blocks:
 
 Revenue-through-recommendations is an additional monetary value that resulted from 
 the clicked recommendations. 
-It is calculated by summing up the revenue coming from products that users have purchased 
+It's calculated by summing up the revenue coming from products that users have purchased 
 within 30 minutes from clicking a recommendation.
 
 Purchased recommendations is the number of products sold, without any 
@@ -49,8 +49,8 @@ revenue/price information.
 
 Conversion (or click-through) rate is an indicator of the acceptance and, subsequently, 
 the quality of recommendations. 
-It is calculated by dividing the total number of clicked recommendations by the number of 
-recommendation calls. 
+It's calculated by dividing the total number of clicked recommendations by the number of 
+recommendation calls.
 This statistic delivers reliable information if event tracking is implemented correctly.
 
 You can select a timeframe for the diagrams from a list of presets, or define a custom date range.

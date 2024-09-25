@@ -5,25 +5,25 @@ edition: commerce
 
 # Work with shipping methods
 
-If your [user role](work_with_permissions.md) includes the `Shipping method/Create` permission, you can create shipping methods. 
+If your [user role](work_with_permissions.md) includes the `Shipping method/Create` permission, you can create shipping methods.
 With the `Shipping method/Edit` permission, you can modify existing ones.
 
-Shipping methods describe how goods can be shipped to a store customer, with different rates for different geographic locations. 
-Example shipping methods are overnight delivery, self-pickup, DHL and so on.
+Shipping methods describe how goods can be shipped to a store customer, with different rates for different geographic locations.
+Example shipping methods are overnight delivery, self-pickup, or DHL.
 
 !!! note "Shipping method limitations"
 
-    By default, you can only create shipping methods of 'Flat rate' and 'Free shipping' type. 
+    By default, you can only create shipping methods of 'Flat rate' and 'Free shipping' type.
     
     Shipping methods created in legacy Commerce cannot be migrated when you upgrade. You have to define them from scratch.
 
-"Flat rate" shipping means delivering goods at a fixed, predefined cost, regardless of the number and type of items in the cart. 
+"Flat rate" shipping means delivering goods at a fixed, predefined cost, regardless of the number, and type of items in the cart.
 
 ## Create new shipping method 
 
 1\. In the left panel, go to **Commerce** -> **Shipping methods**, and click **Create**.
 
-2\. Select the language for the new shipping method, its type, and region it will apply to.
+2\. Select the language for the new shipping method, its type, and region that you want it applies to.
 
 3\. In the next screen provide information about the new shipping method.
 
@@ -31,7 +31,7 @@ Example shipping methods are overnight delivery, self-pickup, DHL and so on.
 
 Details about shipping cost differ between shipping methods:
 
-- Flat rate requires setting a specific fixed cost for shipping, expressed as net value in a given currency. 
+- Flat rate requires setting a specific fixed cost for shipping, expressed as net value in a given currency.
 This value is then displayed during checkout and added to the total order amount when the store customer selects a specific shipping method.
 - Free shipping requires setting the minimum order value (in a given currency) above which the shipping is free.
 
@@ -65,7 +65,7 @@ This value is then displayed during checkout and added to the total order amount
 
 !!! note "Shipping methods for existing orders"
 
-    You cannot delete a shipping method if it is active or if it is used by open orders. 
+    You cannot delete a shipping method if it's active or if it's used by open orders.
     You must first deactivate the method that you want to delete by toggling the **Availability** switch off.
 
 ## Filter shipping methods

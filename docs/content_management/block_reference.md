@@ -190,7 +190,7 @@ On the **Properties** tab, set values in the following fields:
 - **Folder** — Click **Select content**, browse the content, and select a folder containing images to display.
 
 After submitting the settings, all images in the folder are shown in the Gallery block.
-Selecting a folder containing content items other than images results in displaying only a link to the folder where they are stored.
+Selecting a folder containing content items other than images results in displaying only a link to the folder where they're stored.
 
 ## [[= product_name_connect =]] block
 

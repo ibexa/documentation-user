@@ -12,7 +12,7 @@ through the workflow or compare edits from different users.
 
 ## Edit drafts
 
-If you are assigned to a draft version of a content item for [review](editorial_workflow.md), 
+If you're assigned to a draft version of a content item for [review](editorial_workflow.md), 
 when you click the **Edit draft** icon in **My dashboard**, the **Review queue** 
 table, you see the **Event(s)** timeline that lists all the transitions that this 
 content has gone through.
@@ -25,13 +25,13 @@ If draft locking is supported, you also see a message that confirms that the dra
 
 ## Release locked drafts
 
-If you are assigned to a draft version of a content item and have locked it for 
+If you're assigned to a draft version of a content item and have locked it for 
 review, you can release the lock by closing the modal window, publishing the draft, 
 or sending it to another reviewer.
 You can also do it in **My dashboard**, the **Review queue** table, by clicking 
 the **Unlock** icon.
 
-If you are not assigned to the draft, depending on the permissions set for your 
+If you're not assigned to the draft, depending on the permissions set for your 
 role, in the **Review queue** table, you can either release the lock by clicking 
 the **Unlock** icon, or request that the lock is released by the reviewer 
 by clicking the **Request access** icon.

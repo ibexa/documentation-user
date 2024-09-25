@@ -13,7 +13,7 @@ The **published version** is the version that is currently presented to the audi
 Every content item can have only one published version at a time.
 
 Whenever you edit and publish a content item again, its previous published version becomes an **archived version**.
-It is not available to the visitor and you cannot edit it, but you can create new drafts based on any archived version.
+It's not available to the visitor and you cannot edit it, but you can create new drafts based on any archived version.
 
 Finally, **drafts** are versions that have not been published yet.
 There can be many drafts of the same content item.

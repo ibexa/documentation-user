@@ -7,7 +7,7 @@ edition: experience
 
 Self-registration allows your business customers to take charge and apply for a business account on your website by themselves.
 The application is not approved automatically, it has to go through the approval process in the back office.
-If it is accepted, the business partner receives an invitation link to the Customer Portal,
+If it's accepted, the business partner receives an invitation link to the Customer Portal,
 where they can set up their team and manage their account.
 
 ## Submitting application

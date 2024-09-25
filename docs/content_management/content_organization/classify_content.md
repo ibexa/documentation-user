@@ -1,5 +1,5 @@
 ---
-description: Classify the content of your website by using Sections, Bookmarks, Segments, and so on.
+description: Classify the content of your website by using Sections, Bookmarks, or Segments.
 ---
 
 # Classify content

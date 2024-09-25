@@ -11,7 +11,7 @@ that's presented to B2B and B2C users, retailers and distributors or different r
 ## Catalogs
 
 Catalogs are collections of [products](products.md) selected by using configurable filters.
-They are specific to each of your websites or storefronts, which means that they contain products that are presented or sold in a specific website.
+They're specific to each of your websites or storefronts, which means that they contain products that are presented or sold in a specific website.
 
 ![Catalog menu with a sample catalog](img/catalog.png "Catalog menu with a sample catalog")
 
@@ -26,7 +26,7 @@ To create a catalog:
 
 ![Creating a new catalog](img/catalog_create.png "Creating a new catalog")
 
-After you create a catalog, it is draft mode.
+After you create a catalog, it's draft mode.
 To make the block available, for example, in page blocks, you must publish it.
 
 1. In the **Catalogs** page, click the name of a catalog that you want to publish.

@@ -11,8 +11,8 @@ but also all media (images, videos, etc.) and user accounts.
 [[= product_name =]] lets you customize and adapt the content model depending on your needs and the type of website you create.
 
 Depending on your organization, if you are an editor or a content creator,
-it is possible that the content model for your installation has already been created by your administrator or content manager.
-However, even a non-technical user can easily create or modify the content model through the editing interface.
+it's possible that the content model for your installation has already been created by your administrator or content manager.
+However, even a non-technical user can create or modify the content model through the editing interface.
 
 ## Content types
 
@@ -31,14 +31,14 @@ A [content item](content_items.md) is an instance of a particular content type, 
 
 When a content item is created, it inherits the fields from its content type.
 However, the values of the fields (their "contents") are empty, and you need to fill them separately for each content item.
-The fields in a content type are only definitions. This means that they describe what fields of what kinds will be present in a content item, but as a rule they do not provide these fields' values.
+The fields in a content type are only definitions. This means that they describe what fields of what kinds are present in a content item, but as a rule they do not provide these fields' values.
 
-As a consequence, all content items of the same content type will share the same set of fields, but their field values will be different.
+As a consequence, all content items of the same content type share the same set of fields, but their field values are different.
 
 For example, you need to store book information.
 You create a new content type called "Book" and add to it fields such as Title, Author, Genre, ISBN, etc.
 Next, based on this content type, you can create any number of content items.
-The empty fields will be ready to be filled in with the information about each specific book:
+You can fill the empty fields with the information about each specific book:
 
 ![Content model diagram](img/content_model_diagram.png "Content model diagram")
 
@@ -52,9 +52,9 @@ for example, *Text line*, *Rich text*, *Email*, *Author list*, *Content relation
 
 ## Content model in summary
 
-**content types:**
+**Content types:**
 
-- A content type defines fields that a content item will be composed of.
+- A content type defines fields that a content item is composed of.
 - Every field is modeled after a field type which defines the kind of data it contains.
 
 **Content items:**
@@ -65,7 +65,7 @@ for example, *Text line*, *Rich text*, *Email*, *Author list*, *Content relation
 **Fields and field types:**
 
 - [[= product_name =]] comes with a collection of essential field types.
-- It is possible to extend the system by creating custom field types for special needs.
+- It's possible to extend the system by creating custom field types for special needs.
 
 !!! note "More information"
 

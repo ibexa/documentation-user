@@ -4,7 +4,7 @@ description: You can create a structure of tags that can be assigned to products
 
 # Work with product categories
 
-[Product](products.md) categories are organized into a Category tree, which you can access from the **Product catalog** panel. The **Categories** screen is where you manually create a hierarchy of categories and manage category entries. 
+[Product](products.md) categories are organized into a Category tree, which you can access from the **Product catalog** panel. The **Categories** screen is where you manually create a hierarchy of categories and manage category entries.
 
 ![Product category tree](img/product_categories.png "Product category tree")
 
@@ -23,7 +23,7 @@ You can enable the use of product categories, assign products to categories and 
 
 ## Enable product categories
 
-Before you can assign categories to products, make sure that the *Taxonomy Entry Assignment* field is added and set as required in all the [product types](product_types.md) that define products from PIM which you want to categorize. 
+Before you can assign categories to products, make sure that the *Taxonomy Entry Assignment* field is added and set as required in all the [product types](product_types.md) that define products from PIM which you want to categorize.
 The field could be absent if product types were migrated from an older version of the product.
 
 Depending on your permissions, you might be able to verify the presence of the field and add the field yourself:
@@ -33,7 +33,7 @@ Depending on your permissions, you might be able to verify the presence of the f
 3. In the **Editing Product Type** modal, check whether the **Field definitions** area contains the **Categories** field of *Taxonomy Entry Assignment* type.
     1. If the field is present, click **Delete draft** and skip the remaining steps.
     2. If the field is absent, drag and drop the *Taxonomy Entry Assignment* option from the **Field types** area to the **Field definitions** area.
-    3. Expand the **New field type** that you just added and make the following settings:
+    3. Expand the **New field type** that you added and make the following settings:
         * Set a name for the field, for example, "Product category"
         * Select the **Required** checkbox
         * In the **Taxonomy** field, select the "Product categories" taxonomy type
@@ -59,10 +59,10 @@ Similarly to other items in [[= product_name =]], you add product categories eit
 4. In the product category editing modal, make the following settings:
     * Enter a unique identifier for the product category, for example, "HW_WIN".
     * Enter a unique name for the product category, "Devices with Windows".
-    * Optionally, change the parent category of the currently edited category: 
-    
+    * Optionally, change the parent category of the currently edited category:
+
           In the **Parent** area, click the **Change path** button. Then, in the **Select parent** modal, select a category from the tree and click **Select parent**.
-        
+
     * Click **Save** to save the product category.
 
 The newly created category can now be assigned to products.
@@ -73,7 +73,7 @@ You can create or change product category relationships with products in two way
 
 !!! note
 
-    Products must be of product type which is [enabled for categorization](#enable-product-categories). 
+    Products must be of product type which is [enabled for categorization](#enable-product-categories).
 
 ### Assign product categories by editing product details
 

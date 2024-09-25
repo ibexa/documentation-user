@@ -16,9 +16,9 @@ You can only create or modify content types when your [user role](../permission_
 
 3\. If your application requires a more granular organization of fields within a content type, click **+ Add** to add more sections.
 
-When you add a **Metadata** section, it is later presented as an additional tab in [content item](content_items.md) editing screen.
-You can use it for tags, product categories, and so on.
-When you add other sections, they are later presented as anchors in content item editing screen.
+When you add a **Metadata** section, it's later presented as an additional tab in [content item](content_items.md) editing screen.
+You can use it for example for tags or product categories.
+When you add other sections, they're later presented as anchors in content item editing screen.
 All sections are later presented as headers on the content item details screen, the **View** tab.
 
 4\. Add, reorder or remove fields as required:
@@ -38,8 +38,8 @@ All sections are later presented as headers on the content item details screen, 
 
 7\. To discard your changes and close the window:
 
-- If you are creating a new content type, click **Discard**.
-- If you are updating an existing content type, click **Delete draft**.
+- If you're creating a new content type, click **Discard**.
+- If you're updating an existing content type, click **Delete draft**.
 
 ## General settings
 
@@ -49,7 +49,7 @@ Depending on their type, fields can have different combinations of the following
 --------|-----------|---|
 |Name|A user-friendly name that describes the field, used in the interface. It can be up to 255 characters long and consist of letters, digits, spaces and special characters.|Required|
 |Identifier|An identifier for system use in configuration files, templates, or PHP code. It can be up to 50 characters long and can only contain lowercase letters, digits and underscores. Also used in name patterns for the content type.|Required|
-|Description|A detailed description of the field. It is displayed next to it when the user edits the content item.|Optional|
+|Description|A detailed description of the field. It's displayed next to it when the user edits the content item.|Optional|
 |Required|Indicates whether a value of the field is required for the content item to be saved or published.|Optional|
 |Searchable|Indicates whether a value of the field is included in the search.|Optional|
 |Translatable|Indicates whether a value of the field can be translated.|Optional|

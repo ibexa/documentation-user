@@ -19,7 +19,7 @@ is propagated to every content item of this type.
     at the developer level.
     That is why content of a new content type that you create may not always display 
     correctly or may cause errors.
-    It is always best to discuss adding new content types with the administrator 
+    It's always best to discuss adding new content types with the administrator 
     of your website, to make sure whether they need to add it to the configuration.
 
 
@@ -36,9 +36,9 @@ is propagated to every content item of this type.
 
 ![Content type list](img/content_types.png "A list of content types")
 
-2\. If you are adding a new content type, on the content type group's detail screen, click **Create** and skip to step 4.
+2\. If you're adding a new content type, on the content type group's detail screen, click **Create** and skip to step 4.
 
-3\. If you are modifying an existing content type, on the content type group's detail screen, click the **Edit** icon next to a name of the content type.
+3\. If you're modifying an existing content type, on the content type group's detail screen, click the **Edit** icon next to a name of the content type.
 
 ![Create or edit content type](img/create_edit_content_type.png "Create or edit content type")
 
@@ -63,12 +63,12 @@ Each content type has the following global properties:
 !!! note "Rules for creating patterns"
 
     When populating the patterns, you can use a schema with attributes which 
-    correspond to the identifiers of fields that make up the content type. 
+    correspond to the identifiers of fields that make up the content type.
     This way, when content items of this type are created, their names and URL 
-    aliases are generated according to the defined pattern. 
+    aliases are generated according to the defined pattern.
 
     For example, if you enter `<short_title>` as a value of the **Content name 
-    pattern** field, the resulting items will be identified in the user interface 
+    pattern** field, the resulting items are identified in the user interface 
     by their short titles.
 
 5\. In the **Field definitions** area, [add or modify fields that constitute the content type](configure_ct_field_settings.md).
@@ -82,8 +82,8 @@ Each content type has the following global properties:
 
 8\. To discard your changes and close the window:
 
-- If you are creating a new content type, click **Discard**.
-- If you are updating an existing content type, click **Delete draft**.
+- If you're creating a new content type, click **Discard**.
+- If you're updating an existing content type, click **Delete draft**.
 
 Once the content type details screen is displayed, you can navigate back to the content type list.
 

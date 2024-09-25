@@ -63,10 +63,10 @@ description: Create content for your website with different fields, rich text, t
 
 ##### Upload multiple content items
 
-When you view the content item details in the content tree, you can upload files such as images, videos, PDF documents, and so on.
+When you view the content item details in the content tree, you can upload files such as images, videos, or PDF documents.
 This way you can add multiple sub-items without editing the original content item.
 To do it, on the content item details screen, in the **Sub-items** tab, click **Upload** and choose all items that you want to upload.
-When a file is uploaded with multi-file upload, it is automatically stored in a field of the content item.
+When a file is uploaded with multi-file upload, it's automatically stored in a field of the content item.
 
 !!! note
 
@@ -80,7 +80,7 @@ Each content item is based on a [content type](create_edit_content_types.md). Th
 you have to fill in when creating a new item.
 It may also determine the layout or style in which this item is displayed.
 
-Fields marked with an asterisk (\*) are required. 
+Fields marked with an asterisk (\*) are required.
 You can't save the content item without filling them in.
 
 Some fields, such as *Relation* field (which links two content items) or *Image* field,

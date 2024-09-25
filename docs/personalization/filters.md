@@ -7,7 +7,7 @@ description: Filters enable you to fine-tune recommendation results by eliminati
 ## General filters
 
 For every recommendation [scenario](scenarios.md), you can define a set of filters. 
-They are tools that you can use to eliminate, demote or promote specific recommendation results.
+They're tools that you can use to eliminate, demote or promote specific recommendation results.
 Filters are applied to all recommendations that come from [models](recommendation_models.md) selected in the strategy. 
 
 ### User profile-based filters
@@ -17,8 +17,8 @@ User profile-based filters are applicable in both publishing and eCommerce use c
 |Filter|Requirements and restrictions|
 |---|---|
 |Do not recommend the item currently viewed|When you activate this filter, it removes the context items from the recommendation list. You might not want to use this filter if your strategy is based on the ["Ultimately bought"](recommendation_models.md#ultimately-bought) model.|
-|Do not recommend items the user already consumed|The Personalization service stores the CONSUME events of every user for one year. When you activate this filter, the user will not be recommended the consumed content again.|
-|Max. repeated shows of identical recommendations per session|When you activate this filter and set a value, after a content item/product is recommended a certain number of times during the current user session, it is removed from all recommendation lists.|
+|Do not recommend items the user already consumed|The Personalization service stores the CONSUME events of every user for one year. When you activate this filter, the user doesn't get the recommendation for the consumed content again.|
+|Max. repeated shows of identical recommendations per session|When you activate this filter and set a value, after a content item/product is recommended a certain number of times during the current user session, it's removed from all recommendation lists.|
 
 #### Boost filters
 
@@ -57,7 +57,7 @@ The following filters are only applicable in Commerce use cases.
 
 |Filter|Requirements and restrictions|
 |---|---|
-|No top-selling items|When you activate this filter, items that come from the top selling model (even if the model itself isn't linked to this scenario) aren't placed on the recommendations list. This way you can stop promoting products that are already popular. If you apply this filter to a top selling scenario as it will filter out all recommendations.|
+|No top-selling items|When you activate this filter, items that come from the top selling model (even if the model itself isn't linked to this scenario) aren't placed on the recommendations list. This way you can stop promoting products that are already popular. If you apply this filter to a top selling scenario as it filters out all recommendations.|
 |Item price should be equal or higher than the price of the context product|You can use this filter to filter out items that could be more attractive to the user from the recommendation list. It compares prices exported to the Personalization service with metadata of the currently viewed product.|
 |Minimum price of the recommended product|You can use this filter to remove cheap and popular items from the recommendation list. For example, as an optometrist you might prefer showing the most popular designer frames on the home page and avoid promoting insurance subsidized cheap models or cleaning cloths. Again, this filter relies on product metadata and uses prices exported to the Personalization service.|
 |Do not recommend if price unknown|If a product's price is unavailable then the product isn't recommended.|
@@ -67,7 +67,7 @@ The following filters are only applicable in Commerce use cases.
 !!! note "Product variants support"
 
     The **Do not recommend product variants** checkbox is visible only if your version of [[= product_name =]] [supports product variants]([[= developer_doc =]]/release_notes/ibexa_dxp_v4.2/#product-variants). 
-    Also, it is invisible before [data is imported](content_import.md) into the Personalization service, therefore you may need to revisit the [scenario configuration](configure_scenarios.md) page when data import completes.
+    Also, it's invisible before [data is imported](content_import.md) into the Personalization service, therefore you may need to revisit the [scenario configuration](configure_scenarios.md) page when data import completes.
 
 ## Category path filters
 
@@ -85,7 +85,7 @@ There are two ways to specify a category path in a recommendation request:
   to display the most popular items/products of the currently viewed category 
   (or "reference category").
 - When context items are provided and categories of all context items are used for the request: 
-  This approach is recommended only if it is technically impossible (or too complex) 
+  This approach is recommended only if it's technically impossible (or too complex) 
   to provide the category information explicitly.
 
 Depending on how you configure category path filters, the Personalization service can take 

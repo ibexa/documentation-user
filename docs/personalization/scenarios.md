@@ -42,4 +42,4 @@ subsequent levels are used.
 
 Filters are tools that you can use to eliminate, demote or promote specific 
 recommendation results.
-They are applied to all recommendations that come from models selected in the strategy.
+They're applied to all recommendations that come from models selected in the strategy.

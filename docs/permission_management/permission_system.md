@@ -8,18 +8,18 @@ An overview of the permission system in [[= product_name =]] is best presented b
 
 ### Example permission system
 
-Let us assume you are managing a newspaper website. Your crew consists of an editor-in-chief
+Let us assume you're managing a newspaper website. Your crew consists of an editor-in-chief
 and several editors responsible for particular sections of the paper: general news, local news, sports, etc.
 You also have contributors who occasionally add new articles.
 You want to give the editor-in-chief access to most parts of your website,
-but the individual editors will only work with their own sections.
+but the individual editors only work with their own sections.
 To the contributors you want to give the permissions to create new content, but not to modify or delete the existing content.
 
-In order to have this setup, you need to create a number of different roles: Editor-in-Chief, different Editor(s), and Contributor.
+To have this setup, you need to create a number of different roles: Editor-in-Chief, different Editor(s), and Contributor.
 
 ![Editor role](img/role_details.png "Editor role")
 
-Even if you plan on having only one editor-in-chief, it is good practice to create a user group to contain this user,
+Even if you plan on having only one editor-in-chief, it's good practice to create a user group to contain this user,
 and assign a role to it instead of assigning permissions directly to the user.
 
 ![User groups](img/user_groups.png "User groups")
@@ -32,7 +32,7 @@ Contributors can be given policies permitting them to only create content.
 
 If you want to prohibit Editors from accessing content in newspaper sections other than their own, you can add limitations to their policies.
 This means that instead of one Editor, you need to have separate roles for each editor profile:
-Local Editor, Sports Editor, etc. All of these roles will have the same policies,
+Local Editor, Sports Editor, etc. All of these roles have the same policies,
 but to each policy you need to assign a limitation which would mean that the permission covers only one Section
 (Sports Section, Local News Section etc.) that the editor works in.
 
