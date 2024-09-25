@@ -8,7 +8,7 @@ To help you better organize content, [[= product_name =]] comes equipped with a 
 
 ## Sections
 
-You can divide your Content Tree into Sections to better organize it.
+You can divide your content tree into Sections to better organize it.
 Sections let you decide which users can have access to which parts of the tree.
 To see which Section a content item belongs to, [disable the Focus mode](../../getting_started/discover_ui.md#disable-focus-mode), and look at its **Technical details** tab.
 

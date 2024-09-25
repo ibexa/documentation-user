@@ -11,7 +11,7 @@ Models are statistics-based and perform calculations based on information about
 Calculations run in the background and the results are updated regularly to provide 
 the most accurate recommendations. 
 Models come predefined with the service, based on the arrangements that your 
-organization makes with Ibexa when defining the initial configuration.
+organization makes with [[= product_name_base =]] when defining the initial configuration.
 You can request that a specific model is created by contacting customer support.
 
 

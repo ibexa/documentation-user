@@ -55,7 +55,7 @@ Each content type has the following global properties:
 |Description|Additional information that is displayed when a content item is created based on this type.|Optional|
 |Content name pattern|Rules for creating a name for the content item.|Optional|
 |URL alias name pattern|Rules for creating the URL alias for a content item.|Optional|
-|Container|When checked, Content of this Type can serve as a container in the Content Tree.|Optional|
+|Container|When checked, Content of this Type can serve as a container in the content tree.|Optional|
 |Sort children by default by|Criterion by which children of this content are sorted in the tree.|Required if **Container** is checked|
 |Sort children by default in order|Order in which the children are sorted (ascending or descending).|Required if **Container** is checked|
 |Make content available even with missing translations|When checked, content of this Type is by default always available, even if it does not have a language version corresponding to the current SiteAccess.|Optional|

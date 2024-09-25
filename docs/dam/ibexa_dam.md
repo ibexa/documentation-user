@@ -3,7 +3,7 @@ description: DAM module interface for uploading and managing image assets.
 edition: headless
 ---
 
-# Ibexa DAM
+# [[= product_name_dam =]]
 
 Digital Asset Management is a platform dedicated to editors. It enables storing in central location, organizing, distributing, 
 and sharing media assets across many channels.

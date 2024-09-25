@@ -103,7 +103,7 @@ To do it, in the **Select Editor launch mode** section, select one of the availa
 When you add or modify a **[Content relation](create_edit_content_items.md#relation_field)** or **Content relation (multiple)** 
 field in a content type, you can decide:
 
-- which Content Tree location opens in the 
+- which content tree location opens in the 
 [Content Browser](content_model.md#content-browser) when the user browses to a related 
 content item 
 - whether relations can be to content items of a specific type only, or any content type

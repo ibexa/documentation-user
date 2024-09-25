@@ -17,7 +17,7 @@ description: Create content for your website with different fields, rich text, t
 
     !!! tip
 
-        An alternative way of creating content items is to [drag one or more files](#upload-multiple-content-items) onto the **Sub-items** tab when viewing any content item in a [Content Tree](../getting_started/discover_ui.md#content-tree). 
+        An alternative way of creating content items is to [drag one or more files](#upload-multiple-content-items) onto the **Sub-items** tab when viewing any content item in a [content tree](../getting_started/discover_ui.md#content-tree). 
 
 1. In a slide-out pane, make initial choices in the following fields, and click **Create**:
 
@@ -63,7 +63,7 @@ description: Create content for your website with different fields, rich text, t
 
 ##### Upload multiple content items
 
-When you view the content item details in the Content Tree, you can upload files such as images, videos, PDF documents, and so on.
+When you view the content item details in the content tree, you can upload files such as images, videos, PDF documents, and so on.
 This way you can add multiple sub-items without editing the original content item.
 To do it, on the content item details screen, in the **Sub-items** tab, click **Upload** and choose all items that you want to upload.
 When a file is uploaded with multi-file upload, it is automatically stored in a field of the content item.

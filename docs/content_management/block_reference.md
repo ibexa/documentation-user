@@ -11,17 +11,17 @@ The following blocks are provided with a clean installation of [[= product_name 
 |-----|-----------|
 |[Banner](#banner-block)|Displays an image content item with a URL attached to it.|
 |[Bestsellers](#bestsellers-block)|Displays a list of products that were recently a bestseller.|
-|[Campaign](#campaign-block)|Displays a campaign selected from Ibexa Engage.|
+|[Campaign](#campaign-block)|Displays a campaign selected from [[= product_name_engage =]].|
 |[Catalog](#catalog-block)|Displays products from a specific catalog to a selected customer group.|
 |[Code](#code-block)|Enables you to place text, links, images, etc. on your Page using custom HTML.|
-|[Collection](#collection-block)|Displays a set of content items you select manually from the Content structure. |
-|[Content List](#content-list-block)|Displays content items of a chosen content type (or Types) that are contained in a selected folder. |
+|[Collection](#collection-block)|Displays a set of content items you select manually from the content structure. |
+|[Content List](#content-list-block)|Displays content items of a chosen content type (or types) that are contained in a selected folder. |
 |[Content Scheduler](schedule_publishing.md#content-scheduler-block)|Displays content items at a pre-defined time. |
 |[Dynamic targeting](#dynamic-targeting-block)|Embeds recommended items based on the [Segment](content_organization/classify_content.md#segments) the user belongs to. |
 |[Embed](#embed-block)|Embeds a content item of any content type on the Page. |
-|[Form](#form-block)|Embeds a Form content item that you select from the Content Structure. |
+|[Form](#form-block)|Embeds a Form content item that you select from the content structure. |
 |[Gallery](#gallery-block)|Displays all images contained in a selected folder. |
-|[Ibexa Connect](#ibexa-connect-block)|Retrieves and displays data from an Ibexa Connect webhook. |
+|[[[= product_name_connect =]]](#ibexa-connect-block)|Retrieves and displays data from an [[= product_name_connect =]] webhook. |
 |[Last purchased](#last-purchased-block)|Displays a list of products that were recently purchased from PIM. |
 |[Last viewed](#last-viewed-block)|Displays a list of products from PIM that were recently viewed. |
 |[Orders](#orders-block)|Displays a list of orders associated with a particular company or individual customer. |
@@ -90,7 +90,7 @@ On the **Design** tab, in the **View** field, select the layout to be used to pr
 
 ## Campaign block
 
-Displays a campaign created and configured in [Ibexa Engage](../ibexa_engage/ibexa_engage.md). 
+Displays a campaign created and configured in [[[= product_name_engage =]]](../ibexa_engage/ibexa_engage.md). 
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the campaign.
@@ -192,17 +192,17 @@ On the **Properties** tab, set values in the following fields:
 After submitting the settings, all images in the folder are shown in the Gallery block.
 Selecting a folder containing content items other than images results in displaying only a link to the folder where they are stored.
 
-## Ibexa Connect block
+## [[= product_name_connect =]] block
 
-Access and showcase data retrieved from an Ibexa Connect webhook. Streamline information presentation for seamless insights and improved decision-making.
+Access and showcase data retrieved from an [[= product_name_connect =]] webhook. Streamline information presentation for seamless insights and improved decision-making.
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
-- **Webhook link** — Enter the link for the Ibexa Connect webhook.
+- **Webhook link** — Enter the link for the [[= product_name_connect =]] webhook.
 
-!!! caution "Using Ibexa Connect scenario block"
+!!! caution "Using [[= product_name_connect =]] scenario block"
 
-    For more information about using Ibexa Connect scenario block, see [Ibexa Connect scenario block]([[= developer_doc =]]/content_management/pages/ibexa_connect_scenario_block/) in developer documentation.
+    For more information about using [[= product_name_connect =]] scenario block, see [[[= product_name_connect =]] scenario block]([[= developer_doc =]]/content_management/pages/ibexa_connect_scenario_block/) in developer documentation.
 
 ## Last purchased block
 

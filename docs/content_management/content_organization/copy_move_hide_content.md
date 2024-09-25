@@ -6,7 +6,7 @@ description: Copy, move, remove, or hide content item, either individually or in
 
 ## Move or copy
 
-In Content Tree, you can move or copy existing content items by selecting an 
+In content tree, you can move or copy existing content items by selecting an 
 option at the top of the screen.
 You can also copy the whole subtree (a content item with all content under it in the structure).
 
@@ -19,7 +19,7 @@ You can also copy the whole subtree (a content item with all content under it in
     in the developer documentation on how to set this up.
 
 Copying creates a new content item.
-If you only want to have the same content item to another place in the Content Tree, add another Location to it.
+If you only want to have the same content item to another place in the content tree, add another Location to it.
 
 ### Multi-file move
 
@@ -60,7 +60,7 @@ You can also permanently remove all content from the Trash by clicking **Empty T
 
 There are multiple ways to delete multiple items, for example:
 
-- in Content Tree, select multiple items.
+- in content tree, select multiple items.
 Then click the three dots menu and select **Delete**
 - in content item's details screen, the **Sub-items** tab, select multiple items and click **Delete**
 
@@ -79,7 +79,7 @@ and select and date and time when the content item will be hidden:
 
 ![Schedule hiding panel](img/schedule_hiding.png)
 
-A hidden content item is not shown in the frontend when using the default templates. It is also grayed out in the Content Tree.
+A hidden content item is not shown in the frontend when using the default templates. It is also grayed out in the content tree.
 
 This is different from [hiding Locations](manage_locations_urls.md#hide-locations), because it affects the content item
 in all of its Locations.

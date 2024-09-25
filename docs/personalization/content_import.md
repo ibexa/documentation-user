@@ -10,7 +10,7 @@ and [event](event_types.md) tracking information.
 Some [scenarios](scenarios.md) return better results if provided with user data.
 
 Data import operations are configured at the developer level, based on the arrangements 
-that you make with Ibexa. 
+that you make with [[= product_name_base =]]. 
 Content item import jobs fetch data from the recommendation client, which tracks events, 
 to the Personalization service.
 The Personalization service then processes the events and calculates the recommendations.

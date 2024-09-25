@@ -59,23 +59,23 @@ You can also hide it by clicking the button in the down right corner.
 Depending on the product edition and your [permissions](../permission_management/permission_system.md), the main menu may include, for example:
 
 - **Content**, which gives you access to the content Repository.
-It lets you navigate the Content Tree, create, edit, move, copy, delete content, etc.
+It lets you navigate the content tree, create, edit, move, copy, delete content, etc.
 - [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]] **Site management**, which enables you to create and edit block-based Pages and manage multiple websites.
 - **PIM**, which enables you to handle products presented on the website, including their specifications and pricing.
 - **Admin**, which is the administration panel where you can manage Users, Sections, permissions, etc.
 
-## Content Tree
+## Content tree
 
 If you want to navigate through your website with a menu, in the main menu, go to the **Content** -> **Content structure**.
 The **Content Tree** area is an expandable content menu of your website.
 
-![Content Tree in the menu](img/left_menu_tree.png "Content Tree in the menu")
+![Content tree in the menu](img/left_menu_tree.png "Content tree in the menu")
 
-Unique icons for each content type instantly show you what type of content you are selecting. To add custom icons to your Content Tree, follow [configuration tutorial in developer documentation.]([[= developer_doc =]]/administration/back_office/back_office_elements/custom_icons/#customize-content-type-icons)
+Unique icons for each content type instantly show you what type of content you are selecting. To add custom icons to your content tree, follow [configuration tutorial in developer documentation.]([[= developer_doc =]]/administration/back_office/back_office_elements/custom_icons/#customize-content-type-icons)
 
 Hidden content is greyed out in the tree view.
 
-To simplify the Content Tree, big lists are collapsed and include a **Show more** icon.
+To simplify the content tree, big lists are collapsed and include a **Show more** icon.
 You can select it to expand the branches of the tree.
 **Collapse all** option, which is available in the context menu, closes all expanded sections.
 
@@ -111,13 +111,13 @@ Focus mode helps editors focus on information that is only relevant to their lin
 It is enabled by default, after you log in.
 If you need access to certain settings or technical details, you can [disable the focus mode](#disable-focus-mode) at any time.
 
-- **Dark theme for Content Tree**
-: In areas where the Content Tree is displayed, for example, in **Content structure**, the tree is displayed on a dark background.
+- **Dark theme for content tree**
+: In areas where the content tree is displayed, for example, in **Content structure**, the tree is displayed on a dark background.
 
-![Dark theme for Content Tree](img/FM_dark_content_tree.png "Dark theme for Content Tree")
+![Dark theme for content tree](img/FM_dark_content_tree.png "Dark theme for content tree")
 
 - **Content item view**
-: If you select a specific [SiteAccess](translate_content.md#siteaccess) from the **Site context** drop-down list on the right side of the top bar and then browse content items in Content Tree, they are displayed in full view, with a limited set of actions available.
+: If you select a specific [SiteAccess](translate_content.md#siteaccess) from the **Site context** drop-down list on the right side of the top bar and then browse content items in content tree, they are displayed in full view, with a limited set of actions available.
 To display the content item details view with more actions, click **Exit full view**.
 
 ![Content item in full view](img/FM_content_item_full_view.png "Content item in full view")

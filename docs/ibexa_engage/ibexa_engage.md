@@ -3,7 +3,7 @@ description: Ibexa Engage helps engage audiences and collect valuable data by us
 month_change: true
 ---
 
-# Ibexa Engage
+# [[= product_name_engage =]]
 
 [[= product_name_engage =]] is a data collection tool.
 It gives you the ability to use the [Qualifio](https://qualifio.com/) tools to engage your audiences.
@@ -13,9 +13,9 @@ You can use interactive content to build relationships and collect important dat
 
 To use [[= product_name_engage =]], you must make arrangements with [[= product_name_base =]] to define the initial configuration, and then get and set up a user account.
 
-1\. On the left menu panel, go to **Ibexa Engage**.
+1\. On the left menu panel, go to **[[= product_name_engage =]]**.
 
-2\. On the left panel, go to **Ibexa Engage**.
+2\. On the left panel, go to **[[= product_name_engage =]]**.
 
 3\. On the welcome page, provide the required information:
 
@@ -69,7 +69,7 @@ Every campaign includes at least one publication channel, which you can choose f
 ## Work with campaigns
 
 You can create, configure, and manage campaigns by using [Qualifio Engage](https://developers.qualifio.com/docs/engage/).
-To access the Qualifio Manager page and create or manage campaigns, click the **Manage campaigns in Qualifio** button under the **Ibexa Engage** menu.
+To access the Qualifio Manager page and create or manage campaigns, click the **Manage campaigns in Qualifio** button under the **[[= product_name_engage =]]** menu.
 To display your campaign on the website, use one of the available tools - Campaign block or Campaign custom tag.
 
 For more information about creating and managing campaigns, see [Qualifio Engage documentation](https://support.qualifio.com/hc/en-us/categories/202280638-Qualifio-Engage).

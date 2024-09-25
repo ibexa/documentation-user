@@ -27,6 +27,6 @@ By clicking the following icons, you can switch between different Page views.
 
 Additionally, if you select a specific SiteAccess from the **Site context** drop-down list in the top bar, three things happen:
 
-- when you hover over content items in the Content Tree, miniature previews appear
-- in Focus mode, when you browse content items in Content Tree, their full screen preview is displayed
+- when you hover over content items in the content tree, miniature previews appear
+- in Focus mode, when you browse content items in content tree, their full screen preview is displayed
 - if you [disable the Focus mode](../getting_started/discover_ui.md#disable-focus-mode) or click **Exit full view**, the **View** tab appears in the content item's details view, where you can quickly preview the content item

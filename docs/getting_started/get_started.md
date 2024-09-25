@@ -117,7 +117,7 @@ such as preferred timezone, short and full date and time format, or back office 
 |Setting|Description|
 --------|-----------|
 |Number of items displayed in the table|Sets the number of items displayed in sub-items.|
-|Location preview|Enables or disabled a thumbnail preview on the Content Tree.|
+|Location preview|Enables or disabled a thumbnail preview on the content tree.|
 
 **Mode**
 

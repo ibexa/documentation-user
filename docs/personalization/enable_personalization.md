@@ -6,13 +6,13 @@ description: Enabling the Personalization service requires an installation key p
 
 The Personalization service is based on a client-server architecture.
 The recommendation client that is part of your installation must connect to 
-the server that is run and maintained by Ibexa.
-To use the service, you must make arrangements with Ibexa to define the initial 
+the server that is run and maintained by [[= product_name_base =]].
+To use the service, you must make arrangements with [[= product_name_base =]] to define the initial 
 configuration, and then get and set up authentication parameters.
 
 ## Request access to the server
 
-After you get the initial configuration from Ibexa, you must accept the terms and conditions of the Personalization service
+After you get the initial configuration from [[= product_name_base =]], you must accept the terms and conditions of the Personalization service
 and create an account to get access to the server.
 
 ### Create account

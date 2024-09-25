@@ -6,11 +6,11 @@ description: Manage the content of your website by controlling Locations and URL
 
 ## Content Locations
 
-A content item by itself does not have a place in the Content Tree and is not visible for a visitor of the website.
+A content item by itself does not have a place in the content tree and is not visible for a visitor of the website.
 To be available on the website, it has to be assigned a Location ID.
 A new content item is automatically assigned a Location when you publish it.
 
-A content item can have more than one Location ID. In such a case you can find it in more than one place in the Content Tree.
+A content item can have more than one Location ID. In such a case you can find it in more than one place in the content tree.
 A single Location can only have one content item in it.
 
 !!! tip "Example"
@@ -37,7 +37,7 @@ When a Location is hidden, all of its children (other content items that are und
 They can only be revealed if the parent Location is revealed as well.
 
 A hidden Location is invisible for everyone viewing the website.
-If you are looking for a way to allow only some users to view parts of the Content Tree,
+If you are looking for a way to allow only some users to view parts of the content tree,
 use [Sections](classify_content.md#sections) and combine them with [proper permissions](../../permission_management/permission_system.md).
 
 ### Swap Locations

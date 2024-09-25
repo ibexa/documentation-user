@@ -44,7 +44,7 @@ You can now navigate away from the Page by clicking the **Close** button.
 
 ## Edit Page
 
-To edit an existing Page, in the back office, from the Content Tree, choose the page that you want to edit, and click **Edit** button.
+To edit an existing Page, in the back office, from the content tree, choose the page that you want to edit, and click **Edit** button.
 
 ### Page Builder interface
 

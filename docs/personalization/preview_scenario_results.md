@@ -18,7 +18,7 @@ to see the recommendation results.
     of these websites.
 
 The number and selection of available scenarios depends on the arrangements that 
-your organization makes with Ibexa when defining the initial configuration.
+your organization makes with [[= product_name_base =]] when defining the initial configuration.
 
 1. Navigate to the **Personalization** > **Scenarios** tab, and then click the **Preview** 
 icon next to a scenario that you want to preview.

@@ -51,7 +51,7 @@ the definitions that you provided in the search engine meta tag fields.-->
 You can preview what the actual SEO tags for a specific content item 
 will look like when they are passed to a search engine or social media platform.
 
-1. In Content Tree, navigate to the content item.
+1. In content tree, navigate to the content item.
 2. On the content item details screen, click the SEO tab.
 3. Review the contents of the **resolved** fields.
 
@@ -64,9 +64,9 @@ the other items of a specific content type, you can override the contents of SEO
 You might want, for example, to add a shout out to the title after the author of content 
 receives a literary prize.
 
-1. In Content Tree, navigate to the content item, and click the **Edit** button.
+1. In content tree, navigate to the content item, and click the **Edit** button.
 2. Go to the **SEO** section and, in relevant fields, replace the patterns that 
-originate from the [content type definition](#define-meta-tags). 
-3. **Publish** your changes, **Save and close** or **Delete draft** to return to the Content Tree.
+originate from the [content type definition](#define-meta-tags).
+3. **Publish** your changes, **Save and close** or **Delete draft** to return to the content tree.
 
-You can either use plain text or patterns, like in the case of content types. 
+You can either use plain text or patterns, like in the case of content types.
