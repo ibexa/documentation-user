@@ -44,7 +44,7 @@ You can now navigate away from the Page by clicking the **Close** button.
 
 ## Edit Page
 
-To edit an existing Page, in the Back Office, from the Content Tree, choose the page that you want to edit and click **Edit** button.
+To edit an existing Page, in the back office, from the Content Tree, choose the page that you want to edit, and click **Edit** button.
 
 ### Page Builder interface
 
@@ -115,7 +115,7 @@ You can reorder blocks later, in a few ways:
 
 ![Structure view toolbox - reorder blocks](structure_view_move.png)
 
-When you add a new block to the drop zone, drop it in the blue highlighted area. 
+When you add a new block to the drop zone, drop it in the blue highlighted area.
 Before you drop it, a bold line appears  - it helps you see the position of the newly added block in relation to other, already added blocks.
 
 ![Drop zone line](drop_zone_line.png)
@@ -147,8 +147,7 @@ For a list of blocks available out of the box, see [Block reference](block_refer
     sure your that your [user Role](../permission_management/permissions_and_users.md) has
     the `Product/View` and `Product type/View` permission.
 
-    Before you add a block that uses results derived from a [Personalization](../personalization/personalization.md) scenario, 
-    for example, [Dynamic targeting](block_reference.md#dynamic-targeting-block) or [Recently added block](block_reference.md#recently-added-block), make sure that the scenario is [properly configured](../personalization/configure_scenarios.md).
+    Before you add a block that uses results derived from a [Personalization](../personalization/personalization.md) scenario, for example, [Dynamic targeting](block_reference.md#dynamic-targeting-block) or [Recently added block](block_reference.md#recently-added-block), make sure that the scenario is [properly configured](../personalization/configure_scenarios.md).
 
 You can work with the block, for example, duplicate it, change its position or delete it.
 Hover over the block and the toolbar appears.
@@ -170,8 +169,7 @@ The following actions are available:
 #### Configure block settings
 
 Each kind of block has its special settings.
-You can access them by placing the cursor on the added block and clicking the 
-**Block settings** icon.
+You can access them by placing the cursor on the added block and clicking the **Block settings** icon.
 
 ![Block settings icon](img/block_settings_icon.png "Block settings icon")
 
@@ -182,8 +180,8 @@ For a description of these settings, see [Block reference](block_reference.md).
 The remaining tabs contain parameters common to all blocks provided with [[= product_name =]].
 Use them to modify the layout and visibility of a block. For details, see [Scheduling publication](schedule_publishing.md).
 
-For your comfort, you can adjust the size of the block settings window. 
-When you hover over the window frame, blue line appears. 
+For your comfort, you can adjust the size of the block settings window.
+When you hover over the window frame, blue line appears.
 Click-and-drag the border to adjust the size.
 
 You cannot publish a Page if you have not set all the required settings of all blocks.

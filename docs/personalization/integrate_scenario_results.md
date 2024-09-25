@@ -9,7 +9,7 @@ When the Personalization service is [enabled](enable_personalization.md) and pro
 [configured](configure_personalization.md), as an editor, you can embed the recommendations 
 that come from the service, to show them to the end users.
 You can, for example, modify a Page to include a block that shows what 
-Content items/products are recommended to end users when specific [scenarios](scenarios.md) 
+content items/products are recommended to end users when specific [scenarios](scenarios.md) 
 are triggered. 
 One such example is the [Personalized block](../content_management/block_reference.md#personalized-block), where you can choose from a number of scenarios, 
 but there are also other blocks that are tailored to display the results of scenarios 

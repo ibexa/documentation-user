@@ -1,5 +1,5 @@
 ---
-description: Preview content items of various types in many places of the Back Office.
+description: Preview content items of various types in many places of the back office.
 ---
 
 # Preview content items

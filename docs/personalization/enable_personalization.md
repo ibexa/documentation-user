@@ -19,7 +19,7 @@ and create an account to get access to the server.
 
 First, you must accept the terms and conditions of the Personalization service.
 
-1\. Go to the Back Office.
+1\. Go to the back office.
 
 2\. On the left panel, go to **Personalization** > **Dashboard**.
 

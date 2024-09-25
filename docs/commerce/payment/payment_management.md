@@ -7,7 +7,7 @@ edition: commerce
 
 The Payment management module allows users to track the status of payments for orders placed by store customers.
 
-On the Back Office **Payments** screen, you can search for payments and filter the search results, as well as review payment details. 
+On the back office **Payments** screen, you can search for payments, filter the search results, and review payment details.
 Depending on configuration and permissions, you may also be allowed to cancel payments.
 
 If the permissions assigned to your [user Role](permissions_and_users.md) allow, you may also have access to the **Payment methods** screen, where you define, enable, and disable offline payment methods.
@@ -19,4 +19,4 @@ The Payment management module interacts with other packages of the system, so th
 [[= cards([
     "commerce/payment/work_with_payments",
     "commerce/payment/work_with_payment_methods"
-], columns=3) =]] 
+], columns=3) =]]

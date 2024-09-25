@@ -6,8 +6,8 @@ edition: experience
 # Company self-registration
 
 Self-registration allows your business customers to take charge and apply for a business account on your website by themselves.
-The application is not approved automatically, it has to go through the approval process in the Back Office.
-If it is accepted, the business partner will receive an invitation link to the Customer Portal,
+The application is not approved automatically, it has to go through the approval process in the back office.
+If it is accepted, the business partner receives an invitation link to the Customer Portal,
 where they can set up their team and manage their account.
 
 ## Submitting application
@@ -21,13 +21,13 @@ They need to provide their basic information, contact information and billing ad
 
 ## Application approval
 
-The application then goes through an approval process in the Back Office.
+The application then goes through an approval process in the back office.
 To see a list of pending applications, go to **Customers** -> **Applications**.
 There you can edit them or check their current status.
 
 ![List of applications](img/cp_applications_list.png)
 
-Each application can be either edited, approved, rejected or put on hold.
+Each application can be either edited, approved, rejected, or put on hold.
 Applications with status reject and on hold remain on the list for future reference.
 Accepted ones move to **Customers** -> **Companies** section.
 
@@ -45,4 +45,4 @@ and give them access to the [Customer Portal](customer_portal.md).
 
 Application is moved to **Customers** -> **Companies** section and the company is created with **Active** status.
 From there, you can manage the company and resend an invitation link if needed.
-For more information on managing companies in the Back Office, see [Customer management documentation](manage_customers.md#manage-company). 
+For more information on managing companies in the back office, see [Customer management documentation](manage_customers.md#manage-company).

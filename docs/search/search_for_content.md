@@ -8,7 +8,7 @@ You can enter a search keyword and the application checks all the searchable Fie
 
 ![Basic Search](img/basic_search.png)
 
-Everywhere in the Back Office, completion suggestions are proposed while you type in the search box.
+Everywhere in the back office, completion suggestions are proposed while you type in the search box.
 In addition to clicking in the search box, you can also move focus to it by using the keyboard shortcut `Ctrl+/` on Windows/Linux, or `Cmd+/` on macOS.
 
 - If a suggestion is what you're looking for, to use it, click on it in the suggestion drop-down, or use `down` and `up` keys to highlight it, and then press the `Enter` key.
@@ -18,7 +18,7 @@ In addition to clicking in the search box, you can also move focus to it by usin
 ![Suggestion drop-down](img/suggestion.png)
 
 On the results page, if several languages are available, you can select a language to search in at the top of the left **Filters** menu.
-The results contain Content items that are translated into this language.
+The results contain content items that are translated into this language.
 The result list also shows which languages the content item is translated to.
 
 By default, the results are sorted by decreasing relevance.
@@ -45,7 +45,7 @@ Filtered search allows you to filter by:
 
 All new or custom content types, sections and languages are automatically added to the drop-down filter lists.
 
-Depending on the system configuration, a Content item count can be indicated for content type and section filters.
+Depending on the system configuration, a content item count can be indicated for content type and section filters.
 
 Select your filters, then click **Apply** to update the results.
 Click **Clear** to reset and remove all filters.

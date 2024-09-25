@@ -1,5 +1,5 @@
 ---
-description: Take a quick tour of the Back Office.
+description: Take a quick tour of the back office.
 ---
 
 # User interface
@@ -10,13 +10,13 @@ At the top of the main screen you can see a top bar.
 
 ![Top bar](img/top_bar_all.png "Top bar")
 
-Depending on your location within the Back Office, it can contain the following important features:
+Depending on your location within the back office, it can contain the following important features:
 
 A\. Logo in the left corner, which is a direct link to the [dashboard](#dashboard)
 
 B\. "Focus mode" badge which informs you that the [focus mode](#focus-mode) is on
 
-C\. Global search field that allows you to [find content](../search/search_for_content.md) by checking all searchable Fields
+C\. Global search field that allows you to [find content](../search/search_for_content.md) by checking all searchable fields
 
 D\. Drop-down that changes the site context
 
@@ -32,7 +32,7 @@ G\. User avatar with a drop-down menu with access to [user profile and settings]
 
 !!! note "Site context"
 
-    Changing the site context results in the [Content Tree](#content-tree) showing content items that belong to the selected website.
+    Changing the site context results in the [content tree](#content-tree) showing content items that belong to the selected website.
     The appearance of content items can also change if they use different designs or languages depending on the [SiteAccess](../website_organization/multisite.md#siteaccess) settings.
 
 ## Dashboard
@@ -45,7 +45,7 @@ It's the default dashboard and contains selected blocks.
 You can customize the dashboard by changing the blocks and the layout.
 For more information, see [Work with dashboard](work_with_dashboard.md).
 
-## Main menu 
+## Main menu
 
 The main menu allows you to move between important sections of the application.
 
@@ -75,7 +75,7 @@ Unique icons for each content type instantly show you what type of content you a
 
 Hidden content is greyed out in the tree view.
 
-To simplify the Content Tree, big lists are collapsed and include a **Show more** icon. 
+To simplify the Content Tree, big lists are collapsed and include a **Show more** icon.
 You can select it to expand the branches of the tree.
 **Collapse all** option, which is available in the context menu, closes all expanded sections.
 
@@ -94,15 +94,15 @@ The Content Browser window opens, and you can select the new destination of the 
 ![Content Browser](img/udw.png "Content Browser")
 
 With the **Content Browser**, you can switch between the Grid, Panels and Tree views to navigate through the content of the website.
-Depending on your permissions, you might be able to see the regular content, media, forms, site skeletons and User accounts.
+Depending on your permissions, you might be able to see the regular content, media, forms, site skeletons, and user accounts.
 You can also use the **Content Browser** to search the Repository for content, edit content, create bookmarks, and create new content when needed.
 
 !!! note
 
-    If you have administrator permissions, you can also view and manage User accounts and site skeletons in the **Admin** tab.
+    If you have administrator permissions, you can also view and manage user accounts and site skeletons in the **Admin** tab.
 
     For more information about users and permissions, see [Users](../permission_management/permissions_and_users.md).
-    
+
     For more information about site skeletons, see [Site skeletons]([[= developer_doc =]]/multisite/site_factory/site_factory_configuration/#site-skeletons).
 
 ## Focus mode
@@ -142,7 +142,7 @@ The list of columns available for selection is limited in Focus mode.
 
 Focus mode is enabled by default when you first log into [[= product_name =]], but you can toggle it in two places:
 
-- in User settings
+- in user settings
 
 ![Focus mode user setting](img/FM_user_settings.png "Focus mode user setting")
 

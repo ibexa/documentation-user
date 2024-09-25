@@ -11,7 +11,7 @@ It also provides additional information, such as a description of each of the sc
 [models](recommendation_models.md) that the scenario uses, or indication of whether 
 the scenario is operational or not.
 
-![Scenarios page in the Back Office](img/dashboard_scenarios.png "Scenarios page")
+![Scenarios page in the back office](img/dashboard_scenarios.png "Scenarios page")
 
 To modify the scenarios to suit your needs, you must have the `Personalization/Edit` Policy.
 You can then click the **Edit** icon next to the name of the scenario.

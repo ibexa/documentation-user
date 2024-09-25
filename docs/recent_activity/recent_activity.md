@@ -8,7 +8,7 @@ edition: experience
 [[= product_name =]] logs various operations on the repository and in the application.
 
 If you have **Setup / Administrate** and **Activity Log / Read** [permissions](permission_system.md),
-you can review the most recent activity log in  the Back Office, **Admin** -> **Recent activity**.
+you can review the most recent activity log in  the back office, **Admin** -> **Recent activity**.
 
 ![Recent activity](recent_activity.png "Recent activity")
 

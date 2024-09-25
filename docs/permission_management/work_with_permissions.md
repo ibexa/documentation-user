@@ -31,6 +31,6 @@ You can then return to a list of Policies by clicking **Save and close** or **Di
 
 !!! note 
 
-    A User or user group may be assigned multiple Roles.
+    A user or user group may be assigned multiple Roles.
 
 For a list of available permissions and limitations, see [Permissions]([[= developer_doc =]]/permissions/permissions/).

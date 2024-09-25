@@ -10,7 +10,7 @@ You can work with dashboard: edit and customize it depending on your needs.
 ## Permissions
 
 To be able to customize a dashboard, you need the `dashboard/customize` policy.
-By default, all users belonging to the `Editors` User Group have the `Dashboard` role assigned, so that they can edit, create, or delete a dashboard.
+By default, all users belonging to the `Editors` user group have the `Dashboard` role assigned, so that they can edit, create, or delete a dashboard.
 If, by any reason, you want to narrow this permission, you can set up specific limitations.
 
 For more information about setting up a permission system, see [Work with permissions](work_with_permissions.md).

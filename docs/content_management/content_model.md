@@ -6,7 +6,7 @@ description: The Ibexa DXP content model relies on content items that are based 
 
 At the heart of [[= product_name =]] is a repository that stores all content.
 In [[= product_name =]] everything is a content item — not just the actual pages displayed in the website,
-but also all media (images, videos, etc.) and User accounts.
+but also all media (images, videos, etc.) and user accounts.
 
 [[= product_name =]] lets you customize and adapt the content model depending on your needs and the type of website you create.
 

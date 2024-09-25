@@ -11,7 +11,7 @@ Information about user segment is provided in each event which comes from the tr
 
 With segment groups you can assign users to different recommendation groups based on data gathered, and deliver recommendations to these user groups.
 
-The **Segment** list displays only active segments and is generated from the events collected for relevant history (the actual data from recommendation engine, not what was added in the Back Office).
+The **Segment** list displays only active segments and is generated from the events collected for relevant history (the actual data from recommendation engine, not what was added in the back office).
 
 The value of each segment is transferred to the event.
 

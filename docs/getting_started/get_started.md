@@ -1,14 +1,13 @@
 ---
-description: Get started with Ibexa DXP by logging in to the Back Office.
+description: Get started with Ibexa DXP by logging in to the back office.
 ---
 
 # Get started
 
-[[= product_name =]] consists of the technical platform for creating and managing 
+[[= product_name =]] consists of the technical platform for creating and managing
 online experiences, designed for developers and end-users alike.
-It includes a Web framework, APIs and a Content Repository.
-It features a customizable user interface where you can work with the content, 
-products, media, as well as manage other functionalities and administer the platform.
+It includes a web framework, APIs and a content repository.
+It features a customizable user interface where you can work with the content, products, media, manage other functionalities, and administer the platform.
 
 Depending on the product edition, [[= product_name =]] can provide advanced capabilities in such areas as:
 
@@ -18,12 +17,12 @@ Depending on the product edition, [[= product_name =]] can provide advanced capa
 
 !!! note "Installation"
 
-    [[= product_name =]] must be [installed by the administrators]([[= developer_doc =]]/getting_started/install_ibexa_dxp/).
+    Only administrators can [install]([[= developer_doc =]]/getting_started/install_ibexa_dxp/) [[= product_name =]].
     They should provide you with the address of the installation.
 
-## Access the Back Office
+## Access the back office
 
-To access the Back Office (or the user/editor interface), add `/admin` to the address provided by the administrator.
+To access the back office (or the user/editor interface), add `/admin` to the address provided by the administrator.
 For example, if your website's URL is `www.my-site.com`, you enter the editing interface through `www.my-site.com/admin`.
 
 If you are the administrator, the default administrator account information is:
@@ -31,13 +30,13 @@ If you are the administrator, the default administrator account information is:
 - username: `admin`
 - password:` publish`
 
-Otherwise, to login, you must get your user credentials from the administrator and enter them on the login screen.
+Otherwise, to login, you must get your user credentials from the administrator, and enter them on the login screen.
 
 ![Login screen](img/login_form.png "Login screen")
 
 ### View and edit user profile
 
-If you are an editor, depending on the system configuration, you may be able to view and edit the user profile, which can contain the following information:
+If you're an editor, depending on the system configuration, you may be able to view and edit the user profile, which can contain the following information:
 
 - Avatar image
 - First and last name
@@ -51,7 +50,7 @@ If you are an editor, depending on the system configuration, you may be able to 
 
 !!! note
 
-    For the [recent activity](recent_activity.md) log to be displayed, your [user role](../permission_management/permissions_and_users.md) must have the **Activity Log / Read** permission.
+    To display the [recent activity](recent_activity.md) log, your [user role](../permission_management/permissions_and_users.md) must have the **Activity Log / Read** permission.
 
 ![User profile](img/user_profile_preview.png "User profile")
 
@@ -73,7 +72,7 @@ You can now modify the following entries:
 
 To edit your avatar, in the **Image** area, click **Upload file** or drag and drop your photo.
 If necessary, you can [edit the photo with the Image Editor](edit_images.md).
-After you finish, the avatar is uploaded and is visible in the Back Office.
+After you finish, the avatar is uploaded and is visible in the back office.
 
 ![Edit avatar](img/user_profile_avatar.png "Edit avatar")
 
@@ -90,18 +89,18 @@ You can access your user settings on the right side of the top bar:
 ![User preferences menu](img/user_preferences.png)
 
 Here you can [change your user password](get_started.md#change-the-password) and define your user preferences,
-such as preferred timezone, short and full date and time format, or Back Office language.
+such as preferred timezone, short and full date and time format, or back office language.
 
 **Location**
 
 |Setting|Description|
 --------|-----------|
-|Default currency|Sets the default currency used in the Back Office.|
+|Default currency|Sets the default currency used in the back office.|
 |Toggle In-Context translation feature|Enables or disables integration with Crowdin to navigate the interface while translating.|
-|User Time Zone|Sets time zone in the Back Office.|
-|Short date and time format|Sets short date and time format used in the Back Office.|
-|Full date and time format|Sets full date and time format used in the Back Office.|
-|Language|Sets the default language used in the Back Office.|
+|User Time Zone|Sets time zone in the back office.|
+|Short date and time format|Sets short date and time format used in the back office.|
+|Full date and time format|Sets full date and time format used in the back office.|
+|Language|Sets the default language used in the back office.|
 
 
 **Content authoring**
