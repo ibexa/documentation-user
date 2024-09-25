@@ -35,7 +35,7 @@ Dashboard Builder user interface consists of:
 
 A. Drop zone
 
-B. Dashboard blocks / Structure view toolbar
+B. Dashboard blocks / Structure view toolbox
 
 C. Buttons:
 
@@ -45,19 +45,19 @@ C. Buttons:
 |Switch layout|![Switch layout](dashboard_switch_layout.png)|Switch layout for the dashboard.|
 |Undo|![Undo](dashboard_undo.png)|Undo latest change.|
 |Redo|![Redo](dashboard_redo.png)|Redo latest change.|
-|Structure view|![Structure view](dashboard_structure_view.png)|Access Structure view toolbar.|
-|Dashboard blocks|![Dashboard blocks](dashboard_blocks.png)|Access Dashboard blocks toolbar.|
-|View switch|![View switch](dashboard_switch_toolbar.png)|Move toolbar to the other side of the screen.|
+|Structure view|![Structure view](dashboard_structure_view.png)|Access **Structure view** toolbox.|
+|Dashboard blocks|![Dashboard blocks](dashboard_blocks.png)|Access **Dashboard blocks** toolbox.|
+|Side moving|![Side moving](dashboard_side_moving.png)|Move toolbox to the other side of the screen.|
 
-Dashboard Builder has two main toolbars that you can use while creating a dashboard:
+Dashboard Builder has two main toolboxes that you can use while creating a dashboard:
 
 - **Dashboard blocks** - consists of all available blocks that you can use by dragging them and dropping on a drop zone.
 
-![Dashboard blocks](dashboard_blocks_toolbar.png)
+![Dashboard blocks](dashboard_blocks_toolbox.png)
 
 - **Structure view** - shows a structure of your dashboard, including its division into zones and the blocks that they contain.
 
-![Structure view](dashboard_structure_view_toolbar.png)
+![Structure view](dashboard_structure_view_toolbox.png)
 
 ### Choose layout
 
@@ -65,13 +65,13 @@ For a new dashboard you can choose layout which defines the available zones and 
 Applying a layout divides the dashboard into the defined zones.
 The zones are placeholders for blocks.
 
-To do it, click the **Switch layout** icon on the left side of the upper toolbar, then choose one from available layouts, and click **Submit**.
+To do it, click the **Switch layout** icon on the left side of the upper toolbox, then choose one from available layouts, and click **Submit**.
 
 ![Switch layout](dashboard_switch_layout_window.png)
 
 ### Add blocks
 
-In Dashboard Builder, you can access a menu of **Dashboard blocks**, which includes a set of blocks of content that you can add to the zones of the dashboard.
+In Dashboard Builder, you can access the **Dashboard blocks** toolbox, which includes a set of blocks of content that you can add to the zones of the dashboard.
 
 !!! Tip
 
@@ -83,8 +83,8 @@ You can reorder them at any time by dragging and dropping them in the desired lo
 You can reorder blocks in a few ways:
 
 - drag and drop block in the desired location on a drop zone
-- use **Move up block** or **Move down block** option from the block toolbar
-- access Structure view and use **Move up** or **Move down** option in the settings of the block
+- use **Move up block** or **Move down block** option from the block toolbox
+- access the **Structure view** and use **Move up** or **Move down** option in the settings of the block
 
 When you add a new block to the drop zone, drop it in the blue highlighted area.
 Before you drop it, a bold line appears  - it helps you see the position of the newly added block in relation to other, already added blocks.
