@@ -32,7 +32,7 @@ You can also do it in **My dashboard**, the **Review queue** table, by clicking
 the **Unlock** icon.
 
 If you are not assigned to the draft, depending on the permissions set for your 
-Role, in the **Review queue** table, you can either release the lock by clicking 
+role, in the **Review queue** table, you can either release the lock by clicking 
 the **Unlock** icon, or request that the lock is released by the reviewer 
 by clicking the **Request access** icon.
 
@@ -62,13 +62,13 @@ When you compare two versions, the system highlights the changes:
 
 ![Version comparison in Split view](img/split_view.png "Version comparison in Split view")
 
-You can also compare media Field Types such as images.
+You can also compare media field types such as images.
 
 ![Image comparison](img/image_comparison.png "Image comparison")
 
 !!! note
 
-    Not all Field Types are available for comparison. You cannot preview the difference in the following Field Types:
+    Not all field types are available for comparison. You cannot preview the difference in the following field types:
 
     - Form
     - Landing Page

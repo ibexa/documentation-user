@@ -7,7 +7,7 @@ edition: commerce
 
 The Order management module allows users to review order details, track order completion status, and cancel orders that are created when store customers purchase products.
 
-Depending on the permissions assigned to your [user Role](permissions_and_users.md), you might be able to track and manage orders placed by all the store customers, or only your own ones.
+Depending on the permissions assigned to your [user role](permissions_and_users.md), you might be able to track and manage orders placed by all the store customers, or only your own ones.
 
 With the back office **Orders** screen, you can search for orders and filter search results.
 

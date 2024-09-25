@@ -10,7 +10,7 @@ The version visible to a visitor depends on the way your installation is set up 
 ## Add website languages
 
 You can only add translations in languages that have been set up for your website in the **Admin Panel**.
-If your user [Role](work_with_permissions.md) has the right permissions, you can create a new language for the website.
+If your user [role](work_with_permissions.md) has the right permissions, you can create a new language for the website.
 To do it, go to the **Admin Panel**, open the **Languages** tab, and click **Add language**.
 
 Every new language must have a name and a language code written in the xxx-XX format, for example, eng-US, fre-FR, nor-NO, etc.
@@ -31,8 +31,8 @@ After adding a language, you may have to reload the application to be able to us
 
 3\. Select the source and target languages and click **Create**.
 
-All the Fields are then pre-filled with the values they have in the base translation.
-If you do not choose a base translation, the Fields remain empty.
+All the fields are then pre-filled with the values they have in the base translation.
+If you do not choose a base translation, the fields remain empty.
 
 While working, you can save your work and continue or click **Delete draft** to discard your changes.
 When done, you can save your work and close the window, publish the translated article immediately, or pick another publication date.
@@ -57,7 +57,7 @@ You can compare different versions of the translations of the content item.
 ![View switcher](img/view_switcher.png "View switcher")
 
 5\. From the drop-downs, select two different language versions of the same content item.
-The screen refreshes to display the side by side view of its Fields.
+The screen refreshes to display the side by side view of its fields.
 
 ![Compare translations screen](img/compare_translations.png "Compare translations screen")
 

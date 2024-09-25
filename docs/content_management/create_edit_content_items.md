@@ -1,5 +1,5 @@
 ---
-description: Create content for your website with different Fields, rich text, tags, and then publish it.
+description: Create content for your website with different fields, rich text, tags, and then publish it.
 ---
 
 # Create and edit content items
@@ -29,7 +29,7 @@ description: Create content for your website with different Fields, rich text, t
         If you're using [[= product_name_exp =]] or [[= product_name_com =]], the options include forms and pages.
         You then [build forms](work_with_forms.md) and [create pages](create_edit_pages.md) by using their respective specialist tools.
 
-1. [Fill in the Fields](#edit-new-or-existing-content-items) of the content item.
+1. [Fill in the fields](#edit-new-or-existing-content-items) of the content item.
 
 1. Click **Preview** to see how the content item could look to an end-user.
 
@@ -66,7 +66,7 @@ description: Create content for your website with different Fields, rich text, t
 When you view the content item details in the Content Tree, you can upload files such as images, videos, PDF documents, and so on.
 This way you can add multiple sub-items without editing the original content item.
 To do it, on the content item details screen, in the **Sub-items** tab, click **Upload** and choose all items that you want to upload.
-When a file is uploaded with multi-file upload, it is automatically stored in a Field of the content item.
+When a file is uploaded with multi-file upload, it is automatically stored in a field of the content item.
 
 !!! note
 
@@ -76,33 +76,33 @@ When a file is uploaded with multi-file upload, it is automatically stored in a 
 
 ## Edit new or existing content items
 
-Each content item is based on a [content type](create_edit_content_types.md). The content type defines what Fields 
+Each content item is based on a [content type](create_edit_content_types.md). The content type defines what fields 
 you have to fill in when creating a new item.
 It may also determine the layout or style in which this item is displayed.
 
 Fields marked with an asterisk (\*) are required. 
 You can't save the content item without filling them in.
 
-Some Fields, such as *Relation* Fields (which link two content items) or *Image* Fields
+Some fields, such as *Relation* field (which links two content items) or *Image* field,
 require you to select a different content item to link to.
-A *Location* Field is a point on the map. You can type the place name, enter its coordinates, or select it on the map.
+A *Location* field is a point on the map. You can type the place name, enter its coordinates, or select it on the map.
 
 <a name="relation_field"></a>
 
 !!! note
 
-    When you create or edit a content item that contains an *Image* or an *Image asset* Field, 
+    When you create or edit a content item that contains an *Image* or an *Image asset* field, 
     you can perform basic image editing functions by using an [Image Editor](../image_management/edit_images.md).
 
-### Edit Rich Text Fields
+### Edit Rich Text fields
 
-Rich Text Fields are filled in using a special Online Editor. Its options appear when you click the Field box.
+Rich Text fields are filled in using a special Online Editor. Its options appear when you click the field box.
 
 ![Online Editor menu](img/online_editor_menu.png "Online Editor menu")
 
-You can chooose from available options to edit and customize Rich Text Field, for example, move up or down its elements, select heading style, add text elements, like superscript, block quote, or anchor.
+You can chooose from available options to edit and customize Rich Text field, for example, move up or down its elements, select heading style, add text elements, like superscript, block quote, or anchor.
 
-You can also add new elements to the Field. To do it, choose one of the available elements:
+You can also add new elements to the field. To do it, choose one of the available elements:
 
 - Unordered list
 - Ordered list
@@ -116,13 +116,13 @@ You can also add new elements to the Field. To do it, choose one of the availabl
 ![Available Rich Text block elements](img/rich_text_block_elements.png "Available Rich Text block elements")
 
 Each of these elements can have its own settings, such as text formatting.
-The option bar also lets you reorder or remove any elements in the Rich Text Field.
+The option bar also lets you reorder or remove any elements in the Rich Text field.
 
 #### Edit embedded content items
 
 You can edit embedded content items without leaving current window.
 
-To do it, first insert selected content item in the Rich Text Field.
+To do it, first insert selected content item in the Rich Text field.
 Then, click the three dots icon on the right side and click **Edit**.
 
 ![Edit embedded content item](img/edit_embedded_item_richtext.png "Edit embedded content item")
@@ -141,7 +141,7 @@ This option is also available when you want to set up a [relation](configure_ct_
 
 #### Distraction free mode
 
-While editing Rich Text Fields, you can switch to distraction free mode.
+While editing Rich Text fields, you can switch to distraction free mode.
 
 Distraction free mode expands the workspace to full screen and shows only editor toolbar.
 It's helpful when you need to work with longer texts that take more space and when you want to focus your attention on editing text.

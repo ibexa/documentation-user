@@ -23,16 +23,16 @@ You can enable the use of product categories, assign products to categories and 
 
 ## Enable product categories
 
-Before you can assign categories to products, make sure that the **Taxonomy Entry Assignment** field is added and set as required in all the [product types](product_types.md) that define products from PIM which you want to categorize. 
+Before you can assign categories to products, make sure that the *Taxonomy Entry Assignment* field is added and set as required in all the [product types](product_types.md) that define products from PIM which you want to categorize. 
 The field could be absent if product types were migrated from an older version of the product.
 
 Depending on your permissions, you might be able to verify the presence of the field and add the field yourself:
 
 1. In the left panel, click **Product catalog** -> **Product Types** to open a list of available product types.
 2. Click the **Edit** icon next to a name of the product type that you want to review.
-3. In the **Editing Product Type** modal, check whether the **Field definitions** area contains the **Categories** field of **Taxonomy Entry Assignment** type.
+3. In the **Editing Product Type** modal, check whether the **Field definitions** area contains the **Categories** field of *Taxonomy Entry Assignment* type.
     1. If the field is present, click **Delete draft** and skip the remaining steps.
-    2. If the field is absent, drag and drop the **Taxonomy Entry Assignment** option from the **Field types** area to the **Field definitions** area.
+    2. If the field is absent, drag and drop the *Taxonomy Entry Assignment* option from the **Field types** area to the **Field definitions** area.
     3. Expand the **New field type** that you just added and make the following settings:
         * Set a name for the field, for example, "Product category"
         * Select the **Required** checkbox
@@ -46,8 +46,8 @@ Depending on your permissions, you might be able to verify the presence of the f
 You can now add product categories and then create relationships between products and product categories.
 
 !!! caution "Duplicate taxonomy entry fields"
-    In your product type, you may want to have both product categories and [tags](taxonomy.md) on the list of Field definitions.
-    Because tags are assigned per product item, not per Field, when working with a product type, you cannot use two **Taxonomy Entry Assignment** Fields with the same taxonomy type in one Product type.
+    In your product type, you may want to have both product categories and [tags](taxonomy.md) on the list of field definitions.
+    Because tags are assigned per product item, not per field, when working with a product type, you cannot use two *Taxonomy Entry Assignment* fields with the same taxonomy type in one product type.
 
 ## Add product category to product category hierarchy
 

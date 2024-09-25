@@ -23,7 +23,7 @@ The following blocks are provided with a clean installation of [[= product_name 
 !!! note
 
     Before you add a block that involves products, product types, or product categories, make
-    sure your that your [user Role](permissions_and_users.md) has
+    sure your that your [user role](permissions_and_users.md) has
     the `Product/View` and `Product type/View` permission.
 
 ## Common content block

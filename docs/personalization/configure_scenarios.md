@@ -4,8 +4,8 @@ description: Configure models by setting up a timeframe, segments and other sett
 
 # Configure scenarios
 
-If your [user Role](../permission_management/permissions_and_users.md) includes 
-the `Personalization/View` Policy, you can go to **Personalization** > **Scenarios** 
+If your [user role](../permission_management/permissions_and_users.md) includes 
+the `Personalization/View` policy, you can go to **Personalization** > **Scenarios** 
 and see a page that lists all available scenarios. 
 It also provides additional information, such as a description of each of the scenarios, 
 [models](recommendation_models.md) that the scenario uses, or indication of whether 
@@ -13,7 +13,7 @@ the scenario is operational or not.
 
 ![Scenarios page in the back office](img/dashboard_scenarios.png "Scenarios page")
 
-To modify the scenarios to suit your needs, you must have the `Personalization/Edit` Policy.
+To modify the scenarios to suit your needs, you must have the `Personalization/Edit` policy.
 You can then click the **Edit** icon next to the name of the scenario.
 
 !!! note
@@ -38,8 +38,7 @@ Select a single input type and at least one output type.
 
 ## Configure strategy
 
-Modify the strategy by dragging model boxes between the **Models** area that lists 
-all available models and the **Strategy** board. 
+Modify the strategy by dragging model boxes between the **Models** area that lists all available models and the **Strategy** board. 
 
 ![Strategy configuration](img/scenario_configuration_strategy.png "Strategy configuration")
 
@@ -86,7 +85,7 @@ For a detailed description, see [Category path filters](filters.md#category-pat
 ## Configure cross content type recommendations
 
 Cross content type option is used to combine best recommendation items from 
-different [types of content](content_types.md). 
+different [types of content](content_types.md).
 It applies to scenarios which have more than one output type configured.
 
 To get multiple output types in the recommendation request, perform the following actions:

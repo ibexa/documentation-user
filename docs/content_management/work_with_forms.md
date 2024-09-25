@@ -34,7 +34,7 @@ To create a form:
 ![Build form](img/build_form.png)
 
 4\. Drag (A) or click (B) on the type from the form fields toolbar. 
-To create more complicated and detailed form, you can use more than one form Field Type.
+To create more complicated and detailed form, you can use more than one form field type.
 
 ![Drag form fields](img/drag_form_fields.png)
 

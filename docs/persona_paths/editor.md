@@ -11,7 +11,7 @@ on your position, but there are similarities that are characteristic to your rol
 
 Users who work as content editors can be tasked with the following responsibilities:
 
-- Create new content for existing websites, as well as for specific campaigns and events
+- Create new content for existing websites, specific campaigns, and events
 - Upload and edit content items (blog posts, articles, media, etc.)
 - Create engaging and memorable landing pages
 - Maintain editorial calendars and communicate deliverable deadlines across the organization

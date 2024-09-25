@@ -13,9 +13,9 @@ By editing pages, you can customize the layout and content of your website.
 Whenever you edit a Page, a [new version](content_versions.md) is created in the repository.
 
 !!! tip
-    The Page content type contains a **Landing Page** Field Type which manages
+    The Page content type contains a *Landing Page* field type which manages
     the zones and blocks.
-    Any content item that has the **Landing Page** Field Type behaves like
+    Any content item that has the *Landing Page* field type behaves like
     a page.
 
 ## Create Page
@@ -144,12 +144,12 @@ For a list of blocks available out of the box, see [Block reference](block_refer
 !!! note
 
     Before you add a block that involves products, product types, or product categories, make
-    sure your that your [user Role](../permission_management/permissions_and_users.md) has
+    sure your that your [user role](../permission_management/permissions_and_users.md) has
     the `Product/View` and `Product type/View` permission.
 
     Before you add a block that uses results derived from a [Personalization](../personalization/personalization.md) scenario, for example, [Dynamic targeting](block_reference.md#dynamic-targeting-block) or [Recently added block](block_reference.md#recently-added-block), make sure that the scenario is [properly configured](../personalization/configure_scenarios.md).
 
-You can work with the block, for example, duplicate it, change its position or delete it.
+You can work with the block, for example, duplicate it, change its position, or delete it.
 Hover over the block and the toolbar appears.
 Click the three dots icon to see more options.
 

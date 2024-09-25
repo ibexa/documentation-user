@@ -20,7 +20,7 @@ The following diagram includes statuses and actions that may occur on the order'
 
 ![Order processing workflow](img/commerce_workflow.png "Order processing workflow")
 
-From the end-user perspective, once it is properly configured to grant the right permissions to [user Roles](../permission_management/permissions_and_users.md), the Commerce solution gives store managers control over the whole order fulfilment process, while allowing customers to monitor the progress of their transactions.
+From the end-user perspective, once it is properly configured to grant the right permissions to [user roles](../permission_management/permissions_and_users.md), the Commerce solution gives store managers control over the whole order fulfilment process, while allowing customers to monitor the progress of their transactions.
 
 Once the order is placed, users can interact with it by working with the following back office pages:
 

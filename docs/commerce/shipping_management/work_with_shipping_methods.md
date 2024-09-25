@@ -5,7 +5,7 @@ edition: commerce
 
 # Work with shipping methods
 
-If your [user Role](work_with_permissions.md) includes the `Shipping method/Create` permission, you can create shipping methods. 
+If your [user role](work_with_permissions.md) includes the `Shipping method/Create` permission, you can create shipping methods. 
 With the `Shipping method/Edit` permission, you can modify existing ones.
 
 Shipping methods describe how goods can be shipped to a store customer, with different rates for different geographic locations. 

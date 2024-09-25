@@ -5,7 +5,7 @@ edition: commerce
 
 # Work with payment methods
 
-If your [user Role](work_with_permissions.md) includes the `Payment method/Create` permission, you can create payment methods. 
+If your [user role](work_with_permissions.md) includes the `Payment method/Create` permission, you can create payment methods. 
 With the `Payment method/Edit` permission, you can modify existing ones.
 
 Payment methods describe the way store customers pay for their orders during the checkout process.

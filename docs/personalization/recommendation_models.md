@@ -15,8 +15,8 @@ organization makes with Ibexa when defining the initial configuration.
 You can request that a specific model is created by contacting customer support.
 
 
-If your [user Role](../permission_management/permissions_and_users.md) includes 
-the `Personalization/Edit` Policy, you can modify the models according to your requirements.
+If your [user role](../permission_management/permissions_and_users.md) includes 
+the `Personalization/Edit` policy, you can modify the models according to your requirements.
 To do this, navigate to the **Models** tab and click the **Edit** icon next to a name of the model.
 
 You may have permissions to access several websites hosted on an [[= product_name =]], 
@@ -111,7 +111,7 @@ This model isn't based on historical records but relies on the imported product 
 #### Editor-based
 
 This model returns products from a list that you manually create if you have 
-`Personalization/Edit` Policy. 
+`Personalization/Edit` policy. 
 This way you can replace automatically generated recommendations with ones from a predefined list. 
 It's best suited for cases when the store administrator wants to add special offers or sell older stock. 
 It could be referred to as "Static recommendations".

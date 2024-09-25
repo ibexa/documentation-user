@@ -8,7 +8,7 @@ Users in [[= product_name =]] are treated the same way as other content items.
 They are organized in groups, which helps you manage them and their permissions.
 
 You can view all user groups and Users in the **Admin Panel** by selecting **Users**.
-Here, you can manage users, their relations, Roles and Policies.
+Here, you can manage users, their relations, roles and policies.
 As you can see, the interface is the same as when working with regular content items.
 
 

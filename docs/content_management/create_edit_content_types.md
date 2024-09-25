@@ -1,16 +1,16 @@
 ---
-description: Create or edit content types by listing Fields that make a content item.
+description: Create or edit content types by listing fields that make a content item.
 ---
 
 # Create and edit content types
 
-[Content types](content_model.md#content-types) define what Fields are available in [content items](content_items.md). 
+[Content types](content_model.md#content-types) define what fields are available in [content items](content_items.md). 
 To suit your specific needs, you can modify the default content types, or add custom ones.
 
-You can only create or modify content types when your [user Role](../permission_management/work_with_permissions.md) has the `ContentType/Create` or `ContentType/Update` permission.
+You can only create or modify content types when your [user role](../permission_management/work_with_permissions.md) has the `ContentType/Create` or `ContentType/Update` permission.
 
 When you edit a content type, each content item based on this content type changes.
-For example, when you add or remove a Field to the content type, the change 
+For example, when you add or remove a field to the content type, the change 
 is propagated to every content item of this type.
 
 !!! note
@@ -63,7 +63,7 @@ Each content type has the following global properties:
 !!! note "Rules for creating patterns"
 
     When populating the patterns, you can use a schema with attributes which 
-    correspond to the identifiers of Fields that make up the content type. 
+    correspond to the identifiers of fields that make up the content type. 
     This way, when content items of this type are created, their names and URL 
     aliases are generated according to the defined pattern. 
 
@@ -71,7 +71,7 @@ Each content type has the following global properties:
     pattern** field, the resulting items will be identified in the user interface 
     by their short titles.
 
-5\. In the **Field definitions** area, [add or modify Fields that constitute the content type](configure_ct_field_settings.md).
+5\. In the **Field definitions** area, [add or modify fields that constitute the content type](configure_ct_field_settings.md).
 
 6\. Optionally, [enable and configure SEO for the content type](../search_engine_optimization/work_with_seo.md).
 

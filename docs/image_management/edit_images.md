@@ -6,7 +6,7 @@ description: Edit images in the Image Editor to flip, crop and select a focal po
 
 When you browse the [Media library](content_model.md#content-and-media), 
 or create or edit a content item that contains an *Image* 
-or *Image asset* Field, you can perform basic image editing functions by using the Image Editor. 
+or *Image asset* field, you can perform basic image editing functions by using the Image Editor. 
 
 The Image Editor enables: 
 

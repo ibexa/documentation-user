@@ -29,12 +29,12 @@ First, select a name, a predefined design, and a Parent Location for your websit
 If the design defines a Site skeleton, you can choose if you want to copy the entire content structure of the design with a toggle.
 To preview the Site skeleton architecture, click **Site management**, and then **Site skeletons**.
 
-Next, you can decide if the website will go live after creation or will be offline with the Status switcher.
+Next, you can decide if the website goes live after creation or is offline with the Status switcher.
 In this section you also define the SiteAccess URL addresses with their main languages, fallback languages, and optional paths for the website.
 
 !!! note "Path limitation"
 
-    The path can be only one directory deep. 
+    The path can be only one directory deep.
     Do not use paths that have more than one element, for example, `/en/articles`.
 
 For more information about SiteAccesses, see [Multisite]([[= developer_doc =]]/multisite/multisite/).
@@ -46,7 +46,7 @@ If all required fields are filled out, click **Save and close** to create new we
 !!! note
 
     A SiteAccess that you create in Site Factory is always treated with lower priority 
-    than a SiteAccess defined by the administrator as part of [configuration]([[= developer_doc =]]/multisite/multisite_configuration/#siteaccess-configuration). 
+    than a SiteAccess defined by the administrator as part of [configuration]([[= developer_doc =]]/multisite/multisite_configuration/#siteaccess-configuration).
     For example, if you create a website that uses the `fr` path in Site Factory, and the administrator 
     defines a French website manually in configuration files, your website is ignored by the system.
 

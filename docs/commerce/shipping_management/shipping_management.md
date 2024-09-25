@@ -10,7 +10,7 @@ Shipping processes are present in almost every e-commerce business.
 
 No two businesses are identical, and Ibexa ensures the flexibility that you need to configure shipping methods in a way that is optimal for your business and store customers.
 
-If the permissions assigned to your [user Role](permissions_and_users.md) allow, the Shipping management module enables you to define and manage shipping methods of different types on the **Shipping methods** screen.
+If the permissions assigned to your [user role](permissions_and_users.md) allow, the Shipping management module enables you to define and manage shipping methods of different types on the **Shipping methods** screen.
 
 ![Shipping methods list](shipping_methods_list.png "Shipping methods list")
 

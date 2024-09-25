@@ -43,7 +43,7 @@ For a list of blocks available out of the box, see [Block reference](block_refer
 
 If provided ready-to-use Page blocks are not sufficient, you can [add your own blocks]([[= developer_doc =]]/content_management/pages/create_custom_page_block/).
 
-Before you publish or save the Customer Portal page, edit its title and description in the Field view, you can find it in the top toolbar on the left side.
+Before you publish or save the Customer Portal page, edit its title and description in the field view, you can find it in the top toolbar on the left side.
 
 If you are ready to publish the Customer Portal page, click **Publish** in the top right corner.
 You can also save it as a draft, even if some required fields are not filled in.
@@ -52,7 +52,7 @@ To do it, click **Save draft**.
 ## Add multiple pages
 
 You can have multiple Customer Portal pages available in one Customer Portal by adding them under one Customer Portal container.
-If company members have sufficient `content/read` Policies and have the portal assigned to their Customer Group, they will see the changes in the left menu.
+If company members have sufficient `content/read` policies and have the portal assigned to their customer group, they will see the changes in the left menu.
 
 ![Multiple pages in one portal](img/cp_multiple_pages.png)
 

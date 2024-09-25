@@ -56,12 +56,12 @@ Logged-in users cannot be deactivated.
 
 ![Corporate back office](img/cp_admin_company_view.png)
 
-In the **Roles** section, you can define Policies for each user group, for example, a company buyer.
-You can also set up Policies for every user who has a business account by editing a **Corporate Access** role.
+In the **Roles** section, you can define policies for each user group, for example, a company buyer.
+You can also set up policies for every user who has a business account by editing a **Corporate Access** role.
 
 !!! caution "Warning"
 
-    Do not remove any Policies from the **Corporate Access** role, the proper behaviour of business accounts depends on them.
+    Do not remove any policies from the **Corporate Access** role, the proper behaviour of business accounts depends on them.
 
 ## Invite members
 
@@ -79,7 +79,7 @@ To invite new members to the company, select **Invite member**.
 
 Then, in a pop-up window fill out email addresses one by one,
 or use drag and drop to upload a file with a list of emails.
-You also have to assign a Role to each new member from a drop-down list.
+You also have to assign a role to each new member from a drop-down list.
 Click **Send** to send out invitations.
 
 Invited users receive an email message with a registration link.

@@ -4,7 +4,7 @@ description: In the back office you can preview what results are recommended by 
 
 # Preview scenario results
 
-If your [user Role](../permission_management/permissions_and_users.md) has 
+If your [user role](../permission_management/permissions_and_users.md) has 
 the `Personalization/View` permission that includes your website, you can see what 
 content items/products are recommended to the end user when specific [scenarios](scenarios.md) 
 are triggered. 

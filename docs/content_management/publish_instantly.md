@@ -6,7 +6,7 @@ description: You can instantly publish a newly created content item or save its 
 
 When you publish a content item, it is given a Location ID and placed in the Content Tree.
 After you click **Publish**, the content item is validated and if any of the required
-Fields are not configured, you see a notification.
+fields are not configured, you see a notification.
 Once the content item passes the validation, it is immediately available to the visitor.
 
 Instead of instantly publishing content items, you can also save them, discard changes by deleting the draft, or [publish later](schedule_publishing.md#date-based-publishing).

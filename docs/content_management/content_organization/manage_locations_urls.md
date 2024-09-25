@@ -67,7 +67,7 @@ For more information about URL management, see the [Ibexa Developer Documentatio
 
 ### Link manager
 
-In your website you can link to external websites by placing links inside rich text, or by using the URL Field.
+In your website you can link to external websites by placing links inside rich text, or by using the URL field.
 You can view and update all external links that exist within the website, without having to modify and re-publish the individual content items.
 
 ![Link manager tab](img/Link_manager_sm.png)
