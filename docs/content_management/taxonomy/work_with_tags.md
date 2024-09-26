@@ -4,13 +4,16 @@ description: Taxonomy is one of the ways classify content items with structured 
 
 # Work with Tags
 
-Once you have created content items that follow the structure defined within the 
-content model, you can create [taxonomies](taxonomy.md) that consist of tags, to help users find 
+Once you have created content items that follow the structure defined within the
+content model, you can create [taxonomies](taxonomy.md) that consist of tags, to help users find
 the content they need.
 
 ## Add tag
 
-There are two ways to create tags: directly in the taxonomy tree or by clicking the **Create** button in the **Tags** section.
+You can create tags in two ways:
+
+- directly in the taxonomy tree
+- by clicking the **Create** button in the **Tags** section
 
 1. To create a new tag using taxonomy tree, in the left panel click **Content** -> **Tags**.
 1. In the **Root** section, click the three dots icon on the level/place you want to add new tag and select **Add**.
@@ -26,7 +29,7 @@ Now, the tag is visible in the taxonomy tree.
 
 Taxonomy is controlled and configured by the *Taxonomy Entry Assignment* field settings,
 so you can use multiple fields of this type with different taxonomies,
-for example, tags and product categories in the same content type. 
+for example, tags and product categories in the same content type.
 To be able to assign tags to a Content, first, you need to add a *Taxonomy Entry Assignment* field to the content type definition.
 
 1. Go to **Content types** -> **Content**.
@@ -41,7 +44,7 @@ Now, when you edit or create a content item of this type, in the tags section, y
 
 ### Add tag translation
 
-If you have more than one language version of your website, you can also translate 
+If you have more than one language version of your website, you can also translate
 tags that are used in the website into the target language.
 
 1. Go to the **Tags** section.

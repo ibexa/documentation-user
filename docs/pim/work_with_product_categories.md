@@ -94,7 +94,7 @@ You can create or change product category relationships with products in two way
 2. In the product category tree, select a category and go to the **Products** tab.
 3. To assign products to the current category:
     1. Click the **Assign** button.
-    2. In the Content browser, select checkboxes next to products related with the category.
+    2. In the content browser, select checkboxes next to products related with the category.
     3. Click **Confirm** to confirm the selection.
 4. To unassign products from the current category:
     1. In the **Products** tab, select checkboxes next to products selected for removal.

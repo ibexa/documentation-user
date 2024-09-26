@@ -8,16 +8,16 @@ description: Create content for your website with different fields, rich text, t
 
 1. Start creating a new content item in one of the following ways:
 
-    - In the left panel, go to **Content** -> **Content structure**. Then select a parent content item and click **Create content**. 
-    
+    - In the left panel, go to **Content** -> **Content structure**. Then select a parent content item and click **Create content**.
+
         The new content item becomes a child of the content item that you originally selected.
-    
+
     - In the **Quick actions** block of the [Dashboard](../getting_started/discover_ui.md#dashboard) screen, click **Create content**.
-    Then choose a location for the new item in [Content Browser](../getting_started/discover_ui.md#content-browser) and click **Create**.
+    Then choose a location for the new item in [content browser](../getting_started/discover_ui.md#content-browser) and click **Create**.
 
     !!! tip
 
-        An alternative way of creating content items is to [drag one or more files](#upload-multiple-content-items) onto the **Sub-items** tab when viewing any content item in a [content tree](../getting_started/discover_ui.md#content-tree). 
+        An alternative way of creating content items is to [drag one or more files](#upload-multiple-content-items) onto the **Sub-items** tab when viewing any content item in a [content tree](../getting_started/discover_ui.md#content-tree).
 
 1. In a slide-out pane, make initial choices in the following fields, and click **Create**:
 
@@ -25,7 +25,7 @@ description: Create content for your website with different fields, rich text, t
     - **Select a content type** - use this field to narrow down the list of choices displayed below. Then select a content type to serve as a template for the content item.
 
     !!! note
-       
+
         If you're using [[= product_name_exp =]] or [[= product_name_com =]], the options include forms and pages.
         You then [build forms](work_with_forms.md) and [create pages](create_edit_pages.md) by using their respective specialist tools.
 
@@ -34,7 +34,7 @@ description: Create content for your website with different fields, rich text, t
 1. Click **Preview** to see how the content item could look to an end-user.
 
     !!! tip
-    
+
         A content item can look different on different [SiteAccesses](translate_content.md#siteaccess).
         You can select a SiteAccess to preview by using a drop-down in the preview screen.
 
@@ -45,7 +45,7 @@ description: Create content for your website with different fields, rich text, t
     - Click **Save** to continue editing.
     - Click **Save and close** to close the window.
 
-1. To send your changes to another editor [for review](editorial_workflow.md), click **Send to review**. 
+1. To send your changes to another editor [for review](editorial_workflow.md), click **Send to review**.
 
 1. When the content item is ready for publication:
 
@@ -76,7 +76,7 @@ When a file is uploaded with multi-file upload, it's automatically stored in a f
 
 ## Edit new or existing content items
 
-Each content item is based on a [content type](create_edit_content_types.md). The content type defines what fields 
+Each content item is based on a [content type](create_edit_content_types.md). The content type defines what fields
 you have to fill in when creating a new item.
 It may also determine the layout or style in which this item is displayed.
 
@@ -91,7 +91,7 @@ A *Location* field is a point on the map. You can type the place name, enter its
 
 !!! note
 
-    When you create or edit a content item that contains an *Image* or an *Image asset* field, 
+    When you create or edit a content item that contains an *Image* or an *Image asset* field,
     you can perform basic image editing functions by using an [Image Editor](../image_management/edit_images.md).
 
 ### Edit Rich Text fields
@@ -177,7 +177,7 @@ See [Images]([[= developer_doc =]]/content_management/images/images/) for a tec
 ![Table options in online editor](img/online_editor_table.png)
 
 In table options you can define the first row and/or column as headers,
-add or delete rows and columns in any part of the table, as well as merge and split cells.
+add or delete rows and columns in any part of the table, and also merge or split cells.
 
 #### Custom elements
 
@@ -200,7 +200,7 @@ Here you can also add a link to the text. You can link to an external website, o
 
 ### Add taxonomy entries
 
-To keep your content organized and easy to find, you can add taxonomy entries to a content item while creating or editing it.
+To keep your content organized and searchable, you can add taxonomy entries to a content item while creating or editing it.
 For this feature to work as described, the content type must have a **Metadata** section, with a **Taxonomy Entry** field in it.
 
 1. Switch to the **Meta** tab.

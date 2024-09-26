@@ -39,7 +39,7 @@ To do it, [disable the Focus mode](../../getting_started/discover_ui.md#disable-
 
 ## Bookmarks
 
-You can bookmark any content item by clicking the star icon next to the Content name.
+You can bookmark any content item by clicking the star icon next to the content name.
 
 ![Bookmark icon](img/bookmark_icon.png)
 

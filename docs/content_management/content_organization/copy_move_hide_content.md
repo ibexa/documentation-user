@@ -6,7 +6,7 @@ description: Copy, move, remove, or hide content item, either individually or in
 
 ## Move or copy
 
-In content tree, you can move or copy existing content items by selecting an 
+In content tree, you can move or copy existing content items by selecting an
 option at the top of the screen.
 You can also copy the whole subtree (a content item with all content under it in the structure).
 
@@ -58,11 +58,11 @@ You can also permanently remove all content from the Trash by clicking **Empty T
 
 ## Multi-file delete
 
-There are multiple ways to delete multiple items, for example:
+You have multiple ways to delete multiple items, for example:
 
 - in content tree, select multiple items.
 Then click the three dots menu and select **Delete**
-- in content item's details screen, the **Sub-items** tab, select multiple items and click **Delete**
+- in content item's details screen, the **Sub-items** tab, select multiple items, and click **Delete**
 
 Confirm your choice in the pop-up window with the **Send to trash** button. All selected files are moved to trash.
 
@@ -93,5 +93,5 @@ in all of its Locations.
     If you need to restrict access to a given content item, you could create a role that grants read access for a given
     [**Section**](https://doc.ibexa.co/projects/userguide/en/latest/content_management/content_organization/classify_content/#sections)
     or [**Object State**](https://doc.ibexa.co/projects/userguide/en/latest/content_management/content_organization/classify_content/#object-states),
-    and set a different Section or Object State for the given Content.
+    and set a different Section or Object State for the given content.
     Or use other permission-based [**Limitations**](https://doc.ibexa.co/projects/userguide/en/latest/permission_management/work_with_permissions/).

@@ -58,7 +58,7 @@ You can also hide it by clicking the button in the down right corner.
 
 Depending on the product edition and your [permissions](../permission_management/permission_system.md), the main menu may include, for example:
 
-- **Content**, which gives you access to the content Repository.
+- **Content**, which gives you access to the content repository.
 It lets you navigate the content tree, create, edit, move, copy, delete content, etc.
 - [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]] **Site management**, which enables you to create and edit block-based Pages and manage multiple websites.
 - **PIM**, which enables you to handle products presented on the website, including their specifications and pricing.
@@ -83,7 +83,7 @@ For more information on custom configuration, go to [Content Tree]([[= developer
 
 ## Content browser
 
-During your work with [[= product_name =]] you might need to select content from the Repository.
+During your work with [[= product_name =]] you might need to select content from the repository.
 This happens, for example, when you want to move or copy a content item, embed an image, link two content items, etc.
 In such cases, you use the **Content Browser**.
 
@@ -95,7 +95,7 @@ The Content Browser window opens, and you can select the new destination of the 
 
 With the **Content Browser**, you can switch between the Grid, Panels and Tree views to navigate through the content of the website.
 Depending on your permissions, you might be able to see the regular content, media, forms, site skeletons, and user accounts.
-You can also use the **Content Browser** to search the Repository for content, edit content, create bookmarks, and create new content when needed.
+You can also use the **Content Browser** to search the repository for content, edit content, create bookmarks, and create new content when needed.
 
 !!! note
 

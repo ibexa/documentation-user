@@ -4,22 +4,22 @@ description: Create or edit content types by listing fields that make a content 
 
 # Create and edit content types
 
-[Content types](content_model.md#content-types) define what fields are available in [content items](content_items.md). 
+[Content types](content_model.md#content-types) define what fields are available in [content items](content_items.md).
 To suit your specific needs, you can modify the default content types, or add custom ones.
 
 You can only create or modify content types when your [user role](../permission_management/work_with_permissions.md) has the `ContentType/Create` or `ContentType/Update` permission.
 
 When you edit a content type, each content item based on this content type changes.
-For example, when you add or remove a field to the content type, the change 
+For example, when you add or remove a field to the content type, the change
 is propagated to every content item of this type.
 
 !!! note
 
-    Rules and templates for displaying content on the website are determined 
+    Rules and templates for displaying content on the website are determined
     at the developer level.
-    That is why content of a new content type that you create may not always display 
+    That is why content of a new content type that you create may not always display
     correctly or may cause errors.
-    It's always best to discuss adding new content types with the administrator 
+    It's always best to discuss adding new content types with the administrator
     of your website, to make sure whether they need to add it to the configuration.
 
 
@@ -32,7 +32,7 @@ is propagated to every content item of this type.
 
 !!! note
 
-    If your application requires a more granular organization of content types, in this screen, you can create additional content type groups. 
+    If your application requires a more granular organization of content types, in this screen, you can create additional content type groups.
 
 ![Content type list](img/content_types.png "A list of content types")
 
@@ -55,20 +55,20 @@ Each content type has the following global properties:
 |Description|Additional information that is displayed when a content item is created based on this type.|Optional|
 |Content name pattern|Rules for creating a name for the content item.|Optional|
 |URL alias name pattern|Rules for creating the URL alias for a content item.|Optional|
-|Container|When checked, Content of this Type can serve as a container in the content tree.|Optional|
+|Container|When checked, content of this type can serve as a container in the content tree.|Optional|
 |Sort children by default by|Criterion by which children of this content are sorted in the tree.|Required if **Container** is checked|
 |Sort children by default in order|Order in which the children are sorted (ascending or descending).|Required if **Container** is checked|
 |Make content available even with missing translations|When checked, content of this Type is by default always available, even if it does not have a language version corresponding to the current SiteAccess.|Optional|
 
 !!! note "Rules for creating patterns"
 
-    When populating the patterns, you can use a schema with attributes which 
+    When populating the patterns, you can use a schema with attributes which
     correspond to the identifiers of fields that make up the content type.
-    This way, when content items of this type are created, their names and URL 
+    This way, when content items of this type are created, their names and URL
     aliases are generated according to the defined pattern.
 
-    For example, if you enter `<short_title>` as a value of the **Content name 
-    pattern** field, the resulting items are identified in the user interface 
+    For example, if you enter `<short_title>` as a value of the **Content name
+    pattern** field, the resulting items are identified in the user interface
     by their short titles.
 
 5\. In the **Field definitions** area, [add or modify fields that constitute the content type](configure_ct_field_settings.md).

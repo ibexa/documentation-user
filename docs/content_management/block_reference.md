@@ -39,13 +39,13 @@ The following blocks are provided with a clean installation of [[= product_name 
 
 ## Block basics
 
-Handling blocks is straightforward, drag and drop them into the desired spot within the drop zone. 
+Handling blocks is straightforward, drag and drop them into the desired spot within the drop zone.
 There's no need to worry about getting their placement perfect initially, you can rearrange them whenever you need.
 
 ### Settings
 
-You have the ability to control individual blocks by accessing their settings. 
-Click on the settings icon next to the block's name. 
+You have the ability to control individual blocks by accessing their settings.
+Click on the settings icon next to the block's name.
 
 ![Block settings](img/block_settings.png "Block settings")
 
@@ -90,7 +90,7 @@ On the **Design** tab, in the **View** field, select the layout to be used to pr
 
 ## Campaign block
 
-Displays a campaign created and configured in [[[= product_name_engage =]]](../ibexa_engage/ibexa_engage.md). 
+Displays a campaign created and configured in [[[= product_name_engage =]]](../ibexa_engage/ibexa_engage.md).
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the campaign.
@@ -121,7 +121,7 @@ On the **Properties** tab, set values in the following fields:
 
 ## Collection block
 
-Displays a collection of content items manually selected from the Content structure, allowing you to feature specific content for promotional campaigns or highlight essential information on your website.
+Displays a collection of content items manually selected from the content structure, allowing you to feature specific content for promotional campaigns or highlight essential information on your website.
 On the **Properties** tab, set values in the following fields:
 
 - **Name** — Enter a name for the page block.
