@@ -84,14 +84,14 @@ You can reorder blocks in a few ways:
 
 - drag and drop block in the desired location on a drop zone
 - use **Move up block** or **Move down block** option from the block toolbox
-- access the **Structure view** and use **Move up** or **Move down** option in the settings of the block
+- access the **Structure view** toolbox and use **Move up** or **Move down** option in the settings of the block
 
 When you add a new block to the drop zone, drop it in the blue highlighted area.
 Before you drop it, a bold line appears  - it helps you see the position of the newly added block in relation to other, already added blocks.
 
 ![Drop zone line](dashboard_blue_line.png)
 
-When you add a block by dragging it from **Dashboard blocks** menu into the drop zone, the block settings panel open immediately where you can configure all block properties.
+When you add a block by dragging it from **Dashboard blocks** toolbox into the drop zone, the block settings panel open immediately where you can configure all block properties.
 
 ![Block properties](dashboard_block_properties.png)
 

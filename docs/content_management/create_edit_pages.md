@@ -57,7 +57,7 @@ Page Builder user interface consists of:
 
 A. Drop zone
 
-B. Elements / Structure view toolbox
+B. Page blocks / Structure view toolbox
 
 C. Settings toolbar (including Fields, Visibility and Schedule settings)
 
@@ -74,17 +74,17 @@ The following table presents buttons and provides a short description of their f
 |![Preview segments](page_builder_toolbar_preview_segment.png)|Access preview of the Page for a given segment.|
 |![Timeline button](page_builder_toolbartimelinetoggler.png)|Access the timeline to preview how the Page changes with time. You can also view the list of all upcoming scheduled events.|
 |![View toggler](page_builder_toolbar_devicestoggler.png)|Toggle through to see how the Page is rendered on different devices.|
-|![Elements toolbox](page_builder_toolboxelements.png)|Move Elements / Structure view toolbox to the other side of the screen.|
+|![Page blocks toolbox](page_builder_toolboxelements.png)|Move Page blocks / Structure view toolbox to the other side of the screen.|
 |![Undo](page_builder_toolbar_undo.png)|Undo latest change.|
 |![Redo](page_builder_toolbar_redo.png)|Redo latest change.|
 
 Page Builder has two main views that you can use while creating a page:
 
-- Elements toolbox - consists of all available elements that you can use by dragging them and dropping on a drop zone.
+- **Page blocks** toolbox - consists of all available elements that you can use by dragging them and dropping on a drop zone.
 
-![Elements toolbox](img/elements_toolbox.png)
+![Page blocks toolbox](img/page_blocks_toolbox.png)
 
-- Structure view toolbox - shows a structure of your page, including their division into zones and the blocks that they contain.
+- **Structure view** toolbox - shows a structure of your page, including their division into zones and the blocks that they contain.
 
 ![Structure view toolbox](img/structure_view.png)
 
@@ -102,7 +102,7 @@ To do it, click **Swicth layouts** button.
 
 ### Add blocks
 
-In Page Builder you can access a toolbox of **Elements** — a set of blocks of content that you can add to the zones of the Page.
+In Page Builder you can access a toolbox of **Page blocks** — a set of blocks of content that you can add to the zones of the Page.
 Each block is unique in its function and enables you to customize the content appearing on the Page.
 
 Add a block by dragging it from the toolbox to an empty place on a zone.
@@ -111,7 +111,7 @@ You can reorder blocks later, in a few ways:
 
 - drag and drop block in the desired location on a drop zone
 - hover over the block and use 'Move up' and 'Move down' function in the settings of the block
-- access Structure view toolbox and use 'Move up' and 'Move down' function in the settings of the block
+- access **Structure view** toolbox and use 'Move up' and 'Move down' function in the settings of the block
 
 ![Structure view toolbox - reorder blocks](structure_view_move.png)
 
@@ -120,7 +120,7 @@ Before you drop it, a bold line appears  - it helps you see the position of the 
 
 ![Drop zone line](drop_zone_line.png)
 
-When you add a block by dragging it from Elements toolbox into the drop zone,
+When you add a block by dragging it from **Page blocks** toolbox into the drop zone,
 the block settings panel open immediately where you can configure all block properties.
 
 ![Block properties](block_properties.png)

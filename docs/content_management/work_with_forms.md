@@ -104,7 +104,7 @@ In the following example, you can learn how to create a Newsletter form and use 
 
 5\. Click **Save** button and then **Confirm**.
 
-6\. Now, you can use **a Newsletter** form on your page. Open your site using Page Builder and from the **Elements** toolbar choose **Form**. Drag it and drop on the zone. 
+6\. Now, you can use **a Newsletter** form on your page. Open your site using Page Builder and from the **Page blocks** toolbox choose **Form**. Drag it and drop on the zone. 
 
 ![Add to page](img/newsletter_add_to_page.png)
 
