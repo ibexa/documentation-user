@@ -12,14 +12,14 @@ You can, for example, modify a Page to include a block that shows what
 content items/products are recommended to end users when specific [scenarios](scenarios.md) 
 are triggered. 
 One such example is the [Personalized block](../content_management/block_reference.md#personalized-block), where you can choose from a number of scenarios, 
-but there are also other blocks that are tailored to display the results of scenarios 
+but there are also other blocks that are tailored to display the results of scenarios
 of specific types, like [Recently added block](../content_management/block_reference.md#recently-added-block) 
 or [Bestsellers block](../content_management/block_reference.md#bestsellers-block).
-Depending on the scenario type, you may need to provide additional information 
+Depending on the scenario type, you may need to provide additional information
 to see the recommendation results.
 
-The blocks, as well as the number and selection of available scenarios within 
-these blocks depend on the arrangements that your organization makes with [[= product_name_base =]] 
+The blocks, the number, and selection of available scenarios within
+these blocks depend on the arrangements that your organization makes with [[= product_name_base =]]
 when defining the initial configuration.
 
 Follow these steps to add and configure the Personalized block to a Page:
@@ -42,7 +42,7 @@ Follow these steps to add and configure the Personalized block to a Page:
  
 1. Save your changes to the draft or publish the Page.
 
-For more information about collecting events and embedding recommendation results, 
+For more information about collecting events and embedding recommendation results,
 see [Integrate recommendation service]([[= developer_doc =]]/personalization/integrate_recommendation_service/).
 
 ## Use cross content type in Page Builder blocks

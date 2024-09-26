@@ -5,17 +5,17 @@ edition: experience
 
 # Work with forms
 
-You can use forms to increase the functionality of the website by adding a survey, 
+You can use forms to increase the functionality of the website by adding a survey,
 questionnaire, sign-up form, etc.
-You can then review the results gathered from website users, for example, to improve 
+You can then review the results gathered from website users, for example, to improve
 user experience.
 
 For more information about building and styling forms, see [developer documentation]([[= developer_doc =]]/content_management/forms/forms).
 
-## Create forms 
+## Create forms
 
 Editors can use the created form anywhere on the website.
-Forms can be used in page blocks, embedded in the online editor or even used as a field relation. 
+Forms can be used in page blocks, embedded in the online editor or even used as a field relation.
 The same form can be placed at multiple locations on the website.
 
 To create a form:
@@ -33,7 +33,7 @@ To create a form:
 
 ![Build form](img/build_form.png)
 
-4\. Drag (A) or click (B) on the type from the form fields toolbar. 
+4\. Drag (A) or click (B) on the type from the form fields toolbar.
 To create more complicated and detailed form, you can use more than one form field type.
 
 ![Drag form fields](img/drag_form_fields.png)
@@ -58,7 +58,7 @@ You can choose one of a few options of what is shown to the user after filling i
 - Click **Save** to continue editing.
 - Click **Save and close** to close the window.
 
-10\. To send your changes to another editor [for review](editorial_workflow.md), click **Send to review**. 
+10\. To send your changes to another editor [for review](editorial_workflow.md), click **Send to review**.
 
 11\. When the form is ready for publication:
 
@@ -104,7 +104,7 @@ In the following example, you can learn how to create a Newsletter form and use 
 
 5\. Click **Save** button and then **Confirm**.
 
-6\. Now, you can use **a Newsletter** form on your page. Open your site using Page Builder and from the **Page blocks** toolbox choose **Form**. Drag it and drop on the zone. 
+6\. Now, you can use **a Newsletter** form on your page. Open your site using Page Builder and from the **Page blocks** toolbox choose **Form**. Drag it and drop on the zone.
 
 ![Add to page](img/newsletter_add_to_page.png)
 
