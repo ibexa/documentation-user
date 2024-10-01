@@ -35,7 +35,7 @@ For example, in the **Action type options** tab, you can see specific parameters
 
 ![AI action details](img/ai_action_details.png)
 
-## Edit existing AI action
+## Edit existing AI actions
 
 To suit your specific needs, you can modify the default AI actions.
 

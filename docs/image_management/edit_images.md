@@ -7,11 +7,13 @@ description: Edit images in the Image Editor to flip, crop and select a focal po
 You can edit the image asset's properties.
 You can also edit the image itself with the Image Editor.
 
-The editing tools are available when you work in the Back Office of your application, for example, to:
+!!! note "Editing tool availability"
 
-- browse the Media root folder of the Content Tree
-- add an image or an image asset to a content item by selecting it from a Content browser or an Image picker
-- insert an image into a [Rich Text Field](create_edit_content_items.md#edit-rich-text-fields)
+    The editing tools are available when you work in the Back Office of your application, for example, to:
+
+    - browse the Media root folder of the Content Tree
+    - add an image or an image asset to a content item by selecting it from a Content browser or an Image picker
+    - insert an image into a [Rich Text Field](create_edit_content_items.md#edit-rich-text-fields)
 
 ## Edit image asset
 

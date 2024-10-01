@@ -8,7 +8,7 @@ Content Tree is the place where you can navigate through all the content items i
 If you want to browse your application's content items, in the main menu, go to the **Content** -> **Content structure**.
 The **Content Tree** area is an expandable content menu of your website.
 
-![Content Tree in the menu](img/left_menu_tree.png "Content Tree in the menu")
+![Content Tree in the menu](../img/left_menu_tree.png "Content Tree in the menu")
 
 Unique icons for each content type instantly show you what type of content you are selecting. To add custom icons to your Content Tree, follow [configuration tutorial in developer documentation]([[= developer_doc =]]/administration/back_office/back_office_elements/custom_icons/#customize-content-type-icons).
 

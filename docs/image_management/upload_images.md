@@ -48,7 +48,7 @@ Tagging image assets helps keep the media library organized and enables searchin
 !!!note
     The maximum file size and file extension limitations may differ depending on your configuration.
 
-## Edit images
+## Edit image assets and images
 
 After you upload the image to create an image asset, you can adjust it according to your needs.
 For detailed instructions on how to edit images, see the [Edit images](../image_management/edit_images.md).
