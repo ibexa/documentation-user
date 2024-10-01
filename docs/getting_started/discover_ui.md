@@ -45,7 +45,7 @@ It's the default dashboard and contains selected blocks.
 You can customize the dashboard by changing the blocks and the layout.
 For more information, see [Work with dashboard](work_with_dashboard.md).
 
-## Main menu 
+## Main menu
 
 The main menu allows you to move between important sections of the application.
 
@@ -66,20 +66,12 @@ It lets you navigate the Content Tree, create, edit, move, copy, delete content,
 
 ## Content Tree
 
-If you want to navigate through your website with a menu, in the main menu, go to the **Content** -> **Content structure**.
-The **Content Tree** area is an expandable content menu of your website.
+Content Tree is the place where you can navigate through all the content items in your application.
+It is available in the Back Office and allows you to browse your content, move content items around, hide them, send them to trash, and perform other actions.
 
 ![Content Tree in the menu](img/left_menu_tree.png "Content Tree in the menu")
 
-Unique icons for each content type instantly show you what type of content you are selecting. To add custom icons to your Content Tree, follow [configuration tutorial in developer documentation.]([[= developer_doc =]]/administration/back_office/back_office_elements/custom_icons/#customize-content-type-icons)
-
-Hidden content is greyed out in the tree view.
-
-To simplify the Content Tree, big lists are collapsed and include a **Show more** icon. 
-You can select it to expand the branches of the tree.
-**Collapse all** option, which is available in the context menu, closes all expanded sections.
-
-For more information on custom configuration, go to [Content Tree]([[= developer_doc =]]/administration/back_office/content_tree/) in developer documentation.
+For more information, see [Content Tree](content_tree.md).
 
 ## Content browser
 
@@ -102,7 +94,7 @@ You can also use the **Content Browser** to search the Repository for content, e
     If you have administrator permissions, you can also view and manage User accounts and site skeletons in the **Admin** tab.
 
     For more information about users and permissions, see [Users](../permission_management/permissions_and_users.md).
-    
+
     For more information about site skeletons, see [Site skeletons]([[= developer_doc =]]/multisite/site_factory/site_factory_configuration/#site-skeletons).
 
 ## Focus mode

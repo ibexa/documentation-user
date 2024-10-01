@@ -118,6 +118,8 @@ You can also add new elements to the Field. To do it, choose one of the availabl
 Each of these elements can have its own settings, such as text formatting.
 The option bar also lets you reorder or remove any elements in the Rich Text Field.
 
+
+
 #### Edit embedded content items
 
 You can edit embedded content items without leaving current window.
@@ -183,6 +185,16 @@ add or delete rows and columns in any part of the table, as well as merge and sp
 
 Your installation can also have custom elements available in the Rich Text field.
 Contact your website administrator about the details of using them.
+
+### AI Assistant
+
+If the [AI Actions](ai_actions.md) add-on has been installed and configured in your application, when writing content, you can ask the AI Assistant to perform specific tasks on your text.
+For example, you can highlight a section and instruct the AI Assistant to extend the passage or adjust its tone to suit your needs.
+
+If you have a permission to access the **Admin UI**, the **Go to AI actions** button is also visible.
+By clicking it, you can quickly navigate to [AI actions configuration](work_with_ai_actions.md).
+
+![AI Assistant](ai_assistant.png)
 
 ### SeenThis! streaming
 
