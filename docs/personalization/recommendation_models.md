@@ -254,7 +254,7 @@ With time-slot based models, user can configure and set specific time slots.
 
 These time slots:
 
-- can include any number of hours, in the range between 1 and 24
+- can cover any time frame, including minutes, and don't necessarily have to start and end with full hour
 - cannot overlap, for example, you cannot set up 8 a.m - 11 a.m and 9 a.m - 12 a.m slots at once
 - cannot pass between two days, for example, you cannot set slot 11 p.m - 3 a.m
 
