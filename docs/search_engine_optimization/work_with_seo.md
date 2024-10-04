@@ -28,7 +28,7 @@ When you edit the content type definition, in the **SEO** section, go to the **M
 
 To learn more about the function of each of the tags, see [Meta tags](seo.md#meta-tags).
 
-When you populate the SEO fields, you can create patterns by using a schema with attributes which correspond to identifiers of fields that make up the content type.
+When you populate the SEO fields, you can create patterns using a schema with attributes which correspond to identifiers of fields that make up the content type.
 As a result, SEO tags are filled in at content item generation phase with specific contents of such fields. For example, if you enter `<title>.<format> - <author>` as a value of the **Title** tag, the search engine returns `Silmarillion. Illustrated edition - J.R.R. Tolkien`.
 
 You can also fine-tune the way your content is presented when linked from a social media platform by populating the social media-specific meta tags in the exact same way:

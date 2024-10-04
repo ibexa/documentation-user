@@ -18,12 +18,11 @@ You can then click the **Edit** icon next to the name of the scenario.
     If this is the case, use the selector field to switch between views for each of these websites.
 
 In the scenario configuration screen, you can configure  a number of settings, for example:
- 
+
  - The [type of content](content_types.md) used as input data and recommended items
  - A strategy consisting of primary, secondary and provisional models used to calculate results
  - User profile-based settings, boost settings and other [filters](filters.md) that can be used to eliminate or promote specific results
 
- 
 ## Configure basic settings
 
 Provide a name and an identifier for the scenario.

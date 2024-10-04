@@ -4,13 +4,11 @@ description: Edit images in the Image Editor to flip, crop and select a focal po
 
 # Edit images
 
-When you browse the [Media library](content_model.md#content-and-media), 
-or create or edit a content item that contains an *Image* 
-or *Image asset* field, you can perform basic image editing functions by using the Image Editor. 
+When you browse the [Media library](content_model.md#content-and-media), or create or edit a content item that contains an *Image* or *Image asset* field, you can perform basic image editing functions using the Image Editor.
 
-The Image Editor enables: 
+The Image Editor enables:
 
-* image cropping 
+* image cropping
 * image flipping
 * setting a point of focus within an image
 
@@ -30,7 +28,7 @@ You can either choose one of the preset aspect ratio options (square, vertical o
 
 After you choose an aspect ratio, a grid appears on the preview.
 You can then resize the grid to mark an area of the image that you want to be visible.
-You can also enter the exact width and height values in the **Crop size** area. 
+You can also enter the exact width and height values in the **Crop size** area.
 
 Click the tick icon to confirm the change or the **X** icon to cancel it and clear the preview.
 When you confirm the change, the preview refreshes to display a cropped image.
@@ -42,11 +40,9 @@ When you confirm the change, the preview refreshes to display a cropped image.
 
 ## Focal point
 
-If your page contains an image that is larger that the current viewport, for example, when a user accesses the page from a mobile phone, 
-you can select a point on the image that the view should focus on.
+If your page contains an image that is larger that the current viewport, for example, when a user accesses the page from a mobile phone,  you can select a point on the image that the view should focus on.
 
-This way, a responsive image can be cropped to fit the viewport, 
-so the area that contains the selected point is always visible.
+This way, a responsive image can be cropped to fit the viewport, so the area that contains the selected point is always visible.
 
 !!! note
 

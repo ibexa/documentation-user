@@ -14,12 +14,12 @@ Example shipping methods are overnight delivery, self-pickup, or DHL.
 !!! note "Shipping method limitations"
 
     By default, you can only create shipping methods of 'Flat rate' and 'Free shipping' type.
-    
+
     Shipping methods created in legacy Commerce cannot be migrated when you upgrade. You have to define them from scratch.
 
 "Flat rate" shipping means delivering goods at a fixed, predefined cost, regardless of the number, and type of items in the cart.
 
-## Create new shipping method 
+## Create new shipping method
 
 1\. In the left panel, go to **Commerce** -> **Shipping methods**, and click **Create**.
 
@@ -47,7 +47,7 @@ This value is then displayed during checkout and added to the total order amount
 
 ![Shipping methods list](shipping_methods_list.png)
 
-2\. Find the shipping method that you intend to edit or delete by using the search field and filters.
+2\. Find the shipping method that you intend to edit or delete using the search field and filters.
 
 3\. Click the **Edit** button next to the method in the list.
 
@@ -59,7 +59,7 @@ This value is then displayed during checkout and added to the total order amount
 
 1\. In the left panel, go to **Commerce** -> **Shipping methods**.
 
-2\. Find the shipping method that you want to delete by using the search field and filters.
+2\. Find the shipping method that you want to delete using the search field and filters.
 
 3\. Select a box next to its name and click **Delete**.
 

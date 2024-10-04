@@ -10,7 +10,7 @@ You can only create or modify products when your [user role](../permission_manag
 
 To create a product, depending on how the product type is defined, you [may need to provide](products.md#product-completeness) certain pieces of information in their respective [fields](../content_management/content_model.md#fields-and-field-types).
 
-You can create products by using either manual or bulk method.
+You can create products using either manual or bulk method.
 Bulk method can be used only at the developer level.
 See [Products]([[= developer_doc =]]/pim/product_api/#products) for a technical guide on how to do this.
 

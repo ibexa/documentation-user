@@ -39,7 +39,7 @@ Payment methods describe the way store customers pay for their orders during the
 
 ![Payment methods list](payment_methods_list.png)
 
-2\. Find the payment method that you want to edit by using the search field and filters.
+2\. Find the payment method that you want to edit using the search field and filters.
 
 3\. Click the **Edit** button next to the method in the list.
 
@@ -51,7 +51,7 @@ Payment methods describe the way store customers pay for their orders during the
 
 1\. In the left panel, go to **Commerce** -> **Payment methods**.
 
-2\. Find the payment method that you want to delete by using the search field and filters.
+2\. Find the payment method that you want to delete using the search field and filters.
 
 3\. Select a box next to its name and click **Delete**.
 

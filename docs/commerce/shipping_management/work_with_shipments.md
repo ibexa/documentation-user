@@ -68,4 +68,4 @@ If your [user role](work_with_permissions.md) has the `Shipment/Edit` permission
 
 - "Pending" -> "Ready to ship" - click **Prepare** button, then click **Change** to confirm.
 - "Ready to ship" -> "Shipped" - click **Send** button, then click **Change** to confirm.
-- "Shipped" -> "Delivered" - click **Deliver** button, then click **Change** to confirm. 
+- "Shipped" -> "Delivered" - click **Deliver** button, then click **Change** to confirm.

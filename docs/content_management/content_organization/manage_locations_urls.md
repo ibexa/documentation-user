@@ -28,7 +28,7 @@ Then select the new parent from the content browser.
 ### Hide Locations
 
 You can manage the availability of content by hiding or revealing it.
-You can do this in the content item's **Locations** tab by using the Visibility switcher.
+You can do this in the content item's **Locations** tab using the Visibility switcher.
 Notice that this way only affects a *Location*, not the *Content item*.
 Even if you hide the content in one Location, it remains visible in its other Locations.
 You can also [hide the content item itself](copy_move_hide_content.md#hide-content).
@@ -69,7 +69,7 @@ For more information about URL management, see [developer documentation.]([[= de
 
 ### Link manager
 
-In your website you can link to external websites by placing links inside rich text, or by using the URL field.
+In your website you can link to external websites by placing links inside rich text, or using the URL field.
 You can view and update all external links that exist within the website, without having to modify and re-publish the individual content items.
 
 ![Link manager tab](img/Link_manager_sm.png)

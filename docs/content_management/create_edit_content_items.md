@@ -27,7 +27,7 @@ description: Create content for your website with different fields, rich text, t
     !!! note
 
         If you're using [[= product_name_exp =]] or [[= product_name_com =]], the options include forms and pages.
-        You then [build forms](work_with_forms.md) and [create pages](create_edit_pages.md) by using their respective specialist tools.
+        You then [build forms](work_with_forms.md) and [create pages](create_edit_pages.md) using their respective specialist tools.
 
 1. [Fill in the fields](#edit-new-or-existing-content-items) of the content item.
 
@@ -36,7 +36,7 @@ description: Create content for your website with different fields, rich text, t
     !!! tip
 
         A content item can look different on different [SiteAccesses](translate_content.md#siteaccess).
-        You can select a SiteAccess to preview by using a drop-down in the preview screen.
+        You can select a SiteAccess to preview using a drop-down in the preview screen.
 
 1. To discard your changes and close the window, click **Delete draft**.
 
@@ -92,11 +92,11 @@ A *Location* field is a point on the map. You can type the place name, enter its
 !!! note
 
     When you create or edit a content item that contains an *Image* or an *Image asset* field,
-    you can perform basic image editing functions by using an [Image Editor](../image_management/edit_images.md).
+    you can perform basic image editing functions using an [Image Editor](../image_management/edit_images.md).
 
 ### Edit Rich Text fields
 
-You fill in Rich Text fields by using an online editor.
+You fill in Rich Text fields using an online editor.
 Its options appear when you click inside the field box.
 
 ![Online editor menu](img/online_editor_menu.png "Online editor menu")

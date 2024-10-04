@@ -20,7 +20,7 @@ If you'd like to see Ibexa DXP in your language, you can [contribute to the tran
 ## Build and preview documentation
 
 To build and preview your changes locally, you need to install Python along with its package manager (`pip`).
-Other required tools can be installed by using the following command:
+Other required tools can be installed using the following command:
 
 ```bash
 pip install -r requirements.txt

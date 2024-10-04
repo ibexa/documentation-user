@@ -1,5 +1,5 @@
 ---
-description: You can display recommendation results in your Pages by using the Personalized block.
+description: You can display recommendation results in your Pages using the Personalized block.
 edition: experience
 ---
 
@@ -18,7 +18,7 @@ Follow these steps to add and configure the Personalized block to a Page:
 1. In [content tree](discover_ui.md#content-tree), navigate to the page in which you want to place a personalization block.
 
 1. From the **Page blocks** toolbox, drag and drop the **Personalized** block to a location on the page layout.
- 
+
 1. Click the **Block settings** icon to modify the **Personalized** block:
  
     1. On the **Basic** tab, set values in the following fields:

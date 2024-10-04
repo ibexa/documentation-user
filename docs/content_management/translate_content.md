@@ -52,7 +52,7 @@ You can compare different versions of the translations of the content item.
 
 3\. Go to **Versions** tab and click the **Version compare** icon: ![Version Compare Icon](img/version_compare_icon.png){.inline-image}.
 
-4\. In the **Comparing versions** screen, click the split view by using the switcher in the top right corner:
+4\. In the **Comparing versions** screen, click the split view using the switcher in the top right corner:
 
 ![View switcher](img/view_switcher.png "View switcher")
 
@@ -71,10 +71,8 @@ When you edit a Page, a bar at the top of the screen lists the most recently use
 
 !!! note "SiteAccess concept"
 
-    SiteAccesses are a means to present different versions of the website to different 
-    categories of users.
-    You could treat SiteAccesses as different "entrance points" to your website. 
-    They allow you to show different content or design to visitors, for example, 
-    to serve different language versions to visitors from different countries.
-    
+    SiteAccesses are a means to present different versions of the website to different categories of users.
+    You could treat SiteAccesses as different "entrance points" to your website.
+    They allow you to show different content or design to visitors, for example, to serve different language versions to visitors from different countries.
+
     See [Work with websites](../website_organization/work_with_sites.md) for more information about setting up websites.

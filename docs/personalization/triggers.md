@@ -33,7 +33,7 @@ Trigger messages are automatically initiated when a specific user's action, inac
 
 Trigger message calculations are done on a server that is run and maintained by [[= product_name_base =]].
 The server delivers a response with recommendations to an endpoint provided by your organization, for example, an [[= product_name_connect =]] [webhook](https://doc.ibexa.co/projects/connect/en/latest/tools/webhooks/).
-You may then deliver the message to the end users by using a method of your choice, for example, email.
+You may then deliver the message to the end users using a method of your choice, for example, email.
 Apart from a list of recommendations, the response can include an email address for routing a message to the recipient.
 
 To enable triggers for your organization, contact your administrator or development team about [preparing a webhook address and processing the response delivered to the webhook]([[= developer_doc =]]/personalization/integrate_recommendation_service/#send-messages-with-recommendations), and [[= product_name_base =]] about the configuration specifics.

@@ -55,7 +55,7 @@ You can now add product categories and then create relationships between product
 Similarly to other items in [[= product_name =]], you add product categories either by clicking the **Create** button, or directly in the product category tree:
 
 1. In the left panel, click **Product catalog** -> **Categories** to navigate to the product category tree.
-2. To add a category by using the **Create** button, in the category tree, select the category to which you want to add a child category. After the details of the selected category are loaded, click the **Create** button and skip to step 4.
+2. To add a category using the **Create** button, in the category tree, select the category to which you want to add a child category. After the details of the selected category are loaded, click the **Create** button and skip to step 4.
 3. To add a category directly in the category tree, click the three dots icon next to the category to which you want to add a child category. In the context menu, click **Add**.
 4. In the product category editing modal, make the following settings:
     * Enter a unique identifier for the product category, for example, "HW_WIN".

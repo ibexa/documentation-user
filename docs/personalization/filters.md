@@ -126,4 +126,4 @@ Here are the examples of common representation dimensions of items beyond the we
 You should avoid using category filtering with "Also clicked/purchased" and stereotype models.
 These models usually contain similar items, and additional filtering might remove the best results from the list of possible recommendations.
 The only exception could be coping with copyright or legal issues by removing unlicensed or adult content in certain markets or for certain customers.
-However, this use case could be handled with equal or greater success by using [submodels](recommendation_models.md#submodels) or [types of content](content_types.md).
+However, this use case could be handled with equal or greater success using [submodels](recommendation_models.md#submodels) or [types of content](content_types.md).

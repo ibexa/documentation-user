@@ -5,7 +5,7 @@ description: Get to know about dashboard.
 # Dashboard
 
 Dashboard is the first screen that you see after you log into [[= product_name =]].
-It provides users a quick overview about specific content to make better business decisions based on data and work more efficiently with a clear and easy access to important information.
+It provides users a quick overview about specific content to make better business decisions based on data and work more efficiently with a clear and effortless access to important information.
 
 Default dashboard in [[= product_name_headless =]] contains the following blocks:
 
