@@ -80,11 +80,18 @@ To promote your campaign, you can add a [Campaign block](../content_management/b
 In the block's settings, you can select a campaign that you want to display from a drop-down list.
 This list includes all campaigns available on user's Qualifio account which are active or scheduled to launch in the future.
 
+You can set the dimensions of the field in which the campaign is displayed. To do it, insert width and height values in the proper fields.
+If size fields are blank, the system sets default template values. It's recommended to adjust them for better results.
+
 ![Campaign block](img/campaign_block.png "Campaign block")
 
 ### Campaign custom tag
 
-You can embed a campaign within the [Rich Text field](../content_management/create_edit_content_items.md#edit-rich-text-fields) using a Campaign custom tag.
-To do it, select a custom tag from the toolbar, and provide campaign ID (available in Qualifio Manager).
+You can embed a campaign within the [Rich Text field](../content_management/create_edit_content_items.md#edit-rich-text-fields) by using a Campaign custom tag.
+To do it, insert **Campaign** content item in the Rich Text Field and choose campaign from the drop-down list.
+This list includes all campaigns available on user's Qualifio account which are active or scheduled to launch in the future.
+
+You can set the dimensions of the field in which the campaign is displayed. To do it, select units, and provide width and height values in the proper fields.
+If size fields are blank, the system sets default template values. It's recommended to adjust them for better results.
 
 ![Campaign custom tag](img/campaign_custom_tag.png "Campaign custom tag")
