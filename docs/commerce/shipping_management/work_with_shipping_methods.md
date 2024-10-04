@@ -23,7 +23,7 @@ Example shipping methods are overnight delivery, self-pickup, or DHL.
 
 1\. In the left panel, go to **Commerce** -> **Shipping methods**, and click **Create**.
 
-2\. Select the language for the new shipping method, its type, and region that you want it applies to.
+2\. Select the language for the new shipping method, its type, and region that it applies to.
 
 3\. In the next screen provide information about the new shipping method.
 

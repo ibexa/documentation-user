@@ -16,7 +16,7 @@ You can also copy the whole subtree (a content item with all content under it in
     may set a limit on how many content items can be copied at the same time.
 
     See [Copy subtree limit]([[= developer_doc =]]/administration/back_office/back_office_configuration/#copy-subtree-limit)
-    in the developer documentation on how to set this up.
+    in developer documentation on how to set this up.
 
 Copying creates a new content item.
 If you only want to have the same content item to another place in the content tree, add another Location to it.
@@ -35,9 +35,7 @@ After choosing and confirming new destination, all selected files are moved to i
 ## Remove content
 
 You can remove content by clicking **Send to Trash** in the menu.
-If you remove a content item that has children (other content under it in the content tree),
-both this item and the children are removed. This also breaks the connection between the items,
-so you cannot restore them with the same structure.
+If you remove a content item that has children (other content under it in the content tree), both this item and the children are removed. This also breaks the connection between the items, so you cannot restore them with the same structure.
 
 Notice that the content item is not removed completely.
 It's moved to Trash, which you can access from the left menu.

@@ -4,8 +4,7 @@ description: Browse a list of topics that bring you closer to understanding Ibex
 
 # Time to explore
 
-Whether you're a new or seasoned user of [[= product_name =]], feel free 
-to browse a list of topics that bring you closer to understanding the product.
+Whether you're a new or seasoned user of [[= product_name =]], feel free to browse a list of topics that bring you closer to understanding the product.
 
 [[= cards([
     "getting_started/get_started",

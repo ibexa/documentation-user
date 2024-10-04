@@ -88,8 +88,7 @@ You can access your user settings on the right side of the top bar:
 
 ![User preferences menu](img/user_preferences.png)
 
-Here you can [change your user password](get_started.md#change-the-password) and define your user preferences,
-such as preferred timezone, short and full date and time format, or back office language.
+Here you can [change your user password](get_started.md#change-the-password) and define your user preferences, such as preferred timezone, short and full date, and time format, or back office language.
 
 **Location**
 
@@ -109,7 +108,7 @@ such as preferred timezone, short and full date and time format, or back office 
 --------|-----------|
 |[Autosave draft every given period](../content_management/content_versions.md/#autosave)|Enables or disables autosaving drafts.|
 |Seconds till next draft autosave|Sets time period for next autosave.|
-|Enable character count in Online Editor|Enables or disables charactes count.|
+|Enable character count in online editor|Enables or disables charactes count.|
 |Automatically open block settings in builders|Enables or disables the behavior of blocks used in builders.|
 
 **Browsing**
@@ -117,7 +116,7 @@ such as preferred timezone, short and full date and time format, or back office 
 |Setting|Description|
 --------|-----------|
 |Number of items displayed in the table|Sets the number of items displayed in sub-items.|
-|Location preview|Enables or disabled a thumbnail preview on the content ree.|
+|Location preview|Enables or disabled a thumbnail preview on the content tree.|
 
 **Mode**
 

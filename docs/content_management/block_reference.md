@@ -342,7 +342,7 @@ Adds a Rich Text block to the Page.
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
-- **Content** — Enter text, images, videos, etc. using Online Editor.
+- **Content** — Enter text, images, videos, etc. using online editor.
 For details, see [Editing Rich Text Fields](create_edit_content_items.md#edit-rich-text-fields).
 
 ## Video block

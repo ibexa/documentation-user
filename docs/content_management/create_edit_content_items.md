@@ -76,8 +76,8 @@ When a file is uploaded with multi-file upload, it's automatically stored in a f
 
 ## Edit new or existing content items
 
-Each content item is based on a [content type](create_edit_content_types.md). The content type defines what fields
-you have to fill in when creating a new item.
+Each content item is based on a [content type](create_edit_content_types.md).
+The content type defines what fields you have to fill in when creating a new item.
 It may also determine the layout or style in which this item is displayed.
 
 Fields marked with an asterisk (\*) are required.
@@ -96,13 +96,15 @@ A *Location* field is a point on the map. You can type the place name, enter its
 
 ### Edit Rich Text fields
 
-Rich Text fields are filled in using a special Online Editor. Its options appear when you click the field box.
+You fill in Rich Text fields by using an online editor.
+Its options appear when you click inside the field box.
 
-![Online Editor menu](img/online_editor_menu.png "Online Editor menu")
+![Online editor menu](img/online_editor_menu.png "Online editor menu")
 
 You can chooose from available options to edit and customize Rich Text field, for example, move up or down its elements, select heading style, add text elements, like superscript, block quote, or anchor.
 
-You can also add new elements to the field. To do it, choose one of the available elements:
+You can also add new elements to the field.
+To do it, choose one of the available elements:
 
 - Unordered list
 - Ordered list
@@ -176,8 +178,7 @@ See [Images]([[= developer_doc =]]/content_management/images/images/) for a tec
 
 ![Table options in online editor](img/online_editor_table.png)
 
-In table options you can define the first row and/or column as headers,
-add or delete rows and columns in any part of the table, and also merge or split cells.
+In table options you can define the first row and/or column as headers, add or delete rows and columns in any part of the table, and also merge or split cells.
 
 #### Custom elements
 

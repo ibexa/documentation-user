@@ -13,10 +13,8 @@ By editing pages, you can customize the layout and content of your website.
 Whenever you edit a Page, a [new version](content_versions.md) is created in the repository.
 
 !!! tip
-    The Page content type contains a *Landing Page* field type which manages
-    the zones and blocks.
-    Any content item that has the *Landing Page* field type behaves like
-    a page.
+    The Page content type contains a *Landing Page* field type which manages the zones and blocks.
+    Any content item that has the *Landing Page* field type behaves like a page.
 
 ## Create Page
 
@@ -44,7 +42,7 @@ You can now navigate away from the Page by clicking the **Close** button.
 
 ## Edit Page
 
-To edit an existing Page, in the back office, from the content tree, choose the page that you want to edit, and click **Edit** button.
+To edit an existing Page, in the back office, from the content tree, choose the page that you want to edit, and click the **Edit** button.
 
 ### Page Builder interface
 

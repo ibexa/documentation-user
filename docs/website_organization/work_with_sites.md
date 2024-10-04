@@ -5,23 +5,20 @@ edition: experience
 
 # Work with websites
 
-If multisite support is enabled for your instance of [[= product_name =]], you can
-use Site Factory to create and manage multiple websites from one place.
-These websites can, for example, be in different languages, or customized for
-different audiences, and still be kept in the repository of your installation.
+If multisite support is enabled for your instance of [[= product_name =]], you can use Site Factory to create and manage multiple websites from one place.
+These websites can, for example, be in different languages, or customized for different audiences, and still be kept in the repository of your installation.
 To be able to use it, the Site Factory has to be enabled and configured by the administrator.
 For more information, see developer documentation on [Site Factory]([[= developer_doc =]]/multisite/site_factory/site_factory).
 
 ## Create a website
 
 To access Site Factory, in the left panel, click the **Site Management** icon and then **Sites**.
-If Site Factory is enabled, and you have sufficient permissions, you should see
-the **Create** button. Click it to access the **Creating New Site** modal.
+If Site Factory is enabled, and you have sufficient permissions, you should see the **Create** button.
+Click it to access the **Creating New Site** modal.
 
 ![Site Factory icon](img/site_factory_icon.png)
 
-Here, you can create an entirely new website or a different language version of
-an already existing website.
+Here, you can create an entirely new website or a different language version of an already existing website.
 First, select a name, a predefined design, and a Parent Location for your website.
 
 ![Create a new website - step one](img/site_factory_new_site_step_1.png)
@@ -45,10 +42,8 @@ If all required fields are filled out, click **Save and close** to create new we
 
 !!! note
 
-    A SiteAccess that you create in Site Factory is always treated with lower priority
-    than a SiteAccess defined by the administrator as part of [configuration]([[= developer_doc =]]/multisite/multisite_configuration/#siteaccess-configuration).
-    For example, if you create a website that uses the `fr` path in Site Factory, and the administrator
-    defines a French website manually in configuration files, your website is ignored by the system.
+    A SiteAccess that you create in Site Factory is always treated with lower priority than a SiteAccess defined by the administrator as part of [configuration]([[= developer_doc =]]/multisite/multisite_configuration/#siteaccess-configuration).
+    For example, if you create a website that uses the `fr` path in Site Factory, and the administrator defines a French website manually in configuration files, your website is ignored by the system.
 
 You can see all the details of created website.
 To do it, go to **Site management** -> **Sites** and click the three dots icon next to the website name. Then, select **Site details**.

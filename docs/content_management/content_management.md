@@ -15,7 +15,8 @@ It also involves content translation and publication scheduling.
     "content_management/create_edit_pages",
     "content_management/block_reference",
     "content_management/preview_content_items",
-    "content_management/work_with_forms"
+    "content_management/work_with_forms",
+    "content_management/translate_content"
 ], columns=3) =]]
 
 ## Organize content and manage workflow

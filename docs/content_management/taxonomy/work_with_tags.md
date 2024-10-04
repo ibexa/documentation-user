@@ -4,9 +4,7 @@ description: Taxonomy is one of the ways classify content items with structured 
 
 # Work with Tags
 
-Once you have created content items that follow the structure defined within the
-content model, you can create [taxonomies](taxonomy.md) that consist of tags, to help users find
-the content they need.
+Once you have created content items that follow the structure defined within the content model, you can create [taxonomies](taxonomy.md) that consist of tags, to help users find the content they need.
 
 ## Add tag
 
@@ -27,9 +25,7 @@ Now, the tag is visible in the taxonomy tree.
 
 ### Assign tag to content from taxonomy tree
 
-Taxonomy is controlled and configured by the *Taxonomy Entry Assignment* field settings,
-so you can use multiple fields of this type with different taxonomies,
-for example, tags and product categories in the same content type.
+Taxonomy is controlled and configured by the *Taxonomy Entry Assignment* field settings, so you can use multiple fields of this type with different taxonomies, for example, tags and product categories in the same content type.
 To be able to assign tags to a Content, first, you need to add a *Taxonomy Entry Assignment* field to the content type definition.
 
 1. Go to **Content types** -> **Content**.

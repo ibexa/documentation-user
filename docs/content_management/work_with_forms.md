@@ -5,10 +5,8 @@ edition: experience
 
 # Work with forms
 
-You can use forms to increase the functionality of the website by adding a survey,
-questionnaire, sign-up form, etc.
-You can then review the results gathered from website users, for example, to improve
-user experience.
+You can use forms to increase the functionality of the website by adding a survey, questionnaire, sign-up form, etc.
+You can then review the results gathered from website users, for example, to improve user experience.
 
 For more information about building and styling forms, see [developer documentation]([[= developer_doc =]]/content_management/forms/forms).
 

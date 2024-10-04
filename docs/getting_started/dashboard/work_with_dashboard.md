@@ -65,7 +65,7 @@ For a new dashboard you can choose layout which defines the available zones and 
 Applying a layout divides the dashboard into the defined zones.
 The zones are placeholders for blocks.
 
-To do it, click the **Switch layout** icon on the left side of the upper toolbox, then choose one from available layouts, and click **Submit**.
+To do it, click the **Switch layout** icon on the left side of the upper toolbar, then choose one from available layouts, and click **Submit**.
 
 ![Switch layout](dashboard_switch_layout_window.png)
 

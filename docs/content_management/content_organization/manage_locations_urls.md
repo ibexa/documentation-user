@@ -56,14 +56,16 @@ in the **Location** tab and selecting a content item to swap with.
     This means that if the content item was previously accessible by a URL without a number at the end,
     after the swap it's' accessible by a URL with a number at the end (and the other way around).
 
-    If at some point there were more than two content items with the same name under the same parent, then result of swapping such content items might not be obvious. The general rule is that the content item that previously had a higher number at the end of its URL alias have its URL alias republished first, resulting in the lowest nonconflicting number (or the lack of) at the end of its URL alias. The content item that previously had a lower number at the end of its URL alias have its URL alias republished second, resulting in the second lowest nonconflicting number at the end of its URL alias.
+    If at some point there were more than two content items with the same name under the same parent, then result of swapping such content items might not be obvious.
+    The general rule is that the content item that previously had a higher number at the end of its URL alias have its URL alias republished first, resulting in the lowest nonconflicting number (or the lack of) at the end of its URL alias.
+    The content item that previously had a lower number at the end of its URL alias have its URL alias republished second, resulting in the second lowest nonconflicting number at the end of its URL alias.
 
 ## URL management
 
 In your website, you can manage external URL addresses and URL wildcards.
 You do this in the back office, **Admin** tab, the **URL management** node.
 
-For more information about URL management, see the [Ibexa Developer Documentation.]([[= developer_doc =]]/content_management/url_management/url_management/).
+For more information about URL management, see [developer documentation.]([[= developer_doc =]]/content_management/url_management/url_management/).
 
 ### Link manager
 

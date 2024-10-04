@@ -38,7 +38,7 @@ As a consequence, all content items of the same content type share the same set 
 For example, you need to store book information.
 You create a new content type called "Book" and add to it fields such as Title, Author, Genre, ISBN, etc.
 Next, based on this content type, you can create any number of content items.
-You can fill the empty fields with the information about each specific book:
+You can then fill the empty fields with the information about each specific book:
 
 ![Content model diagram](img/content_model_diagram.png "Content model diagram")
 
@@ -69,4 +69,4 @@ for example, *Text line*, *Rich text*, *Email*, *Author list*, *Content relation
 
 !!! note "More information"
 
-    For detailed information about the content model, see [the developer documentation]([[= developer_doc =]]/content_management/content_model/#content-information).
+    For detailed information about the content model, see [developer documentation]([[= developer_doc =]]/content_management/content_model/#content-information).

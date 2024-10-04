@@ -1,6 +1,6 @@
 # Ibexa DXP User Documentation
 
-This repository is the source for the [user documentation for Ibexa DXP](https://doc.ezplatform.com/projects/userguide/en/latest),
+This repository is the source for [user documentation for Ibexa DXP](https://doc.ezplatform.com/projects/userguide/en/latest),
 a digital experience platform that is based on the Symfony Full Stack Framework in PHP.
 
 # Resources

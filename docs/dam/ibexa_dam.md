@@ -5,8 +5,8 @@ edition: headless
 
 # [[= product_name_dam =]]
 
-Digital Asset Management is a platform dedicated to editors. It enables storing in central location, organizing, distributing, 
-and sharing media assets across many channels.
+Digital Asset Management is a platform dedicated to editors.
+It enables storing in central location, organizing, distributing, and sharing media assets across many channels.
 
 [[= product_name_dam =]] image picker is developed to work with any web browser that supports modern standards. The minimum screen resolution is
 1366 x 768.

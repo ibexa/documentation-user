@@ -25,4 +25,4 @@ presentation, URL aliases etc. can be configured per SiteAccess.
 These settings are then used by the application when users access the 
 site through a specific address.
 
-For in-depth information, see [Multisite]([[= developer_doc =]]/multisite/multisite/) in the developer documentation.
+For in-depth information, see [Multisite]([[= developer_doc =]]/multisite/multisite/) in developer documentation.

@@ -10,18 +10,13 @@ To suit your specific needs, you can modify the default content types, or add cu
 You can only create or modify content types when your [user role](../permission_management/work_with_permissions.md) has the `ContentType/Create` or `ContentType/Update` permission.
 
 When you edit a content type, each content item based on this content type changes.
-For example, when you add or remove a field to the content type, the change
-is propagated to every content item of this type.
+For example, when you add or remove a field to the content type, the change is propagated to every content item of this type.
 
 !!! note
 
-    Rules and templates for displaying content on the website are determined
-    at the developer level.
-    That is why content of a new content type that you create may not always display
-    correctly or may cause errors.
-    It's always best to discuss adding new content types with the administrator
-    of your website, to make sure whether they need to add it to the configuration.
-
+    Rules and templates for displaying content on the website are determined at the developer level.
+    That is why content of a new content type that you create may not always display correctly or may cause errors.
+    It's always best to discuss adding new content types with the administrator of your website, to make sure whether they need to add it to the configuration.
 
 !!! caution "Deleting content types"
 
@@ -62,14 +57,10 @@ Each content type has the following global properties:
 
 !!! note "Rules for creating patterns"
 
-    When populating the patterns, you can use a schema with attributes which
-    correspond to the identifiers of fields that make up the content type.
-    This way, when content items of this type are created, their names and URL
-    aliases are generated according to the defined pattern.
+    When populating the patterns, you can use a schema with attributes which correspond to the identifiers of fields that make up the content type.
+    This way, when content items of this type are created, their names and URL aliases are generated according to the defined pattern.
 
-    For example, if you enter `<short_title>` as a value of the **Content name
-    pattern** field, the resulting items are identified in the user interface
-    by their short titles.
+    For example, if you enter `<short_title>` as a value of the **Content name pattern** field, the resulting items are identified in the user interface by their short titles.
 
 5\. In the **Field definitions** area, [add or modify fields that constitute the content type](configure_ct_field_settings.md).
 

@@ -5,15 +5,12 @@ description: Enabling the Personalization service requires an installation key p
 # Enable personalization
 
 The Personalization service is based on a client-server architecture.
-The recommendation client that is part of your installation must connect to 
-the server that is run and maintained by [[= product_name_base =]].
-To use the service, you must make arrangements with [[= product_name_base =]] to define the initial 
-configuration, and then get and set up authentication parameters.
+The recommendation client that is part of your installation must connect to the server that is run and maintained by [[= product_name_base =]].
+To use the service, you must make arrangements with [[= product_name_base =]] to define the initial configuration, and then get and set up authentication parameters.
 
 ## Request access to the server
 
-After you get the initial configuration from [[= product_name_base =]], you must accept the terms and conditions of the Personalization service
-and create an account to get access to the server.
+After you get the initial configuration from [[= product_name_base =]], you must accept the terms and conditions of the Personalization service and create an account to get access to the server.
 
 ### Create account
 
@@ -44,7 +41,7 @@ First, you must accept the terms and conditions of the Personalization service.
 
 ## Set up service parameters
 
-When you receive the the credentials, ask your administrator to:
+When you receive the credentials, ask your administrator to:
 
 - [add the credentials to your configuration]([[= developer_doc =]]/personalization/enable_personalization/#set-up-customer-credentials)
 - [configure events that you wish to track]([[= developer_doc =]]/personalization/enable_personalization/#set-up-item-type-tracking)

@@ -22,9 +22,7 @@ The following blocks are provided with a clean installation of [[= product_name 
 
 !!! note
 
-    Before you add a block that involves products, product types, or product categories, make
-    sure your that your [user role](permissions_and_users.md) has
-    the `Product/View` and `Product type/View` permission.
+    Before you add a block that involves products, product types, or product categories, make sure your that your [user role](permissions_and_users.md) has the `Product/View` and `Product type/View` permission.
 
 ## Common content block
 
@@ -115,8 +113,11 @@ On the **Design** tab, in the **View** field, select the layout to be used to pr
 Displays a list of recent activity of all or selected users.
 It also includes a link to view all activities available in Admin tab.
 
-Recent activity block contains the following data: action time, user reference (avatar, first and last name) with a link to the user profile (if available),
-Activity type with the context.
+Recent activity block contains the following data:
+
+- action time
+- user reference (avatar, first and last name) with a link to the user profile (if available)
+- activity type with the context
 
 On the **Properties** tab, set values in the following fields:
 

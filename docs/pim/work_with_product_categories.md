@@ -4,7 +4,8 @@ description: You can create a structure of tags that can be assigned to products
 
 # Work with product categories
 
-[Product](products.md) categories are organized into a Category tree, which you can access from the **Product catalog** panel. The **Categories** screen is where you manually create a hierarchy of categories and manage category entries.
+[Product](products.md) categories are organized into a Category tree, which you can access from the **Product catalog** panel.
+The **Categories** screen is where you manually create a hierarchy of categories and manage category entries.
 
 ![Product category tree](img/product_categories.png "Product category tree")
 

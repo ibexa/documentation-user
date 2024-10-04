@@ -22,8 +22,7 @@ As you can see, the interface is the same as when working with regular content i
 ## Register as a user
 
 In most cases it's the administrator who invites users to log into the application.
-You can still access the registration form for the website by adding `/register`
-to the address, for example: `www.my-site.com/register`.
+You can still access the registration form for the website by adding `/register` to the address, for example: `www.my-site.com/register`.
 By default, new users created in this way are placed in the Guest accounts group.
 
 ## Invite users
@@ -32,9 +31,7 @@ To invite users, go to **Admin** -> **Users** and click **Invite members** in th
 
 ![Inviting users](img/users_invitation.png)
 
-To send invitations, fill out email addresses one by one,
-or use drag and drop to upload a file with an email list, then click **Send**.
+To send invitations, fill out email addresses one by one, or use drag and drop to upload a file with an email list, then click **Send**.
 
 Invited users then receive an email message with a registration link.
-With it, they can register and create their account
-in the frontend as customers or in the back office as members of the team.
+With it, they can register and create their account in the frontend as customers or in the back office as members of the team.

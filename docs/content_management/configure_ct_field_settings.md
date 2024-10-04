@@ -17,7 +17,7 @@ You can only create or modify content types when your [user role](../permission_
 3\. If your application requires a more granular organization of fields within a content type, click **+ Add** to add more sections.
 
 When you add a **Metadata** section, it's later presented as an additional tab in [content item](content_items.md) editing screen.
-You can use it for example for tags or product categories.
+You can use it, for example, for tags or product categories.
 When you add other sections, they're later presented as anchors in content item editing screen.
 All sections are later presented as headers on the content item details screen, the **View** tab.
 
@@ -75,8 +75,7 @@ Now, only selected page blocks are available in the edit mode.
 
 !!! caution
 
-    When you deselect blocks, any related blocks that are included in the Page
-    hide as well.
+    When you deselect blocks, any related blocks that are included in the Page hide as well.
     To publish the Page, the editor has to remove these blocks from the Page, too.
 
 ### Available page layouts
@@ -98,11 +97,9 @@ To do it, in the **Select Editor launch mode** section, select one of the availa
 
 ## Content relation settings
 
-When you add or modify a **[Content relation](create_edit_content_items.md#relation_field)** or **Content relation (multiple)**
-field in a content type, you can decide:
+When you add or modify a **[Content relation](create_edit_content_items.md#relation_field)** or **Content relation (multiple)** field in a content type, you can decide:
 
-- which content tree location opens in the
-[content browser](content_model.md#content-browser) when the user browses to a related content item
+- which content tree location opens in the [content browser](content_model.md#content-browser) when the user browses to a related content item
 - whether relations can be to content items of a specific type only, or any content type
 
 #### Relation starting location

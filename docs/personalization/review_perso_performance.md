@@ -4,11 +4,8 @@ description: You can view the performance and statistical information about the 
 
 # Review performance
 
-You can review statistical information related to the functioning of the Personalization service, 
-to help you fine-tune [models](recommendation_models.md) and [scenarios](scenarios.md) and, 
-in consequence, achieve better financial results.
-You can do this by visiting the dashboard, where you can monitor the performance 
-of the Personalization service.
+You can review statistical information related to the functioning of the Personalization service, to help you fine-tune [models](recommendation_models.md) and [scenarios](scenarios.md) and, in consequence, achieve better financial results.
+You can do this by visiting the dashboard, where you can monitor the performance of the Personalization service.
 
 The dashboard consists of several sections:
 
@@ -18,9 +15,7 @@ The dashboard consists of several sections:
 
 !!! note "Host multiple websites"
 
-    If you have [permissions](../permission_management/permissions_and_users.md) to access several websites hosted on an [[= product_name =]] 
-    instance, you can use the selector field to switch between dashboards for 
-    each of these websites.
+    If you have [permissions](../permission_management/permissions_and_users.md) to access several websites hosted on an [[= product_name =]] instance, you can use the selector field to switch between dashboards for each of these websites.
 
 ## Statistical information
 
@@ -33,24 +28,18 @@ The diagram part consists of four main blocks:
 - Conversion rate:
     The absolute number of converted/sold recommendations.
 - Collected events:
-    Input data CLICK, BUY, and other events that the Personalization service collects 
-    from the website. 
+    Input data CLICK, BUY, and other events that the Personalization service collects from the website.
     For more information, see [Events](event_types.md).
 
 ![Diagrams on the dashboard](img/dashboard_statistics.png "Performance diagrams on the dashboard")
 
-Revenue-through-recommendations is an additional monetary value that resulted from 
-the clicked recommendations. 
-It's calculated by summing up the revenue coming from products that users have purchased 
-within 30 minutes from clicking a recommendation.
+Revenue-through-recommendations is an additional monetary value that resulted from the clicked recommendations.
+It's calculated by summing up the revenue coming from products that users have purchased within 30 minutes from clicking a recommendation.
 
-Purchased recommendations is the number of products sold, without any 
-revenue/price information.
+Purchased recommendations is the number of products sold, without any revenue/price information.
 
-Conversion (or click-through) rate is an indicator of the acceptance and, subsequently, 
-the quality of recommendations. 
-It's calculated by dividing the total number of clicked recommendations by the number of 
-recommendation calls.
+Conversion (or click-through) rate is an indicator of the acceptance and, subsequently, the quality of recommendations. 
+It's calculated by dividing the total number of clicked recommendations by the number of recommendation calls.
 This statistic delivers reliable information if event tracking is implemented correctly.
 
 You can select a timeframe for the diagrams from a list of presets, or define a custom date range.

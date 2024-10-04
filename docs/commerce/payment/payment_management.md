@@ -10,7 +10,7 @@ The **Payment management** module allows users to track the status of payments f
 On the back office **Payments** screen, you can search for payments, filter the search results, and review payment details.
 Depending on configuration and permissions, you may also be allowed to cancel payments.
 
-If the permissions assigned to your [user role](permissions_and_users.md) allow, you may also have access to the **Payment methods** screen, where you define, enable, and disable offline payment methods.
+If the permissions assigned to your [user role](permissions_and_users.md) allow, you may also have access to the **Payment methods** screen, where you define, enable, or disable offline payment methods.
 
 ![Payments list](payment_list.png "Payments list")
 

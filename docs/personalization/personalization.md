@@ -12,7 +12,7 @@ by using [scenarios](scenarios.md) to generate recommendations, which you can th
 of personalized content to visitors of one or more websites hosted by the [[= product_name =]] instance.
 
 Both event tracking and result publishing is done by users with administrator privileges, 
-according to a procedure [described in the developer documentation]([[= developer_doc =]]/personalization/integrate_recommendation_service/).
+according to a procedure [described in developer documentation]([[= developer_doc =]]/personalization/integrate_recommendation_service/).
 
 There are different areas where you can apply recommendations. 
 The most common ones are [eCommerce and content publishing](use_cases.md).

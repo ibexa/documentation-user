@@ -5,22 +5,13 @@ edition: experience
 
 # Integrate scenario results
 
-When the Personalization service is [enabled](enable_personalization.md) and properly 
-[configured](configure_personalization.md), as an editor, you can embed the recommendations 
-that come from the service, to show them to the end users.
-You can, for example, modify a Page to include a block that shows what 
-content items/products are recommended to end users when specific [scenarios](scenarios.md) 
-are triggered. 
-One such example is the [Personalized block](../content_management/block_reference.md#personalized-block), where you can choose from a number of scenarios, 
-but there are also other blocks that are tailored to display the results of scenarios
-of specific types, like [Recently added block](../content_management/block_reference.md#recently-added-block) 
-or [Bestsellers block](../content_management/block_reference.md#bestsellers-block).
-Depending on the scenario type, you may need to provide additional information
-to see the recommendation results.
+When the Personalization service is [enabled](enable_personalization.md) and properly [configured](configure_personalization.md), as an editor, you can embed the recommendations that come from the service, to show them to the end users.
+You can, for example, modify a Page to include a block that shows what content items/products are recommended to end users when specific [scenarios](scenarios.md) are triggered.
+One such example is the [Personalized block](../content_management/block_reference.md#personalized-block), where you can choose from a number of scenarios, but there are also other blocks that are tailored to display the results of scenarios
+of specific types, like [Recently added block](../content_management/block_reference.md#recently-added-block) or [Bestsellers block](../content_management/block_reference.md#bestsellers-block).
+Depending on the scenario type, you may need to provide additional information to see the recommendation results.
 
-The blocks, the number, and selection of available scenarios within
-these blocks depend on the arrangements that your organization makes with [[= product_name_base =]]
-when defining the initial configuration.
+The blocks, the number, and selection of available scenarios within these blocks depend on the arrangements that your organization makes with [[= product_name_base =]] when defining the initial configuration.
 
 Follow these steps to add and configure the Personalized block to a Page:
 
@@ -35,15 +26,14 @@ Follow these steps to add and configure the Personalized block to a Page:
         -	**Select a scenario** – Select "Landing page" or "Top clicked".
         -	**Select a content type...** – Select "Product".
         -	**Display limit** – Set the number of products to be displayed, for example, 4.
-        
+
     1. On the **Design** tab, in the **View** field, change the layout to "Products" and submit your changes.
-    
+
       The preview of the Page changes to display a list of products recommended by the Personalization service.
- 
+
 1. Save your changes to the draft or publish the Page.
 
-For more information about collecting events and embedding recommendation results,
-see [Integrate recommendation service]([[= developer_doc =]]/personalization/integrate_recommendation_service/).
+For more information about collecting events and embedding recommendation results, see [Integrate recommendation service]([[= developer_doc =]]/personalization/integrate_recommendation_service/).
 
 ## Use cross content type in Page Builder blocks
 
@@ -63,4 +53,4 @@ To get all output types in the Personalized block, in Page Builder, perform the 
 1. Increase the display limit to make sure all recommendations are shown.
 1. Click **Submit**.
 
-For more information, see [Parameters]([[= developer_doc =]]/personalization/enable_personalization/#parameters) in the developer documentation.
+For more information, see [Parameters]([[= developer_doc =]]/personalization/enable_personalization/#parameters) in developer documentation.
