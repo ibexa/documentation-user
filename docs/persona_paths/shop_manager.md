@@ -4,7 +4,7 @@ description: Perform tasks related to running an online store.
 
 # Store manager role
 
-When you run an online store, it is important that you maintain the 
+When you run an online store, it's important that you maintain the 
 right turnover of stock while winning new customers and retaining existing ones, 
 and ultimately, bringing profit to the company. 
 In [[= product_name =]], it means that you must focus on many things, 

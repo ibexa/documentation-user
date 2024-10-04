@@ -15,7 +15,7 @@ invite and view members and check your order history.
 To access Customer Portal follow this link 
 `<yourdomain>/corporate/login` and log in to your business account.
 
-In the dashboard, you will find a sales representative of your company and 
+In the dashboard, you can find a sales representative of your company and 
 a brief summary of your order history.
 For a detailed list of your order history, go to **Pending Order** and 
 **Past Orders** sections.
@@ -39,7 +39,7 @@ Click **Send** to send out invitation emails.
 
 ![Invite members](img/cp_invite_members_portal.png)
 
-Invited users will receive an email message with a registration link.
+Invited users then receive an email message with a registration link.
 With it, they can register and create their account in the Customer Portal.
 
 In the **Invitation** tab, you can find a list of all invitations,

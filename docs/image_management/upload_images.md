@@ -26,7 +26,7 @@ If you want to upload them to different location, navigate to the folder you wan
 
 6\. Click **Publish**.
 
-The newly created folder is now visible in the Content Tree structure.
+The newly created folder is now visible in the content tree structure.
 You can create subfolders by clicking the folder and repeating the above procedure.
 
 ## Add image

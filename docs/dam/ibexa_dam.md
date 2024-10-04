@@ -3,10 +3,10 @@ description: DAM module interface for uploading and managing image assets.
 edition: headless
 ---
 
-# Ibexa DAM
+# [[= product_name_dam =]]
 
-Digital Asset Management is a platform dedicated to editors. It enables storing in central location, organizing, distributing, 
-and sharing media assets across many channels.
+Digital Asset Management is a platform dedicated to editors.
+It enables storing in central location, organizing, distributing, and sharing media assets across many channels.
 
 [[= product_name_dam =]] image picker is developed to work with any web browser that supports modern standards. The minimum screen resolution is
 1366 x 768.
@@ -81,7 +81,7 @@ folder you want to open.
 
 ### Insert images
 
-To insert an image asset into the HTML editor, locate the image by using search options, or manually locate the asset in the folder.
+To insert an image asset into the HTML editor, locate the image using search options, or manually locate the asset in the folder.
 Next, click the image thumbnail. The selected item is marked with a red dot in the upper-left corner.
 To confirm the selection, in the bottom toolbar, click **Insert**.
 

@@ -14,7 +14,7 @@ You can also create catalogs from them, check their completeness and set [prices
 
 ## Create virtual product type
 
-If your [user Role](work_with_permissions.md) has the `ProductType/Edit` permission, you can modify product types and add individual attributes or attribute groups.
+If your [user role](work_with_permissions.md) has the `ProductType/Edit` permission, you can modify product types and add individual attributes or attribute groups.
 
 To create a virtual product, first, you have to create a virtual product type.
 
@@ -26,7 +26,7 @@ To create a virtual product, first, you have to create a virtual product type.
 
 3\. Fill in basic product type information.
 
-4\. Add Fields that describe the product by dragging them from the **Field types** 
+4\. Add fields that describe the product by dragging them from the **Field types** 
 area to a section on the left, and then [configure them](configure_ct_field_settings.md).
 
 5\. Add attributes by dragging them from the toolbox on the right.
@@ -43,7 +43,7 @@ While creating a product, choose the virtual product type that you have created.
 
 ## Virtual products purchase
 
-Virtual products don’t require shipment when they are purchased without other physical products.
+Virtual products don’t require shipment when they're purchased without other physical products.
 While purchasing a virtual product, you only have to fill in Billing address and select relevant payment method. 
 
 ![Virtual product purchasing](virtual_product_purchase.png "Virtual product purchasing")

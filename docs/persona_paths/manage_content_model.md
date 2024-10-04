@@ -1,5 +1,5 @@
 ---
-description: Learn about the content model, content types and Fields.
+description: Learn about the content model, content types and fields.
 ---
 
 # Manage content model

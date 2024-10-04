@@ -4,7 +4,7 @@ description: Build new product types or modify existing ones.
 
 # Create product types
 
-If your [user Role](../permission_management/work_with_permissions.md) has the `ProductType/Edit` permission, you can modify product types and add individual attributes or attribute groups.
+If your [user role](../permission_management/work_with_permissions.md) has the `ProductType/Edit` permission, you can modify product types and add individual attributes or attribute groups.
 
 1\. In the left panel, go to **Product catalog** -> **Product Types** and click **Create**.
 
@@ -21,7 +21,7 @@ If your [user Role](../permission_management/work_with_permissions.md) has the `
 Each product has a product code that must be unique. It identifies the product in the system.
 Product code can have up to 64 characters. It can contain only letters, numbers, underscores, and dashes.
 
-4\. Add Fields that describe the product by dragging them from the **Field types** 
+4\. Add fields that describe the product by dragging them from the **Field types** 
 area to the **Field definitions** section, and then [configure them](../content_management/configure_ct_field_settings.md).
 
 5\. Add attributes by dragging them or their groups from the **Library** area to the **Attributes** section.

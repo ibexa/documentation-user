@@ -6,7 +6,7 @@ edition: commerce
 # Work with payments
 
 In [[= product_name =]], you can view a list of payments and modify their statuses on the **Payments** screen.
-By default, depending on your permissions, you can access payments for your own orders or all the payments that exist in the system.
+By default, depending on your permissions, you can access payments for your own orders, or all the payments that exist in the system.
 
 ## Filter payments in payment list
 
@@ -39,5 +39,5 @@ On the payment details screen, you can view a summary of information about the p
 
 ## Change payment details
 
-If your [user Role](work_with_permissions.md) includes the `Payment/Edit` permission, you can change the status of an existing payment:
+If your [user role](work_with_permissions.md) includes the `Payment/Edit` permission, you can change the status of an existing payment:
 confirm it if the payment has "Pending" status.

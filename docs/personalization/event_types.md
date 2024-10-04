@@ -4,12 +4,10 @@ description: Recommendations rely on tracking different events that describe use
 
 # Events
 
-Before the Personalization service can generate implicit recommendations,
-it must collect events and calculate the results based on user behavior.
+Before the Personalization service can generate implicit recommendations, it must collect events and calculate the results based on user behavior.
 The most important events collected by the service are CLICK and BUY events.
-They are enough for providing basic recommendations.
-Additional events exist for creating more complex [scenarios](scenarios.md)
-and providing [statistics](review_perso_performance.md#statistical-information) about the acceptance of recommendations, such as conversion rate or revenue. 
+They're enough for providing basic recommendations.
+Additional events exist for creating more complex [scenarios](scenarios.md) and providing [statistics](review_perso_performance.md#statistical-information) about the acceptance of recommendations, such as conversion rate or revenue. 
 
 ![Events in a purchase process](img/events_overview.png "Events in a purchase process")
 
@@ -40,7 +38,7 @@ The table below provides a brief overview of additional parameter information.
 
 |Event|Additional information|
 |---|---|
-|CLICK|Category path of the product a customer clicked on can be attached to the event. It is an alternative way to provide this information for a product without having a catalogue/export. Ignored if an export is available to be fed into the Personalization service.|
+|CLICK|Category path of the product a customer clicked on can be attached to the event. It's an alternative way to provide this information for a product without having a catalogue/export. Ignored if an export is available to be fed into the Personalization service.|
 |BUY|The price that a user paid for the product, an important parameter for the statistics. For revenue statistics, it must be sent together with a quantity of the products bought.|
 |TRIGGEROPENED /CLICKTRIGGERED|An identifier of the trigger that the trigger and recommendations originate from.|
 |FOLLOW / CLICKRECOMMENDED|The scenario which provided the recommendations must be sent in this event.|
