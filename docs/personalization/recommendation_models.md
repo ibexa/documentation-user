@@ -259,7 +259,7 @@ These time slots:
 - cannot pass between two days, for example, you cannot set slot 11 p.m - 3 a.m
 
 In these models, recommendations are created for both configured time slots and for the main model (for example, for the last 30 days).
-However, time-slot based models are shown as priority in the hours for which time slots are configured.
+However, time-slot based recommendations are shown as priority in the hours for which time slots are configured (if requested in recommendation call).
 
 To use time slot-based models, this feature must be enabled.
 
