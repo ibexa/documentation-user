@@ -245,3 +245,25 @@ The logic used for resolving a submodel is as follows:
     Recommendation are fetched from all the submodels and merged based on the weight (relevance). 
     If one of the submodels delivers recommendations with better relevance, 
     the results of other models can disappear from the list.
+
+### Time-slot based models
+
+Time-slot based models consider only a particular range of time rather than the full day when calculating recommendations.
+They can be used for [popularity](recommendation_models#popularity-models) and [collaborative](recommendation_models#collaborative-models) types of models.
+With time-slot based models, you can request to configure and set specific time slots.
+
+In these models, recommendations are created for both configured time slots and for the main model (for example, for the last 30 days).
+However, time-slot based recommendations are shown as priority in the hours for which time slots are configured (if requested in a recommendation call).
+
+These time slots:
+
+- can cover any time frame, including minutes (for example, 11 A.M. - 3:30 P.M.), and don't necessarily have to start and end at full hour
+- cannot overlap, for example, you cannot set up 8 A.M. - 11 A.M. and 9 A.M. - 12 A.M. slots at once
+- cannot span between two days, for example, you cannot set slot 11 P.M. - 3 A.M.
+
+To use time slot-based models, this feature must be enabled.
+
+!!! note "Enable time slots"
+
+    Time slots must be enabled by and configured [[= product_name_base =]] Team.
+    To start using this functionality and request that a specific model is created, contact customer support.
