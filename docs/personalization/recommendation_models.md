@@ -257,9 +257,9 @@ However, time-slot based recommendations are shown as priority in the hours for 
 
 These time slots:
 
-- can cover any time frame, including minutes (for example, 11 a.m. - 3:30 p.m), and don't necessarily have to start and end at full hour
-- cannot overlap, for example, you cannot set up 8 a.m - 11 a.m and 9 a.m - 12 a.m slots at once
-- cannot span between two days, for example, you cannot set slot 11 p.m - 3 a.m
+- can cover any time frame, including minutes (for example, 11 A.M. - 3:30 P.M.), and don't necessarily have to start and end at full hour
+- cannot overlap, for example, you cannot set up 8 A.M. - 11 A.M. and 9 A.M. - 12 A.M. slots at once
+- cannot span between two days, for example, you cannot set slot 11 P.M. - 3 A.M.
 
 To use time slot-based models, this feature must be enabled.
 
