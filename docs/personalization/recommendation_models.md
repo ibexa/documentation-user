@@ -265,5 +265,5 @@ To use time slot-based models, this feature must be enabled.
 
 !!! note "Enable time slots"
 
-    Time slots must be enabled by and configured Ibexa Team.
+    Time slots must be enabled by and configured [[= product_name_base =]] Team.
     To start using this functionality and request that a specific model is created, contact customer support.
