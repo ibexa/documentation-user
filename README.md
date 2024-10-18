@@ -33,7 +33,7 @@ mkdocs serve
 ```
 
 After a short while your documentation should be reachable at http://localhost:8000.
-If it isn't, check the output of the command.
+If it's not, check the output of the command.
 
 ## Where to View
 

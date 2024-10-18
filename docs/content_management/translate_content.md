@@ -13,7 +13,7 @@ You can only add translations in languages that have been set up for your websit
 If your user [role](work_with_permissions.md) has the right permissions, you can create a new language for the website.
 To do it, go to the **Admin Panel**, open the **Languages** tab, and click **Add language**.
 
-Every new language must have a name and a language code written in the xxx-XX format, for example, eng-US, fre-FR, nor-NO, etc.
+Every new language must have a name and a language code written in the xxx-XX format, for example, eng-US, fre-FR, or nor-NO.
 After adding a language, you may have to reload the application to be able to use it.
 
 !!! caution
@@ -63,9 +63,9 @@ The screen refreshes to display the side by side view of its fields.
 
 For more information, see [Work with versions](work_with_versions.md#compare-versions).
 
-## Edit Page for different language versions of a website [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
+## Edit page for different language versions of a website [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
-When you edit a Page, a bar at the top of the screen lists the most recently used [SiteAccesses](https://doc.ibexa.co/projects/userguide/en/master/website_organization/multisite/#siteaccess) on your website. Use this bar to switch between the different versions and work on them.
+When you edit a page, a bar at the top of the screen lists the most recently used [SiteAccesses](https://doc.ibexa.co/projects/userguide/en/master/website_organization/multisite/#siteaccess) on your website. Use this bar to switch between the different versions and work on them.
 
 <a name="siteaccess"></a>
 

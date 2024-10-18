@@ -6,7 +6,7 @@ description: The Ibexa DXP content model relies on content items that are based 
 
 At the heart of [[= product_name =]] is a repository that stores all content.
 In [[= product_name =]] everything is a content item — not just the actual pages displayed in the website,
-but also all media (images, videos, etc.) and user accounts.
+but also all media (for example, images or videos) and user accounts.
 
 [[= product_name =]] lets you customize and adapt the content model depending on your needs and the type of website you create.
 
@@ -36,7 +36,7 @@ The fields in a content type are only definitions. This means that they describe
 As a consequence, all content items of the same content type share the same set of fields, but their field values are different.
 
 For example, you need to store book information.
-You create a new content type called "Book" and add to it fields such as Title, Author, Genre, ISBN, etc.
+You create a new content type called "Book" and add to it fields, for example, Title, Author, Genre, or ISBN.
 Next, based on this content type, you can create any number of content items.
 You can then fill the empty fields with the information about each specific book:
 
@@ -48,7 +48,7 @@ A field type defines what kind of data is stored in a field.
 For example, a field with a *TextLine* field type stores a single line of text, an *Image* field type stores an image file,
 and *Author* field type holds information about author details (like name and email).
 By default, the system comes with a large set of field types that cover the most common needs,
-for example, *Text line*, *Rich text*, *Email*, *Author list*, *Content relation*, *Map location*, *Float*, etc.
+for example, *Text line*, *Rich text*, *Email*, *Author list*, *Content relation*, *Map location*, or *Float*.
 
 ## Content model in summary
 

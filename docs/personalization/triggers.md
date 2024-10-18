@@ -17,7 +17,7 @@ All this while saving time and effort.
 The message contains items that have been abandoned in the cart.
 The Personalization service monitors [events](event_types.md) to avoid recommending items that the end user has bought or removed from basket.
 
-- Reactivation aka. "We miss you" trigger: Personalization engine monitors the user's overall activity and pushes a message when they have not returned to the site for a set time.
+- Reactivation aka. "We miss you" trigger: Personalization engine monitors the user's overall activity and pushes a message when they haven't returned to the site for a set time.
 Recommendations are generated based on the user's purchasing and browsing history.
 
 - Price drop trigger: Personalization engine monitors the user's wishlist and pushes a message when a price of the product that has been put there decreases.

@@ -13,12 +13,12 @@ The following blocks are provided with a clean installation of [[= product_name 
 |[Bestsellers](#bestsellers-block)|Displays a list of products that were recently a bestseller.|
 |[Campaign](#campaign-block)|Displays a campaign selected from [[= product_name_engage =]].|
 |[Catalog](#catalog-block)|Displays products from a specific catalog to a selected customer group.|
-|[Code](#code-block)|Enables you to place text, links, images, etc. on your Page using custom HTML.|
+|[Code](#code-block)|Enables you to place content on your page, for example, text, links, or images, using custom HTML.|
 |[Collection](#collection-block)|Displays a set of content items you select manually from the content structure. |
 |[Content List](#content-list-block)|Displays content items of a chosen content type (or types) that are contained in a selected folder. |
 |[Content Scheduler](schedule_publishing.md#content-scheduler-block)|Displays content items at a pre-defined time. |
 |[Dynamic targeting](#dynamic-targeting-block)|Embeds recommended items based on the [Segment](content_organization/classify_content.md#segments) the user belongs to. |
-|[Embed](#embed-block)|Embeds a content item of any content type on the Page. |
+|[Embed](#embed-block)|Embeds a content item of any content type on the page. |
 |[Form](#form-block)|Embeds a Form content item that you select from the content structure. |
 |[Gallery](#gallery-block)|Displays all images contained in a selected folder. |
 |[[[= product_name_connect =]]](#ibexa-connect-block)|Retrieves and displays data from an [[= product_name_connect =]] webhook. |
@@ -32,8 +32,8 @@ The following blocks are provided with a clean installation of [[= product_name 
 |[Sales representative](#sales-representative)|Loads and displays company's sales representative.|
 |[SeenThis!](#seenthis-block)|Displays video with exceeded standard video restrictions of 3.5MB.|
 |[Targeting](#targeting-block)|Embeds an content item based on the [Segment](content_organization/classify_content.md#segments) the user belongs to. |
-|[Text](#text-block)|Enables you to add to the Page a Rich Text block. |
-|[Video](#video-block)|Embeds a video into the Page with standard playback controls. |
+|[Text](#text-block)|Enables you to add to the page a Rich Text block. |
+|[Video](#video-block)|Embeds a video into the page with standard playback controls. |
 
 [[= include_file('docs/content_management/create_edit_pages.md', 86, 96) =]]
 
@@ -83,7 +83,7 @@ On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
 - **Personalization scenario** – Select "Bestsellers" to display popular products.
-- **Product Types to be displayed** – Select the type of products to be displayed on the list.
+- **Product types to be displayed** – Select the type of products to be displayed on the list.
 - **Limit** – Set the number of products to be displayed.
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of products and submit your changes.
@@ -233,7 +233,7 @@ Helps track purchase history for streamlined customer service and personalized i
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
-- **Columns** — Select columns that should be displayed in the orders table. Some columns are preselected, example: Order ID, Customer name, Total value etc.
+- **Columns** — Select columns that should be displayed in the orders table. Some columns are preselected, for example, Order ID, Customer name, or Total value.
 - **Statuses** — Set the statuses of orders that should be included in the list.
 - **Number of orders** — Set the number of orders to be displayed.
 - **Sort order** — Set the sort order for the displayed orders.
@@ -245,7 +245,7 @@ Enhances user experience by suggesting tailored options for various situations.
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
-- **Select a scenario** – Select "Landing Page" or "Top clicked".
+- **Select a scenario** – Select "Landing page" or "Top clicked".
 - **Select a content type to be displayed** – Select "Product".
 - **Display limit** – Set the number of products to be displayed.
 
@@ -261,7 +261,7 @@ On the **Properties** tab, set values in the following fields:
 
 !!! note
 
-    Due to a technical limitation, content browser does not display product variants.
+    Due to a technical limitation, content browser doesn't display product variants.
 
 ## Recently added block
 
@@ -332,13 +332,13 @@ then click **Select content** and navigate to the content item that you want to 
 
 The rules are checked in order, so when a user belongs to more than one Segment, the first rule applies.
 
-You can preview the Page for each of the available Segments:
+You can preview the page for each of the available Segments:
 
-![Previewing Page for a given Segment](img/page_builder_segment_preview.png)
+![Previewing page for a given Segment](img/page_builder_segment_preview.png)
 
 ## Text block
 
-Adds a Rich Text block to the Page.
+Adds a Rich Text block to the page.
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
@@ -347,11 +347,11 @@ For details, see [Editing Rich Text Fields](create_edit_content_items.md#edit-ri
 
 ## Video block
 
-Integrates a video into the Page with standard playback controls.
+Integrates a video into the page with standard playback controls.
 Helps enhance content variety and captivate audiences with seamless video viewing.
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
 - **Video** — Click **Select content**, browse the content, and select a video to display in the block.
 
-On the **Properties** tab you can preview the selected video before adding it to the Page.
+On the **Properties** tab you can preview the selected video before adding it to the page.

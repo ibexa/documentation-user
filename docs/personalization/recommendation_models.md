@@ -57,7 +57,7 @@ This model can recommend other products that fit the one that the user is curren
 
 For example, when a user navigates to a product page with a certain smartphone, apart from the "Also clicked" recommendations, the Personalization service could recommend the *Smartphone + Cover + Headphones* bundle, because they were purchased together in exactly this combination several times.
 
-It isn't guaranteed that there is a bundle available for every product.
+It's not guaranteed that there is a bundle available for every product.
 Therefore, the rendering logic should display the recommendations if they're available, or leave the bundle box out completely.
 The currently displayed product is always part of the bundle.
 

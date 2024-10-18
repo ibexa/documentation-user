@@ -35,7 +35,7 @@ When you confirm the change, the preview refreshes to display a cropped image.
 
 !!! note "Saving changes"
 
-    Confirming the crop operation does not mean that it has been saved.
+    Confirming the crop operation doesn't mean that it has been saved.
     You must click **Save** to apply the changes to the original image.
 
 ## Focal point

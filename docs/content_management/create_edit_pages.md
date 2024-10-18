@@ -10,18 +10,18 @@ You can modify pages with a visual drag-and-drop editor, the [Page Builder](#pag
 Pages are divided into drop zones into which you can drop various dynamic blocks.
 By editing pages, you can customize the layout and content of your website.
 
-Whenever you edit a Page, a [new version](content_versions.md) is created in the repository.
+Whenever you edit a page, a [new version](content_versions.md) is created in the repository.
 
 !!! tip
-    The Page content type contains a *Landing Page* field type which manages the zones and blocks.
-    Any content item that has the *Landing Page* field type behaves like a page.
+    The Page content type contains a *Landing page* field type which manages the zones and blocks.
+    Any content item that has the *Landing page* field type behaves like a page.
 
-## Create Page
+## Create page
 
 1. In the left panel, go to **Content** -> **Content structure**. Then select a parent content item and click **Create content**.
 1. In a slide-out pane, make initial choices in the following fields, and click **Create**:
     - **Select a language** - from a drop-down list, select the base language for the content item.
-    - **Select a content type** - use this field to narrow down the list of content type choices displayed below. Then select one of page type, for example, **Landing Page**, and click the **Create** button.
+    - **Select a content type** - use this field to narrow down the list of content type choices displayed below. Then select one of page type, for example, **Landing page**, and click the **Create** button.
 1. In the [Page Builder toolbar](#page-builder-toolbar) click **Fields** and define the page's title and description.
 1. Click  **Switch layout** and select the layout.
 1. [Edit the page](#edit-page).
@@ -40,14 +40,14 @@ You can now navigate away from the Page by clicking the **Close** button.
     To help you preserve your work, [[= product_name =]] saves drafts of content items automatically.
     For more information, see [Autosave](content_versions.md#autosave).
 
-## Edit Page
+## Edit page
 
-To edit an existing Page, in the back office, from the content tree, choose the page that you want to edit, and click the **Edit** button.
+To edit an existing page, in the back office, from the content tree, choose the page that you want to edit, and click the **Edit** button.
 
 ### Page Builder interface
 
 Page Builder has a plain and intuitive interface.
-You can create Pages without having advanced technical skills.
+You can create pages without having advanced technical skills.
 
 ![Page Builder interface](img/page_builder_interface.png)
 
@@ -67,11 +67,11 @@ The following table presents buttons and provides a short description of their f
 
 |Button|Description|
 |------|-----------|
-|![Fields button](page_builder_toolbar_editpreview.png)|Edit main details of the Page, like title and description.|
-|![Switch layouts](page_builder_toolbar_switch_layout.png)|Switch between Page layouts.|
-|![Preview segments](page_builder_toolbar_preview_segment.png)|Access preview of the Page for a given segment.|
-|![Timeline button](page_builder_toolbartimelinetoggler.png)|Access the timeline to preview how the Page changes with time. You can also view the list of all upcoming scheduled events.|
-|![View toggler](page_builder_toolbar_devicestoggler.png)|Toggle through to see how the Page is rendered on different devices.|
+|![Fields button](page_builder_toolbar_editpreview.png)|Edit main details of the page, like title and description.|
+|![Switch layouts](page_builder_toolbar_switch_layout.png)|Switch between page layouts.|
+|![Preview segments](page_builder_toolbar_preview_segment.png)|Access preview of the page for a given segment.|
+|![Timeline button](page_builder_toolbartimelinetoggler.png)|Access the timeline to preview how the page changes with time. You can also view the list of all upcoming scheduled events.|
+|![View toggler](page_builder_toolbar_devicestoggler.png)|Toggle through to see how the page is rendered on different devices.|
 |![Page blocks toolbox](page_builder_toolboxelements.png)|Move Page blocks / Structure view toolbox to the other side of the screen.|
 |![Undo](page_builder_toolbar_undo.png)|Undo latest change.|
 |![Redo](page_builder_toolbar_redo.png)|Redo latest change.|
@@ -88,7 +88,7 @@ Page Builder has two main views that you can use while creating a page:
 
 ### Work with layout
 
-[Layout](configure_ct_field_settings.md#available-page-layouts) divides the Page into the defined zones. The zones are placeholders for the blocks.
+[Layout](configure_ct_field_settings.md#available-page-layouts) divides the page into the defined zones. The zones are placeholders for the blocks.
 
 The page layouts that an editor has access to are up to you to choose.
 
@@ -100,8 +100,8 @@ To do it, click **Swicth layouts** button.
 
 ### Add blocks
 
-In Page Builder you can access a toolbox of **Page blocks** — a set of blocks of content that you can add to the zones of the Page.
-Each block is unique in its function and enables you to customize the content appearing on the Page.
+In Page Builder you can access a toolbox of **Page blocks** — a set of blocks of content that you can add to the zones of the page.
+Each block is unique in its function and enables you to customize the content appearing on the page.
 
 Add a block by dragging it from the toolbox to an empty place on a zone.
 Do not worry about placing blocks in the proper place from the start.
@@ -134,7 +134,7 @@ To change this behavior, click on **Edit** icon, find the setting, and change it
 
 ![User settings - blocks](img/user_settings_blocks.png "User settings - blocks settings")
 
-[[= product_name =]] comes with a set of ready-to-use Page blocks,
+[[= product_name =]] comes with a set of ready-to-use page blocks,
 but [developers can add their own]([[= developer_doc =]]/content_management/pages/create_custom_page_block/).
 
 For a list of blocks available out of the box, see [Block reference](block_reference.md).
@@ -182,7 +182,7 @@ For your comfort, you can adjust the size of the block settings window.
 When you hover over the window frame, blue line appears.
 Click-and-drag the border to adjust the size.
 
-You cannot publish a Page if you have not set all the required settings of all blocks.
+You cannot publish a page if you haven't set all the required settings of all blocks.
 
 !!! tip
     Settings and function of custom-made blocks of content depend on their design.

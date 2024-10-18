@@ -15,7 +15,7 @@ Every content item can have only one published version at a time.
 Whenever you edit and publish a content item again, its previous published version becomes an **archived version**.
 It's not available to the visitor and you cannot edit it, but you can create new drafts based on any archived version.
 
-Finally, **drafts** are versions that have not been published yet.
+Finally, **drafts** are versions that haven't been published yet.
 There can be many drafts of the same content item.
 They can be created by the autosave feature, by the reviewer as part of the 
 [editorial workflow](workflow_management/editorial_workflow.md), or when you save

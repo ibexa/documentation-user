@@ -57,8 +57,8 @@ Depending on their type, fields can have different combinations of the following
 
 ## Default configuration of pages
 
-The following settings control the behavior of content items of [Page](../content_management/create_edit_pages.md) type.
-You modify them in the **Field definitions** section, the **Landing Page** field.
+The following settings control the behavior of content items of [page](../content_management/create_edit_pages.md) type.
+You modify them in the **Field definitions** section, the **Landing page** field.
 
 ### Block display
 
@@ -75,22 +75,22 @@ Now, only selected page blocks are available in the edit mode.
 
 !!! caution
 
-    When you deselect blocks, any related blocks that are included in the Page hide as well.
-    To publish the Page, the editor has to remove these blocks from the Page, too.
+    When you deselect blocks, any related blocks that are included in the page hide as well.
+    To publish the page, the editor has to remove these blocks from the page, too.
 
 ### Available page layouts
 
 You can decide which page layouts are available for an editor.
 
-Expand the **Select layouts** section, and define which layouts are available for this Page.
+Expand the **Select layouts** section, and define which layouts are available for this page.
 
 ![Layouts](img/select_layouts.png "Layouts")
 
-If you deselect a layout that is currently used on a Page, the editor has to change the layout to be able to edit the Page.
+If you deselect a layout that is currently used on a page, the editor has to change the layout to be able to edit the page.
 
 ### Preferred editing mode
 
-You can set the editing mode that is launched when an editor starts editing the Page.
+You can set the editing mode that is launched when an editor starts editing the page.
 To do it, in the **Select Editor launch mode** section, select one of the available options.
 
 ![Editor launch mode](img/select_editor_mode.png "Select Editor launch mode")

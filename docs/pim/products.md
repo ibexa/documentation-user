@@ -1,5 +1,5 @@
 ---
-description: Products are containers that aggregate information about the items you offer, their specs, variants, availability, etc.
+description: Products are containers that aggregate information about the items you offer, for example, their specs, variants, or availability.
 ---
 
 # Products

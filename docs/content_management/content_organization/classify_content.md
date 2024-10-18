@@ -43,7 +43,8 @@ You can bookmark any content item by clicking the star icon next to the content 
 
 ![Bookmark icon](img/bookmark_icon.png)
 
-Bookmarks are stored per user. You can view a list of all bookmarks by clicking Bookmarks in the left menu.
+Bookmarks are stored per user.
+Click **Bookmarks** in the left menu to view a list of all of them.
 
 ![Bookmark screen](img/bookmarks.png)
 

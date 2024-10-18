@@ -19,7 +19,7 @@ Click it to access the **Creating New Site** modal.
 ![Site Factory icon](img/site_factory_icon.png)
 
 Here, you can create an entirely new website or a different language version of an already existing website.
-First, select a name, a predefined design, and a Parent Location for your website.
+First, select a name, a predefined design, and a Parent location for your website.
 
 ![Create a new website - step one](img/site_factory_new_site_step_1.png)
 

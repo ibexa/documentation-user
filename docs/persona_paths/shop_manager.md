@@ -10,7 +10,7 @@ and ultimately, bringing profit to the company.
 In [[= product_name =]], it means that you must focus on many things, 
 including the following responsibilities:
 
-- Create and maintain product information (descriptions, tech specifications, media, etc.)
+- Create and maintain product information (for example, descriptions, tech specifications, or media)
 - Maintain product pricing and shipping cost information
 - Manage shipping and payment methods
 - Manage and track orders

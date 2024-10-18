@@ -59,10 +59,10 @@ You can also hide it by clicking the button in the down right corner.
 Depending on the product edition and your [permissions](../permission_management/permission_system.md), the main menu may include, for example:
 
 - **Content**, which gives you access to the content repository.
-It lets you navigate the content tree, create, edit, move, copy, delete content, etc.
+It lets you navigate the content tree, and, for example, create, edit, move, copy, or delete content.
 - [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]] **Site management**, which enables you to create and edit block-based Pages and manage multiple websites.
 - **PIM**, which enables you to handle products presented on the website, including their specifications and pricing.
-- **Admin**, which is the administration panel where you can manage Users, Sections, permissions, etc.
+- **Admin**, which is the administration panel where you can manage, for example, Users, Sections, or permissions.
 
 ## Content tree
 
@@ -79,12 +79,12 @@ To simplify the content tree, big lists are collapsed and include a **Show more*
 You can select it to expand the branches of the tree.
 **Collapse all** option, which is available in the context menu, closes all expanded sections.
 
-For more information on custom configuration, go to [Content Tree]([[= developer_doc =]]/administration/back_office/content_tree/) in developer documentation.
+For more information on custom configuration, go to [Content tree]([[= developer_doc =]]/administration/back_office/content_tree/) in developer documentation.
 
 ## Content browser
 
 During your work with [[= product_name =]] you might need to select content from the repository.
-This happens, for example, when you want to move or copy a content item, embed an image, link two content items, etc.
+This happens, for example, when you want to move or copy a content item, embed an image, or link two content items.
 In such cases, you use the **Content Browser**.
 
 To access the **Content Browser**, go to the **Content** tab and select **Content structure** or **Media**.

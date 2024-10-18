@@ -59,7 +59,7 @@ Then, navigate to the content item that you want to hide and click **Hide** in t
 ![Hide content item modal window](content_organization/img/schedule_hiding.png "Hide content item modal window")
 
 Once a content item is hidden, it's unavailable on the front page and inactive in the content tree.
-This change affects the content item in all of its [Locations](content_organization/manage_locations_urls.md#content-locations).
+This change affects the content item in all of its [locations](content_organization/manage_locations_urls.md#content-locations).
 
 ## Timeline [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
@@ -74,7 +74,7 @@ Use the button on the right of the time to see a list of all upcoming changes.
 
 The calendar widget enables you to view and perform actions on various events.
 Out of the box, it displays content items and Page blocks scheduled for future publication, but your page administrator can configure custom events.
-Therefore, the calendar can contain other events, e.g. national holidays, important dates, etc.
+Therefore, the calendar can contain other events, for example, national holidays or important dates.
 
 To access the calendar widget, in the **Content Panel**, open the **Calendar** tab.
 

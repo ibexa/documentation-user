@@ -52,8 +52,8 @@ The fields have the following meaning:
 
 !!! note "Ordering virtual products"
 
-    If the order includes only virtual products then the Shipment and Shipping address sections are not available.
-    Virtual products don't require shipment when they are the only product in a purchase.
+    If the order includes only virtual products then the Shipment and Shipping address sections aren't available.
+    Virtual products don't require shipment when they're the only product in a purchase.
 
 ## Change order status
 

@@ -60,5 +60,5 @@ You can also compare media field types such as images.
     You cannot preview the differences in the following field types:
 
     - Form
-    - Landing Page
+    - Landing page
     - User account

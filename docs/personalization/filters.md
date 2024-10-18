@@ -58,7 +58,7 @@ The following filters are only applicable in Commerce use cases.
 |Minimum price of the recommended product|You can use this filter to remove cheap and popular items from the recommendation list. For example, as an optometrist you might prefer showing the most popular designer frames on the home page and avoid promoting insurance subsidized cheap models or cleaning cloths. Again, this filter relies on product metadata and uses prices exported to the Personalization service.|
 |Do not recommend if price unknown|If a product's price is unavailable then the product isn't recommended.|
 |Do not recommend items the user already purchased|When you activate this filter, the user isn't recommended to purchase products again.|
-|Do not recommend product variants| By default, this filter is deactivated: only [product variants](../pim/products.md#product-variants) are recommended and base products aren't recommended. When you activate this filter, a recommendation response includes base products, while product variants are excluded. The filter does not affect products that have no variants. |
+|Do not recommend product variants| By default, this filter is deactivated: only [product variants](../pim/products.md#product-variants) are recommended and base products aren't recommended. When you activate this filter, a recommendation response includes base products, while product variants are excluded. The filter doesn't affect products that have no variants. |
 
 !!! note "Product variants support"
 
@@ -119,9 +119,9 @@ Here are the examples of common representation dimensions of items beyond the we
 
 |Business|Possible dimensions|
 |---|---|
-|eCommerce|manufacturer (BOSCH, Renault, etc.)</br>season (winter, spring, etc.)</br>price range (entry, middle, premium, etc.)</br>platform (Mac, Windows, Linux, etc.)|
-|Book store|genre (romance, action, science, etc.)</br>design (hardcover, paperback, audiobook, etc.)</br>author (George R. R. Martin, Steven Spielberg, etc.)|
-|Content publishing|global subject (politics, sports, tech, etc.)</br>physical location (France, Norway, Berlin, etc.)</br>timeframe (today, this week, exact date, etc.)|
+|eCommerce|manufacturer (for example, BOSCH or Renault)</br>season (for example, winter or spring)</br>price range (for example, entry, middle, or premium)</br>platform (for example, Mac, Windows, or Linuxć)|
+|Book store|genre (for example, romance, action, or sciencefor example, )</br>design (for example, hardcover, paperback, or audiobookfor example, )</br>author (for example, George R. R. Martin or Steven Spielberg)|
+|Content publishing|global subject (for example, politics, sports, or tech)</br>physical location (for example, France, Norway, or Berlin)</br>timeframe (for example, today, this week, or exact date)|
 
 You should avoid using category filtering with "Also clicked/purchased" and stereotype models.
 These models usually contain similar items, and additional filtering might remove the best results from the list of possible recommendations.

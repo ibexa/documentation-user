@@ -38,7 +38,7 @@ Each activity log entry shows:
 
 Depending on the system configuration, activity logs may also be shown:
 
-- on the Dashboard with the [Recent activity block](dashboard_block_reference.md#recent-activity-block)
+- on the dashboard with the [Recent activity block](dashboard_block_reference.md#recent-activity-block)
 - within the [user profile](get_started.md#view-and-edit-user-profile)
 
 ## Filter activities

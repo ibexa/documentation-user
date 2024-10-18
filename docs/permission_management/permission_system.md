@@ -8,7 +8,7 @@ An overview of the permission system in [[= product_name =]] is best presented w
 
 ### Example permission system
 
-Let us assume you're managing a newspaper website. Your crew consists of an editor-in-chief and several editors responsible for particular sections of the paper: general news, local news, sports, etc.
+Let us assume you're managing a newspaper website. Your crew consists of an editor-in-chief and several editors responsible for particular sections of the paper, for example, general news, local news, or sports.
 You also have contributors who occasionally add new articles.
 You want to give the editor-in-chief access to most parts of your website, but the individual editors only work with their own sections.
 To the contributors you want to give the permissions to create new content, but not to modify or delete the existing content.
@@ -28,11 +28,11 @@ Regular Editors need policies allowing them to create, modify, and delete conten
 Contributors can be given policies permitting them to only create content.
 
 If you want to prohibit Editors from accessing content in newspaper sections other than their own, you can add limitations to their policies.
-This means that instead of one Editor, you need to have separate roles for each editor profile: Local Editor, Sports Editor, etc.
-All of these roles have the same policies, but to each policy you need to assign a limitation which would mean that the permission covers only one Section (Sports Section, Local News Section etc.) that the editor works in.
+This means that instead of one Editor, you need to have separate roles for each editor profile, for example, Local Editor or Sports Editor.
+All of these roles have the same policies, but to each policy you need to assign a limitation which would mean that the permission covers only one Section (for example, Sports Section or Local News Section) that the editor works in.
 
 Aside from policies that define access to content items, there are also many other policy types concerned with administrating the system.
-They cover actions such as activating new users, creating Sections, modifying content types, etc.
+They cover actions, for example, activating new users, creating Sections, or modifying content types.
 
 
 For more information about setting up a permission system, see [Work with permissions](work_with_permissions.md).
