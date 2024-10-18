@@ -2,7 +2,7 @@
 description: Taxonomy is one of the ways classify content items with structured tags.
 ---
 
-# Work with Tags
+# Work with tags
 
 Once you have created content items that follow the structure defined within the content model, you can create [taxonomies](taxonomy.md) that consist of tags, to help users find the content they need.
 
