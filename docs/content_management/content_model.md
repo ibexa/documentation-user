@@ -5,13 +5,11 @@ description: The Ibexa DXP content model relies on content items that are based 
 # Content model
 
 At the heart of [[= product_name =]] is a repository that stores all content.
-In [[= product_name =]] everything is a content item — not just the actual pages displayed in the website,
-but also all media (for example, images or videos) and user accounts.
+In [[= product_name =]] everything is a content item — not just the actual pages displayed in the website, but also all media (for example, images or videos) and user accounts.
 
 [[= product_name =]] lets you customize and adapt the content model depending on your needs and the type of website you create.
 
-Depending on your organization, if you are an editor or a content creator,
-it's possible that the content model for your installation has already been created by your administrator or content manager.
+Depending on your organization, if you are an editor or a content creator, it's possible that the content model for your installation has already been created by your administrator or content manager.
 However, even a non-technical user can create or modify the content model through the editing interface.
 
 ## Content types
@@ -31,7 +29,8 @@ A [content item](content_items.md) is an instance of a particular content type, 
 
 When a content item is created, it inherits the fields from its content type.
 However, the values of the fields (their "contents") are empty, and you need to fill them separately for each content item.
-The fields in a content type are only definitions. This means that they describe what fields of what kinds are present in a content item, but as a rule they do not provide these fields' values.
+The fields in a content type are only definitions.
+This means that they describe what fields of what kinds are present in a content item, but as a rule they do not provide these fields' values.
 
 As a consequence, all content items of the same content type share the same set of fields, but their field values are different.
 
@@ -45,10 +44,8 @@ You can then fill the empty fields with the information about each specific book
 ## Fields and field types
 
 A field type defines what kind of data is stored in a field.
-For example, a field with a *TextLine* field type stores a single line of text, an *Image* field type stores an image file,
-and *Author* field type holds information about author details (like name and email).
-By default, the system comes with a large set of field types that cover the most common needs,
-for example, *Text line*, *Rich text*, *Email*, *Author list*, *Content relation*, *Map location*, or *Float*.
+For example, a field with a *TextLine* field type stores a single line of text, an *Image* field type stores an image file, and *Author* field type holds information about author details (like name and email).
+By default, the system comes with a large set of field types that cover the most common needs, for example, *Text line*, *Rich text*, *Email*, *Author list*, *Content relation*, *Map location*, or *Float*.
 
 ## Content model in summary
 
@@ -69,4 +66,4 @@ for example, *Text line*, *Rich text*, *Email*, *Author list*, *Content relation
 
 !!! note "More information"
 
-    For detailed information about the content model, see [developer documentation]([[= developer_doc =]]/content_management/content_model/#content-information).
+    For detailed information about the content model, see [Developer Documentation]([[= developer_doc =]]/content_management/content_model/#content-information).

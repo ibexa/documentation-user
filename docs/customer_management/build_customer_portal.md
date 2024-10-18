@@ -6,8 +6,7 @@ edition: experience
 # Create and edit Customer Portal
 
 To create and edit a Customer Portal with Page Builder, you need to first set it up in configuration.
-For detailed instructions on how to do it, go to
-[Create Customer Portal]([[= developer_doc =]]/customer_management/cp_page_builder/).
+For detailed instructions on how to do it, go to [Create Customer Portal]([[= developer_doc =]]/customer_management/cp_page_builder/).
 
 The Customer Portal creation and edition are based on Page Builder and work on the same principles.
 If you're unfamiliar with how Page Builder works, see [Create and edit Pages](create_edit_pages.md).
@@ -18,7 +17,7 @@ To create a new Customer Portal, go to **Content** and from the menu select **Co
 There, navigate to the root folder for your Customer Portals. 
 If you don't have one, you can add it yourself.
 Remember to specify its `location_id` in the configuration, you can find it under **Technical details**.
-For more information, see [Configure Page Builder access to Customer Portal.]([[= developer_doc =]]/customer_management/cp_page_builder/#configure-page-builder-access-to-customer-portal)
+For more information, see [Configure Page Builder access to Customer Portal]([[= developer_doc =]]/customer_management/cp_page_builder/#configure-page-builder-access-to-customer-portal).
 
 Inside a root folder you can select **Create content** from the right-side toolbar.
 On the list of content items, you can see two possibilities: **Customer Portal** and **Customer Portal Page**.
@@ -34,8 +33,7 @@ Next, navigate to the newly added container and create **Customer Portal Page**.
 
 ![Customer Portal container](img/cp_folder_for_portals.png)
 
-In the **Page creation** box, you should see the Customer Portal layout where you can 
-add dedicated Customer Portal block, Sales Representative, or choose from selection of blocks available to your [[= product_name =]] version.
+In the **Page creation** box, you should see the Customer Portal layout where you can add dedicated Customer Portal block, Sales Representative, or choose from selection of blocks available to your [[= product_name =]] version.
 
 For a list of blocks available out of the box, see [Block reference](block_reference.md).
 

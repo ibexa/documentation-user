@@ -7,7 +7,7 @@ description: Discover administrative tasks that you can perform in the back offi
 When you perform administrative duties for your organization, you often are responsible for the configuration and maintenance of [[= product_name =]]-based application, and solving architectural challenges and performance problems.
 
 In [[= product_name =]], most of such tasks are done outside of the UI.
-It's described in detail in [developer documentation]([[= developer_doc =]]).
+It's described in detail in [Developer Documentation]([[= developer_doc =]]).
 However, certain things can be done in the back office.
 
 ## What would you like to do today?

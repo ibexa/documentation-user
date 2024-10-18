@@ -21,11 +21,11 @@ By default, actions on the following items are displayed:
 
 !!! note
 
-    If your implementation requires that other actions are logged, see [custom log entry developer documentation]([[= developer_doc =]]/administration/recent_activity/recent_activity/#adding-custom-activity-log-entries).
+    If your implementation requires that other actions are logged, see [custom log entry Developer Documentation]([[= developer_doc =]]/administration/recent_activity/recent_activity/#adding-custom-activity-log-entries).
 
     By default, log entries are kept for 30 days.
     This time can be modified through configuration.
-    For more information, see [developer documentation]([[= developer_doc =]]/administration/recent_activity/recent_activity/#configuration-and-cronjob).
+    For more information, see [Developer Documentation]([[= developer_doc =]]/administration/recent_activity/recent_activity/#configuration-and-cronjob).
 
 Log entries are grouped by date, then by logical bond (like web request, or migration file).
 

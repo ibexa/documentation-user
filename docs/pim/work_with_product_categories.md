@@ -47,6 +47,7 @@ Depending on your permissions, you might be able to verify the presence of the f
 You can now add product categories and then create relationships between products and product categories.
 
 !!! caution "Duplicate taxonomy entry fields"
+
     In your product type, you may want to have both product categories and [tags](taxonomy.md) on the list of field definitions.
     Because tags are assigned per product item, not per field, when working with a product type, you cannot use two *Taxonomy Entry Assignment* fields with the same taxonomy type in one product type.
 
@@ -70,7 +71,7 @@ The newly created category can now be assigned to products.
 
 ## Modify product category assignments to products
 
-You can create or change product category relationships with products in two ways: either when you edit or create a Product item, or when you edit a product category.
+You can create or change product category relationships with products in two ways: either when you edit or create a product item, or when you edit a product category.
 
 !!! note
 
@@ -79,8 +80,8 @@ You can create or change product category relationships with products in two way
 ### Assign product categories by editing product details
 
 1. In the left panel, click **Product catalog** -> **Products** to navigate to the product list.
-2. To create a new Product item, click the  **Create** button, select the product types with product categories enabled, and click **Add**. Then skip to step 4.
-3. To edit an existing Product item, click the **Edit** icon next to a name of the Product item that you want to modify.
+2. To create a new product item, click the  **Create** button, select the product types with product categories enabled, and click **Add**. Then skip to step 4.
+3. To edit an existing product item, click the **Edit** icon next to a name of the Product item that you want to modify.
 4. In the product type editing modal, go to the **Product category** area and click the **Select product categories** button.
 5. In the pop-up window, select checkboxes next to product categories related with the product.
 6. Click **Select** to close the pop-up window.

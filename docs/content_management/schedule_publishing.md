@@ -13,7 +13,7 @@ To do it, use one of the three options:
 
 ## Scheduler tab [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
-The Scheduler tab is available in the configuration of all Page blocks.
+The **Scheduler** tab is available in the configuration of all Page blocks.
 You can use it to set the date and time when the block becomes visible and when it disappears from a Page.
 If you configure the reveal and/or hide dates for a Page block, you can then see the scheduled blocks (except for the Content Scheduler) in the calendar.
 This way you can see what content is planned to be available in the future.
@@ -41,8 +41,7 @@ When editing a content item, select **Publish later** in the menu on the right.
 A **Future publication settings** window is displayed.
 Choose a date and time for the content publication.
 
-If you had planned a future publication date and enter the edit mode of the same content item,
-you also have a new option in the menu: **Discard publish later**.
+If you had planned a future publication date and enter the edit mode of the same content item, you also have a new option in the menu: **Discard publish later**.
 Use it to remove the previously selected publication date.
 
 ![Discard publish later button in the menu](img/discard_publish_date.png "Discard publish later button in the menu")
@@ -63,9 +62,9 @@ This change affects the content item in all of its [locations](content_organizat
 
 ## Timeline [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
-The timeline in Page mode shows all changes that happen to the Page in the future.
+The timeline in page mode shows all changes that happen to the page in the future.
 
-You can use the slider to preview what the Page looks like at a given time.
+You can use the slider to preview what the page looks like at a given time.
 Use the button on the right of the time to see a list of all upcoming changes.
 
 ![List of upcoming events in the timeline](img/timeline_list.png)
@@ -113,7 +112,7 @@ The calendar view refreshes automatically.
 
 The calendar widget toolbar displays events you select and gives you access to actions assigned to them.
 The available actions appear in the upper-right corner of the toolbar when you select an event.
-You can select multiple events of the same type and perform bulk actions on them, e.g. [reschedule or cancel publication](#reschedule-or-cancel-publication).
+You can select multiple events of the same type and perform bulk actions on them, for example, [reschedule or cancel publication](#reschedule-or-cancel-publication).
 
 !!! note
 
@@ -127,7 +126,7 @@ To select, click on all events of the same type you want to add to the toolbar l
 
 ## Reschedule or cancel publication
 
-In case of publishable content items (e.g. articles), you can change or cancel their planned publication by clicking **Reschedule** or **Cancel publication**.
+In case of publishable content items (for example, articles), you can change or cancel their planned publication by clicking **Reschedule** or **Cancel publication**.
 These buttons are available on the **My dashboard** screen, and in the Calendar widget.
 
 |Button|Description|

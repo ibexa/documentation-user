@@ -95,7 +95,6 @@ To get multiple output types in the recommendation request, perform the followin
 To check the results of your changes, [preview the scenario results](preview_scenario_results.md).
 You may need to provide additional information, for example, to test the cross content type recommendations, in the preview configuration screen, from the **Output type** drop-down, select **All**.
 
-
 !!! note
 
     The **All** option becomes available only after you select multiple types of content in the scenario settings.

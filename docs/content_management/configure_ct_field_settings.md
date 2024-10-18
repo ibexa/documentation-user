@@ -5,8 +5,8 @@ description: Configure field settings in content types.
 # Configure content type fields
 
 When you work with a [content type](content_model.md#content-types) to add or modify [fields](content_model.md#fields-and-field-types),
-you must configure different settings that control the way [[= product_name =]]
-treats the contents of each field. Apart from general settings, certain field types, for example, [landing page](#default-configuration-of-pages) and [content relation](#content-relation-settings) field types may have additional settings.
+you must configure different settings that control the way [[= product_name =]] treats the contents of each field.
+Apart from general settings, certain field types, for example, [landing page](#default-configuration-of-pages) and [content relation](#content-relation-settings) field types may have additional settings.
 
 You can only create or modify content types when your [user role](../permission_management/work_with_permissions.md) has the `ContentType/Create` or `ContentType/Update` permission.
 

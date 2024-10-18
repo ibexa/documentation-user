@@ -179,7 +179,7 @@ On the **Properties** tab, set values in the following fields:
 
     To display two or more identical forms on a single page, have your developer create multiple identical form blocks for your use. This prevents potential issues related to duplicate data submission.
 
-    For more information about creating form blocks, see [Creating a newsletter form]([[= developer_doc =]]/content_management/pages/create_custom_page_block/) in developer documentation.
+    For more information about creating form blocks, see [Creating a newsletter form]([[= developer_doc =]]/content_management/pages/create_custom_page_block/) in Developer Documentation.
 
 ## Gallery block
 
@@ -202,7 +202,7 @@ On the **Properties** tab, set values in the following fields:
 
 !!! caution "Using [[= product_name_connect =]] scenario block"
 
-    For more information about using [[= product_name_connect =]] scenario block, see [[[= product_name_connect =]] scenario block]([[= developer_doc =]]/content_management/pages/ibexa_connect_scenario_block/) in developer documentation.
+    For more information about using [[= product_name_connect =]] scenario block, see [[[= product_name_connect =]] scenario block]([[= developer_doc =]]/content_management/pages/ibexa_connect_scenario_block/) in Developer Documentation.
 
 ## Last purchased block
 
@@ -299,6 +299,7 @@ On the **Design** tab, in the **View** field, select the layout to be used to pr
 Integration with [SeenThis!](https://seenthis.co/) service. SeenThis! block provides an adaptive streaming technology with no limitations as conventional streaming service. It allows to preserve the best video quality with minimum amount of data transfer.
 
 !!! note
+
     This page block is in an opt-in bundle, to use it, install `ibexa/connector-seenthis` bundle first.
 
 On the **Properties** tab, set values in the following fields:

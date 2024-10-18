@@ -73,12 +73,12 @@ To do it, click the **Switch layout** icon on the left side of the upper toolbar
 
 In Dashboard Builder, you can access the **Dashboard blocks** toolbox, which includes a set of blocks of content that you can add to the zones of the dashboard.
 
-!!! Tip
+!!! tip
 
     For a list of available blocks and their detailed description, see [Dashboard block reference](dashboard_block_reference.md).
 
 Add a block by dragging it from the menu to an empty place on a zone.
-Do not worry about placing blocks in the proper place from the start.
+Don't worry about placing blocks in the proper place from the start.
 You can reorder them at any time by dragging and dropping them in the desired location.
 You can reorder blocks in a few ways:
 

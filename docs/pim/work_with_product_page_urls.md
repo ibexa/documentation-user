@@ -4,7 +4,8 @@ description: You can create URL alias name pattern and custom URLs for the Produ
 
 # Product page URLs
 
-Every [product item](products.md) has a system URL that is automatically generated. It's based on a pattern that combines fields and attributes to build the URL (URL alias name pattern).
+Every [product item](products.md) has a system URL that is automatically generated.
+It's based on a pattern that combines fields and attributes to build the URL (URL alias name pattern).
 
 When you're creating new [product type](create_product_types.md) you can set up product URL alias name pattern.
 

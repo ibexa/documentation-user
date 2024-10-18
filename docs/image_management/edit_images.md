@@ -47,8 +47,7 @@ This way, a responsive image can be cropped to fit the viewport, so the area tha
 !!! note
 
     Cropping to focal point is not automatic. The website's templates must be adapted for this to happen.
-    See [Use focal point]([[= developer_doc =]]/templating/embed_and_list_content/render_images/#use-focal-point)
-    in developer documentation for an example of implementing such cropping.
+    See [Use focal point]([[= developer_doc =]]/templating/embed_and_list_content/render_images/#use-focal-point) in Developer Documentation for an example of implementing such cropping.
 
 Click the **Show point** button to see a target on the preview.
 Drag the target to a point on the image that you want to focus on.

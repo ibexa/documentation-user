@@ -83,8 +83,7 @@ It may also determine the layout or style in which this item is displayed.
 Fields marked with an asterisk (\*) are required.
 You can't save the content item without filling them in.
 
-Some fields, such as *Relation* field (which links two content items) or *Image* field,
-require you to select a different content item to link to.
+Some fields, such as *Relation* field (which links two content items) or *Image* field, require you to select a different content item to link to.
 A *Location* field is a point on the map. You can type the place name, enter its coordinates, or select it on the map.
 
 <a name="relation_field"></a>
@@ -159,12 +158,20 @@ To exit distraction free mode, click **Exit distraction free mode** or press Esc
 
 #### Anchors
 
-For longer texts, insert an anchor linking a fragment of text with another fragment or section
-to quickly jump through sections of an article.
-Create an anchor by clicking in the area to link to and selecting the anchor icon from the editor menu.
-In the modal window, provide the name for the anchor. Scroll to the fragment where you want to insert the link,
-and select the text to appear as a link. In the modal window, click the **Link** button.
-This opens the window to create the link. In the **Link to** box, enter the anchor name. Click **Save**.
+For longer texts, insert an anchor linking a fragment of text with another fragment or section to quickly jump through sections of an article.
+
+To create an anchor:
+
+1\. Click in the area to link to and select the anchor icon from the editor menu.
+
+2\. In the modal window, provide the name for the anchor.
+
+3\. Scroll to the fragment where you want to insert the link, and select the text to appear as a link.
+
+4\. In the modal window, click the **Link** button.
+This opens the window to create the link.
+
+5\. In the **Link to** box, enter the anchor name, and click **Save**.
 
 #### Images
 
@@ -187,6 +194,7 @@ Contact your website administrator about the details of using them.
 ### SeenThis! streaming
 
 !!! note
+
     This custom tag is in an opt-in bundle, to use it, install `ibexa/connector-seenthis` bundle first.
 
 Use SeenThis! tag to enable displaying of video with maximum quality regardless of connection and server integration.

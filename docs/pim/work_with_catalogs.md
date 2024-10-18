@@ -25,7 +25,7 @@ To create a catalog:
 
 ![Creating a new catalog](img/catalog_create.png "Creating a new catalog")
 
-After you create a catalog, it's in `Draft` status.
+After you create a catalog, it's in "Draft" status.
 To make the block available, for example, in page blocks, you must publish it.
 
 1. In the **Catalogs** page, click the name of a catalog that you want to publish.

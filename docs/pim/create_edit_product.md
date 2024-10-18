@@ -27,12 +27,12 @@ Then click the **Edit** button next to a name of the product item that you want 
 
 ![Creating a new product](img/create_new_product.png "Creating a new product")
 
-5\. Fill in or edit content fields of the product, for example, name, specification and description.
+5\. Fill in or edit content fields of the product, for example, name, specification, and description.
 Fields marked with an asterisk (*) are required.
 
 ![Editing product information](img/create_product.png "Editing product information")
 
-6\. In the Attributes section, define the product's attributes, for example, dimensions, resolution or capacity.
+6\. In the Attributes section, define the product's attributes, for example, dimensions, resolution, or capacity.
 
 7\. If you're adding a new product, click the **Create** button.
 If you're editing an existing one, click the **Update** button.
@@ -43,4 +43,4 @@ After you create a product, you can [add image assets to a product](work_with_pr
 
     Feature availability may differ depending on the specifics of your installation.
 
-For in-depth information, see [Products]([[= developer_doc =]]/pim/products/) in developer documentation.
+For in-depth information, see [Products]([[= developer_doc =]]/pim/products/) in Developer Documentation.

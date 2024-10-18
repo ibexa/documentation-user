@@ -14,8 +14,7 @@ To use an [attribute](work_with_product_attributes.md) to create variants, mark 
 If a product has only one attribute that can be used for variants, you can create variants for this attribute.
 
 If a product has more than one such attribute, you can create variants for any combination of attribute values.
-For example, for a desk that has two top colors: `white` and `oak` and two frame colors: `black` and `grey`,
-you can create up to four variants: `white/black`, `white/grey`, `oak/black`, and `oak/grey`.
+For example, for a desk that has two top colors: `white` and `oak` and two frame colors: `black` and `grey`, you can create up to four variants: `white/black`, `white/grey`, `oak/black`, and `oak/grey`.
 
 ### Generate variants
 

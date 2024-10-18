@@ -5,20 +5,15 @@ edition: experience
 
 # Customer Portal account
 
-If you represent a company that uses a business partner's [[= product_name =]] instance, 
-Customer Portal allows you to create and manage your business account.
-With this feature, you can edit your organization information,
-invite and view members and check your order history.
+If you represent a company that uses a business partner's [[= product_name =]] instance, Customer Portal allows you to create and manage your business account.
+With this feature, you can edit your organization information, invite and view members and check your order history.
 
 ![Customer Portal Dashboard](img/cp_dashboard_customer_portal.png)
 
-To access Customer Portal follow this link 
-`<yourdomain>/corporate/login` and log in to your business account.
+To access Customer Portal follow this link `<yourdomain>/corporate/login` and log in to your business account.
 
-In the dashboard, you can find a sales representative of your company and 
-a brief summary of your order history.
-For a detailed list of your order history, go to **Pending Order** and 
-**Past Orders** sections.
+In the dashboard, you can find a sales representative of your company and a brief summary of your order history.
+For a detailed list of your order history, go to **Pending Order** and **Past Orders** sections.
 
 ## Manage members
 
@@ -32,8 +27,7 @@ There you can:
 ![List of members](img/cp_members_portal.png)
 
 To invite new members to your organization, select **Invite members**.
-Then, in a pop-up window, fill out email addresses one by one,
-or use drag and drop to upload a file with a list of emails.
+Then, in a pop-up window, fill out email addresses one by one, or use drag and drop to upload a file with a list of emails.
 Assign a role to each new member of your team from a drop-down list.
 Click **Send** to send out invitation emails.
 
@@ -42,8 +36,7 @@ Click **Send** to send out invitation emails.
 Invited users then receive an email message with a registration link.
 With it, they can register and create their account in the Customer Portal.
 
-In the **Invitation** tab, you can find a list of all invitations,
-registration links and the option to re-send invitations, if needed.
+In the **Invitation** tab, you can find a list of all invitations, registration links and the option to re-send invitations, if needed.
 
 ![List of invitations](img/cp_invitations_list_portal.png)
 

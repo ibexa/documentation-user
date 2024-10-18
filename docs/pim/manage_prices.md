@@ -21,8 +21,7 @@ Select a currency in the dropdown menu to preview the price and click the **Edit
 ![Prices tab](img/product_price.png "Prices tab")
 
 For each product or product variant you can set different prices for different customer groups.
-Next to the base price you can see the **Global Price rule** defined for this customer group,
-which is applied to the base price.
+Next to the base price you can see the **Global Price rule** defined for this customer group, which is applied to the base price.
 However, you can also set a **Custom price rule** for this product.
 If you define it, the global price rule don't apply and the custom price rule is applied directly to the base price.
 

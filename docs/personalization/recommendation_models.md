@@ -123,6 +123,7 @@ This model shows which items were recently clicked or bought for a particular se
 B2B models work for a group of users, not for an individual user, and are considered [segment](configure_models.md#configure-segments) models.
 
 !!! note
+
     To get recommendations for the specified segment, in the request, pass the parameter only for this segment.
     B2B requests are limited to only one segment ID.
 
@@ -175,7 +176,7 @@ The submodel is then omitted.
 
     You can combine recommendations from two different submodels, regardless of their type, within a single recommendation call.
     A response to such call contains only recommendations that come from both submodels at the same time.
-    For more information, see [Customizing the recommendation request]([[= developer_doc =]]/personalization/api_reference/recommendation_api/#submodel-parameters) in developer documentation.
+    For more information, see [Customizing the recommendation request]([[= developer_doc =]]/personalization/api_reference/recommendation_api/#submodel-parameters) in Developer Documentation.
 
 ### Nominal attributes
 

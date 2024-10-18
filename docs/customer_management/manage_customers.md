@@ -5,14 +5,12 @@ edition: experience
 
 # Customer management
 
-In the back office, you can manage members of your team,
-customers and organizations' accounts in your system, including their web store activities such as orders.
+In the back office, you can manage members of your team, customers and organizations' accounts in your system, including their web store activities such as orders.
 
 ## Create new company
 
 To create a new company, go to **Customers** -> **Companies** section.
-There you can view a list of companies you have access to,
-you can also edit them or create a new one by selecting **Create** button in the top right corner.
+There you can view a list of companies you have access to, you can also edit them or create a new one by selecting **Create** button in the top right corner.
 
 ![Companies section](img/cp_companies_section_back_office.png)
 
@@ -70,15 +68,13 @@ go to **Customers** -> **Companies** -> Select your company -> **Invitations**.
 
 ![Invite members from the back office](img/cp_invitations_back_office.png)
 
-There, you can find a list of all invitations, copy their registration links
-and re-send the invitation emails.
+There, you can find a list of all invitations, copy their registration links and re-send the invitation emails.
 
 To invite new members to the company, select **Invite member**.
 
 ![Invite members from the Customer Portal](img/cp_invite_members_portal.png)
 
-Then, in a pop-up window fill out email addresses one by one,
-or use drag and drop to upload a file with a list of emails.
+Then, in a pop-up window fill out email addresses one by one, or use drag and drop to upload a file with a list of emails.
 You also have to assign a role to each new member from a drop-down list.
 Click **Send** to send out invitations.
 

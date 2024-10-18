@@ -7,15 +7,14 @@ description: Use the Personalization service to get recommendation for users bas
 A cloud-based Personalization service leverages artificial intelligence and machine learning technologies to deliver optimized customer experience.
 With Personalization, you capture [events](event_types.md) that represent preferences and interests of your users, apply [models](recommendation_models.md) to quantify these findings, and combine them with [scenarios](scenarios.md) to generate recommendations, which you can then [present](integrate_scenario_results.md) in a form of personalized content to visitors of one or more websites hosted by the [[= product_name =]] instance.
 
-Both event tracking and result publishing is done by users with administrator privileges, according to a procedure [described in developer documentation]([[= developer_doc =]]/personalization/integrate_recommendation_service/).
+Both event tracking and result publishing is done by users with administrator privileges, according to a procedure [described in Developer Documentation]([[= developer_doc =]]/personalization/integrate_recommendation_service/).
 
 There are different areas where you can apply recommendations.
 The most common ones are [eCommerce and content publishing](use_cases.md).
 
 !!! note "eCommerce vs. content publishing"
 
-    Documentation mentions eCommerce use cases more often,
-    but provides a thorough understanding of the content publishing context as well.
+    Documentation mentions eCommerce use cases more often, but provides a thorough understanding of the content publishing context as well.
 
     Both products and content items can be referred to as content and the BUY [event](event_types.md) can be understood as
     the CONSUME event.

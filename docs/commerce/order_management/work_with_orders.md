@@ -57,8 +57,7 @@ The fields have the following meaning:
 
 ## Change order status
 
-If your [user role](work_with_permissions.md) includes the `Order/Update` permission, you can change the status of an existing order:
-confirm it if the order has "Pending" status, or complete it when it's in "Processing" status.
+If your [user role](work_with_permissions.md) includes the `Order/Update` permission, you can change the status of an existing order: confirm it if the order has "Pending" status, or complete it when it's in "Processing" status.
 With the `Order/Cancel` permission, you can cancel an existing order.
 
 !!! note "Canceling orders"

@@ -15,7 +15,7 @@ When you create a new product type, you can choose between two available product
 They can use measurement attributes. They require shipment in the online purchase process.
 Examples: heaters, laptops, phones.
 - Virtual - non-tangible items. They can be sold individually, or as part of a product bundle.
-They don't require shipment in the online process. Examples: memberships, services, warranties. 
+They don't require shipment in the online process. Examples: memberships, services, warranties.
 
 A product type also defines both the attributes and VAT rates for all its products.
 

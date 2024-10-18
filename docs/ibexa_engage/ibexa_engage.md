@@ -64,6 +64,7 @@ Every campaign includes at least one publication channel, which you can choose f
 - **Mobile** - uses a link from Qualifio to integrate a campaign that is optimized for mobile usage.
 
 !!! note
+
     By default, every type of publication channel is responsive and compatible with all mobile devices.
 
 ## Work with campaigns

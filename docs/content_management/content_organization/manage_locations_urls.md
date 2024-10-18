@@ -45,13 +45,11 @@ You can swap two content items in their locations by going to the **Swap Locatio
 !!! caution
 
     Swapping locations republishes their respective URL aliases.
-    This means that if the swapped content item was accessible by the URL that had a number at the end
-    (added due to a name conflict), then after the swap the number is removed (if possible).
+    This means that if the swapped content item was accessible by the URL that had a number at the end (added due to a name conflict), then after the swap the number is removed (if possible).
     The opposite case also applies.
 
     Swapping locations for content item with the same name and parent results in swapping their URL aliases.
-    This means that if the content item was previously accessible by a URL without a number at the end,
-    after the swap it's accessible by a URL with a number at the end (and the other way around).
+    This means that if the content item was previously accessible by a URL without a number at the end, after the swap it's accessible by a URL with a number at the end (and the other way around).
 
     If at some point there were more than two content items with the same name under the same parent, then result of swapping such content items might not be obvious.
     The general rule is that the content item that previously had a higher number at the end of its URL alias have its URL alias republished first, resulting in the lowest nonconflicting number (or the lack of) at the end of its URL alias.
@@ -62,7 +60,7 @@ You can swap two content items in their locations by going to the **Swap Locatio
 In your website, you can manage external URL addresses and URL wildcards.
 You do this in the back office, **Admin** tab, the **URL management** node.
 
-For more information about URL management, see [developer documentation.]([[= developer_doc =]]/content_management/url_management/url_management/).
+For more information about URL management, see [Developer Documentation.]([[= developer_doc =]]/content_management/url_management/url_management/).
 
 ### Link manager
 
@@ -72,13 +70,16 @@ You can view and update all external links that exist within the website, withou
 
 ![Link manager tab](img/Link_manager_sm.png)
 
-The Link manager tab shows a list of all links in the website. Click any item in the list to see its details and a list of content items that use this URL.
+The **Link manager** tab shows a list of all links in the website.
+Click any item in the list to see its details and a list of content items that use this URL.
 
 ![Detail of a link in Link manager](img/link_manager_detail.png)
 
-You can change any link in the Link manager. It's then updated in every place where it's used, across all content items.
+You can change any link in the Link manager.
+It's then updated in every place where it's used, across all content items.
 
-The Link manager list also shows whether the link is alive or dead in the **Status** column. The **Last checked** column displays when the status was last verified.
+The Link manager list also shows whether the link is alive or dead in the **Status** column.
+The **Last checked** column displays when the status was last verified.
 
 !!! note
 
@@ -112,8 +113,10 @@ With wildcards, you can replace a portion of the URL address for many content it
 
 ![URL wildcards tab](img/URL_Wildcards_sm.png)
 
-The URL wildcards tab shows a list of all URL wildcard definitions that exist within the website, and contains all the information about each URL wildcard. You can delete or modify existing entries, or create new ones.
+The **URL wildcards** tab shows a list of all URL wildcard definitions that exist within the website, and contains all the information about each URL wildcard.
+You can delete or modify existing entries, or create new ones.
 
 ![Editing a URL wildcard definition](img/URL_wildcard_detail.png)
 
-For each URL wildcard definition, you set the wildcard pattern and the destination. Also, you decide whether the link should redirect users to the destination's original address.
+For each URL wildcard definition, you set the wildcard pattern and the destination.
+Also, you decide whether the link should redirect users to the destination's original address.

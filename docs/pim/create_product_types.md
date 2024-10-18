@@ -21,12 +21,11 @@ If your [user role](../permission_management/work_with_permissions.md) has the `
 Each product has a product code that must be unique. It identifies the product in the system.
 Product code can have up to 64 characters. It can contain only letters, numbers, underscores, and dashes.
 
-4\. Add fields that describe the product by dragging them from the **Field types** 
-area to the **Field definitions** section, and then [configure them](../content_management/configure_ct_field_settings.md).
+4\. Add fields that describe the product by dragging them from the **Field types** area to the **Field definitions** section, and then [configure them](../content_management/configure_ct_field_settings.md).
 
 5\. Add attributes by dragging them or their groups from the **Library** area to the **Attributes** section.
 
-When you define attributes for the product type, you can add or remove either whole attribute groups or individual attributes. 
+When you define attributes for the product type, you can add or remove either whole attribute groups or individual attributes.
 
 ![Adding attributes to a product type](img/adding_attributes.png "Adding attributes to a product type")
 

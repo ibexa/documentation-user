@@ -22,7 +22,7 @@ The Personalization service can accept data import in a several ways.
 For example, one can load an exported file to the Personalization service from a specified location. 
 This type of import is intended to upload big portions of information, and can be used to perform a weekly update of the whole product catalog.
 
-For detailed information about content data import, see [Export item information]([[= developer_doc =]]/personalization/enable_personalization/#export-item-information) and [Content API]([[= developer_doc =]]/personalization/api_reference/content_api/) in developer documentation.
+For detailed information about content data import, see [Export item information]([[= developer_doc =]]/personalization/enable_personalization/#export-item-information) and [Content API]([[= developer_doc =]]/personalization/api_reference/content_api/) in Developer Documentation.
 
 ## User data import
 
@@ -31,7 +31,7 @@ Additional attributes, such as the user's age or home city, might help the servi
 User attributes could be retrieved based on the external user ID.
 However, it's rarely possible to combine the external user ID within the user's attribute set.
 
-For more information about user attribute import, see [User API]([[= developer_doc =]]/personalization/api_reference/user_api/) in developer documentation.
+For more information about user attribute import, see [User API]([[= developer_doc =]]/personalization/api_reference/user_api/) in Developer Documentation.
 
 ## List of import operations
 

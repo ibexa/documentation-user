@@ -8,7 +8,8 @@ An overview of the permission system in [[= product_name =]] is best presented w
 
 ### Example permission system
 
-Let us assume you're managing a newspaper website. Your crew consists of an editor-in-chief and several editors responsible for particular sections of the paper, for example, general news, local news, or sports.
+Let us assume you're managing a newspaper website.
+Your crew consists of an editor-in-chief and several editors responsible for particular sections of the paper, for example, general news, local news, or sports.
 You also have contributors who occasionally add new articles.
 You want to give the editor-in-chief access to most parts of your website, but the individual editors only work with their own sections.
 To the contributors you want to give the permissions to create new content, but not to modify or delete the existing content.

@@ -4,7 +4,7 @@ description: Modify role settings to control access to different areas of the ap
 
 # Work with permissions
 
-You can view and modify all [permissions](permission_system.md) by clicking **Roles** in the **Admin Panel**.
+You can view and modify all [permissions](permission_system.md) by clicking **Roles** in the **Admin** panel.
 
 ## Create a new role
 

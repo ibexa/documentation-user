@@ -5,6 +5,7 @@ description: Upload images to Ibexa DXP to manage them.
 # Upload and store images
 
 !!! note
+
     Some options may not be available depending on your configuration and permissions.
 
 ## Manage folders
@@ -47,9 +48,9 @@ Tagging image assets helps keep the media library organized and enables searchin
 
 7\. Click **Publish**.
 
-!!!note
-    The maximum file size and file extension limitations may differ depending on your configuration.
+!!! note
 
+    The maximum file size and file extension limitations may differ depending on your configuration.
 
 ## Edit images
 
@@ -58,10 +59,7 @@ For detailed instructions how to edit images, see the [Image Editor documentatio
 
 ## Move images
 
-To learn how to effectively manage image assets, see [Move assets between folders](../content_management/content_organization/copy_move_hide_content.md)
-section.
-
-
+To learn how to effectively manage image assets, see [Move assets between folders](../content_management/content_organization/copy_move_hide_content.md) section.
 
 ## Multiupload
 
@@ -76,7 +74,6 @@ To upload many image assets, you can use multiupload.
 
 ## Add translations
 
-If you work with multiple languages and want to use searching by languages in DAM, you can add translations
-to image assets.
+If you work with multiple languages and want to use searching by languages in DAM, you can add translations to image assets.
 
 To see how to add translations, go to [translate content section](../content_management/translate_content.md/#add-translations).

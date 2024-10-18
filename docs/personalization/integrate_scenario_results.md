@@ -6,9 +6,8 @@ edition: experience
 # Integrate scenario results
 
 When the Personalization service is [enabled](enable_personalization.md) and properly [configured](configure_personalization.md), as an editor, you can embed the recommendations that come from the service, to show them to the end users.
-You can, for example, modify a Page to include a block that shows what content items/products are recommended to end users when specific [scenarios](scenarios.md) are triggered.
-One such example is the [Personalized block](../content_management/block_reference.md#personalized-block), where you can choose from a number of scenarios, but there are also other blocks that are tailored to display the results of scenarios
-of specific types, like [Recently added block](../content_management/block_reference.md#recently-added-block) or [Bestsellers block](../content_management/block_reference.md#bestsellers-block).
+You can, for example, modify a page to include a block that shows what content items/products are recommended to end users when specific [scenarios](scenarios.md) are triggered.
+One such example is the [Personalized block](../content_management/block_reference.md#personalized-block), where you can choose from a number of scenarios, but there are also other blocks that are tailored to display the results of scenarios of specific types, like [Recently added block](../content_management/block_reference.md#recently-added-block) or [Bestsellers block](../content_management/block_reference.md#bestsellers-block).
 Depending on the scenario type, you may need to provide additional information to see the recommendation results.
 
 The blocks, the number, and selection of available scenarios within these blocks depend on the arrangements that your organization makes with [[= product_name_base =]] when defining the initial configuration.
@@ -53,4 +52,4 @@ To get all output types in the Personalized block, in Page Builder, perform the 
 1. Increase the display limit to make sure all recommendations are shown.
 1. Click **Submit**.
 
-For more information, see [Parameters]([[= developer_doc =]]/personalization/enable_personalization/#parameters) in developer documentation.
+For more information, see [Parameters]([[= developer_doc =]]/personalization/enable_personalization/#parameters) in Developer Documentation.

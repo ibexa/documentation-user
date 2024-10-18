@@ -51,7 +51,8 @@ The main menu allows you to move between important sections of the application.
 
 ![Main menu](img/side_menu.png "Main menu")
 
-You can adjust the size of the menu sidebar. To do this, click on the side edge of the panel, then drag and adjust to the desired size.
+You can adjust the size of the menu sidebar.
+To do this, click on the side edge of the panel, then drag and adjust to the desired size.
 You can also hide it by clicking the button in the down right corner.
 
 ![Main menu - adjust](img/menu_adjust.png "Adjust main menu or hide it")
@@ -71,7 +72,8 @@ The **Content Tree** area is an expandable content menu of your website.
 
 ![Content tree in the menu](img/left_menu_tree.png "Content tree in the menu")
 
-Unique icons for each content type instantly show you what type of content you're selecting. To add custom icons to your content tree, follow [configuration tutorial in developer documentation.]([[= developer_doc =]]/administration/back_office/back_office_elements/custom_icons/#customize-content-type-icons)
+Unique icons for each content type instantly show you what type of content you're selecting.
+To add custom icons to your content tree, follow [configuration tutorial in Developer Documentation]([[= developer_doc =]]/administration/back_office/back_office_elements/custom_icons/#customize-content-type-icons).
 
 Hidden content is greyed out in the tree view.
 
@@ -79,7 +81,7 @@ To simplify the content tree, big lists are collapsed and include a **Show more*
 You can select it to expand the branches of the tree.
 **Collapse all** option, which is available in the context menu, closes all expanded sections.
 
-For more information on custom configuration, go to [Content tree]([[= developer_doc =]]/administration/back_office/content_tree/) in developer documentation.
+For more information on custom configuration, go to [Content tree]([[= developer_doc =]]/administration/back_office/content_tree/) in Developer Documentation.
 
 ## Content browser
 

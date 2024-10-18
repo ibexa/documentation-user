@@ -1,15 +1,15 @@
 ---
-description: Virtual products are non-tangible items such as memberships, services, warranties. 
+description: Virtual products are non-tangible items such as memberships, services, warranties.
 ---
 
 # Virtual products
 
-Virtual product is a special type of a [Product](products.md). 
+Virtual product is a special type of a [Product](products.md).
 
-Virtual products are non-tangible items such as memberships, services, warranties. 
+Virtual products are non-tangible items such as memberships, services, warranties.
 They can be sold individually, or as part of a product bundle.
 
-Like physical products, virtual products can have their own [variants](work_with_product_variants.md), [assets](work_with_product_assets.md) or [attributes](products.md#attributes). 
+Like physical products, virtual products can have their own [variants](work_with_product_variants.md), [assets](work_with_product_assets.md) or [attributes](products.md#attributes).
 You can also create catalogs from them, check their completeness and set [prices, availability, and stock](manage_availability_and_stock.md).
 
 ## Create virtual product type
@@ -26,8 +26,7 @@ To create a virtual product, first, you have to create a virtual product type.
 
 3\. Fill in basic product type information.
 
-4\. Add fields that describe the product by dragging them from the **Field types** 
-area to a section on the left, and then [configure them](configure_ct_field_settings.md).
+4\. Add fields that describe the product by dragging them from the **Field types** area to a section on the left, and then [configure them](configure_ct_field_settings.md).
 
 5\. Add attributes by dragging them from the toolbox on the right.
 
@@ -44,7 +43,7 @@ While creating a product, choose the virtual product type that you have created.
 ## Virtual products purchase
 
 Virtual products don’t require shipment when they're purchased without other physical products.
-While purchasing a virtual product, you only have to fill in Billing address and select relevant payment method. 
+While purchasing a virtual product, you only have to fill in Billing address and select relevant payment method.
 
 ![Virtual product purchasing](virtual_product_purchase.png "Virtual product purchasing")
 

@@ -4,24 +4,24 @@ description: Create multiple language versions of content items.
 
 # Translate content
 
-The content on your website can be translated into different languages. Each content item can have different language versions.
+The content on your website can be translated into different languages.
+Each content item can have different language versions.
 The version visible to a visitor depends on the way your installation is set up (see [SiteAccess concept](#edit-page-for-different-language-versions-of-a-website)).
 
 ## Add website languages
 
-You can only add translations in languages that have been set up for your website in the **Admin Panel**.
+You can only add translations in languages that have been set up for your website in the **Admin** panel.
 If your user [role](work_with_permissions.md) has the right permissions, you can create a new language for the website.
-To do it, go to the **Admin Panel**, open the **Languages** tab, and click **Add language**.
+To do it, go to the **Admin** panel, open the **Languages** tab, and click **Add language**.
 
 Every new language must have a name and a language code written in the xxx-XX format, for example, eng-US, fre-FR, or nor-NO.
 After adding a language, you may have to reload the application to be able to use it.
 
 !!! caution
 
-    Depending on the way the website is set up, additional configuration may be necessary
-    for the new translations to be displayed properly.
-    Contact your administrator and inform them that you need to add a new language to the website
-    (see [the technical documentation on language versions]([[= developer_doc =]]/multisite/languages/languages/)).
+    Depending on the way the website is set up, additional configuration may be necessary for the new translations to be displayed properly.
+    Contact your administrator and inform them that you need to add a new language to the website.
+    For more information, see [Developer Documentation on language versions]([[= developer_doc =]]/multisite/languages/languages/)).
 
 ## Add translations
 
@@ -65,7 +65,8 @@ For more information, see [Work with versions](work_with_versions.md#compare-ver
 
 ## Edit page for different language versions of a website [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
-When you edit a page, a bar at the top of the screen lists the most recently used [SiteAccesses](https://doc.ibexa.co/projects/userguide/en/master/website_organization/multisite/#siteaccess) on your website. Use this bar to switch between the different versions and work on them.
+When you edit a page, a bar at the top of the screen lists the most recently used [SiteAccesses](https://doc.ibexa.co/projects/userguide/en/master/website_organization/multisite/#siteaccess) on your website.
+Use this bar to switch between the different versions and work on them.
 
 <a name="siteaccess"></a>
 

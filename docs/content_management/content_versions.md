@@ -17,9 +17,7 @@ It's not available to the visitor and you cannot edit it, but you can create new
 
 Finally, **drafts** are versions that haven't been published yet.
 There can be many drafts of the same content item.
-They can be created by the autosave feature, by the reviewer as part of the 
-[editorial workflow](workflow_management/editorial_workflow.md), or when you save
-the work and close the content item editing screen.
+They can be created by the autosave feature, by the reviewer as part of the [editorial workflow](workflow_management/editorial_workflow.md), or when you save the work and close the content item editing screen.
 
 You can view all versions of a content item on the content item details screen.
 To do it, [disable the Focus mode](../getting_started/discover_ui.md#disable-focus-mode), and go to this content item's **Versions** tab.
@@ -35,5 +33,4 @@ To recover your work, [disable the Focus mode](../getting_started/discover_ui.md
 Alternatively, open the most recent draft of your work on the **My dashboard** page, the **Drafts** table.
 
 Autosave is enabled by default, and set to save a draft every 60 seconds.
-You can toggle autosave or change the time between saving attempts in **User settings**, by changing
-the values in the **Autosave draft** and **Autosave interval** fields.
+You can toggle autosave or change the time between saving attempts in **User settings**, by changing the values in the **Autosave draft** and **Autosave interval** fields.

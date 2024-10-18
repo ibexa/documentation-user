@@ -15,7 +15,7 @@ The number and selection of available scenarios depends on the arrangements that
 
 1. Navigate to the **Personalization** > **Scenarios** tab, and then click the **Preview** icon next to a scenario that you want to preview.
 
-1. If your scenario is based on models of [popularity type](recommendation_models.md#popularity-models), such as, for example, **Landing page** or **Top clicked**, skip to the last step.
+1. If your scenario is based on models of [popularity type](recommendation_models.md#popularity-models), for example, **Landing page** or **Top clicked**, skip to the last step.
 
     No further configuration is required.
 

@@ -4,7 +4,7 @@ description: PIM enables handling of products presented in the website anf offer
 
 # PIM (Product Information Management)
 
-With PIM you can create, configure and manage products that are offered in the [[= product_name =]]-based website and/or storefront, including their specifications, attributes, assets, variants and pricing.
+With PIM you can create, configure and manage products that are offered in the [[= product_name =]]-based website and/or storefront, including their specifications, attributes, assets, variants, and pricing.
 
 You can group products into categories and catalogs.
 Catalogs are collections of products selected using configurable filters.

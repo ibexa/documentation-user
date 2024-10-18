@@ -14,7 +14,7 @@ With Commerce, you can build your own storefront from a set of generic component
 
 Out of the box, Commerce is configured to follow a specific workflow and support a certain number of processing method types, for example, flat rate, free shipping methods, and offline payment methods.
 Contact your administrator or development team about customization options.
-For more information, see [developer documentation]([[= developer_doc =]]/commerce/commerce/).
+For more information, see [Developer Documentation]([[= developer_doc =]]/commerce/commerce/).
 
 The following diagram includes statuses and actions that may occur on the order's way along the fulfilment path.
 

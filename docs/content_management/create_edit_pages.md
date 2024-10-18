@@ -13,7 +13,8 @@ By editing pages, you can customize the layout and content of your website.
 Whenever you edit a page, a [new version](content_versions.md) is created in the repository.
 
 !!! tip
-    The Page content type contains a *Landing page* field type which manages the zones and blocks.
+
+    The page content type contains a *Landing page* field type which manages the zones and blocks.
     Any content item that has the *Landing page* field type behaves like a page.
 
 ## Create page
@@ -141,9 +142,7 @@ For a list of blocks available out of the box, see [Block reference](block_refer
 
 !!! note
 
-    Before you add a block that involves products, product types, or product categories, make
-    sure your that your [user role](../permission_management/permissions_and_users.md) has
-    the `Product/View` and `Product type/View` permission.
+    Before you add a block that involves products, product types, or product categories, make sure your that your [user role](../permission_management/permissions_and_users.md) has the `Product/View` and `Product type/View` permission.
 
     Before you add a block that uses results derived from a [Personalization](../personalization/personalization.md) scenario, for example, [Dynamic targeting](block_reference.md#dynamic-targeting-block) or [Recently added block](block_reference.md#recently-added-block), make sure that the scenario is [properly configured](../personalization/configure_scenarios.md).
 
@@ -176,7 +175,9 @@ The settings available on the **Basic** tab are tailored to the block's content.
 For a description of these settings, see [Block reference](block_reference.md).
 
 The remaining tabs contain parameters common to all blocks provided with [[= product_name =]].
-Use them to modify the layout and visibility of a block. For details, see [Scheduling publication](schedule_publishing.md).
+Use them to modify the layout and visibility of a block.
+
+For more information, see [Scheduling publication](schedule_publishing.md).
 
 For your comfort, you can adjust the size of the block settings window.
 When you hover over the window frame, blue line appears.
@@ -185,6 +186,7 @@ Click-and-drag the border to adjust the size.
 You cannot publish a page if you haven't set all the required settings of all blocks.
 
 !!! tip
+
     Settings and function of custom-made blocks of content depend on their design.
     For details on adjusting and using them, contact your website administrator.
 

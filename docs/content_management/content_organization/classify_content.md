@@ -20,7 +20,8 @@ A few Sections are provided with each installation, and you can add new ones.
 In the **Sections** tab, you can assign Sections to content or delete them.
 You can only delete Sections that do not contain any content.
 
-Each content item must belong to a Section. By default, new content is placed in the same Section as its parent.
+Each content item must belong to a Section.
+By default, new content is placed in the same Section as its parent.
 If you want to remove a content item from a Section, you need to assign it to a different one.
 
 Access to Sections can be restricted by [setting up proper permissions](../../permission_management/work_with_permissions.md).

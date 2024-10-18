@@ -30,7 +30,7 @@ If a model requires context, it can only be linked to scenarios that provide t
 
 |Model type|Available parameters|Submodel support|Context|
 |---|---|---|---|
-|Popularity|Relevant event history defines the time period for which the statistics must be analyzed. Depending on the type of product, it can be between several months and several hours. Fast event ageing can be used to weight newer events higher than older events.|yes</br>submodels based on category are enabled by default|not needed|
+|Popularity|Relevant event history defines the time period for which the statistics must be analyzed. Depending on the type of product, it can be between several months and several hours. Fast event aging can be used to weight newer events higher than older events.|yes</br>submodels based on category are enabled by default|not needed|
 |Also clicked/purchased / Ultimately bought|Both also clicked and ultimately purchased models allow defining the relevant event history.|yes, manual|required (either context items or user data)|
 |Recently added|This model requires the maximum age for the items that should be recommended by this model.|yes|not supported|
 |History-based|The type of the history (CLICK-history or BUY-history) must be specified.|no|required (user data)|
