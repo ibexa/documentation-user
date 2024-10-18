@@ -52,7 +52,7 @@ You can compare different versions of the translations of the content item.
 
 3\. Go to **Versions** tab and click the **Version compare** icon: ![Version Compare Icon](img/version_compare_icon.png){.inline-image}.
 
-4\. In the **Comparing versions** screen, click the split view using the switcher in the top right corner:
+4\. In the **Comparing versions** screen, use the switcher in the top right corner, and click the split view:
 
 ![View switcher](img/view_switcher.png "View switcher")
 

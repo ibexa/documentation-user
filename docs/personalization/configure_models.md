@@ -51,7 +51,7 @@ For models which require computation (all [popularity](recommendation_models.md#
 To do this, go to **Personalization** > **Models**.
 Click the edit icon next to the model name, make necessary changes, and click the **Trigger model build** button.
 On the list of models, the model's status changes to `Build in progress`.
-When the build come out successful, the status changes to `Active`.
+When the build comes out successful, the status changes to `Active`.
 
 ![Model build status](img/models_edit.png "Model build status")
 

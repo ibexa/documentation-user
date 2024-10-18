@@ -1,60 +1,57 @@
 ---
-description: Manage the content of your website by controlling Locations and URLs.
+description: Manage the content of your website by controlling locations and URLs.
 ---
 
-# Manage content Locations and URL addresses
+# Manage content locations and URL addresses
 
-## Content Locations
+## Content locations
 
 A content item by itself does not have a place in the content tree and is not visible for a visitor of the website.
-To be available on the website, it has to be assigned a Location ID.
-A new content item is automatically assigned a Location when you publish it.
+To be available on the website, it has to be assigned a location ID.
+A new content item is automatically assigned a location when you publish it.
 
-A content item can have more than one Location ID. In such a case you can find it in more than one place in the content tree.
-A single Location can only have one content item in it.
+A content item can have more than one location ID. In such a case you can find it in more than one place in the content tree.
+A single location can only have one content item in it.
 
 !!! tip "Example"
 
-    You can use multiple Locations for an Article about a local sports team's victory,
-    which you can place in the tree both under Local News and Sports News.
+    You can use multiple locations for an Article about a local sports team's victory, which you can place in the tree both under Local News and Sports News.
 
-Even if a content item is placed in more than one Location, one of the Locations is always treated as the main one.
+Even if a content item is placed in more than one location, one of the locations is always treated as the main one.
 
-To assign other Locations to content, [disable the Focus mode](../../getting_started/discover_ui.md#disable-focus-mode), go to the content item's **Locations** tab and click **+ Add**.
+To assign other locations to content, [disable the Focus mode](../../getting_started/discover_ui.md#disable-focus-mode), go to the content item's **Locations** tab and click **+ Add**.
 Then select the new parent from the content browser.
 
-![Content with two locations](img/content_with_two_locations.png "Content with two Locations")
+![Content with two locations](img/content_with_two_locations.png "Content with two locations")
 
-### Hide Locations
+### Hide locations
 
 You can manage the availability of content by hiding or revealing it.
-You can do this in the content item's **Locations** tab using the Visibility switcher.
+To do it, go to content item's **Locations** tab and use the Visibility switcher.
 Notice that this way only affects a *Location*, not the *Content item*.
-Even if you hide the content in one Location, it remains visible in its other Locations.
+Even if you hide the content in one location, it remains visible in its other locations.
 You can also [hide the content item itself](copy_move_hide_content.md#hide-content).
 
-When a Location is hidden, all of its children (other content items that are under it in the tree) are also automatically hidden.
-They can only be revealed if the parent Location is revealed as well.
+When a location is hidden, all of its children (other content items that are under it in the tree) are also automatically hidden.
+They can only be revealed if the parent ocation is revealed as well.
 
-A hidden Location is invisible for everyone viewing the website.
-If you're looking for a way to allow only some users to view parts of the content tree,
-use [Sections](classify_content.md#sections) and combine them with [proper permissions](../../permission_management/permission_system.md).
+A hidden location is invisible for everyone viewing the website.
+If you're looking for a way to allow only some users to view parts of the content tree, use [Sections](classify_content.md#sections) and combine them with [proper permissions](../../permission_management/permission_system.md).
 
-### Swap Locations
+### Swap locations
 
-You can swap two content items in their Locations by going to the **Swap Locations** section
-in the **Location** tab and selecting a content item to swap with.
+You can swap two content items in their locations by going to the **Swap Locations** section in the **Location** tab and selecting a content item to swap with.
 
 !!! caution
 
-    Swapping Locations republishes their respective URL aliases.
+    Swapping locations republishes their respective URL aliases.
     This means that if the swapped content item was accessible by the URL that had a number at the end
     (added due to a name conflict), then after the swap the number is removed (if possible).
     The opposite case also applies.
 
-    Swapping Locations for content item with the same name and parent results in swapping their URL aliases.
+    Swapping locations for content item with the same name and parent results in swapping their URL aliases.
     This means that if the content item was previously accessible by a URL without a number at the end,
-    after the swap it's' accessible by a URL with a number at the end (and the other way around).
+    after the swap it's accessible by a URL with a number at the end (and the other way around).
 
     If at some point there were more than two content items with the same name under the same parent, then result of swapping such content items might not be obvious.
     The general rule is that the content item that previously had a higher number at the end of its URL alias have its URL alias republished first, resulting in the lowest nonconflicting number (or the lack of) at the end of its URL alias.
@@ -69,7 +66,8 @@ For more information about URL management, see [developer documentation.]([[= de
 
 ### Link manager
 
-In your website you can link to external websites by placing links inside rich text, or using the URL field.
+In your website you can link to external websites.
+To do it, use the URL field or embed links within Rich Text.
 You can view and update all external links that exist within the website, without having to modify and re-publish the individual content items.
 
 ![Link manager tab](img/Link_manager_sm.png)

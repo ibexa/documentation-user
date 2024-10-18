@@ -25,7 +25,7 @@ You can enable the use of product categories, assign products to categories and 
 ## Enable product categories
 
 Before you can assign categories to products, make sure that the *Taxonomy Entry Assignment* field is added and set as required in all the [product types](product_types.md) that define products from PIM which you want to categorize.
-The field could be absent if product types were migrated from an older version of the product.
+The field could be absent if product types were migrated from an older version of [[= product_name =]].
 
 Depending on your permissions, you might be able to verify the presence of the field and add the field yourself:
 

@@ -1,5 +1,5 @@
 ---
-description: Classify the content of your website using Sections, Bookmarks, or Segments.
+description: Use sections, bookmarks, or segments to classify the content of your website.
 ---
 
 # Classify content
@@ -50,7 +50,8 @@ Bookmarks are stored per user. You can view a list of all bookmarks by clicking 
 ## Segments [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
 With segments you can target content at specific groups of your users.
-You can use them to display different content to different Page visitors using the [Targeting block](create_edit_pages.md#targeting-block).
+You can use them to display different content to different page visitors.
+To do it, use the [Targeting block](create_edit_pages.md#targeting-block).
 
 You can create and configure Segments and Segment Groups in the **Admin** section of the back office.
 

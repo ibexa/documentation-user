@@ -1,5 +1,5 @@
 ---
-description: Ibexa Engage helps engage audiences and collect valuable data using interactive content.
+description: Use Ibexa Engage to engage audiences and collect valuable data.
 month_change: true
 ---
 
@@ -68,7 +68,7 @@ Every campaign includes at least one publication channel, which you can choose f
 
 ## Work with campaigns
 
-You can create, configure, and manage campaigns using [Qualifio Engage](https://developers.qualifio.com/docs/engage/).
+You can create, configure, and manage campaigns with [Qualifio Engage](https://developers.qualifio.com/docs/engage/).
 To access the Qualifio Manager page and create or manage campaigns, click the **Manage campaigns in Qualifio** button under the **Ibexa Engage** menu.
 To display your campaign on the website, use one of the available tools - Campaign block or Campaign custom tag.
 

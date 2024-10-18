@@ -14,7 +14,7 @@ There are several possible use cases for types of content, for example:
 
 Based on the types of content concept, it's possible to make so-called cross content type recommendations (like "Users who watched this film also read this book" or "Users who bought these wallets also bought these belts").
 
-Apart from the logical separation of the content domains, types of content provide another important advantage
+Apart from the logical separation of the content domains, types of content provide another important advantage.
 You can use them to adjust recommendation weight if different types of products/content items are not equally popular but must be recommended equally often.
 For example, on a content publisher's page, users watch videos less often than they read articles.
 If the most popular products were requested without splitting the types of content, there would most likely be no videos in the recommendation result.

@@ -10,10 +10,10 @@ Once you have created content items that follow the structure defined within the
 
 You can create tags in two ways:
 
-- directly in the taxonomy tree
-- by clicking the **Create** button in the **Tags** section
+- create them directly in the taxonomy tree
+- click the **Create** button in the **Tags** section
 
-1. To create a new tag using taxonomy tree, in the left panel click **Content** -> **Tags**.
+1. To create a new tag in the taxonomy tree, in the left panel click **Content** -> **Tags**.
 1. In the **Root** section, click the three dots icon on the level/place you want to add new tag and select **Add**.
 1. Enter a unique name for the new tag.
 1. Add the tag's identifier.

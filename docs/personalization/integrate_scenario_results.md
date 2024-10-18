@@ -1,5 +1,5 @@
 ---
-description: You can display recommendation results in your Pages using the Personalized block.
+description: Use the Personalized block to display recommendation results in your pages.
 edition: experience
 ---
 

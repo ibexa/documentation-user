@@ -1,6 +1,6 @@
 # Ibexa DXP User Documentation
 
-This repository is the source for [user documentation for Ibexa DXP](https://doc.ezplatform.com/projects/userguide/en/latest),
+This repository is the source for [User Documentation for Ibexa DXP](https://doc.ibexa.co/projects/userguide/en/latest/),
 a digital experience platform that is based on the Symfony Full Stack Framework in PHP.
 
 # Resources
@@ -20,7 +20,7 @@ If you'd like to see Ibexa DXP in your language, you can [contribute to the tran
 ## Build and preview documentation
 
 To build and preview your changes locally, you need to install Python along with its package manager (`pip`).
-Other required tools can be installed using the following command:
+To install other required tools, use the following command:
 
 ```bash
 pip install -r requirements.txt

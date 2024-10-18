@@ -47,7 +47,7 @@ This value is then displayed during checkout and added to the total order amount
 
 ![Shipping methods list](shipping_methods_list.png)
 
-2\. Find the shipping method that you intend to edit or delete using the search field and filters.
+2\. Use the search field and filters to find the shipping method that you intend to edit or delete.
 
 3\. Click the **Edit** button next to the method in the list.
 
@@ -59,7 +59,7 @@ This value is then displayed during checkout and added to the total order amount
 
 1\. In the left panel, go to **Commerce** -> **Shipping methods**.
 
-2\. Find the shipping method that you want to delete using the search field and filters.
+2\. Use the search field and filters to find the shipping method that you want to delete.
 
 3\. Select a box next to its name and click **Delete**.
 

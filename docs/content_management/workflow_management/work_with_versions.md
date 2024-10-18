@@ -56,7 +56,8 @@ You can also compare media field types such as images.
 
 !!! note
 
-    Not all field types are available for comparison. You cannot preview the difference in the following field types:
+    Not all field types are available for comparison.
+    You cannot preview the differences in the following field types:
 
     - Form
     - Landing Page

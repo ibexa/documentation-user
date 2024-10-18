@@ -81,7 +81,7 @@ folder you want to open.
 
 ### Insert images
 
-To insert an image asset into the HTML editor, locate the image using search options, or manually locate the asset in the folder.
+To insert an image asset into the HTML editor, find the image with search options, or manually locate the asset in the folder.
 Next, click the image thumbnail. The selected item is marked with a red dot in the upper-left corner.
 To confirm the selection, in the bottom toolbar, click **Insert**.
 

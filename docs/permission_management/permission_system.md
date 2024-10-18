@@ -1,10 +1,10 @@
 ---
-description: Fine-tune the access control using the permission system.
+description: Use the permission system to fine-tune the access control.
 ---
 
 # Permission system
 
-An overview of the permission system in [[= product_name =]] is best presented using an example.
+An overview of the permission system in [[= product_name =]] is best presented with an example.
 
 ### Example permission system
 

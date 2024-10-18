@@ -39,7 +39,7 @@ When editing a content item, select **Publish later** in the menu on the right.
 ![Publish Later button in the menu](img/publish_later.png "Publish Later button in the menu")
 
 A **Future publication settings** window is displayed.
-Choose a date and time and for the content publication.
+Choose a date and time for the content publication.
 
 If you had planned a future publication date and enter the edit mode of the same content item,
 you also have a new option in the menu: **Discard publish later**.
@@ -52,7 +52,7 @@ To browse all the future events, use the [Calendar widget](#calendar-widget).
 
 ## Date-based hiding
 
-When your content item is published, you can schedule a date and time and the content is hidden at that time.
+When your content item is published, you can schedule a date and time for the content to become hidden.
 To do this, go to the **Content** tab and select **Content structure** or **Media**.
 Then, navigate to the content item that you want to hide and click **Hide** in the menu.
 
