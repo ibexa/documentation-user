@@ -8,23 +8,23 @@ To help you better organize content, [[= product_name =]] comes equipped with a 
 
 ## Sections
 
-You can divide your content tree into Sections to better organize it.
+You can divide your content tree into sections to better organize it.
 Sections let you decide which users can have access to which parts of the tree.
-To see which Section a content item belongs to, [disable the Focus mode](../../getting_started/discover_ui.md#disable-focus-mode), and look at its **Technical details** tab.
+To see which section a content item belongs to, [disable the Focus mode](../../getting_started/discover_ui.md#disable-focus-mode), and look at its **Technical details** tab.
 
-You can set up Sections by navigating to **Content** -> **Sections**.
-A few Sections are provided with each installation, and you can add new ones.
+You can set up sections by navigating to **Content** -> **Sections**.
+A few sections are provided with each installation, and you can add new ones.
 
 ![List of Sections](img/sections.png "List of Sections")
 
-In the **Sections** tab, you can assign Sections to content or delete them.
-You can only delete Sections that do not contain any content.
+In the **Sections** tab, you can assign sections to content or delete them.
+You can only delete sections that do not contain any content.
 
-Each content item must belong to a Section.
-By default, new content is placed in the same Section as its parent.
-If you want to remove a content item from a Section, you need to assign it to a different one.
+Each content item must belong to a section.
+By default, new content is placed in the same section as its parent.
+If you want to remove a content item from a section, you need to assign it to a different one.
 
-Access to Sections can be restricted by [setting up proper permissions](../../permission_management/work_with_permissions.md).
+Access to sections can be restricted by [setting up proper permissions](../../permission_management/work_with_permissions.md).
 
 ## Object states
 
@@ -55,11 +55,11 @@ With segments you can target content at specific groups of your users.
 You can use them to display different content to different page visitors.
 To do it, use the [Targeting block](create_edit_pages.md#targeting-block).
 
-You can create and configure Segments and Segment Groups in the **Admin** section of the back office.
+You can create and configure segments and segment groups in the **Admin** section of the back office.
 
 ![Segment groups](img/admin_panel_segment_groups.png "Segment groups")
 
 !!! note
 
-    Assigning users to Segments happens automatically according to rules set up by the administrator.
+    Assigning users to segments happens automatically according to rules set up by the administrator.
     Contact your website administrator for more information about your setup.

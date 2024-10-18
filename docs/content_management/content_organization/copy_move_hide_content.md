@@ -90,5 +90,5 @@ This is different from [hiding locations](manage_locations_urls.md#hide-location
     If you need to restrict access to a given content item, you could create a role that grants read access for a given
     [**Section**](https://doc.ibexa.co/projects/userguide/en/latest/content_management/content_organization/classify_content/#sections)
     or [**Object State**](https://doc.ibexa.co/projects/userguide/en/latest/content_management/content_organization/classify_content/#object-states),
-    and set a different Section or Object State for the given content.
+    and set a different section or object state for the given content.
     Or use other permission-based [**Limitations**](https://doc.ibexa.co/projects/userguide/en/latest/permission_management/work_with_permissions/).

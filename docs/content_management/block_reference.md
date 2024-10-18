@@ -31,7 +31,7 @@ The following blocks are provided with a clean installation of [[= product_name 
 |[RSS](#rss-block)|Loads and displays news from RSS feeds (channels). |
 |[Sales representative](#sales-representative)|Loads and displays company's sales representative.|
 |[SeenThis!](#seenthis-block)|Displays video with exceeded standard video restrictions of 3.5MB.|
-|[Targeting](#targeting-block)|Embeds an content item based on the [Segment](content_organization/classify_content.md#segments) the user belongs to. |
+|[Targeting](#targeting-block)|Embeds an content item based on the [segment](content_organization/classify_content.md#segments) the user belongs to. |
 |[Text](#text-block)|Enables you to add to the page a Rich Text block. |
 |[Video](#video-block)|Embeds a video into the page with standard playback controls. |
 
@@ -142,17 +142,17 @@ On the **Properties** tab, set values in the following fields:
 
 ## Dynamic targeting block
 
-Dynamic targeting block provides recommended items based on users related to the configured Segments.
+Dynamic targeting block provides recommended items based on users related to the configured segments.
 
 On the **Properties** tab, set values in the following fields:
 
 - **Name** — Enter a name for the page block.
 - **Select default scenario** — Select the default scenario for recommended items that should be rendered if the current user
-is not assigned to any Segment.
-- **Setup segment and scenario matching priority rules** — Select a Segment group, a Segment identifier and Scenario that you want to display recommendations from.
+is not assigned to any segment.
+- **Setup segment and scenario matching priority rules** — Select a segment group, a segment identifier and Scenario that you want to display recommendations from.
 - **Display limit** — Set the number of products to be displayed.
 
-The rules are checked in order, so when a user belongs to more than one Segment, the first rule applies.
+The rules are checked in order, so when a user belongs to more than one segment, the first rule applies.
 
 ![Dynamic targeting](img/page_builder_dynamic_targeting.png)
 
@@ -322,20 +322,19 @@ On the **Properties** tab, set values in the following fields:
 
 ## Targeting block
 
-Targeting block provides recommendation of content based on users related to the configured Segments.
+Targeting block provides recommendation of content based on users related to the configured segments.
 
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
 - **Select default content** — Click **Select content**, browse the content, and choose the default content item to display when no priority rules are valid.
-- **Setup segment and content matching priority rules** — Select a Segment Group and a Segment,
-then click **Select content** and navigate to the content item that you want to display for the selected group.
+- **Setup segment and content matching priority rules** — Select a segment group and a segment, then click **Select content** and navigate to the content item that you want to display for the selected group.
 
-The rules are checked in order, so when a user belongs to more than one Segment, the first rule applies.
+The rules are checked in order, so when a user belongs to more than one segment, the first rule applies.
 
-You can preview the page for each of the available Segments:
+You can preview the page for each of the available segments:
 
-![Previewing page for a given Segment](img/page_builder_segment_preview.png)
+![Previewing page for a given segment](img/page_builder_segment_preview.png)
 
 ## Text block
 
