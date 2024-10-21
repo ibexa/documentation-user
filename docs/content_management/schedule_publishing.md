@@ -4,7 +4,8 @@ description: You can schedule publication of content and Page blocks for specifi
 
 # Schedule content publication
 
-There are three ways in which you can schedule content to be published, revealed or hidden in the future:
+You can schedule content to be published, revealed or hidden in the future.
+To do it, use one of the three options:
 
 - [Scheduler tab](#scheduler-tab) in any Page block's configuration
 - [Content Scheduler block](#content-scheduler-block) on a Page
@@ -12,10 +13,10 @@ There are three ways in which you can schedule content to be published, revealed
 
 ## Scheduler tab [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
-The Scheduler tab is available in the configuration of all Page blocks.
+The **Scheduler** tab is available in the configuration of all Page blocks.
 You can use it to set the date and time when the block becomes visible and when it disappears from a Page.
 If you configure the reveal and/or hide dates for a Page block, you can then see the scheduled blocks (except for the Content Scheduler) in the calendar.
-This way you can see what content is planned will be available in the future.
+This way you can see what content is planned to be available in the future.
 
 ![Schedule tab](img/schedule_tab.png)
 
@@ -24,10 +25,10 @@ This way you can see what content is planned will be available in the future.
 In the Content Scheduler block you can select content items to be displayed at a selected time.
 
 For each content item you can choose an airtime - a date and time in the future.
-At this time the content item will become visible.
+At this time the content item becomes visible.
 
 The Content Scheduler block has a limit of content items.
-If the limit is filled and a new content item is displayed, the oldest item will disappear from the block.
+If the limit is filled and a new content item is displayed, the oldest item disappears from the block.
 
 ![Content Scheduler](img/content_scheduler.png)
 
@@ -38,10 +39,9 @@ When editing a content item, select **Publish later** in the menu on the right.
 ![Publish Later button in the menu](img/publish_later.png "Publish Later button in the menu")
 
 A **Future publication settings** window is displayed.
-Choose a date and time and the content will be published at that time.
+Choose a date and time for the content publication.
 
-If you had planned a future publication date and enter the edit mode of the same content item,
-you also have a new option in the menu: **Discard publish later**.
+If you had planned a future publication date and enter the edit mode of the same content item, you also have a new option in the menu: **Discard publish later**.
 Use it to remove the previously selected publication date.
 
 ![Discard publish later button in the menu](img/discard_publish_date.png "Discard publish later button in the menu")
@@ -51,20 +51,20 @@ To browse all the future events, use the [Calendar widget](#calendar-widget).
 
 ## Date-based hiding
 
-When your content item is published, you can schedule a date and time and the content will be hidden at that time.
+When your content item is published, you can schedule a date and time for the content to become hidden.
 To do this, go to the **Content** tab and select **Content structure** or **Media**.
 Then, navigate to the content item that you want to hide and click **Hide** in the menu.
 
 ![Hide content item modal window](content_organization/img/schedule_hiding.png "Hide content item modal window")
 
-Once a content item is hidden, it is unavailable on the front page and inactive in the Content Tree.
-This change affects the content item in all of its [Locations](content_organization/manage_locations_urls.md#content-locations).
+Once a content item is hidden, it's unavailable on the front page and inactive in the content tree.
+This change affects the content item in all of its [locations](content_organization/manage_locations_urls.md#content-locations).
 
 ## Timeline [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
-The timeline in Page mode shows all changes that will happen to the Page in the future.
+The timeline in page mode shows all changes that happen to the page in the future.
 
-You can use the slider to preview what the Page will look like at a given time.
+You can use the slider to preview what the page looks like at a given time.
 Use the button on the right of the time to see a list of all upcoming changes.
 
 ![List of upcoming events in the timeline](img/timeline_list.png)
@@ -73,7 +73,7 @@ Use the button on the right of the time to see a list of all upcoming changes.
 
 The calendar widget enables you to view and perform actions on various events.
 Out of the box, it displays content items and Page blocks scheduled for future publication, but your page administrator can configure custom events.
-Therefore, the calendar can contain other events, e.g. national holidays, important dates, etc.
+Therefore, the calendar can contain other events, for example, national holidays or important dates.
 
 To access the calendar widget, in the **Content Panel**, open the **Calendar** tab.
 
@@ -112,7 +112,7 @@ The calendar view refreshes automatically.
 
 The calendar widget toolbar displays events you select and gives you access to actions assigned to them.
 The available actions appear in the upper-right corner of the toolbar when you select an event.
-You can select multiple events of the same type and perform bulk actions on them, e.g. [reschedule or cancel publication](#reschedule-or-cancel-publication).
+You can select multiple events of the same type and perform bulk actions on them, for example, [reschedule or cancel publication](#reschedule-or-cancel-publication).
 
 !!! note
 
@@ -126,7 +126,7 @@ To select, click on all events of the same type you want to add to the toolbar l
 
 ## Reschedule or cancel publication
 
-In case of publishable content items (e.g. articles), you can change or cancel their planned publication by clicking **Reschedule** or **Cancel publication**.
+In case of publishable content items (for example, articles), you can change or cancel their planned publication by clicking **Reschedule** or **Cancel publication**.
 These buttons are available on the **My dashboard** screen, and in the Calendar widget.
 
 |Button|Description|
