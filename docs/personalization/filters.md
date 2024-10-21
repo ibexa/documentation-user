@@ -119,8 +119,8 @@ Here are the examples of common representation dimensions of items beyond the we
 
 |Business|Possible dimensions|
 |---|---|
-|eCommerce|manufacturer (for example, BOSCH or Renault)</br>season (for example, winter or spring)</br>price range (for example, entry, middle, or premium)</br>platform (for example, Mac, Windows, or Linuxć)|
-|Book store|genre (for example, romance, action, or sciencefor example, )</br>design (for example, hardcover, paperback, or audiobookfor example, )</br>author (for example, George R. R. Martin or Steven Spielberg)|
+|eCommerce|manufacturer (for example, BOSCH or Renault)</br>season (for example, winter or spring)</br>price range (for example, entry, middle, or premium)</br>platform (for example, Mac, Windows, or Linux)|
+|Book store|genre (for example, romance, action, or science)</br>design (for example, hardcover, paperback, or audiobook)</br>author (for example, George R. R. Martin or Steven Spielberg)|
 |Content publishing|global subject (for example, politics, sports, or tech)</br>physical location (for example, France, Norway, or Berlin)</br>timeframe (for example, today, this week, or exact date)|
 
 You should avoid using category filtering with "Also clicked/purchased" and stereotype models.

@@ -33,7 +33,7 @@ Even if you hide the content in one location, it remains visible in its other lo
 You can also [hide the content item itself](copy_move_hide_content.md#hide-content).
 
 When a location is hidden, all of its children (other content items that are under it in the tree) are also automatically hidden.
-They can only be revealed if the parent ocation is revealed as well.
+They can only be revealed if the parent location is revealed as well.
 
 A hidden location is invisible for everyone viewing the website.
 If you're looking for a way to allow only some users to view parts of the content tree, use [Sections](classify_content.md#sections) and combine them with [proper permissions](../../permission_management/permission_system.md).

@@ -33,7 +33,7 @@ As a result, SEO tags are filled in at content item generation phase with specif
 
 You can also fine-tune the way your content is presented when linked from a social media platform by populating the social media-specific meta tags in the exact same way:
 fill in fields in the **OpenGraph** and **Twitter** sections with patterns to configure the Facebook and Twitter presentation respectively.
-If you leave these fields blank, social media snippets are generated based on the definitions that you provided in the search engine meta tag fields.
+<!--If you leave these fields blank, social media snippets are generated based on the definitions that you provided in the search engine meta tag fields.-->
 
 ## Preview meta tags of content item
 
