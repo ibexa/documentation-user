@@ -17,14 +17,12 @@ The following blocks are provided with a clean installation of [[= product_name 
 |[Quick actions](#quick-actions-block)|Displays selected mostly used actions and shortcuts.|
 |[Recent activity](#recent-activity-block)|Displays a list of recent activity of all or selected users.|
 |[Recent orders](#recent-orders-block)|Displays a table presenting recent orders and their status.|
-|[Review queue](#review-queue-block)|Displays a list of content items which user or User group can review.|
+|[Review queue](#review-queue-block)|Displays a list of content items which user or user group can review.|
 |[Top 10 clicked items](#top-10-clicked-items-block)|Displays a table presenting top 10 clicked items.|
 
 !!! note
 
-    Before you add a block that involves products, product types, or product categories, make
-    sure your that your [user Role](permissions_and_users.md) has
-    the `Product/View` and `Product type/View` permission.
+    Before you add a block that involves products, product types, or product categories, make sure your that your [user role](permissions_and_users.md) has the `Product/View` and `Product type/View` permission.
 
 ## Common content block
 
@@ -94,8 +92,13 @@ The table contains the following columns: Name, Image, Code, Category, Type, Var
 On the **Properties** tab, set values in the following fields:
 
 - **Name** - Enter a name for the block.
+<<<<<<< HEAD
 - **Number of products to be displayed** - Set a number of products to be displayed. Default value = 10.
 - **Stock** - Set up the maximum stock value (only products with stock number greater than zero and less than the set maximum number will be displayed). Default value = 10.
+=======
+- **Number of visible products** - Set a number of products to be displayed. Default value = 10, minimum value = 1, and maximum = 10.
+- **Stock threshold** - Set up the maximum stock value (only products with stock number greater than zero and less than the set maximum number are displayed). Default value = 10.
+>>>>>>> 2b18e53 (IBX-8916: Content update in User documentation - cd. (#314))
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of products and submit your changes.
 
@@ -115,8 +118,11 @@ On the **Design** tab, in the **View** field, select the layout to be used to pr
 Displays a list of recent activity of all or selected users.
 It also includes a link to view all activities available in Admin tab.
 
-Recent activity block contains the following data: action time, User reference (avatar, first and last name) with a link to the user profile (if available),
-Activity type with the context.
+Recent activity block contains the following data:
+
+- action time
+- user reference (avatar, first and last name) with a link to the user profile (if available)
+- activity type with the context
 
 On the **Properties** tab, set values in the following fields:
 
@@ -143,7 +149,7 @@ On the **Design** tab, in the **View** field, select the layout to be used to pr
 
 ## Review queue block
 
-Displays a list of content items which user or User group can review.
+Displays a list of content items which user or user group can review.
 
 On the **Properties** tab, set values in the following fields:
 

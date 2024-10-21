@@ -18,8 +18,7 @@ To control the availability and stock, in product or product variant view, go to
 
 ![Product availability](img/product_availability_tab.png "Product availability")
 
-Then, click **Create** to add availability to a product that doesn't have it,
-or **Edit** to modify existing availability settings.
+Then, click **Create** to add availability to a product that doesn't have it, or **Edit** to modify existing availability settings.
 
 Use the **Available** switcher to indicate whether the product is currently available in the catalog.
 

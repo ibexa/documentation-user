@@ -5,14 +5,12 @@ edition: experience
 
 # Customer management
 
-In the Back Office, you can manage members of your team,
-customers and organizations' accounts in your system, including their web store activities such as orders.
+In the back office, you can manage members of your team, customers and organizations' accounts in your system, including their web store activities such as orders.
 
 ## Create new company
 
 To create a new company, go to **Customers** -> **Companies** section.
-There you can view a list of companies you have access to,
-you can also edit them or create a new one by selecting **Create** button in the top right corner.
+There you can view a list of companies you have access to, you can also edit them or create a new one by selecting **Create** button in the top right corner.
 
 ![Companies section](img/cp_companies_section_back_office.png)
 
@@ -30,7 +28,7 @@ Optionally, you can add a website and other contact details.
 
 ## Manage company
 
-Companies can be managed from the Back Office in the **Customers** -> **Companies** section.
+Companies can be managed from the back office in the **Customers** -> **Companies** section.
 Each company has its own profile where you can find:
 
 - summary with basic information and order history
@@ -38,11 +36,11 @@ Each company has its own profile where you can find:
 - list of members and pending invitations
 - address book with multiple shipping addresses
 
-![Company profile in the Back Office](img/cp_company_profile_back_office.png)
+![Company profile in the back office](img/cp_company_profile_back_office.png)
 
-From there, you can edit the company information, invite members, manage their roles and edit their basic information.
+From there, you can edit the company information, invite members, manage their roles, and edit their basic information.
 You can also add members to a team from existing pool of users.
-Note that the Contact Person in the company has to be a member of that company.
+The Contact Person in the company has to be a member of that company.
 
 ![Add Contact Person](img/cp_contact_person_back_office.png)
 
@@ -50,36 +48,34 @@ Note that the Contact Person in the company has to be a member of that company.
 
 You can also manage companies from **Admin** in the left menu.
 There, in the **Corporate** section, you can find a list of members,
-billing addresses and technical details regarding the organization such as visibility, IDs, relations and so on.
-You can manage companies information, activate, deactivate members and change their personal information.
+billing addresses and technical details regarding the organization such as visibility, IDs, or relations.
+You can manage companies information, activate, deactivate members, and change their personal information.
 Logged-in users cannot be deactivated.
 
-![Corporate Back Office](img/cp_admin_company_view.png)
+![Corporate back office](img/cp_admin_company_view.png)
 
-In the **Roles** section, you can define Policies for each User Group, for example, a Company buyer.
-You can also set up Policies for every user who has a business account by editing a **Corporate Access** role.
+In the **Roles** section, you can define policies for each user group, for example, a company buyer.
+You can also set up policies for every user who has a business account by editing a **Corporate Access** role.
 
 !!! caution "Warning"
 
-    Do not remove any Policies from the **Corporate Access** role, the proper behaviour of business accounts depends on them.
+    Do not remove any policies from the **Corporate Access** role, the proper behaviour of business accounts depends on them.
 
 ## Invite members
 
 To invite other members to the organization,
 go to **Customers** -> **Companies** -> Select your company -> **Invitations**.
 
-![Invite members from the Back Office](img/cp_invitations_back_office.png)
+![Invite members from the back office](img/cp_invitations_back_office.png)
 
-There, you can find a list of all invitations, copy their registration links
-and re-send the invitation emails.
+There, you can find a list of all invitations, copy their registration links and re-send the invitation emails.
 
 To invite new members to the company, select **Invite member**.
 
 ![Invite members from the Customer Portal](img/cp_invite_members_portal.png)
 
-Then, in a pop-up window fill out email addresses one by one,
-or use drag and drop to upload a file with a list of emails.
-You also have to assign a Role to each new member from a drop-down list.
+Then, in a pop-up window fill out email addresses one by one, or use drag and drop to upload a file with a list of emails.
+You also have to assign a role to each new member from a drop-down list.
 Click **Send** to send out invitations.
 
 Invited users receive an email message with a registration link.

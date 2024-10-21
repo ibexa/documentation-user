@@ -7,8 +7,7 @@ edition: experience
 
 [[= product_name =]] logs various operations on the repository and in the application.
 
-If you have **Setup / Administrate** and **Activity Log / Read** [permissions](permission_system.md),
-you can review the most recent activity log in  the Back Office, **Admin** -> **Recent activity**.
+If you have **Setup / Administrate** and **Activity Log / Read** [permissions](permission_system.md), you can review the most recent activity log in  the back office, **Admin** -> **Recent activity**.
 
 ![Recent activity](recent_activity.png "Recent activity")
 
@@ -22,17 +21,15 @@ By default, actions on the following items are displayed:
 
 !!! note
 
-    If your implementation requires that other actions are logged,
-    see [custom log entry developer documentation]([[= developer_doc =]]/administration/recent_activity/recent_activity/#adding-custom-activity-log-entries).
+    If your implementation requires that other actions are logged, see [custom log entry Developer Documentation]([[= developer_doc =]]/administration/recent_activity/recent_activity/#adding-custom-activity-log-entries).
 
     By default, log entries are kept for 30 days.
     This time can be modified through configuration.
-    For more information, see [developer documentation]([[= developer_doc =]]/administration/recent_activity/recent_activity/#configuration-and-cronjob).
+    For more information, see [Developer Documentation]([[= developer_doc =]]/administration/recent_activity/recent_activity/#configuration-and-cronjob).
 
-Log entries are grouped by date,
-then by logical bond (like web request, or migration file).
+Log entries are grouped by date, then by logical bond (like web request, or migration file).
 
-Each activity log entry shows
+Each activity log entry shows:
 
 - when the action was performed,
 - who performed it (avatar, first name, last name),
@@ -41,8 +38,8 @@ Each activity log entry shows
 
 Depending on the system configuration, activity logs may also be shown:
 
-- on the Dashboard with the [Recent activity block](dashboard_block_reference.md#recent-activity-block)
-- within the [user profile](get_started.md#view-and-edit-user-profile) 
+- on the dashboard with the [Recent activity block](dashboard_block_reference.md#recent-activity-block)
+- within the [user profile](get_started.md#view-and-edit-user-profile)
 
 ## Filter activities
 

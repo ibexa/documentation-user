@@ -4,9 +4,10 @@ description: You can create URL alias name pattern and custom URLs for the Produ
 
 # Product page URLs
 
-Every [product item](products.md) has a system URL that is automatically generated. It is based on a pattern that combines fields and attributes to build the URL (URL alias name pattern).
+Every [product item](products.md) has a system URL that is automatically generated.
+It's based on a pattern that combines fields and attributes to build the URL (URL alias name pattern).
 
-When you are creating new [product type](create_product_types.md) you can set up product URL alias name pattern.
+When you're creating new [product type](create_product_types.md) you can set up product URL alias name pattern.
 
 To do it, fill in all the necessary information, choose the attributes that you want to use in URL alias name pattern, copy their ID, and paste in the **URL alias name pattern** field using following pattern: <attribute:id>-<attribute:id>-(...), then click **Save and close** button.
 
@@ -40,15 +41,15 @@ The following attribute types can be used in URL alias name pattern field:
 | Measurement (single) | Single value and unit | 256gb |
 | Measurement (range) | Value unit and minimum/maximum values | 20-25cm|
 
-You can use many attributes identifiers as well as fields identifiers in the URL alias pattern field. 
+You can use many attributes identifiers and fields identifiers in the URL alias pattern field.
 
 Having keyword-rich URLs also improves the product's visibility in search engine results and boosts the page's ranking in search results.
 
 ## Create custom URL
 
 You can create custom URL for each product.
-Customized URLs are easy to remember, help with SEO optimization and reduce bounce rates on the website.
-It improves the user experience - you can understand what the product is about just by reading the link. 
+Customized URLs are memorable, help with SEO optimization and reduce bounce rates on the website.
+It improves the user experience - you can understand what the product is about by reading the link.
 
 To do it, follow the steps:
 
