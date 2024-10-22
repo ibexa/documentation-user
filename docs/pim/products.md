@@ -1,5 +1,5 @@
 ---
-description: Products are containers that aggregate information about the items you offer, their specs, variants, availability, etc.
+description: Products are containers that aggregate information about the items you offer, for example, their specs, variants, or availability.
 ---
 
 # Products
@@ -25,8 +25,7 @@ You must then set:
 - at least one price for the product
 - availability with positive or infinite stock for the product
 
-When you review product details, under the product name, you can see a progress bar with an approximate indication
-of how much of the product information you provided, and how much is still missing.
+When you review product details, under the product name, you can see a progress bar with an approximate indication of how much of the product information you provided, and how much is still missing.
 
 ![Quick view of product completeness](img/product_completeness_bar.png "Quick view of product completeness")
 
@@ -43,6 +42,5 @@ It lists all tasks required for product configuration, including:
 
 ![Product completeness screen](img/product_completeness.png "Product completeness screen")
 
-You can click the **Edit** button next to an unfinished task in the Completeness table
-to go directly to the screen where you can add the missing information.
+You can click the **Edit** button next to an unfinished task in the **Completeness** table to go directly to the screen where you can add the missing information.
 

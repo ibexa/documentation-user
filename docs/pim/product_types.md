@@ -4,10 +4,10 @@ description: Product types contain a combination of Fields and attributes and se
 
 # Product types
 
-Product types are templates that contain a combination of [Fields](../content_management/content_model.md#fields-and-field-types) and [attributes](#attributes) which constitute a product definition.
-By default, product types contain such Fields as name, specification, image, or category.
+Product types are templates that contain a combination of [fields](../content_management/content_model.md#fields-and-field-types) and [attributes](#attributes) which constitute a product definition.
+By default, product types contain such fields as name, specification, image, or category.
 You can modify them as required.
-You need different product types, because products of type "Laptops" contain different Fields and attributes than those of type "White appliances".
+You need different product types, because products of type "Laptops" contain different fields and attributes than those of type "White appliances".
 
 When you create a new product type, you can choose between two available product type flavors: Physical and Virtual:
 
@@ -15,7 +15,7 @@ When you create a new product type, you can choose between two available product
 They can use measurement attributes. They require shipment in the online purchase process.
 Examples: heaters, laptops, phones.
 - Virtual - non-tangible items. They can be sold individually, or as part of a product bundle.
-They don't require shipment in the online process. Examples: memberships, services, warranties. 
+They don't require shipment in the online process. Examples: memberships, services, warranties.
 
 A product type also defines both the attributes and VAT rates for all its products.
 
@@ -23,7 +23,7 @@ When a product type is created, you can review its fields, attributes, and VAT r
 
 ![VAT rates in product type's details view](img/vat_rates_product_details.png "VAT rates in product type's details view")
 
-If your [user Role](../permission_management/work_with_permissions.md) has the `ProductType/Edit` 
+If your [user role](../permission_management/work_with_permissions.md) has the `ProductType/Edit` 
 permission, you can [modify product types and add individual attributes or attribute groups](create_product_types.md).
 
 ### Attributes
