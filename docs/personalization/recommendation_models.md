@@ -214,6 +214,36 @@ The logic used for resolving a submodel is as follows:
     Recommendation are fetched from all the submodels and merged based on the weight (relevance).
     If one of the submodels delivers recommendations with better relevance, the results of other models can disappear from the list.
 
+### Dynamic attribute
+
+Dynamic attribute submodels eliminate the need for manual grouping and simplify configuration.
+They allow for simpler, faster, and less demanding recommendation tests using different attributes, because all you need to do is make one request and rebuild the model.
+
+They work best in straightforward cases when you filter by the value of the attribute.
+
+Dynamic attribute submodels:
+
+- operate only on [nominal attributes](recommendation_models#nominal-attributes) (numeric attributes are not supported)
+- can be used for [popularity](recommendation_models#popularity-models) and [collaborative](recommendation_models#collaborative-models) types of models (as they support submodels)
+- have limitation of max. 50 attribute values (if more, you need to follow standard procedure - manual configuration by [[= product_name_base =]] Team)
+- operate on scenarios thay use submodel support for model (`Submodels` data type)
+- require sending a request and building a model
+- are calculated for all new attribute values after import
+- are always up-to-date with the imported items
+- still add new values ​​when attributes are only partially grouped manually
+- aren't added if all attributes are manually grouped (full manual intervention)
+- cannot be calculated if there is any submodel manually configured for provided attribute
+- don't operate on the values which are no longer present
+
+!!! note "Enable dynamic attribute"
+
+    Dynamic attribute must be enabled by [[= product_name_base =]] Team.
+    To start using this functionality, contact customer support (support@ibexa.co).
+
+!!! caution "Unused attributes"
+
+    If attribute is not used for at least 5 days, all related submodels are removed.
+
 ## Time-slot based models
 
 Time-slot based models consider only a particular range of time rather than the full day when calculating recommendations.
