@@ -214,7 +214,7 @@ The logic used for resolving a submodel is as follows:
     Recommendation are fetched from all the submodels and merged based on the weight (relevance).
     If one of the submodels delivers recommendations with better relevance, the results of other models can disappear from the list.
 
-### Dynamic attribute
+### Dynamic attributes
 
 Dynamic attribute submodels eliminate the need for manual grouping and simplify configuration.
 They allow for simpler, faster, and less demanding recommendation tests using different attributes, because all you need to do is make one request and rebuild the model.
