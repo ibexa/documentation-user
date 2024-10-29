@@ -42,8 +42,8 @@ nav:
             - Classify content: content_management/content_organization/classify_content.md
             - Manage content Locations and URLs: content_management/content_organization/manage_locations_urls.md
     - AI Actions:
-        - AI Actions: ai/ai_actions.md
-        - Work with AI Actions: ai/work_with_ai_actions.md
+        - AI Actions: ai_actions/ai_actions.md
+        - Work with AI Actions: ai_actions/work_with_ai_actions.md
     - PIM:
         - Product Information Management: pim/pim.md
         - PIM settings:

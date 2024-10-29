@@ -188,13 +188,29 @@ Contact your website administrator about the details of using them.
 
 ### AI Assistant
 
-If the [AI Actions](ai_actions.md) add-on has been installed and configured in your application, when writing content, you can ask the AI Assistant to perform specific tasks on your text.
-For example, you can highlight a section and instruct the AI Assistant to extend the passage or adjust its tone to suit your needs.
+If the [AI Actions](ai_actions.md) LTS update has been installed and configured in your application, when writing content, the **Improve text** button is visible in the toolbox.
+If you have `Action configuration/View` and `Action configuration/Execute` permissions, you can request that the AI Assistant performs specific tasks with your text.
+For example, you can highlight a passage and instruct the AI Assistant to extend the passage or adjust its tone to suit your needs.
 
-If you have a permission to access the **Admin UI**, the **Go to AI actions** button is also visible.
+The **Go to AI actions** button can also visible to users with access to the **Admin UI**.
 By clicking it, you can quickly navigate to [AI actions configuration](work_with_ai_actions.md).
 
-![AI Assistant](ai_assistant.png)
+![Improve text button and AI actions](ai_assistant.png)
+
+After you select an action, the AI Assistant modal appears, where you can observe the results of AI service's work.
+When response is displayed on the screen, depending on whether you are satisfied with the result, you can select one of the options:
+
+- **Replace** - replaces the source text with the output
+- **Insert below** - inserts the output text directly after the source passage
+- **Try again** - makes another attempt at generating the output
+
+![AI Assistant](ai_assistant_options.png)
+
+!!! note "Lengthy processing of complex requests"
+
+    Depending on the length of the source text and the complexity of request, processing may take a while.
+    You may cancel the processing if it takes too long by clicking **Stop**.
+
 
 ### SeenThis! streaming
 
