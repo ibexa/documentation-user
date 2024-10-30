@@ -213,3 +213,57 @@ The logic used for resolving a submodel is as follows:
     You can specify a single or multiple attributes with multiple values for requesting recommendations.
     Recommendation are fetched from all the submodels and merged based on the weight (relevance).
     If one of the submodels delivers recommendations with better relevance, the results of other models can disappear from the list.
+
+### Dynamic attributes
+
+Dynamic attribute submodels eliminate the need for manual grouping and simplify configuration.
+They allow for simpler, faster, and less demanding recommendation models building using different attributes, because all you need to do is make one request and rebuild the model.
+
+They work best in straightforward cases when you filter by the value of the attribute.
+
+Dynamic attribute submodels:
+
+- operate only on [nominal attributes](recommendation_models#nominal-attributes) (numeric attributes are not supported)
+- can be used for [popularity](recommendation_models#popularity-models) and [collaborative](recommendation_models#collaborative-models) types of models (as they support submodels)
+- have limitation of max. 50 attribute values (if more, you need to follow the procedure of manual configuration by [[= product_name_base =]] Team)
+- operate on scenarios with the selected `Submodels` data type option
+- require sending a request and building a model
+- are calculated for all new attribute values after import
+- are always up-to-date with the imported items
+- still add new values ​​when attributes are only partially grouped manually
+- aren't added if all attributes are manually grouped (full manual intervention)
+- cannot be calculated if there is any submodel manually configured for provided attribute
+- don't operate on the values which are no longer present
+
+!!! note "Enable dynamic attribute"
+
+    Dynamic attribute must be enabled by [[= product_name_base =]] Team.
+    To start using this functionality, contact customer support (support@ibexa.co).
+
+!!! caution "Unused attributes"
+
+    If an attribute is not used for at least 5 days, all related submodels are removed.
+
+## Time-slot based models
+
+Time-slot based models consider only a particular range of time rather than the full day when calculating recommendations.
+They can be used for [popularity](recommendation_models#popularity-models) and [collaborative](recommendation_models#collaborative-models) types of models.
+
+These models can be an optimum answer for customers who notice variable consumption of their content or products throughout the day, with different content being popular, for example, in the morning and afternoon.
+Time-slot based models can cover these needs, as you can request to configure and set specific time slots.
+
+In these models, recommendations are created for both configured time slots and for the main model (for example, for the last 30 days).
+However, time-slot based recommendations are shown as priority in the hours for which time slots are configured (if requested in a recommendation call).
+
+These time slots:
+
+- can cover any time frame, including minutes (for example, 11 A.M. - 3:30 P.M.), and don't necessarily have to start and end at full hour
+- cannot overlap, for example, you cannot set slots 8 A.M. - 11 A.M. and 9 A.M. - 12 A.M. at once
+- cannot span between two days, for example, you cannot set a slot to 11 P.M. - 3 A.M.
+
+To use time slot-based models, this feature must be enabled.
+
+!!! note "Enable time slots"
+
+    Time slots must be enabled and configured by [[= product_name_base =]] Team.
+    To start using this functionality and request that a specific model is created, contact customer support (support@ibexa.co).
