@@ -225,7 +225,7 @@ Dynamic attribute submodels:
 
 - operate only on [nominal attributes](recommendation_models#nominal-attributes) (numeric attributes are not supported)
 - can be used for [popularity](recommendation_models#popularity-models) and [collaborative](recommendation_models#collaborative-models) types of models (as they support submodels)
-- have limitation of max. 50 attribute values (if more, you need to follow standard procedure - manual configuration by [[= product_name_base =]] Team)
+- have limitation of max. 50 attribute values (if more, you need to follow the procedure of manual configuration by [[= product_name_base =]] Team)
 - operate on scenarios with the selected `Submodels` data type option
 - require sending a request and building a model
 - are calculated for all new attribute values after import
@@ -242,7 +242,7 @@ Dynamic attribute submodels:
 
 !!! caution "Unused attributes"
 
-    If attribute is not used for at least 5 days, all related submodels are removed.
+    If an attribute is not used for at least 5 days, all related submodels are removed.
 
 ## Time-slot based models
 
