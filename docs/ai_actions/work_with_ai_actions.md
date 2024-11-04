@@ -1,5 +1,5 @@
 ---
-description: Create new AI actions of modify existing ones to work faster and increase creativity.
+description: Create new AI actions or modify existing ones to work faster and increase creativity.
 ---
 
 # Work with AI actions

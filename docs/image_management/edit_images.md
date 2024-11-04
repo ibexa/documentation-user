@@ -9,7 +9,7 @@ You can also edit the image itself with the Image Editor.
 
 !!! note "Editing tool availability"
 
-    The editing tools are available when you work in the Back Office of your application, for example, to:
+    The editing tools are available when you work in the back office of your application, for example, to:
 
     - browse the Media root folder of the Content Tree
     - add an image or an image asset to a content item by selecting it from a Content browser or an Image picker
@@ -18,7 +18,7 @@ You can also edit the image itself with the Image Editor.
 ## Edit image asset
 
 You can edit the image asset's properties, for example, to provide a different caption for the image, or change the alternative text for the image.
-To edit an existing image asset, in the Back Office, the main menu, go to **Content** -> **Media** -> **Images**, choose the image asset that you want to edit and click **Edit**.
+To edit an existing image asset, in the back office, the main menu, go to **Content** -> **Media** -> **Images**, choose the image asset that you want to edit and click **Edit**.
 
 Here, you can:
 
