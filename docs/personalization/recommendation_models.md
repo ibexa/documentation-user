@@ -1,5 +1,6 @@
 ---
 description: Models are building blocks to recommendation scenarios. They let you define which criteria to take into account when calculating recommendations.
+month_change: true
 ---
 
 # Recommendation models
