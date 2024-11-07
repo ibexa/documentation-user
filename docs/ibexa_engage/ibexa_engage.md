@@ -1,6 +1,6 @@
 ---
 description: Use Ibexa Engage to engage audiences and collect valuable data.
-month_change: true
+month_change: false
 ---
 
 # [[= product_name_engage =]]
