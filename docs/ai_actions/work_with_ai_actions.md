@@ -5,19 +5,19 @@ description: Create new AI actions or modify existing ones to work faster and in
 # Work with AI actions
 
 AI actions define what results are available to editors in AI-enabled areas, such as, for example, the AI Assistant.
-If the AI Actions LTS update has been installed and configured in your application, and you have administrator permissions, you can reconfigure the existing AI actions, and create new ones.
+If the AI Actions LTS update has been installed and configured in your application, and you have the required [permissions]([[= developer_doc =]]/permissions/policies/#ai-actions), including `Action configuration/Edit` and `Action configuration/Create`, you can reconfigure the existing AI actions, and create new ones.
 
 ## View AI actions
 
-With administrator permissions, you can view all AI actions configured in the application by navigating to the Admin Panel and selecting **AI actions**.
+With the right permissions, you can view all AI actions configured in the application by navigating to the Admin Panel and selecting **AI actions**.
 
 ![AI actions in Admin Panel](img/ai_actions_list.png)
 
 You can narrow down the list of AI actions by filtering it by the status, either Enabled or Disabled, or by the type.
-Out of the box, there are two types of AI Actions present in the system:
+Out of the box, there are two categories of AI Actions present in the system:
 
-- **Refine text** - used primarily in [online editor](create_edit_content_items.md#ai-assistant) for performing text-to-text actions, for example: "Rewrite text in formal tone"
-- **Generate alternative text** - used in the [image asset editing screen](upload_images.md#ai) to perform image-to-text actions, for example: "Generate short alternative description of an image"
+- **Text to text** - used by default in [online editor](create_edit_content_items.md#ai-assistant) for refining text, for example: "Rewrite text in formal tone"
+- **Image to text** - used by default in the [image asset editing screen](upload_images.md#ai) to generate alternative text, for example: "Generate short alternative description of an image"
 
 It may happen that a set of sample AI actions has been [installed with the AI Actions package]([[= developer_doc =]]/ai_actions/install_ai_actions/#install-sample-ai-action-configurations-optional), and there is a number of existing AI actions that you can modify and clone.
 
@@ -54,7 +54,7 @@ You can modify the existing AI actions.
 
 - **Max tokens** - sets a maximum number of "[words](https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them)" or tokens that can be used in a single request by both the request and the response
 
-- **Length of prompt output** -  sets a maximum number of words or tokens that can be used by the response
+- **Length of prompt output** -  sets a maximum number of words of the generated result
 
 - **Temperature** - controls the randomness of the response. The higher the temperature, the more creative is the output
 

@@ -189,7 +189,7 @@ Contact your website administrator about the details of using them.
 ### AI Assistant
 
 If the [AI Actions](ai_actions.md) LTS update has been installed and configured in your application, when writing content, the **Improve text** button is visible in the toolbox.
-If you have `Action configuration/View` and `Action configuration/Execute` permissions, you can request that the AI Assistant performs specific tasks with your text.
+If you have the required [permissions]([[= developer_doc =]]/permissions/policies/#ai-actions), you can request that the AI Assistant refines your text by using one of the defined actions.
 For example, you can highlight a passage and instruct the AI Assistant to extend the passage or adjust its tone to suit your needs.
 
 The **Go to AI actions** button can also visible to users with access to the **Admin UI**.
