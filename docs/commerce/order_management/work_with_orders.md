@@ -6,7 +6,7 @@ edition: commerce
 # Work with orders
 
 In [[= product_name =]], you can view a list of orders and modify their statuses on the **Orders** screen.
-By default, depending on your permissions, you can access your own orders or all the orders that exist in the system.
+By default, depending on your permissions, you can access your own orders, or all the orders that exist in the system.
 
 ## Filter orders in order list
 
@@ -35,7 +35,7 @@ Available filters are:
 
 To view the details of an order, click its line in the order list.
 
-On the order details screen, you can view more information about the order, such as customer, payment and shipment details.
+On the order details screen, you can view more information about the order, such as customer, payment, and shipment details.
 
 ![Order detail view](order_detail_view.png)
 
@@ -43,7 +43,7 @@ In the **Items** tab you can see a list of products included in the order.
 
 ![Viewing products included in the order](order_detail_items.png)
 
-Where fields have the following meaning:
+The fields have the following meaning:
 
 - **Subtotal (net)** - a sum of all product prices without taxes
 - **Shipping cost** - a net cost of the selected shipping method
@@ -52,17 +52,15 @@ Where fields have the following meaning:
 
 !!! note "Ordering virtual products"
 
-    If the order includes only virtual products then the Shipment and Shipping address sections are not available.
-    Virtual products don't require shipment when they are the only product in a purchase.
- 
+    If the order includes only virtual products then the Shipment and Shipping address sections aren't available.
+    Virtual products don't require shipment when they're the only product in a purchase.
 
 ## Change order status
 
-If your [user Role](work_with_permissions.md) includes the `Order/Update` permission, you can change the status of an existing order:
-confirm it if the order has "Pending" status, or complete it when it is in "Processing" status.
+If your [user role](work_with_permissions.md) includes the `Order/Update` permission, you can change the status of an existing order: confirm it if the order has "Pending" status, or complete it when it's in "Processing" status.
 With the `Order/Cancel` permission, you can cancel an existing order.
 
 !!! note "Canceling orders"
 
-    When an order is created, stocks are reduced for the products on that order. 
+    When you create an order, stocks are reduced for the products on that order.
     When you cancel an order, the stocks are reverted back to their original values.

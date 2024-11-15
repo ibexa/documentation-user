@@ -1,9 +1,9 @@
 ---
-description: Ibexa Engage helps engage audiences and collect valuable data by using interactive content.
-month_change: true
+description: Use Ibexa Engage to engage audiences and collect valuable data.
+month_change: false
 ---
 
-# Ibexa Engage
+# [[= product_name_engage =]]
 
 [[= product_name_engage =]] is a data collection tool.
 It gives you the ability to use the [Qualifio](https://qualifio.com/) tools to engage your audiences.
@@ -41,7 +41,7 @@ Click the **Manage campaigns in Qualifio** button to open a Qualifio page, where
 A campaign is a set of different concepts, grouped into steps, and open to configuration.
 You can use a campaign to interact with viewers, boost ad impressions, or gather cookies from targeted audiences.
 
-Campaign can contain a welcome screen, a form step, an interaction element, an exit screen, and so on.
+Campaign can contain elements like a welcome screen, a form step, an interaction element, or an exit screen.
 
 You can use Qualifio's existing templates and interactive elements, such as quizzes, pools, and forms, to create visually appealing, customized campaigns.
 You can also configure the backgrounds, themes, or designs, and set up a specific time frame for each campaign.
@@ -64,11 +64,12 @@ Every campaign includes at least one publication channel, which you can choose f
 - **Mobile** - uses a link from Qualifio to integrate a campaign that is optimized for mobile usage.
 
 !!! note
+
     By default, every type of publication channel is responsive and compatible with all mobile devices.
 
 ## Work with campaigns
 
-You can create, configure, and manage campaigns by using [Qualifio Engage](https://developers.qualifio.com/docs/engage/).
+You can create, configure, and manage campaigns with [Qualifio Engage](https://developers.qualifio.com/docs/engage/).
 To access the Qualifio Manager page and create or manage campaigns, click the **Manage campaigns in Qualifio** button under the **Ibexa Engage** menu.
 To display your campaign on the website, use one of the available tools - Campaign block or Campaign custom tag.
 
@@ -80,11 +81,18 @@ To promote your campaign, you can add a [Campaign block](../content_management/b
 In the block's settings, you can select a campaign that you want to display from a drop-down list.
 This list includes all campaigns available on user's Qualifio account which are active or scheduled to launch in the future.
 
+You can set the dimensions of the field in which the campaign is displayed. To do it, insert width and height values in the proper fields.
+If size fields are blank, the system sets default template values. It's recommended to adjust them for better results.
+
 ![Campaign block](img/campaign_block.png "Campaign block")
 
 ### Campaign custom tag
 
 You can embed a campaign within the [Rich Text field](../content_management/create_edit_content_items.md#edit-rich-text-fields) by using a Campaign custom tag.
-To do it, select a custom tag from the toolbar, and provide campaign ID (available in Qualifio Manager).
+To do it, insert **Campaign** content item in the Rich Text Field and choose campaign from the drop-down list.
+This list includes all campaigns available on user's Qualifio account which are active or scheduled to launch in the future.
+
+You can set the dimensions of the field in which the campaign is displayed. To do it, select units, and provide width and height values in the proper fields.
+If size fields are blank, the system sets default template values. It's recommended to adjust them for better results.
 
 ![Campaign custom tag](img/campaign_custom_tag.png "Campaign custom tag")

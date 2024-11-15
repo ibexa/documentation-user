@@ -17,7 +17,7 @@ nav:
     - Content model management:
         - Content model: content_management/content_model.md
         - Create and edit content types: content_management/create_edit_content_types.md
-        - Configure content type Fields: content_management/configure_ct_field_settings.md
+        - Configure content type fields: content_management/configure_ct_field_settings.md
     - Content management:
         - Content management: content_management/content_management.md
         - Content items: content_management/content_items.md
@@ -40,7 +40,7 @@ nav:
         - Content organization:
             - Copy, move or hide content: content_management/content_organization/copy_move_hide_content.md
             - Classify content: content_management/content_organization/classify_content.md
-            - Manage content Locations and URLs: content_management/content_organization/manage_locations_urls.md
+            - Manage content locations and URLs: content_management/content_organization/manage_locations_urls.md
     - AI Actions:
         - AI Actions: ai_actions/ai_actions.md
         - Work with AI Actions: ai_actions/work_with_ai_actions.md

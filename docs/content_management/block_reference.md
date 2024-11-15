@@ -11,17 +11,17 @@ The following blocks are provided with a clean installation of [[= product_name 
 |-----|-----------|
 |[Banner](#banner-block)|Displays an image content item with a URL attached to it.|
 |[Bestsellers](#bestsellers-block)|Displays a list of products that were recently a bestseller.|
-|[Campaign](#campaign-block)|Displays a campaign selected from Ibexa Engage.|
+|[Campaign](#campaign-block)|Displays a campaign selected from [[= product_name_engage =]].|
 |[Catalog](#catalog-block)|Displays products from a specific catalog to a selected customer group.|
-|[Code](#code-block)|Enables you to place text, links, images, etc. on your Page using custom HTML.|
-|[Collection](#collection-block)|Displays a set of content items you select manually from the Content structure. |
-|[Content List](#content-list-block)|Displays content items of a chosen content type (or Types) that are contained in a selected folder. |
+|[Code](#code-block)|Enables you to place content on your page, for example, text, links, or images, using custom HTML.|
+|[Collection](#collection-block)|Displays a set of content items you select manually from the content structure. |
+|[Content List](#content-list-block)|Displays content items of a chosen content type (or types) that are contained in a selected folder. |
 |[Content Scheduler](schedule_publishing.md#content-scheduler-block)|Displays content items at a pre-defined time. |
 |[Dynamic targeting](#dynamic-targeting-block)|Embeds recommended items based on the [Segment](content_organization/classify_content.md#segments) the user belongs to. |
-|[Embed](#embed-block)|Embeds a content item of any content type on the Page. |
-|[Form](#form-block)|Embeds a Form content item that you select from the Content Structure. |
+|[Embed](#embed-block)|Embeds a content item of any content type on the page. |
+|[Form](#form-block)|Embeds a Form content item that you select from the content structure. |
 |[Gallery](#gallery-block)|Displays all images contained in a selected folder. |
-|[Ibexa Connect](#ibexa-connect-block)|Retrieves and displays data from an Ibexa Connect webhook. |
+|[[[= product_name_connect =]]](#ibexa-connect-block)|Retrieves and displays data from an [[= product_name_connect =]] webhook. |
 |[Last purchased](#last-purchased-block)|Displays a list of products that were recently purchased from PIM. |
 |[Last viewed](#last-viewed-block)|Displays a list of products from PIM that were recently viewed. |
 |[Orders](#orders-block)|Displays a list of orders associated with a particular company or individual customer. |
@@ -31,21 +31,21 @@ The following blocks are provided with a clean installation of [[= product_name 
 |[RSS](#rss-block)|Loads and displays news from RSS feeds (channels). |
 |[Sales representative](#sales-representative)|Loads and displays company's sales representative.|
 |[SeenThis!](#seenthis-block)|Displays video with exceeded standard video restrictions of 3.5MB.|
-|[Targeting](#targeting-block)|Embeds an content item based on the [Segment](content_organization/classify_content.md#segments) the user belongs to. |
-|[Text](#text-block)|Enables you to add to the Page a Rich Text block. |
-|[Video](#video-block)|Embeds a video into the Page with standard playback controls. |
+|[Targeting](#targeting-block)|Embeds an content item based on the [segment](content_organization/classify_content.md#segments) the user belongs to. |
+|[Text](#text-block)|Enables you to add to the page a Rich Text block. |
+|[Video](#video-block)|Embeds a video into the page with standard playback controls. |
 
 [[= include_file('docs/content_management/create_edit_pages.md', 86, 96) =]]
 
 ## Block basics
 
-Handling blocks is straightforward, drag and drop them into the desired spot within the drop zone. 
+Handling blocks is straightforward, drag and drop them into the desired spot within the drop zone.
 There's no need to worry about getting their placement perfect initially, you can rearrange them whenever you need.
 
 ### Settings
 
-You have the ability to control individual blocks by accessing their settings. 
-Click on the settings icon next to the block's name. 
+You have the ability to control individual blocks by accessing their settings.
+Click on the settings icon next to the block's name.
 
 ![Block settings](img/block_settings.png "Block settings")
 
@@ -83,14 +83,14 @@ On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
 - **Personalization scenario** – Select "Bestsellers" to display popular products.
-- **Product Types to be displayed** – Select the type of products to be displayed on the list.
+- **Product types to be displayed** – Select the type of products to be displayed on the list.
 - **Limit** – Set the number of products to be displayed.
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of products and submit your changes.
 
 ## Campaign block
 
-Displays a campaign created and configured in [Ibexa Engage](../ibexa_engage/ibexa_engage.md). 
+Displays a campaign created and configured in [[[= product_name_engage =]]](../ibexa_engage/ibexa_engage.md).
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the campaign.
@@ -121,7 +121,7 @@ On the **Properties** tab, set values in the following fields:
 
 ## Collection block
 
-Displays a collection of content items manually selected from the Content structure, allowing you to feature specific content for promotional campaigns or highlight essential information on your website.
+Displays a collection of content items manually selected from the content structure, allowing you to feature specific content for promotional campaigns or highlight essential information on your website.
 On the **Properties** tab, set values in the following fields:
 
 - **Name** — Enter a name for the page block.
@@ -142,17 +142,17 @@ On the **Properties** tab, set values in the following fields:
 
 ## Dynamic targeting block
 
-Dynamic targeting block provides recommended items based on users related to the configured Segments.
+Dynamic targeting block provides recommended items based on users related to the configured segments.
 
 On the **Properties** tab, set values in the following fields:
 
 - **Name** — Enter a name for the page block.
 - **Select default scenario** — Select the default scenario for recommended items that should be rendered if the current user
-is not assigned to any Segment.
-- **Setup segment and scenario matching priority rules** — Select a Segment group, a Segment identifier and Scenario that you want to display recommendations from.
+is not assigned to any segment.
+- **Setup segment and scenario matching priority rules** — Select a segment group, a segment identifier and Scenario that you want to display recommendations from.
 - **Display limit** — Set the number of products to be displayed.
 
-The rules are checked in order, so when a user belongs to more than one Segment, the first rule applies.
+The rules are checked in order, so when a user belongs to more than one segment, the first rule applies.
 
 ![Dynamic targeting](img/page_builder_dynamic_targeting.png)
 
@@ -179,7 +179,7 @@ On the **Properties** tab, set values in the following fields:
 
     To display two or more identical forms on a single page, have your developer create multiple identical form blocks for your use. This prevents potential issues related to duplicate data submission.
 
-    For more information about creating form blocks, see [Creating a newsletter form]([[= developer_doc =]]/content_management/pages/create_custom_page_block/) in developer documentation.
+    For more information about creating form blocks, see [Creating a newsletter form]([[= developer_doc =]]/content_management/pages/create_custom_page_block/) in Developer Documentation.
 
 ## Gallery block
 
@@ -190,19 +190,19 @@ On the **Properties** tab, set values in the following fields:
 - **Folder** — Click **Select content**, browse the content, and select a folder containing images to display.
 
 After submitting the settings, all images in the folder are shown in the Gallery block.
-Selecting a folder containing content items other than images results in displaying only a link to the folder where they are stored.
+Selecting a folder containing content items other than images results in displaying only a link to the folder where they're stored.
 
-## Ibexa Connect block
+## [[= product_name_connect =]] block
 
-Access and showcase data retrieved from an Ibexa Connect webhook. Streamline information presentation for seamless insights and improved decision-making.
+Access and showcase data retrieved from an [[= product_name_connect =]] webhook. Streamline information presentation for seamless insights and improved decision-making.
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
-- **Webhook link** — Enter the link for the Ibexa Connect webhook.
+- **Webhook link** — Enter the link for the [[= product_name_connect =]] webhook.
 
-!!! caution "Using Ibexa Connect scenario block"
+!!! caution "Using [[= product_name_connect =]] scenario block"
 
-    For more information about using Ibexa Connect scenario block, see [Ibexa Connect scenario block]([[= developer_doc =]]/content_management/pages/ibexa_connect_scenario_block/) in developer documentation.
+    For more information about using [[= product_name_connect =]] scenario block, see [[[= product_name_connect =]] scenario block]([[= developer_doc =]]/content_management/pages/ibexa_connect_scenario_block/) in Developer Documentation.
 
 ## Last purchased block
 
@@ -233,7 +233,7 @@ Helps track purchase history for streamlined customer service and personalized i
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
-- **Columns** — Select columns that should be displayed in the orders table. Some columns are preselected, example: Order ID, Customer name, Total value etc.
+- **Columns** — Select columns that should be displayed in the orders table. Some columns are preselected, for example, Order ID, Customer name, or Total value.
 - **Statuses** — Set the statuses of orders that should be included in the list.
 - **Number of orders** — Set the number of orders to be displayed.
 - **Sort order** — Set the sort order for the displayed orders.
@@ -245,7 +245,7 @@ Enhances user experience by suggesting tailored options for various situations.
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
-- **Select a scenario** – Select "Landing Page" or "Top clicked".
+- **Select a scenario** – Select "Landing page" or "Top clicked".
 - **Select a content type to be displayed** – Select "Product".
 - **Display limit** – Set the number of products to be displayed.
 
@@ -261,7 +261,7 @@ On the **Properties** tab, set values in the following fields:
 
 !!! note
 
-    Due to a technical limitation, content browser does not display product variants.
+    Due to a technical limitation, content browser doesn't display product variants.
 
 ## Recently added block
 
@@ -299,6 +299,7 @@ On the **Design** tab, in the **View** field, select the layout to be used to pr
 Integration with [SeenThis!](https://seenthis.co/) service. SeenThis! block provides an adaptive streaming technology with no limitations as conventional streaming service. It allows to preserve the best video quality with minimum amount of data transfer.
 
 !!! note
+
     This page block is in an opt-in bundle, to use it, install `ibexa/connector-seenthis` bundle first.
 
 On the **Properties** tab, set values in the following fields:
@@ -321,28 +322,27 @@ On the **Properties** tab, set values in the following fields:
 
 ## Targeting block
 
-Targeting block provides recommendation of content based on users related to the configured Segments.
+Targeting block provides recommendation of content based on users related to the configured segments.
 
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
 - **Select default content** — Click **Select content**, browse the content, and choose the default content item to display when no priority rules are valid.
-- **Setup segment and content matching priority rules** — Select a Segment Group and a Segment,
-then click **Select content** and navigate to the content item that you want to display for the selected group.
+- **Setup segment and content matching priority rules** — Select a segment group and a segment, then click **Select content** and navigate to the content item that you want to display for the selected group.
 
-The rules are checked in order, so when a user belongs to more than one Segment, the first rule applies.
+The rules are checked in order, so when a user belongs to more than one segment, the first rule applies.
 
-You can preview the Page for each of the available Segments:
+You can preview the page for each of the available segments:
 
-![Previewing Page for a given Segment](img/page_builder_segment_preview.png)
+![Previewing page for a given segment](img/page_builder_segment_preview.png)
 
 ## Text block
 
-Adds a Rich Text block to the Page.
+Adds a Rich Text block to the page.
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
-- **Content** — Enter text, images, videos, etc. using Online Editor.
+- **Content** — Enter a content, for example, text, images, or videos, with the online editor.
 For details, see [Editing Rich Text Fields](create_edit_content_items.md#edit-rich-text-fields).
 
 !!! note "Use AI to improve text"
@@ -354,11 +354,11 @@ For details, see [Editing Rich Text Fields](create_edit_content_items.md#edit-ri
 
 ## Video block
 
-Integrates a video into the Page with standard playback controls.
+Integrates a video into the page with standard playback controls.
 Helps enhance content variety and captivate audiences with seamless video viewing.
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
 - **Video** — Click **Select content**, browse the content, and select a video to display in the block.
 
-On the **Properties** tab you can preview the selected video before adding it to the Page.
+On the **Properties** tab you can preview the selected video before adding it to the page.

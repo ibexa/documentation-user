@@ -16,7 +16,6 @@ To use them in the catalog, edit and enable them.
 
 ![Enabling a currency](img/enable_currency.png "Enabling a currency")
 
-To create an additional currency, provide its code (e.g. EUR, USD, GBP) and the number of fractional digits,
-that is, the number of digits after the comma/period.
+To create an additional currency, provide its code (for example, EUR, USD, or GBP) and the number of fractional digits, that is, the number of digits after the comma/period.
 
 For example, the configuration for the Swiss franc would be `CHF` with two fractional digits.

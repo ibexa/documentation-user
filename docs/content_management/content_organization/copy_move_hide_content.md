@@ -6,20 +6,18 @@ description: Copy, move, remove, or hide content item, either individually or in
 
 ## Move or copy
 
-In Content Tree, you can move or copy existing content items by selecting an 
-option at the top of the screen.
+In content tree, you can move or copy existing content items by selecting an option at the top of the screen.
 You can also copy the whole subtree (a content item with all content under it in the structure).
 
 !!! note
 
-    Copying very large subtrees may take too much time and server effort. That is why the system administrator
-    may set a limit on how many content items can be copied at the same time.
+    Copying very large subtrees may take too much time and server effort.
+    That is why the system administrator may set a limit on how many content items can be copied at the same time.
 
-    See [Copy subtree limit]([[= developer_doc =]]/administration/back_office/back_office_configuration/#copy-subtree-limit)
-    in the developer documentation on how to set this up.
+    See [Copy subtree limit]([[= developer_doc =]]/administration/back_office/back_office_configuration/#copy-subtree-limit) in Developer Documentation on how to set this up.
 
 Copying creates a new content item.
-If you only want to have the same content item to another place in the Content Tree, add another Location to it.
+If you only want to have the same content item to another place in the content tree, add another location to it.
 
 ### Multi-file move
 
@@ -35,19 +33,18 @@ After choosing and confirming new destination, all selected files are moved to i
 ## Remove content
 
 You can remove content by clicking **Send to Trash** in the menu.
-If you remove a content item that has children (other content under it in the content tree),
-both this item and the children will be removed. This also breaks the connection between the items,
-so you will not be able to restore them with the same structure.
+If you remove a content item that has children (other content under it in the content tree), both this item and the children are removed. This also breaks the connection between the items, so you cannot restore them with the same structure.
 
 Notice that the content item is not removed completely.
-It is moved to Trash, which you can access from the left menu.
-In the Trash, you can search for content items and sort your search results based on different criteria. You can then select removed content items and restore them to their original Locations or to new Locations you choose.
-If the content item's parent has been removed, you need to select a new parent Location.
+It's moved to Trash, which you can access from the left menu.
+In the Trash, you can search for content items and sort your search results based on different criteria.
+You can then select removed content items and restore them to their original locations or to new locations you choose.
+If the content item's parent has been removed, you need to select a new parent location.
 
 ![Warning before emptying the trash](img/empty_trash_warning.png "Warning before emptying the Trash")
 
-If a content item has more than one Location, selecting **Send to Trash** will remove the content item only from the current Location.
-The content will appear in Trash only once you have removed the last Location.
+If a content item has more than one location, selecting **Send to Trash** removes the content item only from the current location.
+The content appears in Trash only once you have removed the last location.
 
 You can permanently remove a content item by checking it and clicking the trash icon.
 You can also permanently remove all content from the Trash by clicking **Empty Trash**.
@@ -58,13 +55,13 @@ You can also permanently remove all content from the Trash by clicking **Empty T
 
 ## Multi-file delete
 
-There are multiple ways to delete multiple items, for example:
+You have multiple ways to delete multiple items, for example:
 
-- in Content Tree, select multiple items.
-Then click the three dots menu and select **Delete**
-- in content item's details screen, the **Sub-items** tab, select multiple items and click **Delete**
+- in content tree, select multiple items, click the three dots menu, and select **Delete**
+- in content item's details screen, the **Sub-items** tab, select multiple items, and click **Delete**
 
-Confirm your choice in the pop-up window with the **Send to trash** button. All selected files are moved to trash.
+Confirm your choice in the pop-up window with the **Send to trash** button.
+All selected files are moved to trash.
 
 ![Multi-file delete](img/multi_file_delete.png)
 
@@ -74,24 +71,24 @@ You can hide a content item by clicking **Hide** in the menu.
 
 ![Hide content icon](img/hide_content_icon.png)
 
-When you click **Hide**, you can choose to **Hide later**
-and select and date and time when the content item will be hidden:
+When you click **Hide**, you can choose to **Hide later** and select and date and time when the content item is hidden:
 
 ![Schedule hiding panel](img/schedule_hiding.png)
 
-A hidden content item is not shown in the frontend when using the default templates. It is also grayed out in the Content Tree.
+A hidden content item is not shown in the frontend when using the default templates.
+It's also grayed out in the content tree.
 
-This is different from [hiding Locations](manage_locations_urls.md#hide-locations), because it affects the content item
-in all of its Locations.
+This is different from [hiding locations](manage_locations_urls.md#hide-locations), because it affects the content item in all of its locations.
 
 !!! caution "Visibility and permissions"
 
     The [visibility switcher](https://doc.ibexa.co/projects/userguide/en/latest/content_management/content_organization/manage_locations_urls/#hide-locations) is a convenient feature for withdrawing content from the frontend.
     It acts as a filter in the frontend by default. You can choose to respect it or ignore it in your code.
-    It isn't permission-based, and **doesn't restrict access to content**. Hidden content can be read through other means, like the REST API.
+    It's not permission-based, and **doesn't restrict access to content**.
+    Hidden content can be read through other means, like the REST API.
 
     If you need to restrict access to a given content item, you could create a role that grants read access for a given
     [**Section**](https://doc.ibexa.co/projects/userguide/en/latest/content_management/content_organization/classify_content/#sections)
     or [**Object State**](https://doc.ibexa.co/projects/userguide/en/latest/content_management/content_organization/classify_content/#object-states),
-    and set a different Section or Object State for the given Content.
+    and set a different section or object state for the given content.
     Or use other permission-based [**Limitations**](https://doc.ibexa.co/projects/userguide/en/latest/permission_management/work_with_permissions/).
