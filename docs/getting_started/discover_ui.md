@@ -68,7 +68,7 @@ It lets you navigate the content tree, and, for example, create, edit, move, cop
 ## Content tree
 
 Content tree is the place where you can navigate through all the content items in your application.
-It is available in the Back Office and allows you to browse your content, move content items around, hide them, send them to trash, and perform other actions.
+It is available in the back office and allows you to browse your content, move content items around, hide them, send them to trash, and perform other actions.
 
 ![Content tree in the menu](img/left_menu_tree.png "Content tree in the menu")
 
