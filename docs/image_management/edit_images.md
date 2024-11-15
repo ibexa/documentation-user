@@ -11,7 +11,7 @@ You can also edit the image itself with the Image Editor.
 
     The editing tools are available when you work in the back office of your application, for example, to:
 
-    - browse the Media root folder of the Content Tree
+    - browse the Media root folder of the content tree
     - add an image or an image asset to a content item by selecting it from a Content browser or an Image picker
     - insert an image into a [Rich Text Field](create_edit_content_items.md#edit-rich-text-fields)
 

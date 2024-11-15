@@ -10,7 +10,7 @@ description: Upload images to Ibexa DXP to manage them.
 
 ## Manage folders
 
-By default, uploaded files are stored in the Media root folder of the Content Tree.
+By default, uploaded files are stored in the Media root folder of the content tree.
 If you want to upload them to different location, navigate to the folder you want to upload to.
 
 You can also [create additional folders](content_tree.md#add-folders) and sub-folders to further organize your images.
