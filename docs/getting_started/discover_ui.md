@@ -67,21 +67,12 @@ It lets you navigate the content tree, and, for example, create, edit, move, cop
 
 ## Content tree
 
-If you want to navigate through your website with a menu, in the main menu, go to the **Content** -> **Content structure**.
-The **Content Tree** area is an expandable content menu of your website.
+Content tree is the place where you can navigate through all the content items in your application.
+It is available in the back office and allows you to browse your content, move content items around, hide them, send them to trash, and perform other actions.
 
 ![Content tree in the menu](img/left_menu_tree.png "Content tree in the menu")
 
-Unique icons for each content type instantly show you what type of content you're selecting.
-To add custom icons to your content tree, follow [configuration tutorial in Developer Documentation]([[= developer_doc =]]/administration/back_office/back_office_elements/custom_icons/#customize-content-type-icons).
-
-Hidden content is greyed out in the tree view.
-
-To simplify the content tree, big lists are collapsed and include a **Show more** icon.
-You can select it to expand the branches of the tree.
-**Collapse all** option, which is available in the context menu, closes all expanded sections.
-
-For more information on custom configuration, go to [Content tree]([[= developer_doc =]]/administration/back_office/content_tree/) in Developer Documentation.
+For more information, see [Content tree](content_tree.md).
 
 ## Content browser
 
