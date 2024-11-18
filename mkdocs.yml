@@ -13,6 +13,7 @@ nav:
             - Dashboard: getting_started/dashboard/dashboard.md
             - Work with dashboard: getting_started/dashboard/work_with_dashboard.md
             - Dashboard block reference: getting_started/dashboard/dashboard_block_reference.md
+        - Content tree: getting_started/content_tree/content_tree.md
     - Content model management:
         - Content model: content_management/content_model.md
         - Create and edit content types: content_management/create_edit_content_types.md
@@ -40,6 +41,9 @@ nav:
             - Copy, move or hide content: content_management/content_organization/copy_move_hide_content.md
             - Classify content: content_management/content_organization/classify_content.md
             - Manage content locations and URLs: content_management/content_organization/manage_locations_urls.md
+    - AI Actions:
+        - AI Actions: ai_actions/ai_actions.md
+        - Work with AI Actions: ai_actions/work_with_ai_actions.md
     - PIM:
         - Product Information Management: pim/pim.md
         - PIM settings:
