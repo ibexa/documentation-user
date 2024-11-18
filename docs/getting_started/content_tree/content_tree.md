@@ -10,6 +10,8 @@ The **Content tree** area is an expandable content menu of your website.
 
 ![Content tree in the menu](../img/left_menu_tree.png "Content tree in the menu")
 
+The same tree structure is used in other areas of the Content menu, such as **Media** or **Forms**.
+
 Unique icons for each content type instantly show you what type of content you are selecting. To add custom icons to your content tree, follow the [configuration tutorial in developer documentation]([[= developer_doc =]]/administration/back_office/back_office_elements/custom_icons/#customize-content-type-icons).
 
 For more information about custom configuration, go to [Content tree]([[= developer_doc =]]/administration/back_office/content_tree/) in developer documentation.
@@ -23,7 +25,7 @@ Click it to expand the branches of the tree.
 ### Add folders
 
 You can organize the tree by creating additional folders and subfolders of the **Content structure**.
-The same procedure applies to other areas of the Content menu, such as **Media** or **Forms**.
+A similar procedure applies to other areas of the system where the tree hierarchy is used.
 
 1\. Go to **Content** -> **Content structure**.
 

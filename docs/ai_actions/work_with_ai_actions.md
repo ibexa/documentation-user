@@ -56,7 +56,9 @@ You can modify the existing AI actions.
 
 - **Length of prompt output** -  sets a maximum number of words of the generated result
 
-- **Temperature** - controls the randomness of the response. The higher the temperature, the more creative is the output
+- **Temperature** - controls the randomness of the response.
+Takes a value between 0 and 1. 
+The higher the temperature, the more creative is the output
 
 ![AI action options](img/ai_action_options.png)
 

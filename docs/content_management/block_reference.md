@@ -347,7 +347,7 @@ For details, see [Editing Rich Text Fields](create_edit_content_items.md#edit-ri
 
 !!! note "Use AI to improve text"
 
-    If the AI Actions LTS update has been installed and configured in your application, the **Improve text** button is visible.
+    If the [AI Actions](ai_actions.md) LTS update has been installed and configured in your application, the **Improve text** button is visible.
     If you have necessary permissions, you can click it to request that the AI Assistant performs specific tasks with your text.
 
     For more information, see [AI Assistant](create_edit_content_items.md#ai-assistant).

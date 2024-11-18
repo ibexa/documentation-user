@@ -33,7 +33,7 @@ You can also [create additional folders](content_tree.md#add-folders) and sub-fo
 
 !!! note "Use AI to generate alternative text"
 
-    If the AI Actions LTS update has been installed and configured in your application, the **Use AI** button is visible.
+    If the [AI Actions](ai_actions.md) LTS update has been installed and configured in your application, the **Use AI** button is visible.
     If you have the required [permissions]([[= developer_doc =]]/permissions/policies/#ai-actions), you can click it to have the alternative text generated automagically.
     The **Go to AI actions** button can also visible to users with access to the **Admin UI**.
     By clicking it, you can quickly navigate to [AI actions configuration](work_with_ai_actions.md).
