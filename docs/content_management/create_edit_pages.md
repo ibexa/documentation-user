@@ -97,7 +97,7 @@ The default, built-in Page layout has only one zone, but developers can create o
 For more information, see [Configure layout](https://doc.ibexa.co/en/latest/templating/render_content/render_page/#configure-layout).
 
 While editing, you can switch layout for your page.
-To do it, click **Swicth layouts** button.
+To do it, click **Switch layouts** button.
 
 ### Add blocks
 
