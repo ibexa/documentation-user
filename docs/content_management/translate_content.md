@@ -29,7 +29,7 @@ After adding a language, you may have to reload the application to be able to us
 
 2\. Go to **Translations** tab and click **+ Add**.
 
-3\. Select the source and target languages and click **Create**.
+3\. In the **Create a new translation** modal, select the source and target languages and click **Create**.
 
 All the fields are then pre-filled with the values they have in the base translation.
 If you do not choose a base translation, the fields remain empty.
@@ -42,11 +42,22 @@ the same way as when editing only one language.
 
 ![Adding a new translation](img/adding_translation.png "Adding a new translation")
 
+### Automated translation
+
+If your application comes with a [properly configured automated translation feature]([[= developer_doc =]]/multisite/languages/automated_translations.md), you can have your content machine-translated into multiple languages by using external translation services like Google Translate and DeepL.
+
+To use it, in the **Create a new translation** modal, select the source and target languages and the **Use automatic translation with...** checkbox.
+If more than one service is configured, you can choose either of the available options.
+
+![Automated translation](img/automated_translation.png "Automated translation")
+
+When you click **Create**, all the Fields are pre-filled with the values in target language, provided by the selected translation service.
+
 ## Translation comparison
 
 You can compare different versions of the translations of the content item.
 
-1\. [disable the Focus mode](../getting_started/discover_ui.md#disable-focus-mode).
+1\. [Disable the Focus mode](../getting_started/discover_ui.md#disable-focus-mode).
 
 2\. In the left panel, go to **Content** -> **Content structure**. Then select a content item.
 
