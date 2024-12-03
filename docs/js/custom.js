@@ -169,8 +169,10 @@ $(document).ready(function() {
         $(this).hide();
     });
 
-    $('.md-sidebar--primary .md-sidebar__scrollwrap')[0].scrollTop =
-        $('.md-sidebar--primary .md-nav__item--active:not(.md-nav__item--nested)')[0].offsetTop - 33;
+    if ($('.md-sidebar--primary .md-sidebar__scrollwrap')[0] && $('.md-sidebar--primary .md-nav__item--active:not(.md-nav__item--nested)')[0]) {
+        $('.md-sidebar--primary .md-sidebar__scrollwrap')[0].scrollTop =
+            $('.md-sidebar--primary .md-nav__item--active:not(.md-nav__item--nested)')[0].offsetTop - 33;
+    }
 
     $(document).scroll(function() {
         if ($('.md-sidebar--secondary .md-nav__link--active').length) {
