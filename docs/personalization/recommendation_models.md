@@ -224,8 +224,8 @@ They work best in straightforward cases when you filter by the value of the attr
 
 Dynamic attribute submodels:
 
-- operate only on [nominal attributes](recommendation_models#nominal-attributes) (numeric attributes are not supported)
-- can be used for [popularity](recommendation_models#popularity-models) and [collaborative](recommendation_models#collaborative-models) types of models (as they support submodels)
+- operate only on [nominal attributes](#nominal-attributes) (numeric attributes are not supported)
+- can be used for [popularity](#popularity-models) and [collaborative](#collaborative-models) types of models (as they support submodels)
 - have limitation of max. 50 attribute values (if more, you need to follow the procedure of manual configuration by [[= product_name_base =]] Team)
 - operate on scenarios with the selected `Submodels` data type option
 - require sending a request and building a model
@@ -248,7 +248,7 @@ Dynamic attribute submodels:
 ## Time-slot based models
 
 Time-slot based models consider only a particular range of time rather than the full day when calculating recommendations.
-They can be used for [popularity](recommendation_models#popularity-models) and [collaborative](recommendation_models#collaborative-models) types of models.
+They can be used for [popularity](#popularity-models) and [collaborative](#collaborative-models) types of models.
 
 These models can be an optimum answer for customers who notice variable consumption of their content or products throughout the day, with different content being popular, for example, in the morning and afternoon.
 Time-slot based models can cover these needs, as you can request to configure and set specific time slots.
