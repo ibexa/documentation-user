@@ -3,8 +3,8 @@ let jquery = jQuery;
 
 $(document).ready(function() {
     // replace edit url
-    var branchName = 'master',
-        branchNameRegexp = /\/en\/([a-z0-9-_.]*)\//g.exec(document.location.href);
+    let branchName = 'master';
+    const branchNameRegexp = /\/en\/([a-z0-9-_.]*)\//g.exec(document.location.href);
 
     if (branchNameRegexp !== null && branchNameRegexp.hasOwnProperty(1) && branchNameRegexp[1].length) {
         branchName = branchNameRegexp[1];
@@ -100,7 +100,6 @@ $(document).ready(function() {
             hitsPerPage: hitsPerPage,
         },
         handleSelected: function(input, event, suggestion, datasetNumber, context) {
-            console.log(context);
             if (context.selectionMethod == 'click') {
                 window.location = suggestion.url;
             } else if (context.selectionMethod == 'enterKey') {
