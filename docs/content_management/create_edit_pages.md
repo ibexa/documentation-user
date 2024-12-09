@@ -157,11 +157,22 @@ The following actions are available:
 - Move up block - allows you to change position of the block on the page by moving it up
 - Move down block - allows you to change position of the block on the page by moving it down
 - Block settings - allows you to access properties window
+- Copy - allows you to reuse a configured block across pages by using the Clipboard section.
 - Duplicate - duplicates existing block with its settings
 - Refresh - refreshes preview of the block
 - Delete - deletes existing block
 
 ![Block window - size adjustment](img/block_window_size_adjust.png "Block window - size adjustment")
+
+#### Copy blocks
+
+Copying blocks allows you to reuse configured blocks across different pages.
+
+When you execute the "Copy" action on a block, it creates a new entry in the "Clipboard" section of the Page Blocks toolbox. Inserting the block from the clipboard adds an exact replica of the block, including its configuration, as it existed at the time of copying.
+
+The clipboard can store only one block at a time. The content of the clipboard remains accessible while editing pages and is visible only to you.
+
+![The clipboard section containg a Code block](img/page_builder_page_blocks_clipboard.png "The clipboard section containg a Code block")
 
 #### Configure block settings
 
