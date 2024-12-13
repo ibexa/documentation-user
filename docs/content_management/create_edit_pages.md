@@ -166,13 +166,16 @@ The following actions are available:
 
 #### Copy blocks
 
-Copying blocks allows you to reuse configured blocks across different pages.
+You can copy blocks to reuse them on other pages.
 
-When you execute the "Copy" action on a block, it creates a new entry in the "Clipboard" section of the Page Blocks toolbox. Inserting the block from the clipboard adds an exact replica of the block, including its configuration, as it existed at the time of copying.
+When you copy a block, it gets saved in the "Clipboard" section of the Page Blocks toolbox.
+From there you can drag and drop the block to the page like any other block.
+Doing so puts an exact copy of the block on the page, with all its settings, as it was when you copied it.
 
-The clipboard can store only one block at a time. The content of the clipboard remains accessible while editing pages and is visible only to you.
+The clipboard can store only one block at a time.
+The content of the clipboard remains accessible while editing different pages and is visible only to you.
 
-![The clipboard section containg a Code block](img/page_builder_page_blocks_clipboard.png "The clipboard section containg a Code block")
+![The clipboard section containing a Code block](img/page_builder_page_blocks_clipboard.png "The clipboard section containing a Code block")
 
 #### Configure block settings
 
