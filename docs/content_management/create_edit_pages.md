@@ -169,11 +169,12 @@ The following actions are available:
 You can copy blocks to reuse them on other pages.
 
 When you copy a block, it gets saved in the "Clipboard" section of the Page Blocks toolbox.
-From there you can drag and drop the block to the page like any other block.
+At this point you can continue working in the current page, or you can close it and open another one, where you want to reuse the block.
+You can drag and drop the block from clipboard to a drop zone, like any other block.
 Doing so puts an exact copy of the block on the page, with all its settings, as it was when you copied it.
 
 The clipboard can store only one block at a time.
-The content of the clipboard remains accessible while editing different pages and is visible only to you.
+Contents of the clipboard are visible only to you, and preserve switching into a new session.
 
 ![The clipboard section containing a Code block](img/page_builder_page_blocks_clipboard.png "The clipboard section containing a Code block")
 
