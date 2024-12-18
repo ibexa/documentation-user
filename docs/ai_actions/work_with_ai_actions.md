@@ -58,7 +58,7 @@ You can modify the existing AI actions.
 
 - **Temperature** - controls the randomness of the response.
 Takes a value between 0 and 2, but the usual range is between 0 and 1.
-The higher the temperature, the more random is the output.
+The output is more random at higher temperatures.
 For more information, see the parameter description in [OpenAI API reference](https://platform.openai.com/docs/api-reference/chat/create#chat-create-temperature)
 
 ![AI action options](img/ai_action_options.png)
