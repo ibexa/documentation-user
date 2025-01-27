@@ -92,13 +92,8 @@ The table contains the following columns: Name, Image, Code, Category, Type, Var
 On the **Properties** tab, set values in the following fields:
 
 - **Name** - Enter a name for the block.
-<<<<<<< HEAD
-- **Number of products to be displayed** - Set a number of products to be displayed. Default value = 10.
-- **Stock** - Set up the maximum stock value (only products with stock number greater than zero and less than the set maximum number will be displayed). Default value = 10.
-=======
 - **Number of visible products** - Set a number of products to be displayed. Default value = 10, minimum value = 1, and maximum = 10.
 - **Stock threshold** - Set up the maximum stock value (only products with stock number greater than zero and less than the set maximum number are displayed). Default value = 10.
->>>>>>> 2b18e53 (IBX-8916: Content update in User documentation - cd. (#314))
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of products and submit your changes.
 
