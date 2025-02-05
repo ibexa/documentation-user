@@ -174,7 +174,7 @@ You can drag and drop the block from clipboard to a drop zone, like any other bl
 Doing so puts an exact copy of the block on the page, with all its settings.
 
 The clipboard can store only one block at a time.
-Content of the clipboard is visible only to you, and preserve switching into a new session.
+Content of the clipboard is visible only to you, and preserves switching into a new session.
 
 ![The clipboard section containing a Code block](img/page_builder_page_blocks_clipboard.png "The clipboard section containing a Code block")
 
