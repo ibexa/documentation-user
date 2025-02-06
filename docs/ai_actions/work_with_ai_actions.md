@@ -16,15 +16,15 @@ With the right permissions, you can view all AI actions configured in the applic
 You can narrow down the list of AI actions by filtering it by the status, either Enabled or Disabled, or by the type.
 Out of the box, there are two categories of AI Actions present in the system:
 
-- **Text to text** - used by default in [online editor](create_edit_content_items.md#ai-assistant) for refining text, for example: "Rewrite text in formal tone"
-- **Image to text** - used by default in the [image asset editing screen](upload_images.md#ai) to generate alternative text, for example: "Generate short alternative description of an image"
+- **Refine text** - used by default in [online editor](create_edit_content_items.md#ai-assistant) for refining text, for example: "Rewrite text in formal tone"
+- **Generate alternative text** - used by default in the [image asset editing screen](upload_images.md#ai) to generate alternative text, for example: "Generate short alternative description of an image"
 
 It may happen that a set of sample AI actions has been [installed with the AI Actions package]([[= developer_doc =]]/ai_actions/install_ai_actions/#install-sample-ai-action-configurations-optional), and there is a number of existing AI actions that you can modify and clone.
 
 !!! note "Custom action types"
 
     In your specific case, the types available can be different, and your organization's development team can create custom AI action types.
-    For more information, see [developer documentation]([[= developer_doc =]]/ai_actions/).
+    For more information, see [developer documentation]([[= developer_doc =]]/ai_actions/ai_actions).
 
 ### View AI action details
 
@@ -87,7 +87,7 @@ You can create AI actions that perform actions of different types, using differe
 1. In the slide-out pane, make initial choices in the following fields, and click **Create**:
 
     - **Language** - sets the base language for the AI action
-    - **Action type** - sets an action type to serve as a template for the AI action, for example, **Refine action**
+    - **Action type** - sets an action type to serve as a template for the AI action, for example, **Refine text**
     - **Model** - sets the AI model used to process the requests resulting from this AI action
 
 1. In the **Global properties** section, set the name and identifier of the AI action.
