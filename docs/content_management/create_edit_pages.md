@@ -166,7 +166,7 @@ The following actions are available:
 
 #### Copy blocks
 
-You can copy blocks to reuse them on other pages.
+You can copy blocks to reuse them on other pages, or within the same one.
 
 When you copy a block, it gets saved in the "Clipboard" section of the Page Blocks toolbox.
 At this point you can continue working on the current page, or you can close it and open another one, where you want to reuse the block.
