@@ -118,8 +118,6 @@ To do it, choose one of the available elements:
 Each of these elements can have its own settings, such as text formatting.
 The option bar also lets you reorder or remove any elements in the Rich Text field.
 
-
-
 #### Edit embedded content items
 
 You can edit embedded content items without leaving current window.
@@ -218,7 +216,6 @@ When response is displayed on the screen, depending on whether you are satisfied
     Depending on the length of the source text and the complexity of request, processing may take a while.
     You may cancel the processing if it takes too long by clicking **Stop**.
 
-
 ### SeenThis! streaming
 
 !!! note
@@ -246,3 +243,61 @@ For this feature to work as described, the content type must have a **Metadata**
 ![Selecting Taxonomy entries](img/taxonomy_select_taxonomy_entries.png "Selecting Taxonomy entries")
 
 For more information, see [Assign tag to content from taxonomy tree](taxonomy/work_with_tags.md#assign-tag-to-content-from-taxonomy-tree).
+
+### Collaborative editing
+
+Collaborative editing is a feature that allows multiple users to work on the same content item at the same time.
+The system automatically tracks changes and allows users to collaborate within a single application, without the need for third-party tools.
+Uses can work together and use a real-time editor to create and review content live.
+This makes teamwork faster, more efficient, and simplifies content review process.
+
+#### Collaboration session
+
+When you create a new draft of content item you can invite other users to join a collaboration session.
+To invite collaborators, click the **Share** button, which creates a new collaboration session.
+Then, in a pop-up window, you can invite users to newly created session.
+
+!!! note
+
+    Only the owner can invite other users and initiate collaboration session.
+    You can only invite users with permissions to a collaboration session.
+    Users without permissions are grayed out and you can't select them and invite them to the session.
+
+You can invite two types of users:
+
+- **Internal** - by searching their name or email address. These users can either edit the content item or just preview it, depending on your choice.
+- **External** - by providing their email address in the field. They can only preview the document (editing option isn't available).
+
+Additionally, you can share a direct link to the collaborative session.
+To do it, click the **Copy link** button.
+Link is copied to the clipboard and you can share it with the users through communication channels.
+
+After inviting users to a collaboration session, they receive a notification - visible after clicking the **Notification** icon on the main dashboard, in the case of internal users, or by email, in the case of external users.
+
+Each user can leave collaboration session anytime or rejoin it.
+
+#### Editing content item
+
+Real-time collaboration is enabled in rich text fields.
+Other fields are disabled and can be only edited by the owner of the content item.
+
+Real-time collaboration is available for the following content types containing rich text fields:
+
+- Article
+- Folder
+- Form
+- Product category
+- Custom content types
+- Product (without variants)
+
+Collaborative editing feature works by syncing changes in real time, so everyone can see updates instantly.
+Avatars of the users invited to collaboration session are visible at the top of the editing screen, also in distraction free mode.
+While editing rich text fields, you can see colored tracking tags with avatar thumbnails that indicate who is currently working on it.
+This helps you to keep track of the progress and ensures transparency.
+
+There are two modes of the collaboration:
+
+- **Real-time (online)** - editing content at the same time with real-time tracking of the presence and changes of other users.
+- **Asynchronous** - ediitng content in different time.
+
+Only the owner can publish content, save it, delete the draft, or publish it.
