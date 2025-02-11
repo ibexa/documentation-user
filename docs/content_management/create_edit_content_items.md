@@ -247,11 +247,11 @@ For more information, see [Assign tag to content from taxonomy tree](taxonomy/wo
 ### Collaborative editing
 
 Collaborative editing is a feature that allows multiple users to work on the same content item at the same time.
-The system automatically track changes and allows users to collaborate within a single application, without the need for third-party tools.
+The system automatically tracks changes and allows users to collaborate within a single application, without the need for third-party tools.
 Uses can work together and use a real-time editor to create and review content live.
 This makes teamwork faster, more efficient, and simplifies content review process.
 
-### Collaboration session
+#### Collaboration session
 
 When you create a new draft of content item you can invite other users to join a collaboration session.
 To invite collaborators, click the **Share** button, which creates a new collaboration session.
@@ -266,7 +266,7 @@ Then, in a pop-up window, you can invite users to newly created session.
 You can invite two types of users:
 
 - **Internal** - by searching their name or email address. These users can either edit the content item or just preview it, depending on your choice.
-- **External** - by providing their email address in the field. They can only preview the document (editing option is not available).
+- **External** - by providing their email address in the field. They can only preview the document (editing option isn't available).
 
 Additionally, you can share a direct link to the collaborative session.
 To do it, click the **Copy link** button.
@@ -276,7 +276,7 @@ After inviting users to a collaboration session, they receive a notification - v
 
 Each user can leave collaboration session anytime or rejoin it.
 
-### Editing content item
+#### Editing content item
 
 Real-time collaboration is enabled in rich text fields.
 Other fields are disabled and can be only edited by the owner of the content item.
