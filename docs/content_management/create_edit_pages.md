@@ -38,7 +38,7 @@ You can now navigate away from the Page by clicking the **Close** button.
 
 !!! note "Autosave"
 
-    To help you preserve your work, [[= product_name =]] saśves drafts of content items automatically.
+    To help you preserve your work, [[= product_name =]] saves drafts of content items automatically.
     For more information, see [Autosave](content_versions.md#autosave).
 
 ## Edit page
