@@ -38,17 +38,21 @@ You can now navigate away from the Page by clicking the **Close** button.
 
 !!! note "Autosave"
 
-    To help you preserve your work, [[= product_name =]] saves drafts of content items automatically.
+    To help you preserve your work, [[= product_name =]] saśves drafts of content items automatically.
     For more information, see [Autosave](content_versions.md#autosave).
 
 ## Edit page
 
 To edit an existing page, in the back office, from the content tree, choose the page that you want to edit, and click the **Edit** button.
 
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/d4T5EgOwz6bri2Zgy53M?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Edit existing page" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+
 ### Page Builder interface
 
 Page Builder has a plain and intuitive interface.
 You can create pages without having advanced technical skills.
+
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/kbdnGkdrkXL2VAJW6c3O?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Page Builder interface" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
 
 ![Page Builder interface](img/page_builder_interface.png)
 

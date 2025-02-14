@@ -7,6 +7,8 @@ description: Create new AI actions or modify existing ones to work faster and in
 AI actions define what results are available to editors in AI-enabled areas, such as, for example, the AI Assistant.
 If the AI Actions LTS update has been installed and configured in your application, and you have the required [permissions]([[= developer_doc =]]/permissions/policies/#ai-actions), including `Action configuration/Edit` and `Action configuration/Create`, you can reconfigure the existing AI actions, and create new ones.
 
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/oDRgSawmcExFx2NUJYbM?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Use AI to expand the body text" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+
 ## View AI actions
 
 With the right permissions, you can view all AI actions configured in the application by navigating to the Admin Panel and selecting **AI actions**.

@@ -54,6 +54,9 @@ description: Create content for your website with different fields, rich text, t
 
     For more information, see [Publish content](publish_content.md).
 
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/T4dqNwZwGGpS3RaLHA6R?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Create and edit article" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+
+
 !!! note "Versioning and autosave"
 
     Whenever you edit a content item, a [new version](content_versions.md) is created in the repository.
@@ -99,7 +102,7 @@ Its options appear when you click inside the field box.
 
 ![Online editor menu](img/online_editor_menu.png "Online editor menu")
 
-You can chooose from available options to edit and customize Rich Text field, for example, move up or down its elements, select heading style, add text elements, like superscript, block quote, or anchor.
+You can choose from available options to edit and customize Rich Text field, for example, move up or down its elements, select heading style, add text elements, like superscript, block quote, or anchor.
 
 You can also add new elements to the field.
 To do it, choose one of the available elements:
@@ -118,7 +121,7 @@ To do it, choose one of the available elements:
 Each of these elements can have its own settings, such as text formatting.
 The option bar also lets you reorder or remove any elements in the Rich Text field.
 
-
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/wkdL1r9PRunTeF6hPtEs?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Online Editor - work in Rich Text field" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
 
 #### Edit embedded content items
 

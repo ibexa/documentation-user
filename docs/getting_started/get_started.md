@@ -142,3 +142,7 @@ Fill in all the required fields and click **Save and close** to save changes.
 Click **Discard** to reject your changes and return to the previous screen.
 
 ![Editing password](img/editing_password.png "Editing password")
+
+**Check out the interactive demo below:**
+
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/hmXfcsazcGSJbHzOpKAx?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Log in, navigate to the user profile, and change the password" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
