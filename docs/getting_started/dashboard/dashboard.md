@@ -7,6 +7,8 @@ description: Get to know about dashboard.
 Dashboard is the first screen that you see after you log into [[= product_name =]].
 It provides users a quick overview about specific content to make better business decisions based on data and work more efficiently with a clear and effortless access to important information.
 
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/RowOtNIs36IO5DTmdbXP?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Dashboard - How to navigate" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+
 Default dashboard in [[= product_name_headless =]] contains the following blocks:
 
 - [Review queue](dashboard_block_reference.md#review-queue-block)
@@ -41,7 +43,3 @@ By default, dashboard in [[= product_name_exp =]] and [[= product_name_com =]] c
 ![Dashboard - Experience and Commerce edition](dashboard.png "Default dashboard in Experience and Commerce edition")
 
 For more information, see [Work with dashboard](work_with_dashboard.md).
-
-**Check out the interactive demo below:**
-
-<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/RowOtNIs36IO5DTmdbXP?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Dashboard - How to navigate" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
