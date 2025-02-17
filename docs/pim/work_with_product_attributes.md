@@ -22,6 +22,12 @@ Available attribute types are:
 
 If the default list of attributes is not sufficient, ask your development team to [create a custom attribute type]([[= developer_doc =]]/pim/create_custom_attribute_type/).
 
+!!! note "Attribute translations"
+
+    Product attributes are not translatable.
+    Unlike text fields used in content, product attribute names and values cannot differ between languages.
+    Therefore, consider using attributes to store technical parameters and text fields for descriptive text intended to be displayed that may require translation.
+
 ## Create attribute groups
 
 Before you can proceed with creating attributes, you must first create at least one attribute group.
