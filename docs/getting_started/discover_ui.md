@@ -61,7 +61,7 @@ Depending on the product edition and your [permissions](../permission_management
 
 - **Content**, which gives you access to the content repository.
 It lets you navigate the content tree, and, for example, create, edit, move, copy, or delete content.
-- [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]] **Site management**, which enables you to create and edit block-based Pages and manage multiple websites.
+- [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]] **Site management**, which enables you to create and edit block-based pages and manage multiple websites.
 - **PIM**, which enables you to handle products presented on the website, including their specifications and pricing.
 - **Admin**, which is the administration panel where you can manage, for example, Users, Sections, or permissions.
 
