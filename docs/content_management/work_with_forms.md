@@ -10,6 +10,10 @@ You can then review the results gathered from website users, for example, to imp
 
 For more information about building and styling forms, see [Developer Documentation]([[= developer_doc =]]/content_management/forms/forms).
 
+You can create a form with a visual drag-and-drop editor, the Form Builder.
+
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/6TuwPfbDTXTo6SnYSiyW?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Form Builder interface" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+
 ## Create forms
 
 Editors can use the created form anywhere on the website.
@@ -64,6 +68,8 @@ You can choose one of a few options of what is shown to the user after filling i
 - Click **Publish later** to set a specific publication date.
 
     For more information, see [Publish content](publish_content.md).
+
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/YayMqLkQ6QeCZFeVyQxp?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Build a form" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
 
 ## View results
 

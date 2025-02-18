@@ -45,10 +45,14 @@ You can now navigate away from the Page by clicking the **Close** button.
 
 To edit an existing page, in the back office, from the content tree, choose the page that you want to edit, and click the **Edit** button.
 
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/d4T5EgOwz6bri2Zgy53M?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Edit existing page" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+
 ### Page Builder interface
 
 Page Builder has a plain and intuitive interface.
 You can create pages without having advanced technical skills.
+
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/kbdnGkdrkXL2VAJW6c3O?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Page Builder interface" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
 
 ![Page Builder interface](img/page_builder_interface.png)
 
@@ -177,6 +181,8 @@ The clipboard can store only one block at a time.
 Content of the clipboard is visible only to you, and preserves switching into a new session.
 
 ![The clipboard section containing a Code block](img/page_builder_page_blocks_clipboard.png "The clipboard section containing a Code block")
+
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/NqvkgfWoNZkynskJxHEn?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Copy option and Clipboard" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
 
 #### Configure block settings
 
