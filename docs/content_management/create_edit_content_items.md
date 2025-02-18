@@ -220,6 +220,7 @@ When response is displayed on the screen, depending on whether you are satisfied
     Depending on the length of the source text and the complexity of request, processing may take a while.
     You may cancel the processing if it takes too long by clicking **Stop**.
 
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/oDRgSawmcExFx2NUJYbM?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Use AI to expand the body text" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
 
 ### SeenThis! streaming
 
