@@ -101,3 +101,10 @@ For a list of available settings, see [Edit existing AI actions](#edit-existing-
 
 1. Click **Save and close** to apply the changes or **Discard** to discard them and close the window.
 
+## Duplicate AI actions
+
+You can copy existing actions, for example to create a variant version of an action with slightly differing settings.
+To do so, in the actions view screen click **Duplicate**.
+
+You can then modify the copied action (for example, change its name or fine-tine the instructions), and save the updated version.
+
