@@ -197,7 +197,7 @@ Contact your website administrator about the details of using them.
 
 ### AI Assistant
 
-If the [AI Actions](ai_actions.md) LTS update has been installed and configured in your application, when writing content, the **Improve text** button is visible in Online Editor's toolbox.
+If the [AI Actions](ai_actions.md) LTS update has been installed and configured in your application, when writing content, the **Improve text** button is visible in online editor's toolbox.
 If you have the required [permissions]([[= developer_doc =]]/permissions/policies/#ai-actions), you can request that the AI Assistant refines your text by using one of the defined actions.
 For example, you can highlight a passage and instruct the AI Assistant to extend the passage or adjust its tone to suit your needs.
 The **Go to AI actions** button can also visible to users with access to the **Admin UI**.
@@ -222,7 +222,6 @@ When response is displayed on the screen, depending on whether you are satisfied
 
     Depending on the length of the source text and the complexity of request, processing may take a while.
     You may cancel the processing if it takes too long by clicking **Stop**.
-
 
 <!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/oDRgSawmcExFx2NUJYbM?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Use AI to expand the body text" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
 

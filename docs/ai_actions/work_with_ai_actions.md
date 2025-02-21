@@ -104,7 +104,7 @@ For a list of available settings, see [Edit existing AI actions](#edit-existing-
 ## Duplicate AI actions
 
 You can copy existing actions, for example to create a variant version of an action with slightly differing settings.
-To do so, in the actions view screen click **Duplicate**.
+To do so, in the actions view screen click the **Duplicate** icon next to a name of the AI action that you want to clone.
 
 You can then modify the copied action (for example, change its name or fine-tine the instructions), and save the updated version.
 
