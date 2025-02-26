@@ -6,7 +6,7 @@ description: Enable search engine optimization and increase content visibility b
 
 For the Search Engine Optimization (SEO) feature to help you optimize the searchability and visibility of your content, you must enable it first, and then, define the contents of individual tags.
 
-To do it, make sure you can [edit content types](../content_management/content_model.md#content_types).
+To do it, make sure you can [edit content types](content_model.md#content-types).
 
 ## Enable SEO
 
