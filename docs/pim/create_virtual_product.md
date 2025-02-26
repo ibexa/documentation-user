@@ -9,7 +9,7 @@ Virtual product is a special type of a [Product](products.md).
 Virtual products are non-tangible items such as memberships, services, warranties.
 They can be sold individually, or as part of a product bundle.
 
-Like physical products, virtual products can have their own [variants](work_with_product_variants.md), [assets](work_with_product_assets.md) or [attributes](products.md#attributes).
+Like physical products, virtual products can have their own [variants](work_with_product_variants.md), [assets](work_with_product_assets.md) or [attributes](work_with_product_attributes.md).
 You can also create catalogs from them, check their completeness and set [prices, availability, and stock](manage_availability_and_stock.md).
 
 ## Create virtual product type
@@ -46,6 +46,3 @@ Virtual products don’t require shipment when they're purchased without other p
 While purchasing a virtual product, you only have to fill in Billing address and select relevant payment method.
 
 ![Virtual product purchasing](virtual_product_purchase.png "Virtual product purchasing")
-
-
-
