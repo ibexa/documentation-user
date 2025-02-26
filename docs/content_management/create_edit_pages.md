@@ -23,7 +23,7 @@ Whenever you edit a page, a [new version](content_versions.md) is created in the
 1. In a slide-out pane, make initial choices in the following fields, and click **Create**:
     - **Select a language** - from a drop-down list, select the base language for the content item.
     - **Select a content type** - use this field to narrow down the list of content type choices displayed below. Then select one of page type, for example, **Landing page**, and click the **Create** button.
-1. In the [Page Builder toolbar](#page-builder-toolbar) click **Fields** and define the page's title and description.
+1. In the [Page Builder toolbar](#page-builder-interface) click **Fields** and define the page's title and description.
 1. Click  **Switch layout** and select the layout.
 1. [Edit the page](#edit-page).
 1. To discard your changes and close the window, click **Delete draft**.
