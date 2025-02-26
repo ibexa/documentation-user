@@ -77,4 +77,4 @@ To upload multiple images and create many image assets, you can use multi-file u
 If you work with multiple languages and want to use searching by languages in DAM, you can add translations to image assets.
 You can replace the contents of all the fields that have values in the base language, for example, the description, or the alternative text.
 
-To see how to add translations, go to [translate content section](../content_management/translate_content.md/#add-translations).
+To see how to add translations, go to [translate content section](translate_content.md#add-translations).
