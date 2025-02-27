@@ -34,4 +34,4 @@ It prevents duplicates from competing against each other.
 Additionally, you can define social media-specific meta tags separately, to fine-tune the message that gets across to each of the platforms.
 If you fail to use this feature, the default meta tags are used to generate a social media snippet.
 
-For more information about SEO, see [Ibexa blog](https://www.ibexa.co/blog/five-useful-seo-techniques-for-ez-platform-developers).
+For more information about SEO, see [Ibexa blog](https://www.ibexa.co/blog-archive/five-useful-seo-techniques-for-ez-platform-developers).

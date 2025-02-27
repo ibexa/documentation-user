@@ -4,7 +4,7 @@ description: Create a structure of attributes that describe product characterist
 
 # Work with product attributes
 
-[Attributes](products.md#attributes) describe physical, technical or other characteristics of a product.
+Attributes describe physical, technical or other characteristics of a product.
 They're organized into attribute groups, and when you assign attributes to products, you can assign either whole groups, or individual attributes.
 You can use attributes to create multiple versions of one product, called [product variants](work_with_product_variants.md).
 Store visitors can use them to filter and search for products.
