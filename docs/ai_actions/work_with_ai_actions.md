@@ -24,7 +24,7 @@ It may happen that a set of sample AI actions has been [installed with the AI Ac
 !!! note "Custom action types"
 
     In your specific case, the types available can be different, and your organization's development team can create custom AI action types.
-    For more information, see [developer documentation]([[= developer_doc =]]/ai_actions/ai_actions).
+    For more information, see [developer documentation]([[= developer_doc =]]/ai_actions/ai_actions/).
 
 ### View AI action details
 
