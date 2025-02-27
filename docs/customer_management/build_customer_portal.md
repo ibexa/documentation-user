@@ -74,5 +74,4 @@ If members of the company don't have sufficient permissions for any Customer Por
     Customer Portal is only available to users that are members of the company.
     Even if a user has all sufficient permissions but is not a member of a company, they cannot see the Customer Portal.
 
-Customer Portal must also be assigned to the company's Customer Group. To learn more see, [assigning portals to Customer Groups.]([[= developer_doc =]]/customer_management/cp_page_builder/#assigning-portal-to-customer-group)
-
+Customer Portal must also be assigned to the company's Customer Group. To learn more see, [assigning portals to Customer Groups]([[= developer_doc =]]/customer_management/cp_page_builder/#assign-portal-to-customer-group).

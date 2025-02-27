@@ -8,7 +8,7 @@ edition: experience
 If multisite support is enabled for your instance of [[= product_name =]], you can use Site Factory to create and manage multiple websites from one place.
 These websites can, for example, be in different languages, or customized for different audiences, and still be kept in the repository of your installation.
 To be able to use it, the Site Factory has to be enabled and configured by the administrator.
-For more information, see Developer Documentation on [Site Factory]([[= developer_doc =]]/multisite/site_factory/site_factory).
+For more information, see Developer Documentation on [Site Factory]([[= developer_doc =]]/multisite/site_factory/site_factory/).
 
 ## Create a website
 
