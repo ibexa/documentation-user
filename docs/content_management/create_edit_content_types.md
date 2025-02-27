@@ -80,4 +80,4 @@ Once the content type details screen is displayed, you can navigate back to the 
 
 !!! note "More information"
 
-    For in-depth information about the content model, see [Developer Documentation]([[= developer_doc =]]/content_management/content_model).
+    For in-depth information about the content model, see [Developer Documentation]([[= developer_doc =]]/content_management/content_model/).
