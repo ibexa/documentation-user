@@ -270,4 +270,4 @@ There are several options for saving work on the page:
 |Save draft|Save the page draft*.|
 |Delete draft|Delete the page draft.|
 
-* To help you preserve your work, system saves drafts of content items automatically. For more information, see [Autosave](https://doc.ibexa.co/projects/userguide/en/master/content_management/content_versions/#autosave).
+* To help you preserve your work, system saves drafts of content items automatically. For more information, see [Autosave](content_versions.md#autosave).
