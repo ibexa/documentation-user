@@ -58,7 +58,7 @@ The following filters are only applicable in Commerce use cases.
 |Minimum price of the recommended product|You can use this filter to remove cheap and popular items from the recommendation list. For example, as an optometrist you might prefer showing the most popular designer frames on the home page and avoid promoting insurance subsidized cheap models or cleaning cloths. Again, this filter relies on product metadata and uses prices exported to the Personalization service.|
 |Do not recommend if price unknown|If a product's price is unavailable then the product isn't recommended.|
 |Do not recommend items the user already purchased|When you activate this filter, the user isn't recommended to purchase products again.|
-|Do not recommend product variants| By default, this filter is deactivated: only [product variants](../pim/products.md#product-variants) are recommended and base products aren't recommended. When you activate this filter, a recommendation response includes base products, while product variants are excluded. The filter doesn't affect products that have no variants. |
+|Do not recommend product variants| By default, this filter is deactivated: only [product variants](work_with_product_variants.md) are recommended and base products aren't recommended. When you activate this filter, a recommendation response includes base products, while product variants are excluded. The filter doesn't affect products that have no variants. |
 
 !!! note "Product variants support"
 
