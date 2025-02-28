@@ -13,6 +13,7 @@ Attribute types define what type of information you can store in an attribute.
 Available attribute types are:
 
 - Checkbox - represents a Boolean value
+- Date and time - represents a timestamp. Available if the [Date and time attribute]([[= developer_doc =]]/pim/attributes/date_and_time/) has been installed and configured
 - Color - presented as a hex value
 - Float - represents a number with fractions
 - Integer - represents a number without fractions (a whole number)
