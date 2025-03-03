@@ -29,7 +29,7 @@ After adding a language, you may have to reload the application to be able to us
 
 2\. Go to **Translations** tab and click **+ Add**.
 
-3\. In the **Create a new translation** modal, select the source and target languages and click **Create**.
+3\. In the **Create a new translation** modal, select the source and target languages, then click **Create**.
 
 All the fields are then pre-filled with the values they have in the base translation.
 If you do not choose a base translation, the fields remain empty.
