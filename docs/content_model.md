@@ -129,4 +129,4 @@ Hidden content is blurred out in the tree view.
 To simplify the Content Tree, big lists are shortened with a **Show more** option. You can select it to expand all lists in the tree.
 The **Collapse all** option situated at the bottom of the tree closes all expanded sections.
 
-For more information on custom configuration, go to [Content Tree]([[= developer_doc =]]/administration/back_office/content_tree) in developer documentation.
+For more information on custom configuration, go to [Content Tree]([[= developer_doc =]]/extending/content_tree/) in developer documentation.

@@ -8,7 +8,7 @@ edition: experience
 The Site Factory enables you to easily create and manage multiple sites in different languages from one place.
 All the sites can be kept in the Repository of your installation.
 To be able to use it, the Site Factory has to be enabled and configured by your administrator.
-For more information see developer documentation on [Site Factory]([[= developer_doc =]]/guide/multisite/site_factory).
+For more information see developer documentation on [Site Factory]([[= developer_doc =]]/guide/multisite/site_factory/).
 
 ## Creating a site
 
@@ -33,7 +33,7 @@ In this section you also define the SiteAccess URL addresses with their main lan
     The path can be only one directory deep. 
     Do not use paths that have more than one element, for example, `/en/articles`.
 
-For more information about SiteAccesses, see [Multisite]([[= developer_doc =]]/guide/multisite/multisite).
+For more information about SiteAccesses, see [Multisite]([[= developer_doc =]]/guide/multisite/multisite/).
 
 ![Create a new site step two](img/site_factory_new_site_step_2.png)
 
