@@ -25,7 +25,7 @@ Your request is sent to Ibexa, and you will receive a confirmation email in resp
 
 ## Configuring customer credentials
 
-When you receive the confirmation email, ask your administrator to [add the credentials to your configuration](https://doc.ibexa.co/en/latest/guide/personalization/enabling_personalization/#configuring-mandator-credentials).
+When you receive the confirmation email, ask your administrator to [add the credentials to your configuration]([[= developer_doc =]]/guide/personalization/enabling_personalization/#configuring-mandator-credentials).
 
 ## Change the installation key
 

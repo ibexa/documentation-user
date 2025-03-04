@@ -79,7 +79,7 @@ This will open the window to create the link. In the **Link to** box, enter the 
 In image options you can select an image variation.
 Variations can include different sizing options and other filters that are applied to images.
 Available image variations must be configured at the developer level.
-See [Images](https://doc.ibexa.co/en/latest/guide/images/) for a technical guide on how to do this.
+See [Images]([[= developer_doc =]]/guide/images/) for a technical guide on how to do this.
 
 ### Tables
 
