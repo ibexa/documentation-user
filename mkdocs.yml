@@ -92,6 +92,8 @@ extra:
   product_name_oss: 'Ibexa OSS'
   product_name_dam: 'Ibexa DAM'
 
+  developer_doc: 'https://doc.ibexa.co/en/3.3'
+
 extra_css:
   - fonts/MavenPro.css
   - css/codehilite.css
