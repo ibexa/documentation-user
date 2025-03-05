@@ -8,7 +8,7 @@ edition: experience
 You can use forms to increase the functionality of the website by adding, for example, a survey, questionnaire, or sign-up form.
 You can then review the results gathered from website users, for example, to improve user experience.
 
-For more information about building and styling forms, see [Developer Documentation]([[= developer_doc =]]/content_management/forms/forms).
+For more information about building and styling forms, see [Developer Documentation]([[= developer_doc =]]/content_management/forms/forms/).
 
 You can create a form with a visual drag-and-drop editor, the Form Builder.
 
@@ -120,4 +120,3 @@ Find your form in the content tree and choose it, then click **Confirm** and **S
 8\. Now, you can see a Newsletter form on your page.
 
 ![Newsletter form](img/newsletter_result.png)
-
