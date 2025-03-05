@@ -24,7 +24,7 @@ It may happen that a set of sample AI actions has been [installed with the AI Ac
 !!! note "Custom action types"
 
     In your specific case, the types available can be different, and your organization's development team can create custom AI action types.
-    For more information, see [developer documentation]([[= developer_doc =]]/ai_actions/ai_actions).
+    For more information, see [developer documentation]([[= developer_doc =]]/ai_actions/ai_actions/).
 
 ### View AI action details
 
@@ -101,3 +101,10 @@ For a list of available settings, see [Edit existing AI actions](#edit-existing-
 
 1. Click **Save and close** to apply the changes or **Discard** to discard them and close the window.
 
+## Duplicate AI actions
+
+You can duplicate existing actions, for example, to create a variant version of an action with slightly different settings.
+To do so, in the **AI actions** list, click the **Duplicate** icon next to a name of the AI action that you want to duplicate.
+
+You can then modify the duplicated action (for example, change its name or fine-tine the instructions), enable it and save your changes.
+If you discard your changes, the duplicated action will appear on the actions list with status Disabled.

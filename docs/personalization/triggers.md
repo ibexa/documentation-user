@@ -42,7 +42,7 @@ You can define one or more triggers of certain type, to support different use ca
 For each trigger type, you need to decide on several crucial parameters, for example:
 
 - one or more [types of content](content_types.md)
-- [attributes](recommendation_models.md/#nominal-attributes) to be included in the response
+- [attributes](recommendation_models.md#nominal-attributes) to be included in the response
 - time that must pass before messages start being sent
 - number of repetitions
 - message frequency
@@ -52,4 +52,3 @@ For each trigger type, you need to decide on several crucial parameters, for exa
 "Also purchased", "Also clicked", and "Top purchased" are used by default.
 
 If you don't decide otherwise, trigger recipients are selected based on an analysis of BUY and TRANSFER events, except for the "Price drop" trigger, where the WISHLIST event is analyzed.
-

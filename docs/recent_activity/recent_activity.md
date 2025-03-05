@@ -21,7 +21,7 @@ By default, actions on the following items are displayed:
 
 !!! note
 
-    If your implementation requires that other actions are logged, see [custom log entry Developer Documentation]([[= developer_doc =]]/administration/recent_activity/recent_activity/#adding-custom-activity-log-entries).
+    If your implementation requires that other actions are logged, see [custom log entry Developer Documentation]([[= developer_doc =]]/administration/recent_activity/recent_activity/#add-custom-activity-log-entries).
 
     By default, log entries are kept for 30 days.
     This time can be modified through configuration.
