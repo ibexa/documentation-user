@@ -44,7 +44,7 @@ the same way as when editing only one language.
 
 ### Automated translation
 
-If your application comes with a [properly configured automated translation feature]([[= developer_doc =]]/multisite/languages/automated_translations.md), you can have your content machine-translated into multiple languages by using external translation services like Google Translate and DeepL.
+If your application comes with a [properly configured automated translation feature]([[= developer_doc =]]/multisite/languages/automated_translations), you can have your content machine-translated into multiple languages by using external translation services like Google Translate and DeepL.
 
 To use it, in the **Create a new translation** modal, select the source and target languages and the **Use automatic translation with...** checkbox.
 If more than one service is configured, you can choose either of the available options.
