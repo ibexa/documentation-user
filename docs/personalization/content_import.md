@@ -23,7 +23,7 @@ For example, one can load an exported file to the personalization service from a
 This type of import is intended to upload big portions of information,
 and can be used to perform a weekly update of the whole product catalog.
 
-For detailed information about content data import, see [Content API](https://doc.ibexa.co/en/latest/guide/personalization/developer_guide/content_api) in the developer documentation.
+For detailed information about content data import, see [Content API]([[= developer_doc =]]/guide/personalization/developer_guide/content_api/) in the developer documentation.
 
 ## User data import
 
@@ -33,7 +33,7 @@ a successful recommendation, for example, by enabling the use of [boost filters]
 User attributes could be retrieved based on the external user ID.
 However, it is rarely possible to combine the external user ID within the user's attribute set.
 
-For more information about user attribute import, see [User API](https://doc.ibexa.co/en/latest/guide/personalization/developer_guide/user_api) in the developer documentation.
+For more information about user attribute import, see [User API]([[= developer_doc =]]/guide/personalization/developer_guide/user_api/) in the developer documentation.
 
 ## List of import operations
 

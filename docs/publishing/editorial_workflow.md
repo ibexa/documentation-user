@@ -16,14 +16,14 @@ For example, you can pass content through stages of draft, design and proofreadi
     In your workflows you can have different stages and transition between them.
 
     Contact your administrator or developer team to configure workflows.
-    See [developer documentation](https://doc.ibexa.co/en/latest/guide/workflow/) for information on how to do it.
+    See [developer documentation]([[= developer_doc =]]/guide/workflow/workflow/) for information on how to do it.
 
 ## Review queue
 
 You can view Content items which are in different stages under review on the 
 **My dashboard** screen, in the Review queue table.
 The table only shows Content items that your Role has permissions to edit.
-If your installation is [configured to support draft locking](https://doc.ibexa.co/en/latest/guide/workflow/#draft-locking), 
+If your installation is [configured to support draft locking]([[= developer_doc =]]/guide/workflow/workflow/#draft-locking), 
 the table also informs you whether any reviewers are assigned and have claimed 
 their drafts for review.
 
