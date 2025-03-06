@@ -28,8 +28,10 @@ permission, you can [modify product types and add individual attributes or attri
 
 ### Attributes
 
-Attributes describe product characteristics.
-Customers can use them to filter and search for products.
+Unlike text fields that can be formatted and are intended to be displayed, product attributes precisely list product properties or specifications.
+
+Attributes serve as criteria for filtering and searching for products.
+They can also be used to define product variants.
 Attribute types define what kind of information you can store in an attribute.
 Typical product attribute examples include dimensions, weight, color, or format.
 
