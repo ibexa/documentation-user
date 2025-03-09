@@ -17,5 +17,5 @@ Depending on the chosen data provider and whether an ERP is connected, some tabs
 |[Order management [[% include 'snippets/commerce_badge.md' %]]](manage_orders.md)|List or orders placed in the shop|
 |[Shipping management [[% include 'snippets/commerce_badge.md' %]]](manage_prices_and_stock.md#shipping-costs)|Management of shipping costs|
 |Customer Groups|Management of customer groups|
-|[Currency](manage_prices_and_stock.md#currency)|Currency management|
+|[Currency](manage_prices_and_stock.md#currencies)|Currency management|
 |Components [[% include 'snippets/commerce_badge.md' %]]|Tool of managing shop interface translations|
