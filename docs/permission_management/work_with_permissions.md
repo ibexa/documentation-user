@@ -34,3 +34,5 @@ You can then return to a list of policies by clicking **Save and close** or **Di
     A user or user group may be assigned multiple roles.
 
 For a list of available permissions and limitations, see [Permissions]([[= developer_doc =]]/permissions/permissions/).
+
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/t87azp7uGgwZVbJZKweH?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Work with permissions" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
