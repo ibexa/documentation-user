@@ -14,12 +14,12 @@ With the right permissions, you can view all AI actions configured in the applic
 ![AI actions in Admin Panel](img/ai_actions_list.png)
 
 You can narrow down the list of AI actions by filtering it by the status, either Enabled or Disabled, or by the type.
-Out of the box, there are two categories of AI Actions present in the system:
+Out of the box, there are two categories of AI actions present in the system:
 
 - **Refine text** - used by default in [online editor](create_edit_content_items.md#ai-assistant) for refining text, for example: "Rewrite text in formal tone"
 - **Generate alternative text** - used by default in the [image asset editing screen](upload_images.md#ai) to generate alternative text, for example: "Generate short alternative description of an image"
 
-It may happen that a set of sample AI actions has been [installed with the AI Actions package]([[= developer_doc =]]/ai_actions/install_ai_actions/#install-sample-ai-action-configurations-optional), and there is a number of existing AI actions that you can modify and clone.
+It may happen that a set of sample AI actions has been [installed with the AI actions package]([[= developer_doc =]]/ai_actions/install_ai_actions/#install-sample-ai-action-configurations-optional), and there is a number of existing AI actions that you can modify and clone.
 
 !!! note "Custom action types"
 
@@ -88,7 +88,7 @@ You can create AI actions that perform actions of different types, using differe
 
     - **Language** - sets the base language for the AI action
     - **Action type** - sets an action type to serve as a template for the AI action, for example, **Refine text**
-    - **Model** - sets the AI model used to process the requests resulting from this AI action
+    - **Action handler** - sets the AI model used to process the requests resulting from this AI action
 
 1. In the **Global properties** section, set the name and identifier of the AI action.
 
@@ -100,6 +100,42 @@ You can create AI actions that perform actions of different types, using differe
 For a list of available settings, see [Edit existing AI actions](#edit-existing-ai-actions).
 
 1. Click **Save and close** to apply the changes or **Discard** to discard them and close the window.
+
+## Create AI actions that use [[= product_name_connect =]] scenarios
+
+If your organization uses [[= product_name_connect =]], you can build multi-step scenarios that define the logic needed to process your input data, for example, by combining the results of multiple AI services.
+One such example could be sending out text for translation by one service, and then to another to make sure that the resulting translation is written in  selected tone.
+
+!!! note "[[= product_name_connect =]] configuration required
+
+    To use AI actions that interface with [[= product_name_connect =]], you must first [configure and initiate the connection]([[= developer_doc =]]/ai_actions/initiate_connect_integration/), and [define scenarios](https://doc.ibexa.co/projects/connect/en/latest/scenarios/creating_a_scenario/) and/or templates in [[= product_name_connect =]].
+    If users from the team are supposed to modify scenario settings, you must [grant them the right roles and permissions](https://doc.ibexa.co/projects/connect/en/latest/access_management/teams/#managing-teams).
+
+1. Navigate to the Admin Panel and select **AI actions**.
+
+1. In the **AI actions** list, click **Create**.
+
+1. In the slide-out pane, make choices like in [Create new AI actions](#create-new-ai-actions) but in the **Action handler** field, select the handler that uses an [[= product_name_connect =]] scenario to process the request, for example `connect-image-to-text`, and then click **Create**.
+
+![[[= product_name_connect =]] handler](img/ai_action_connect_handler.png)
+
+1. In the **Global properties** area, set the properties like in [Create new AI actions](#create-new-ai-actions).
+
+1. In the **Settings** area, select a scenario from a drop-down list.
+The list contains only those [[= product_name_connect =]] scenarios, which are compatible with the selected action type.
+
+1. Optionally, if there are no scenarios for the selected action type, or you want to create a custom scenario, click **Create scenario based on template** and select a template from a drop-down list.
+
+In such case, when you save the new AI action, a new scenario, its webhook and data structure are automatically created.
+You must then fine-tune its settings in [[= product_name_connect =]].
+
+![Ibexa Connect scenario selection](img/ai_action_settings_connect.png)
+
+If you have the right permissions, you can click **Go to Connect** and review all scenarios that exist in [[= product_name_connect =]].
+
+1. Click **Save and close** to apply the changes or **Discard** to discard them and close the window.
+
+After you save the AI Action, you can click its name in the AI action's list and see all the vital information, such as Scenario ID, webhook URL, or scenario label. 
 
 ## Duplicate AI actions
 
