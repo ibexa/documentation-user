@@ -5,7 +5,7 @@ repo_url: https://github.com/ezsystems/user-documentation
 site_url: https://doc.ibexa.co/projects/userguide/en/latest/
 copyright: "Copyright 1999-2024 Ibexa AS and others"
 validation:
-    # omitted_files: warn # TODO: Decide on persona_paths/icons.md
+    omitted_files: warn
     absolute_links: warn
     unrecognized_links: warn
     anchors: warn
