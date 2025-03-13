@@ -106,7 +106,7 @@ For a list of available settings, see [Edit existing AI actions](#edit-existing-
 If your organization uses [[= product_name_connect =]], you can build multi-step scenarios that define the logic needed to process your input data, for example, by combining the results of multiple AI services.
 One such example could be sending out text for translation by one service, and then to another to make sure that the resulting translation is written in  selected tone.
 
-!!! note "[[= product_name_connect =]] configuration required
+!!! note "[[= product_name_connect =]] configuration required"
 
     To use AI actions that interface with [[= product_name_connect =]], you must first [configure and initiate the connection]([[= developer_doc =]]/ai_actions/initiate_connect_integration/), and [define scenarios](https://doc.ibexa.co/projects/connect/en/latest/scenarios/creating_a_scenario/) and/or templates in [[= product_name_connect =]].
     If users from the team are supposed to modify scenario settings, you must [grant them the right roles and permissions](https://doc.ibexa.co/projects/connect/en/latest/access_management/teams/#managing-teams).
@@ -133,7 +133,7 @@ You must then fine-tune its settings in [[= product_name_connect =]].
 
 If you have the right permissions, you can click **Go to Connect** and review all scenarios that exist in [[= product_name_connect =]].
 
-1. Click **Save and close** to apply the changes or **Discard** to discard them and close the window.
+4\. Click **Save and close** to apply the changes or **Discard** to discard them and close the window.
 
 After you save the AI Action, you can click its name in the AI action's list and see all the vital information, such as Scenario ID, webhook URL, or scenario label. 
 
