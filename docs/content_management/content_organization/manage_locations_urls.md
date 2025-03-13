@@ -24,6 +24,8 @@ Then select the new parent from the content browser.
 
 ![Content with two locations](img/content_with_two_locations.png "Content with two locations")
 
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/RDr8CRVwZXFu1usGhpJJ?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Manage content locations" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+
 ### Hide locations
 
 You can manage the availability of content by hiding or revealing it.
@@ -86,6 +88,8 @@ The **Last checked** column displays when the status was last verified.
     When you edit a link in the Link manager, you cannot change the URL address to one that already exists in the system.
 
     Once you save the link, it's automatically be marked as "Valid".
+
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/YSkaNNICXH0ipckN2Nxx?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Manage URLs" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
 
 ### URL aliases
 

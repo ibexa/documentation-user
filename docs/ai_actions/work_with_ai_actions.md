@@ -101,6 +101,8 @@ For a list of available settings, see [Edit existing AI actions](#edit-existing-
 
 1. Click **Save and close** to apply the changes or **Discard** to discard them and close the window.
 
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/4amA1EL6g3fFxSmQoFCp?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Work with AI actions" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+
 ## Duplicate AI actions
 
 You can duplicate existing actions, for example, to create a variant version of an action with slightly different settings.

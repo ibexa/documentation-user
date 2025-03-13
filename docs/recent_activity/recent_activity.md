@@ -55,3 +55,5 @@ The following example shows, how to narrow the results by selecting **Action** a
 With these settings, activity list displays only `Publish` actions from `Last week` time period.
 
 ![Published last week](recent_activity_filters.png "Published last week filter set")
+
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/IAJrEyQUizSxnei6kSis?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Recent activity" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
