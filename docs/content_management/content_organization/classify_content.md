@@ -26,6 +26,8 @@ If you want to remove a content item from a section, you need to assign it to a 
 
 Access to sections can be restricted by [setting up proper permissions](../../permission_management/work_with_permissions.md).
 
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/QU3fe8uecEBv4NDbPCoc?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Create new section" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+
 ## Object states
 
 You can assign specific object states to all content items in your website.
@@ -49,6 +51,8 @@ Click **Bookmarks** in the left menu to view a list of all of them.
 
 ![Bookmark screen](img/bookmarks.png)
 
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/YntAJoNhClxKurgeOXEt?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Manage bookmarks" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+
 ## Segments [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
 With segments you can target content at specific groups of your users.
@@ -63,3 +67,5 @@ You can create and configure segments and segment groups in the **Admin** sectio
 
     Assigning users to segments happens automatically according to rules set up by the administrator.
     Contact your website administrator for more information about your setup.
+
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/uts6qBWYu0PgNqAjODY0?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Work with segments" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
