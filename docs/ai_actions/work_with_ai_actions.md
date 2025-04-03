@@ -136,7 +136,7 @@ You must then fine-tune its settings in [[= product_name_connect =]].
 
 7\. Click **Save and close** to apply the changes or **Discard** to discard them and close the window.
 
-After you save the AI action, you can click its name in the AI action's list and see all the information, such as Scenario ID, webhook URL, or scenario label, which you may needed when working with scenarios in [[= product_name_connect =]]. 
+After you save the AI action, you can click its name in the AI actions list and see all the information, such as Scenario ID, webhook URL, or scenario label, which you may needed when working with scenarios in [[= product_name_connect =]]. 
 
 ## Duplicate AI actions
 
