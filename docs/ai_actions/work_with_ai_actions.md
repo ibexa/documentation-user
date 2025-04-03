@@ -109,8 +109,7 @@ One such example could be sending out a text for translation by one service, and
 !!! note "[[= product_name_connect =]] configuration required"
 
     To use AI actions that interface with [[= product_name_connect =]], you must first [configure and initiate the connection]([[= developer_doc =]]/ai_actions/install_ai_actions/#configure-access-to-ibexa-connect), and [define templates](https://doc.ibexa.co/projects/connect/en/latest/scenarios/scenario_templates/#creating-templates) and/or [scenarios](https://doc.ibexa.co/projects/connect/en/latest/scenarios/creating_a_scenario/) in [[= product_name_connect =]].
-    If users from the team are supposed to modify scenario settings, you must [grant them the right roles and permissions](https://doc.ibexa.co/projects/connect/en/latest/access_management/teams/#managing-teams).
-
+    
 1\. Navigate to the Admin Panel and select **AI actions**.
 
 2\. In the **AI actions** list, click **Create**.
@@ -137,7 +136,7 @@ You must then fine-tune its settings in [[= product_name_connect =]].
 
 7\. Click **Save and close** to apply the changes or **Discard** to discard them and close the window.
 
-After you save the AI action, you can click its name in the AI action's list and see all the vital information, such as Scenario ID, webhook URL, or scenario label. 
+After you save the AI action, you can click its name in the AI action's list and see all the information, such as Scenario ID, webhook URL, or scenario label, which you may needed when working with scenarios in [[= product_name_connect =]]. 
 
 ## Duplicate AI actions
 
