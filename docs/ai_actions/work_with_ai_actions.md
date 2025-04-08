@@ -121,7 +121,8 @@ One such example could be sending out a text for translation by one service, and
 4\. In the **Global properties** area, set the required properties.
 
 5\. In the **Settings** area, select an existing scenario from a drop-down list.
-The list contains only those scenarios, which are compatible with the selected action type and are associated with your [[= product_name_connect =]] team.
+The list contains all scenarios that exist in [[= product_name_connect =]].
+They may be incompatible with the selected action type and require adjustments on the  [[= product_name_connect =]] side.
 
 6\. Optionally, if there are no scenarios for the selected action type, or you want to create a custom scenario, click **Create scenario based on template** and select a template from a drop-down list.
 
