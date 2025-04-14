@@ -25,7 +25,7 @@ If the default list of attributes is not sufficient, ask your development team t
 !!! note "Attribute translations"
 
     Product attributes are not translatable.
-    Unlike text fields used in content, product attribute names and values cannot differ between languages.
+    Unlike text fields used in content, product attribute values cannot differ between languages.
     Therefore, consider using attributes to store technical parameters and text fields for descriptive text intended to be displayed that may require translation.
 
 ## Create attribute groups
