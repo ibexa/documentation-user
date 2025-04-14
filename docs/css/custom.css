@@ -397,7 +397,7 @@ figcaption {
     text-align: center;
 }
 
-a.external:not(.card):after {
+a.external:not(.card):not(.notification__cta a):after {
     content: url(../images/open-in-new.svg);
     font-style: normal;
     padding-left: 2px;
