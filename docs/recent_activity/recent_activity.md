@@ -21,7 +21,7 @@ By default, actions on the following items are displayed:
 
 !!! note
 
-    If your implementation requires that other actions are logged, see [custom log entry Developer Documentation]([[= developer_doc =]]/administration/recent_activity/recent_activity/#adding-custom-activity-log-entries).
+    If your implementation requires that other actions are logged, see [custom log entry Developer Documentation]([[= developer_doc =]]/administration/recent_activity/recent_activity/#add-custom-activity-log-entries).
 
     By default, log entries are kept for 30 days.
     This time can be modified through configuration.
@@ -55,3 +55,5 @@ The following example shows, how to narrow the results by selecting **Action** a
 With these settings, activity list displays only `Publish` actions from `Last week` time period.
 
 ![Published last week](recent_activity_filters.png "Published last week filter set")
+
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/IAJrEyQUizSxnei6kSis?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Recent activity" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->

@@ -21,7 +21,7 @@ Now, you can see new URL alias name pattern in the product type's view.
 
 ## Product Attributes identifiers
 
-Products have their own [attributes](products.md#attributes) to define product specification.
+Products have their own [attributes](work_with_product_attributes.md) to define product specification.
 
 The following attribute types can be used in URL alias name pattern field:
 
@@ -74,6 +74,3 @@ Now, in the **URL** tab in the product's view, you can see new custom URL for th
 ![Custom URL](custom_url.png "Custom URL")
 
 You can manage all the product URLs, both system and custom ones: create new and edit or delete existing ones.
-
-
-

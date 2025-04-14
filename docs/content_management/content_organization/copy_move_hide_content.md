@@ -82,13 +82,15 @@ This is different from [hiding locations](manage_locations_urls.md#hide-location
 
 !!! caution "Visibility and permissions"
 
-    The [visibility switcher](https://doc.ibexa.co/projects/userguide/en/latest/content_management/content_organization/manage_locations_urls/#hide-locations) is a convenient feature for withdrawing content from the frontend.
+    The [visibility switcher](manage_locations_urls.md#hide-locations) is a convenient feature for withdrawing content from the frontend.
     It acts as a filter in the frontend by default. You can choose to respect it or ignore it in your code.
     It's not permission-based, and **doesn't restrict access to content**.
     Hidden content can be read through other means, like the REST API.
 
     If you need to restrict access to a given content item, you could create a role that grants read access for a given
-    [**Section**](https://doc.ibexa.co/projects/userguide/en/latest/content_management/content_organization/classify_content/#sections)
-    or [**Object State**](https://doc.ibexa.co/projects/userguide/en/latest/content_management/content_organization/classify_content/#object-states),
+    [**Section**](classify_content.md#sections)
+    or [**Object State**](classify_content.md#object-states),
     and set a different section or object state for the given content.
-    Or use other permission-based [**Limitations**](https://doc.ibexa.co/projects/userguide/en/latest/permission_management/work_with_permissions/).
+    Or use other permission-based [**Limitations**](work_with_permissions.md).
+
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/NQXMhcHiPL1dVRT9Eg3u?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Copy, move or hide content" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->

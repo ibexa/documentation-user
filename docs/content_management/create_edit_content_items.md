@@ -54,6 +54,8 @@ description: Create content for your website with different fields, rich text, t
 
     For more information, see [Publish content](publish_content.md).
 
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/T4dqNwZwGGpS3RaLHA6R?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Create and edit article" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+
 !!! note "Versioning and autosave"
 
     Whenever you edit a content item, a [new version](content_versions.md) is created in the repository.
@@ -99,7 +101,7 @@ Its options appear when you click inside the field box.
 
 ![Online editor menu](img/online_editor_menu.png "Online editor menu")
 
-You can chooose from available options to edit and customize Rich Text field, for example, move up or down its elements, select heading style, add text elements, like superscript, block quote, or anchor.
+You can choose from available options to edit and customize Rich Text field, for example, move up or down its elements, select heading style, add text elements, like superscript, block quote, or anchor.
 
 You can also add new elements to the field.
 To do it, choose one of the available elements:
@@ -118,7 +120,7 @@ To do it, choose one of the available elements:
 Each of these elements can have its own settings, such as text formatting.
 The option bar also lets you reorder or remove any elements in the Rich Text field.
 
-
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/wkdL1r9PRunTeF6hPtEs?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Online Editor - work in Rich Text field" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
 
 #### Edit embedded content items
 
@@ -195,29 +197,33 @@ Contact your website administrator about the details of using them.
 
 ### AI Assistant
 
-If the [AI Actions](ai_actions.md) LTS update has been installed and configured in your application, when writing content, the **Improve text** button is visible in the toolbox.
+If the [AI Actions](ai_actions.md) LTS update has been installed and configured in your application, when writing content, the **Improve text** button is visible in the online editor's toolbox.
 If you have the required [permissions]([[= developer_doc =]]/permissions/policies/#ai-actions), you can request that the AI Assistant refines your text by using one of the defined actions.
 For example, you can highlight a passage and instruct the AI Assistant to extend the passage or adjust its tone to suit your needs.
-
 The **Go to AI actions** button can also visible to users with access to the **Admin UI**.
 By clicking it, you can quickly navigate to [AI actions configuration](work_with_ai_actions.md).
 
-![Improve text button and AI actions](ai_assistant.png)
+![Improve text button and AI actions](ai_assistant_online_editor.png)
+
+The AI Assistant is also available when working with Text Line and Text Block fields, allowing you to use AI on the contents of these fields.
+
+![Ai Assistant visible in Text Line field](ai_assistant_textline.png)
 
 After you select an action, the AI Assistant modal appears, where you can observe the results of AI service's work.
 When response is displayed on the screen, depending on whether you are satisfied with the result, you can select one of the options:
 
 - **Replace** - replaces the source text with the output
-- **Insert below** - inserts the output text directly after the source passage
+- **Insert below** - inserts the output text directly after the source passage (available only in the online editor)
 - **Try again** - makes another attempt at generating the output
 
-![AI Assistant](ai_assistant_options.png)
+![AI Assistant](ai_assistant.png)
 
 !!! note "Lengthy processing of complex requests"
 
     Depending on the length of the source text and the complexity of request, processing may take a while.
     You may cancel the processing if it takes too long by clicking **Stop**.
 
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/oDRgSawmcExFx2NUJYbM?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Use AI to expand the body text" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
 
 ### SeenThis! streaming
 

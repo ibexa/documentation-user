@@ -268,6 +268,27 @@ ul li li li {
             mask-image: var(--md-admonition-icon--caution);
 }
 
+/* Tile admonition */
+
+.md-typeset :is(.admonition):is(.tile) {
+    background-color: #ffffff;
+    border: 1px solid #D4D4D4;
+    border-radius: 5px;
+    padding: 0.7rem;
+    margin-bottom: 0.4rem;
+    overflow: auto;
+    box-shadow: none;
+    font-size: 16px;
+}
+
+.md-typeset :is(.admonition).tile>:is(.admonition-title) {
+    padding-left: 0.7rem;
+}
+
+.md-typeset :is(.admonition).tile>:is(.admonition-title):before {
+    content: none;
+}
+
 /* Fix scrollbar in admonitions when containing a table */
 .md-typeset .admonition .md-typeset__scrollwrap {
     margin-right: 0;
@@ -358,6 +379,10 @@ ul li li li {
     background-color: var(--table-header);
 }
 
+.md-typeset table td.compare {
+    border: 0.05rem solid var(--md-typeset-table-color)
+}
+
 .md-nav__link[data-md-state=blur] {
     color: rgb(19, 28, 38);
 }
@@ -372,7 +397,7 @@ figcaption {
     text-align: center;
 }
 
-a.external:not(.card):after {
+a.external:not(.card):not(.notification__cta a):after {
     content: url(../images/open-in-new.svg);
     font-style: normal;
     padding-left: 2px;
@@ -485,9 +510,40 @@ a.external:not(.card):after {
     height: 4px;
 }
 
-.md-typeset .tabbed-labels>label:hover {
+.md-typeset .tabbed-labels > label:hover {
   color: var(--ibexa-dusk-black);
   border-bottom: 2px solid var(--ibexa-dusk-black);
+}
+
+.md-typeset .tabbed-set > input:first-child:checked ~ .tabbed-labels > :first-child,
+.md-typeset .tabbed-set > input:nth-child(2):checked ~ .tabbed-labels > :nth-child(2),
+.md-typeset .tabbed-set > input:nth-child(3):checked ~ .tabbed-labels > :nth-child(3),
+.md-typeset .tabbed-set > input:nth-child(4):checked ~ .tabbed-labels > :nth-child(4),
+.md-typeset .tabbed-set > input:nth-child(5):checked ~ .tabbed-labels > :nth-child(5),
+.md-typeset .tabbed-set > input:nth-child(6):checked ~ .tabbed-labels > :nth-child(6),
+.md-typeset .tabbed-set > input:nth-child(7):checked ~ .tabbed-labels > :nth-child(7),
+.md-typeset .tabbed-set > input:nth-child(8):checked ~ .tabbed-labels > :nth-child(8),
+.md-typeset .tabbed-set > input:nth-child(9):checked ~ .tabbed-labels > :nth-child(9),
+.md-typeset .tabbed-set > input:nth-child(10):checked ~ .tabbed-labels > :nth-child(10),
+.md-typeset .tabbed-set > input:nth-child(11):checked ~ .tabbed-labels > :nth-child(11),
+.md-typeset .tabbed-set > input:nth-child(12):checked ~ .tabbed-labels > :nth-child(12),
+.md-typeset .tabbed-set > input:nth-child(13):checked ~ .tabbed-labels > :nth-child(13),
+.md-typeset .tabbed-set > input:nth-child(14):checked ~ .tabbed-labels > :nth-child(14),
+.md-typeset .tabbed-set > input:nth-child(15):checked ~ .tabbed-labels > :nth-child(15),
+.md-typeset .tabbed-set > input:nth-child(16):checked ~ .tabbed-labels > :nth-child(16),
+.md-typeset .tabbed-set > input:nth-child(17):checked ~ .tabbed-labels > :nth-child(17),
+.md-typeset .tabbed-set > input:nth-child(18):checked ~ .tabbed-labels > :nth-child(18),
+.md-typeset .tabbed-set > input:nth-child(19):checked ~ .tabbed-labels > :nth-child(19),
+.md-typeset .tabbed-set > input:nth-child(20):checked ~ .tabbed-labels > :nth-child(20) {
+    color: var(--md-accent-fg-color);
+}
+
+.js .md-typeset .tabbed-labels:before {
+    background: var(--md-accent-fg-color);
+}
+
+.md-typeset .tabbed-labels--linked > label > a {
+    padding: 0;
 }
 
 div.pills {
@@ -604,6 +660,10 @@ div.path {
 .cards p.description,
 .path p.description {
     color: var(--ibexa-dusk-black);
+}
+
+#older-versions {
+    cursor: pointer;
 }
 
 [hidden] {

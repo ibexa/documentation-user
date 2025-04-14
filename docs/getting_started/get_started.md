@@ -106,7 +106,7 @@ Here you can [change your user password](get_started.md#change-the-password) and
 
 |Setting|Description|
 --------|-----------|
-|[Autosave draft every given period](../content_management/content_versions.md/#autosave)|Enables or disables autosaving drafts.|
+|[Autosave draft every given period](content_versions.md#autosave)|Enables or disables autosaving drafts.|
 |Seconds till next draft autosave|Sets time period for next autosave.|
 |Enable character count in online editor|Enables or disables charactes count.|
 |Automatically open block settings in builders|Enables or disables the behavior of blocks used in builders.|
@@ -142,3 +142,5 @@ Fill in all the required fields and click **Save and close** to save changes.
 Click **Discard** to reject your changes and return to the previous screen.
 
 ![Editing password](img/editing_password.png "Editing password")
+
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/hmXfcsazcGSJbHzOpKAx?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Log in, navigate to the user profile, and change the password" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
