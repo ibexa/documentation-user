@@ -23,7 +23,7 @@ Product code can have up to 64 characters. It can contain only letters, numbers,
 
 4\. Add fields that describe the product by dragging them from the **Field types** area to the **Field definitions** section, and then [configure them](../content_management/configure_ct_field_settings.md).
 
- For the information that is intended to be displayed, use [TextLine]([[= developer_doc =]]/content_management/field_types/field_type_reference/textlinefield/) fields for short text, and [RichText]([[= developer_doc =]]/content_management/field_types/field_type_reference/richtextfield/) fields for longer text that may require formatting.
+For the information that is intended to be displayed, use [TextLine]([[= developer_doc =]]/content_management/field_types/field_type_reference/textlinefield/) fields for short text, and [RichText]([[= developer_doc =]]/content_management/field_types/field_type_reference/richtextfield/) fields for longer text that may require formatting.
 
 5\. Add attributes by dragging them or their groups from the **Library** area to the **Attributes** section.
 
