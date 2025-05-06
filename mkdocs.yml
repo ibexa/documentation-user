@@ -41,6 +41,7 @@ nav:
             - Copy, move or hide content: content_management/content_organization/copy_move_hide_content.md
             - Classify content: content_management/content_organization/classify_content.md
             - Manage content locations and URLs: content_management/content_organization/manage_locations_urls.md
+        - Collaborative editing: content_management/collaborative_editing.md
     - AI Actions:
         - AI Actions: ai_actions/ai_actions.md
         - Work with AI Actions: ai_actions/work_with_ai_actions.md
