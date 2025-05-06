@@ -199,6 +199,7 @@ extra_css:
   - css/custom.css
   - css/page-not-found.css
   - css/navigation.css
+  - css/pills.css
   - css/search.css
   - css/docs.switcher.css
   - css/jquery-ui.min.css

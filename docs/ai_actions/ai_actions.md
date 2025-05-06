@@ -1,5 +1,6 @@
 ---
 description: Learn about generative AI and its capabilities.
+edition: lts-update
 ---
 
 # AI Actions
