@@ -108,7 +108,7 @@
                         <div>Use it to add time-related values to product specifications.</div>
                     </div>
                     <div class="notification__cta">
-                        <a href="https://doc.ibexa.co/en/latest/pim/attributes/date_and_time/">Learn more about this LTS Update</a>
+                        <a href="https://doc.ibexa.co/en/latest/discounts/discounts">Learn more about this LTS Update</a>
                         <a href="https://doc.ibexa.co/en/latest/ibexa_products/editions/#lts-updates">Discover other LTS Updates</a>
                     </div>
                     <div class="notification__image">
