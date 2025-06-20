@@ -1,66 +1,159 @@
 ---
 description: Create and edit discounts, toggle discount status.
-edition: commerce
+editions:
+    - lts-update
+    - commerce
+month_change: true
 ---
 
 # Work with discounts
 
-In [[= product_name =]], you can view a list of discounts and modify their statuses on the **Discounts** screen.
-By default, depending on your permissions, you can access your own discounts, or all the discounts that exist in the system.
+In [[= product_name =]], on the **Discounts** screen, you can either view a list of discounts, or update existing discounts and create new ones depending on permissions assigned to your [user role](work_with_permissions.md).
 
-## Filter discounts in discount list
+## View discount information in discounts list
 
-1. In the left panel, go to **Commerce** -> **Discounts**.
-2. Narrow down the list of displayed discounts in one of the following ways:
-    - search for discounts by typing part of customer or company name, or discount identifier in the search box
-    - filter discounts by selecting one or more filters
+1\. In the left panel, go to **Commerce** -> **Discounts**.
 
-Available filters are:
+Here, you can see a list of discounts, together with information about their validity period, status, type, and their authors.
 
-- Statuses - multiselect list of discount statuses, by default: Pending, Processing, Completed, Cancelled
+2\. Narrow down the list of displayed discounts in one of the following ways:
 
-!!! note "Discount statuses"
+    - search for a discount by typing in a part of its name or identifier in the search field
+    - filter discounts by selecting one or more of the following filters:
 
-    Discount statuses visible in the **Status** filter field are defined in the [Discount workflow]([[= developer_doc =]]/commerce/discount_management/configure_discount_management/#configure-discount-processing-workflow).
+        - Applicability: catalog or cart products
+        - Availability: active, inactive or disabled
+        - Creation date range: start and end of date range within which the discount was created
+        - Validity dates range: start and end of date range within which the discount is in force
 
-- Created - a range of dates between which the discount was created
-- Client type - either B2B or B2C client
-- Discount source - the store from which the discount comes
-- Total value - a range of values that includes the total value of the discount, in a selected currency
-- Currency - the currency in which the discount was made
+![Discount filters](discount_filters.png)
 
-![Discount list](discount_list.png)
+3\. Click **Apply** to confirm your choices.
+
+To clear all the filters, click **Clear filters**.
+
+### Instantly disable active discount
+
+When working with discounts it may happen that a discount has been created or enabled in error and you notice that it has negative impact on your business.
+
+To disable the offending discount, find it in the discount list and in its line click **Disable** icon.
+
+![Discount filters](discount_disable_icon.png)
 
 ## View discount details
 
-To view the details of an discount, click its line in the discount list.
+To view the details of a discount, click its line in the discount list.
+On the discount details screen, you can see an overview of the discount's details.
 
-On the discount details screen, you can view more information about the discount, such as customer, payment, and shipment details.
+Discount details include basic information about the discount: 
+
+- validity period and value of the discount
+- region and currency that the discount applies to
+- products subject to the the discount
+- whether the discount applies to all customers or a selected customer group,
+- whether any conditions apply
 
 ![Discount detail view](discount_detail_view.png)
 
-In the **Items** tab you can see a list of products included in the discount.
+### Add translations
 
-![Viewing products included in the discount](discount_detail_items.png)
+If your store supports multiple languages and you want different discount names and/or descriptions to appear to customers from different markets, while viewing discount details, you can go to the **Translations** tab and [add translations](../../content_management/translate_content.md#add-translations).
 
-The fields have the following meaning:
+## Create new discount
 
-- **Subtotal (net)** - a sum of all product prices without taxes
-- **Shipping cost** - a net cost of the selected shipping method
-- **Taxes** - a total value of all taxes, including those that apply to the selected shipping method and the products
-- **Total value (gross)** - a total value of the discount, including all discounts, taxes, and service charges
+When you create discounts, you must first decide whether they apply to all [products](../../pim/products.md) from the catalog, or the products that the customer has put into their cart.
+You are then taken through a series of screens, where you define the discount, for example, decide if it applies to selected [customer groups]([[= developer_doc =]]/users/customer_groups/) and specific products.
+Cart discount applicability can be further limited by setting a number of conditions, such as:
 
-!!! note "Discounting virtual products"
+- a number of products in the cart
+- total purchase value
+- a discount code
 
-    If the discount includes only virtual products then the Shipment and Shipping address sections aren't available.
-    Virtual products don't require shipment when they're the only product in a purchase.
+1\. In the left panel, go to **Commerce** -> **Discounts**, and click **Create**.
 
-## Change discount status
+2\. Select whether the discount applies to catalog or cart products and the product's type.
 
-If your [user role](work_with_permissions.md) includes the `Discount/Update` permission, you can change the status of an existing discount: confirm it if the discount has "Pending" status, or complete it when it's in "Processing" status.
-With the `Discount/Cancel` permission, you can cancel an existing discount.
+Choose **Fixed amount** to deduct a specific amount of money from the base price of the product, or **Percentage** to calculate the deducted amount based on a specific percent value.
 
-!!! note "Canceling discounts"
+![New discount](new_discount.png)
 
-    When you create an discount, stocks are reduced for the products on that discount.
-    When you cancel an discount, the stocks are reverted back to their original values.
+3\. Provide general information about the new discount:
+
+    1. In the **Global properties** area, provide an internal name of the discount and set the validity period.
+Toggle the **Permanent discount** on to make the discount valid until you disable it.
+
+    1. Then, select discount [priority] ([[= developer_doc =]]/discounts/discounts_guide/#discounts-priority) to help the system choose the right discount to apply.
+
+    1. If your store supports multiple markets, you can then select a region that the discount applies to, and decide whether the discount applies to all or selected currencies.
+
+    1. In the **Promotion label** field, provide a name of the campaign, as it should be shown to customers, for example "Summer Sale" or "DACH Conference".
+
+    1. Click **Next* to go to the next screen.
+    
+![Creating a new discount](create_new_discount.png)
+
+!!! note "Navigating through the screens"
+
+    When editing discount details, you can go back to change the settings.
+    To do it, click **Previous** or click a step header at the top of the screen.
+
+![Discount creator steps](discount_creator_headers.png)
+
+4\. Select customers that the new discount is targeted at.
+
+![Customer selection](discounts_select_customers.png)
+
+5\. Select products that the discount applies to.
+You can choose between:
+    
+- all products from the catalog, for example, to clear stock before the end of year
+- products from a specific category, for example, promotional gadgets for company partners
+- specific products or even product variants, to promote a specific brand
+
+In the latter case, you select products by using a Product picker, where you can use search and filters to pinpoint the exact product or product variant that you want the discount to apply to.
+
+![Product picker](product_picker.png)
+
+6\. If you are creating a cart discount, in the next you screen, you can set the conditions that limit the discount's availability to customers who have:
+
+- added to cart no less than a specific number of certain items
+- added products to a cart for no less than a specified total value
+- entered a specified discount code
+
+If you set the discount code, you can also set the number of times that the code can be used.
+
+![Cart discount conditions](cart_discount_conditions.png)
+
+7\. If you are creating a percentage- based discount, in **Customer gets discount value**, enter the percent value that the system uses to calculate the amount deducted from the base price of the product.
+Otherwise, enter the monetary value to be deducted from the base price. 
+
+8\. Click **Save and close** to save the newly created discount.
+
+## Edit existing discount
+
+You may find that an existing discount needs to be modified, for example, to change its validity period or target group.
+
+1\. In the left panel, go to **Commerce** -> **Discounts**.
+
+![Discounts list](discounts_list.png)
+
+2\. Use the search field and filters to find the discount that you want to edit.
+
+3\. Click the **Edit** button next to the method in the list.
+
+4\. Edit the necessary details as described in the [Create new discount](#create-new-discount).
+
+5\. **Save and close** to save your changes.
+
+## Delete existing discount
+
+When there are too many discounts in the system, you may want to delete historic, unused ones.
+You can only delete disabled discounts.
+
+1\. In the left panel, go to **Commerce** -> **Discounts**.
+
+2\. Use the search field and filters to find the discount that you want to delete.
+
+3\. If the discount that you want to delete is not disabled, use the *Dasable** to [disable it](#instantly-disable-active-discount).
+
+3\. Select a box next to the discounts name and click **Delete**.

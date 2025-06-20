@@ -1,23 +1,24 @@
 ---
-description: Discounts module handles orders and allows managing orders in the system.
-edition: commerce
+description: Increase conversion and attract customers by offering them products at discounted prices.
+editions:
+    - lts-update
+    - commerce
+month_change: true
 ---
 
 # Discounts
 
-The **Discounts** module allows store managers to improve stock rotation, increase customer attachment or invite new customers by offering reductions of prices on all or selected products, either at the catalog or the cart level.
+Discounts help store managers improve stock rotation, increase customer attachment or invite new customers, by offering reductions of prices on all or selected products, either at catalog or cart level.
 
-Depending on the permissions assigned to your [user role](permissions_and_users.md), you might be able to view existing discounts of define new ones.
+The **Discounts** module is not included in [[= product_name =]] by default.
+It's an [LTS Update]([[= developer_doc =]]/ibexa_products/editions#lts-updates) that requires separate [installation]([[= developer_doc =]]/discounts/install_discounts/).
 
-With the back office **Discounts** screen, you can search for discounts and filter search results.
+Once Discounts are installed, depending on the permissions assigned to your [user role](permissions_and_users.md), you might be able to view existing discounts or define new ones to shape the pricing policy of your store.
 
-![Discounts list](discount_list.png "Discounts list")
+For example, you can create time-limited offers on selected products, that apply only to specified regions, currencies, products, customers, or reward your newsletter subscribers with special discount codes.
 
-The **Discounts** package interacts with other packages of the system, so that:
+The **Discounts** module interacts with other parts of the system, so that store customers can:
 
-- when store customers view products in the product catalog, they can see prices reduced according to catalog discounts in force 
-- when store customers view products in the cart, they can see prices reduced according to cart discounts and apply discount codes
-
-[[= cards([
-    "commerce/order_management/work_with_discounts"
-], columns=3) =]]
+- when they browse the product catalog, see base prices of products together with prices reduced according to active catalog discounts
+- when they add products to cart, see prices reduced according to catalog and/or cart discounts, apply discount codes, and observe as prices change when various cart discount conditions are met 
+- when they move to checkout, see a total value of all applied discounts and prices reduced as a result of those discounts
