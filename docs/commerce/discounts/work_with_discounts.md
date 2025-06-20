@@ -25,17 +25,17 @@ In [[= product_name =]], on the **Discounts** screen, you can either view a list
         - Creation date range: start and end of date range within which the discount was created
         - Validity dates range: start and end of date range within which the discount is in force
 
-![Discount filters](discount_filters.png)
+    ![Discount filters](discount_filters.png)
 
 3. Click **Apply** to confirm your choices.
 
-    To clear all the filters, click **Clear filters**.
+4. To clear all the filters, click **Clear filters**.
 
 ### Instantly disable active discount
 
 When working with discounts it may happen that a discount has been created or enabled in error and you notice that it has negative impact on your business.
 
-To disable the offending discount, find it in the discount list and in its line click **Disable** icon.
+To disable the offending discount, find it in the discount list and, in its line, click the **Disable** icon.
 
 ![Discount filters](discount_disable_icon.png)
 
@@ -61,14 +61,22 @@ If your store supports multiple languages and you want different discount names 
 ## Create new discount
 
 When you create discounts, you must first decide whether they apply to all [products](../../pim/products.md) from the catalog, or the products that the customer has put into their cart.
-You are then taken through a series of screens, where you define the discount, for example, decide if it applies to selected [customer groups]([[= developer_doc =]]/users/customer_groups/) and specific products.
+You are then taken through a series of steps, where you define the discount, for example, decide if it applies to selected [customer groups]([[= developer_doc =]]/users/customer_groups/) and specific products.
 Cart discount applicability can be further limited by setting a number of conditions, such as:
 
 - a number of products in the cart
 - total purchase value
 - a discount code
 
+!!! note "Navigating through the steps"
+
+    When you define discount details, you can go back to change your choices.
+    To do it, click a step header at the top of the screen.
+
+    ![Discount creator steps](discount_creator_headers.png)
+
 1. In the left panel, go to **Commerce** -> **Discounts**, and click **Create**.
+
 2. Select whether the discount applies to catalog or cart products and the product's type.
 
     Choose **Fixed amount** to deduct a specific amount of money from the base price of the product, or **Percentage** to calculate the deducted amount based on a specific percent value.
@@ -78,24 +86,18 @@ Cart discount applicability can be further limited by setting a number of condit
 3. Provide general information about the new discount:
 
     1. In the **Global properties** area, provide an internal name of the discount and set the validity period.
-    Toggle the **Permanent discount** on to make the discount valid until you disable it.
-    1. Then, select discount [priority] ([[= developer_doc =]]/discounts/discounts_guide/#discounts-priority) to help the system choose the right discount to apply.
-    1. If your store supports multiple markets, you can then select a region that the discount applies to, and decide whether the discount applies to all or selected currencies.
+    Toggle the **Permanent discount** on to make the discount valid until you manually disable it.
+    1. Then, select discount [priority]([[= developer_doc =]]/discounts/discounts_guide/#discounts-priority) to help the system choose the right discount to apply when calculating the final price.
+    1. If your store supports multiple markets, you can select a region that the discount applies to, and decide whether the discount applies to all or selected currencies.
     1. In the **Promotion label** field, provide a name of the campaign, as it should be shown to customers, for example "Summer Sale" or "DACH Conference".
-    1. Click **Next* to go to the next screen.
+    1. Click **Next** to go to the next screen.
     
     ![Creating a new discount](create_new_discount.png)
 
-!!! note "Navigating through the screens"
-
-    When editing discount details, you can go back to change the settings.
-    To do it, click **Previous** or click a step header at the top of the screen.
-
-![Discount creator steps](discount_creator_headers.png)
-
 4. Select customers that the new discount is targeted at.
+You can choose everyone, or select one or more customer groups.
 
-![Customer selection](discounts_select_customers.png)
+    ![Customer selection](discounts_select_customers.png)
 
 5. Select products that the discount applies to. You can choose between:
     
@@ -105,7 +107,7 @@ Cart discount applicability can be further limited by setting a number of condit
 
     In the latter case, you select products by using a Product picker, where you can use search and filters to pinpoint the exact product or product variant that you want the discount to apply to.
 
-![Product picker](product_picker.png)
+    ![Product picker](product_picker.png)
 
 6. If you are creating a cart discount, in the next you screen, you can set the conditions that limit the discount's availability to customers who have:
 
@@ -128,13 +130,13 @@ You may find that an existing discount needs to be modified, for example, to cha
 
 1. In the left panel, go to **Commerce** -> **Discounts**.
 
-![Discounts list](discount_list.png)
+    ![Discounts list](discount_list.png)
 
 2. Use the search field and filters to find the discount that you want to edit.
 
-3. Click the **Edit** button next to the method in the list.
+3. Click the **Edit** button next to the discount in the list.
 
-4. Edit the necessary details as described in the [Create new discount](#create-new-discount).
+4. Edit the necessary details as described in [Create new discount](#create-new-discount).
 
 5. **Save and close** to save your changes.
 
