@@ -135,7 +135,7 @@ You may find that an existing discount needs to be modified, for example, to cha
 
 1\. In the left panel, go to **Commerce** -> **Discounts**.
 
-![Discounts list](discounts_list.png)
+![Discounts list](discount_list.png)
 
 2\. Use the search field and filters to find the discount that you want to edit.
 
