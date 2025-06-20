@@ -119,10 +119,10 @@ You can choose everyone, or select one or more customer groups.
 
     ![Cart discount conditions](cart_discount_conditions.png)
 
-7. If you are creating a percentage- based discount, in **Customer gets discount value**, enter the percent value that the system uses to calculate the amount deducted from the base price of the product.
-Otherwise, enter the monetary value to be deducted from the base price. 
+7. If you are creating a percentage-based discount, in **Customer gets discount value**, enter a percent value that the system uses to calculate the amount deducted from the base price of the product.
+Otherwise, enter a monetary value to be deducted from the base price. 
 
-8. Click **Save and close** to save the newly created discount.
+8. Click **Save and close** to save the discount that you just created.
 
 ## Edit existing discount
 
