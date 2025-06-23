@@ -17,7 +17,7 @@ It's an [LTS Update]([[= developer_doc =]]/ibexa_products/editions#lts-updates) 
 
 Once the module is installed, depending on the permissions assigned to your [user role](permissions_and_users.md), you might be able to view existing discounts or define new ones to shape the pricing policy of your store.
 
-For example, you can create time-limited offers on selected products, that apply only to specified regions, currencies, products, customers, or reward your newsletter subscribers with special discount codes.
+For example, you can create time-limited offers on selected products, ones that apply only to specified regions, currencies, products or customers, or reward your newsletter subscribers with special discount codes.
 
 ### Interaction with other modules
 

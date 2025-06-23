@@ -87,8 +87,17 @@ Cart discount applicability can be further limited by setting a number of condit
 
     1. In the **Global properties** area, provide an internal name of the discount and set the validity period.
     Toggle the **Permanent discount** on to make the discount valid until you manually disable it.
-    1. Then, select discount [priority]([[= developer_doc =]]/discounts/discounts_guide/#discounts-priority) to help the system choose the right discount to apply when calculating the final price.
-    1. If your store supports multiple markets, you can select a region that the discount applies to, and decide whether the discount applies to all or selected currencies.
+    1. Then, select discount priority to help the system choose between discounts to apply when calculating the final price.
+
+        !!! note "Only one discount at a time"
+
+            When two or more discounts could be applied to the base price of the product, the system uses only one, based on a number of rules.
+            For example, cart discounts surpass catalog discounts.
+
+            For more information, see [the product guide]([[= developer_doc =]]/discounts/discounts_guide/#discounts-priority).
+
+    1. If your store supports multiple markets, you can select a region that the discount applies to.
+    1. If you are creating a fixed-amount discount, select a currency of the discount.
     1. In the **Promotion label** field, provide a name of the campaign, as it should be shown to customers, for example "Summer Sale" or "DACH Conference".
     1. Click **Next** to go to the next screen.
     
@@ -149,6 +158,6 @@ You can only delete disabled discounts.
 
 2. Use the search field and filters to find the discount that you want to delete.
 
-3. If the discount that you want to delete is not disabled, use the *Disable** to [disable it](#instantly-disable-active-discount).
+3. If the discount that you want to delete is not disabled, use the **Disable** icon to [disable it](#instantly-disable-active-discount).
 
-4. Select a box next to the discounts name and click **Delete**.
+4. Select a box next to the discount's name and click **Delete**.
