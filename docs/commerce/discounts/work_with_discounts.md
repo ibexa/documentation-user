@@ -20,10 +20,10 @@ In [[= product_name =]], on the **Discounts** screen, you can either view a list
 
     - search for a discount by typing in a part of its name or identifier in the search field
     - filter discounts by selecting one or more of the following filters:
-        - Applicability: catalog or cart products
-        - Availability: active, inactive or disabled
-        - Creation date range: start and end of date range within which the discount was created
-        - Validity dates range: start and end of date range within which the discount is in force
+        - **Discount type**: applicable to catalog or cart products
+        - **Status**: active, inactive or disabled
+        - **Created**: start and end of date range within which the discount was created
+        - **Validity period**: start and end of date range within which the discount is in force
 
     ![Discount filters](discount_filters.png)
 
@@ -31,7 +31,7 @@ In [[= product_name =]], on the **Discounts** screen, you can either view a list
 
 4. To clear all the filters, click **Clear filters**.
 
-### Instantly disable active discount
+### Instantly disable discount
 
 When working with discounts it may happen that a discount has been created or enabled in error and you notice that it has negative impact on your business.
 
@@ -48,11 +48,16 @@ Discount details include basic information about the discount:
 
 - validity period and value of the discount
 - region and currency that the discount applies to
-- products subject to the the discount
 - whether the discount applies to all customers or a selected customer group,
 - whether any conditions apply
 
 ![Discount detail view](discount_detail_view.png)
+
+On other tabs within this screen you can see:
+
+- products subject to the discount
+- users who have authored or modified the discount
+- translations created for the discount
 
 ### Add translations
 
@@ -77,13 +82,13 @@ Cart discount applicability can be further limited by setting a number of condit
 
 1. In the left panel, go to **Commerce** -> **Discounts**, and click **Create**.
 
-2. Select whether the discount applies to catalog or cart products and the product's type.
+2. Select whether the discount applies to catalog or cart products and the discount's type.
 
     Choose **Fixed amount** to deduct a specific amount of money from the base price of the product, or **Percentage** to calculate the deducted amount based on a specific percent value.
 
     ![New discount](new_discount.png)
 
-3. Provide general information about the new discount:
+3. In the **General properties** screen, provide general information about the new discount:
 
     1. In the **Global properties** area, provide an internal name of the discount and set the validity period.
     Toggle the **Permanent discount** on to make the discount valid until you manually disable it.
@@ -98,27 +103,32 @@ Cart discount applicability can be further limited by setting a number of condit
 
     1. If your store supports multiple markets, you can select a region that the discount applies to.
     1. If you are creating a fixed-amount discount, select a currency of the discount.
-    1. In the **Promotion label** field, provide a name of the campaign, as it should be shown to customers, for example "Summer Sale" or "DACH Conference".
-    1. Click **Next** to go to the next screen.
     
     ![Creating a new discount](create_new_discount.png)
 
-4. Select customers that the new discount is targeted at.
+    1. In the **Promotion information** area, provide a name and description of the promotional campaign, as they should be shown to customers.
+
+    ![Adding information about the promotion](discounts_promo_info.png)
+
+    1. Click **Next** to go to the next screen.
+    
+    
+4. In the **Target group** screen, select customers that the new discount is targeted at.
 You can choose everyone, or select one or more customer groups.
 
     ![Customer selection](discounts_select_customers.png)
 
-5. Select products that the discount applies to. You can choose between:
+5. In the **Products** screen, select products that the discount applies to. You can choose between:
     
     - all products from the catalog, for example, to clear stock before the end of year
     - products from a specific category, for example, promotional gadgets for company partners
-    - specific products or even product variants, to promote a specific brand
+    - specific products or even product variants, to activate slow-moving inventory
 
     In the latter case, you select products by using a Product picker, where you can use search and filters to pinpoint the exact product or product variant that you want the discount to apply to.
 
     ![Product picker](product_picker.png)
 
-6. If you are creating a cart discount, in the next you screen, you can set the conditions that limit the discount's availability to customers who have:
+6. If you are creating a cart discount, in the **Conditions** screen, you can set the conditions that limit the discount's availability to customers who have:
 
     - added to cart no less than a specific number of certain items
     - added products to a cart for no less than a specified total value
@@ -128,10 +138,13 @@ You can choose everyone, or select one or more customer groups.
 
     ![Cart discount conditions](cart_discount_conditions.png)
 
-7. If you are creating a percentage-based discount, in **Customer gets discount value**, enter a percent value that the system uses to calculate the amount deducted from the base price of the product.
+7. In the **Discount value** screen, if you are creating a percentage-based discount, in **Customer gets discount value**, enter a percent value that the system uses to calculate the amount deducted from the base price of the product.
 Otherwise, enter a monetary value to be deducted from the base price. 
 
-8. Click **Save and close** to save the discount that you just created.
+8. In the **Summary** screen, review the details of the discount that you are creating, and click **Save and close** to save the discount.
+Depending on the settings, you may see a warning message.
+
+    ![Discount summary screen notice](discounts_summary_notice.png)
 
 ## Edit existing discount
 
