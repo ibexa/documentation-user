@@ -171,6 +171,6 @@ You can only delete disabled discounts.
 
 2. Use the search field and filters to find the discount that you want to delete.
 
-3. If the discount that you want to delete is not disabled, use the **Disable** icon to [disable it](#instantly-disable-active-discount).
+3. If the discount that you want to delete is not disabled, use the **Disable** icon to [disable it](#instantly-disable-discount).
 
 4. Select a box next to the discount's name and click **Delete**.
