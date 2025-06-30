@@ -1,12 +1,11 @@
 ---
 description: Create new AI actions or modify existing ones to work faster and increase creativity.
-edition: lts-update
 ---
 
 # Work with AI actions
 
 AI actions define what results are available to editors in AI-enabled areas, such as, for example, the AI Assistant.
-If the AI Actions LTS update has been installed and configured in your application, and you have the required [permissions]([[= developer_doc =]]/permissions/policies/#ai-actions), including `Action configuration/Edit` and `Action configuration/Create`, you can reconfigure the existing AI actions, and create new ones.
+If the AI Actions have been configured in your application, and you have the required [permissions]([[= developer_doc =]]/permissions/policies/#ai-actions), including `Action configuration/Edit` and `Action configuration/Create`, you can reconfigure the existing AI actions, and create new ones.
 
 ## View AI actions
 

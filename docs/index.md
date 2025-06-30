@@ -86,34 +86,17 @@
         </div>
     </div>
     <div class="row">
-        <div class="row notifications">
-            <div class="col-12 col-lg-6">
-                <div class="notification notification--latest-release" id="tile2">
-                    <div class="notification__content">
-                        <h2>The latest release is [[= latest_tag_4_6 =]]</h2>
-                        <div>The latest version of Ibexa DXP is [[= latest_tag_4_6 =]]. Take advantage of the newest features and enhancements.</div>
-                    </div>
-                    <div class="notification__cta">
-                        <a href="https://doc.ibexa.co/en/latest/release_notes/ibexa_dxp_v4.6/">Release notes</a>
-                    </div>
-                    <div class="notification__image">
-                        <img src="images/notification-latest-release.svg" alt="The latest release" />
-                    </div>
+        <div class="col-12">
+            <div class="notification notification--latest-release" id="tile2">
+                <div class="notification__content">
+                    <h2>The latest release is [[= latest_tag_4_6 =]]</h2>
+                    <div>The latest version of Ibexa DXP is [[= latest_tag_4_6 =]]. Take advantage of the newest features and enhancements.</div>
                 </div>
-            </div>
-            <div class="col-12 col-lg-6">
-                <div class="notification notification--lts-update" id="tile3">
-                    <div class="notification__content">
-                        <h2>The newest LTS Update is Discounts</h2>
-                        <div>Use it to reduce product prices and attract new customers, retain existing ones, or clear out stock.</div>
-                    </div>
-                    <div class="notification__cta">
-                        <a href="https://doc.ibexa.co/en/latest/commerce/discounts/discounts/">Learn more about this LTS Update</a>
-                        <a href="https://doc.ibexa.co/en/latest/ibexa_products/editions/#lts-updates">Discover other LTS Updates</a>
-                    </div>
-                    <div class="notification__image">
-                        <img src="images/notification-lts-update.svg" alt="LTS Update" />
-                    </div>
+                <div class="notification__cta">
+                    <a href="https://doc.ibexa.co/en/latest/release_notes/ibexa_dxp_v4.6/">Release notes</a>
+                </div>
+                <div class="notification__image">
+                    <img src="images/notification-latest-release.svg" alt="The latest release" />
                 </div>
             </div>
         </div>
@@ -248,7 +231,7 @@
                         <li><a href="commerce/shipping_management/work_with_shipping_methods/">Work with shipping
                                 methods</a></li>
                         <li><a href="commerce/payment/work_with_payment_methods/">Work with payment methods</a></li>
-                        <li><a href="commerce/payment/work_with_payments/">Work with payments</a></li>
+                        <li><a href="commerce/discounts/work_with_discounts/">Work with discounts</a></li>
                     </ul>
                 </div>
             </div>
