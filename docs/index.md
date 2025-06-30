@@ -104,11 +104,11 @@
             <div class="col-12 col-lg-6">
                 <div class="notification notification--lts-update" id="tile3">
                     <div class="notification__content">
-                        <h2>The newest LTS Update is the Date and time attribute type</h2>
-                        <div>Use it to add time-related values to product specifications.</div>
+                        <h2>The newest LTS Update is Discounts</h2>
+                        <div>Use it to reduce product prices and attract new customers, retain existing ones, or clear out stock.</div>
                     </div>
                     <div class="notification__cta">
-                        <a href="https://doc.ibexa.co/en/latest/pim/attributes/date_and_time/">Learn more about this LTS Update</a>
+                        <a href="https://doc.ibexa.co/en/latest/commerce/discounts/discounts/">Learn more about this LTS Update</a>
                         <a href="https://doc.ibexa.co/en/latest/ibexa_products/editions/#lts-updates">Discover other LTS Updates</a>
                     </div>
                     <div class="notification__image">
