@@ -30,7 +30,7 @@ Here, you can:
 
 !!! note "Use AI to generate alternative text"
 
-    If the AI Actions feature has been configured in your application, the **Use AI** button is visible.
+    If AI Actions have been configured in your application, the **Use AI** button is visible.
     If you have `Action configuration/View` and `Action configuration/Execute` permissions, you can click it to have the alternative text generated automagically.
     The **Go to AI actions** button can also visible to users with access to the **Admin UI**.
     By clicking it, you can quickly navigate to [AI actions configuration](work_with_ai_actions.md).
