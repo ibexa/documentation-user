@@ -133,7 +133,10 @@ You can choose everyone, or select one or more customer groups.
     - added products to a cart for no less than a specified total value
     - entered a specified discount code
 
-    If you set the discount code, you can also set the number of times that the code can be used.
+    If you set the discount code, you can set the number of times that the code can be used:
+    
+    - by a certain customer
+    - in total, by all customers
 
     ![Cart discount conditions](cart_discount_conditions.png)
 
