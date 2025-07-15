@@ -13,13 +13,14 @@ Attribute types define what type of information you can store in an attribute.
 Available attribute types are:
 
 - Checkbox - represents a Boolean value
-- Date and time - represents a timestamp. Available if the [Date and time attribute]([[= developer_doc =]]/pim/attributes/date_and_time/) has been installed and configured
+- Date and time - represents a timestamp. Available if the [Date and time attribute]([[= developer_doc =]]/pim/attributes/symbol_attribute_type/) has been installed and configured
 - Color - presented as a hex value
 - Float - represents a number with fractions
 - Integer - represents a number without fractions (a whole number)
 - Measurement (range) - measurement with a given unit and minimum/maximum values selectable per product type
 - Measurement (single) - measurement with a single value in given unit
 - Selection - one of a list of customizable options
+- Symbol - value of product's symbol attribute. Available if the [Symbol attribute]([[= developer_doc =]]/pim/attributes/date_and_time/) has been installed and configured
 
 If the default list of attributes is not sufficient, ask your development team to [create a custom attribute type]([[= developer_doc =]]/pim/create_custom_attribute_type/).
 
