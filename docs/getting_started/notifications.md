@@ -1,5 +1,6 @@
 ---
 description: Get to know about notifications.
+month_change: true
 ---
 
 # Notifications
@@ -75,7 +76,7 @@ Depending on the context, the icon can be called differently, for example, **Go 
 
 ### Delete notifications or change their status
 
-You may want to change the status of all or individual notifications in the **Notifications** screen, or even delete them completely.
+You may want to change the status of multiple or individual notifications in the **Notifications** screen, or even delete them completely.
 
 1. Use filters to find the notifications that you want to delete or change their status.
 
