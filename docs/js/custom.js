@@ -2,6 +2,8 @@
 let jquery = jQuery;
 
 $(document).ready(function() {
+    const latestVersionNumber = '5.0';
+
     // replace edit url
     let branchName = 'master';
     const branchNameRegexp = /\/en\/([a-z0-9-_.]*)\//g.exec(document.location.href);
@@ -63,6 +65,14 @@ $(document).ready(function() {
                     $(this).detach().prependTo(vl);
                 });
             }
+
+            // Merge "X.Y" and "latest" entries into "X.Y (latest)"
+            const latestVersion = allVersions.find(v => v.textContent.trim() === 'latest');
+            const versionXY = allVersions.find(v => v.textContent.trim() === latestVersionNumber);
+
+            const versionXYLink = versionXY.querySelector('a');
+            versionXYLink.textContent = `${latestVersionNumber} (latest)`;
+            latestVersion.remove();
         }
     }, 300);
     setTimeout(function() {
