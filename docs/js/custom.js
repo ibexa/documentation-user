@@ -67,6 +67,7 @@ $(document).ready(function() {
             }
 
             // Merge "X.Y" and "latest" entries into "X.Y (latest)"
+            const allVersions = [...document.querySelectorAll('.switcher__list .versions dd')];
             const latestVersion = allVersions.find(v => v.textContent.trim() === 'latest');
             const versionXY = allVersions.find(v => v.textContent.trim() === latestVersionNumber);
 
