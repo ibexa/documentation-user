@@ -108,8 +108,8 @@
                         <div>Use it to store standarized identifiers of your products.</div>
                     </div>
                     <div class="notification__cta">
-                        <a href="https://doc.ibexa.co/en/latest/pim/attributes/symbol-attribute-type">Learn more about this LTS Update</a>
-                        <a href="https://doc.ibexa.co/en/latest/ibexa_products/editions/#lts-updates">Discover other LTS Updates</a>
+                        <a href="https://doc.ibexa.co/en/4.6/pim/attributes/symbol-attribute-type">Learn more about this LTS Update</a>
+                        <a href="https://doc.ibexa.co/en/4.6/ibexa_products/editions/#lts-updates">Discover other LTS Updates</a>
                     </div>
                     <div class="notification__image">
                         <img src="images/notification-lts-update.svg" alt="LTS Update" />
