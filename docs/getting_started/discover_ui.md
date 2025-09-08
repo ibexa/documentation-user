@@ -61,7 +61,7 @@ Depending on the product edition and your [permissions](../permission_management
 
 - **Content**, which gives you access to the content repository.
 It lets you navigate the content tree, and, for example, create, edit, move, copy, or delete content.
-- [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]] **Site management**, which enables you to create and edit block-based Pages and manage multiple websites.
+- [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]] **Site management**, which enables you to create and edit block-based pages and manage multiple websites.
 - **PIM**, which enables you to handle products presented on the website, including their specifications and pricing.
 - **Admin**, which is the administration panel where you can manage, for example, Users, Sections, or permissions.
 
@@ -103,6 +103,8 @@ You can also use the **Content Browser** to search the repository for content, e
 Focus mode helps editors focus on information that is only relevant to their line of work and omit technical details that would distract.
 It's enabled by default, after you log in.
 If you need access to certain settings or technical details, you can [disable the focus mode](#disable-focus-mode) at any time.
+
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/2YM6EhsN5eeohdLzYBpi?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Search and focus mode" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
 
 - **Dark theme for content tree**
 : In areas where the content tree is displayed, for example, in **Content structure**, the tree is displayed on a dark background.

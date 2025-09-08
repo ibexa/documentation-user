@@ -26,6 +26,7 @@ You can also do it in **My dashboard**, the **Review queue** table, by clicking 
 If you're not assigned to the draft, depending on the permissions set for your role, in the **Review queue** table, you can either release the lock by clicking the **Unlock** icon, or request that the lock is released by the reviewer by clicking the **Request access** icon.
 
 ## Compare versions
+
 You can compare two versions of the same content item.
 
 To do it, [disable the Focus mode](../../getting_started/discover_ui.md#disable-focus-mode).
@@ -49,6 +50,8 @@ When you compare two versions, the system highlights the changes:
 - red - content deleted
 
 ![Version comparison in Split view](img/split_view.png "Version comparison in Split view")
+
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/RRBS7OWNfcFMQOmiVgBs?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Compare versions" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
 
 You can also compare media field types such as images.
 

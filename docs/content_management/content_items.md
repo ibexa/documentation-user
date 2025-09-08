@@ -11,7 +11,7 @@ These fields can differ depending on what kind of content you're dealing with.
 An *article* content item may consist of fields, for example, *title*, *name*, *author*, *body*, *image*, or *subscriber teaser*.
 A *product* content item may have, for example, *product name*, *category*, *price*, *size*, or *color*, as fields.
 
-In [[= product_name =]], you create content items based on templated called [content types](content_model.md#content_types).
+In [[= product_name =]], you create content items based on templated called [content types](content_model.md#content-types).
 
 ## Access content in the UI
 

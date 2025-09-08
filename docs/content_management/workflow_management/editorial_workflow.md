@@ -28,3 +28,5 @@ If your installation is [configured to support draft locking]([[= developer_doc 
 In the Review queue table, you can access the draft for editing, review its history, unlock the draft, or request that a lock is released.
 
 For more information, see [Work with versions](work_with_versions.md).
+
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/6ADNUCnEPbEa6MAqWI9u?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Assign an article to review" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->

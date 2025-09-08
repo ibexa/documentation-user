@@ -48,7 +48,7 @@ Add several models to every strategy level to avoid empty or insufficient recomm
 From the **Data type** and **Context** drop-downs, select the required options to group items based on supported data types for the model.
 You can choose between **Submodels** or **Segments** data types.
 
-If selected models support additional differentiators, you can apply them here. For more information about available model settings, see [Advanced model configuration](recommendation_models.md#advanced-model-configuration).
+If selected models support additional differentiators, you can apply them here. For more information about available model settings, see [Advanced model configuration](configure_models.md#advanced-model-configuration).
 
 !!! note
 

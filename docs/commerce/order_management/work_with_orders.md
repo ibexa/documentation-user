@@ -21,7 +21,7 @@ Available filters are:
 
 !!! note "Order statuses"
 
-    Order statuses visible in the **Status** filter field are defined in the [Order workflow]([[= developer_doc =]]/commerce/order_management/configure_order_management/#order-processing-workflow).
+    Order statuses visible in the **Status** filter field are defined in the [Order workflow]([[= developer_doc =]]/commerce/order_management/configure_order_management/#configure-order-processing-workflow).
 
 - Created - a range of dates between which the order was created
 - Client type - either B2B or B2C client

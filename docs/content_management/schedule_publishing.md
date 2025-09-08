@@ -46,6 +46,8 @@ Use it to remove the previously selected publication date.
 
 ![Discard publish later button in the menu](img/discard_publish_date.png "Discard publish later button in the menu")
 
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/pXVyhWY2v5qD5Q6oS2W6?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Publish in the future" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+
 You can also [reschedule or cancel planned publications](#reschedule-or-cancel-publication).
 To browse all the future events, use the [Calendar widget](#calendar-widget).
 

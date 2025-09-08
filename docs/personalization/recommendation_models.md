@@ -121,7 +121,7 @@ It means, for example, that if the pattern covers 100 days, when the optimal tim
 ### B2B model
 
 This model shows which items were recently clicked or bought for a particular segment group of a company.
-B2B models work for a group of users, not for an individual user, and are considered [segment](configure_models.md#configure-segments) models.
+B2B models work for a group of users, not for an individual user, and are considered [segment](segment_management.md) models.
 
 !!! note
 

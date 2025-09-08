@@ -33,7 +33,7 @@ You can also [create additional folders](content_tree.md#add-folders) and sub-fo
 
 !!! note "Use AI to generate alternative text"
 
-    If the [AI Actions](ai_actions.md) LTS update has been installed and configured in your application, the **Use AI** button is visible.
+    If [AI Actions](ai_actions.md) have been configured in your application, the **Use AI** button is visible.
     If you have the required [permissions]([[= developer_doc =]]/permissions/policies/#ai-actions), you can click it to have the alternative text generated automagically.
     The **Go to AI actions** button can also visible to users with access to the **Admin UI**.
     By clicking it, you can quickly navigate to [AI actions configuration](work_with_ai_actions.md).
@@ -49,6 +49,8 @@ Tagging image assets helps keep the media library organized and enables searchin
 !!! note
 
     The maximum file size and file extension limitations may differ depending on your configuration.
+
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/LpqBrmNLohIUwtMIl02M?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Add and edit image" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
 
 ## Edit image assets and images
 
@@ -75,4 +77,4 @@ To upload multiple images and create many image assets, you can use multi-file u
 If you work with multiple languages and want to use searching by languages in DAM, you can add translations to image assets.
 You can replace the contents of all the fields that have values in the base language, for example, the description, or the alternative text.
 
-To see how to add translations, go to [translate content section](../content_management/translate_content.md/#add-translations).
+To see how to add translations, go to [translate content section](translate_content.md#add-translations).

@@ -25,4 +25,4 @@ Finally, you can [feed it with data](content_import.md), or wait until the servi
 On a website with more than 100 clicks per day, a day of collecting data should be sufficient for the first recommendations to be relevant.
 Recommendations become better with time and the amount of data collected.
 
-For more information about Personalization, see [Ibexa blog](https://www.ibexa.co/blog/ibexa-dxp-v3.3-new-feature-preview-personalization-simplified-and-dxp-integrated) or a [downloadable eBook](https://www.ibexa.co/events/ibexa-engage-2021/resources/downloads/the-basics-of-personalization).
+For more information about Personalization, see [Ibexa blog](https://www.ibexa.co/blog/ibexa-dxp-v3.3-new-feature-preview-personalization-simplified-and-dxp-integrated) or a [downloadable eBook](https://www.ibexa.co/resources/ebooks-analyst-reports/the-basics-of-personalization).

@@ -44,3 +44,8 @@ It lists all tasks required for product configuration, including:
 
 You can click the **Edit** button next to an unfinished task in the **Completeness** table to go directly to the screen where you can add the missing information.
 
+!!! note "Impact on availability"
+
+    Product completeness does not impact product availability or visibility on the storefront.
+    It is intended to help you ensure that product data is properly populated.
+    As long as your product meets the pricing and stock requirements, it can be published and made available for purchase regardless of its completeness score.
