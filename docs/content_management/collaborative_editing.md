@@ -6,7 +6,7 @@ description: Learn about Collaborative editing feature and its capabilities.
 
 Collaborative editing is a feature that allows multiple users to work on the same content item at the same time.
 The system automatically tracks changes and allows users to collaborate within a single application, without the need for third-party tools.
-Uses can work together and use a real-time editor to create and review content live.
+Users can work together and use a real-time editor to create and review content live.
 This makes teamwork faster, more efficient, and simplifies content review process.
 It allows to work directly with members of other teams, such as subject matter experts, compliance professionals, and sales representatives, to increase content quality.
 
@@ -15,9 +15,10 @@ It allows to work directly with members of other teams, such as subject matter e
 When you create a new draft of content item you can invite other users to join a collaboration session, thanks to [CKEditor collaboration features](https://ckeditor.com/ckeditor-5/capabilities/collaboration-features/).
 
 To invite collaborators, click the **Share** button, which creates a new collaboration session.
-Then, in a pop-up window, you can invite users to newly created session.
 
 ![Share button](img/share_button.png)
+
+Then, in a pop-up window, you can invite users to newly created session.
 
 !!! note
 
@@ -34,6 +35,12 @@ You can invite two types of users:
 - **External** - by providing their email address in the field. They can only preview the content item (editing option isn't available, it's greyed out).
 
 ![External users - invitation](img/invite_external_user.png)
+
+After inviting the user by clicking the **Invite** button, they appear in the *People with access* list.
+In the same pop-up window, you can change the type of access for specific user, for example, by granting them the ability to preview the content, or remove access.
+To do it, click the **Arrow symbol** and select the option from the list.
+
+![Change access](img/change_access.png)
 
 Additionally, you can share a direct link to the collaborative session.
 To do it, click the **Copy link** button.
@@ -59,10 +66,10 @@ Each user can leave collaboration session anytime or rejoin it.
 
 ## Editing content item
 
-Real-time collaboration is enabled in Rich Text fields.
+Collaborative editing is enabled in Rich Text fields.
 Other fields are disabled and can be only edited by the Owner of the content item.
 
-Real-time collaboration is available for the following content types containing Rich Text fields:
+Collaboration is available for the following content types containing Rich Text fields:
 
 - Article
 - Folder
@@ -80,11 +87,9 @@ Only the Owner can publish content, save it, delete the draft, or publish it.
 Changes are automatically saved when the Owner saves or publishes the content.
 Users can continue collaboration without the Owner presence, but they cannot save, or publish changes.
 
-![Owner - permissions](img/owner_permissions.png)
-
 ### Real-time collaboration
 
-Collaborative editing feature works by syncing changes in real time, so everyone can see updates instantly.
+Real-time collaboration is a premium feature thtat works by syncing changes in real time, so everyone can see updates instantly.
 Avatars of the users invited to collaboration session are visible at the top of the editing screen, also in distraction free mode.
 While editing Rich Text fields, you can see colored tracking tags with user avatar thumbnails that indicate who is currently working on it.
 
@@ -93,7 +98,7 @@ While editing Rich Text fields, you can see colored tracking tags with user avat
 Thanks to this, other users in the same session and editing the same piece of the content item at the same time, can see the actions and editing elements performed by a specific user.
 
 You can see all users belonging to a given content item's collaboration session.
-All users avatars should are displayed:
+All users avatars are displayed:
 
 - at the top of the content item editing window
 - in distraction free mode
@@ -116,8 +121,8 @@ Collaborative editing feature brings two new tabs in **My content** dashboard bl
 
 - **My shared drafts** - displays all drafts with active collaborations and shared by the user. Includes following columns: Name, Content type, Modified language, Version, Modified, Shared with (lists all the users who received the invitation to the collaboration session). From this tab, you can perform following actions: Share, Join, Edit
 
-![Dashboard block - My shared drafts](img/my_shared_drafts.png)
-
 - **Drafts shared with me** - displays all drafts with active collaborations and shared with the user. Includes following columns: Name, Content type, Modified language, Version, Modified, Shared by (displays the user who invited to join the collaboration session). From this tab, you can perform following action: Join
 
 From the dashboard, you can share drafts or join collaboration session for selected content draft.
+
+![Dashboard block - My content - new tabs](img/my_content_tabs.png)
