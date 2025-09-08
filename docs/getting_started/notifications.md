@@ -12,7 +12,7 @@ Notifications inform you about incoming assignments or requests, for example, wh
 - another user invites you to preview their work
 - when items are assigned for [your review](../content_management/workflow_management/editorial_workflow.md#review-queue)
 - when another user requests that you [release a lock](work_with_versions.md#release-locked-drafts)
-- when items are sent to trash
+- when items are [sent to trash](copy_move_hide_content.md#remove-content)
 
 ## Access notifications
 
@@ -87,4 +87,4 @@ You may want to change the status of multiple or individual notifications in the
     - select checkboxes next to notifications that you want to process
     - at the top of the list, click **Mark as read** or **Delete**.
 
-![Bulk action buttons](img/bulk_action_buttons.png "Bulk action buttons")
+![Bulk action buttons](img/notifications_bulk_action_buttons.png "Bulk action buttons")
