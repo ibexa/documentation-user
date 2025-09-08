@@ -70,9 +70,8 @@ You can see all the notifications that you have received in the **Notifications*
 
 In the notification screen, you can act on the notification to fulfill the request of the originator.
 
-To act on a notification, find it in the notifications list and, in its line, click a link in the title.
-You can also click an icon next to the notifications date and time.
-Depending on the context, the icon can be called differently, for example, **Go to content**, **Go to trash** or **Accept request**.
+To act on a notification, find it in the notifications list and click an icon next to the notification's date and time.
+Depending on the context, the icon can be called differently, for example, **Go to content** or **Accept request**.
 
 ### Delete notifications or change their status
 
