@@ -4,15 +4,18 @@ description: Learn about Collaborative editing feature and its capabilities.
 
 # Collaborative editing
 
-Collaborative editing is a feature that allows multiple users to work on the same content item at the same time.
-The system automatically tracks changes and allows users to collaborate within a single application, without the need for third-party tools.
-Users can work together and use a real-time editor to create and review content live.
-This makes teamwork faster, more efficient, and simplifies content review process.
-It allows to work directly with members of other teams, such as subject matter experts, compliance professionals, and sales representatives, to increase content quality.
+Collaborative editing is a feature that allows multiple users to work on the same content or product - whether to preview, review, or edit it.
+By giving users access to preview the content before it's published, review and collaboration becomes much easier.
+An additional option here is the ability to copy a link to the content item, which allows to share it through communication channels.
+It improves collaboration with members of other teams, such as subject matter experts, compliance professionals, and sales representatives, to increase content quality.
+
+A more advanced part of the collaboration feature is the Real-time editing.
+Users can edit and review content in real time, making teamwork faster, more efficient, and streamlining the content review process.
+The system automatically tracks changes, allowing seamless collaboration within a single content item.
 
 ## Collaboration session
 
-When you create a new draft of content item you can invite other users to join a collaboration session, thanks to [CKEditor collaboration features](https://ckeditor.com/ckeditor-5/capabilities/collaboration-features/).
+When you create a new draft of content item you can invite other users to join a collaboration session.
 
 To invite collaborators, click the **Share** button, which creates a new collaboration session.
 
@@ -22,8 +25,8 @@ Then, in a pop-up window, you can invite users to newly created session.
 
 !!! note
 
-    Only the Owner can invite other users and initiate collaboration session.
-    You can only invite users with permissions.
+    Only the owner can invite other users and initiate collaboration session.
+    You can only invite users with Collaboration permissions to access the shared content.
     Users without permissions are grayed out and you can't select them and invite them to the session.
 
 You can invite two types of users:
@@ -32,9 +35,11 @@ You can invite two types of users:
 
 ![Internal users - invitation](img/invite_internal_user.png)
 
-- **External** - by providing their email address in the field. They can only preview the content item (editing option isn't available, it's greyed out).
+- **External** - by providing their email address in the field. They can only preview the content item (editing option isn't available, it's grayed out).
 
 ![External users - invitation](img/invite_external_user.png)
+
+To confirm the provided email address, press the **Enter** key on your keyboard.
 
 After inviting the user by clicking the **Invite** button, they appear in the *People with access* list.
 In the same pop-up window, you can change the type of access for specific user, for example, by granting them the ability to preview the content, or remove access.
@@ -53,7 +58,7 @@ After inviting users to a collaboration session, they receive a notification:
 
 ![Notification - internal user](img/internal_notification.png)
 
-Collaboration session begins when first invited user accepts the invitation and joins the session, and ends when the Owner performs one of the action:
+Collaboration session begins when first invited user accepts the invitation and joins the session, and ends when the owner performs one of the action:
 
 - save and close
 - publish the content (including "Publish later" option)
@@ -64,10 +69,33 @@ Collaboration session begins when first invited user accepts the invitation and 
 
 Each user can leave collaboration session anytime or rejoin it.
 
+### Real-time collaboration
+
+Real-time collaboration is an advanced option of the Collaborative editing feature.
+It works by syncing changes in real time, so everyone can see updates instantly.
+Avatars of the users invited to collaboration session are visible at the top of the editing screen, also in distraction free mode.
+
+Users can edit the content or product only if an administrator gives them the necessary permissions.
+These permissions must be set before the user is invited to the session, otherwise the **Edit** access option is unavailable (grayed out).
+
+While editing Rich Text fields, you can see colored tracking tags with user avatar thumbnails that indicate who is currently working on it.
+
+![Collaboration - users tags](img/users_tags.png)
+
+This allows other users in the same session, who are working the same content, to see what each person is editing in real time.
+
+You can see all users belonging to a given content item's collaboration session.
+All users avatars are displayed at the top of the content item editing window, also in distraction free mode.
+
+When you hover over the user avatar, the user’s first and last name is displayed.
+If you want to see all participants list, click at the avatars group.
+
+![Participants list](img/participants_list.png)
+
 ## Editing content item
 
 Collaborative editing is enabled in Rich Text fields.
-Other fields are disabled and can be only edited by the Owner of the content item.
+Other fields are disabled and can be only edited by the owner of the content item.
 
 Collaboration is available for the following content types containing Rich Text fields:
 
@@ -76,37 +104,19 @@ Collaboration is available for the following content types containing Rich Text 
 - Form
 - Product category
 - Custom content types
-- Product (without variants)
+- Custom product types (without variants)
 
 There are two modes of the collaboration:
 
 - **Real-time (online)** - editing content at the same time with real-time tracking of the presence and changes of other users
-- **Asynchronous** - ediitng content in different time, saving changes as new version
+- **Asynchronous** - editing content independently
 
-Only the Owner can publish content, save it, delete the draft, or publish it.
-Changes are automatically saved when the Owner saves or publishes the content.
-Users can continue collaboration without the Owner presence, but they cannot save, or publish changes.
+!!! warning
 
-### Real-time collaboration
-
-Real-time collaboration is a premium feature thtat works by syncing changes in real time, so everyone can see updates instantly.
-Avatars of the users invited to collaboration session are visible at the top of the editing screen, also in distraction free mode.
-While editing Rich Text fields, you can see colored tracking tags with user avatar thumbnails that indicate who is currently working on it.
-
-![Collaboration - users tags](img/users_tags.png)
-
-Thanks to this, other users in the same session and editing the same piece of the content item at the same time, can see the actions and editing elements performed by a specific user.
-
-You can see all users belonging to a given content item's collaboration session.
-All users avatars are displayed:
-
-- at the top of the content item editing window
-- in distraction free mode
-
-When you hover over the user avatar, the user’s first and last name is displayed.
-If you want to see all participants list, click at the avatars group.
-
-![Participants list](img/participants_list.png)
+    Only the owner can publish content, save it, delete the draft, or publish it.
+    Changes are automatically saved when the owner saves or publishes the content.
+    Users can continue collaboration without the owner presence, but they cannot save, or publish changes.
+    They can also leave collaboration session any time without losing data.
 
 ## Work with draft
 
