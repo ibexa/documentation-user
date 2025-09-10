@@ -122,6 +122,12 @@ The option bar also lets you reorder or remove any elements in the Rich Text fie
 
 <!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/wkdL1r9PRunTeF6hPtEs?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Online Editor - work in Rich Text field" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
 
+#### Collaborative editing
+
+Rich Text fields allow multiple users to edit the content simultaneously thanks to the [Collaborative editing feature](collaborative_editing.md).
+When creating a new content item, the owner can invite other users, both internal or external, to collaborate on editing.
+Invited users can either edit the Rich Text fields or only preview the content (for example, for review purposes), depending on the access permissions granted.
+
 #### Edit embedded content items
 
 You can edit embedded content items without leaving current window.
