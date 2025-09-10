@@ -10,21 +10,20 @@ You can modify pages with a visual drag-and-drop editor, the [Page Builder](#pag
 Pages are divided into drop zones into which you can drop various dynamic blocks.
 By editing pages, you can customize the layout and content of your website.
 
-Whenever you edit a Page, a [new version](content_versions.md) is created in the repository.
+Whenever you edit a page, a [new version](content_versions.md) is created in the repository.
 
 !!! tip
-    The Page content type contains a **Landing Page** Field Type which manages
-    the zones and blocks.
-    Any content item that has the **Landing Page** Field Type behaves like
-    a page.
 
-## Create Page
+    The page content type contains a *Landing page* field type which manages the zones and blocks.
+    Any content item that has the *Landing page* field type behaves like a page.
+
+## Create page
 
 1. In the left panel, go to **Content** -> **Content structure**. Then select a parent content item and click **Create content**.
 1. In a slide-out pane, make initial choices in the following fields, and click **Create**:
     - **Select a language** - from a drop-down list, select the base language for the content item.
-    - **Select a content type** - use this field to narrow down the list of content type choices displayed below. Then select one of page type, for example, **Landing Page**, and click the **Create** button.
-1. In the [Page Builder toolbar](#page-builder-toolbar) click **Fields** and define the page's title and description.
+    - **Select a content type** - use this field to narrow down the list of content type choices displayed below. Then select one of page type, for example, **Landing page**, and click the **Create** button.
+1. In the [Page Builder toolbar](#page-builder-interface) click **Fields** and define the page's title and description.
 1. Click  **Switch layout** and select the layout.
 1. [Edit the page](#edit-page).
 1. To discard your changes and close the window, click **Delete draft**.
@@ -42,14 +41,18 @@ You can now navigate away from the Page by clicking the **Close** button.
     To help you preserve your work, [[= product_name =]] saves drafts of content items automatically.
     For more information, see [Autosave](content_versions.md#autosave).
 
-## Edit Page
+## Edit page
 
-To edit an existing Page, in the Back Office, from the Content Tree, choose the page that you want to edit and click **Edit** button.
+To edit an existing page, in the back office, from the content tree, choose the page that you want to edit, and click the **Edit** button.
+
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/d4T5EgOwz6bri2Zgy53M?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Edit existing page" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
 
 ### Page Builder interface
 
 Page Builder has a plain and intuitive interface.
-You can create Pages without having advanced technical skills.
+You can create pages without having advanced technical skills.
+
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/kbdnGkdrkXL2VAJW6c3O?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Page Builder interface" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
 
 ![Page Builder interface](img/page_builder_interface.png)
 
@@ -57,7 +60,7 @@ Page Builder user interface consists of:
 
 A. Drop zone
 
-B. Elements / Structure view toolbox
+B. Page blocks / Structure view toolbox
 
 C. Settings toolbar (including Fields, Visibility and Schedule settings)
 
@@ -69,28 +72,28 @@ The following table presents buttons and provides a short description of their f
 
 |Button|Description|
 |------|-----------|
-|![Fields button](page_builder_toolbar_editpreview.png)|Edit main details of the Page, like title and description.|
-|![Switch layouts](page_builder_toolbar_switch_layout.png)|Switch between Page layouts.|
-|![Preview segments](page_builder_toolbar_preview_segment.png)|Access preview of the Page for a given segment.|
-|![Timeline button](page_builder_toolbartimelinetoggler.png)|Access the timeline to preview how the Page changes with time. You can also view the list of all upcoming scheduled events.|
-|![View toggler](page_builder_toolbar_devicestoggler.png)|Toggle through to see how the Page is rendered on different devices.|
-|![Elements toolbox](page_builder_toolboxelements.png)|Move Elements / Structure view toolbox to the other side of the screen.|
+|![Fields button](page_builder_toolbar_editpreview.png)|Edit main details of the page, like title and description.|
+|![Switch layouts](page_builder_toolbar_switch_layout.png)|Switch between page layouts.|
+|![Preview segments](page_builder_toolbar_preview_segment.png)|Access preview of the page for a given segment.|
+|![Timeline button](page_builder_toolbartimelinetoggler.png)|Access the timeline to preview how the page changes with time. You can also view the list of all upcoming scheduled events.|
+|![View toggler](page_builder_toolbar_devicestoggler.png)|Toggle through to see how the page is rendered on different devices.|
+|![Page blocks toolbox](page_builder_toolboxelements.png)|Move Page blocks / Structure view toolbox to the other side of the screen.|
 |![Undo](page_builder_toolbar_undo.png)|Undo latest change.|
 |![Redo](page_builder_toolbar_redo.png)|Redo latest change.|
 
 Page Builder has two main views that you can use while creating a page:
 
-- Elements toolbox - consists of all available elements that you can use by dragging them and dropping on a drop zone.
+- **Page blocks** toolbox - consists of all available elements that you can use by dragging them and dropping on a drop zone.
 
-![Elements toolbox](img/elements_toolbox.png)
+![Page blocks toolbox](img/page_blocks_toolbox.png)
 
-- Structure view toolbox - shows a structure of your page, including their division into zones and the blocks that they contain.
+- **Structure view** toolbox - shows a structure of your page, including their division into zones and the blocks that they contain.
 
 ![Structure view toolbox](img/structure_view.png)
 
 ### Work with layout
 
-[Layout](configure_ct_field_settings.md#available-page-layouts) divides the Page into the defined zones. The zones are placeholders for the blocks.
+[Layout](configure_ct_field_settings.md#available-page-layouts) divides the page into the defined zones. The zones are placeholders for the blocks.
 
 The page layouts that an editor has access to are up to you to choose.
 
@@ -98,12 +101,12 @@ The default, built-in Page layout has only one zone, but developers can create o
 For more information, see [Configure layout](https://doc.ibexa.co/en/latest/templating/render_content/render_page/#configure-layout).
 
 While editing, you can switch layout for your page.
-To do it, click **Swicth layouts** button.
+To do it, click **Switch layouts** button.
 
 ### Add blocks
 
-In Page Builder you can access a toolbox of **Elements** — a set of blocks of content that you can add to the zones of the Page.
-Each block is unique in its function and enables you to customize the content appearing on the Page.
+In Page Builder you can access a toolbox of **Page blocks** — a set of blocks of content that you can add to the zones of the page.
+Each block is unique in its function and enables you to customize the content appearing on the page.
 
 Add a block by dragging it from the toolbox to an empty place on a zone.
 Do not worry about placing blocks in the proper place from the start.
@@ -111,16 +114,16 @@ You can reorder blocks later, in a few ways:
 
 - drag and drop block in the desired location on a drop zone
 - hover over the block and use 'Move up' and 'Move down' function in the settings of the block
-- access Structure view toolbox and use 'Move up' and 'Move down' function in the settings of the block
+- access **Structure view** toolbox and use 'Move up' and 'Move down' function in the settings of the block
 
 ![Structure view toolbox - reorder blocks](structure_view_move.png)
 
-When you add a new block to the drop zone, drop it in the blue highlighted area. 
+When you add a new block to the drop zone, drop it in the blue highlighted area.
 Before you drop it, a bold line appears  - it helps you see the position of the newly added block in relation to other, already added blocks.
 
 ![Drop zone line](drop_zone_line.png)
 
-When you add a block by dragging it from Elements toolbox into the drop zone,
+When you add a block by dragging it from **Page blocks** toolbox into the drop zone,
 the block settings panel open immediately where you can configure all block properties.
 
 ![Block properties](block_properties.png)
@@ -136,21 +139,18 @@ To change this behavior, click on **Edit** icon, find the setting, and change it
 
 ![User settings - blocks](img/user_settings_blocks.png "User settings - blocks settings")
 
-[[= product_name =]] comes with a set of ready-to-use Page blocks,
+[[= product_name =]] comes with a set of ready-to-use page blocks,
 but [developers can add their own]([[= developer_doc =]]/content_management/pages/create_custom_page_block/).
 
 For a list of blocks available out of the box, see [Block reference](block_reference.md).
 
 !!! note
 
-    Before you add a block that involves products, product types, or product categories, make
-    sure your that your [user Role](../permission_management/permissions_and_users.md) has
-    the `Product/View` and `Product type/View` permission.
+    Before you add a block that involves products, product types, or product categories, make sure your that your [user role](../permission_management/permissions_and_users.md) has the `Product/View` and `Product type/View` permission.
 
-    Before you add a block that uses results derived from a [Personalization](../personalization/personalization.md) scenario, 
-    for example, [Dynamic targeting](block_reference.md#dynamic-targeting-block) or [Recently added block](block_reference.md#recently-added-block), make sure that the scenario is [properly configured](../personalization/configure_scenarios.md).
+    Before you add a block that uses results derived from a [Personalization](../personalization/personalization.md) scenario, for example, [Dynamic targeting](block_reference.md#dynamic-targeting-block) or [Recently added block](block_reference.md#recently-added-block), make sure that the scenario is [properly configured](../personalization/configure_scenarios.md).
 
-You can work with the block, for example, duplicate it, change its position or delete it.
+You can work with the block, for example, duplicate it, change its position, or delete it.
 Hover over the block and the toolbar appears.
 Click the three dots icon to see more options.
 
@@ -161,17 +161,33 @@ The following actions are available:
 - Move up block - allows you to change position of the block on the page by moving it up
 - Move down block - allows you to change position of the block on the page by moving it down
 - Block settings - allows you to access properties window
+- Copy - allows you to reuse a configured block across pages by using the Clipboard section.
 - Duplicate - duplicates existing block with its settings
 - Refresh - refreshes preview of the block
 - Delete - deletes existing block
 
 ![Block window - size adjustment](img/block_window_size_adjust.png "Block window - size adjustment")
 
+#### Copy blocks
+
+You can copy blocks to reuse them on other pages, or within the same one.
+
+When you copy a block, it gets saved in the "Clipboard" section of the Page Blocks toolbox.
+At this point you can continue working on the current page, or you can close it and open another one, where you want to reuse the block.
+You can drag and drop the block from clipboard to a drop zone, like any other block.
+Doing so puts an exact copy of the block on the page, with all its settings.
+
+The clipboard can store only one block at a time.
+Content of the clipboard is visible only to you, and preserves switching into a new session.
+
+![The clipboard section containing a Code block](img/page_builder_page_blocks_clipboard.png "The clipboard section containing a Code block")
+
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/NqvkgfWoNZkynskJxHEn?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Copy option and Clipboard" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+
 #### Configure block settings
 
 Each kind of block has its special settings.
-You can access them by placing the cursor on the added block and clicking the 
-**Block settings** icon.
+You can access them by placing the cursor on the added block and clicking the **Block settings** icon.
 
 ![Block settings icon](img/block_settings_icon.png "Block settings icon")
 
@@ -180,15 +196,18 @@ The settings available on the **Basic** tab are tailored to the block's content.
 For a description of these settings, see [Block reference](block_reference.md).
 
 The remaining tabs contain parameters common to all blocks provided with [[= product_name =]].
-Use them to modify the layout and visibility of a block. For details, see [Scheduling publication](schedule_publishing.md).
+Use them to modify the layout and visibility of a block.
 
-For your comfort, you can adjust the size of the block settings window. 
-When you hover over the window frame, blue line appears. 
+For more information, see [Scheduling publication](schedule_publishing.md).
+
+For your comfort, you can adjust the size of the block settings window.
+When you hover over the window frame, blue line appears.
 Click-and-drag the border to adjust the size.
 
-You cannot publish a Page if you have not set all the required settings of all blocks.
+You cannot publish a page if you haven't set all the required settings of all blocks.
 
 !!! tip
+
     Settings and function of custom-made blocks of content depend on their design.
     For details on adjusting and using them, contact your website administrator.
 
@@ -251,4 +270,4 @@ There are several options for saving work on the page:
 |Save draft|Save the page draft*.|
 |Delete draft|Delete the page draft.|
 
-* To help you preserve your work, system saves drafts of content items automatically. For more information, see [Autosave](https://doc.ibexa.co/projects/userguide/en/master/content_management/content_versions/#autosave).
+* To help you preserve your work, system saves drafts of content items automatically. For more information, see [Autosave](content_versions.md#autosave).

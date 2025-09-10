@@ -10,7 +10,7 @@ You can work with dashboard: edit and customize it depending on your needs.
 ## Permissions
 
 To be able to customize a dashboard, you need the `dashboard/customize` policy.
-By default, all users belonging to the `Editors` User Group have the `Dashboard` role assigned, so that they can edit, create, or delete a dashboard.
+By default, all users belonging to the `Editors` user group have the `Dashboard` role assigned, so that they can edit, create, or delete a dashboard.
 If, by any reason, you want to narrow this permission, you can set up specific limitations.
 
 For more information about setting up a permission system, see [Work with permissions](work_with_permissions.md).
@@ -29,13 +29,15 @@ This action opens an online editor - Dashboard Builder.
 
 ![Dashboard Builder](dashboard_builder.png "Dashboard Builder")
 
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/e5bqo0vVeXcLX0fUtfZw?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Customize dashboard" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+
 ### Dashboard Builder interface
 
 Dashboard Builder user interface consists of:
 
 A. Drop zone
 
-B. Elements / Structure view toolbar
+B. Dashboard blocks / Structure view toolbox
 
 C. Buttons:
 
@@ -45,19 +47,19 @@ C. Buttons:
 |Switch layout|![Switch layout](dashboard_switch_layout.png)|Switch layout for the dashboard.|
 |Undo|![Undo](dashboard_undo.png)|Undo latest change.|
 |Redo|![Redo](dashboard_redo.png)|Redo latest change.|
-|Structure view|![Structure view](dashboard_structure_view.png)|Access Structure view toolbar.|
-|Elements menu|![Elements menu](dashboard_elements.png)|Access Elements toolbar.|
-|View switch|![View switch](dashboard_switch_toolbar.png)|Move Elements / Structure toolbar to the other side of the screen.|
+|Structure view|![Structure view](dashboard_structure_view.png)|Access **Structure view** toolbox.|
+|Dashboard blocks|![Dashboard blocks](dashboard_blocks.png)|Access **Dashboard blocks** toolbox.|
+|Side moving|![Side moving](dashboard_side_moving.png)|Move toolbox to the other side of the screen.|
 
-Dashboard Builder has two main toolbars that you can use while creating a dashboard:
+Dashboard Builder has two main toolboxes that you can use while creating a dashboard:
 
-- **Elements** - consists of all available blocks that you can use by dragging them and dropping on a drop zone.
+- **Dashboard blocks** - consists of all available blocks that you can use by dragging them and dropping on a drop zone.
 
-![Elements](dashboard_elements_toolbar.png)
+![Dashboard blocks](dashboard_blocks_toolbox.png)
 
 - **Structure view** - shows a structure of your dashboard, including its division into zones and the blocks that they contain.
 
-![Structure view](dashboard_structure_view_toolbar.png)
+![Structure view](dashboard_structure_view_toolbox.png)
 
 ### Choose layout
 
@@ -71,27 +73,27 @@ To do it, click the **Switch layout** icon on the left side of the upper toolbar
 
 ### Add blocks
 
-In Dashboard Builder, you can access a menu of **Elements**, which includes a set of blocks of content that you can add to the zones of the dashboard.
+In Dashboard Builder, you can access the **Dashboard blocks** toolbox, which includes a set of blocks of content that you can add to the zones of the dashboard.
 
-!!! Tip
+!!! tip
 
     For a list of available blocks and their detailed description, see [Dashboard block reference](dashboard_block_reference.md).
 
 Add a block by dragging it from the menu to an empty place on a zone.
-Do not worry about placing blocks in the proper place from the start.
+Don't worry about placing blocks in the proper place from the start.
 You can reorder them at any time by dragging and dropping them in the desired location.
 You can reorder blocks in a few ways:
 
 - drag and drop block in the desired location on a drop zone
-- use **Move up block** or **Move down block** option from the block toolbar
-- access Structure view and use 'Move up' and 'Move down' function in the settings of the block
+- use **Move up block** or **Move down block** option from the block toolbox
+- access the **Structure view** toolbox and use **Move up** or **Move down** option in the settings of the block
 
 When you add a new block to the drop zone, drop it in the blue highlighted area.
 Before you drop it, a bold line appears  - it helps you see the position of the newly added block in relation to other, already added blocks.
 
 ![Drop zone line](dashboard_blue_line.png)
 
-When you add a block by dragging it from Elements menu into the drop zone, the block settings panel open immediately where you can configure all block properties.
+When you add a block by dragging it from **Dashboard blocks** toolbox into the drop zone, the block settings panel open immediately where you can configure all block properties.
 
 ![Block properties](dashboard_block_properties.png)
 
@@ -101,9 +103,9 @@ First, access your user settings on the right side of the top bar:
 
 ![User settings](user_settings_builder.png "User settings")
 
-Then, go to **Preferences** tab, **Edit** section.
+Then, go to **Preferences** tab, **Content authoring** section, and click **Edit**.
 Here, you can find **Automatically open block settings in builder** setting, which is enabled by default.
-To change this behavior, click on **Edit** icon, find the setting, and change its value to `disabled`.
+To change this behavior, click on the arrow to see drop-down list and select `Disabled` option.
 
 ![Blocks settings](user_settings_blocks_builder.png "User settings - blocks settings")
 
@@ -122,7 +124,7 @@ To save changes, click **Save and close**.
 
 You can also work with the block, for example, duplicate it, change its position, or delete it.
 
-Hover over the block and the toolbar appears.
+When you hover over the block, the drop zone toolbar appears.
 Click the three dots icon to see more options.
 
 The following actions are available:

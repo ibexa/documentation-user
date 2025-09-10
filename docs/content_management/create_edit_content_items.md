@@ -1,5 +1,5 @@
 ---
-description: Create content for your website with different Fields, rich text, tags, and then publish it.
+description: Create content for your website with different fields, rich text, tags, and then publish it.
 ---
 
 # Create and edit content items
@@ -8,16 +8,16 @@ description: Create content for your website with different Fields, rich text, t
 
 1. Start creating a new content item in one of the following ways:
 
-    - In the left panel, go to **Content** -> **Content structure**. Then select a parent content item and click **Create content**. 
-    
+    - In the left panel, go to **Content** -> **Content structure**. Then select a parent content item and click **Create content**.
+
         The new content item becomes a child of the content item that you originally selected.
-    
-    - In the upper-right corner of the [My dashboard](../getting_started/discover_ui.md#my-dashboard) screen, click **Create content**.
-    Then choose a location for the new item in [Content Browser](../getting_started/discover_ui.md#content-browser) and click **Create**.
+
+    - In the **Quick actions** block of the [Dashboard](../getting_started/discover_ui.md#dashboard) screen, click **Create content**.
+    Then choose a location for the new item in [content browser](../getting_started/discover_ui.md#content-browser) and click **Create**.
 
     !!! tip
 
-        An alternative way of creating content items is to [drag one or more files](#upload-multiple-content-items) onto the **Sub-items** tab when viewing any content item in a [Content Tree](../getting_started/discover_ui.md#content-tree). 
+        An alternative way of creating content items is to [drag one or more files](#upload-multiple-content-items) onto the **Sub-items** tab when viewing any content item in a [content tree](../getting_started/discover_ui.md#content-tree).
 
 1. In a slide-out pane, make initial choices in the following fields, and click **Create**:
 
@@ -25,17 +25,18 @@ description: Create content for your website with different Fields, rich text, t
     - **Select a content type** - use this field to narrow down the list of choices displayed below. Then select a content type to serve as a template for the content item.
 
     !!! note
-       
-        If you're using [[= product_name_exp =]] or [[= product_name_com =]], the options include forms and pages.
-        You then [build forms](work_with_forms.md) and [create pages](create_edit_pages.md) by using their respective specialist tools.
 
-1. [Fill in the Fields](#edit-new-or-existing-content-items) of the content item.
+        If you're using [[= product_name_exp =]] or [[= product_name_com =]], the options include forms and pages.
+        You then [build forms](work_with_forms.md) and [create pages](create_edit_pages.md) in their respective specialist tools.
+
+1. [Fill in the fields](#edit-new-or-existing-content-items) of the content item.
 
 1. Click **Preview** to see how the content item could look to an end-user.
+
     !!! tip
-    
+
         A content item can look different on different [SiteAccesses](translate_content.md#siteaccess).
-        You can select a SiteAccess to preview by using a drop-down in the preview screen.
+        You can select a SiteAccess to preview with a drop-down in the preview screen.
 
 1. To discard your changes and close the window, click **Delete draft**.
 
@@ -44,7 +45,7 @@ description: Create content for your website with different Fields, rich text, t
     - Click **Save** to continue editing.
     - Click **Save and close** to close the window.
 
-1. To send your changes to another editor [for review](editorial_workflow.md), click **Send to review**. 
+1. To send your changes to another editor [for review](editorial_workflow.md), click **Send to review**.
 
 1. When the content item is ready for publication:
 
@@ -52,6 +53,8 @@ description: Create content for your website with different Fields, rich text, t
     - Click **Publish later** to set a specific publication date.
 
     For more information, see [Publish content](publish_content.md).
+
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/T4dqNwZwGGpS3RaLHA6R?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Create and edit article" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
 
 !!! note "Versioning and autosave"
 
@@ -62,10 +65,10 @@ description: Create content for your website with different Fields, rich text, t
 
 ##### Upload multiple content items
 
-When you view the content item details in the Content Tree, you can upload files such as images, videos, PDF documents, and so on.
+When you view the content item details in the content tree, you can upload files such as images, videos, or PDF documents.
 This way you can add multiple sub-items without editing the original content item.
 To do it, on the content item details screen, in the **Sub-items** tab, click **Upload** and choose all items that you want to upload.
-When a file is uploaded with multi-file upload, it is automatically stored in a Field of the content item.
+When a file is uploaded with multi-file upload, it's automatically stored in a field of the content item.
 
 !!! note
 
@@ -75,53 +78,55 @@ When a file is uploaded with multi-file upload, it is automatically stored in a 
 
 ## Edit new or existing content items
 
-Each content item is based on a [content type](create_edit_content_types.md). The content type defines what Fields 
-you have to fill in when creating a new item.
+Each content item is based on a [content type](create_edit_content_types.md).
+The content type defines what fields you have to fill in when creating a new item.
 It may also determine the layout or style in which this item is displayed.
 
-Fields marked with an asterisk (\*) are required. 
+Fields marked with an asterisk (\*) are required.
 You can't save the content item without filling them in.
 
-Some Fields, such as *Relation* Fields (which link two content items) or *Image* Fields
-require you to select a different content item to link to.
-A *Location* Field is a point on the map. You can type the place name, enter its coordinates, or select it on the map.
+Some fields, such as *Relation* field (which links two content items) or *Image* field, require you to select a different content item to link to.
+A *Location* field is a point on the map. You can type the place name, enter its coordinates, or select it on the map.
 
 <a name="relation_field"></a>
 
 !!! note
 
-    When you create or edit a content item that contains an *Image* or an *Image asset* Field, 
-    you can perform basic image editing functions by using an [Image Editor](../image_management/edit_images.md).
+    When you create or edit a content item that contains an *Image* or an *Image asset* field, you can perform basic image editing functions in an [Image Editor](../image_management/edit_images.md).
 
-### Edit Rich Text Fields
+### Edit Rich Text fields
 
-Rich Text Fields are filled in using a special Online Editor. Its options appear when you click the Field box.
+To fill in Rich Text fields you use an online editor.
+Its options appear when you click inside the field box.
 
-![Online Editor menu](img/online_editor_menu.png "Online Editor menu")
+![Online editor menu](img/online_editor_menu.png "Online editor menu")
 
-To add a new element to the Field, choose one of the available elements:
+You can choose from available options to edit and customize Rich Text field, for example, move up or down its elements, select heading style, add text elements, like superscript, block quote, or anchor.
 
-- Heading
-- Paragraph
+You can also add new elements to the field.
+To do it, choose one of the available elements:
+
 - Unordered list
 - Ordered list
-- Image
-- Embed
 - Table
+- Embed
+- Image
 - YouTube
-- Twitter
+- X
 - Facebook
 
 ![Available Rich Text block elements](img/rich_text_block_elements.png "Available Rich Text block elements")
 
 Each of these elements can have its own settings, such as text formatting.
-The option bar also lets you reorder or remove any elements in the Rich Text Field.
+The option bar also lets you reorder or remove any elements in the Rich Text field.
+
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/wkdL1r9PRunTeF6hPtEs?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Online Editor - work in Rich Text field" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
 
 #### Edit embedded content items
 
 You can edit embedded content items without leaving current window.
 
-To do it, first insert selected content item in the Rich Text Field.
+To do it, first insert selected content item in the Rich Text field.
 Then, click the three dots icon on the right side and click **Edit**.
 
 ![Edit embedded content item](img/edit_embedded_item_richtext.png "Edit embedded content item")
@@ -140,7 +145,7 @@ This option is also available when you want to set up a [relation](configure_ct_
 
 #### Distraction free mode
 
-While editing Rich Text Fields, you can switch to distraction free mode.
+While editing Rich Text fields, you can switch to distraction free mode.
 
 Distraction free mode expands the workspace to full screen and shows only editor toolbar.
 It's helpful when you need to work with longer texts that take more space and when you want to focus your attention on editing text.
@@ -157,12 +162,20 @@ To exit distraction free mode, click **Exit distraction free mode** or press Esc
 
 #### Anchors
 
-For longer texts, insert an anchor linking a fragment of text with another fragment or section
-to quickly jump through sections of an article.
-Create an anchor by clicking in the area to link to and selecting the anchor icon from the editor menu.
-In the modal window, provide the name for the anchor. Scroll to the fragment where you want to insert the link,
-and select the text to appear as a link. In the modal window, click the **Link** button.
-This opens the window to create the link. In the **Link to** box, enter the anchor name. Click **Save**.
+For longer texts, insert an anchor linking a fragment of text with another fragment or section to quickly jump through sections of an article.
+
+To create an anchor:
+
+1\. Click in the area to link to and select the anchor icon from the editor menu.
+
+2\. In the modal window, provide the name for the anchor.
+
+3\. Scroll to the fragment where you want to insert the link, and select the text to appear as a link.
+
+4\. In the modal window, click the **Link** button.
+This opens the window to create the link.
+
+5\. In the **Link to** box, enter the anchor name, and click **Save**.
 
 #### Images
 
@@ -175,17 +188,47 @@ See [Images]([[= developer_doc =]]/content_management/images/images/) for a tec
 
 ![Table options in online editor](img/online_editor_table.png)
 
-In table options you can define the first row and/or column as headers,
-add or delete rows and columns in any part of the table, as well as merge and split cells.
+In table options you can define the first row and/or column as headers, add or delete rows and columns in any part of the table, and also merge or split cells.
 
 #### Custom elements
 
 Your installation can also have custom elements available in the Rich Text field.
 Contact your website administrator about the details of using them.
 
+### AI Assistant
+
+If [AI Actions](ai_actions.md) have been configured in your application, when writing content, the **Improve text** button is visible in the online editor's toolbox.
+If you have the required [permissions]([[= developer_doc =]]/permissions/policies/#ai-actions), you can request that the AI Assistant refines your text by using one of the defined actions.
+For example, you can highlight a passage and instruct the AI Assistant to extend the passage or adjust its tone to suit your needs.
+The **Go to AI actions** button can also visible to users with access to the **Admin UI**.
+By clicking it, you can quickly navigate to [AI actions configuration](work_with_ai_actions.md).
+
+![Improve text button and AI actions](ai_assistant_online_editor.png)
+
+The AI Assistant is also available when working with Text Line and Text Block fields, allowing you to use AI on the contents of these fields.
+
+![Ai Assistant visible in Text Line field](ai_assistant_textline.png)
+
+After you select an action, the AI Assistant modal appears, where you can observe the results of AI service's work.
+When response is displayed on the screen, depending on whether you are satisfied with the result, you can select one of the options:
+
+- **Replace** - replaces the source text with the output
+- **Insert below** - inserts the output text directly after the source passage (available only in the online editor)
+- **Try again** - makes another attempt at generating the output
+
+![AI Assistant](ai_assistant.png)
+
+!!! note "Lengthy processing of complex requests"
+
+    Depending on the length of the source text and the complexity of request, processing may take a while.
+    You may cancel the processing if it takes too long by clicking **Stop**.
+
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/oDRgSawmcExFx2NUJYbM?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Use AI to expand the body text" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+
 ### SeenThis! streaming
 
 !!! note
+
     This custom tag is in an opt-in bundle, to use it, install `ibexa/connector-seenthis` bundle first.
 
 Use SeenThis! tag to enable displaying of video with maximum quality regardless of connection and server integration.
@@ -199,7 +242,7 @@ Here you can also add a link to the text. You can link to an external website, o
 
 ### Add taxonomy entries
 
-To keep your content organized and easy to find, you can add taxonomy entries to a content item while creating or editing it.
+To keep your content organized and searchable, you can add taxonomy entries to a content item while creating or editing it.
 For this feature to work as described, the content type must have a **Metadata** section, with a **Taxonomy Entry** field in it.
 
 1. Switch to the **Meta** tab.

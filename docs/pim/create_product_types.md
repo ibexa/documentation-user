@@ -4,9 +4,11 @@ description: Build new product types or modify existing ones.
 
 # Create product types
 
-If your [user Role](../permission_management/work_with_permissions.md) has the `ProductType/Edit` permission, you can modify product types and add individual attributes or attribute groups.
+If your [user role](../permission_management/work_with_permissions.md) has the `ProductType/Edit` permission, you can modify product types and add individual attributes or attribute groups.
 
 1\. In the left panel, go to **Product catalog** -> **Product Types** and click **Create**.
+
+![Create new product type](create_new_product_type.png "Create new product type")
 
 2\. From the drop-down list choose "Physical" or "Virtual" type and click **Add**.
 
@@ -19,12 +21,15 @@ If your [user Role](../permission_management/work_with_permissions.md) has the `
 Each product has a product code that must be unique. It identifies the product in the system.
 Product code can have up to 64 characters. It can contain only letters, numbers, underscores, and dashes.
 
-4\. Add Fields that describe the product by dragging them from the **Field types** 
-area to the **Field definitions** section, and then [configure them](../content_management/configure_ct_field_settings.md).
+4\. Add fields that describe the product by dragging them from the **Field types** area to the **Field definitions** section, and then [configure them](../content_management/configure_ct_field_settings.md).
+
+For the information that is intended to be displayed, use [TextLine]([[= developer_doc =]]/content_management/field_types/field_type_reference/textlinefield/) fields for short text, and [RichText]([[= developer_doc =]]/content_management/field_types/field_type_reference/richtextfield/) fields for longer text that may require formatting.
 
 5\. Add attributes by dragging them or their groups from the **Library** area to the **Attributes** section.
 
-When you define attributes for the product type, you can add or remove either whole attribute groups or individual attributes. 
+Use attributes to store precise lists of product properties or specifications.
+
+When you define attributes for the product type, you can add or remove either whole attribute groups or individual attributes.
 
 ![Adding attributes to a product type](img/adding_attributes.png "Adding attributes to a product type")
 
@@ -42,4 +47,3 @@ Attributes that have this option are used to [automatically generate product var
 !!! tip
 
     When your website supports multiple regions, you can use the search field to find the right one.
-

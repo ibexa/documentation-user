@@ -4,18 +4,13 @@ description: Perform various tasks on content item versions, as part of editoria
 
 # Work with versions
 
-In [[= product_name =]], content items can have one published [version](../content_versions.md), 
-and several draft and archived versions.
-You can perform various tasks on content item versions, either to advance them 
-through the workflow or compare edits from different users.
+In [[= product_name =]], content items can have one published [version](../content_versions.md), and several draft and archived versions.
+You can perform various tasks on content item versions, either to advance them through the workflow or compare edits from different users.
 
 
 ## Edit drafts
 
-If you are assigned to a draft version of a content item for [review](editorial_workflow.md), 
-when you click the **Edit draft** icon in **My dashboard**, the **Review queue** 
-table, you see the **Event(s)** timeline that lists all the transitions that this 
-content has gone through.
+If you're assigned to a draft version of a content item for [review](editorial_workflow.md), when you click the **Edit draft** icon in **My dashboard**, the **Review queue** table, you see the **Event(s)** timeline that lists all the transitions that this content has gone through.
 
 ![Events timeline](img/workflow_events_timeline.png)
 
@@ -25,23 +20,17 @@ If draft locking is supported, you also see a message that confirms that the dra
 
 ## Release locked drafts
 
-If you are assigned to a draft version of a content item and have locked it for 
-review, you can release the lock by closing the modal window, publishing the draft, 
-or sending it to another reviewer.
-You can also do it in **My dashboard**, the **Review queue** table, by clicking 
-the **Unlock** icon.
+If you're assigned to a draft version of a content item and have locked it for review, you can release the lock by closing the modal window, publishing the draft, or sending it to another reviewer.
+You can also do it in **My dashboard**, the **Review queue** table, by clicking the **Unlock** icon.
 
-If you are not assigned to the draft, depending on the permissions set for your 
-Role, in the **Review queue** table, you can either release the lock by clicking 
-the **Unlock** icon, or request that the lock is released by the reviewer 
-by clicking the **Request access** icon.
+If you're not assigned to the draft, depending on the permissions set for your role, in the **Review queue** table, you can either release the lock by clicking the **Unlock** icon, or request that the lock is released by the reviewer by clicking the **Request access** icon.
 
-## Compare versions 
+## Compare versions
+
 You can compare two versions of the same content item.
 
 To do it, [disable the Focus mode](../../getting_started/discover_ui.md#disable-focus-mode).
-Then, in the content item details screen, go to the **Versions** tab and click the 
-**Version Compare** icon: ![Version Compare Icon](img/version_compare_icon.png){.inline-image}.
+Then, in the content item details screen, go to the **Versions** tab and click the **Version Compare** icon: ![Version Compare Icon](img/version_compare_icon.png){.inline-image}.
 
 From the drop-down menus at the top of the screen, select the two versions that you want to compare.
 
@@ -62,14 +51,17 @@ When you compare two versions, the system highlights the changes:
 
 ![Version comparison in Split view](img/split_view.png "Version comparison in Split view")
 
-You can also compare media Field Types such as images.
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/RRBS7OWNfcFMQOmiVgBs?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Compare versions" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+
+You can also compare media field types such as images.
 
 ![Image comparison](img/image_comparison.png "Image comparison")
 
 !!! note
 
-    Not all Field Types are available for comparison. You cannot preview the difference in the following Field Types:
+    Not all field types are available for comparison.
+    You cannot preview the differences in the following field types:
 
     - Form
-    - Landing Page
+    - Landing page
     - User account
