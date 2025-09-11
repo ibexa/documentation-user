@@ -74,7 +74,7 @@ Each user can leave collaboration session anytime or rejoin it.
 
 ### Real-time collaboration
 
-Real-time collaboration is an advanced option of the Collaborative editing feature.
+Real-time collaboration is an advanced option of the Collaborative editing feature that allows, by default, *up to five users* to work together in a single session.
 It works by syncing changes in real time, so everyone can see updates instantly.
 
 Users can edit the content or product only if an administrator gives them the necessary permissions.
