@@ -125,7 +125,7 @@ The option bar also lets you reorder or remove any elements in the Rich Text fie
 #### Collaborative editing
 
 Rich Text fields allow multiple users to edit the content simultaneously thanks to the [Collaborative editing feature](collaborative_editing.md).
-When creating a new content item, the Owner can invite other users, both internal or external, to collaborate on editing.
+When creating a new content item, the owner can invite other users, both internal and external, to collaborate on the content.
 Invited users can either edit the Rich Text fields or only preview the content (for example, for review purposes), depending on the access permissions granted.
 
 #### Edit embedded content items
