@@ -4,7 +4,7 @@ description: Learn about Collaborative editing feature and its capabilities.
 
 # Collaborative editing
 
-Collaborative editing is a feature that allows multiple users to work on the same content or product - whether to preview, review, or edit it.
+Collaborative editing is a feature that allows multiple users to work on the same content simultaneously - whether to preview, review, or edit it.
 By giving users access to preview the content before it's published, review and collaboration become much easier.
 An additional option here is the ability to copy a link to the content item, which allows to share it through communication channels.
 It improves collaboration with members of other teams, such as subject matter experts, compliance professionals, and sales representatives, to increase content quality.
@@ -67,14 +67,19 @@ Collaboration session begins when first invited user accepts the invitation and 
 - move the draft in the workflow
 - end collaboration session
 
+Users can also join a collaboration session using the **Join** button:
+
+- available in new tabs of the **My content** block on the dashboard - *My shared drafts* and *Drafts shared with me*
+- by accessing a content draft in the **Drafts** menu
+
 Each user can leave collaboration session anytime or rejoin it.
 
 ### Real-time collaboration
 
-Real-time collaboration is an advanced option of the Collaborative editing feature that allows, by default, *up to five users* to work together in a single session. 
+Real-time collaboration is an advanced option of the Collaborative editing feature.
 It works by syncing changes in real time, so everyone can see updates instantly.
 
-Users can edit the content or product only if an administrator gives them the necessary permissions.
+Users can edit the content only if an administrator gives them the necessary permissions.
 These permissions must be set before the user is invited to the session, otherwise the **Edit** access option is unavailable (grayed out).
 
 While editing Rich Text fields, you can see colored tracking tags with user avatar thumbnails that indicate who is currently working on it.
@@ -96,14 +101,13 @@ If you want to see all participants list, click at the avatars group.
 Collaborative editing is enabled in Rich Text fields.
 Other fields are disabled and can be only edited by the owner of the content item.
 
-Collaboration is available for the following content and product types containing Rich Text fields:
+Collaboration is available for the following content types containing Rich Text fields:
 
 - Article
 - Folder
 - Form
 - Product category
 - Custom content types
-- Custom product types (without variants)
 
 There are two modes of the collaboration:
 
