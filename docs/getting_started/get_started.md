@@ -90,7 +90,7 @@ You can access your user settings on the right side of the top bar:
 
 Here you can [change your user password](get_started.md#change-the-password) and define your user preferences, such as preferred timezone, short and full date, and time format, or back office language.
 
-**Location**
+#### Location
 
 |Setting|Description|
 --------|-----------|
@@ -102,7 +102,7 @@ Here you can [change your user password](get_started.md#change-the-password) and
 |Language|Sets the default language used in the back office.|
 
 
-**Content authoring**
+#### Content authoring
 
 |Setting|Description|
 --------|-----------|
@@ -111,20 +111,21 @@ Here you can [change your user password](get_started.md#change-the-password) and
 |Enable character count in online editor|Enables or disables charactes count.|
 |Automatically open block settings in builders|Enables or disables the behavior of blocks used in builders.|
 
-**Browsing**
+#### Browsing
 
 |Setting|Description|
 --------|-----------|
 |Number of items displayed in the table|Sets the number of items displayed in sub-items.|
-|Location preview|Enables or disabled a thumbnail preview on the content tree.|
+|Location preview|Enables or disables a thumbnail preview on the content tree.|
+|Help center|Disables or enables the help center.|
 
-**Mode**
+#### Mode
 
 |Setting|Description|
 --------|-----------|
 |Focus mode|Enables or disables the [focus mode](discover_ui.md#focus-mode).|
 
-**Dashboard**
+#### Dashboard
 
 |Setting|Description|
 --------|-----------|
