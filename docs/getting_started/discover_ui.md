@@ -22,7 +22,7 @@ D\. Drop-down that changes the site context
 
 ![Top bar with site context selector](img/top_bar.png "Top bar with site context selector")
 
-E\. Notification icon that informs you about incoming assignments, for example, items assigned for [your review](../content_management/workflow_management/editorial_workflow.md#review-queue)
+E\. [Notification](notifications.md) icon that informs you about incoming assignments or requests, for example, when another user invites you to preview their work or when items are assigned for [your review](../content_management/workflow_management/editorial_workflow.md#review-queue)
 
 F\. App switcher which includes links to official websites of the QNTM group ecosystem companies, world-class ad-tech and mar-tech solution providers
 
