@@ -149,13 +149,14 @@ Focus mode is enabled by default when you first log into [[= product_name =]], b
 
 If the Integrated help [LTS update]([[= developer_doc =]]/ibexa_products/editions/#lts-updates) has been installed in your application, you may notice that the ![Help center](about-info.png){.inline-image} icon appears at the bottom right of multiple screens.
 Click it to access documentation, trainings, and other relevant resources straight from the back office.
+Help center is also [another place]([[= developer_doc =]]/administration/admin_panel/system_information_admin_panel/) where you can check the [[= product_name =]] version that you're on.
 
 ![Help center](img/help_center.png "Help center")
 
 Contents of the help center are contextual: 
 
 - If you are an [editor](editor.md) or [store manager](shop_manager.md) working in a production environment, help center contains links to user documentation, release notes and product roadmap highlights.
-- If you are a developer whose task is to set up or extend the application, it links to developer documentation, API references and the GraphQL console.
+- If you are a developer whose task is to set up or extend the application, it additionally shows links to developer documentation, API references and the GraphQL console.
 
 Help center can be [customized]([[= developer_doc =]]/administration/back_office/customize_integrated_help/) to fit the needs of your organization, for example, to include links to your internal style guides.
 
