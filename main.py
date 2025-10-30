@@ -42,7 +42,9 @@ def define_env(env):
         absolute_url = current_page.abs_url
         url_parts = re.search("^/([^/]+)/([^/]+)/([^/]+)/([^/]+)/", absolute_url)
         (project, edition, language, version) = url_parts.groups()
+
         version = force_version or version
+        version = os.getenv("READTHEDOCS_VERSION_NAME", version)
 
         if isinstance(pages, str):
             pages = [pages]
