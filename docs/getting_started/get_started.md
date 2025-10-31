@@ -117,7 +117,7 @@ Here you can [change your user password](get_started.md#change-the-password) and
 --------|-----------|
 |Number of items displayed in the table|Sets the number of items displayed in sub-items.|
 |Location preview|Enables or disables a thumbnail preview on the content tree.|
-|Help center|Disables or enables the help center.  [[% include 'snippets/lts-update_badge.md' %]]|
+|Help center|Disables or enables the [help center](discover_ui.md#help-center).  [[% include 'snippets/lts-update_badge.md' %]]|
 
 #### Mode
 
