@@ -67,7 +67,7 @@ You can modify the existing AI actions.
 - **Temperature** - controls the randomness of the response.
 Takes a value between 0 and 2, but the usual range is between 0 and 1.
 The output is more random at higher temperatures.
-For more information, see the parameter's description in [OpenAI API reference](https://platform.openai.com/docs/api-reference/chat/create#chat-create-temperature) or [Anthropic's glossary](https://docs.claude.com/en/docs/about-claude/glossary#temperature).
+For more information, see the parameter's description in [OpenAI API reference](https://platform.openai.com/docs/api-reference/chat/create#chat-create-temperature) or [Anthropic's glossary](https://docs.claude.com/en/docs/about-claude/glossary#temperature)
 
 ![AI action options](img/ai_action_options.png)
 
