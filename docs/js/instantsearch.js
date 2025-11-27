@@ -12,8 +12,8 @@
     const statsContainer = '#stats';
     const paginationContainer = '#pagination';
     const search = instantsearch({
-        indexName: 'ezplatform',
-        searchClient: algoliasearch('2DNYOU6YJZ', '21ce3e522455e18e7ee16cf7d66edb4b'),
+        indexName: 'ezplatform_userguide',
+        searchClient: algoliasearch('WLX2XJZTRM', '40ac288790bce56f11de4f1fb8e8ded4'),
         initialUiState: {
             ezplatform: {
                 query: parsed_search_query,
