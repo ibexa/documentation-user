@@ -4,9 +4,9 @@
     const parsed_search_query = decodeURI(search_query.replaceAll('+', ' '));
     const search_page = (match = doc.location.search.match(/p=(\d*?)(&|$)/)) ? match[1] : 1;
     const parsed_search_page = parseInt(search_page);
-    let version = doc.location.pathname.split('/')[2];
+    let version = doc.location.pathname.split('/')[4];
     if (!/^\d+\.\d+$/.test(version) && version !== 'latest') {
-        version = 'master';
+        version = 'latest';
     }
     const hitsContainer = '#hits';
     const statsContainer = '#stats';
