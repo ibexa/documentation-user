@@ -15,7 +15,7 @@
         indexName: 'ezplatform_userguide',
         searchClient: algoliasearch('WLX2XJZTRM', '40ac288790bce56f11de4f1fb8e8ded4'),
         initialUiState: {
-            ezplatform: {
+            ezplatform_userguide: {
                 query: parsed_search_query,
                 refinementList: { version: [version] },
                 page: parsed_search_page,
