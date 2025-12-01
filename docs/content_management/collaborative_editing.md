@@ -26,11 +26,10 @@ To invite collaborators, click the **Share** button, which creates a new collabo
 
 Then, in a pop-up window, you can invite users to newly created session.
 
-!!! note
+You can only invite users with permissions to access the shared content.
+Once invited, they might be able 
+Users without permissions are grayed out and you can't select them and invite them to the session.
 
-    Only the owner can invite other users and initiate collaboration session.
-    You can only invite users with Collaboration permissions to access the shared content.
-    Users without permissions are grayed out and you can't select them and invite them to the session.
 
 You can invite two types of users:
 
@@ -50,9 +49,11 @@ To do it, click the **Arrow symbol** and select the option from the list.
 
 ![Change access](img/change_access.png)
 
-Additionally, you can share a direct link to the collaborative session.
+Additionally, you can share a direct link to the collaborative session without specyfing a particular user.
 To do it, click the **Copy link** button.
 Link is copied to the clipboard and you can share it with the users through communication channels.
+
+Use the **Link settings** button to control whether an account in the system is needed to preview content when using the direct link.
 
 After inviting users to a collaboration session, they receive a notification:
 
@@ -99,6 +100,15 @@ If you want to see all participants list, click at the avatars group.
 
 ![Participants list](img/participants_list.png)
 
+#### Real-time collaboration Terms of Service changes
+
+Real-Time Collaboration service is only available after accepting its Terms and Conditions.
+When Ibexa releases a new version of this document, you will see a notification in content edit forms that the new version must be accepted before the appointed deadline.
+
+If not done in that time, the Real-Time Collaboration service will be disabled until the latest Terms and Conditions are accepted.
+
+To proceed with accepting the new version, contact your [[= product_name =]] implementation partner.
+
 ## Editing content item
 
 Collaborative editing is enabled in Rich Text fields.
@@ -109,7 +119,6 @@ Collaboration is available for the following content types containing Rich Text 
 - Article
 - Folder
 - Form
-- Product category
 - Custom content types
 
 There are two modes of the collaboration:
