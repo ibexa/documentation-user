@@ -108,7 +108,7 @@ Here you can [change your user password](get_started.md#change-the-password) and
 --------|-----------|
 |[Autosave draft every given period](content_versions.md#autosave)|Enables or disables autosaving drafts.|
 |Seconds till next draft autosave|Sets time period for next autosave.|
-|Enable character count in online editor|Enables or disables charactes count.|
+|Enable character count in online editor|Enables or disables character count.|
 |Automatically open block settings in builders|Enables or disables the behavior of blocks used in builders.|
 
 #### Browsing
