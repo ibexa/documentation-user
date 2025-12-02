@@ -96,14 +96,47 @@ You can create AI actions that perform actions of different types, using differe
 
 1. When ready, toggle the status of the AI action to enabled.
 
-1. In the **Settings** area.
+1. Make settings in the **Settings** area.
 For a list of available settings, see [Edit existing AI actions](#edit-existing-ai-actions).
 
 1. Click **Save and close** to apply the changes or **Discard** to discard them and close the window.
 
 <!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/4amA1EL6g3fFxSmQoFCp?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Work with AI actions" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
 
-## Create AI actions that use [[= product_name_connect =]]
+### Create AI actions that control taxonomy suggestions
+
+If the Taxonomy suggestions [LTS Update]([[= developer_doc =]]/ibexa_products/editions#lts-updates) is installed in your system, before editors can use it to pick from product categories or tags suggested by an AI service, you must configure an AI action for the product types or content types of your choice. 
+
+1. Navigate to the Admin Panel and select **AI actions**.
+
+1. In the **AI actions** list, click **Create**.
+
+1. In the slide-out pane, make initial choices in the following fields, and click **Create**:
+
+    - **Language** - sets the base language for the AI action
+    - **Action type** - sets an action type to serve as a template for the AI action, for example, **Refine text**
+    - **Action handler** - sets the AI model used to process the requests resulting from this AI action.
+    Pick `openai-text-to-taxonomy-entries` 
+
+1. Make settings in the **Global properties** section, as described above.
+
+1. Make settings in the **Settings** area:
+    1. Select a group of content types that you want to pick content types from.
+    1. Select the content types in which you want to allow editors to use taxonomy suggestions.
+    1. Select source fields that contain values to be sent to an AI service for processing.
+    1. Select target fields for which taxonomy entry suggestions are provided.
+
+    ![Selecting source fields](img/taxonomy_source_fields.png "Selecting source fields")
+
+1. Make optional settings, for example:
+    - Define a maximum number of returned suggestions
+    - Select a prompt and model to be be used for generating suggestions
+    - Set the maximum number of tokens to be used by each call, and the temperature used when generating suggestions
+
+1. Click **Save and close** to apply the changes or **Discard** to discard them and close the window.
+
+
+### Create AI actions that use [[= product_name_connect =]]
 
 If your organization uses [[= product_name_connect =]], you can build multi-step scenarios that define the logic needed to process your input data, for example, by merging the output of multiple AI services.
 One such example could be sending out a text for translation by one service, and then to another to make sure that the resulting translation is written in the right tone.

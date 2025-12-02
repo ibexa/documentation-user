@@ -257,4 +257,11 @@ For this feature to work as described, the content type must have a **Metadata**
 
 ![Selecting Taxonomy entries](img/taxonomy_select_taxonomy_entries.png "Selecting Taxonomy entries")
 
+!!! note "Taxonomy suggestions" 
+
+    If the Taxonomy suggestions [LTS Update]([[= developer_doc =]]/ibexa_products/editions#lts-updates) is installed and configured in your system, instead of manually browsing the taxonomy tree and selecting tags one by one, you can click **AI Suggest category** and pick from suggestions made by the AI Assistant.
+
+    ![Taxonomy entries suggested by the AI Assistant](img/taxonomy_suggestions_content.png "Taxonomy entries suggested by the AI Assistant")
+
+
 For more information, see [Assign tag to content from taxonomy tree](taxonomy/work_with_tags.md#assign-tag-to-content-from-taxonomy-tree).

@@ -25,7 +25,7 @@ Now, the tag is visible in the taxonomy tree.
 
 <!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/l7FSQBrnzGvtBgAaicrs?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Add new tag" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
 
-### Assign tag to content from taxonomy tree
+### Add Taxonomy Entry Assignment field to content type
 
 Taxonomy is controlled and configured by the *Taxonomy Entry Assignment* field settings, so you can use multiple fields of this type with different taxonomies, for example, tags and product categories in the same content type.
 To be able to assign tags to a Content, first, you need to add a *Taxonomy Entry Assignment* field to the content type definition.
