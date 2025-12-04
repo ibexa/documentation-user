@@ -31,7 +31,7 @@ Users without permissions are grayed out and you can't select them and invite th
 
 You can invite two types of users:
 
-- **Internal** - by searching their name or email address. These users can either edit the content item or preview it, depending on your choice. Depending on their account permissions, they might be able to invite other users.
+- **Internal** - by searching their name or email address. These users can either edit the content item or preview it, depending on your choice. Their account permissions determine whether they can invite additional users.
 
 ![Internal users - invitation](img/invite_internal_user.png)
 
@@ -47,11 +47,11 @@ To do it, click the **Arrow symbol** and select the option from the list.
 
 ![Change access](img/change_access.png)
 
-Additionally, you can share a direct link to the collaborative session without specyfing a particular user.
+Additionally, you can share a direct link to the collaborative session without specifying a particular user.
 To do it, click the **Copy link** button.
 Link is copied to the clipboard and you can share it with the users through communication channels.
 
-Use the **Link settings** button to control whether an account in the system is needed to preview content when using the direct link.
+Use the **Link settings** button to control whether a user needs an account in the system to preview content using the direct link.
 
 After inviting users to a collaboration session, they receive a notification:
 
@@ -101,7 +101,7 @@ If you want to see all participants list, click at the avatars group.
 #### Real-time collaboration Terms of Service changes
 
 Real-Time Collaboration service is only available after accepting its Terms and Conditions.
-When Ibexa releases a new version of this document, you will see a notification in content edit forms that the new version must be accepted before the appointed deadline.
+When [[= product_name_base =]] releases a new version of this document, you will see a notification in content edit forms that the new version must be accepted before the appointed deadline.
 
 If not done in that time, the Real-Time Collaboration service will be disabled until the latest Terms and Conditions are accepted.
 
