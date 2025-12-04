@@ -27,13 +27,11 @@ To invite collaborators, click the **Share** button, which creates a new collabo
 Then, in a pop-up window, you can invite users to newly created session.
 
 You can only invite users with permissions to access the shared content.
-Once invited, they might be able 
 Users without permissions are grayed out and you can't select them and invite them to the session.
-
 
 You can invite two types of users:
 
-- **Internal** - by searching their name or email address. These users can either edit the content item or preview it, depending on your choice.
+- **Internal** - by searching their name or email address. These users can either edit the content item or preview it, depending on your choice. Depending on their account permissions, they might be able to invite other users.
 
 ![Internal users - invitation](img/invite_internal_user.png)
 
