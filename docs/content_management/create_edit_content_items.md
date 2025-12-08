@@ -264,4 +264,4 @@ For this feature to work as described, the content type must have a **Metadata**
     ![Taxonomy entries suggested by the AI Assistant](img/taxonomy_suggestions_content.png "Taxonomy entries suggested by the AI Assistant")
 
 
-For more information, see [Assign tag to content from taxonomy tree](taxonomy/work_with_tags.md#assign-tag-to-content-from-taxonomy-tree).
+For more information, see [Assign tag to content from taxonomy tree](taxonomy/work_with_tags.md#add-taxonomy-entry-assignment-field-to-content-type).
