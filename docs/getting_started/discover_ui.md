@@ -160,6 +160,10 @@ Contents of the help center are contextual:
 
 Help center can be [customized]([[= developer_doc =]]/administration/back_office/customize_integrated_help/) to fit the needs of your organization, for example, to include links to your internal style guides.
 
+### Enable help center
+
+Help center is disabled by default, but you can toggle it in [user settings](get_started.md#browsing).
+
 ### Dismiss help icon
 
 It may happen that the help icon overlaps with other interface elements that you want to interact with.
@@ -167,7 +171,3 @@ In such case, hover over the help icon and click the X icon to dismiss it.
 The help icon reappears when you reload the screen.
 
 ![Help obstructs UI](img/help_obstructs.png "Help obstructs UI")
-
-### Disable help center
-
-Help center is enabled by default, but you can toggle it in [user settings](get_started.md#browsing).
