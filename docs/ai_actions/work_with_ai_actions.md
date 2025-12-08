@@ -114,9 +114,9 @@ If the Taxonomy suggestions [LTS Update]([[= developer_doc =]]/ibexa_products/ed
 1. In the slide-out pane, make initial choices in the following fields, and click **Create**:
 
     - **Language** - sets the base language for the AI action
-    - **Action type** - sets an action type to serve as a template for the AI action, for example, **Refine text**
+    - **Action type** - sets an action type to serve as a template for the AI action, for example, **Suggest taxonomy**
     - **Action handler** - sets the AI model used to process the requests resulting from this AI action.
-    Pick `openai-text-to-taxonomy-entries` 
+    Pick `taxonomy-text-to-taxonomy` 
 
 1. Make settings in the **Global properties** section, as described above.
 
@@ -131,7 +131,7 @@ If the Taxonomy suggestions [LTS Update]([[= developer_doc =]]/ibexa_products/ed
 1. Make optional settings, for example:
     - Define a maximum number of returned suggestions
     - Select a prompt and model to be be used for generating suggestions
-    - Set the maximum number of tokens to be used by each call, and the temperature used when generating suggestions
+    - Set the maximum number of tokens to be used by each call when generating suggestions
 
 1. Click **Save and close** to apply the changes or **Discard** to discard them and close the window.
 
