@@ -92,7 +92,7 @@ You can create or change product category relationships with products in two way
 
 !!! note "Taxonomy suggestions" 
 
-    If the Taxonomy suggestions [LTS Update]([[= developer_doc =]]/ibexa_products/editions#lts-updates) is installed and configured in your system, instead of manually browsing the product category tree and selecting categories one by one, you can click **AI Suggest category** and pick from suggestions made by the AI Assistant.
+    If the [Taxonomy suggestions]([[= developer_doc =]]/content_management/taxonomy/taxonomy#taxonomy-suggestions) feature is enabled in your system, instead of manually browsing the product category tree and selecting categories one by one, you can click **AI Suggest category** and pick from suggestions made by the AI Assistant.
 
     ![Product categories suggested by the AI Assistant](img/taxonomy_suggestions_products.png "Product categories suggested by the AI Assistant")
 

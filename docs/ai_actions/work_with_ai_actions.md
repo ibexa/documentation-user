@@ -105,7 +105,7 @@ For a list of available settings, see [Edit existing AI actions](#edit-existing-
 
 ### Create AI actions that control taxonomy suggestions
 
-If the Taxonomy suggestions [LTS Update]([[= developer_doc =]]/ibexa_products/editions#lts-updates) is installed in your system, before editors can use it to pick from product categories or tags suggested by an AI service, you must configure an AI action for the product types or content types of your choice. 
+If the [Taxonomy suggestions]([[= developer_doc =]]/content_management/taxonomy/taxonomy#taxonomy-suggestions) feature is enabled in your system, before editors can use it to pick from product categories or tags suggested by an AI service, you must configure an AI action for the product types or content types of your choice. 
 
 1. Navigate to the Admin Panel and select **AI actions**.
 
@@ -121,20 +121,18 @@ If the Taxonomy suggestions [LTS Update]([[= developer_doc =]]/ibexa_products/ed
 1. Make settings in the **Global properties** section, as described above.
 
 1. Make settings in the **Settings** area:
-    1. Select a group of content types that you want to pick content types from.
-    1. Select the content types in which you want to allow editors to use taxonomy suggestions.
+    1. Select a group of content types or product types that you want to pick types from.
+    1. Select the content types or product types in which you want to allow editors to use taxonomy suggestions.
     1. Select source fields that contain values to be sent to an AI service for processing.
-    1. Select target fields for which taxonomy entry suggestions are provided.
+    1. Select target fields (of **Taxonomy Entry Assignemnt** type) for which taxonomy entry suggestions are provided.
 
     ![Selecting source fields](img/taxonomy_source_fields.png "Selecting source fields")
 
 1. Make optional settings, for example:
     - Define a maximum number of returned suggestions
-    - Select a prompt and model to be be used for generating suggestions
     - Set the maximum number of tokens to be used by each call when generating suggestions
 
 1. Click **Save and close** to apply the changes or **Discard** to discard them and close the window.
-
 
 ### Create AI actions that use [[= product_name_connect =]]
 
