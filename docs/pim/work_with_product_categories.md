@@ -90,6 +90,12 @@ You can create or change product category relationships with products in two way
 
 ![Adding product categories](img/product_category_selection.png "Adding product categories")
 
+!!! note "Taxonomy suggestions" 
+
+    If the [Taxonomy suggestions]([[= developer_doc =]]/content_management/taxonomy/taxonomy#taxonomy-suggestions) feature is enabled in your system, instead of manually browsing the product category tree and selecting categories one by one, you can click **AI Suggest category** and pick from suggestions made by the AI Assistant.
+
+    ![Product categories suggested by the AI Assistant](img/taxonomy_suggestions_products.png "Product categories suggested by the AI Assistant")
+
 ### Assign products by editing product category details
 
 1. In the left panel, click **Product catalog** -> **Categories** to navigate to the product category tree.
