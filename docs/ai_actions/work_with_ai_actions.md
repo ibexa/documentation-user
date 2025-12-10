@@ -9,7 +9,7 @@ If AI Actions, including at least one service connector, have been configured in
 
 !!! note "Variations in AI action settings"
 
-    The following description outlines the UI options displayed when either the default OpenAI connector or the Anthropic Claude [LTS update]([[= developer_doc =]]/ibexa_products/editions/#lts-updates) is installed and configured.
+    The following description outlines the UI options displayed when either the default OpenAI connector or the Anthropic [LTS update]([[= developer_doc =]]/ibexa_products/editions/#lts-updates) is installed and configured.
 
     Response generation settings may vary depending on the AI service, model implementation, and action type, so the settings shown below might differ from those available in your installation.
     
