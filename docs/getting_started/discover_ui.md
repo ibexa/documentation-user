@@ -144,3 +144,30 @@ Focus mode is enabled by default when you first log into [[= product_name =]], b
 - in the drop-down menu on the right side of the top bar
 
 ![Focus mode switch](img/FM_switch.png "Focus mode switch")
+
+## Help center [[% include 'snippets/lts-update_badge.md' %]]
+
+If the Integrated help [LTS update]([[= developer_doc =]]/ibexa_products/editions/#lts-updates) has been installed in your application, you may notice that the ![Help center](about-info.png){.inline-image} icon appears at the bottom right of multiple screens.
+Click it to access documentation, trainings, and other relevant resources straight from the back office.
+Help center is also [another place]([[= developer_doc =]]/administration/admin_panel/system_information_admin_panel/) where you can check the [[= product_name =]] version that you're on.
+
+![Help center](img/help_center.png "Help center")
+
+Contents of the help center are contextual: 
+
+- If you are an [editor](editor.md) or [store manager](shop_manager.md) working in a production environment, help center contains links to user documentation, release notes and product roadmap highlights.
+- If you are a developer whose task is to set up or extend the application, it additionally shows links to developer documentation, API references and the GraphQL console.
+
+Help center can be [customized]([[= developer_doc =]]/administration/back_office/customize_integrated_help/) to fit the needs of your organization, for example, to include links to your internal style guides.
+
+### Enable help center
+
+Help center is disabled by default, but you can toggle it in [user settings](get_started.md#browsing).
+
+### Dismiss help icon
+
+It may happen that the help icon overlaps with other interface elements that you want to interact with.
+In such case, hover over the help icon and click the X icon to dismiss it.
+The help icon reappears when you reload the screen.
+
+![Help obstructs UI](img/help_obstructs.png "Help obstructs UI")
