@@ -90,7 +90,7 @@ You can access your user settings on the right side of the top bar:
 
 Here you can [change your user password](get_started.md#change-the-password) and define your user preferences, such as preferred timezone, short and full date, and time format, or back office language.
 
-**Location**
+#### Location
 
 |Setting|Description|
 --------|-----------|
@@ -102,29 +102,30 @@ Here you can [change your user password](get_started.md#change-the-password) and
 |Language|Sets the default language used in the back office.|
 
 
-**Content authoring**
+#### Content authoring
 
 |Setting|Description|
 --------|-----------|
 |[Autosave draft every given period](content_versions.md#autosave)|Enables or disables autosaving drafts.|
 |Seconds till next draft autosave|Sets time period for next autosave.|
-|Enable character count in online editor|Enables or disables charactes count.|
+|Enable character count in online editor|Enables or disables character count.|
 |Automatically open block settings in builders|Enables or disables the behavior of blocks used in builders.|
 
-**Browsing**
+#### Browsing
 
 |Setting|Description|
 --------|-----------|
 |Number of items displayed in the table|Sets the number of items displayed in sub-items.|
-|Location preview|Enables or disabled a thumbnail preview on the content tree.|
+|Location preview|Enables or disables a thumbnail preview on the content tree.|
+|Help center|Disables or enables the [help center](discover_ui.md#help-center).  [[% include 'snippets/lts-update_badge.md' %]]|
 
-**Mode**
+#### Mode
 
 |Setting|Description|
 --------|-----------|
 |Focus mode|Enables or disables the [focus mode](discover_ui.md#focus-mode).|
 
-**Dashboard**
+#### Dashboard
 
 |Setting|Description|
 --------|-----------|
