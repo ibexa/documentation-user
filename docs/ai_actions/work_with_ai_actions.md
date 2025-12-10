@@ -5,8 +5,14 @@ description: Create new AI actions or modify existing ones to work faster and in
 # Work with AI actions
 
 AI actions define what results are available to editors in AI-enabled areas, such as, for example, the AI Assistant.
-If AI Actions have been configured in your application, and you have the required [permissions]([[= developer_doc =]]/permissions/policies/#ai-actions), including `Action configuration/Edit` and `Action configuration/Create`, you can reconfigure the existing AI actions, and create new ones.
+If AI Actions, including at least one service connector, have been configured in your application, and you have the required [permissions]([[= developer_doc =]]/permissions/policies/#ai-actions), including `Action configuration/Edit` and `Action configuration/Create`, you can reconfigure the existing AI actions, and create new ones.
 
+!!! note "Variations in AI action settings"
+
+    The following description outlines the UI options displayed when either the default OpenAI connector or the Anthropic [LTS update]([[= developer_doc =]]/ibexa_products/editions/#lts-updates) is installed and configured.
+
+    Response generation settings may vary depending on the AI service, model implementation, and action type, so the settings shown below might differ from those available in your installation.
+    
 ## View AI actions
 
 With the right permissions, you can view all AI actions configured in the application by navigating to the Admin Panel and selecting **AI actions**.
@@ -19,7 +25,7 @@ Out of the box, there are two categories of AI actions present in the system:
 - **Refine text** - used by default in [online editor](create_edit_content_items.md#ai-assistant) for refining text, for example: "Rewrite text in formal tone"
 - **Generate alternative text** - used by default in the [image asset editing screen](upload_images.md#ai) to generate alternative text, for example: "Generate short alternative description of an image"
 
-It may happen that a set of sample AI actions has been [installed with the AI actions package]([[= developer_doc =]]/ai_actions/install_ai_actions/#install-sample-ai-action-configurations-optional), and there is a number of existing AI actions that you can modify and clone.
+It may happen that a set of sample AI actions has been [installed with the AI actions package]([[= developer_doc =]]/ai_actions/install_ai_actions/#install-sample-ai-action-configurations-optional), and there is already a number of existing AI actions that you can modify and clone.
 
 !!! note "Custom action types"
 
@@ -52,21 +58,18 @@ You can modify the existing AI actions.
 
     The default request can be seen at the top of the settings area, on a light blue background.
 
-- **Max tokens** - sets a maximum number of "[words](https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them)" or tokens that can be used in a single request by both the request and the response
+- **Model** - decides what AI service model is used to generate the response
+
+- **Max tokens** - sets a maximum number of "[words](https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them)" or [tokens](https://docs.claude.com/en/docs/about-claude/glossary#tokens) that can be used in a single request by both the request and the response
 
 - **Length of prompt output** -  sets a maximum number of words of the generated result
 
 - **Temperature** - controls the randomness of the response.
 Takes a value between 0 and 2, but the usual range is between 0 and 1.
 The output is more random at higher temperatures.
-For more information, see the parameter description in [OpenAI API reference](https://platform.openai.com/docs/api-reference/chat/create#chat-create-temperature)
+For more information, see the parameter's description in [OpenAI API reference](https://platform.openai.com/docs/api-reference/chat/create#chat-create-temperature) or [Anthropic's glossary](https://docs.claude.com/en/docs/about-claude/glossary#temperature)
 
 ![AI action options](img/ai_action_options.png)
-
-!!! note "Action settings availability"
-
-    Action settings differ depending on the AI service used, model implementation and actual action type.
-    Therefore the settings visible in your installation may vary from the ones presented above.
 
 5\. Click **Save and close** to apply the changes or **Discard** to discard them and close the window.
 
