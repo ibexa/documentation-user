@@ -1,5 +1,6 @@
 ---
 description: Take a quick tour of the back office.
+month_change: true
 ---
 
 # User interface

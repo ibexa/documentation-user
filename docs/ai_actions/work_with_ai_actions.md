@@ -1,5 +1,6 @@
 ---
 description: Create new AI actions or modify existing ones to work faster and increase creativity.
+month_change: true
 ---
 
 # Work with AI actions
