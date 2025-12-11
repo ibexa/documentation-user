@@ -2,7 +2,7 @@
 description: Increase conversion and attract customers by offering them products at discounted prices.
 editions:
     - commerce
-month_change: true
+month_change: false
 ---
 
 # Discounts
