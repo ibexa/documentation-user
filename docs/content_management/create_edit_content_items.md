@@ -246,6 +246,9 @@ For more information, see [SeenThis! page block](block_reference.md#seenthis-blo
 When you select a section of text, you get access to text formatting options such as bold or underline.
 Here you can also add a link to the text. You can link to an external website, or to another content item.
 
+When linking to content, you can select a SiteAccess from the drop-down to enable cross-website linking.
+This allows the link to work across different websites in a [multisite](multisite.md) setup.
+
 ### Add taxonomy entries
 
 To keep your content organized and searchable, you can add taxonomy entries to a content item while creating or editing it.
