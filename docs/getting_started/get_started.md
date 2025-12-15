@@ -27,7 +27,7 @@ For example, if your website's URL is `www.my-site.com`, you enter the editing i
 
 If you're the administrator, use the login credentials that were set during the installation process.
 
-Otherwise, to login, you must get your user credentials from the administrator, and enter them on the login screen.
+Otherwise, to log in, you must get your user credentials from the administrator, and enter them on the login screen.
 
 ![Login screen](img/login_form.png "Login screen")
 
