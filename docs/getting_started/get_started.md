@@ -25,10 +25,7 @@ Depending on the product edition, [[= product_name =]] can provide advanced capa
 To access the back office (or the user/editor interface), add `/admin` to the address provided by the administrator.
 For example, if your website's URL is `www.my-site.com`, you enter the editing interface through `www.my-site.com/admin`.
 
-If you're the administrator, the default administrator account information is:
-
-- username: `admin`
-- password:` publish`
+If you're the administrator, use the login credentials that were set during the installation process.
 
 Otherwise, to login, you must get your user credentials from the administrator, and enter them on the login screen.
 
