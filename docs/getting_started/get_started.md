@@ -34,6 +34,13 @@ Otherwise, to login, you must get your user credentials from the administrator, 
 
 ![Login screen](img/login_form.png "Login screen")
 
+### Onboarding with product tours
+
+When you log in to [[= product_name =]] for the first time, interactive product tours may appear if the Integrated help [LTS update]([[= developer_doc =]]/ibexa_products/editions/#lts-updates) is configured in your installation.
+This in-app walkthroughs guide you through key features and help you get started quickly.
+
+You can complete each step of the onboarding tutorials, skip them entirely if you prefer to explore on your own, or restart them anytime from your [user settings](#user-settings) under the **Browsing** section.
+
 ### View and edit user profile
 
 If you're an editor, depending on the system configuration, you may be able to view and edit the user profile, which can contain the following information:
@@ -117,6 +124,8 @@ Here you can [change your user password](get_started.md#change-the-password) and
 |Number of items displayed in the table|Sets the number of items displayed in sub-items.|
 |Location preview|Enables or disables a thumbnail preview on the content tree.|
 |Help center|Disables or enables the [help center](discover_ui.md#help-center).  [[% include 'snippets/lts-update_badge.md' %]]|
+|Product tour| Allows you to disable the [product tour onboarding](#product-tour-and-onboarding) walkthroughs.  [[% include 'snippets/lts-update_badge.md' %]]|
+| Product tour scenarios settings | Mark as completed or restart specific product tour scenario. [[% include 'snippets/lts-update_badge.md' %]]|
 
 #### Mode
 
