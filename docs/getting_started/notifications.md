@@ -1,6 +1,6 @@
 ---
 description: Get to know about notifications.
-month_change: true
+month_change: false
 ---
 
 # Notifications

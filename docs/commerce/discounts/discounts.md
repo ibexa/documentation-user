@@ -3,7 +3,7 @@ description: Increase conversion and attract customers by offering them products
 editions:
     - lts-update
     - commerce
-month_change: true
+month_change: false
 ---
 
 # Discounts

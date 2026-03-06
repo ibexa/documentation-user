@@ -3,7 +3,7 @@ description: Create and edit discounts, toggle discount status.
 editions:
     - lts-update
     - commerce
-month_change: true
+month_change: false
 ---
 
 # Work with discounts
