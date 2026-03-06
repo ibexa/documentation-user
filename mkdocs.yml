@@ -195,8 +195,8 @@ extra:
 
   developer_doc: 'https://doc.ibexa.co/en/4.6'
 
-  latest_tag_4_6: '4.6.27'
-  latest_tag_5_0: '5.0.4'
+  latest_tag_4_6: '4.6.28'
+  latest_tag_5_0: '5.0.6'
 
 extra_css:
   - fonts/MavenPro.css
