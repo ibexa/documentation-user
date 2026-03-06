@@ -1,5 +1,6 @@
 ---
 description: Get started with Ibexa DXP by logging in to the back office.
+month_change: true
 ---
 
 # Get started
