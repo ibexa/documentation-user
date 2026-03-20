@@ -24,8 +24,14 @@ The following blocks are provided with a clean installation of [[= product_name 
 |[[[= product_name_connect =]]](#ibexa-connect-block)|Retrieves and displays data from an [[= product_name_connect =]] webhook. |
 |[Last purchased](#last-purchased-block)|Displays a list of products that were recently purchased from PIM. |
 |[Last viewed](#last-viewed-block)|Displays a list of products from PIM that were recently viewed. |
+|[Most popular content](#most-popular-content-block)|Highlights the most frequently viewed content.|
+|[Most popular products](#most-trending-and-popular-products-block)|Presents trending and highly popular products.|
 |[Orders](#orders-block)|Displays a list of orders associated with a particular company or individual customer. |
+|[Other customers have also seen](#other-customers-have-also-seen-block)|Shows content or products also viewed by other customers.|
+|[Other customers have also seen this content](#other-customers-have-also-seen-this-content-block)|Displays content viewed by other users with similar behavior.|
 |[Personalized](#personalized-block)|Displays a list of content items/products that are recommended to end users when specific scenarios are triggered. |
+|[Personalized content recommendations](#personalized-content-recommendations-block)|Provides personalized content recommendations based on user behavior and preferences.|
+|[Popular products in Category](#popular-products-in-category-block)|Displays the most popular products within a selected category.|
 |[Product collection](#product-collection-block)|Displays a list of specifically selected products.|
 |[Recently added](#recently-added-block)|Displays a list of products that were recently added to PIM. |
 |[RSS](#rss-block)|Loads and displays news from RSS feeds (channels). |
@@ -33,6 +39,8 @@ The following blocks are provided with a clean installation of [[= product_name 
 |[SeenThis!](#seenthis-block)|Displays video with exceeded standard video restrictions of 3.5MB.|
 |[Targeting](#targeting-block)|Embeds an content item based on the [segment](content_organization/classify_content.md#segments) the user belongs to. |
 |[Text](#text-block)|Enables you to add to the page a Rich Text block. |
+|[The Personal Shopping Assistant](#the-personal-shopping-assistant-block)|Assists users by suggesting relevant products in real time based on their activity.|
+|[User's item history or current basket items sorted by recent items or top items](#users-item-history-or-current-basket-items-sorted-by-recent-items-or-top-items-block)|Displays the user’s item history or current basket, sorted by recent or top items.|
 |[Video](#video-block)|Embeds a video into the page with standard playback controls. |
 
 [[= include_file('docs/content_management/create_edit_pages.md', 86, 96) =]]
@@ -226,6 +234,28 @@ On the **Properties** tab, set values in the following fields:
 - **Product Types to be displayed** – Select the type of products to be displayed on the list.
 - **Limit** – Set the number of products to be displayed.
 
+## Most popular content block
+
+Highlights the content most frequently viewed by users
+It helps to find popular and relevant items.
+On the **Properties** tab, set values in the following fields:
+
+- **Name** – Enter a name for the page block.
+- **Name displayed on page** - Enter a name fot the block to be displayed on page.
+- **Recommendations limit** - Set the number of recommendations to be displayed (default = 4).
+
+## Most popular products block
+
+Presents products that are currently trending and widely popular among users.
+Helps quickly identify top-performing and popular items.
+On the **Properties** tab, set values in the following fields:
+
+- **Name** – Enter a name for the page block.
+- **Name displayed on page** - Enter a name fot the block to be displayed on page.
+- **Recommendations limit** - Set the number of recommendations to be displayed (default = 4).
+
+Select the **Enable showing only available items** option to display only products that are currently in stock (checked by default).
+
 ## Orders block
 
 Showcases a list of orders linked to a specific company or individual customer.
@@ -237,6 +267,10 @@ On the **Properties** tab, set values in the following fields:
 - **Statuses** — Set the statuses of orders that should be included in the list.
 - **Number of orders** — Set the number of orders to be displayed.
 - **Sort order** — Set the sort order for the displayed orders.
+
+## Other Customers Have also Seen block
+
+## Other Customers Have also Seen This Content block
 
 ## Personalized block
 
@@ -250,6 +284,10 @@ On the **Properties** tab, set values in the following fields:
 - **Display limit** – Set the number of products to be displayed.
 
 On the **Design** tab, in the **View** field, change the layout to "Products" and submit your changes.
+
+## Personalized content recommendations block
+
+## Popular products in Category block
 
 ## Product collection block
 
@@ -351,6 +389,10 @@ For details, see [Editing Rich Text Fields](create_edit_content_items.md#edit-ri
     If you have necessary permissions, you can click it to request that the AI Assistant performs specific tasks with your text.
 
     For more information, see [AI Assistant](create_edit_content_items.md#ai-assistant).
+
+## The Personal Shopping Assistant block
+
+## User's item history or current basket items sorted by recent items or top items block
 
 ## Video block
 
