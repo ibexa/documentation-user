@@ -25,13 +25,13 @@ The following blocks are provided with a clean installation of [[= product_name 
 |[Last purchased](#last-purchased-block)|Displays a list of products that were recently purchased from PIM. |
 |[Last viewed](#last-viewed-block)|Displays a list of products from PIM that were recently viewed. |
 |[Most popular content](#most-popular-content-block)|Highlights the most frequently viewed content.|
-|[Most popular products](#most-trending-and-popular-products-block)|Presents trending and highly popular products.|
+|[Most popular products](#most-popular-products-block)|Presents trending and highly popular products.|
+|[Most popular products in category](#most-popular-products-in-category-block)|Presents trending and highly popular products.|
 |[Orders](#orders-block)|Displays a list of orders associated with a particular company or individual customer. |
 |[Other customers have also seen](#other-customers-have-also-seen-block)|Shows content or products also viewed by other customers.|
 |[Other customers have also seen this content](#other-customers-have-also-seen-this-content-block)|Displays content viewed by other users with similar behavior.|
 |[Personalized](#personalized-block)|Displays a list of content items/products that are recommended to end users when specific scenarios are triggered. |
 |[Personalized content recommendations](#personalized-content-recommendations-block)|Provides personalized content recommendations based on user behavior and preferences.|
-|[Popular products in Category](#popular-products-in-category-block)|Displays the most popular products within a selected category.|
 |[Product collection](#product-collection-block)|Displays a list of specifically selected products.|
 |[Recently added](#recently-added-block)|Displays a list of products that were recently added to PIM. |
 |[RSS](#rss-block)|Loads and displays news from RSS feeds (channels). |
@@ -236,8 +236,8 @@ On the **Properties** tab, set values in the following fields:
 
 ## Most popular content block
 
-Highlights the content most frequently viewed by users
-It helps to find popular and relevant items.
+Highlights the content most frequently viewed by users.
+It helps to find popular and relevant content items.
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
@@ -251,7 +251,20 @@ Helps quickly identify top-performing and popular items.
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
-- **Name displayed on page** - Enter a name fot the block to be displayed on page.
+- **Name displayed on page (optional)** - Enter a name fot the block to be displayed on page.
+- **Recommendations limit** - Set the number of recommendations to be displayed (default = 4).
+
+Select the **Enable showing only available items** option to display only products that are currently in stock (checked by default).
+
+## Most popular products in category block
+
+Displays the most popular products within a selected category.
+Helps identify most popular items within a specific category.
+On the **Properties** tab, set values in the following fields:
+
+- **Name** – Enter a name for the page block.
+- **Name displayed on page (optional)** - Enter a name fot the block to be displayed on page.
+- **Product category** - Select product categories.
 - **Recommendations limit** - Set the number of recommendations to be displayed (default = 4).
 
 Select the **Enable showing only available items** option to display only products that are currently in stock (checked by default).
@@ -268,9 +281,29 @@ On the **Properties** tab, set values in the following fields:
 - **Number of orders** — Set the number of orders to be displayed.
 - **Sort order** — Set the sort order for the displayed orders.
 
-## Other Customers Have also Seen block
+## Other customers have also seen block
 
-## Other Customers Have also Seen This Content block
+Shows products viewed by users with similar behavior.
+Enhances user experience by suggesting related products.
+On the **Properties** tab, set values in the following fields:
+
+- **Name** – Enter a name for the page block.
+- **Name displayed on page (optional)** - Enter a name fot the block to be displayed on page.
+- **Product code** - Enter a product code for a base product or select base product from the Product Catalog.
+- **Recommendations limit** - Set the number of recommendations to be displayed (default = 4).
+
+Select the **Enable showing only available items** option to display only products that are currently in stock (checked by default).
+
+## Other customers have also seen this content block
+
+Highlights content viewed by other users with similar behavior.
+Helps identify related and relevant content.
+On the **Properties** tab, set values in the following fields:
+
+- **Name** – Enter a name for the page block.
+- **Name displayed on page (optional)** - Enter a name fot the block to be displayed on page.
+- **Select content for recommendations** - Select content to be used for recommendations.
+- **Recommendations limit** - Set the number of recommendations to be displayed (default = 4).
 
 ## Personalized block
 
@@ -287,7 +320,13 @@ On the **Design** tab, in the **View** field, change the layout to "Products" an
 
 ## Personalized content recommendations block
 
-## Popular products in Category block
+Presents content tailored to each user based on their behavior and preferences.
+Increases relevance and engagement through personalized suggestions.
+On the **Properties** tab, set values in the following fields:
+
+- **Name** – Enter a name for the page block.
+- **Name displayed on page (optional)** - Enter a name fot the block to be displayed on page.
+- **Recommendations limit** - Set the number of recommendations to be displayed (default = 4).
 
 ## Product collection block
 
@@ -392,7 +431,32 @@ For details, see [Editing Rich Text Fields](create_edit_content_items.md#edit-ri
 
 ## The Personal Shopping Assistant block
 
+Provides real-time product recommendations based on user behavior.
+Helps users see relevant items while browsing.
+On the **Properties** tab, set values in the following fields:
+
+- **Name** – Enter a name for the page block.
+- **Name displayed on page (optional)** - Enter a name fot the block to be displayed on page.
+- **Product id (optional)** - Add or select base product.
+- **Recommendations limit** - Set the number of recommendations to be displayed (default = 4).
+
+Select the **Enable showing only available items** option to display only products that are currently in stock (checked by default).
+
 ## User's item history or current basket items sorted by recent items or top items block
+
+Shows the user’s past or current basket items, sorted by recent activity or top items.
+Makes it easier to find and review previously viewed or added products.
+On the **Properties** tab, set values in the following fields:
+
+- **Name** – Enter a name for the page block.
+- **Name displayed on page (optional)** - Enter a name fot the block to be displayed on page.
+- **Visit history** - Set whether to include or exclude visit history.
+- **Current basket** - Set whether to include or exclude current basket.
+- **Buy history** - Set whether to include or exclude buy history.
+- **Sort history** - Set whether to sort the history by recent or top items.
+- **Recommendations limit** - Set the number of recommendations to be displayed (default = 4).
+
+Select the **Enable showing only available items** option to display only products that are currently in stock (checked by default).
 
 ## Video block
 
