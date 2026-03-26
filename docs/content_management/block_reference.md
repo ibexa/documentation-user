@@ -96,6 +96,8 @@ On the **Properties** tab, set values in the following fields:
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of products and submit your changes.
 
+Toggle the **Enable showing only available items** option on to display only products that are currently in stock.
+
 ## Campaign block
 
 Displays a campaign created and configured in [[[= product_name_engage =]]](../ibexa_engage/ibexa_engage.md).
@@ -118,6 +120,8 @@ On the **Properties** tab, set values in the following fields:
 - **Display limit** – Set the number of products to be displayed.
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of products and submit your changes.
+
+Toggle the **Enable showing only available items** option on to display only products that are currently in stock.
 
 ## Code block
 
@@ -164,6 +168,8 @@ The rules are checked in order, so when a user belongs to more than one segment,
 
 ![Dynamic targeting](img/page_builder_dynamic_targeting.png)
 
+Toggle the **Enable showing only available items** option on to display only products that are currently in stock.
+
 ## Embed block
 
 Place any content item directly on the page. This function works across all content types seamlessly.
@@ -202,7 +208,8 @@ Selecting a folder containing content items other than images results in display
 
 ## [[= product_name_connect =]] block
 
-Access and showcase data retrieved from an [[= product_name_connect =]] webhook. Streamline information presentation for seamless insights and improved decision-making.
+Access and showcase data retrieved from an [[= product_name_connect =]] webhook.
+Streamline information presentation for seamless insights and improved decision-making.
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
@@ -223,6 +230,8 @@ On the **Properties** tab, set values in the following fields:
 - **Product Types to be displayed** – Select the type of products to be displayed on the list.
 - **Limit** – Set the number of products to be displayed.
 
+Toggle the **Enable showing only available items** option on to display only products that are currently in stock.
+
 ## Last viewed block
 
 Showcases a list of recently viewed products from PIM.
@@ -233,6 +242,8 @@ On the **Properties** tab, set values in the following fields:
 - **Personalization scenario** – Select "Last viewed" to display products that were recently viewed by any user, or "Last viewed by user" to display products that were recently viewed by the current user.
 - **Product Types to be displayed** – Select the type of products to be displayed on the list.
 - **Limit** – Set the number of products to be displayed.
+
+Toggle the **Enable showing only available items** option on to display only products that are currently in stock.
 
 ## Most popular content block
 
@@ -254,7 +265,7 @@ On the **Properties** tab, set values in the following fields:
 - **Name displayed on page (optional)** - Enter a name fot the block to be displayed on page.
 - **Recommendations limit** - Set the number of recommendations to be displayed (default = 4).
 
-Select the **Enable showing only available items** option to display only products that are currently in stock (checked by default).
+Toggle the **Enable showing only available items** option on to display only products that are currently in stock.
 
 ## Most popular products in category block
 
@@ -267,7 +278,7 @@ On the **Properties** tab, set values in the following fields:
 - **Product category** - Select product categories.
 - **Recommendations limit** - Set the number of recommendations to be displayed (default = 4).
 
-Select the **Enable showing only available items** option to display only products that are currently in stock (checked by default).
+Toggle the **Enable showing only available items** option on to display only products that are currently in stock.
 
 ## Orders block
 
@@ -292,7 +303,7 @@ On the **Properties** tab, set values in the following fields:
 - **Product code** - Enter a product code for a base product or select base product from the Product Catalog.
 - **Recommendations limit** - Set the number of recommendations to be displayed (default = 4).
 
-Select the **Enable showing only available items** option to display only products that are currently in stock (checked by default).
+Toggle the **Enable showing only available items** option on to display only products that are currently in stock.
 
 ## Other customers have also seen this content block
 
@@ -318,6 +329,8 @@ On the **Properties** tab, set values in the following fields:
 
 On the **Design** tab, in the **View** field, change the layout to "Products" and submit your changes.
 
+Toggle the **Enable showing only available items** option on to display only products that are currently in stock.
+
 ## Personalized content recommendations block
 
 Presents content tailored to each user based on their behavior and preferences.
@@ -340,6 +353,8 @@ On the **Properties** tab, set values in the following fields:
 
     Due to a technical limitation, content browser doesn't display product variants.
 
+Toggle the **Enable showing only available items** option on to display only products that are currently in stock.
+
 ## Recently added block
 
 Highlights recently added products from PIM.
@@ -350,6 +365,8 @@ On the **Properties** tab, set values in the following fields:
 - **Personalization Scenario** – Select "Recently added items" to display products that were recently added to PIM.
 - **Product Types to be displayed** – Select the type of products to be displayed on the list.
 - **Limit** – Set the number of products to be displayed.
+
+Toggle the **Enable showing only available items** option on to display only products that are currently in stock.
 
 ## RSS block
 
@@ -440,7 +457,7 @@ On the **Properties** tab, set values in the following fields:
 - **Product id (optional)** - Add or select base product.
 - **Recommendations limit** - Set the number of recommendations to be displayed (default = 4).
 
-Select the **Enable showing only available items** option to display only products that are currently in stock (checked by default).
+Toggle the **Enable showing only available items** option on to display only products that are currently in stock.
 
 ## User's item history or current basket items sorted by recent items or top items block
 
@@ -456,7 +473,7 @@ On the **Properties** tab, set values in the following fields:
 - **Sort history** - Set whether to sort the history by recent or top items.
 - **Recommendations limit** - Set the number of recommendations to be displayed (default = 4).
 
-Select the **Enable showing only available items** option to display only products that are currently in stock (checked by default).
+Toggle the **Enable showing only available items** option on to display only products that are currently in stock.
 
 ## Video block
 
