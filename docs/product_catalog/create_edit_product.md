@@ -12,7 +12,7 @@ To create a product, depending on how the product type is defined, you [may need
 
 You can create products using either manual or bulk method.
 Bulk method can be used only at the developer level.
-See [Products]([[= developer_doc =]]/pim/product_api/#products) for a technical guide on how to do this.
+See [Products]([[= developer_doc =]]/product_catalog/product_api/#products) for a technical guide on how to do this.
 
 1\. Click **Product catalog** -> **Products**.
 
@@ -43,4 +43,4 @@ After you create a product, you can [add image assets to a product](work_with_pr
 
     Feature availability may differ depending on the specifics of your installation.
 
-For in-depth information, see [Products]([[= developer_doc =]]/pim/products/) in Developer Documentation.
+For in-depth information, see [Products]([[= developer_doc =]]/product_catalog/products/) in Developer Documentation.

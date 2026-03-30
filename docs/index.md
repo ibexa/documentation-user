@@ -203,7 +203,7 @@
             <div class="info-tile info-tile--link-card">
                 <div class="info-tile__content">
                     <h3>
-                        <a href="pim/pim/">
+                        <a href="product_catalog/product_catalog/">
                             <svg>
                                 <use xlink:href="images/icons.svg#product" />
                             </svg>
@@ -212,9 +212,9 @@
                     </h3>
                     <ul>
                         <li><a href="persona_paths/manage_products/">Manage products</a></li>
-                        <li><a href="pim/create_edit_product/">Create and edit products</a></li>
-                        <li><a href="pim/work_with_product_variants/">Work with product variants</a></li>
-                        <li><a href="pim/work_with_catalogs/">Work with catalogs</a></li>
+                        <li><a href="product_catalog/create_edit_product/">Create and edit products</a></li>
+                        <li><a href="product_catalog/work_with_product_variants/">Work with product variants</a></li>
+                        <li><a href="product_catalog/work_with_catalogs/">Work with catalogs</a></li>
                     </ul>
                 </div>
             </div>

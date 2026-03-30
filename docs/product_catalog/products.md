@@ -20,7 +20,7 @@ For more information about creating products, see [Create product](create_edit_p
 
 ### Product completeness
 
-Before your customers can purchase products, the website [administrator must configure]([[= developer_doc =]]/pim/enable_purchasing_products/) at least one region and one currency for the shop, and VAT rates for each of the regions.
+Before your customers can purchase products, the website [administrator must configure]([[= developer_doc =]]/product_catalog/enable_purchasing_products/) at least one region and one currency for the shop, and VAT rates for each of the regions.
 You must then set:
 
 - VAT rates for the product type

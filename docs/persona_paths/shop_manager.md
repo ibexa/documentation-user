@@ -15,10 +15,10 @@ In [[= product_name =]], it means that you must focus on many things, including 
 ## What would you like to do today?
 
 [[= cards([
-    "pim/products",
+    "product_catalog/products",
     "persona_paths/manage_products",
-    "pim/manage_currencies",
-    "pim/manage_prices",
+    "product_catalog/manage_currencies",
+    "product_catalog/manage_prices",
     "customer_management/manage_customers",
     "commerce/shipping_management/work_with_shipping_methods",
     "commerce/payment/work_with_payment_methods",
