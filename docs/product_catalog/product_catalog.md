@@ -8,11 +8,14 @@ With Product catalog you can create, configure and manage products that are offe
 
 You can group products into categories and catalogs.
 Catalogs are collections of products selected using configurable filters.
-Categories let you organize products within Product catalog and create relationships between them, for example, to help customers in searching for products.
+Categories let you organize products within product catalog and create relationships between them, for example, to help customers in searching for products.
 
 Product catalog's features are available from the left-hand menu.
 
 ![Product catalog in the menu](img/catalog_menu.png "Product catalog in the menu")
+
+You can use [[= product_name =]]'s built-in product management, or connect it to an external Product Information Management (PIM) system.
+[[[= pim_product_name =]] PIM integration](quable_pim_integration.md) allows you to use [[= pim_product_name =]] as the authoritative source of product data, while using [[= product_name =]] for content and marketing activities.
 
 [[= cards([
     "product_catalog/product_types",
@@ -20,5 +23,6 @@ Product catalog's features are available from the left-hand menu.
     "product_catalog/products",
     "product_catalog/create_edit_product",
     "product_catalog/work_with_catalogs",
-    "product_catalog/work_with_product_categories"
+    "product_catalog/work_with_product_categories",
+    "product_catalog/quable_pim_integration"
 ], columns=3) =]] 

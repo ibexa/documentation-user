@@ -8,6 +8,12 @@ description: Create new products or modify existing ones.
 Individual products are instances of [product types](create_product_types.md#create-product-types).
 You can only create or modify products when your [user role](../permission_management/work_with_permissions.md) has the `Product/Edit` permission.
 
+!!! note "Quable PIM integration"
+
+    When [Quable is configured as the product catalog source](quable_pim_integration.md), creating and editing products in [[= product_name =]] is not available.
+    Products are managed in the [[= pim_product_name =]] back office and are automatically available in [[= product_name =]].
+    You can still [manage prices](manage_prices.md) and [availability](manage_availability_and_stock.md) for [[= pim_product_name =]] products in [[= product_name =]].
+
 To create a product, depending on how the product type is defined, you [may need to provide](products.md#product-completeness) certain pieces of information in their respective [fields](../content_management/content_model.md#fields-and-field-types).
 
 You can create products using either manual or bulk method.
