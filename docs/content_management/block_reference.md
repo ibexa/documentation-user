@@ -27,6 +27,7 @@ The following blocks are provided with a clean installation of [[= product_name 
 |[Orders](#orders-block)|Displays a list of orders associated with a particular company or individual customer. |
 |[Personalized](#personalized-block)|Displays a list of content items/products that are recommended to end users when specific scenarios are triggered. |
 |[Product collection](#product-collection-block)|Displays a list of specifically selected products.|
+|[Product embed](#product-embed)|Displays selected product.|
 |[Recently added](#recently-added-block)|Displays a list of products that were recently added to PIM. |
 |[RSS](#rss-block)|Loads and displays news from RSS feeds (channels). |
 |[Sales representative](#sales-representative)|Loads and displays company's sales representative.|
@@ -257,11 +258,15 @@ Presents curated collections of items for easier exploration and discovery.
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
-- **Product list** — Create a list of products. Enter a comma-separated list of product/variant codes and click **Add** or click **Select product**. Then, in content browser, select products, and click **Confirm**.
+- **Product list** — Create a list of products. Enter a comma-separated list of product codes and click **Add** or click **Select products**. Then, select products, and click **Confirm**.
 
-!!! note
+## Product embed
 
-    Due to a technical limitation, content browser doesn't display product variants.
+Presents a single product, allowing you to focus on its capabilities.
+On the **Properties** tab, set values in the following fields:
+
+- **Name** – Enter a name for the page block.
+- **Product code** — Enter the product and click **Add** or click **Select products**. Then, select products, and click **Confirm**.
 
 ## Recently added block
 

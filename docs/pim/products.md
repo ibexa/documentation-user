@@ -14,6 +14,8 @@ For each product and product variant, you can define its [availability](manage_a
 When you create or edit products, you can add [assets](work_with_product_assets.md) in a form of images.
 Assets can be assigned to the base product, and to one or more of its variants.
 
+Products can also be [embedded in content items](create_edit_content_items.md#embed-products) and [landing pages](block_reference.md#product-embed) to showcase them within editorial content, such as articles and landing pages.
+
 For more information about creating products, see [Create product](create_edit_product.md#create-and-edit-products).
 
 ### Product completeness
