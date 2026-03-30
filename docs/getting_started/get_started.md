@@ -124,9 +124,9 @@ Here you can [change your user password](get_started.md#change-the-password) and
 --------|-----------|
 |Number of items displayed in the table|Sets the number of items displayed in sub-items.|
 |Location preview|Enables or disables a thumbnail preview on the content tree.|
-|Help center|Disables or enables the [help center](discover_ui.md#help-center).  [[% include 'snippets/lts-update_badge.md' %]]|
-|Product tour|Enables or disables the [product tour onboarding](#onboarding) walkthroughs. [[% include 'snippets/lts-update_badge.md' %]]|
-|Product tour scenarios settings| Separate setting for each available product tour. Allows you to mark each of them as completed or reset the progress. [[% include 'snippets/lts-update_badge.md' %]]|
+|Help center|Enables or disables the [help center](discover_ui.md#help-center). If the administrator has disabled Help center at the system level, this setting is unavailable. [[% include 'snippets/lts-update_badge.md' %]]|
+|Product tour|Enables or disables the [product tour onboarding](#onboarding) walkthroughs. If Product tour is disabled at the system level, this setting is unavailable. [[% include 'snippets/lts-update_badge.md' %]]|
+|Product tour scenarios settings|Separate setting for each available product tour scenario. Allows you to mark each scenario as completed or reset its progress. If Product tour is disabled at the system level, this setting is unavailable. [[% include 'snippets/lts-update_badge.md' %]]|
 
 #### Mode
 
