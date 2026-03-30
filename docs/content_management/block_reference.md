@@ -266,7 +266,7 @@ Presents a single product, allowing you to focus on its capabilities.
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
-- **Product code** — Enter the product and click **Add** or click **Select products**. Then, select products, and click **Confirm**.
+- **Product code** — Enter the product code and click **Add** or click **Select products**. Then, select products, and click **Confirm**.
 
 ## Recently added block
 

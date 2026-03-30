@@ -38,4 +38,4 @@ When [[= pim_product_name =]] is the PIM source, the following operations are no
 - Create or modify product categories
 - Modify product attributes
 
-To learn more about the limitations of the [[= pim_product_name =]] integration, see [[[= pim_product_name =]]]([[= developer_doc =]]) in the developer documentation.
+To learn more about the limitations of the [[= pim_product_name =]] integration, see [[[= pim_product_name =]]]([[= developer_doc =]]/product-catalog/quable-guide#known-limitations) in the developer documentation.
