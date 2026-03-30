@@ -29,8 +29,7 @@ When a product type is created, you can review its fields, attributes, and VAT r
 
 ![VAT rates in product type's details view](img/vat_rates_product_details.png "VAT rates in product type's details view")
 
-If your [user role](../permission_management/work_with_permissions.md) has the `ProductType/Edit` 
-permission, you can [modify product types and add individual attributes or attribute groups](create_product_types.md).
+If your [user role](../permission_management/work_with_permissions.md) has the `ProductType/Edit` permission, you can [modify product types and add individual attributes or attribute groups](create_product_types.md).
 
 ### Attributes
 

@@ -17,7 +17,7 @@ For a more refined price management tool that you can use when managing a store,
 To set a price, navigate to the product's or product variant's **Prices** tab.
 Here you can see the existing prices for the selected [currency](manage_currencies.md).
 
-Select a currency in the dropdown menu to preview the price and click the **Edit** button to modify it.
+Select a currency in the drop-down menu to preview the price and click the **Edit** button to modify it.
 
 ![Prices tab](img/product_price.png "Prices tab")
 
