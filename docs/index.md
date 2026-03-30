@@ -136,8 +136,8 @@
                         </div>
                         <div class="col-12 col-lg-6 col-fhd-3">
                             <ul>
-                                <li><a href="https://doc.ibexa.co/en/5.0/release_notes/ibexa_dxp_v5.0/#date-and-time-attribute">Date and time attibute for PIM</a></li>
-                                <li><a href="https://doc.ibexa.co/en/5.0/release_notes/ibexa_dxp_v5.0/#symbol-attribute">Symbol attribute for PIM</a></li>
+                                <li><a href="https://doc.ibexa.co/en/5.0/release_notes/ibexa_dxp_v5.0/#date-and-time-attribute">Date and time attribute for product catalog</a></li>
+                                <li><a href="https://doc.ibexa.co/en/5.0/release_notes/ibexa_dxp_v5.0/#symbol-attribute">Symbol attribute for product catalog</a></li>
                                 <li><a href="https://doc.ibexa.co/en/5.0/release_notes/ibexa_dxp_v5.0/#developer-experience">Developer experience improvements</a></li>
                             </ul>
                         </div>

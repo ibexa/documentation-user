@@ -11,7 +11,7 @@ The **Categories** screen is where you manually create a hierarchy of categories
 
 ## Product categories
 
-With product categories you can organize products within PIM and create relationships between them.
+With product categories you can organize products within product catalog and create relationships between them.
 One of the reasons for applying product categories is assisting visitors in searching for products.
 
 Each category can be assigned to multiple products, and each product can belong to multiple categories of different or similar character, for example:
@@ -24,7 +24,7 @@ You can enable the use of product categories, assign products to categories and 
 
 ## Enable product categories
 
-Before you can assign categories to products, make sure that the *Taxonomy Entry Assignment* field is added and set as required in all the [product types](product_types.md) that define products from PIM which you want to categorize.
+Before you can assign categories to products, make sure that the *Taxonomy Entry Assignment* field is added and set as required in all the [product types](product_types.md) that define products from product catalog which you want to categorize.
 The field could be absent if product types were migrated from an older version of [[= product_name =]].
 
 Depending on your permissions, you might be able to verify the presence of the field and add the field yourself:
