@@ -18,7 +18,7 @@ You can use [[= product_name =]]'s built-in product management, or connect it to
 [[[= pim_product_name =]] PIM integration](quable_pim_integration.md) allows you to use [[= pim_product_name =]] as the authoritative source of product data, while using [[= product_name =]] for content and marketing activities.
 
 [[= cards([
-    "product_catalog/quable_pim_integration"
+    "product_catalog/quable_pim_integration",
     "product_catalog/product_types",
     "product_catalog/create_product_types",
     "product_catalog/products",

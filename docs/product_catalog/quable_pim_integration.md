@@ -21,7 +21,7 @@ All products from your [[= pim_product_name =]] instance appear in the product c
 
 ### Market your products
 
-You can [embed [[= pim_product_name =]] products in content items](create_edit_content_items.md#embed-products) and [landing pages](block_reference.md#product-embed), for example to create product-focused articles or promotional pages.
+You can [embed [[= pim_product_name =]] products in content items](../content_management/create_edit_content_items.md#embed-products) and [landing pages](block_reference.md#product-embed), for example to create product-focused articles or promotional pages.
 
 ### Manage prices and availability
 
