@@ -157,8 +157,8 @@ Use this feature when building landing pages or articles that reference specific
 
 Two embed styles are available:
 
-- **Embed** inserts a product as a standalone element between paragraphs.
-- **Inline embed** inserts a product reference within a sentence or paragraph.
+- **Embed** embeds a product as a standalone element between paragraphs.
+- **Inline embed** embeds a product within a sentence or paragraph.
 
 #### Distraction free mode
 
