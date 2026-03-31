@@ -2,7 +2,7 @@
 description: Quable PIM integration allows you to use products managed in Quable as the source of product data in Ibexa DXP.
 ---
 
-# [[= pim_product_name =]] PIM integration
+# Quable PIM integration
 
 [[= product_name =]] integrates with [[[= pim_product_name =]]](https://www.quable.com/en) as an external Product Information Management (PIM) source.
 When the integration is active, [[= pim_product_name =]] becomes the authoritative source for product data.
