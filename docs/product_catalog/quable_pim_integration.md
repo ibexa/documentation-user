@@ -21,12 +21,12 @@ All products from your [[= pim_product_name =]] instance appear in the product c
 
 ### Market your products
 
-You can [embed [[= pim_product_name =]] products in content items](../content_management/create_edit_content_items.md#embed-products) and [landing pages](block_reference.md#product-embed), for example to create product-focused articles or promotional pages.
+You can [embed [[= pim_product_name =]] products in content items](../content_management/create_edit_content_items.md#embed-products) and [landing pages](block_reference.md#product-embed), for example, to create product-focused articles or promotional pages.
 
 ### Manage prices and availability
 
 [Product prices](manage_prices.md) and [availability and stock](manage_availability_and_stock.md) are stored and managed in [[= product_name =]], even when using [[= pim_product_name =]] PIM.
-Use [discounts](discounts.md) to define advanced pricing strategies, for example for different regions or customer groups.
+Use [discounts](discounts.md) to define advanced pricing strategies, for example, for different regions or customer groups.
 
 ## Managing product data
 
@@ -38,4 +38,4 @@ When [[= pim_product_name =]] is the PIM source, the following operations are no
 - Create or modify product categories
 - Modify product attributes
 
-To learn more about the limitations of the [[= pim_product_name =]] integration, see [[[= pim_product_name =]]]([[= developer_doc =]]/product-catalog/quable-guide#known-limitations) in the developer documentation.
+To learn more about the limitations of the [[= pim_product_name =]] integration, see [known limitations]([[= developer_doc =]]/product-catalog/quable-guide#known-limitations) in the developer documentation.

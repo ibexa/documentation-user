@@ -153,7 +153,7 @@ This option is also available when you want to set up a [relation](configure_ct_
 #### Embed products
 
 You can embed [products](products.md) from the product catalog directly inside a Rich Text field.
-Use it when building landing pages or articles that reference specific products, for example, a blog post that highlights a new product launch.
+Use this feature when building landing pages or articles that reference specific products, for example, a blog post that highlights a new product launch.
 
 Two embed styles are available:
 
