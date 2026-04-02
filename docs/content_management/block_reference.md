@@ -380,7 +380,7 @@ On the **Properties** tab, set values in the following fields:
 
 On the **Properties** tab you can preview the selected video before adding it to the page.
 
-# Recommendation blocks
+## Recommendation blocks
 
 One of the elements of the Raptor integration is the addition of recommendation blocks.
 For more information, see [Recommendation blocks](raptor_recommendation_blocks.md).
