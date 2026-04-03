@@ -1,5 +1,5 @@
 ---
-description: Recommendation blocks - Raptor integration.
+description: Recommendation Page Builder blocks - Raptor integration.
 edition: experience
 ---
 
@@ -16,12 +16,12 @@ It's configurable in the [Raptor Control Panel](https://controlpanel.raptorsmart
 ![Raptor module](img/raptor_module.png)
 
 In the Page Builder, only the required parameters for each block can be configured.
-Additional, optional settings are available through the Advanced Settings link.
+Additional, optional settings are available through the **Go to advanced settings in Raptor** link.
 It redirects to the respective module configuration in the Raptor Control Panel, where these settings can be adjusted and saved.
 
 ![Advanced settings](img/advanced_settings.png)
 
-Each Content, Product, or Commerce recommendation can be added to a landing page using blocks divided into categories:
+Each Content, Product, and Commerce recommendation can be added to a landing page using blocks divided into categories:
 
 ## Recommendations: Content
 
@@ -177,4 +177,7 @@ On the **Properties** tab, set values in the following fields:
 
 Toggle the **Enable showing only available items** option on to display only products that are currently in stock.
 
-For the list of all available blocks in Page Builder, see [Block reference](block_reference.md) page.
+
+!!! tip
+
+    For the list of all available blocks in Page Builder, see [Block reference](block_reference.md) page.

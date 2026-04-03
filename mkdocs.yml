@@ -120,7 +120,7 @@ nav:
         - Review performance: personalization/review_perso_performance.md
     - Recommendations:
         - Raptor integration:
-            - Recommendation blocks: personalization/raptor_integration/raptor_recommendation_blocks.md
+            - Recommendation blocks: recommendations/raptor_integration/raptor_recommendation_blocks.md
     - Ibexa Engage:
         - Ibexa Engage: ibexa_engage/ibexa_engage.md 
     - DAM:
