@@ -91,8 +91,6 @@ On the **Properties** tab, set values in the following fields:
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of products and submit your changes.
 
-Toggle the **Enable showing only available items** option on to display only products that are currently in stock.
-
 ### Campaign block
 
 Displays a campaign created and configured in [[[= product_name_engage =]]](../ibexa_engage/ibexa_engage.md).
@@ -115,8 +113,6 @@ On the **Properties** tab, set values in the following fields:
 - **Display limit** – Set the number of products to be displayed.
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of products and submit your changes.
-
-Toggle the **Enable showing only available items** option on to display only products that are currently in stock.
 
 ### Code block
 
@@ -162,8 +158,6 @@ is not assigned to any segment.
 The rules are checked in order, so when a user belongs to more than one segment, the first rule applies.
 
 ![Dynamic targeting](img/page_builder_dynamic_targeting.png)
-
-Toggle the **Enable showing only available items** option on to display only products that are currently in stock.
 
 ### Embed block
 
@@ -225,8 +219,6 @@ On the **Properties** tab, set values in the following fields:
 - **Product Types to be displayed** – Select the type of products to be displayed on the list.
 - **Limit** – Set the number of products to be displayed.
 
-Toggle the **Enable showing only available items** option on to display only products that are currently in stock.
-
 ### Last viewed block
 
 Showcases a list of recently viewed products from PIM.
@@ -237,8 +229,6 @@ On the **Properties** tab, set values in the following fields:
 - **Personalization scenario** – Select "Last viewed" to display products that were recently viewed by any user, or "Last viewed by user" to display products that were recently viewed by the current user.
 - **Product Types to be displayed** – Select the type of products to be displayed on the list.
 - **Limit** – Set the number of products to be displayed.
-
-Toggle the **Enable showing only available items** option on to display only products that are currently in stock.
 
 ### Orders block
 
@@ -265,8 +255,6 @@ On the **Properties** tab, set values in the following fields:
 
 On the **Design** tab, in the **View** field, change the layout to "Products" and submit your changes.
 
-Toggle the **Enable showing only available items** option on to display only products that are currently in stock.
-
 ### Product collection block
 
 Presents curated collections of items for easier exploration and discovery.
@@ -279,8 +267,6 @@ On the **Properties** tab, set values in the following fields:
 
     Due to a technical limitation, content browser doesn't display product variants.
 
-Toggle the **Enable showing only available items** option on to display only products that are currently in stock.
-
 ### Recently added block
 
 Highlights recently added products from PIM.
@@ -291,8 +277,6 @@ On the **Properties** tab, set values in the following fields:
 - **Personalization Scenario** – Select "Recently added items" to display products that were recently added to PIM.
 - **Product Types to be displayed** – Select the type of products to be displayed on the list.
 - **Limit** – Set the number of products to be displayed.
-
-Toggle the **Enable showing only available items** option on to display only products that are currently in stock.
 
 ### RSS block
 
