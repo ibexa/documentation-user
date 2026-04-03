@@ -1,12 +1,13 @@
 ---
 description: Recommendation Page Builder blocks - Raptor integration.
 edition: experience
+month_change: true
 ---
 
 # Recommendation block reference
 
 The [Raptor](https://www.raptorservices.com/) Integration introduces a set of recommendation blocks.
-These blocks are available in the [Page Builder]([[= developer_doc =]]/content_management/pages/page_builder_guide/) and can be configured to control their behavior and output.
+These blocks are available in the [Page Builder](create_edit_pages.md#page-builder-interface) and can be configured to control their behavior and output.
 
 ![Recommendation blocks](img/recommendation_blocks.png)
 

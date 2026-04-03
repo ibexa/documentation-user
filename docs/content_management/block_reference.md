@@ -1,6 +1,7 @@
 ---
 description: Pick from a list of dynamic page blocks to create landing pages.
 edition: experience
+month_change: true
 ---
 
 # Block reference
@@ -35,7 +36,7 @@ The following blocks are provided with a clean installation of [[= product_name 
 |[Text](#text-block)|Enables you to add to the page a Rich Text block. |
 |[Video](#video-block)|Embeds a video into the page with standard playback controls. |
 
-[[= include_file('docs/content_management/create_edit_pages.md', 86, 96) =]]
+[[= include_file('docs/content_management/create_edit_pages.md', 85, 96) =]]
 
 ## Block basics
 
@@ -66,7 +67,9 @@ In the block configuration, on the **Design** tab, under the **View** field, you
 
 In the block configuration, on the **Scheduler** tab, you can set a date for the block to be revealed or hidden.
 
-## Banner block
+## Standard blocks
+
+### Banner block
 
 The banner block showcases an image linked to a specific URL.
 It can be used for creating visually appealing banners or promotional sections on websites that require linked images to direct users to specific pages or content.
@@ -76,7 +79,7 @@ On the **Properties** tab, set values in the following fields:
 - **Image** — Click **Select content**, browse the available content, and choose an image for display.
 - **URL** — Enter a URL that opens when users click on the banner block.
 
-## Bestsellers block
+### Bestsellers block
 
 Displays products that were recently top sellers, to help users discover popular items quickly.
 On the **Properties** tab, set values in the following fields:
@@ -90,7 +93,7 @@ On the **Design** tab, in the **View** field, select the layout to be used to pr
 
 Toggle the **Enable showing only available items** option on to display only products that are currently in stock.
 
-## Campaign block
+### Campaign block
 
 Displays a campaign created and configured in [[[= product_name_engage =]]](../ibexa_engage/ibexa_engage.md).
 On the **Properties** tab, set values in the following fields:
@@ -98,7 +101,7 @@ On the **Properties** tab, set values in the following fields:
 - **Name** – Enter a name for the campaign.
 - **Campaign** – Select a campaign that you want to display on the page. The list contains only those campaigns from your Qualifio account, which are active or scheduled to launch in the future.
 
-## Catalog block
+### Catalog block
 
 Shows products from a chosen catalog tailored for a particular group of customers, ensuring a personalized browsing experience.
 
@@ -115,7 +118,7 @@ On the **Design** tab, in the **View** field, select the layout to be used to pr
 
 Toggle the **Enable showing only available items** option on to display only products that are currently in stock.
 
-## Code block
+### Code block
 
 Enables you to use custom HTML to add customized text, links, images, and more to your page.
 On the **Properties** tab, set values in the following fields:
@@ -123,7 +126,7 @@ On the **Properties** tab, set values in the following fields:
 - **Name** — Enter a name for the page block.
 - **Content** — Enter the HTML code for the content you want to display.
 
-## Collection block
+### Collection block
 
 Displays a collection of content items manually selected from the content structure, allowing you to feature specific content for promotional campaigns or highlight essential information on your website.
 On the **Properties** tab, set values in the following fields:
@@ -134,7 +137,7 @@ On the **Properties** tab, set values in the following fields:
 All selected content items appear in the **Selected items** box at the bottom of the window.
 When done selecting, click **Confirm**.
 
-## Content List block
+### Content List block
 
 Displays content items of specified content type from a selected folder, simplifying access to categorized information or targeted content presentation on your site.
 On the **Properties** tab, set values in the following fields:
@@ -144,7 +147,7 @@ On the **Properties** tab, set values in the following fields:
 - **Limit** — Set the number of products to be displayed.
 - **Content types to be displayed** — Select content type(s) to be displayed.
 
-## Dynamic targeting block
+### Dynamic targeting block
 
 Dynamic targeting block provides recommended items based on users related to the configured segments.
 
@@ -162,7 +165,7 @@ The rules are checked in order, so when a user belongs to more than one segment,
 
 Toggle the **Enable showing only available items** option on to display only products that are currently in stock.
 
-## Embed block
+### Embed block
 
 Place any content item directly on the page. This function works across all content types seamlessly.
 On the **Properties** tab, set values in the following fields:
@@ -170,7 +173,7 @@ On the **Properties** tab, set values in the following fields:
 - **Name** — Enter a name for the page block.
 - **Content** — Click **Select content**, browse the content, and select a content item.
 
-## Form block
+### Form block
 
 Place a selected form from the content structure onto the page.
 Integrate specific forms into your content to enhance client interaction.
@@ -187,7 +190,7 @@ On the **Properties** tab, set values in the following fields:
 
     For more information about creating form blocks, see [Creating a newsletter form]([[= developer_doc =]]/content_management/pages/create_custom_page_block/) in Developer Documentation.
 
-## Gallery block
+### Gallery block
 
 Presents a comprehensive visual array by displaying all images from your selected folder.
 On the **Properties** tab, set values in the following fields:
@@ -198,7 +201,7 @@ On the **Properties** tab, set values in the following fields:
 After submitting the settings, all images in the folder are shown in the Gallery block.
 Selecting a folder containing content items other than images results in displaying only a link to the folder where they're stored.
 
-## [[= product_name_connect =]] block
+### [[= product_name_connect =]] block
 
 Access and showcase data retrieved from an [[= product_name_connect =]] webhook.
 Streamline information presentation for seamless insights and improved decision-making.
@@ -211,7 +214,7 @@ On the **Properties** tab, set values in the following fields:
 
     For more information about using [[= product_name_connect =]] scenario block, see [[[= product_name_connect =]] scenario block]([[= developer_doc =]]/content_management/pages/ibexa_connect_scenario_block/) in Developer Documentation.
 
-## Last purchased block
+### Last purchased block
 
 Showcases a list of recently purchased products from PIM.
 Helps keep track of recent sales and improve product visibility.
@@ -224,7 +227,7 @@ On the **Properties** tab, set values in the following fields:
 
 Toggle the **Enable showing only available items** option on to display only products that are currently in stock.
 
-## Last viewed block
+### Last viewed block
 
 Showcases a list of recently viewed products from PIM.
 Helps track and show recent product interests for quick access and informed decisions.
@@ -237,7 +240,7 @@ On the **Properties** tab, set values in the following fields:
 
 Toggle the **Enable showing only available items** option on to display only products that are currently in stock.
 
-## Orders block
+### Orders block
 
 Showcases a list of orders linked to a specific company or individual customer.
 Helps track purchase history for streamlined customer service and personalized interactions.
@@ -249,7 +252,7 @@ On the **Properties** tab, set values in the following fields:
 - **Number of orders** — Set the number of orders to be displayed.
 - **Sort order** — Set the sort order for the displayed orders.
 
-## Personalized block
+### Personalized block
 
 Showcases recommended content items or products triggered by specific scenarios for end users.
 Enhances user experience by suggesting tailored options for various situations.
@@ -264,7 +267,7 @@ On the **Design** tab, in the **View** field, change the layout to "Products" an
 
 Toggle the **Enable showing only available items** option on to display only products that are currently in stock.
 
-## Product collection block
+### Product collection block
 
 Presents curated collections of items for easier exploration and discovery.
 On the **Properties** tab, set values in the following fields:
@@ -278,7 +281,7 @@ On the **Properties** tab, set values in the following fields:
 
 Toggle the **Enable showing only available items** option on to display only products that are currently in stock.
 
-## Recently added block
+### Recently added block
 
 Highlights recently added products from PIM.
 Quickly informs users about new additions for quicker distribution and popularizing added products.
@@ -291,7 +294,7 @@ On the **Properties** tab, set values in the following fields:
 
 Toggle the **Enable showing only available items** option on to display only products that are currently in stock.
 
-## RSS block
+### RSS block
 
 Imports and showcases news content from RSS feeds (channels), helping users stay informed with the latest updates and diverse news sources.
 On the **Properties** tab, set values in the following fields:
@@ -301,7 +304,7 @@ On the **Properties** tab, set values in the following fields:
 - **Limit** — Set the number of news items to be displayed.
 - **Offset** — Set the limit of featured news items to be displayed.
 
-## Sales representative
+### Sales representative
 
 Imports and showcases sales representatives for the company in the Customer Portal.
 Gives users a way to connect with the team that handles their sales needs.
@@ -311,7 +314,7 @@ On the **Properties** tab, set values in the following fields:
 
 On the **Design** tab, in the **View** field, select the layout to be used to present the Sales representative's details view and submit your changes.
 
-## SeenThis! block
+### SeenThis! block
 
 Integration with [SeenThis!](https://seenthis.co/) service. SeenThis! block provides an adaptive streaming technology with no limitations as conventional streaming service. It allows to preserve the best video quality with minimum amount of data transfer.
 
@@ -337,7 +340,7 @@ On the **Properties** tab, set values in the following fields:
 
     SeenThis! technology might be blocked by some ad blocker solutions. If you can't see the block once configured, check the ad blocker configuration.
 
-## Targeting block
+### Targeting block
 
 Targeting block provides recommendation of content based on users related to the configured segments.
 
@@ -353,7 +356,7 @@ You can preview the page for each of the available segments:
 
 ![Previewing page for a given segment](img/page_builder_segment_preview.png)
 
-## Text block
+### Text block
 
 Adds a Rich Text block to the page.
 On the **Properties** tab, set values in the following fields:
@@ -369,7 +372,7 @@ For details, see [Editing Rich Text Fields](create_edit_content_items.md#edit-ri
 
     For more information, see [AI Assistant](create_edit_content_items.md#ai-assistant).
 
-## Video block
+### Video block
 
 Integrates a video into the page with standard playback controls.
 Helps enhance content variety and captivate audiences with seamless video viewing.
