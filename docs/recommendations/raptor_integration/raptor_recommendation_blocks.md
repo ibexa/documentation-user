@@ -6,23 +6,23 @@ month_change: true
 
 # Recommendation block reference
 
-The [Raptor](https://www.raptorservices.com/) Integration introduces a set of recommendation blocks.
-These blocks are available in the [Page Builder](create_edit_pages.md#page-builder-interface) and can be configured to control their behavior and output.
+The [Raptor](https://www.raptorservices.com/) integration add-on introduces a set of recommendation blocks.
+These blocks are available in [Page Builder](create_edit_pages.md#page-builder-interface) and can be configured to control their behavior and output.
 
 ![Recommendation blocks](img/recommendation_blocks.png)
 
 Each recommendation block corresponds to a specific Raptor module.
-It's configurable in the [Raptor Control Panel](https://controlpanel.raptorsmartadvisor.com/) where parameters and settings can be modified.
+You can configure it in the [Raptor Control Panel](https://controlpanel.raptorsmartadvisor.com/) where parameters and settings can be modified.
 
 ![Raptor module](img/raptor_module.png)
 
-In the Page Builder, only the required parameters for each block can be configured.
+In Page Builder, only the required parameters for each block can be configured.
 Additional, optional settings are available through the **Go to advanced settings in Raptor** link.
 It redirects to the respective module configuration in the Raptor Control Panel, where these settings can be adjusted and saved.
 
 ![Advanced settings](img/advanced_settings.png)
 
-Each Content, Product, and Commerce recommendations can be added to a landing page using blocks divided into categories:
+Raptor recommendations can be added to a landing page by using blocks that belong to the following categories:
 
 ## Recommendations: Content
 
@@ -39,41 +39,41 @@ The following blocks can be used to present content recommendations:
 Highlights the most trending or popular content that is most frequently viewed by users across the website.
 It helps identify popular and relevant content items.
 
-This block uses [GetPopularContentWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetPopularContentWeb) Raptor recommendation strategy.
+This block uses the [GetPopularContentWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetPopularContentWeb) Raptor recommendation strategy.
 
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
-- **Name displayed on page (optional)** - Enter a name for the block to be displayed on page.
-- **Recommendations limit** - Set the number of recommendations to be displayed (default = 4).
+- **Name displayed on page (optional)** - Enter a name for the block to be displayed on the page.
+- **Recommendations limit** - Set the number of recommendations to be displayed. Default = 4.
 
 ### Other customers have also seen this content block
 
 Highlights content viewed by other users with similar behavior.
 Usually applied on the content page, returns content that is often viewed together with the given content.
-It increases the engagement of the customers by helping to identify related and relevant content.
+It increases the engagement of the customers by helping identify related and relevant content.
 
-This block uses [GetSimilarContentWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetSimilarContentWeb) Raptor recommendation strategy.
+This block uses the [GetSimilarContentWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetSimilarContentWeb) Raptor recommendation strategy.
 
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
-- **Name displayed on page (optional)** - Enter a name for the block to be displayed on page.
+- **Name displayed on page (optional)** - Enter a name for the block to be displayed on the page.
 - **Select content for recommendations** - Select content to be used for recommendations. This content is used as the basis for recommendations, allowing Raptor to suggest similar or related items.
-- **Recommendations limit** - Set the number of recommendations to be displayed (default = 4).
+- **Recommendations limit** - Set the number of recommendations to be displayed. Default = 4.
 
 ### Personalized content recommendations block
 
 Generates complementary, personalized content tailored to each user based on their behavior and preferences.
 Increases relevance and engagement through personalized suggestions.
 
-This block uses [GetUserContentRecommendationsWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetUserContentRecommendationsWeb) Raptor recommendation strategy.
+This block uses the [GetUserContentRecommendationsWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetUserContentRecommendationsWeb) Raptor recommendation strategy.
 
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
-- **Name displayed on page (optional)** - Enter a name for the block to be displayed on page.
-- **Recommendations limit** - Set the number of recommendations to be displayed (default = 4).
+- **Name displayed on page (optional)** - Enter a name for the block to be displayed on the page.
+- **Recommendations limit** - Set the number of recommendations to be displayed. Default = 4.
 
 ## Recommendations: Product
 
@@ -88,33 +88,33 @@ The following blocks can be used to display product suggestions based on visitor
 ### Most popular products block
 
 Presents products that are currently trending and widely popular among users.
-It's defined by the calculation type, interaction type, and aggregation period.
+Its behavior is defined by the calculation type, interaction type, and aggregation period.
 Helps quickly identify top-performing and popular items.
 
-This block uses [GetPopularItemsWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetPopularItemsWeb) Raptor recommendation strategy.
+This block uses the [GetPopularItemsWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetPopularItemsWeb) Raptor recommendation strategy.
 
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
-- **Name displayed on page (optional)** - Enter a name for the block to be displayed on page.
-- **Recommendations limit** - Set the number of recommendations to be displayed (default = 4).
+- **Name displayed on page (optional)** - Enter a name for the block to be displayed on the page.
+- **Recommendations limit** - Set the number of recommendations to be displayed. Default = 4.
 
 Toggle the **Show only available items** option on to display only products that are currently in stock.
 
 ### Most popular products in category block
 
 Displays the most popular products within a selected category.
-It's defined by the interaction type and aggregation period.
-Helps identify most popular items within a specific category.
+Its behavior is defined by the interaction type and aggregation period.
+Helps identify the most popular items within a specific category.
 
-This block uses [GetPopularItemsInCategoryWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetPopularItemsInCategoryWeb) Raptor recommendation strategy.
+This block uses the [GetPopularItemsInCategoryWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetPopularItemsInCategoryWeb) Raptor recommendation strategy.
 
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
-- **Name displayed on page (optional)** - Enter a name for the block to be displayed on page.
+- **Name displayed on page (optional)** - Enter a name for the block to be displayed on the page.
 - **Product category** - Select product category.
-- **Recommendations limit** - Set the number of recommendations to be displayed (default = 4).
+- **Recommendations limit** - Set the number of recommendations to be displayed. Default = 4.
 
 Toggle the **Show only available items** option on to display only products that are currently in stock.
 
@@ -124,14 +124,14 @@ Shows products viewed by users with similar behavior.
 Usually applied on the product page, returns items that are often viewed together with the given product.
 Enhances user experience by suggesting related products.
 
-This block uses [GetSimilarItemsWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetSimilarItemsWeb) Raptor recommendation strategy.
+This block uses the [GetSimilarItemsWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetSimilarItemsWeb) Raptor recommendation strategy.
 
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
-- **Name displayed on page (optional)** - Enter a name for the block to be displayed on page.
-- **Product code** - Enter a product code for a base product or select base product from the Product Catalog.
-- **Recommendations limit** - Set the number of recommendations to be displayed (default = 4).
+- **Name displayed on page (optional)** - Enter a name for the block to be displayed on the page.
+- **Product code** - Enter a product code to be used as a base product or select the base product from the Product catalog.
+- **Recommendations limit** - Set the number of recommendations to be displayed. Default = 4.
 
 Toggle the **Show only available items** option on to display only products that are currently in stock.
 
@@ -150,14 +150,14 @@ Provides real-time product recommendations based on user behavior.
 The web personal shopping assistant recommends items at each step of the customer journey, with a short-term focus.
 It helps users discover relevant items while browsing by providing personalized recommendations based on their current behavior.
 
-This block uses [GetUserItemRecommendationsWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetUserItemRecommendationsWeb) Raptor recommendation strategy.
+This block uses the [GetUserItemRecommendationsWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetUserItemRecommendationsWeb) Raptor recommendation strategy.
 
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
-- **Name displayed on page (optional)** - Enter a name for the block to be displayed on page.
+- **Name displayed on page (optional)** - Enter a name for the block to be displayed on the page.
 - **Product (optional)** - Add or select base product.
-- **Recommendations limit** - Set the number of recommendations to be displayed (default = 4).
+- **Recommendations limit** - Set the number of recommendations to be displayed. Default = 4.
 
 Toggle the **Show only available items** option on to display only products that are currently in stock.
 
@@ -167,17 +167,17 @@ Shows the user’s past or current basket items, sorted by recent activity or to
 Makes it easier to find and review previously viewed or added products.
 This module can be configured to return recently viewed items, most interacted items, or items currently in the basket.
 
-This block uses [GetUserItemHistoryWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetUserItemHistoryWeb) Raptor recommendation strategy.
+This block uses the [GetUserItemHistoryWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetUserItemHistoryWeb) Raptor recommendation strategy.
 
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
-- **Name displayed on page (optional)** - Enter a name for the block to be displayed on page.
-- **Recommendations limit** - Set the number of recommendations to be displayed (default = 4).
+- **Name displayed on page (optional)** - Enter a name for the block to be displayed on the page.
+- **Recommendations limit** - Set the number of recommendations to be displayed. Default = 4.
 
 Toggle the **Show only available items** option on to display only products that are currently in stock.
 
 
 !!! tip
 
-    For the list of all available blocks in Page Builder, see [Block reference](block_reference.md) page.
+    For a list of all blocks available in Page Builder, see [Block reference](block_reference.md).
