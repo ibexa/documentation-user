@@ -30,9 +30,24 @@ The following blocks can be used to present content recommendations:
 
 |Block|Description|
 |-----|-----------|
+|[Content that have been seen along with the item category](#content-that-have-been-seen-along-with-the-item-category)|Displays content frequently viewed together with items from the same category.|
 |[Most popular content](#most-popular-content-block)|Highlights the most frequently viewed content.|
 |[Other customers have also seen this content](#other-customers-have-also-seen-this-content-block)|Displays content viewed by other users with similar behavior.|
 |[Personalized content recommendations](#personalized-content-recommendations-block)|Provides personalized content recommendations based on user behavior and preferences.|
+
+### Content that have been seen along with the item category
+
+Shows content that is often viewed together with items in the same category.
+Helps users discover related content.
+
+This block uses the [GetContentBasedOnProductCategoryWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetContentBasedOnProductCategoryWeb) Raptor recommendation strategy.
+
+On the **Properties** tab, set values in the following fields:
+
+- **Name** – Enter a name for the page block.
+- **Name displayed on page (optional)** - Enter a name for the block to be displayed on the page.
+- **Product category** - Select product category.
+- **Recommendations limit** - Set the number of recommendations to be displayed. Default = 4.
 
 ### Most popular content block
 
@@ -141,8 +156,25 @@ The following blocks can be used to show recommendations based on visitors purch
 
 |Block|Description|
 |-----|-----------|
+|[Other Customers Have also Purchased](#other-customers-have-also-purchased-block)|Displays items purchased by other customers who bought the same product.|
 |[The Personal Shopping Assistant](#the-personal-shopping-assistant-block)|Assists users by suggesting relevant products in real time based on their activity.|
-|[User's item history or current basket items sorted by recent items or top items](#users-item-history-or-current-basket-items-sorted-by-recent-items-or-top-items-block)|Displays the user’s item history or current basket, sorted by recent or top items.|
+|[User's item history](#users-item-history-block)|Displays the user’s item history or current basket, sorted by recent or top items.|
+
+### Other Customers Have also Purchased block
+
+Suggests products commonly bought together.
+Helps users find related products to encourage additional purchases.
+
+This block uses the [GetPIMRelatedItemsWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetPIMRelatedItemsWeb) Raptor recommendation strategy.
+
+On the **Properties** tab, set values in the following fields:
+
+- **Name** – Enter a name for the page block.
+- **Name displayed on page (optional)** - Enter a name for the block to be displayed on the page.
+- **Product code** - Enter a product code to be used as a base product or select the base product from the Product catalog.
+- **Recommendations limit** - Set the number of recommendations to be displayed. Default = 4.
+
+Toggle the **Show only available items** option on to display only products that are currently in stock.
 
 ### The Personal Shopping Assistant block
 
@@ -161,7 +193,7 @@ On the **Properties** tab, set values in the following fields:
 
 Toggle the **Show only available items** option on to display only products that are currently in stock.
 
-### User's item history or current basket items sorted by recent items or top items block
+### User's item history block
 
 Shows the user’s past or current basket items, sorted by recent activity or top items.
 Makes it easier to find and review previously viewed or added products.
