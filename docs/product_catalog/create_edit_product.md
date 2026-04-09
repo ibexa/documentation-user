@@ -10,7 +10,7 @@ You can only create or modify products when your [user role](../permission_manag
 
 !!! note "Quable PIM integration"
 
-    When [Quable is configured as the product catalog source](quable_pim_integration.md), creating and editing products in [[= product_name =]] is not available.
+    When [Quable is configured as the source of product information](quable_pim_integration.md), creating and editing products in [[= product_name =]] is not available.
     Products are managed in the [[= pim_product_name =]] back office and are automatically available in [[= product_name =]].
     You can still [manage prices](manage_prices.md) and [availability](manage_availability_and_stock.md) for [[= pim_product_name =]] products in [[= product_name =]].
 

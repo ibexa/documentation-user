@@ -18,7 +18,7 @@ Products can also be [embedded in content items](create_edit_content_items.md#em
 
 !!! note "Quable PIM integration"
 
-    When [Quable is configured as the product catalog source](quable_pim_integration.md), creating and editing products in [[= product_name =]] is not available.
+    When [Quable is configured as the source of product information](quable_pim_integration.md), creating and editing products in [[= product_name =]] is not available.
     
     Product data is managed in the [[= pim_product_name =]] back office, with the exception of [managing prices](manage_prices.md) and [availability](manage_availability_and_stock.md) which happen in [[= product_name =]].
     In addition, you can use [[= product_name =]] to browse, search, filter, and embed [[= pim_product_name =]] products in content items, including landing pages.

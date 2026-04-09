@@ -8,7 +8,7 @@ If your [user role](../permission_management/work_with_permissions.md) has the `
 
 !!! note "Quable PIM integration"
 
-    When [Quable is configured as the product catalog source](quable_pim_integration.md), product types are defined in [[= pim_product_name =]] and cannot be created or modified in [[= product_name =]].
+    When [Quable is configured as the source of product information](quable_pim_integration.md), product types are defined in [[= pim_product_name =]] and cannot be created or modified in [[= product_name =]].
     Manage product types in the [[= pim_product_name =]] back office instead.
 
 1\. In the left panel, go to **Product catalog** -> **Product Types** and click **Create**.

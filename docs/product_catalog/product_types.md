@@ -11,7 +11,7 @@ You need different product types, because products of type "Laptops" contain dif
 
 !!! note "Quable PIM integration"
 
-    When [Quable is configured as the product catalog source](quable_pim_integration.md), product types are defined from [[= pim_product_name =]] and are read-only in [[= product_name =]].
+    When [Quable is configured as the source of product information](quable_pim_integration.md), product types are defined from [[= pim_product_name =]] and are read-only in [[= product_name =]].
     To add or modify product types, use the [[= pim_product_name =]] back office.
     Changes are automatically reflected in [[= product_name =]].
 
