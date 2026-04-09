@@ -276,7 +276,7 @@ Quickly informs users about new additions for quicker distribution and populariz
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
-- **Personalization Scenario** – Select "Recently added items" to display products that were recently added to product catalog.
+- **Personalization Scenario** – Select "Recently added items" to display products that were recently added to the product catalog.
 - **Product Types to be displayed** – Select the type of products to be displayed on the list.
 - **Limit** – Set the number of products to be displayed.
 
