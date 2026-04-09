@@ -160,9 +160,9 @@ Contents of the help center are contextual:
 
 Help center can be [customized]([[= developer_doc =]]/administration/back_office/customize_integrated_help/) to fit the needs of your organization, for example, to include links to your internal style guides.
 
-### Enable help center
+### Disable help center
 
-Help center is disabled by default, but you can toggle it in [user settings](get_started.md#browsing).
+Help center is enabled by default, but you can toggle it in [user settings](get_started.md#browsing).
 
 ### Dismiss help icon
 
