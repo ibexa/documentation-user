@@ -1,6 +1,7 @@
 ---
 description: Pick from a list of dynamic page blocks to create landing pages.
 edition: experience
+month_change: true
 ---
 
 # Block reference
@@ -22,13 +23,13 @@ The following blocks are provided with a clean installation of [[= product_name 
 |[Form](#form-block)|Embeds a Form content item that you select from the content structure. |
 |[Gallery](#gallery-block)|Displays all images contained in a selected folder. |
 |[[[= product_name_connect =]]](#ibexa-connect-block)|Retrieves and displays data from an [[= product_name_connect =]] webhook. |
-|[Last purchased](#last-purchased-block)|Displays a list of products that were recently purchased from product catalog. |
-|[Last viewed](#last-viewed-block)|Displays a list of products from product catalog that were recently viewed. |
+|[Last purchased](#last-purchased-block)|Displays a list of products that were recently purchased from the product catalog. |
+|[Last viewed](#last-viewed-block)|Displays a list of products from the product catalog that were recently viewed. |
 |[Orders](#orders-block)|Displays a list of orders associated with a particular company or individual customer. |
 |[Personalized](#personalized-block)|Displays a list of content items/products that are recommended to end users when specific scenarios are triggered. |
 |[Product collection](#product-collection-block)|Displays a list of specifically selected products.|
 |[Product embed](#product-embed)|Displays a specific product.|
-|[Recently added](#recently-added-block)|Displays a list of products that were recently added to product catalog. |
+|[Recently added](#recently-added-block)|Displays a list of products that were recently added to the product catalog. |
 |[RSS](#rss-block)|Loads and displays news from RSS feeds (channels). |
 |[Sales representative](#sales-representative)|Loads and displays company's sales representative.|
 |[SeenThis!](#seenthis-block)|Displays video with exceeded standard video restrictions of 3.5MB.|
@@ -207,18 +208,18 @@ On the **Properties** tab, set values in the following fields:
 
 ## Last purchased block
 
-Showcases a list of recently purchased products from product catalog.
+Showcases a list of recently purchased products from the product catalog.
 Helps keep track of recent sales and improve product visibility.
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
-- **Personalization scenario** – Select "Last purchased" to display products that were recently purchased from product catalog by any user, or "Last purchased by user" to display products that were recently purchased by the current user.
+- **Personalization scenario** – Select "Last purchased" to display products that were recently purchased from the product catalog by any user, or "Last purchased by user" to display products that were recently purchased by the current user.
 - **Product Types to be displayed** – Select the type of products to be displayed on the list.
 - **Limit** – Set the number of products to be displayed.
 
 ## Last viewed block
 
-Showcases a list of recently viewed products from product catalog.
+Showcases a list of recently viewed products from the product catalog.
 Helps track and show recent product interests for quick access and informed decisions.
 On the **Properties** tab, set values in the following fields:
 
@@ -258,7 +259,7 @@ Presents curated collections of items for easier exploration and discovery.
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
-- **Product list** — Create a list of products. Enter a comma-separated list of product codes and click **Add** or click **Select products**. Then, select products, and click **Confirm**.
+- **Product list** — Create a list of products. Either enter a comma-separated list of product codes and click **Add**, or click **Select products**, select products, and click **Confirm**.
 
 ## Product embed
 
@@ -270,7 +271,7 @@ On the **Properties** tab, set values in the following fields:
 
 ## Recently added block
 
-Highlights recently added products from product catalog.
+Highlights recently added products from the product catalog.
 Quickly informs users about new additions for quicker distribution and popularizing added products.
 On the **Properties** tab, set values in the following fields:
 

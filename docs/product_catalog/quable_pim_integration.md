@@ -11,7 +11,7 @@ Product types, products, variants, and categories all come from [[= pim_product_
 [[= product_name =]] reads this data and makes it available for digital experiences: storefronts, landing pages, personalized campaigns, and APIs.
 Product management activities like creating, updating, or deleting product data happens entirely in [[= pim_product_name =]], not in [[= product_name =]].
 
-## Working with [[= pim_product_name =]] products
+## Work with [[= pim_product_name =]] products
 
 When [[= pim_product_name =]] is configured as the product data source, you can use the following [[= product_name =]] features with [[= pim_product_name =]] products:
 
@@ -31,7 +31,7 @@ Use [discounts](discounts.md) to define advanced pricing strategies, for example
 
 ## Managing product data
 
-When [[= pim_product_name =]] is the PIM source, the following operations are not available in [[= product_name =]] and must be performed in the [[= pim_product_name =]] interface instead:
+When [[= pim_product_name =]] is the source of product information, the following operations are not available in [[= product_name =]] and must be performed in the [[= pim_product_name =]] interface instead:
 
 - Create, edit, or delete products
 - Create, edit, or delete product types
