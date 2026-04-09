@@ -30,12 +30,12 @@ The following blocks can be used to present content recommendations:
 
 |Block|Description|
 |-----|-----------|
-|[Content that have been seen along with the item category](#content-that-have-been-seen-along-with-the-item-category)|Displays content frequently viewed together with items from the same category.|
+|[Content that have been seen along with the item category](#content-that-have-been-seen-along-with-the-item-category-block)|Displays content frequently viewed together with items from the same category.|
 |[Most popular content](#most-popular-content-block)|Highlights the most frequently viewed content.|
 |[Other customers have also seen this content](#other-customers-have-also-seen-this-content-block)|Displays content viewed by other users with similar behavior.|
 |[Personalized content recommendations](#personalized-content-recommendations-block)|Provides personalized content recommendations based on user behavior and preferences.|
 
-### Content that have been seen along with the item category
+### Content that have been seen along with the item category block
 
 Shows content that is often viewed together with items in the same category.
 Helps users discover related content.
