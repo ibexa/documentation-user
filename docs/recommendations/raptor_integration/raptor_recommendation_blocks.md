@@ -30,12 +30,12 @@ The following blocks can be used to present content recommendations:
 
 |Block|Description|
 |-----|-----------|
-|[Content that have been seen along with the item category](#content-that-have-been-seen-along-with-the-item-category-block)|Displays content frequently viewed together with items from the same category.|
+|[Content that has been seen along with the item category](#content-that-has-been-seen-along-with-the-item-category-block)|Displays content frequently viewed together with items from the same category.|
 |[Most popular content](#most-popular-content-block)|Highlights the most frequently viewed content.|
 |[Other customers have also seen this content](#other-customers-have-also-seen-this-content-block)|Displays content viewed by other users with similar behavior.|
 |[Personalized content recommendations](#personalized-content-recommendations-block)|Provides personalized content recommendations based on user behavior and preferences.|
 
-### Content that have been seen along with the item category block
+### Content that has been seen along with the item category block
 
 Shows content that is often viewed together with items in the same category.
 Helps users discover related content.
@@ -156,11 +156,11 @@ The following blocks can be used to show recommendations based on visitors purch
 
 |Block|Description|
 |-----|-----------|
-|[Other Customers Have also Purchased](#other-customers-have-also-purchased-block)|Displays items purchased by other customers who bought the same product.|
+|[Other customers have also purchased](#other-customers-have-also-purchased-block)|Displays items purchased by other customers who bought the same product.|
 |[The Personal Shopping Assistant](#the-personal-shopping-assistant-block)|Assists users by suggesting relevant products in real time based on their activity.|
 |[User's item history](#users-item-history-block)|Displays the user’s item history or current basket, sorted by recent or top items.|
 
-### Other Customers Have also Purchased block
+### Other customers have also purchased block
 
 Suggests products commonly bought together.
 Helps users find related products to encourage additional purchases.
