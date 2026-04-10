@@ -82,6 +82,8 @@ On the **Properties** tab, set values in the following fields:
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of products and submit your changes.
 
+This block is not supported when using [[[= pim_product_name =]]](../../product_catalog/quable_pim_integration.md) as the source of product information.
+
 ## Products with lowest stock block [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
 Displays a table of products with the lowest stock.
@@ -96,6 +98,8 @@ On the **Properties** tab, set values in the following fields:
 - **Stock threshold** - Set up the maximum stock value (only products with stock number greater than zero and less than the set maximum number are displayed). Default value = 10.
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of products and submit your changes.
+
+This block is not supported when using [[[= pim_product_name =]]](../../product_catalog/quable_pim_integration.md) as the source of product information.
 
 ## Quick actions block [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
