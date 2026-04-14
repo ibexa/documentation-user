@@ -119,6 +119,9 @@ nav:
         - Integrate scenario results: personalization/integrate_scenario_results.md
         - Import source data: personalization/content_import.md
         - Review performance: personalization/review_perso_performance.md
+    - Recommendations:
+        - Raptor integration:
+            - Recommendation blocks: recommendations/raptor_integration/raptor_recommendation_blocks.md
     - Ibexa Engage:
         - Ibexa Engage: ibexa_engage/ibexa_engage.md 
     - DAM:
