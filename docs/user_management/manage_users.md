@@ -11,6 +11,10 @@ You can view all user groups and Users in the **Admin** panel by selecting **Use
 Here, you can manage users, their relations, roles, and policies.
 As you can see, the interface is the same as when working with regular content items.
 
+!!! caution
+
+    If you are creating a new user group, remember to [exclude it in product tour configuration]([[= developer_doc =]]/administration/back_office/configure_product_tour#user-group-restrictions) if necessary.
+
 ![Users section](img/users_section.png)
 
 !!! caution
