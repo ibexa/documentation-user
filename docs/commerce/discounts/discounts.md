@@ -22,3 +22,5 @@ The **Discounts** module interacts with other parts of the system, so that store
 - in the product catalog, see base prices of products together with prices reduced according to active catalog discounts
 - in the cart, see prices reduced according to catalog and/or cart discounts, apply discount codes, and observe as prices change when various cart discount conditions are met 
 - at checkout, see a total value of all applied discounts and prices reduced as a result of those discounts
+
+For more information about discounts, see [Work with discounts](work_with_discounts.md).

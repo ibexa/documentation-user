@@ -12,7 +12,7 @@ It features a customizable user interface where you can work with the content, p
 Depending on the product edition, [[= product_name =]] can provide advanced capabilities in such areas as:
 
 - [content management](content_management.md)
-- [product management](pim.md)
+- [product management](product_catalog.md)
 - [customer management](customer_management.md)
 
 !!! note "Installation"

@@ -9,7 +9,7 @@ edition: commerce
 You can use them to create a unified and streamlined e-commerce platform.
 Modules interact with each other, for example, to decrease stock following a sale, reduce prices when the cart reaches a certain value, or cancel shipments and payments when orders are cancelled.
 
-The solution complements functionalities provided by the [PIM](products.md) offering, and allows you to sell products through the website.
+The solution complements functionalities provided by the [product catalog](products.md) offering, and allows you to sell products through the website.
 With Commerce, you can build your own storefront from a set of generic components, which you can then customize to cover all aspects of the e-commerce experience.
 
 Out of the box, Commerce is configured to follow a specific workflow and support a certain number of processing method types, for example, flat rate, free shipping methods, and offline payment methods.

@@ -1,5 +1,6 @@
 ---
 description: Create content for your website with different fields, rich text, tags, and then publish it.
+month_change: true
 ---
 
 # Create and edit content items
@@ -110,6 +111,7 @@ To do it, choose one of the available elements:
 - Ordered list
 - Table
 - Embed
+- Embed product
 - Image
 - YouTube
 - X
@@ -149,9 +151,17 @@ This option is also available when you want to set up a [relation](configure_ct_
 
 ![Edit embedded content item - set up a relation](img/edit_embedded_items_relation.png "Edit embedded content item - set up a relation")
 
-#### Distraction free mode
+#### Embed products
 
-While editing Rich Text fields, you can switch to distraction free mode.
+You can embed [products](products.md) from the product catalog directly inside a Rich Text field.
+Use this feature when building landing pages or articles that reference specific products, for example, a blog post that highlights a new product launch.
+
+Two embed styles are available:
+
+- **Embed** embeds a product as a standalone element between paragraphs.
+- **Inline embed** embeds a product within a sentence or paragraph.
+
+#### Distraction free mode
 
 Distraction free mode expands the workspace to full screen and shows only editor toolbar.
 It's helpful when you need to work with longer texts that take more space and when you want to focus your attention on editing text.
