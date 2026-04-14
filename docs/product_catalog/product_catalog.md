@@ -14,7 +14,7 @@ Product catalog's features are available from the left-hand menu.
 
 ![Product catalog in the menu](img/catalog_menu.png "Product catalog in the menu")
 
-You can use [[= product_name =]]'s built-in product management, or connect it to an external product information management (PIM) source.
+You can use [[= product_name =]]'s built-in product management, or connect it to an external product information management (PIM) system.
 [[[= pim_product_name =]] PIM integration](quable_pim_integration.md) allows you to use [[= pim_product_name =]] as the source of product data, while using [[= product_name =]] for marketing activities, [managing prices](manage_prices.md), and [availability and stock](manage_availability_and_stock.md).
 
 [[= cards([
