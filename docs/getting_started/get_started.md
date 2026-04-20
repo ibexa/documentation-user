@@ -1,5 +1,6 @@
 ---
 description: Get started with Ibexa DXP by logging in to the back office.
+month_change: true
 ---
 
 # Get started
@@ -12,7 +13,7 @@ It features a customizable user interface where you can work with the content, p
 Depending on the product edition, [[= product_name =]] can provide advanced capabilities in such areas as:
 
 - [content management](content_management.md)
-- [product management](pim.md)
+- [product management](product_catalog.md)
 - [customer management](customer_management.md)
 
 !!! note "Installation"
@@ -30,6 +31,13 @@ If you're the administrator, use the login credentials that were set [during the
 Otherwise, to log in, you must get your user credentials from the administrator, and enter them on the login screen.
 
 ![Login screen](img/login_form.png "Login screen")
+
+### Onboarding
+
+When you log in to [[= product_name =]] for the first time, interactive product tours may appear if the Integrated help [LTS update]([[= developer_doc =]]/ibexa_products/editions/#lts-updates) is configured in your installation.
+This in-app walkthroughs guide you through key features and help you get started quickly.
+
+You can complete each step of the onboarding tutorials, skip them entirely if you prefer to explore on your own, or restart them anytime from your [user settings](#user-settings) under the **Browsing** section.
 
 ### View and edit user profile
 
@@ -114,7 +122,9 @@ Here you can [change your user password](get_started.md#change-the-password) and
 --------|-----------|
 |Number of items displayed in the table|Sets the number of items displayed in sub-items.|
 |Location preview|Enables or disables a thumbnail preview on the content tree.|
-|Help center|Disables or enables the [help center](discover_ui.md#help-center).  [[% include 'snippets/lts-update_badge.md' %]]|
+|Help center|Enables or disables the [help center](discover_ui.md#help-center). [[% include 'snippets/lts-update_badge.md' %]]|
+|Product tour|Enables or disables the [product tour onboarding](#onboarding) walkthroughs. [[% include 'snippets/lts-update_badge.md' %]]|
+|Product tour scenarios settings|Separate setting for each available product tour scenario. Allows you to mark each scenario as completed or reset its progress. [[% include 'snippets/lts-update_badge.md' %]]|
 
 #### Mode
 

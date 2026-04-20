@@ -64,7 +64,7 @@ If your store supports multiple languages and you want different discount names 
 
 ## Create new discount
 
-When you create discounts, you must first decide whether they apply to all [products](../../pim/products.md) from the catalog, or the products that the customer has put into their cart.
+When you create discounts, you must first decide whether they apply to all [products](../../product_catalog/products.md) from the catalog, or the products that the customer has put into their cart.
 You are then taken through a series of steps, where you define the discount, for example, decide if it applies to selected [customer groups]([[= developer_doc =]]/users/customer_groups/) and specific products.
 Cart discount applicability can be further limited by setting a number of conditions, such as:
 

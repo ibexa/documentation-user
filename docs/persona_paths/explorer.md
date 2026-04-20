@@ -17,7 +17,7 @@ Whether you're a new or seasoned user of [[= product_name =]], feel free to brow
     "personalization/personalization",
     "personalization/configure_personalization",
     "search_engine_optimization/seo",
-    "pim/products",
+    "product_catalog/products",
     "persona_paths/manage_products",
     "customer_management/customer_portal",
     "website_organization/multisite",

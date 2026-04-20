@@ -9,6 +9,12 @@ By default, product types contain such fields as name, specification, image, or 
 You can modify them as required.
 You need different product types, because products of type "Laptops" contain different fields and attributes than those of type "White appliances".
 
+!!! note "Quable PIM integration"
+
+    When [Quable is configured as the source of product information](quable_pim_integration.md), product types are defined from [[= pim_product_name =]] and are read-only in [[= product_name =]].
+    To add or modify product types, use the [[= pim_product_name =]] back office.
+    Changes are automatically reflected in [[= product_name =]].
+
 When you create a new product type, you can choose between two available product type flavors: Physical and Virtual:
 
 - Physical - tangible products.
@@ -23,8 +29,7 @@ When a product type is created, you can review its fields, attributes, and VAT r
 
 ![VAT rates in product type's details view](img/vat_rates_product_details.png "VAT rates in product type's details view")
 
-If your [user role](../permission_management/work_with_permissions.md) has the `ProductType/Edit` 
-permission, you can [modify product types and add individual attributes or attribute groups](create_product_types.md).
+If your [user role](../permission_management/work_with_permissions.md) has the `ProductType/Edit` permission, you can [modify product types and add individual attributes or attribute groups](create_product_types.md).
 
 ### Attributes
 

@@ -14,11 +14,20 @@ For each product and product variant, you can define its [availability](manage_a
 When you create or edit products, you can add [assets](work_with_product_assets.md) in a form of images.
 Assets can be assigned to the base product, and to one or more of its variants.
 
+Products can also be [embedded in content items](create_edit_content_items.md#embed-products) and [landing pages](block_reference.md#product-embed) to showcase them within editorial content, such as articles and landing pages.
+
+!!! note "Quable PIM integration"
+
+    When [Quable is configured as the source of product information](quable_pim_integration.md), creating and editing products in [[= product_name =]] is not available.
+    
+    Product data is managed in the [[= pim_product_name =]] back office, with the exception of [managing prices](manage_prices.md) and [availability](manage_availability_and_stock.md) which happen in [[= product_name =]].
+    In addition, you can use [[= product_name =]] to browse, search, filter, and embed [[= pim_product_name =]] products in content items, including landing pages.
+
 For more information about creating products, see [Create product](create_edit_product.md#create-and-edit-products).
 
 ### Product completeness
 
-Before your customers can purchase products, the website [administrator must configure]([[= developer_doc =]]/pim/enable_purchasing_products/) at least one region and one currency for the shop, and VAT rates for each of the regions.
+Before your customers can purchase products, the website [administrator must configure]([[= developer_doc =]]/product_catalog/enable_purchasing_products/) at least one region and one currency for the shop, and VAT rates for each of the regions.
 You must then set:
 
 - VAT rates for the product type

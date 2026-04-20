@@ -136,8 +136,8 @@
                         </div>
                         <div class="col-12 col-lg-6 col-fhd-3">
                             <ul>
-                                <li><a href="https://doc.ibexa.co/en/5.0/release_notes/ibexa_dxp_v5.0/#date-and-time-attribute">Date and time attibute for PIM</a></li>
-                                <li><a href="https://doc.ibexa.co/en/5.0/release_notes/ibexa_dxp_v5.0/#symbol-attribute">Symbol attribute for PIM</a></li>
+                                <li><a href="https://doc.ibexa.co/en/5.0/release_notes/ibexa_dxp_v5.0/#date-and-time-attribute">Date and time attribute for product catalog</a></li>
+                                <li><a href="https://doc.ibexa.co/en/5.0/release_notes/ibexa_dxp_v5.0/#symbol-attribute">Symbol attribute for product catalog</a></li>
                                 <li><a href="https://doc.ibexa.co/en/5.0/release_notes/ibexa_dxp_v5.0/#developer-experience">Developer experience improvements</a></li>
                             </ul>
                         </div>
@@ -203,7 +203,7 @@
             <div class="info-tile info-tile--link-card">
                 <div class="info-tile__content">
                     <h3>
-                        <a href="pim/pim/">
+                        <a href="product_catalog/product_catalog/">
                             <svg>
                                 <use xlink:href="images/icons.svg#product" />
                             </svg>
@@ -212,9 +212,9 @@
                     </h3>
                     <ul>
                         <li><a href="persona_paths/manage_products/">Manage products</a></li>
-                        <li><a href="pim/create_edit_product/">Create and edit products</a></li>
-                        <li><a href="pim/work_with_product_variants/">Work with product variants</a></li>
-                        <li><a href="pim/work_with_catalogs/">Work with catalogs</a></li>
+                        <li><a href="product_catalog/create_edit_product/">Create and edit products</a></li>
+                        <li><a href="product_catalog/work_with_product_variants/">Work with product variants</a></li>
+                        <li><a href="product_catalog/work_with_catalogs/">Work with catalogs</a></li>
                     </ul>
                 </div>
             </div>
