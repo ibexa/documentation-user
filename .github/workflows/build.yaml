@@ -43,8 +43,9 @@ jobs:
                     unzip vale.zip
                     rm vale.zip
                     mv vale-styles-main/* vale-styles-main/.vale.ini .
+
             -   name: Run Vale.sh
-                uses: errata-ai/vale-action@reviewdog
+                uses: vale-cli/vale-action@v2
                 with:
                   reporter: github-check
                   filter_mode: added
