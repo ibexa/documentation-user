@@ -43,4 +43,4 @@ The following actions must be performed in [[= pim_product_name =]]:
 
 This ensures that product data remains consistent across all systems and channels.
 
-To learn more about the limitations of the integration with [[= pim_product_name =]], see [known limitations]([[= developer_doc =]]/product-catalog/quable-guide#known-limitations) in the developer documentation.
+To learn more about the limitations of the integration with [[= pim_product_name =]], see [known limitations]([[= developer_doc =]]/product_catalog/quable/quable_guide/#known-limitations) in the developer documentation.
