@@ -6,7 +6,7 @@ month_change: true
 # Quable PIM integration
 
 [[= product_name =]] can be connected to [[[= pim_product_name =]]](https://www.quable.com/en) as an external product information management (PIM) system.
-After the feature is [configured]([[= developer_doc =]]/product-catalog/install-quable), [[= pim_product_name =]] becomes the central place for managing product data.
+After the feature is [configured]([[= developer_doc =]]/product_catalog/quable/install_quable/), [[= pim_product_name =]] becomes the central place for managing product data.
 All product information is maintained in [[= pim_product_name =]] and automatically made available in [[= product_name =]].
 
 This allows teams to work with consistent product data in the [[= product_name =]] interface, without duplicating or manually transferring information between systems.
