@@ -264,7 +264,7 @@ On the **Properties** tab, set values in the following fields:
 - **Name** – Enter a name for the page block.
 - **Product list** — Create a list of products. Either enter a comma-separated list of product codes and click **Add**, or click **Select products**, select products, and click **Confirm**.
 
-## Product embed
+### Product embed
 
 Presents a single product, allowing you to highlight its key features.
 On the **Properties** tab, set values in the following fields:
@@ -340,6 +340,17 @@ On the **Properties** tab, set values in the following fields:
 - **Setup segment and content matching priority rules** — Select a segment group and a segment, then click **Select content** and navigate to the content item that you want to display for the selected group.
 
 The rules are checked in order, so when a user belongs to more than one segment, the first rule applies.
+
+For example, consider the following configuration:
+
+| Segment   | Content displayed |
+|-----------|-------------------|
+| Segment A | Content 1         |
+| Segment B | Content 2         |
+| Segment C | Content 3         |
+
+To a user who belongs to **Segment A**, **Segment B**, and **Segment C**, **Content 1** is displayed, because the block evaluates rules from top to bottom and stops at the first match.
+Even though the user also belongs to **Segment B** and **Segment C**, those rules are never evaluated in this case.
 
 You can preview the page for each of the available segments:
 
