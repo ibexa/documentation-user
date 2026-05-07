@@ -341,7 +341,7 @@ On the **Properties** tab, set values in the following fields:
 
 The rules are checked in order, so when a user belongs to more than one segment, the first rule applies.
 
-For example, for a user who belongs to **Segment A**, **Segment B**, and **Segment C**, the following configuration:
+For example, consider the following configuration:
 
 | Segment   | Content displayed |
 |-----------|-------------------|
@@ -349,8 +349,8 @@ For example, for a user who belongs to **Segment A**, **Segment B**, and **Segme
 | Segment B | Content 2         |
 | Segment C | Content 3         |
 
-results in displaying **Content 1**, because the block evaluates rules from top to bottom and stops at the first match.
-Even though the user also belongs to **Segment B** and **Segment C**, those rules are never evaluated.
+To a user who belongs to **Segment A**, **Segment B**, and **Segment C**, is displayed **Content 1**, because the block evaluates rules from top to bottom and stops at the first match.
+Even though the user also belongs to **Segment B** and **Segment C**, those rules are never evaluated in this case.
 
 You can preview the page for each of the available segments:
 
