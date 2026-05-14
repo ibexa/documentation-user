@@ -82,7 +82,7 @@ On the **Properties** tab, set values in the following fields:
 ### Items associated with the given Content block
 
 Generates a list of complementary and relevant products that customers often view with a given content.
-Utilize it to increase average visits on products in order to increase the average order value.
+Utilize it to increase average visits on products to increase the average order value.
 
 This block uses the [GetItemsBasedOnContentWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetItemsBasedOnContentWeb) Raptor recommendation strategy.
 
