@@ -158,6 +158,8 @@ The following blocks can be used to show recommendations based on visitors purch
 |-----|-----------|
 |[Other customers have also purchased](#other-customers-have-also-purchased-block)|Displays items purchased by other customers who bought the same product.|
 |[The Personal Shopping Assistant](#the-personal-shopping-assistant-block)|Assists users by suggesting relevant products in real time based on their activity.|
+|[The Personal Shopping Assistant (additional sales)](#the-personal-shopping-assistant-additional-sales-block)|Encourages additional purchases by suggesting complementary items.|
+|[The Personal Shopping Assistant (conversion)](#the-personal-shopping-assistant-conversion-block)|Helps users discover better product matches through recommendations.|
 |[User's item history](#users-item-history-block)|Displays the user’s item history or current basket, sorted by recent or top items.|
 
 ### Other customers have also purchased block
@@ -189,6 +191,37 @@ On the **Properties** tab, set values in the following fields:
 - **Name** – Enter a name for the page block.
 - **Name displayed on page (optional)** - Enter a name for the block to be displayed on the page.
 - **Product (optional)** - Add or select base product.
+- **Recommendations limit** - Set the number of recommendations to be displayed. Default = 4.
+
+Toggle the **Show only available items** option on to display only products that are currently in stock.
+
+### The Personal Shopping Assistant (additional sales) block
+
+Encourages users to purchase additional products.
+It offers complementary cross-selling at every stage of the customer journey, increasing the overall value of the sale.
+
+This block uses the [GetUserCrossSellingItemsWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetUserCrossSellingItemsWeb) Raptor recommendation strategy.
+
+On the **Properties** tab, set values in the following fields:
+
+- **Name** – Enter a name for the page block.
+- **Name displayed on page (optional)** - Enter a name for the block to be displayed on the page.
+- **Recommendations limit** - Set the number of recommendations to be displayed. Default = 4.
+
+Toggle the **Show only available items** option on to display only products that are currently in stock.
+
+### The Personal Shopping Assistant (conversion) block
+
+Guides users to the right product using similar product recommendations.
+This module suggests items based on user actions, helping them explore the product assortment and discover alternatives.
+It improves product fit and engagement.
+
+This block uses the [GetUserLookAlikeItemsWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetUserLookAlikeItemsWeb) Raptor recommendation strategy.
+
+On the **Properties** tab, set values in the following fields:
+
+- **Name** – Enter a name for the page block.
+- **Name displayed on page (optional)** - Enter a name for the block to be displayed on the page.
 - **Recommendations limit** - Set the number of recommendations to be displayed. Default = 4.
 
 Toggle the **Show only available items** option on to display only products that are currently in stock.
