@@ -8,6 +8,8 @@ The content on your website can be translated into different languages.
 Each content item can have different language versions.
 The version visible to a visitor depends on the way your installation is set up (see [SiteAccess concept](#edit-page-for-different-language-versions-of-a-website)).
 
+If the [Translation Management](#translation-management) LTS Update is installed in your system, [[= product_name =]] offers a side-by-side translation view that displays the source and target languages simultaneously, making it easier for you to provide, edit and review translations.
+
 ## Add website languages
 
 You can only add translations in languages that have been set up for your website in the **Admin** panel.
@@ -17,11 +19,17 @@ To do it, go to the **Admin** panel, open the **Languages** tab, and click **Add
 Every new language must have a name and a language code written in the xxx-XX format, for example, eng-US, fre-FR, or nor-NO.
 After adding a language, you may have to reload the application to be able to use it.
 
+!!! note "Previewing translations"
+
+    You can only preview content items translated to languages that have a corresponding website configured in that language.
+    
+    ![Preview limitation](img/translation_preview_impossible.png "Preview limitation")
+
 !!! caution
 
     Depending on the way the website is set up, additional configuration may be necessary for the new translations to be displayed properly.
     Contact your administrator and inform them that you need to add a new language to the website.
-    For more information, see [Developer Documentation on language versions]([[= developer_doc =]]/multisite/languages/languages/)).
+    For more information, see [Developer Documentation on language versions]([[= developer_doc =]]/multisite/languages/languages/).
 
 ## Add translations
 
@@ -44,7 +52,103 @@ the same way as when editing only one language.
 
 <!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/wrOL621W0E3uAwSOBBmZ?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Add translation" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
 
-### Automated translation
+## Translation management [[% include 'snippets/lts-update_badge.md' %]]
+
+If the translation management feature [is installed and properly configured]([[= developer_doc =]]/multisite/languages/translations_management) in your system, the set of features available for content translation changes:
+
+- Application administrators can [define language pairs](([[= developer_doc =]]/multisite/languages/translations_management/#define-language-pairs)) and assign [automated translation](#automated-translation) services to them.
+- Content editors get a redesigned translation interface called side-by-side translation view. If at least automated translation service is configured, editors can use them to machine-translate content.
+
+**Side-by-side translation view**
+
+The side-by-side translation view displays the source and target text of the content item on one screen.
+This way you can add, modify or review translations in context without switching between tabs or windows.
+
+Like in the standard content item editor, when multiple sections or field groups exist within the content item, anchors appear at the top of the side-by-side translation view to help you jump directly to a specific section. 
+
+Non-translatable fields are not shown in the side-by-side translation view. Only translatable fields appear.
+
+!!! note "Content type support limitations"
+
+    Content types that use Page Builder or Form Builder do not support the side-by-side translation view and open in the standard single-language editor instead.
+
+    Also, product attributes are not translatable and do not appear in the side-by-side translation view.
+
+The back office offers several entry points where you can access the side-by-side translation view, for example:
+
+- **Translations tab** — Go to **Content** -> **Content structure**, select a content item, open the **Translations** tab, and click **+ Add**.
+- **Content tree** — Click a three dot icon next to a content item in the content tree and, in the context menu, click **Add translation**.
+- **Content edit view** — When you choose to edit a content item and several language versions exist, the **Edit side-by-side** button is active for all languages that differ from the main language of the content item.
+
+![Starting the translation from the context menu](img/translate_from_content_tree.png "Starting the translation from the context menu")
+
+### Add new translation
+
+1. Either click **Add translation** in the content tree, or **+ Add** in the **Translations** tab.
+3. In the **Create a new translation** modal, select the source and target languages.
+
+    !!! note "Draft conflict"
+
+        If a draft already exists for the selected target language, a warning appears in the modal to inform you about this fact.
+        You can proceed and add a new draft, or discard the modal and edit the existing draft translation.
+        For more information, see [Edit existing translations](#edit-existing-translations).
+
+4. Optionally, check **Use automatic translation** and select a translation provider (see [Automated translation](#automated-translation)).
+5. Click **Open side-by-side**.
+
+![Create a new translation modal](img/create_translation.png "Create a new translation modal")
+
+The side-by-side translation view opens with the source text in one column and the target form in the other.
+Depending on whether you chose to use automated translations, target fields can be empty or pre-translated.
+
+#### Copy content from source
+
+The divider between the source and target columns contains a **Copy all from source** button.
+Click it to copy all translatable field values from the source column into the target fields in a single action.
+
+Values of all fields are copied at the same time, and there is no option to copy individual fields.
+
+![Copy all from source button in the middle of the side-by-side view](img/side_by_side_view.png "Copy all from source button in the middle of the side-by-side view")
+
+#### Switch source language
+
+When a content item has two or more published language versions, a dropdown field appears at the top of the source column.
+You can use it to change the language that is displayed as the source reference.
+
+#### Distraction-free mode
+
+The distraction mode helps you focus on editing the text or work with longer texts that take more space.
+ 
+Click the **Distraction free mode** button next to any field in the target column to open a full-screen view of that field.
+Like in the standard mode, in the distraction-free mode, the source text is visible next to the target field for reference.
+However, the **Copy content from source** button is absent.
+
+In distraction-free mode, AI actions, including automatic translation, are available from the editor toolbar.
+
+![Distraction-free mode](img/translations_distraction_free_mode.png "Distraction-free mode")
+
+### Edit existing translations
+
+The back office offers several entry points where you edit existing content item translations.
+
+To edit a draft translation:
+
+- In content tree, select a content item and open the **Versions** tab. Click a three dot icon next to a draft translation that you want to edit and, in the context menu, click **Edit side-by-side**.
+- In the main menu, go to **Content** or visit the **My dashboard** page, and go to **Drafts**. Find a draft whose source and target languages differ and click **Edit side-by-side**.
+
+This opens the existing draft in the side-by-side translation view, so you can review and refine a translation without creating a new draft.
+
+To edit a published translation:
+
+- In content tree, select a content item and click **Edit**. If more than one language version of a content item exists, a list of all available translations is displayed in the **Select translation** modal. Select a language and click the **Edit side-by-side** button.
+
+This opens the side-by-side translation view, where you can perform a review or make your changes and either publish directly create a new draft.
+
+!!! tip
+
+    The **Edit side-by-side** button is active only for languages other than the main language of the content item.
+
+## Automated translation
 
 If your application comes with a [properly configured automated translation feature]([[= developer_doc =]]/multisite/languages/automated_translations), you can have your content machine-translated into multiple languages by using external translation services like Google Translate and DeepL.
 

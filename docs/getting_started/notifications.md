@@ -29,7 +29,7 @@ If you have already received notifications and didn't act on then, a number of n
 Click the notification icon to view a short list with the most recent notifications, arranged from newest to oldest.
 Here, you can click certain notifications in the short list to act on them, according to their originator's request.
 
-You can click the three dots icon on the right side of each individual notification and mark it as read or delete it.
+You can click the three dots icon next to each individual notification and mark it as read or delete it.
 You can also click **Mark all as read** to mark all notifications as read.
 
 ![Short list of notifications](notifications_short_list.png "Short list of notifications")
