@@ -59,6 +59,8 @@ If the translation management feature [is installed and properly configured]([[=
 - Application administrators can [define language pairs](([[= developer_doc =]]/multisite/languages/translations_management/#define-language-pairs)) and assign [automated translation](#automated-translation) services to them.
 - Content editors get a redesigned translation interface called side-by-side translation view. If at least automated translation service is configured, editors can use them to machine-translate content.
 
+<a name="side-by-side-translation-view"></a>
+
 **Side-by-side translation view**
 
 The side-by-side translation view displays the source and target text of the content item on one screen.
