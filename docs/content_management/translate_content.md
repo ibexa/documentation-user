@@ -64,17 +64,18 @@ If the translation management feature [is installed and properly configured]([[=
 **Side-by-side translation view**
 
 The side-by-side translation view displays the source and target text of the content item on one screen.
-This way you can add, modify or review translations in context without switching between tabs or windows.
+This way you can add, modify or review translations in context without having to switch between tabs or windows.
 
 Like in the standard content item editor, when multiple sections or field groups exist within the content item, anchors appear at the top of the side-by-side translation view to help you jump directly to a specific section. 
 
-Non-translatable fields are not shown in the side-by-side translation view. Only translatable fields appear.
+Non-translatable fields are inactive in the source column, but they remain active in the translation column.
+This way you can, for example, replace images, with their localized counterparts.
 
 !!! note "Content type support limitations"
 
     Content types that use Page Builder or Form Builder do not support the side-by-side translation view and open in the standard single-language editor instead.
 
-    Also, product attributes are not translatable and do not appear in the side-by-side translation view.
+    Also, product attributes are not translatable and they are inactive in the side-by-side translation view.
 
 The back office offers several entry points where you can access the side-by-side translation view, for example:
 
@@ -95,7 +96,15 @@ The back office offers several entry points where you can access the side-by-sid
         You can proceed and add a new draft, or discard the modal and edit the existing draft translation.
         For more information, see [Edit existing translations](#edit-existing-translations).
 
-4. Optionally, check **Use automatic translation** and select a translation provider (see [Automated translation](#automated-translation)).
+4. If **Use automatic translation** is checked, select an automated translation service (see [Automated translation](#automated-translation)) from a drop-down list.
+
+    !!! note "Manual translation"
+
+        You may prefer to translate the content by yourself.
+        To do it, uncheck **Use automatic translation** and proceed.
+
+        If no automated translation services are configured in the system, the checkbox is inactive.
+
 5. Click **Open side-by-side**.
 
 ![Create a new translation modal](img/create_translation.png "Create a new translation modal")
