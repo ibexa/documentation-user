@@ -31,9 +31,11 @@ The following blocks can be used to present content recommendations:
 |Block|Description|
 |-----|-----------|
 |[Content that has been seen along with the item category](#content-that-has-been-seen-along-with-the-item-category-block)|Displays content frequently viewed together with items from the same category.|
+|[Items associated with the given Content](#items-associated-with-the-given-content-block)|Generates a list of complementary and relevant products that customers often view with a given content.|
 |[Most popular content](#most-popular-content-block)|Highlights the most frequently viewed content.|
 |[Other customers have also seen this content](#other-customers-have-also-seen-this-content-block)|Displays content viewed by other users with similar behavior.|
 |[Personalized content recommendations](#personalized-content-recommendations-block)|Provides personalized content recommendations based on user behavior and preferences.|
+|[User's content history](#users-content-history-block)|Compiles either a chronological list of recent interacted content or a list of most interacted content while the user is browsing.|
 
 ### Content that has been seen along with the item category block
 
@@ -77,12 +79,38 @@ On the **Properties** tab, set values in the following fields:
 - **Select content for recommendations** - Select content to be used for recommendations. This content is used as the basis for recommendations, allowing Raptor to suggest similar or related items.
 - **Recommendations limit** - Set the number of recommendations to be displayed. Default = 4.
 
+### Items associated with the given Content block
+
+Generates a list of complementary and relevant products that customers often view with a given content.
+Increases average visits on products to increase the average order value.
+
+This block uses the [GetItemsBasedOnContentWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetItemsBasedOnContentWeb) Raptor recommendation strategy.
+
+On the **Properties** tab, set values in the following fields:
+
+- **Name** – Enter a name for the page block.
+- **Name displayed on page (optional)** - Enter a name for the block to be displayed on the page.
+- **Select content for recommendations (optional)** - Choose content to show associated products for. Leave empty to use current page content.
+- **Recommendations limit** - Set the number of recommendations to be displayed. Default = 4.
+
 ### Personalized content recommendations block
 
 Generates complementary, personalized content tailored to each user based on their behavior and preferences.
 Increases relevance and engagement through personalized suggestions.
 
 This block uses the [GetUserContentRecommendationsWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetUserContentRecommendationsWeb) Raptor recommendation strategy.
+
+On the **Properties** tab, set values in the following fields:
+
+- **Name** – Enter a name for the page block.
+- **Name displayed on page (optional)** - Enter a name for the block to be displayed on the page.
+- **Recommendations limit** - Set the number of recommendations to be displayed. Default = 4.
+
+### User's content history block
+
+Compiles either a chronological list of recent interacted content or a list of most interacted content while the user is browsing on your site.
+
+This block uses the [GetUserContentHistoryWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetUserContentHistoryWeb) Raptor recommendation strategy.
 
 On the **Properties** tab, set values in the following fields:
 
