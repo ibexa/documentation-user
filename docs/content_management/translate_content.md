@@ -66,7 +66,7 @@ If the translation management feature [is installed and properly configured]([[=
 The side-by-side translation view displays the source and target text of the content item on one screen.
 This way you can add, modify or review translations in context without having to switch between tabs or windows.
 
-Like in the standard content item editor, when multiple sections or field groups exist within the content item, anchors appear at the top of the side-by-side translation view to help you jump directly to a specific section. 
+Like in the standard content item editor, when multiple sections or field groups exist within the content item, anchors appear at the top of the side-by-side translation view to help you jump directly to a specific section.
 
 Non-translatable fields are inactive in the source column, but they remain active in the translation column.
 This way you can, for example, replace images, with their localized counterparts.
@@ -76,6 +76,14 @@ This way you can, for example, replace images, with their localized counterparts
     Content types that use Page Builder or Form Builder do not support the side-by-side translation view and open in the standard single-language editor instead.
 
     Also, product attributes are not translatable and they are inactive in the side-by-side translation view.
+
+Depending on [user settings](get_started.md#user-setting), the source language column appears on the left or right of the side-by-side view.
+By default, the source is on the left.
+
+!!! note "Hiding the source"
+
+    When the source is placed on the right, the divider between the source and target columns contains a **Collapse source language** button.
+    The button toggles the source panel visibility, allowing editors to hide the source text when they no longer need it.
 
 The back office offers several entry points where you can access the side-by-side translation view, for example:
 
@@ -121,10 +129,10 @@ Values of all fields are copied at the same time, and there is no option to copy
 
 ![Copy all from source button in the middle of the side-by-side view](img/side_by_side_view.png "Copy all from source button in the middle of the side-by-side view")
 
-#### Switch source language
+#### Change source language
 
-When a content item has two or more published language versions, a dropdown field appears at the top of the source column.
-You can use it to change the language that is displayed as the source reference.
+When a content item has three or more published language versions, a dropdown field appears at the top of the source column instead of a label.
+You can use the dropdown list to change the language that is displayed in the source column.
 
 #### Distraction-free mode
 
@@ -137,6 +145,8 @@ However, the **Copy content from source** button is absent.
 In distraction-free mode, AI actions, including automatic translation, are available from the editor toolbar.
 
 ![Distraction-free mode](img/translations_distraction_free_mode.png "Distraction-free mode")
+
+When the source is displayed on the right, the **Collapse source language** button displays here as well to let editors hide the source text.
 
 ### Edit existing translations
 
