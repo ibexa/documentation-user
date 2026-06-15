@@ -32,6 +32,7 @@ The following blocks can be used to present content recommendations:
 |-----|-----------|
 |[Content that has been seen along with the item category](#content-that-has-been-seen-along-with-the-item-category-block)|Displays content frequently viewed together with items from the same category.|
 |[Items associated with the given Content](#items-associated-with-the-given-content-block)|Generates a list of complementary and relevant products that customers often view with a given content.|
+|[Merchandising content sorted by personal preferences and popularity](#merchandising-content-sorted-by-personal-preferences-and-popularity)|Highlights the most frequently viewed content.|
 |[Most popular content](#most-popular-content-block)|Highlights the most frequently viewed content.|
 |[Other customers have also seen this content](#other-customers-have-also-seen-this-content-block)|Displays content viewed by other users with similar behavior.|
 |[Personalized content recommendations](#personalized-content-recommendations-block)|Provides personalized content recommendations based on user behavior and preferences.|
@@ -49,6 +50,34 @@ On the **Properties** tab, set values in the following fields:
 - **Name** – Enter a name for the page block.
 - **Name displayed on page (optional)** - Enter a name for the block to be displayed on the page.
 - **Product category** - Select product category.
+- **Recommendations limit** - Set the number of recommendations to be displayed. Default = 4.
+
+### Items associated with the given Content block
+
+Generates a list of complementary and relevant products that customers often view with a given content.
+Increases average visits on products to increase the average order value.
+
+This block uses the [GetItemsBasedOnContentWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetItemsBasedOnContentWeb) Raptor recommendation strategy.
+
+On the **Properties** tab, set values in the following fields:
+
+- **Name** – Enter a name for the page block.
+- **Name displayed on page (optional)** - Enter a name for the block to be displayed on the page.
+- **Select content for recommendations (optional)** - Choose content to show associated products for. Leave empty to use current page content.
+- **Recommendations limit** - Set the number of recommendations to be displayed. Default = 4.
+
+### Merchandising content sorted by personal preferences and popularity
+
+Uses merchandising content and sorts it by personal preferences and popularity.
+Gives better control over recommendations while keeping content relevant to each customer.
+
+This block uses the [GetMerchandisingItemsWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetMerchandisingItemsWeb) Raptor recommendation strategy.
+
+On the **Properties** tab, set values in the following fields:
+
+- **Name** – Enter a name for the page block.
+- **Name displayed on page (optional)** - Enter a name for the block to be displayed on the page.
+- **FeedID** - Enter an identifier of the Feed.
 - **Recommendations limit** - Set the number of recommendations to be displayed. Default = 4.
 
 ### Most popular content block
@@ -77,20 +106,6 @@ On the **Properties** tab, set values in the following fields:
 - **Name** – Enter a name for the page block.
 - **Name displayed on page (optional)** - Enter a name for the block to be displayed on the page.
 - **Select content for recommendations** - Select content to be used for recommendations. This content is used as the basis for recommendations, allowing Raptor to suggest similar or related items.
-- **Recommendations limit** - Set the number of recommendations to be displayed. Default = 4.
-
-### Items associated with the given Content block
-
-Generates a list of complementary and relevant products that customers often view with a given content.
-Increases average visits on products to increase the average order value.
-
-This block uses the [GetItemsBasedOnContentWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetItemsBasedOnContentWeb) Raptor recommendation strategy.
-
-On the **Properties** tab, set values in the following fields:
-
-- **Name** – Enter a name for the page block.
-- **Name displayed on page (optional)** - Enter a name for the block to be displayed on the page.
-- **Select content for recommendations (optional)** - Choose content to show associated products for. Leave empty to use current page content.
 - **Recommendations limit** - Set the number of recommendations to be displayed. Default = 4.
 
 ### Personalized content recommendations block
@@ -124,9 +139,24 @@ The following blocks can be used to display product suggestions based on visitor
 
 |Block|Description|
 |-----|-----------|
+|[Items of Customized Feeds sorted by personal preferences and popularity or trendiness](#items-of-customized-feeds-sorted-by-personal-preferences-and-popularity-or-trendiness)|Sorts Customized Feeds items using preferences, popularity, and trends.|
 |[Most popular products](#most-popular-products-block)|Presents trending and highly popular products.|
 |[Most popular products in category](#most-popular-products-in-category-block)|Highlights products that are most popular in the category.|
 |[Other customers have also seen](#other-customers-have-also-seen-block)|Shows products also viewed by other customers.|
+
+### Items of Customized Feeds sorted by personal preferences and popularity or trendiness
+
+Uses items from Customized Feeds and sorts them based on user preferences, popularity, and current trends.
+Helps customers discover more relevant content and enhances the overall customer experience.
+
+This block uses the [GetMerchandisingItemsWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetMerchandisingItemsWeb) Raptor recommendation strategy.
+
+On the **Properties** tab, set values in the following fields:
+
+- **Name** – Enter a name for the page block.
+- **Name displayed on page (optional)** - Enter a name for the block to be displayed on the page.
+- **FeedID** - Enter an identifier of the Feed.
+- **Recommendations limit** - Set the number of recommendations to be displayed. Default = 4.
 
 ### Most popular products block
 
