@@ -8,7 +8,7 @@ The content on your website can be translated into different languages.
 Each content item can have different language versions.
 The version visible to a visitor depends on the way your installation is set up (see [SiteAccess concept](#edit-page-for-different-language-versions-of-a-website)).
 
-If the [Translation Management](#translation-management) LTS Update is installed in your system, [[= product_name =]] offers a side-by-side translation view that displays the source and target languages simultaneously, making it easier for you to provide, edit and review translations.
+If the [Translations management](#translation-management) LTS Update is installed in your system, [[= product_name =]] offers a side-by-side translation view that displays the source and target languages simultaneously, making it easier for you to provide, edit and review translations.
 
 ## Add website languages
 
@@ -52,12 +52,12 @@ the same way as when editing only one language.
 
 <!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/wrOL621W0E3uAwSOBBmZ?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Add translation" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
 
-## Translation management [[% include 'snippets/lts-update_badge.md' %]]
+## Translations management [[% include 'snippets/lts-update_badge.md' %]]
 
-If the translation management feature [is installed and properly configured]([[= developer_doc =]]/multisite/languages/translations_management) in your system, the set of features available for content translation changes:
+If the translations management feature [is installed and properly configured]([[= developer_doc =]]/multisite/languages/translations_management) in your system, the set of features available for content translation changes:
 
 - Application administrators can [define language pairs]([[= developer_doc =]]/multisite/languages/translations_management/#define-language-pairs) and assign [automated translation](#automated-translation) services to them.
-- Content editors get a redesigned translation interface called side-by-side translation view. If at least automated translation service is configured, editors can use them to machine-translate content.
+- Content editors get a redesigned translation interface called side-by-side translation view. If at least one automated translation service is configured, editors can use them to machine-translate content.
 
 <a name="side-by-side-translation-view"></a>
 
