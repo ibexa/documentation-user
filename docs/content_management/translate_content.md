@@ -64,7 +64,7 @@ If the translations management feature [is installed and properly configured]([[
 The side-by-side translation view displays the source and target text of the content item on one screen.
 This way you can add, modify or review translations in context without having to switch between tabs or windows.
 
-Depending on [user settings](get_started.md#user-setting), the source language column appears on the left or right of the side-by-side view.
+Depending on [user settings](get_started.md#user-settings), the source language column appears on the left or right of the side-by-side view.
 By default, the source is on the left.
 
 Non-translatable fields are inactive in the source column, but they remain active in the translation column.
