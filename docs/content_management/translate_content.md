@@ -56,7 +56,7 @@ the same way as when editing only one language.
 
 If the translations management feature [is installed and properly configured]([[= developer_doc =]]/multisite/languages/translations_management) in your system, the set of features available for content translation changes:
 
-- Application administrators can [define language pairs]([[= developer_doc =]]/multisite/languages/translations_management/#define-language-pairs) and assign [translation providers](([[= developer_doc =]]/multisite/languages/translations_management/#configure-translation-providers)) to them.
+- Application administrators can [define language pairs]([[= developer_doc =]]/multisite/languages/translations_management/#define-language-pairs) and assign [translation providers]([[= developer_doc =]]/multisite/languages/translations_management/#configure-translation-providers) to them.
 - Content editors get a redesigned translation interface called side-by-side translation view. If at least one automated translation provider is configured, editors can use them to machine-translate content.
 
 ### Side-by-side translation view
