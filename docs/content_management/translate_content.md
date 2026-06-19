@@ -56,34 +56,29 @@ the same way as when editing only one language.
 
 If the translations management feature [is installed and properly configured]([[= developer_doc =]]/multisite/languages/translations_management) in your system, the set of features available for content translation changes:
 
-- Application administrators can [define language pairs]([[= developer_doc =]]/multisite/languages/translations_management/#define-language-pairs) and assign [automated translation](#automated-translation) services to them.
-- Content editors get a redesigned translation interface called side-by-side translation view. If at least one automated translation service is configured, editors can use them to machine-translate content.
+- Application administrators can [define language pairs]([[= developer_doc =]]/multisite/languages/translations_management/#define-language-pairs) and assign [translation providers](([[= developer_doc =]]/multisite/languages/translations_management/#configure-translation-providers)) to them.
+- Content editors get a redesigned translation interface called side-by-side translation view. If at least one automated translation provider is configured, editors can use them to machine-translate content.
 
-<a name="side-by-side-translation-view"></a>
-
-**Side-by-side translation view**
+### Side-by-side translation view
 
 The side-by-side translation view displays the source and target text of the content item on one screen.
 This way you can add, modify or review translations in context without having to switch between tabs or windows.
 
-Like in the standard content item editor, when multiple sections or field groups exist within the content item, anchors appear at the top of the side-by-side translation view to help you jump directly to a specific section.
+Depending on [user settings](get_started.md#user-setting), the source language column appears on the left or right of the side-by-side view.
+By default, the source is on the left.
 
 Non-translatable fields are inactive in the source column, but they remain active in the translation column.
 This way you can, for example, replace images, with their localized counterparts.
+
+![Side-by-side translation view](img/managing_translations_sxs_view.png "Side-by-side translation view")
+
+Like in the standard content item editor, when multiple sections or field groups exist within the content item, anchors appear at the top of the side-by-side translation view to help you jump directly to a specific section.
 
 !!! note "Content type support limitations"
 
     Content types that use Page Builder or Form Builder do not support the side-by-side translation view and open in the standard single-language editor instead.
 
     Also, product attributes are not translatable and they are inactive in the side-by-side translation view.
-
-Depending on [user settings](get_started.md#user-setting), the source language column appears on the left or right of the side-by-side view.
-By default, the source is on the left.
-
-!!! note "Hiding the source"
-
-    When the source is placed on the right, the divider between the source and target columns contains a **Collapse source language** button.
-    The button toggles the source panel visibility, allowing editors to hide the source text when they no longer need it.
 
 The back office offers several entry points where you can access the side-by-side translation view, for example:
 
@@ -104,14 +99,14 @@ The back office offers several entry points where you can access the side-by-sid
         You can proceed and add a new draft, or discard the modal and edit the existing draft translation.
         For more information, see [Edit existing translations](#edit-existing-translations).
 
-4. If **Use automatic translation** is checked, select an automated translation service (see [Automated translation](#automated-translation)) from a drop-down list.
+4. If **Use automatic translation** is checked, select a translation provider from a drop-down list.
 
     !!! note "Manual translation"
 
         You may prefer to translate the content by yourself.
         To do it, uncheck **Use automatic translation** and proceed.
 
-        If no automated translation services are configured in the system, the checkbox is inactive.
+        If no translation provider are configured in the system, the checkbox is inactive.
 
 5. Click **Open side-by-side**.
 
@@ -133,6 +128,11 @@ Values of all fields are copied at the same time, and there is no option to copy
 
 When a content item has three or more published language versions, a dropdown field appears at the top of the source column instead of a label.
 You can use the dropdown list to change the language that is displayed in the source column.
+
+#### Hide the source
+
+When the source is placed on the right, the divider between the source and target columns contains a **Collapse source language** button.
+The button toggles the source panel visibility, allowing editors to hide the source text when they no longer need it.
 
 #### Distraction-free mode
 
