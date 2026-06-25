@@ -8,7 +8,8 @@ The content on your website can be translated into different languages.
 Each content item can have different language versions.
 The version visible to a visitor depends on the way your installation is set up (see [SiteAccess concept](#edit-page-for-different-language-versions-of-a-website)).
 
-If the [Translations management](#translations-management) LTS Update is installed in your system, [[= product_name =]] offers a side-by-side translation view that displays the source and target languages simultaneously, making it easier for you to provide, edit and review translations.
+If the [Translations management](#translations-management) LTS Update is installed in your system, [[= product_name =]] offers a side-by-side translation view that displays the source and target languages simultaneously.
+It makes it easier for you to provide, edit and review translations.
 
 ## Add website languages
 
@@ -22,7 +23,7 @@ After adding a language, you may have to reload the application to be able to us
 !!! note "Previewing translations"
 
     You can only preview content items translated to languages that have a corresponding website configured in that language.
-    
+
     ![Preview limitation](img/translation_preview_impossible.png "Preview limitation")
 
 !!! caution
@@ -57,7 +58,7 @@ the same way as when editing only one language.
 If the translations management feature [is installed and properly configured]([[= developer_doc =]]/multisite/languages/translations_management) in your system, the set of features available for content translation changes:
 
 - Application administrators can [define language pairs]([[= developer_doc =]]/multisite/languages/translations_management/#define-language-pairs) and assign [translation providers]([[= developer_doc =]]/multisite/languages/translations_management/#configure-translation-providers) to them.
-- Content editors get a redesigned translation interface called side-by-side translation view. If at least one automated translation provider is configured, editors can use them to machine-translate content.
+- Content editors get a redesigned translation interface called side-by-side translation view. If at least one automated translation provider is configured, editors can use it here to machine-translate content.
 
 ### Side-by-side translation view
 
@@ -101,12 +102,13 @@ The back office offers several entry points where you can access the side-by-sid
 
 4. If **Use automatic translation** is checked, select a translation provider from a drop-down list.
 
-    !!! note "Manual translation"
+    !!! note
 
         You may prefer to translate the content by yourself.
         To do it, uncheck **Use automatic translation** and proceed.
 
         If no translation provider are configured in the system, the checkbox is inactive.
+        If only one provider exists in the system, there is a checkbox, but no drop-down list.
 
 5. Click **Open side-by-side**.
 
@@ -126,7 +128,7 @@ Values of all fields are copied at the same time, and there is no option to copy
 
 #### Change source language
 
-When a content item has three or more published language versions, a dropdown field appears at the top of the source column instead of a label.
+When a content item has multiple published language versions, a drop-down list appears at the top of the source column instead of a language label.
 You can use the dropdown list to change the language that is displayed in the source column.
 
 #### Hide the source
@@ -137,7 +139,7 @@ The button toggles the source panel visibility, allowing editors to hide the sou
 #### Distraction-free mode
 
 The distraction mode helps you focus on editing the text or work with longer texts that take more space.
- 
+
 Click the **Distraction free mode** button next to any field in the target column to open a full-screen view of that field.
 Like in the standard mode, in the distraction-free mode, the source text is visible next to the target field for reference.
 However, the **Copy content from source** button is absent.
