@@ -71,7 +71,7 @@ On the **Properties** tab, set values in the following fields:
 Uses merchandising content and sorts it by personal preferences and popularity.
 Gives better control over recommendations while keeping content relevant to each customer.
 
-This block uses the [GetMerchandisingItemsWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetMerchandisingItemsWeb) Raptor recommendation strategy.
+This block uses the [GetMerchandisingContentWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetMerchandisingContentWeb) Raptor recommendation strategy.
 
 On the **Properties** tab, set values in the following fields:
 
