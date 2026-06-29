@@ -32,7 +32,7 @@ The following blocks can be used to present content recommendations:
 |-----|-----------|
 |[Content that has been seen along with the item category](#content-that-has-been-seen-along-with-the-item-category-block)|Displays content frequently viewed together with items from the same category.|
 |[Items associated with the given Content](#items-associated-with-the-given-content-block)|Generates a list of complementary and relevant products that customers often view with a given content.|
-|[Merchandising content sorted by personal preferences and popularity](#merchandising-content-sorted-by-personal-preferences-and-popularity)|Highlights the most frequently viewed content.|
+|[Merchandising content sorted by personal preferences and popularity](#merchandising-content-sorted-by-personal-preferences-and-popularity)|Sorts merchandising content by personal preferences and popularity.|
 |[Most popular content](#most-popular-content-block)|Highlights the most frequently viewed content.|
 |[Other customers have also seen this content](#other-customers-have-also-seen-this-content-block)|Displays content viewed by other users with similar behavior.|
 |[Personalized content recommendations](#personalized-content-recommendations-block)|Provides personalized content recommendations based on user behavior and preferences.|
