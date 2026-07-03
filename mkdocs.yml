@@ -1,8 +1,9 @@
 INHERIT: plugins.yml
 
 site_name: User Documentation
-repo_url: https://github.com/ezsystems/user-documentation
+repo_url: https://github.com/ibexa/documentation-user
 site_url: https://doc.ibexa.co/projects/userguide/en/latest/
+edit_uri: edit/5.0/docs
 copyright: "Copyright 1999-2026 Ibexa AS and others"
 validation:
     omitted_files: warn
