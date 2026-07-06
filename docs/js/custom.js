@@ -2,7 +2,7 @@
 let jquery = jQuery;
 
 $(document).ready(function() {
-    const latestVersionNumber = '5.0';
+    const latestVersionNumber = '6.0';
 
     // replace edit url
     let branchName = 'master';

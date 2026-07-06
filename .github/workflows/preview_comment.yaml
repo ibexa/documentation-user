@@ -6,6 +6,6 @@ on:
 jobs:
     post-preview-links:
         name: Post preview links for changed files
-        uses: ibexa/documentation-developer/.github/workflows/preview_comment.yaml@5.0
+        uses: ibexa/documentation-developer/.github/workflows/preview_comment.yaml@6.0
         with:
             project: 'projects/userguide/'
