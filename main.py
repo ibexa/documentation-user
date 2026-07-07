@@ -137,7 +137,7 @@ def define_env(env):
                         description = ""
                 href = page
                 title = custom_title if custom_title else title
-                title = title.replace("(Ibexa Documentation)", "").strip()
+                title = title.replace("(Cohesivo Documentation)", "").strip()
                 description = custom_description if custom_description else description
             else:
                 match = re.search("^# (.*)", content, re.MULTILINE)

@@ -1,5 +1,5 @@
 ---
-description: Get started with Ibexa DXP by logging in to the back office.
+description: Get started with Cohesivo CMS by logging in to the back office.
 month_change: true
 ---
 

@@ -13,7 +13,7 @@ not_in_nav: |
     search_results.md
     /snippets/*
 nav:
-    - Ibexa User Documentation: index.md
+    - Cohesivo User Documentation: index.md
     - Getting started:
         - Get started: getting_started/get_started.md
         - User interface: getting_started/discover_ui.md
@@ -122,10 +122,8 @@ nav:
     - Recommendations:
         - Raptor integration:
             - Recommendation blocks: recommendations/raptor_integration/raptor_recommendation_blocks.md
-    - Ibexa Engage:
-        - Ibexa Engage: ibexa_engage/ibexa_engage.md 
-    - DAM:
-        - Ibexa DAM: dam/ibexa_dam.md
+    - Qualifio:
+        - Qualifio: qualifio/qualifio.md
     - Customer management:
         - Customer management: customer_management/customer_management.md
         - Customer Portal: customer_management/customer_portal.md
@@ -183,19 +181,17 @@ extra:
     - title: 'Connect Documentation'
       url: '/projects/connect'
   # Global variables
-  site_display_name: 'Ibexa Documentation'
+  site_display_name: 'Cohesivo Documentation'
   product_name_base: 'Ibexa'
-  product_name: 'Ibexa DXP'
-  product_name_content: 'Ibexa Content'
-  product_name_headless: 'Ibexa Headless'
-  product_name_exp: 'Ibexa Experience'
-  product_name_com: 'Ibexa Commerce'
-  product_name_cdp: 'Ibexa CDP'
+  product_name: 'Cohesivo CMS'
+  product_name_content: 'Cohesivo Content'
+  product_name_headless: 'Cohesivo Headless'
+  product_name_exp: 'Cohesivo Experience'
+  product_name_com: 'Cohesivo Commerce'
+  product_name_cdp: 'Raptor CDP'
   product_name_connect: 'Ibexa Connect'
   product_name_cloud: 'Ibexa Cloud'
-  product_name_oss: 'Ibexa OSS'
-  product_name_dam: 'Ibexa DAM'
-  product_name_engage: 'Ibexa Engage'
+  product_name_engage: 'Qualifio'
   pim_product_name: 'Quable'
 
   developer_doc: 'https://doc.ibexa.co/en/6.0'

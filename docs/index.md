@@ -1,7 +1,7 @@
 <div class="front-page">
     <div class="row">
         <div class="col-12">
-            <h1>Ibexa User Documentation</h1>
+            <h1>Cohesivo User Documentation</h1>
             <h2>How to start?</h2>
         </div>
         <div class="col-12 col-lg-6 col-fhd-3">

@@ -1,5 +1,5 @@
 ---
-description: Browse a list of topics that bring you closer to understanding Ibexa DXP.
+description: Browse a list of topics that bring you closer to understanding Cohesivo CMS.
 ---
 
 # Time to explore

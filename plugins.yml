@@ -9,6 +9,7 @@ plugins:
     - tags
     - redirects:
         redirect_maps:
+            'ibexa_engage/ibexa_engage.md': 'qualifio/qualifio.md'
             'content_model.md': 'persona_paths/manage_content_model.md'
             'creating_content_basic.md': 'persona_paths/author_content.md'
             'creating_forms.md': 'content_management/work_with_forms.md'

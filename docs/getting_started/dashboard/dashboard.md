@@ -35,7 +35,7 @@ By default, dashboard in [[= product_name_exp =]] and [[= product_name_com =]] c
 
 - [Quick actions](dashboard_block_reference.md#quick-actions-block)
 - [Recent activity](dashboard_block_reference.md#recent-activity-block)
-- [Ibexa News](dashboard_block_reference.md#ibexa-news-block)
+- [Cohesivo News](dashboard_block_reference.md#cohesivo-news-block)
 - [Review queue](dashboard_block_reference.md#review-queue-block)
 - [My content](dashboard_block_reference.md#my-content-block)
 - [Common content](dashboard_block_reference.md#common-content-block)
