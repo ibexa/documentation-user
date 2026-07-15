@@ -65,3 +65,13 @@ plugins:
             'pim/work_with_product_categories.md': 'product_catalog/work_with_product_categories.md'
             'pim/work_with_product_page_urls.md': 'product_catalog/work_with_product_page_urls.md'
             'pim/work_with_product_variants.md': 'product_catalog/work_with_product_variants.md'
+
+    - llmstxt:
+        preprocess: llmstxt_preprocess.py
+
+        autoclean: false
+        full_output: llms-full.txt
+        sections:
+          # Built automatically when running MkDocs build based on MkDocs nav configuration, don't change
+          Ibexa User Documentation:
+          - index.md
