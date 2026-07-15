@@ -3,7 +3,10 @@ INHERIT: plugins.yml
 site_name: User Documentation
 repo_url: https://github.com/ibexa/documentation-user
 site_url: https://doc.ibexa.co/projects/userguide/en/latest/
-edit_uri: edit/5.0/docs
+edit_uri: blob/5.0/docs
+hooks:
+    - hooks/edit_uri.py  
+    - hooks.py
 copyright: "Copyright 1999-2026 Ibexa AS and others"
 validation:
     omitted_files: warn
@@ -261,6 +264,3 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
   - pymdownx.details
-
-hooks:
-  - hooks.py
