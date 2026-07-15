@@ -1,5 +1,6 @@
 ---
 description: In the back office you can preview what results are recommended by the Personalization service.
+exclude_from_llmstxt: true
 ---
 
 # Preview scenario results

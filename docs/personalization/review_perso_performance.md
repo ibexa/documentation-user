@@ -1,5 +1,6 @@
 ---
 description: You can view the performance and statistical information about the Personalization service in the Personalization dashboard.
+exclude_from_llmstxt: true
 ---
 
 # Review performance

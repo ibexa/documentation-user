@@ -1,5 +1,6 @@
 ---
 description: Manage segments and combine segment groups to get personalized content targeted at your clients.
+exclude_from_llmstxt: true
 ---
 
 # Segment management

@@ -1,5 +1,6 @@
 ---
 description: Configure your Personalization service by setting up models and scenarios which define which content items are recommended.
+exclude_from_llmstxt: true
 ---
 
 # Configure personalization

@@ -1,5 +1,6 @@
 ---
 description: The Personalization service can be used for content publishing and for ecommerce, taking into account both shop-related and content-related user behaviors.
+exclude_from_llmstxt: true
 ---
 
 # Use cases

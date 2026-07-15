@@ -1,6 +1,7 @@
 ---
 description: Use the Personalized block to display recommendation results in your pages.
 edition: experience
+exclude_from_llmstxt: true
 ---
 
 # Integrate scenario results

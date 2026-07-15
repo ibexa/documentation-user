@@ -1,5 +1,6 @@
 ---
 description: Enabling the Personalization service requires an installation key provided by Ibexa.
+exclude_from_llmstxt: true
 ---
 
 # Enable personalization
