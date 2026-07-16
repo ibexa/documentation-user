@@ -1,5 +1,6 @@
 ---
 description: Scenarios define which recommendation results should be given in different situations.
+exclude_from_llmstxt: true
 ---
 
 # Scenarios

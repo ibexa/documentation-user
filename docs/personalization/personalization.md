@@ -1,5 +1,6 @@
 ---
 description: Use the Personalization service to get recommendation for users based on their behavior and on the scenarios you configure.
+exclude_from_llmstxt: true
 ---
 
 # Personalization

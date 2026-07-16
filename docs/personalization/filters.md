@@ -1,5 +1,6 @@
 ---
 description: Filters enable you to fine-tune recommendation results by eliminating, demoting, or promoting specific results.
+exclude_from_llmstxt: true
 ---
 
 # Filters

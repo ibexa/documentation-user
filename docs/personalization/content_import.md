@@ -1,5 +1,6 @@
 ---
 description: Importing existing data enables the Personalization service to provide better results for recommendations.
+exclude_from_llmstxt: true
 ---
 
 # Import source data

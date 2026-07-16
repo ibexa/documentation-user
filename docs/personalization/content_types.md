@@ -1,5 +1,6 @@
 ---
 description: Types of content in the Personalization service allow building different recommendations for different parts of our content model.
+exclude_from_llmstxt: true
 ---
 
 # Types of content

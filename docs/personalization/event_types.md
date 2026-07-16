@@ -1,5 +1,6 @@
 ---
 description: Recommendations rely on tracking different events that describe users' behavior on the website.
+exclude_from_llmstxt: true
 ---
 
 # Events

@@ -1,5 +1,6 @@
 ---
 description: Configure models by setting up a timeframe, segments and other settings that define which content items are recommended.
+exclude_from_llmstxt: true
 ---
 
 # Configure models
