@@ -1,5 +1,6 @@
 ---
 description: Triggers enable sending recommendations as push messages to customers.
+exclude_from_llmstxt: true
 ---
 
 # Triggers
