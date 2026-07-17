@@ -1,6 +1,8 @@
 INHERIT: plugins.yml
 
 site_name: User Documentation
+site_description: >-
+    User documentation for Ibexa DXP covers content management, product catalog, commerce,and site administration for editors and business users.
 repo_url: https://github.com/ezsystems/user-documentation
 site_url: https://doc.ibexa.co/projects/userguide/en/latest/
 copyright: "Copyright 1999-2026 Ibexa AS and others"
