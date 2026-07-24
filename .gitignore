@@ -1,8 +1,13 @@
 /vendor/
 **/.DS_Store
 __pycache__/*
+hooks/__pycache__/*
 /site/
 **/.idea/
 /node_modules/
 yarn.lock
 **.css.map
+.lycheecache
+lychee.toml
+/repositories/
+lychee-report.md

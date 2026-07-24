@@ -65,7 +65,7 @@ Displays a chart presenting orders split by status, with their number and percen
 On the **Properties** tab, set values in the following fields:
 
 - **Name** - Enter a name for the block.
-- **Statuses** - Set the statuses of orders that should be included in the list. Default value = All. The list of statuses depends on configured [order workflow](https://doc.ibexa.co/en/latest/commerce/order_management/configure_order_management/) and can be customized.
+- **Statuses** - Set the statuses of orders that should be included in the list. Default value = All. The list of statuses depends on configured [order workflow]([[= developer_doc =]]/commerce/order_management/configure_order_management/) and can be customized.
 - **Time period** - Set the time period: All time, Last day, Last week, Last month. Default value = Last month.
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of orders and submit your changes.

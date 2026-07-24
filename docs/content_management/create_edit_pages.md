@@ -98,7 +98,7 @@ Page Builder has two main views that you can use while creating a page:
 The page layouts that an editor has access to are up to you to choose.
 
 The default, built-in Page layout has only one zone, but developers can create other layouts in configuration.
-For more information, see [Configure layout](https://doc.ibexa.co/en/latest/templating/render_content/render_page/#configure-layout).
+For more information, see [Configure layout]([[= developer_doc =]]/templating/render_content/render_page/#configure-layout).
 
 While editing, you can switch layout for your page.
 To do it, click **Switch layouts** button.

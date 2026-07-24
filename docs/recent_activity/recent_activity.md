@@ -25,7 +25,7 @@ By default, actions on the following items are displayed:
 
     By default, log entries are kept for 30 days.
     This time can be modified through configuration.
-    For more information, see [Developer Documentation]([[= developer_doc =]]/administration/recent_activity/recent_activity/#configuration-and-cronjob).
+    For more information, see [Developer Documentation]([[= developer_doc =]]/administration/recent_activity/recent_activity/#configuration).
 
 Log entries are grouped by date, then by logical bond (like web request, or migration file).
 
