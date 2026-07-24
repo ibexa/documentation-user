@@ -26,12 +26,12 @@ Out of the box, there are two categories of AI actions present in the system:
 - **Refine text** - used by default in [online editor](create_edit_content_items.md#ai-assistant) for refining text, for example: "Rewrite text in formal tone"
 - **Generate alternative text** - used by default in the [image asset editing screen](upload_images.md#ai) to generate alternative text, for example: "Generate short alternative description of an image"
 
-It may happen that a set of sample AI actions has been [installed with the AI actions package]([[= developer_doc =]]/ai_actions/install_ai_actions/#install-sample-ai-action-configurations-optional), and there is already a number of existing AI actions that you can modify and clone.
+It may happen that a set of sample AI actions has been installed with the AI actions package, and there is already a number of existing AI actions that you can modify and clone.
 
 !!! note "Custom action types"
 
     In your specific case, the types available can be different, and your organization's development team can create custom AI action types.
-    For more information, see [developer documentation]([[= developer_doc =]]/ai_actions/ai_actions/).
+    For more information, see [developer documentation]([[= developer_doc =]]/ai/ai_actions/ai_actions/).
 
 ### View AI action details
 
@@ -68,7 +68,7 @@ You can modify the existing AI actions.
 - **Temperature** - controls the randomness of the response.
 Takes a value between 0 and 2, but the usual range is between 0 and 1.
 The output is more random at higher temperatures.
-For more information, see the parameter's description in [OpenAI API reference](https://platform.openai.com/docs/api-reference/chat/create#chat-create-temperature) or [Anthropic's glossary](https://docs.claude.com/en/docs/about-claude/glossary#temperature)
+For more information, see the parameter's description in [Anthropic's glossary](https://docs.claude.com/en/docs/about-claude/glossary#temperature)
 
 ![AI action options](img/ai_action_options.png)
 
@@ -82,7 +82,7 @@ You can create AI actions that perform actions of different types, using differe
 
     Before you can work with AI actions, models must be configured and enabled by your organization's development team.
     If there are more AI service connectors available, you might be able to create AI actions that perform the same type of actions but use different models.
-    For more information, see [developer documentation]([[= developer_doc =]]/ai_actions/ai_actions_guide/#model).
+    For more information, see [developer documentation]([[= developer_doc =]]/ai/ai_actions/ai_actions_guide/#model).
 
 1. Navigate to the Admin Panel and select **AI actions**.
 
@@ -145,7 +145,7 @@ One such example could be sending out a text for translation by one service, and
 
 !!! note "[[= product_name_connect =]] configuration required"
 
-    To use AI actions that interface with [[= product_name_connect =]], you must first [configure and initiate the connection]([[= developer_doc =]]/ai_actions/install_ai_actions/#configure-access-to-ibexa-connect), and [define templates](https://doc.ibexa.co/projects/connect/en/latest/scenarios/scenario_templates/#creating-templates) and/or [scenarios](https://doc.ibexa.co/projects/connect/en/latest/scenarios/creating_a_scenario/) in [[= product_name_connect =]].
+    To use AI actions that interface with [[= product_name_connect =]], you must first [configure and initiate the connection]([[= developer_doc =]]/ai/ai_actions/configure_ai_actions/#configure-access-to-ibexa-connect), and [define templates](https://doc.ibexa.co/projects/connect/en/latest/scenarios/scenario_templates/#creating-templates) and/or [scenarios](https://doc.ibexa.co/projects/connect/en/latest/scenarios/creating_a_scenario/) in [[= product_name_connect =]].
     
 1\. Navigate to the Admin Panel and select **AI actions**.
 

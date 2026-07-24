@@ -1,0 +1,3 @@
+# Hosts that block automated requests (403)
+^https?://help\.openai\.com
+^https?://support\.qualifio\.com

@@ -73,7 +73,7 @@ You can create, configure, and manage campaigns with [Qualifio Engage](https://d
 To access the Qualifio Manager page and create or manage campaigns, click the **Manage campaigns in Qualifio** button under the **Ibexa Engage** menu.
 To display your campaign on the website, use one of the available tools - Campaign block or Campaign custom tag.
 
-For more information about creating and managing campaigns, see [Qualifio Engage documentation](https://support.qualifio.com/hc/en-us/categories/202280638-Qualifio-Engage).
+For more information about creating and managing campaigns, see [Qualifio Campaigns documentation](https://support.qualifio.com/hc/en-us/categories/202280638-Campaigns).
 
 ### Campaign block
 
