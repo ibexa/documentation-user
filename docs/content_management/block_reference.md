@@ -31,9 +31,19 @@ The following blocks are provided with a clean installation of [[= product_name 
 |[Text](#text-block)|Enables you to add to the page a Rich Text block. |
 |[Video](#video-block)|Embeds a video into the page with standard playback controls. |
 
-For recommendation blocks provided by the Raptor integration, see [Recommendation block reference](raptor_recommendation_blocks.md).
+!!! note
 
-[[= include_file('docs/content_management/create_edit_pages.md', 85, 96) =]]
+    For recommendation blocks provided by the Raptor integration, see [Recommendation block reference](raptor_recommendation_blocks.md).
+
+age Builder has two main views that you can use while creating a page:
+
+- **Page blocks** toolbox - consists of all available elements that you can use by dragging them and dropping on a drop zone.
+
+![Page blocks toolbox](img/page_blocks_toolbox.png)
+
+- **Structure view** toolbox - shows a structure of your page, including their division into zones and the blocks that they contain.
+
+![Structure view toolbox](img/structure_view.png)
 
 ## Block basics
 
@@ -308,4 +318,4 @@ On the **Properties** tab you can preview the selected video before adding it to
 ## Recommendation blocks
 
 One of the elements of the Raptor integration is the addition of recommendation blocks.
-For more information, see [Recommendation block reference](../recommendations/raptor_integration/raptor_recommendation_blocks.md).
+For more information, see [Recommendation block reference](raptor_recommendation_blocks.md).
