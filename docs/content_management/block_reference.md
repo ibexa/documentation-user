@@ -35,7 +35,7 @@ The following blocks are provided with a clean installation of [[= product_name 
 
     For recommendation blocks provided by the Raptor integration, see [Recommendation block reference](raptor_recommendation_blocks.md).
 
-age Builder has two main views that you can use while creating a page:
+Page Builder has two main views that you can use while creating a page:
 
 - **Page blocks** toolbox - consists of all available elements that you can use by dragging them and dropping on a drop zone.
 
