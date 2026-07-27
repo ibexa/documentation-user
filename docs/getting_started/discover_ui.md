@@ -33,7 +33,7 @@ G\. User avatar with a drop-down menu with access to [user profile and settings]
 
 ## Site context
 
-Site context is the currently selected website configuration that is used in the back office when you browse content and render previews.
+Site context is the currently selected website configuration that is used in the back office when you browse content and render [previews](preview_content_items.md).
 
 In [multisite](../website_organization/multisite.md) installations, when you change the site context, it results in the [content tree](#content-tree) showing content items that belong to the selected website.
 The appearance of content items can also change if they use different designs or languages depending on the [SiteAccess](../website_organization/multisite.md#siteaccess) settings.
