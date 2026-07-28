@@ -44,7 +44,7 @@ For example, when you add or remove a field to the content type, the change is p
 Each content type has the following global properties:
 
 |Setting|Description|Use|
---------|-----------|---|
+|-------|-----------|---|
 |Name|A name of the content type.|Required|
 |Identifier|A unique identifier of the content type in the system. Up to 50 characters and can only consist of letters, numbers and underscores.|Required|
 |Description|Additional information that is displayed when a content item is created based on this type.|Optional|

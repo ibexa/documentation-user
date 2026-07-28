@@ -15,7 +15,7 @@ Depending on the permissions assigned to your [user role](permissions_and_users.
 
 For example, you can create time-limited offers on selected products, ones that apply only to specified regions, currencies, products or customers, or reward your newsletter subscribers with special discount codes.
 
-### Interaction with other modules
+## Interaction with other modules
 
 The **Discounts** module interacts with other parts of the system, so that store customers can:
 

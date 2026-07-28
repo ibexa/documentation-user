@@ -64,7 +64,7 @@ month_change: true
     To help you preserve your work, [[= product_name =]] saves drafts of content items automatically.
     For more information, see [Autosave](content_versions.md#autosave).
 
-##### Upload multiple content items
+### Upload multiple content items
 
 When you view the content item details in the content tree, you can upload files such as images, videos, or PDF documents.
 This way you can add multiple sub-items without editing the original content item.

@@ -6,7 +6,7 @@ description: Use the permission system to fine-tune the access control.
 
 An overview of the permission system in [[= product_name =]] is best presented with an example.
 
-### Example permission system
+## Example permission system
 
 Let us assume you're managing a newspaper website.
 Your crew consists of an editor-in-chief and several editors responsible for particular sections of the paper, for example, general news, local news, or sports.
