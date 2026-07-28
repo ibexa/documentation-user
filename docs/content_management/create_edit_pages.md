@@ -148,8 +148,6 @@ For a list of blocks available out of the box, see [Block reference](block_refer
 
     Before you add a block that involves products, product types, or product categories, make sure your that your [user role](../permission_management/permissions_and_users.md) has the `Product/View` and `Product type/View` permission.
 
-    Before you add a block that uses results derived from a [Personalization](../personalization/personalization.md) scenario, for example, [Dynamic targeting](block_reference.md#dynamic-targeting-block) or [Recently added block](block_reference.md#recently-added-block), make sure that the scenario is [properly configured](../personalization/configure_scenarios.md).
-
 You can work with the block, for example, duplicate it, change its position, or delete it.
 Hover over the block and the toolbar appears.
 Click the three dots icon to see more options.
