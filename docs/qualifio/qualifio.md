@@ -5,8 +5,8 @@ month_change: false
 
 # [[= product_name_engage =]]
 
-[[= product_name_engage =]] is a data collection tool.
-It gives you the ability to use the [Qualifio](https://qualifio.com/) tools to engage your audiences.
+[[[= product_name_engage =]]](https://qualifio.com/) is a data collection tool.
+It gives you the ability to use multiple tools to engage your audiences.
 You can use interactive content to build relationships and collect important data, for example, a list of recent orders, or personal information about customers.
 
 ## Request access
