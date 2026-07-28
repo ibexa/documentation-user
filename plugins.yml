@@ -46,6 +46,7 @@ plugins:
             'personalization/configure_scenarios.md': 'recommendations/raptor_integration/raptor_recommendation_blocks.md'
             'personalization/scenarios.md': 'recommendations/raptor_integration/raptor_recommendation_blocks.md'
             'personalization/content_types.md': 'recommendations/raptor_integration/raptor_recommendation_blocks.md'
+            'personalization/personalization.md': 'recommendations/raptor_integration/raptor_recommendation_blocks.md'
             'personalization/filters.md': 'recommendations/raptor_integration/raptor_recommendation_blocks.md'
             'personalization/triggers.md': 'recommendations/raptor_integration/raptor_recommendation_blocks.md'
             'personalization/preview_scenario_results.md': 'recommendations/raptor_integration/raptor_recommendation_blocks.md'
