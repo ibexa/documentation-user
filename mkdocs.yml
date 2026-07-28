@@ -60,7 +60,7 @@ nav:
         - Work with AI Actions: ai_actions/work_with_ai_actions.md
     - Product catalog:
         - Product catalog: product_catalog/product_catalog.md
-        - Quable PIM integration: product_catalog/quable_pim_integration.md
+        - Quable integration: product_catalog/quable_integration.md
         - Product catalog settings:
             - Product types: product_catalog/product_types.md
             - Create product types: product_catalog/create_product_types.md
@@ -172,7 +172,7 @@ extra:
   product_name_headless: 'Ibexa Headless'
   product_name_exp: 'Ibexa Experience'
   product_name_com: 'Ibexa Commerce'
-  product_name_cdp: 'Ibexa CDP'
+  product_name_cdp: 'Raptor'
   product_name_connect: 'Ibexa Connect'
   product_name_cloud: 'Ibexa Cloud'
   product_name_oss: 'Ibexa OSS'

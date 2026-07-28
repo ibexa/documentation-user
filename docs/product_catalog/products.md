@@ -16,9 +16,9 @@ Assets can be assigned to the base product, and to one or more of its variants.
 
 Products can also be [embedded in content items](create_edit_content_items.md#embed-products) and [landing pages](block_reference.md#product-embed) to showcase them within editorial content, such as articles and landing pages.
 
-!!! note "Quable PIM integration"
+!!! note "[[= pim_product_name =]] integration"
 
-    When [Quable is configured as the source of product information](quable_pim_integration.md), creating and editing products in [[= product_name =]] is not available.
+    When [[[= pim_product_name =]] is configured as the source of product information](quable_integration.md), creating and editing products in [[= product_name =]] is not available.
     
     Product data is managed in the [[= pim_product_name =]] back office, with the exception of [managing prices](manage_prices.md) and [availability](manage_availability_and_stock.md) which happen in [[= product_name =]].
     In addition, you can use [[= product_name =]] to browse, search, filter, and embed [[= pim_product_name =]] products in content items, including landing pages.
