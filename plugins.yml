@@ -50,6 +50,7 @@ plugins:
             'personalization/configure_scenarios.md': 'https://doc.ibexa.co/en/latest/recommendations/raptor_integration/raptor_connector_guide/'
             'personalization/scenarios.md': 'https://doc.ibexa.co/en/latest/recommendations/raptor_integration/raptor_connector_guide/'
             'personalization/content_types.md': 'https://doc.ibexa.co/en/latest/recommendations/raptor_integration/raptor_connector_guide/'
+            'personalization/personalization.md': 'https://doc.ibexa.co/en/latest/recommendations/raptor_integration/raptor_connector_guide/'
             'personalization/filters.md': 'https://doc.ibexa.co/en/latest/recommendations/raptor_integration/raptor_connector_guide/'
             'personalization/triggers.md': 'https://doc.ibexa.co/en/latest/recommendations/raptor_integration/raptor_connector_guide/'
             'personalization/preview_scenario_results.md': 'https://doc.ibexa.co/en/latest/recommendations/raptor_integration/raptor_connector_guide/'
