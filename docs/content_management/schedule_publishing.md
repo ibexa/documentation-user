@@ -121,7 +121,6 @@ You can select multiple events of the same type and perform bulk actions on them
     Actions available in the toolbar may vary depending on the custom configuration.
     For details, contact your page administrator.
 
-
 To select, click on all events of the same type you want to add to the toolbar list.
 
 ![Calendar widget toolbar](img/selection_action_bar.png "Calendar widget toolbar")

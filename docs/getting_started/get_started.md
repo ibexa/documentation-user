@@ -106,7 +106,6 @@ Here you can [change your user password](get_started.md#change-the-password) and
 |Full date and time format|Sets full date and time format used in the back office.|
 |Language|Sets the default language used in the back office.|
 
-
 #### Content authoring
 
 |Setting|Description|

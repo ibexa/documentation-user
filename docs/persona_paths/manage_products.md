@@ -7,7 +7,6 @@ description: Add and configure products in your catalog, set up their attributes
 In [[= product_name =]] you store aggregate product information in product catalog.
 Learn to add, categorize and organize products, so that you have control over your stock and customers can easily browse your catalogs.
 
-
 [[= cards([
     "product_catalog/create_product_types",
     "product_catalog/work_with_product_attributes",

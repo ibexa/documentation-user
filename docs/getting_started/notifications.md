@@ -22,7 +22,7 @@ When you receive a new notification, a badge appears on the notification icon, w
 
 ![New notification message](new_notification_message.png "New notification message")
 
-If you have already received notifications and didn't act on then, a number of notifications on the badge increases when you receive another one. 
+If you have already received notifications and didn't act on then, a number of notifications on the badge increases when you receive another one.
 
 ![Notification icon on the top bar](img/top_bar_with_notification_icon.png "Notification icon on the top bar")
 
@@ -51,7 +51,7 @@ You can see all the notifications that you have received in the **Notifications*
     ![Notifications screen](img/notifications_screen.png "Notifications screen")
 
     !!! note "List pagination"
-    
+
         The list can take more than one screen. If it is so, you can click the arrows and numbers at the bottom of the screen to navigate the list.
 
 2. Narrow down the list of displayed notifications by selecting one or more of the following filters:

@@ -45,8 +45,8 @@ Depending on the system configuration, activity logs may also be shown:
 
 You can filter the activities to:
 
-* follow the activity of selected users or user group,
-* narrow the results to selected item types, or actions.
+- follow the activity of selected users or user group,
+- narrow the results to selected item types, or actions.
 
 To do it, on the right side, in the **Filters** menu, choose selected filters, and click the **Apply** button.
 Click the **Clear** button to reset all the filters.
