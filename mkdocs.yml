@@ -104,8 +104,8 @@ nav:
     - Recommendations:
         - Raptor integration:
             - Recommendation blocks: recommendations/raptor_integration/raptor_recommendation_blocks.md
-    - Ibexa Engage:
-        - Ibexa Engage: ibexa_engage/ibexa_engage.md 
+    - Qualifio:
+        - Qualifio: qualifio/qualifio.md
     - DAM:
         - Ibexa DAM: dam/ibexa_dam.md
     - Customer management:
@@ -177,7 +177,7 @@ extra:
   product_name_cloud: 'Ibexa Cloud'
   product_name_oss: 'Ibexa OSS'
   product_name_dam: 'Ibexa DAM'
-  product_name_engage: 'Ibexa Engage'
+  product_name_engage: 'Qualifio'
   pim_product_name: 'Quable'
 
   developer_doc: 'https://doc.ibexa.co/en/6.0'

@@ -88,7 +88,7 @@ On the **Properties** tab, set values in the following fields:
 
 ### Campaign block
 
-Displays a campaign created and configured in [[[= product_name_engage =]]](../ibexa_engage/ibexa_engage.md).
+Displays a campaign created and configured in [[[= product_name_engage =]]](../qualifio/qualifio.md).
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the campaign.
