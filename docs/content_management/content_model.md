@@ -1,5 +1,5 @@
 ---
-description: The Ibexa DXP content model relies on content items that are based on predefined content types.
+description: The Cohesivo content model relies on content items that are based on predefined content types.
 ---
 
 # Content model

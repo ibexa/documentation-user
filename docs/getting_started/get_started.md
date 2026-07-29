@@ -1,5 +1,5 @@
 ---
-description: Get started with Ibexa DXP by logging in to the back office.
+description: Get started with Cohesivo by logging in to the back office.
 month_change: true
 ---
 
@@ -18,7 +18,7 @@ Depending on the product edition, [[= product_name =]] can provide advanced capa
 
 !!! note "Installation"
 
-    Only administrators can [install]([[= developer_doc =]]/getting_started/install_ibexa_dxp/) [[= product_name =]].
+    Only administrators can [install]([[= developer_doc =]]/getting_started/install_cohesivo/) [[= product_name =]].
     They should provide you with the address of the installation.
 
 ## Access the back office
@@ -26,7 +26,7 @@ Depending on the product edition, [[= product_name =]] can provide advanced capa
 To access the back office (or the user/editor interface), add `/admin` to the address provided by the administrator.
 For example, if your website's URL is `www.my-site.com`, you enter the editing interface through `www.my-site.com/admin`.
 
-If you're the administrator, use the login credentials that were set [during the installation process]([[= developer_doc =]]/getting_started/install_ibexa_dxp/#create-a-database).
+If you're the administrator, use the login credentials that were set [during the installation process]([[= developer_doc =]]/getting_started/install_cohesivo/#create-a-database).
 
 Otherwise, to log in, you must get your user credentials from the administrator, and enter them on the login screen.
 

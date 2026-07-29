@@ -1,5 +1,5 @@
 ---
-description: Quable integration allows you to use products managed in Quable as the source of product data in Ibexa DXP.
+description: Quable integration allows you to use products managed in Quable as the source of product data in Cohesivo.
 month_change: true
 ---
 

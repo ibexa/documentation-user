@@ -1,5 +1,5 @@
 ---
-description: Upload images to Ibexa DXP to manage them.
+description: Upload images to Cohesivo to manage them.
 ---
 
 # Upload and store images

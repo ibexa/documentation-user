@@ -166,7 +166,7 @@ They may be incompatible with the selected action type and require adjustments o
 If you do so, when you save the new AI action, a new scenario is automatically created.
 You must then fine-tune its settings in [[= product_name_connect =]].
 
-![Ibexa Connect scenario selection](img/ai_action_settings_connect.png)
+![[[= product_name_connect =]] scenario selection](img/ai_action_settings_connect.png "[[= product_name_connect =]] scenario selection")
 
 !!! note "Link to [[= product_name_connect =]]"
 
