@@ -104,8 +104,8 @@ nav:
     - Recommendations:
         - Raptor integration:
             - Recommendation blocks: recommendations/raptor_integration/raptor_recommendation_blocks.md
-    - Qualifio:
-        - Qualifio: qualifio/qualifio.md
+    - Data collection:
+        - Qualifio integration: qualifio/qualifio.md
     - DAM:
         - Ibexa DAM: dam/ibexa_dam.md
     - Customer management:
