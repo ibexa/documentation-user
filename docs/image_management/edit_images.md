@@ -44,9 +44,9 @@ Tagging image assets helps keep the media library organized and enables searchin
 
 When you edit the image asset, you can edit the image itself by using the Image Editor that enables:
 
-* image cropping
-* image flipping
-* setting a point of focus within an image
+- image cropping
+- image flipping
+- setting a point of focus within an image
 
 Image Editor is available whenever you see the **Edit** icon on the preview.
 

@@ -64,7 +64,7 @@ month_change: true
     To help you preserve your work, [[= product_name =]] saves drafts of content items automatically.
     For more information, see [Autosave](content_versions.md#autosave).
 
-##### Upload multiple content items
+### Upload multiple content items
 
 When you view the content item details in the content tree, you can upload files such as images, videos, or PDF documents.
 This way you can add multiple sub-items without editing the original content item.
@@ -272,7 +272,7 @@ For this feature to work as described, the content type must have a **Metadata**
 
 ![Selecting Taxonomy entries](img/taxonomy_select_taxonomy_entries.png "Selecting Taxonomy entries")
 
-!!! note "Taxonomy suggestions" 
+!!! note "Taxonomy suggestions"
 
     If the [Taxonomy suggestions]([[= developer_doc =]]/content_management/taxonomy/taxonomy#taxonomy-suggestions) feature is enabled in your system, instead of manually browsing the taxonomy tree and selecting tags one by one, you can click **AI Suggest category** and pick from suggestions made by the AI Assistant.
 

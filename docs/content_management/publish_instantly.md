@@ -14,7 +14,7 @@ All these options are available in the menu when you're in the edit mode.
 
 ![Publishing options](img/publishing_options.png "Publishing options")
 
-### Publishing vs. saving
+## Publishing vs. saving
 
 Clicking **Save** doesn't immediately publish the content item.
 Instead, it saves the [new version](content_versions.md) of the content as a draft.

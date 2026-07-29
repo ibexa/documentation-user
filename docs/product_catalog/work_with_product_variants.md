@@ -16,7 +16,7 @@ If a product has only one attribute that can be used for variants, you can creat
 If a product has more than one such attribute, you can create variants for any combination of attribute values.
 For example, for a desk that has two top colors: `white` and `oak` and two frame colors: `black` and `grey`, you can create up to four variants: `white/black`, `white/grey`, `oak/black`, and `oak/grey`.
 
-### Generate variants
+## Generate variants
 
 You can generate variants automatically based on the configured attributes.
 
@@ -32,19 +32,19 @@ To generate variants:
 
 You can now see a list of all possible variants for the selected attribute values.
 
-### Delete variants
+## Delete variants
 
 You can delete any generated product variant.
 To do it, select one or more variants in the list and click the **Delete** button.
 
 ![Product variant list with option to delete a variant](img/product_variants_delete.png "Product variant list with option to delete a variant]")
 
-### Manually create variants
+## Manually create variants
 
 If needed, you can manually create any missing variants, including ones you previously deleted.
 To do this, click **Add** next to the variant list, enter a product code and select attribute values for the new variant.
 
-### Manage variants
+## Manage variants
 
 You can set up product availability separately for each product variant.
 

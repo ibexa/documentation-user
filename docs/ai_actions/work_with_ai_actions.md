@@ -109,7 +109,7 @@ For a list of available settings, see [Edit existing AI actions](#edit-existing-
 
 ### Create AI actions that control taxonomy suggestions
 
-If the [Taxonomy suggestions]([[= developer_doc =]]/content_management/taxonomy/taxonomy#taxonomy-suggestions) feature is enabled in your system, before editors can use it to pick from product categories or tags suggested by an AI service, you must configure an AI action for the product types or content types of your choice. 
+If the [Taxonomy suggestions]([[= developer_doc =]]/content_management/taxonomy/taxonomy#taxonomy-suggestions) feature is enabled in your system, before editors can use it to pick from product categories or tags suggested by an AI service, you must configure an AI action for the product types or content types of your choice.
 
 1. Navigate to the Admin Panel and select **AI actions**.
 
@@ -120,7 +120,7 @@ If the [Taxonomy suggestions]([[= developer_doc =]]/content_management/taxonomy/
     - **Language** - sets the base language for the AI action
     - **Action type** - sets an action type to serve as a template for the AI action, for example, **Suggest taxonomy**
     - **Action handler** - sets the AI model used to process the requests resulting from this AI action.
-    Pick `taxonomy-text-to-taxonomy` 
+    Pick `taxonomy-text-to-taxonomy`
 
 1. Make settings in the **Global properties** section, as described above.
 
@@ -174,7 +174,7 @@ You must then fine-tune its settings in [[= product_name_connect =]].
 
 7\. Click **Save and close** to apply the changes or **Discard** to discard them and close the window.
 
-After you save the AI action, you can click its name in the AI actions list and see all the information, such as Scenario ID, webhook URL, or scenario label, which you may needed when working with scenarios in [[= product_name_connect =]]. 
+After you save the AI action, you can click its name in the AI actions list and see all the information, such as Scenario ID, webhook URL, or scenario label, which you may needed when working with scenarios in [[= product_name_connect =]].
 
 ## Duplicate AI actions
 

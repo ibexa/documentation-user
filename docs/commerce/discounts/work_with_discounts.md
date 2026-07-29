@@ -43,7 +43,7 @@ To disable the offending discount, find it in the discount list and, in its line
 To view the details of a discount, click its line in the discount list.
 On the discount details screen, you can see an overview of the discount's details.
 
-Discount details include basic information about the discount: 
+Discount details include basic information about the discount:
 
 - validity period and value of the discount
 - region and currency that the discount applies to
@@ -102,7 +102,7 @@ Cart discount applicability can be further limited by setting a number of condit
 
     1. If your store supports multiple markets, you can select a region that the discount applies to.
     1. If you are creating a fixed-amount discount, select a currency of the discount.
-    
+
     ![Creating a new discount](create_new_discount.png)
 
     1. In the **Promotion information** area, provide a name and description of the promotional campaign, as they should be shown to customers.
@@ -110,15 +110,14 @@ Cart discount applicability can be further limited by setting a number of condit
     ![Adding information about the promotion](discounts_promo_info.png)
 
     1. Click **Next** to go to the next screen.
-    
-    
+
 4. In the **Target group** screen, select customers that the new discount is targeted at.
 You can choose everyone, or select one or more customer groups.
 
     ![Customer selection](discounts_select_customers.png)
 
 5. In the **Products** screen, select products that the discount applies to. You can choose between:
-    
+
     - all products from the catalog, for example, to clear stock before the end of year
     - products from a specific category, for example, promotional gadgets for company partners
     - specific products or even product variants, to activate slow-moving inventory
@@ -134,14 +133,14 @@ You can choose everyone, or select one or more customer groups.
     - entered a specified discount code
 
     If you set the discount code, you can set the number of times that the code can be used:
-    
+
     - by a certain customer
     - in total, by all customers
 
     ![Cart discount conditions](cart_discount_conditions.png)
 
 7. In the **Discount value** screen, if you are creating a percentage-based discount, in **Customer gets discount value**, enter a percent value that the system uses to calculate the amount deducted from the base price of the product.
-Otherwise, enter a monetary value to be deducted from the base price. 
+Otherwise, enter a monetary value to be deducted from the base price.
 
 8. In the **Summary** screen, review the details of the discount that you are creating, and click **Save and close** to save the discount.
 Depending on the settings, you may see a warning message.
