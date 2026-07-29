@@ -98,7 +98,7 @@ Here you can [change your user password](get_started.md#change-the-password) and
 #### Location
 
 |Setting|Description|
---------|-----------|
+|-------|-----------|
 |Default currency|Sets the default currency used in the back office.|
 |Toggle In-Context translation feature|Enables or disables integration with Crowdin to navigate the interface while translating.|
 |User Time Zone|Sets time zone in the back office.|
@@ -106,11 +106,10 @@ Here you can [change your user password](get_started.md#change-the-password) and
 |Full date and time format|Sets full date and time format used in the back office.|
 |Language|Sets the default language used in the back office.|
 
-
 #### Content authoring
 
 |Setting|Description|
---------|-----------|
+|-------|-----------|
 |[Autosave draft every given period](content_versions.md#autosave)|Enables or disables autosaving drafts.|
 |Seconds till next draft autosave|Sets time period for next autosave.|
 |Enable character count in online editor|Enables or disables character count.|
@@ -119,7 +118,7 @@ Here you can [change your user password](get_started.md#change-the-password) and
 #### Browsing
 
 |Setting|Description|
---------|-----------|
+|-------|-----------|
 |Number of items displayed in the table|Sets the number of items displayed in sub-items.|
 |Location preview|Enables or disables a thumbnail preview on the content tree.|
 |Help center|Enables or disables the [help center](discover_ui.md#help-center). [[% include 'snippets/lts-update_badge.md' %]]|
@@ -129,13 +128,13 @@ Here you can [change your user password](get_started.md#change-the-password) and
 #### Mode
 
 |Setting|Description|
---------|-----------|
+|-------|-----------|
 |Focus mode|Enables or disables the [focus mode](discover_ui.md#focus-mode).|
 
 #### Dashboard
 
 |Setting|Description|
---------|-----------|
+|-------|-----------|
 |Active dashboard|Sets which dashboard is displayed after you log in.|
 
 ### Change the password

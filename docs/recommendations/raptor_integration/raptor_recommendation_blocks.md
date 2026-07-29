@@ -300,7 +300,6 @@ On the **Properties** tab, set values in the following fields:
 
 Toggle the **Show only available items** option on to display only products that are currently in stock.
 
-
 !!! tip
 
     For a list of all blocks available in Page Builder, see [Block reference](block_reference.md).

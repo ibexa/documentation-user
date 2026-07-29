@@ -14,7 +14,7 @@ If you're unfamiliar with how Page Builder works, see [Create and edit Pages](cr
 ## Create Customer Portal
 
 To create a new Customer Portal, go to **Content** and from the menu select **Content structure**.
-There, navigate to the root folder for your Customer Portals. 
+There, navigate to the root folder for your Customer Portals.
 If you don't have one, you can add it yourself.
 Remember to specify its `location_id` in the configuration, you can find it under **Technical details**.
 For more information, see [Configure Page Builder access to Customer Portal]([[= developer_doc =]]/customer_management/cp_page_builder/#configure-page-builder-access-to-customer-portal).
@@ -29,7 +29,7 @@ It's recommended to use Customer Portal containers to divide and store your port
 If your project requires it, the Customer Portal containers can also be defined as root folders in the configuration.
 
 First, select **Customer Portal** and name it appropriately.
-Next, navigate to the newly added container and create **Customer Portal Page**. 
+Next, navigate to the newly added container and create **Customer Portal Page**.
 
 ![Customer Portal container](img/cp_folder_for_portals.png)
 

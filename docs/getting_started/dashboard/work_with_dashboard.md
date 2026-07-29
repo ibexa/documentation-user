@@ -42,7 +42,7 @@ B. Dashboard blocks / Structure view toolbox
 C. Buttons:
 
 |Name|Icon|Use|
---------|-----------|----------
+|--------|-----------|---------|
 |Fields|![Fields](dashboard_fields.png)|Edit dashboard name.|
 |Switch layout|![Switch layout](dashboard_switch_layout.png)|Switch layout for the dashboard.|
 |Undo|![Undo](dashboard_undo.png)|Undo latest change.|

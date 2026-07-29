@@ -19,4 +19,4 @@ The **Shipping management** module interacts with other packages of the system, 
 [[= cards([
     "commerce/shipping_management/work_with_shipping_methods",
     "commerce/shipping_management/work_with_shipments"
-], columns=2) =]] 
+], columns=2) =]]
