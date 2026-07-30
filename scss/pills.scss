@@ -10,12 +10,14 @@
     margin-right: 8px;
     color: variables.$color-primary-main;
 
+    // Tones are picked from the Cohesivo ramps at steps that clear WCAG AA (4.5:1)
+    // as text on white — the lighter -80 steps of warning and success do not.
     $types: (
-        "headless": (variables.$color-error-main, "Headless"),
-        "experience": (variables.$color-warning-dark-01, "Experience"),
-        "commerce": (variables.$color-primary-main, "Commerce"),
-        "lts-update": (variables.$color-info-main, "LTS Update"),
-        "new-feature": (variables.$color-success-main, "New feature")
+        "headless": (variables.$color-error-80, "Headless"),
+        "experience": (variables.$color-warning-110, "Experience"),
+        "commerce": (variables.$color-primary-80, "Commerce"),
+        "lts-update": (variables.$color-info-80, "LTS Update"),
+        "new-feature": (variables.$color-success-100, "New feature")
       );
 
       @each $name, $values in $types {
@@ -41,8 +43,7 @@
     &--new {
       margin-right: 15px;
       align-self: center;
-      color: #d9e8ff;
-      color: #3562a0;
+      color: variables.$color-info-80;
       text-transform: lowercase;
     }
 }
