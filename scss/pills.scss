@@ -10,8 +10,6 @@
     margin-right: 8px;
     color: variables.$color-primary-main;
 
-    // Tones are picked from the Cohesivo ramps at steps that clear WCAG AA (4.5:1)
-    // as text on white — the lighter -80 steps of warning and success do not.
     $types: (
         "headless": (variables.$color-error-80, "Headless"),
         "experience": (variables.$color-warning-110, "Experience"),

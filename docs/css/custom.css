@@ -1,6 +1,3 @@
-/* Cohesivo palette. Values mirror the product design system, converted from oklch():
-   vendor/ibexa/admin-ui-assets/.../vendors/ids-assets/dist/scss/variables/_colors.scss
-   The scss/ sources carry the same values in scss/_variables.scss. */
 :root > * {
     --cohesivo-violet: #4E24A5;
     --cohesivo-violet-light: #B497E8;
@@ -10,6 +7,8 @@
     --cohesivo-red: #BA2124;
     --cohesivo-info: #19628F;
     --cohesivo-info-dark: #003F63;
+    --cohesivo-ink-muted: #3E4145;
+    --cohesivo-mist: #F5F6F6;
 
     --black: rgb(0,0,0);
     --white: rgb(255,255,255);
@@ -22,21 +21,19 @@
     --note-border: var(--mid-grey);
     --enterprise-border: var(--cohesivo-violet);
 
-    /* Admonitions — literal values from the product's .ibexa-alert variants */
     --admonition-radius: 10px;
-    --admonition-info-bg: #D2C0F2;
-    --admonition-info-bar: #19628F;
-    --admonition-info-title: #003F63;
-    --admonition-warning-bg: #F9DBB4;
+    --admonition-info-bg: #F1ECFB;
+    --admonition-info-bar: #4E24A5;
+    --admonition-info-title: #391B79;
+    --admonition-warning-bg: #FCEFDE;
     --admonition-warning-bar: #DC8004;
-    --admonition-warning-title: #C26100;
+    --admonition-warning-title: #8C3F00;
 
     --codeblock: rgb(89,96,103);
     --inline-code: rgb(242,242,245);
     --table-header: var(--codeblock);
     --code-highlight: #D9E9FF;
 
-    /* Links follow the app: dark ink, always underlined, violet on hover. */
     --link: var(--cohesivo-dusk-black);
 
     /* Override Material colors */
@@ -152,7 +149,6 @@ body {
     color: var(--cohesivo-violet);
 }
 
-/* Anchors that are UI affordances rather than prose links keep no underline. */
 .md-typeset .headerlink,
 .md-typeset a.md-icon,
 .md-typeset .tabbed-labels a,
@@ -249,19 +245,11 @@ ul li li li {
     padding: .5rem;
 }
 
-/* Generic titles and summaries — e.g. the homepage accordion — keep the plain
-   look. The admonition rules below are more specific and override this. */
 .md-typeset :is(.admonition-title,summary) {
     background-color: #ffffff;
     box-shadow: none;
     font-size: 16px;
 }
-
-/* Admonitions
-   Styled after the product's .ibexa-alert (vendor/ibexa/admin-ui/.../scss/_alerts.scss):
-   a 4px left accent bar, square on the left and rounded on the right, over a tinted
-   fill, with the title and icon in the accent's dark tone. note/tip map to the app's
-   --info variant, caution/warning to --warning. */
 
 .md-typeset :is(.admonition,details):is(.tip,.note,.caution,.warning) {
     box-shadow: none;
@@ -272,8 +260,6 @@ ul li li li {
     padding: 4px 12px;
 }
 
-/* Own the icon geometry rather than inheriting Material's rem-based padding,
-   which does not line up once the container padding changes. */
 .md-typeset :is(.admonition,details):is(.tip,.note,.caution,.warning) > :is(.admonition-title,summary) {
     background-color: transparent;
     border: 0;
@@ -297,10 +283,32 @@ ul li li li {
     margin: 0;
 }
 
-/* Body copy stays on the default dark ink — admonition bodies run long here,
-   unlike the app's single-line alerts. */
 .md-typeset :is(.admonition,details):is(.tip,.note,.caution,.warning) > :not(.admonition-title):not(summary) {
     color: var(--cohesivo-dusk-black);
+}
+
+.md-typeset details:is(.tip,.note,.caution,.warning) > summary {
+    padding-right: 32px;
+    cursor: pointer;
+    list-style: none;
+}
+
+.md-typeset details:is(.tip,.note,.caution,.warning) > summary::-webkit-details-marker {
+    display: none;
+}
+
+.md-typeset details:is(.tip,.note,.caution,.warning) > summary::after {
+    top: 50%;
+    right: 8px;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    transform: translateY(-50%);
+    transition: transform 0.2s;
+}
+
+.md-typeset details[open]:is(.tip,.note,.caution,.warning) > summary::after {
+    transform: translateY(-50%) rotate(90deg);
 }
 
 /* note / tip — the app's .ibexa-alert--info */
@@ -317,6 +325,10 @@ ul li li li {
     background-color: var(--admonition-info-title);
 }
 
+.md-typeset details:is(.tip,.note) > summary::after {
+    color: var(--admonition-info-title);
+}
+
 /* caution / warning — the app's .ibexa-alert--warning */
 .md-typeset :is(.admonition,details):is(.caution,.warning) {
     background-color: var(--admonition-warning-bg);
@@ -331,6 +343,10 @@ ul li li li {
     background-color: var(--admonition-warning-title);
     -webkit-mask-image: var(--md-admonition-icon--caution);
             mask-image: var(--md-admonition-icon--caution);
+}
+
+.md-typeset details:is(.caution,.warning) > summary::after {
+    color: var(--admonition-warning-title);
 }
 
 /* Tile admonition */
@@ -449,7 +465,7 @@ ul li li li {
 }
 
 .md-nav__link[data-md-state=blur] {
-    color: rgb(19, 28, 38);
+    color: var(--cohesivo-dusk-black);
 }
 
 figure {
@@ -557,6 +573,7 @@ a.external:not(.card):not(.notification__cta a):after {
 
 .md-typeset .tabbed-set .tabbed-content {
   order: 99;
+  background: #FFFFFF;
   border: 1px solid var(--cohesivo-snow);
   padding: 4px 4px 4px 1rem;
   border-radius: 0 .2rem .2rem .2rem;
@@ -565,6 +582,8 @@ a.external:not(.card):not(.notification__cta a):after {
 .md-typeset .tabbed-set label {
   font-size: .64rem;
   font-weight: 700;
+  background: var(--cohesivo-mist);
+  color: var(--cohesivo-ink-muted);
   padding: 0.9375em 1.25em 0.78125em;
   border: 1px solid var(--cohesivo-snow);
   border-bottom: 2px solid var(--cohesivo-snow);
@@ -601,6 +620,8 @@ a.external:not(.card):not(.notification__cta a):after {
 .md-typeset .tabbed-set > input:nth-child(19):checked ~ .tabbed-labels > :nth-child(19),
 .md-typeset .tabbed-set > input:nth-child(20):checked ~ .tabbed-labels > :nth-child(20) {
     color: var(--md-accent-fg-color);
+    background: #FFFFFF;
+    border-bottom-color: #FFFFFF;
 }
 
 .js .md-typeset .tabbed-labels:before {
@@ -659,17 +680,29 @@ div.path {
 
 .cards div.card-wrapper div div,
 .path div.card-wrapper div div {
-    border: 1px solid #D4D4D4;
+    border: 1px solid var(--cohesivo-snow);
     border-radius: 5px;
     background-color: #FFFFFF;
     padding: 0.7rem;
     margin-bottom: 0.4rem;
     overflow: auto;
+    transition: border-color 0.2s, box-shadow 0.2s;
 }
 
 .cards div.card-wrapper div div:hover,
 .path div.card-wrapper div div:hover {
-    border-color: var(--cohesivo-dusk-black);
+    border-color: var(--cohesivo-violet);
+    box-shadow: 0 22px 24px 0 rgba(119, 66, 213, 0.15);
+}
+
+.md-typeset .cards a.card,
+.md-typeset .path a.card {
+    text-decoration: none;
+}
+
+.md-typeset .cards a.card p.title,
+.md-typeset .path a.card p.title {
+    text-decoration: underline;
 }
 .cards div.card-wrapper div div {
     max-width: 10rem;

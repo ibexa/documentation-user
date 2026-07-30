@@ -1,11 +1,3 @@
-// Cohesivo palette.
-//
-// Values mirror the product design system, converted from oklch() to sRGB hex:
-// vendor/ibexa/admin-ui-assets/src/bundle/Resources/public/vendors/ids-assets/dist/scss/variables/_colors.scss
-//
-// Keep this file the single source of truth for colour in scss/. The hand-maintained
-// stylesheets in docs/css/ mirror the same values as --cohesivo-* custom properties.
-
 $transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
 $transition-duration: 0.4s;
 
@@ -47,11 +39,11 @@ $color-warning-10: #fcefde;
 // Gradient — $gradient-primary-1 in the design system
 $gradient-primary: linear-gradient(90deg, $color-primary-80 40%, $color-primary-alt-40 100%);
 
-// Shadows are tinted with primary-alt, matching ids-assets/.../_shadows.scss
+// Shadows are tinted with primary-alt
 $shadow-tile: 4px 22px 47px rgba($color-primary-alt-80, 0.05);
 $shadow-tile-hover: 0 22px 24px 0 rgba($color-primary-alt-80, 0.15);
 
-// Aliases kept for readability at call sites
+// Aliases
 $color-primary: $color-primary-80;
 $color-primary-main: $color-primary-80;
 $color-dark: $color-neutral-240;

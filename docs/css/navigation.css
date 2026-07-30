@@ -275,8 +275,6 @@
 }
 
 .md-header__button.md-logo img {
-    /* The Cohesivo lockup is icon + wordmark at ~4:1; constrain by height so it
-       fits the 56px header instead of inheriting the button width. */
     height: 32px;
     width: auto;
 }
