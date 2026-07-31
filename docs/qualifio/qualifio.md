@@ -3,7 +3,7 @@ description: Use Qualifio to engage audiences and collect valuable data.
 month_change: false
 ---
 
-# [[= product_name_engage =]]
+# [[= product_name_engage =]] integration
 
 [[[= product_name_engage =]]](https://qualifio.com/) is a data collection tool.
 It gives you the ability to use multiple tools to engage your audiences.
