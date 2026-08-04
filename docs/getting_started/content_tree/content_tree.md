@@ -22,7 +22,7 @@ To simplify the content tree, big lists are collapsed and include a **Show more*
 Click it to expand the branches of the tree.
 **Collapse all** option, which is available in the context menu, closes all expanded sections.
 
-### Add folders
+## Add folders
 
 You can organize the tree by creating additional folders and subfolders of the **Content structure**.
 A similar procedure applies to other areas of the system where the tree hierarchy is used.

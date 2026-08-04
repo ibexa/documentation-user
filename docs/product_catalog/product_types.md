@@ -31,7 +31,7 @@ When a product type is created, you can review its fields, attributes, and VAT r
 
 If your [user role](../permission_management/work_with_permissions.md) has the `ProductType/Edit` permission, you can [modify product types and add individual attributes or attribute groups](create_product_types.md).
 
-### Attributes
+## Attributes
 
 Unlike text fields that can be formatted and are intended to be displayed, product attributes precisely list product properties or specifications.
 

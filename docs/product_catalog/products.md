@@ -25,7 +25,7 @@ Products can also be [embedded in content items](create_edit_content_items.md#em
 
 For more information about creating products, see [Create product](create_edit_product.md#create-and-edit-products).
 
-### Product completeness
+## Product completeness
 
 Before your customers can purchase products, the website [administrator must configure]([[= developer_doc =]]/product_catalog/enable_purchasing_products/) at least one region and one currency for the shop, and VAT rates for each of the regions.
 You must then set:

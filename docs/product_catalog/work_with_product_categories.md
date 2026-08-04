@@ -41,11 +41,11 @@ Depending on your permissions, you might be able to verify the presence of the f
     1. If the field is present, click **Delete draft** and skip the remaining steps.
     2. If the field is absent, drag and drop the *Taxonomy Entry Assignment* option from the **Field types** area to the **Field definitions** area.
     3. Expand the **New field type** that you added and make the following settings:
-        * Set a name for the field, for example, "Product category"
-        * Select the **Required** checkbox
-        * In the **Taxonomy** field, select the "Product categories" taxonomy type
+        - Set a name for the field, for example, "Product category"
+        - Select the **Required** checkbox
+        - In the **Taxonomy** field, select the "Product categories" taxonomy type
 4. Optionally, modify other product type settings as required.
-7. To save your changes:
+5. To save your changes:
 
     - Click **Save** to continue editing.
     - Click **Save and close** to close the window.
@@ -65,13 +65,13 @@ Similarly to other items in [[= product_name =]], you add product categories eit
 2. To add a category using the **Create** button, in the category tree, select the category to which you want to add a child category. After the details of the selected category are loaded, click the **Create** button and skip to step 4.
 3. To add a category directly in the category tree, click the three dots icon next to the category to which you want to add a child category. In the context menu, click **Add**.
 4. In the product category editing modal, make the following settings:
-    * Enter a unique identifier for the product category, for example, "HW_WIN".
-    * Enter a unique name for the product category, "Devices with Windows".
-    * Optionally, change the parent category of the currently edited category:
+    - Enter a unique identifier for the product category, for example, "HW_WIN".
+    - Enter a unique name for the product category, "Devices with Windows".
+    - Optionally, change the parent category of the currently edited category:
 
           In the **Parent** area, click the **Change path** button. Then, in the **Select parent** modal, select a category from the tree and click **Select parent**.
 
-    * Click **Save** to save the product category.
+    - Click **Save** to save the product category.
 
 The newly created category can now be assigned to products.
 
@@ -96,7 +96,7 @@ You can create or change product category relationships with products in two way
 
 ![Adding product categories](img/product_category_selection.png "Adding product categories")
 
-!!! note "Taxonomy suggestions" 
+!!! note "Taxonomy suggestions"
 
     If the [Taxonomy suggestions]([[= developer_doc =]]/content_management/taxonomy/taxonomy#taxonomy-suggestions) feature is enabled in your system, instead of manually browsing the product category tree and selecting categories one by one, you can click **AI Suggest category** and pick from suggestions made by the AI Assistant.
 

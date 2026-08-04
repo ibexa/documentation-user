@@ -121,7 +121,6 @@ You can select multiple events of the same type and perform bulk actions on them
     Actions available in the toolbar may vary depending on the custom configuration.
     For details, contact your page administrator.
 
-
 To select, click on all events of the same type you want to add to the toolbar list.
 
 ![Calendar widget toolbar](img/selection_action_bar.png "Calendar widget toolbar")
@@ -136,7 +135,7 @@ These buttons are available on the **My dashboard** screen, and in the Calendar 
 |![Reschedule button](img/selection_action_bar_reschedule.png)|Reschedule all selected events.|
 |![Discard button](img/selection_action_bar_discard.png)|Cancel the future publication of selected events.|
 
-#### Reschedule or cancel in the dashboard
+### Reschedule or cancel in the dashboard
 
 To reschedule or cancel events with the dashboard, perform the following actions:
 
@@ -151,7 +150,7 @@ To reschedule or cancel events with the dashboard, perform the following actions
 
 ![Reschedule or cancel with the dashboard](img/reschedule_cancel_dashboard.png "Rescheduling or cancelling with the dashboard")
 
-#### Reschedule or cancel in Calendar
+### Reschedule or cancel in Calendar
 
 In the [Calendar widget](#calendar-widget), select all events to have their publication time rescheduled or cancelled.
 Using the toolbar buttons, perform one of the following actions:

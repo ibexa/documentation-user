@@ -46,7 +46,7 @@ All sections are later presented as headers on the content item details screen, 
 Depending on their type, fields can have different combinations of the following general settings.
 
 |Setting|Description|Use|
---------|-----------|---|
+|-------|-----------|---|
 |Name|A user-friendly name that describes the field, used in the interface. It can be up to 255 characters long and consist of letters, digits, spaces, and special characters.|Required|
 |Identifier|An identifier for system use in configuration files, templates, or PHP code. It can be up to 50 characters long and can only contain lowercase letters, digits and underscores. Also used in name patterns for the content type.|Required|
 |Description|A detailed description of the field. It's displayed next to it when the user edits the content item.|Optional|
@@ -102,7 +102,7 @@ When you add or modify a **[Content relation](create_edit_content_items.md#relat
 - which content tree location opens in the [content browser](discover_ui.md#content-browser) when the user browses to a related content item
 - whether relations can be to content items of a specific type only, or any content type
 
-#### Relation starting location
+### Relation starting location
 
 In the **Select starting Location** area, select from the available options:
 
@@ -113,7 +113,7 @@ In the **Select starting Location** area, select from the available options:
 
 ![Select starting location](img/select_start_location.png "Selecting a starting location")
 
-#### Allowed content types
+### Allowed content types
 
 In the **Allowed content types** area, expand the drop-down list and select from the available content types.
 No selection means that relations to all content types are allowed.

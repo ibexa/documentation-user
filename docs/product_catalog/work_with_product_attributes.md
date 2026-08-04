@@ -57,7 +57,7 @@ Each identifier must be unique. It can have up to 64 characters and contain only
 
 Each identifier must be unique. It can have up to 64 characters and contain only letters, numbers, underscores, and dashes.
 
-4\. Select an attribute group to which the attribute is assigned. 
+4\. Select an attribute group to which the attribute is assigned.
 
 After you assign an attribute to a group and save your changes, the assignment can't be changed.
 
