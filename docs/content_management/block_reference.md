@@ -33,7 +33,7 @@ The following blocks are provided with a clean installation of [[= product_name 
 
 !!! note
 
-    For recommendation blocks provided by the Raptor integration, see [Recommendation block reference](raptor_recommendation_blocks.md).
+    For recommendation blocks provided by the [[= product_name_cdp_base =]] integration, see [Recommendation block reference](raptor_recommendation_blocks.md).
 
 Page Builder has two main views that you can use while creating a page:
 
@@ -317,5 +317,5 @@ On the **Properties** tab you can preview the selected video before adding it to
 
 ## Recommendation blocks
 
-One of the elements of the Raptor integration is the addition of recommendation blocks.
+One of the elements of the [[= product_name_cdp_base =]] integration is the addition of recommendation blocks.
 For more information, see [Recommendation block reference](raptor_recommendation_blocks.md).
