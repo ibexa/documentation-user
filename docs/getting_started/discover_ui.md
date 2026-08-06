@@ -31,12 +31,12 @@ F\. App switcher which includes links to official websites of the QNTM group eco
 
 G\. User avatar with a drop-down menu with access to [user profile and settings](get_started.md#view-and-edit-user-profile)
 
-## Site context
+### Site context
 
 Site context is the currently selected website configuration that is used in the back office when you browse content and render [previews](preview_content_items.md).
 
-In [multisite](../website_organization/multisite.md) installations, when you change the site context, it results in the [content tree](#content-tree) showing content items that belong to the selected website.
-The appearance of content items can also change if they use different designs or languages depending on the [SiteAccess](../website_organization/multisite.md#siteaccess) settings.
+In [multisite](multisite.md) installations, when you change the site context, it results in the [content tree](#content-tree) showing content items that belong to the selected website.
+The appearance of content items can also change if they use different designs or languages depending on the [SiteAccess](multisite.md#siteaccess) settings.
 
 ## Dashboard
 
@@ -147,7 +147,6 @@ Focus mode is enabled by default when you first log into [[= product_name =]], b
 - in the drop-down menu on the right side of the top bar
 
 ![Focus mode switch](img/FM_switch.png "Focus mode switch")
-     
 ## Help center [[% include 'snippets/lts-update_badge.md' %]]
 
 If the Integrated help [LTS update]([[= developer_doc =]]/ibexa_products/editions/#lts-updates) has been configured in your application, you may notice that the ![Help center](about-info.png){.inline-image} icon appears at the bottom right of multiple screens.
