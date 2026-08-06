@@ -1,0 +1,12 @@
+/* Fixture stylesheet, to confirm that non-HTML files of a generated bundle are also
+   excluded from the SaaS build. */
+body {
+    font-family: system-ui, sans-serif;
+    margin: 2rem auto;
+    max-width: 40rem;
+}
+
+code {
+    background: #f3f3f6;
+    padding: 0.1rem 0.3rem;
+}

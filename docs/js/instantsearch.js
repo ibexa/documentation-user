@@ -5,7 +5,9 @@
     const search_page = (match = doc.location.search.match(/p=(\d*?)(&|$)/)) ? match[1] : 1;
     const parsed_search_page = parseInt(search_page);
     let version = doc.location.pathname.split('/')[4];
-    if (!/^\d+\.\d+$/.test(version) && version !== 'latest') {
+    // Keep versions whose name is not an X.Y number, such as the rolling 'saas' build.
+    // Without this the SaaS documentation would search the 'latest' index instead.
+    if (!/^\d+\.\d+$/.test(version) && !['latest', 'saas'].includes(version)) {
         version = 'latest';
     }
     const hitsContainer = '#hits';

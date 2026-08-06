@@ -3,9 +3,10 @@ INHERIT: plugins.yml
 site_name: User Documentation
 repo_url: https://github.com/ibexa/documentation-user
 site_url: https://doc.ibexa.co/projects/userguide/en/latest/
-edit_uri: blob/5.0/docs
+edit_uri: blob/6.0/docs
 hooks:
-    - hooks/edit_uri.py  
+    - hooks/edit_uri.py
+    - hooks/variant_filter.py
     - hooks.py
 copyright: "Copyright 1999-2026 Ibexa AS and others"
 validation:
@@ -133,9 +134,18 @@ nav:
             - Author content: persona_paths/author_content.md
             - Publish content: persona_paths/publish_content.md
             - Organize content: persona_paths/organize_content.md
-        - Store manager: 
+        - Store manager:
             - Store manager: persona_paths/shop_manager.md
             - Manage products: persona_paths/manage_products.md
+    # Temporary: exercises the SaaS/on-premises flavor filtering. Remove once the
+    # mechanism is trusted, or keep as living documentation of the pattern.
+    - Flavor test:
+        - Flavor test: flavor_test/flavor_test.md
+        - SaaS only: flavor_test/saas_only.md
+        - On-premises only: flavor_test/onprem_only.md
+        - On-premises HTML reference: flavor_test/onprem_ref/index.html
+        - SaaS only section:
+            - SaaS only child: flavor_test/saas_only_section/saas_child.md
 
               
 theme:
@@ -164,6 +174,14 @@ extra:
       url: '/'
     - title: 'Connect Documentation'
       url: '/projects/connect'
+  # Paths included by each delivery flavor, for files that cannot carry front matter, such
+  # as generated reference bundles. Patterns are matched against paths relative to
+  # `docs_dir`, and a single `*` also spans directory separators, so one pattern covers a
+  # whole tree. See flavors.py.
+  flavor_paths:
+      onprem:
+          - flavor_test/onprem_ref/*
+
   # Global variables
   site_display_name: 'Ibexa Documentation'
   product_name_base: 'Ibexa'

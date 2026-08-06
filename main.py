@@ -6,6 +6,8 @@ from mkdocs.structure.pages import Page
 from mkdocs.utils import meta
 from typing import List
 
+from flavors import current_flavor, is_onprem, is_saas, page_matches
+
 def _absolute_page_url(scheme, site, project, edition, language, version, *parts):
     return scheme + '://' + '/'.join((site, project, edition, language, version) + parts)
 
@@ -31,6 +33,9 @@ def define_env(env):
     - variables: the dictionary that contains the environment variables
     - macro: a decorator function, to declare a macro.
     """
+
+    env.macro(is_saas)
+    env.macro(is_onprem)
 
     @env.macro
     def include_file(filename, start_line=0, end_line=None, glue='', remove_indent=False):
@@ -100,7 +105,14 @@ def define_env(env):
             else:
                 html = False
                 path = path.rstrip('/')
-                content = open("docs/%s.md" % path, "r").read()
+                source = "docs/%s.md" % path
+                content = open(source, "r").read()
+                # Cards are built by reading the target file straight off disk, which
+                # bypasses the flavor filtering applied to the Files collection. Skip
+                # targets this build excludes, or the card links to a page that
+                # doesn't exist in it.
+                if not page_matches(meta.get_data(content)[1], current_flavor(), source):
+                    continue
                 page = _absolute_page_url(scheme, site, project, edition, language, version, path, hash)
 
             if html:

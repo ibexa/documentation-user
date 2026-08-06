@@ -1,11 +1,15 @@
 plugins:
     - search
-    - autolinks
+    # `macros` must stay ahead of `autolinks`: both implement `on_page_markdown`, and
+    # MkDocs pipes each plugin's output into the next in the order declared here. With
+    # `autolinks` first, it resolves bare file names in markdown that still contains
+    # unrendered conditions, and so reports links that the condition removes anyway.
     - macros:
         j2_block_start_string: '[[%'
         j2_block_end_string: '%]]'
         j2_variable_start_string: '[[='
         j2_variable_end_string: '=]]'
+    - autolinks
     - tags
     - redirects:
         redirect_maps:

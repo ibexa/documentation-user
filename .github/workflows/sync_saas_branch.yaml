@@ -1,0 +1,40 @@
+name: "Sync saas branch"
+
+# Keeps the `saas` branch identical to the 6.0 branch. 
+# Read the Docs publishes one version per branch, so the SaaS-flavored documentation needs a branch of its own
+# Its content must never diverge: the flavor is selected by the version name at build
+#
+# Every sync is therefore a fast-forward, and `saas` carries no commits of its own.
+
+on:
+    schedule:
+        - cron: "0 5 * * *"  # daily
+    push:
+        branches:
+            - "6.0"
+    workflow_dispatch: ~
+
+concurrency:
+    group: sync-saas-branch
+    cancel-in-progress: false
+
+jobs:
+    sync:
+        runs-on: ubuntu-latest
+        permissions:
+            contents: write
+
+        steps:
+            - uses: actions/checkout@v4
+              with:
+                  fetch-depth: 0  # a merge needs the full history
+
+            - name: Merge 6.0 into saas
+              run: |
+                  git config user.name "github-actions[bot]"
+                  git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+                  git fetch origin 6.0
+
+                  git checkout -B saas origin/saas
+                  git merge --ff-only origin/6.0
+                  git push origin saas

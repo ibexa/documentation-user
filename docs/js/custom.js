@@ -3,6 +3,9 @@ let jquery = jQuery;
 
 $(document).ready(function() {
     const latestVersionNumber = '6.0';
+    // Published versions whose name is not an X.Y number, and which must therefore
+    // survive the numeric check below. 'saas' is the rolling SaaS-flavored build.
+    const namedVersions = ['latest', 'saas'];
 
     // replace edit url
     let branchName = 'master';
@@ -21,7 +24,7 @@ $(document).ready(function() {
         );
     });
 
-    if (!/^\d+\.\d+$/.test(branchName) && branchName !== 'latest') {
+    if (!/^\d+\.\d+$/.test(branchName) && !namedVersions.includes(branchName)) {
         branchName = 'master';
     }
 
