@@ -53,6 +53,53 @@ the same way as when editing only one language.
 
 <!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/wrOL621W0E3uAwSOBBmZ?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Add translation" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
 
+## Edit page for different language versions of a website [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
+
+When you edit a page, a bar at the top of the screen lists the most recently used [SiteAccesses](multisite.md#siteaccess) on your website.
+Use this bar to switch between the different versions and work on them.
+
+<a name="siteaccess"></a>
+
+!!! note "SiteAccess concept"
+
+    SiteAccesses are a means to present different versions of the website to different categories of users.
+    You could treat SiteAccesses as different "entrance points" to your website.
+    They allow you to show different content or design to visitors, for example, to serve different language versions to visitors from different countries.
+
+    See [Work with websites](../website_organization/work_with_sites.md) for more information about setting up websites.
+
+## Automated translation
+
+If your application comes with a [properly configured automated translation feature]([[= developer_doc =]]/multisite/languages/automated_translations), you can have your content machine-translated into multiple languages by using external translation services like Google Translate and DeepL.
+
+To use it, in the **Create a new translation** modal, select the source and target languages and the **Use automatic translation with...** checkbox.
+If more than one service is configured, you can choose either of the available options.
+
+![Automated translation](img/automated_translation.png "Automated translation")
+
+When you click **Create**, all the Fields are pre-filled with the values in target language, provided by the selected translation service.
+
+## Translation comparison
+
+You can compare different versions of the translations of the content item.
+
+1\. [Disable the Focus mode](../getting_started/discover_ui.md#disable-focus-mode).
+
+2\. In the left panel, go to **Content** -> **Content structure**. Then select a content item.
+
+3\. Go to **Versions** tab and click the **Version compare** icon: ![Version Compare Icon](img/version_compare_icon.png){.inline-image}.
+
+4\. In the **Comparing versions** screen, use the switcher in the top right corner, and click the split view:
+
+![View switcher](img/view_switcher.png "View switcher")
+
+5\. From the drop-downs, select two different language versions of the same content item.
+The screen refreshes to display the side by side view of its fields.
+
+![Compare translations screen](img/compare_translations.png "Compare translations screen")
+
+For more information, see [Work with versions](work_with_versions.md#compare-versions).
+
 ## Translations management [[% include 'snippets/lts-update_badge.md' %]]
 
 If the translations management feature [is installed and properly configured]([[= developer_doc =]]/multisite/languages/translations_management) in your system, the set of features available for content translation changes:
@@ -115,7 +162,12 @@ The back office offers several entry points where you can access the side-by-sid
 ![Create a new translation modal](img/create_translation.png "Create a new translation modal")
 
 The side-by-side translation view opens with the source text in one column and the target form in the other.
-Depending on whether you chose to use automated translations, target fields can be empty or pre-translated.
+Depending on whether you chose to use automatic translations, target fields can be empty or pre-translated.
+
+!!! note "Reviewing automatic translations"
+
+    If you chose to use automatic translations, the side-by-side view allows you to approve or reject the translation.
+    For more information, see [Review automatic translation](#review-automatic-translation).
 
 #### Copy content from source
 
@@ -125,6 +177,11 @@ Click it to copy all translatable field values from the source column into the t
 Values of all fields are copied at the same time, and there is no option to copy individual fields.
 
 ![Copy all from source button in the middle of the side-by-side view](img/side_by_side_view.png "Copy all from source button in the middle of the side-by-side view")
+
+!!! caution
+
+    When you copy content from source after a target column has been pre-translated, it overrides all existing translations.
+    This action can't be reverted.
 
 #### Change source language
 
@@ -154,13 +211,6 @@ When the source is displayed on the right, the **Collapse source language** butt
 
 The back office offers several entry points where you edit existing content item translations.
 
-To edit a draft translation:
-
-- In content tree, select a content item and open the **Versions** tab. Click a three dot icon next to a draft translation that you want to edit and, in the context menu, click **Edit side-by-side**.
-- In the main menu, go to **Content** or visit the **My dashboard** page, and go to **Drafts**. Find a draft whose source and target languages differ and click **Edit side-by-side**.
-
-This opens the existing draft in the side-by-side translation view, so you can review and refine a translation without creating a new draft.
-
 To edit a published translation:
 
 - In content tree, select a content item and click **Edit**. If more than one language version of a content item exists, a list of all available translations is displayed in the **Select translation** modal. Select a language and click the **Edit side-by-side** button.
@@ -171,49 +221,39 @@ This opens the side-by-side translation view, where you can perform a review or 
 
     The **Edit side-by-side** button is active only for languages other than the main language of the content item.
 
-## Automated translation
+To edit a draft translation:
 
-If your application comes with a [properly configured automated translation feature]([[= developer_doc =]]/multisite/languages/automated_translations), you can have your content machine-translated into multiple languages by using external translation services like Google Translate and DeepL.
+- In content tree, select a content item and open the **Versions** tab. Click a three dot icon next to a draft translation that you want to edit and, in the context menu, click **Edit side-by-side**.
+- In the main menu, go to **Content** or visit the **My dashboard** page, and go to **Drafts**. Find a draft whose source and target languages differ and click **Edit side-by-side**.
 
-To use it, in the **Create a new translation** modal, select the source and target languages and the **Use automatic translation with...** checkbox.
-If more than one service is configured, you can choose either of the available options.
+This opens the existing draft in the side-by-side translation view, so you can review and refine a translation without creating a new draft.
 
-![Automated translation](img/automated_translation.png "Automated translation")
+### Review automatic translation
 
-When you click **Create**, all the Fields are pre-filled with the values in target language, provided by the selected translation service.
+If a content item has draft translations created with automatic translation, the **Versions** tab displays a **Translation status** column.
+Such drafts are marked with one of the following badges:
 
-## Translation comparison
+- **For review** — You must review and approve the translation before it can be published.
+- **Translated** — The translation has been accepted and you can publish it.
 
-You can compare different versions of the translations of the content item.
+Draft translations that were created manually don't have a badge.
 
-1\. [Disable the Focus mode](../getting_started/discover_ui.md#disable-focus-mode).
+When you open a draft translation that has "For review" status in the side-by-side view, a reviewer's banner appears at the bottom of the screen, which allows you to accept or reject the translation.
 
-2\. In the left panel, go to **Content** -> **Content structure**. Then select a content item.
+![Reviewer's banner in the side-by-side view](img/translations_review_banner.png "Reviewer's banner in the side-by-side view")
 
-3\. Go to **Versions** tab and click the **Version compare** icon: ![Version Compare Icon](img/version_compare_icon.png){.inline-image}.
+#### Reject translation
 
-4\. In the **Comparing versions** screen, use the switcher in the top right corner, and click the split view:
+On the reviewer's banner, click **Reject** to mark the translation as requiring further work.
+The **For review** status remains unchanged and an event is logged.
 
-![View switcher](img/view_switcher.png "View switcher")
+You can reject a translation multiple times, but you can't reject a translation that has been accepted.
 
-5\. From the drop-downs, select two different language versions of the same content item.
-The screen refreshes to display the side by side view of its fields.
+#### Accept translation
 
-![Compare translations screen](img/compare_translations.png "Compare translations screen")
+On the reviewer's banner, click **Accept** to mark the translation as reviewed and approved.
+The status changes from **For review** to **Translated** and the review banner disappears.
 
-For more information, see [Work with versions](work_with_versions.md#compare-versions).
-
-## Edit page for different language versions of a website [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
-
-When you edit a page, a bar at the top of the screen lists the most recently used [SiteAccesses](multisite.md#siteaccess) on your website.
-Use this bar to switch between the different versions and work on them.
-
-<a name="siteaccess"></a>
-
-!!! note "SiteAccess concept"
-
-    SiteAccesses are a means to present different versions of the website to different categories of users.
-    You could treat SiteAccesses as different "entrance points" to your website.
-    They allow you to show different content or design to visitors, for example, to serve different language versions to visitors from different countries.
-
-    See [Work with websites](../website_organization/work_with_sites.md) for more information about setting up websites.
+Accepting a translation does not mean that it is published.
+You still need to save and publish the draft.
+You can also close the draft without publishing.
