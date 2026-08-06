@@ -8,9 +8,9 @@ description: Create new products or modify existing ones.
 Individual products are instances of [product types](create_product_types.md#create-product-types).
 You can only create or modify products when your [user role](../permission_management/work_with_permissions.md) has the `Product/Edit` permission.
 
-!!! note "Quable PIM integration"
+!!! note "[[= pim_product_name =]] integration"
 
-    When [Quable is configured as the source of product information](quable_pim_integration.md), creating and editing products in [[= product_name =]] is not available.
+    When [[[= pim_product_name =]] is configured as the source of product information](quable_integration.md), creating and editing products in [[= product_name =]] is not available.
     Products are managed in the [[= pim_product_name =]] back office and are automatically available in [[= product_name =]].
     You can still [manage prices](manage_prices.md) and [availability](manage_availability_and_stock.md) for [[= pim_product_name =]] products in [[= product_name =]].
 

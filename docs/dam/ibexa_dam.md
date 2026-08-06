@@ -63,7 +63,7 @@ You can combine searches by all types of filtering: keyword search and attribute
 
 !!! note "Search engine support"
 
-    Filtering works only when [[= product_name_base =]] uses `solr` or `elasticsearch` search engine.
+    Filtering works only when [[= product_name =]] uses `solr` or `elasticsearch` search engine.
     Legacy Search Engine (LSE) isn't supported.
 
 ### Navigation

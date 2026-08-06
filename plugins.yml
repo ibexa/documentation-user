@@ -67,6 +67,8 @@ plugins:
             'commerce/shipping/configure_shipping_method.md': 'commerce/shipping_management/work_with_shipping_methods.md'
             'commerce/payment/create_payment_methods.md': 'commerce/payment/work_with_payment_methods.md'
             'commerce/shipping_management/configure_shipping_methods.md': 'commerce/shipping_management/work_with_shipping_methods.md'
+            'ibexa_engage/ibexa_engage.md': 'qualifio/qualifio.md'
+            'product_catalog/quable_pim_integration.md': 'product_catalog/quable_integration.md'
             'pim/pim.md': 'product_catalog/product_catalog.md'
             'pim/create_edit_product.md': 'product_catalog/create_edit_product.md'
             'pim/create_product_types.md': 'product_catalog/create_product_types.md'
@@ -86,7 +88,7 @@ plugins:
     - llmstxt:
         preprocess: llmstxt_preprocess.py
         markdown_description: >-
-              > User documentation for Ibexa DXP covers content management, product catalog, commerce, and site administration for editors and business users.
+              > User documentation for Cohesivo covers content management, product catalog, commerce, and site administration for editors and business users.
         # Pin links in the generated Markdown (and llms.txt) to this branch's
         # version instead of site_url's en/latest, without affecting the HTML
         # site's canonical URLs. Update when branching a new version.
@@ -95,5 +97,5 @@ plugins:
         full_output: llms-full.txt
         sections:
           # Built automatically when running MkDocs build based on MkDocs nav configuration, don't change
-          Ibexa User Documentation:
+          Cohesivo User Documentation:
           - index.md

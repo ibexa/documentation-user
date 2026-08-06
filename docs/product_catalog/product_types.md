@@ -9,9 +9,9 @@ By default, product types contain such fields as name, specification, image, or 
 You can modify them as required.
 You need different product types, because products of type "Laptops" contain different fields and attributes than those of type "White appliances".
 
-!!! note "Quable PIM integration"
+!!! note "[[= pim_product_name =]] integration"
 
-    When [Quable is configured as the source of product information](quable_pim_integration.md), product types are defined from [[= pim_product_name =]] and are read-only in [[= product_name =]].
+    When [[[= pim_product_name =]] is configured as the source of product information](quable_integration.md), product types are defined from [[= pim_product_name =]] and are read-only in [[= product_name =]].
     To add or modify product types, use the [[= pim_product_name =]] back office.
     Changes are automatically reflected in [[= product_name =]].
 

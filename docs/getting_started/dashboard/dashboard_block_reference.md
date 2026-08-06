@@ -81,7 +81,7 @@ On the **Properties** tab, set values in the following fields:
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of products and submit your changes.
 
-This block is not supported when using [[[= pim_product_name =]]](../../product_catalog/quable_pim_integration.md) as the source of product information.
+This block is not supported when you use [[[= pim_product_name =]]](../../product_catalog/quable_integration.md) as the source of product information.
 
 ## Products with lowest stock block [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
@@ -98,7 +98,7 @@ On the **Properties** tab, set values in the following fields:
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of products and submit your changes.
 
-This block is not supported when using [[[= pim_product_name =]]](../../product_catalog/quable_pim_integration.md) as the source of product information.
+This block is not supported when you use [[[= pim_product_name =]]](../../product_catalog/quable_integration.md) as the source of product information.
 
 ## Quick actions block [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
 
@@ -107,7 +107,7 @@ Displays selected mostly used actions and shortcuts, for example, **Create conte
 On the **Properties** tab, set values in the following fields:
 
 - **Name** - Enter a name for the block.
-- **Actions** - Select actions to be displayed as shortucts: Create content, Create form, Create product, Create catalog, Create company. Default value = All.
+- **Actions** - Select actions to be displayed as shortcuts: Create content, Create form, Create product, Create catalog, Create company. Default value = All.
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of quick actions and submit your changes.
 

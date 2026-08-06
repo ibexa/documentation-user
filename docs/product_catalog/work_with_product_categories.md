@@ -9,9 +9,9 @@ The **Categories** screen is where you manually create a hierarchy of categories
 
 ![Product category tree](img/product_categories.png "Product category tree")
 
-!!! note "Quable PIM integration"
+!!! note "[[= pim_product_name =]] integration"
 
-    When [Quable is configured as the source of product information](quable_pim_integration.md), product categories are synchronized automatically from [[= pim_product_name =]] product classifications into [[= product_name =]].
+    When [[[= pim_product_name =]] is configured as the source of product information](quable_integration.md), product categories are synchronized automatically from [[= pim_product_name =]] product classifications into [[= product_name =]].
     You can't create or modify categories manually, and can't assign products to categories in [[= product_name =]].
     To change the category structure, update classifications in the [[= pim_product_name =]] back office.
 

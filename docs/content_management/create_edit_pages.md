@@ -148,7 +148,7 @@ For a list of blocks available out of the box, see [Block reference](block_refer
 
     Before you add a block that involves products, product types, or product categories, make sure your that your [user role](../permission_management/permissions_and_users.md) has the `Product/View` and `Product type/View` permission.
 
-    Before you add a [recommendation block](raptor_recommendation_blocks.md), make sure that the Raptor integration is properly [configured]([[= developer_doc =]]/recommendations/raptor_integration/connector_installation_configuration/).
+    Before you add a [recommendation block](raptor_recommendation_blocks.md), make sure that the [[= product_name_cdp_base =]] integration is properly [configured]([[= developer_doc =]]/recommendations/raptor_integration/connector_installation_configuration/).
 
 You can work with the block, for example, duplicate it, change its position, or delete it.
 Hover over the block and the toolbar appears.

@@ -1,19 +1,19 @@
 ---
-description: Use Ibexa Engage to engage audiences and collect valuable data.
+description: Use Qualifio to engage audiences and collect valuable data.
 month_change: false
 ---
 
-# [[= product_name_engage =]]
+# [[= product_name_engage =]] integration
 
-[[= product_name_engage =]] is a data collection tool.
-It gives you the ability to use the [Qualifio](https://qualifio.com/) tools to engage your audiences.
+[[[= product_name_engage =]]](https://qualifio.com/) is a data collection tool.
+It gives you the ability to use multiple tools to engage your audiences.
 You can use interactive content to build relationships and collect important data, for example, a list of recent orders, or personal information about customers.
 
 ## Request access
 
 To use [[= product_name_engage =]], you must make arrangements with [[= product_name_base =]] to define the initial configuration, and then get and set up a user account.
 
-1\. On the left menu panel, go to **Ibexa Engage**.
+1\. In the main menu, go to **Ibexa Engage**.
 
 2\. On the left panel, go to **Ibexa Engage**.
 
@@ -28,13 +28,15 @@ To use [[= product_name_engage =]], you must make arrangements with [[= product_
 
 [[= product_name_base =]] team creates the user account and provides you with its details.
 An invitation link is sent during the setup process.
-Once the registration and configuration process is completed, the welcome page displays information about campaign tools available with [[= product_name_engage =]] and a link to [Qualifio documentation](https://support.qualifio.com/hc/en-us/categories/202280638-Campaigns) where you can get information about creating and managing campaigns.
+Once the registration and configuration process is completed, the welcome page displays information about campaign tools available with [[= product_name_engage =]] and a link to this article.
 
 ![Welcome page - active account](img/welcome_page_activated.png "Welcome page - active account")
 
-Click the **Manage campaigns in Qualifio** button to open a Qualifio page, where you can create and manage campaigns.
+Click **Manage campaigns in Qualifio** to open a Qualifio page, where you can create and manage campaigns.
 
 ![Qualifio Manager](img/qualifio_manager.png "Qualifio Manager - campaign list")
+
+For more information about creating and managing campaigns, see [Qualifio documentation](https://support.qualifio.com/hc/en-us).
 
 ## Campaign
 
@@ -69,8 +71,8 @@ Every campaign includes at least one publication channel, which you can choose f
 
 ## Work with campaigns
 
-You can create, configure, and manage campaigns with [Qualifio Engage](https://developers.qualifio.com/docs/engage/).
-To access the Qualifio Manager page and create or manage campaigns, click the **Manage campaigns in Qualifio** button under the **Ibexa Engage** menu.
+You can create, configure, and manage campaigns with [Qualifio](https://developers.qualifio.com/docs/campaigns/).
+To access the Qualifio Manager page and create or manage campaigns, in the main menu, go to **Qualifio** and click **Manage campaigns in Qualifio**.
 To display your campaign on the website, use one of the available tools - Campaign block or Campaign custom tag.
 
 For more information about creating and managing campaigns, see [Qualifio Campaigns documentation](https://support.qualifio.com/hc/en-us/categories/202280638-Campaigns).

@@ -17,7 +17,7 @@ Default dashboard in [[= product_name_headless =]] contains the following blocks
 
 ![Dashboard - Headless edition](dashboard_headless.png "Default dashboard in Headless edition")
 
-You can return to the **Dashboard** screen from any other page by clicking the [[= product_name_base =]] logo on the left of the top bar, or the home icon in the main menu.
+You can return to the **Dashboard** screen from any other page by clicking the [[= product_name =]] logo on the left of the top bar, or the home icon in the main menu.
 
 ![Dashboard icon](dashboard_icon.png)
 

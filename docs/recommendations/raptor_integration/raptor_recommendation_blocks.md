@@ -6,23 +6,23 @@ month_change: true
 
 # Recommendation block reference
 
-The [Raptor](https://www.raptorservices.com/) integration add-on introduces a set of recommendation blocks.
+The [[[= product_name_cdp_base =]]](https://www.raptorservices.com/) integration add-on introduces a set of recommendation blocks.
 These blocks are available in [Page Builder](create_edit_pages.md#page-builder-interface) and can be configured to control their behavior and output.
 
 ![Recommendation blocks](img/recommendation_blocks.png)
 
-Each recommendation block corresponds to a specific Raptor module.
-You can configure it in the [Raptor Control Panel](https://controlpanel.raptorsmartadvisor.com/) where parameters and settings can be modified.
+Each recommendation block corresponds to a specific [[= product_name_cdp_base =]] module.
+You can configure it in the [[[= product_name_cdp_base =]] Control Panel](https://controlpanel.raptorsmartadvisor.com/) where parameters and settings can be modified.
 
-![Raptor module](img/raptor_module.png)
+![[[= product_name_cdp_base =]] module](img/raptor_module.png)
 
 In Page Builder, only the required parameters for each block can be configured.
 Additional, optional settings are available through the **Go to advanced settings in Raptor** link.
-It redirects to the respective module configuration in the Raptor Control Panel, where these settings can be adjusted and saved.
+It redirects to the respective module configuration in the [[= product_name_cdp_base =]] Control Panel, where these settings can be adjusted and saved.
 
 ![Advanced settings](img/advanced_settings.png)
 
-Raptor recommendations can be added to a landing page by using blocks that belong to the following categories:
+[[= product_name_cdp_base =]] recommendations can be added to a landing page by using blocks that belong to the following categories:
 
 ## Recommendations: Content
 
@@ -43,7 +43,7 @@ The following blocks can be used to present content recommendations:
 Shows content that is often viewed together with items in the same category.
 Helps users discover related content.
 
-This block uses the [GetContentBasedOnProductCategoryWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetContentBasedOnProductCategoryWeb) Raptor recommendation strategy.
+This block uses the [GetContentBasedOnProductCategoryWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetContentBasedOnProductCategoryWeb) [[= product_name_cdp_base =]] recommendation strategy.
 
 On the **Properties** tab, set values in the following fields:
 
@@ -57,7 +57,7 @@ On the **Properties** tab, set values in the following fields:
 Generates a list of complementary and relevant products that customers often view with a given content.
 Increases average visits on products to increase the average order value.
 
-This block uses the [GetItemsBasedOnContentWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetItemsBasedOnContentWeb) Raptor recommendation strategy.
+This block uses the [GetItemsBasedOnContentWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetItemsBasedOnContentWeb) [[= product_name_cdp_base =]] recommendation strategy.
 
 On the **Properties** tab, set values in the following fields:
 
@@ -71,7 +71,7 @@ On the **Properties** tab, set values in the following fields:
 Uses merchandising content and sorts it by personal preferences and popularity.
 Gives better control over recommendations while keeping content relevant to each customer.
 
-This block uses the [GetMerchandisingContentWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetMerchandisingContentWeb) Raptor recommendation strategy.
+This block uses the [GetMerchandisingContentWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetMerchandisingContentWeb) [[= product_name_cdp_base =]] recommendation strategy.
 
 On the **Properties** tab, set values in the following fields:
 
@@ -85,7 +85,7 @@ On the **Properties** tab, set values in the following fields:
 Highlights the most trending or popular content that is most frequently viewed by users across the website.
 It helps identify popular and relevant content items.
 
-This block uses the [GetPopularContentWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetPopularContentWeb) Raptor recommendation strategy.
+This block uses the [GetPopularContentWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetPopularContentWeb) [[= product_name_cdp_base =]] recommendation strategy.
 
 On the **Properties** tab, set values in the following fields:
 
@@ -99,13 +99,13 @@ Highlights content viewed by other users with similar behavior.
 Usually applied on the content page, returns content that is often viewed together with the given content.
 It increases the engagement of the customers by helping identify related and relevant content.
 
-This block uses the [GetSimilarContentWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetSimilarContentWeb) Raptor recommendation strategy.
+This block uses the [GetSimilarContentWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetSimilarContentWeb) [[= product_name_cdp_base =]] recommendation strategy.
 
 On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
 - **Name displayed on page (optional)** - Enter a name for the block to be displayed on the page.
-- **Select content for recommendations** - Select content to be used for recommendations. This content is used as the basis for recommendations, allowing Raptor to suggest similar or related items.
+- **Select content for recommendations** - Select content to be used for recommendations. This content is used as the basis for recommendations, allowing [[= product_name_cdp_base =]] to suggest similar or related items.
 - **Recommendations limit** - Set the number of recommendations to be displayed. Default = 4.
 
 ### Personalized content recommendations block
@@ -113,7 +113,7 @@ On the **Properties** tab, set values in the following fields:
 Generates complementary, personalized content tailored to each user based on their behavior and preferences.
 Increases relevance and engagement through personalized suggestions.
 
-This block uses the [GetUserContentRecommendationsWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetUserContentRecommendationsWeb) Raptor recommendation strategy.
+This block uses the [GetUserContentRecommendationsWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetUserContentRecommendationsWeb) [[= product_name_cdp_base =]] recommendation strategy.
 
 On the **Properties** tab, set values in the following fields:
 
@@ -125,7 +125,7 @@ On the **Properties** tab, set values in the following fields:
 
 Compiles either a chronological list of recent interacted content or a list of most interacted content while the user is browsing on your site.
 
-This block uses the [GetUserContentHistoryWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetUserContentHistoryWeb) Raptor recommendation strategy.
+This block uses the [GetUserContentHistoryWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetUserContentHistoryWeb) [[= product_name_cdp_base =]] recommendation strategy.
 
 On the **Properties** tab, set values in the following fields:
 
@@ -149,7 +149,7 @@ The following blocks can be used to display product suggestions based on visitor
 Uses items from Customized Feeds and sorts them based on user preferences, popularity, and current trends.
 Helps customers discover more relevant content and enhances the overall customer experience.
 
-This block uses the [GetMerchandisingItemsWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetMerchandisingItemsWeb) Raptor recommendation strategy.
+This block uses the [GetMerchandisingItemsWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetMerchandisingItemsWeb) [[= product_name_cdp_base =]] recommendation strategy.
 
 On the **Properties** tab, set values in the following fields:
 
@@ -164,7 +164,7 @@ Presents products that are currently trending and widely popular among users.
 Its behavior is defined by the calculation type, interaction type, and aggregation period.
 Helps quickly identify top-performing and popular items.
 
-This block uses the [GetPopularItemsWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetPopularItemsWeb) Raptor recommendation strategy.
+This block uses the [GetPopularItemsWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetPopularItemsWeb) [[= product_name_cdp_base =]] recommendation strategy.
 
 On the **Properties** tab, set values in the following fields:
 
@@ -180,7 +180,7 @@ Displays the most popular products within a selected category.
 Its behavior is defined by the interaction type and aggregation period.
 Helps identify the most popular items within a specific category.
 
-This block uses the [GetPopularItemsInCategoryWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetPopularItemsInCategoryWeb) Raptor recommendation strategy.
+This block uses the [GetPopularItemsInCategoryWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetPopularItemsInCategoryWeb) [[= product_name_cdp_base =]] recommendation strategy.
 
 On the **Properties** tab, set values in the following fields:
 
@@ -197,7 +197,7 @@ Shows products viewed by users with similar behavior.
 Usually applied on the product page, returns items that are often viewed together with the given product.
 Enhances user experience by suggesting related products.
 
-This block uses the [GetSimilarItemsWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetSimilarItemsWeb) Raptor recommendation strategy.
+This block uses the [GetSimilarItemsWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetSimilarItemsWeb) [[= product_name_cdp_base =]] recommendation strategy.
 
 On the **Properties** tab, set values in the following fields:
 
@@ -225,7 +225,7 @@ The following blocks can be used to show recommendations based on visitors purch
 Suggests products commonly bought together.
 Helps users find related products to encourage additional purchases.
 
-This block uses the [GetPIMRelatedItemsWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetPIMRelatedItemsWeb) Raptor recommendation strategy.
+This block uses the [GetPIMRelatedItemsWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetPIMRelatedItemsWeb) [[= product_name_cdp_base =]] recommendation strategy.
 
 On the **Properties** tab, set values in the following fields:
 
@@ -242,7 +242,7 @@ Provides real-time product recommendations based on user behavior.
 The web personal shopping assistant recommends items at each step of the customer journey, with a short-term focus.
 It helps users discover relevant items while browsing by providing personalized recommendations based on their current behavior.
 
-This block uses the [GetUserItemRecommendationsWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetUserItemRecommendationsWeb) Raptor recommendation strategy.
+This block uses the [GetUserItemRecommendationsWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetUserItemRecommendationsWeb) [[= product_name_cdp_base =]] recommendation strategy.
 
 On the **Properties** tab, set values in the following fields:
 
@@ -258,7 +258,7 @@ Toggle the **Show only available items** option on to display only products that
 Encourages users to purchase additional products.
 It offers complementary cross-selling at every stage of the customer journey, increasing the overall value of the sale.
 
-This block uses the [GetUserCrossSellingItemsWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetUserCrossSellingItemsWeb) Raptor recommendation strategy.
+This block uses the [GetUserCrossSellingItemsWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetUserCrossSellingItemsWeb) [[= product_name_cdp_base =]] recommendation strategy.
 
 On the **Properties** tab, set values in the following fields:
 
@@ -274,7 +274,7 @@ Guides users to the right product using similar product recommendations.
 This module suggests items based on user actions, helping them explore the product assortment and discover alternatives.
 It improves product fit and engagement.
 
-This block uses the [GetUserLookAlikeItemsWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetUserLookAlikeItemsWeb) Raptor recommendation strategy.
+This block uses the [GetUserLookAlikeItemsWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetUserLookAlikeItemsWeb) [[= product_name_cdp_base =]] recommendation strategy.
 
 On the **Properties** tab, set values in the following fields:
 
@@ -290,7 +290,7 @@ Shows the user’s past or current basket items, sorted by recent activity or to
 Makes it easier to find and review previously viewed or added products.
 This module can be configured to return recently viewed items, most interacted items, or items currently in the basket.
 
-This block uses the [GetUserItemHistoryWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetUserItemHistoryWeb) Raptor recommendation strategy.
+This block uses the [GetUserItemHistoryWeb](https://controlpanel.raptorsmartadvisor.com/pc/customer/tnt/product/web/module/GetUserItemHistoryWeb) [[= product_name_cdp_base =]] recommendation strategy.
 
 On the **Properties** tab, set values in the following fields:
 

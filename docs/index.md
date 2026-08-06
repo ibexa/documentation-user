@@ -1,7 +1,7 @@
 <div class="front-page">
     <div class="row">
         <div class="col-12">
-            <h1>Ibexa User Documentation</h1>
+            <h1>Cohesivo User Documentation</h1>
             <h2>How to start?</h2>
         </div>
         <div class="col-12 col-lg-6 col-fhd-3">
@@ -90,7 +90,7 @@
             <div class="notification notification--latest-release" id="tile2">
                 <div class="notification__content">
                     <h2>The latest release is [[= latest_tag_5_0 =]]</h2>
-                    <div>The latest version of Ibexa DXP is [[= latest_tag_5_0 =]]. Take advantage of the newest features and enhancements.</div>
+                    <div>The latest version of Cohesivo is [[= latest_tag_6_0 =]]. Take advantage of the newest features and enhancements.</div>
                 </div>
                 <div class="notification__cta">
                     <a href="https://doc.ibexa.co/en/latest/release_notes/ibexa_dxp_v5.0/">Release notes</a>
@@ -104,7 +104,7 @@
             <div class="notification notification--lts-update" id="tile3">
                 <div class="notification__content">
                     <h2>The newest LTS Update is MCP Servers</h2>
-                    <div>Set up MCP servers to help AI agents interact with Ibexa DXP.</div>
+                    <div>Set up MCP servers to help AI agents interact with Cohesivo.</div>
                 </div>
                 <div class="notification__cta">
                     <a href="https://doc.ibexa.co/en/5.0/ai/mcp/mcp_guide/">Learn more about this LTS Update</a>
@@ -177,7 +177,7 @@
     </div>
     <div class="row">
         <div class="col-12">
-            <h2>Manage your DXP</h2>
+            <h2>Manage your CMS</h2>
         </div>
         <div class="col-12 col-lg-6 col-fhd-3">
             <div class="info-tile info-tile--link-card">
