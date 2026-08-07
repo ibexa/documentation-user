@@ -107,6 +107,20 @@ If the translations management feature [is installed and properly configured]([[
 - Application administrators can [define language pairs]([[= developer_doc =]]/multisite/languages/translations_management/#define-language-pairs) and assign [translation providers]([[= developer_doc =]]/multisite/languages/translations_management/#configure-translation-providers) to them.
 - Content editors get a redesigned translation interface called side-by-side translation view. If at least one automated translation provider is configured, editors can use it here to machine-translate content.
 
+!!! note "Translations management limitations"
+
+    Content types that use Page Builder or Form Builder do not support the side-by-side translation view and open in the standard single-language editor instead.
+    Additionally, content types that use Form Builder do not support automatic translation and you can only translate them manually.
+
+    When a content type that uses Page Builder is automatically translated, only the following are translated:
+
+    - The page's title and description
+    - Names of page blocks
+    - Plain text on page blocks
+    - Richtext fields on page blocks
+
+    Also, product attributes are not translatable and they are inactive in the side-by-side translation view.
+
 ### Side-by-side translation view
 
 The side-by-side translation view displays the source and target text of the content item or product on one screen.
@@ -126,12 +140,6 @@ The view also supports the [distraction-free mode](create_edit_content_items.md#
 
 ![Distraction-free mode](img/translations_distraction_free_mode.png "Distraction-free mode")
 
-
-!!! note "Side-by-side translation view limitations"
-
-    Content types that use Page Builder or Form Builder do not support the side-by-side translation view and open in the standard single-language editor instead.
-
-    Also, product attributes are not translatable and they are inactive in the side-by-side translation view.
 
 The back office offers several entry points where you can access the side-by-side translation view, for example:
 
