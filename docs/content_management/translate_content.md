@@ -1,5 +1,5 @@
 ---
-description: Create multiple language versions of content items.
+description: Create multiple language versions of content items and products.
 ---
 
 # Translate content
@@ -109,20 +109,25 @@ If the translations management feature [is installed and properly configured]([[
 
 ### Side-by-side translation view
 
-The side-by-side translation view displays the source and target text of the content item on one screen.
+The side-by-side translation view displays the source and target text of the content item or product on one screen.
 This way you can add, modify or review translations in context without having to switch between tabs or windows.
 
 Depending on [user settings](get_started.md#user-settings), the source language column appears on the left or right of the side-by-side view.
 By default, the source is on the left.
 
 Non-translatable fields are inactive in the source column, but they remain active in the translation column.
-This way you can, for example, replace images, with their localized counterparts.
+This way you can, for example, replace images with their localized counterparts.
 
 ![Side-by-side translation view](img/managing_translations_sxs_view.png "Side-by-side translation view")
 
-Like in the standard content item editor, when multiple sections or field groups exist within the content item, anchors appear at the top of the side-by-side translation view to help you jump directly to a specific section.
+Like in the standard content item editor, when multiple sections or field groups exist within the content item or product, anchors appear at the top of the side-by-side translation view to help you jump directly to a specific section.
 
-!!! note "Content type support limitations"
+The view also supports the [distraction-free mode](create_edit_content_items.md#distraction-free-mode).
+
+![Distraction-free mode](img/translations_distraction_free_mode.png "Distraction-free mode")
+
+
+!!! note "Side-by-side translation view limitations"
 
     Content types that use Page Builder or Form Builder do not support the side-by-side translation view and open in the standard single-language editor instead.
 
@@ -130,7 +135,8 @@ Like in the standard content item editor, when multiple sections or field groups
 
 The back office offers several entry points where you can access the side-by-side translation view, for example:
 
-- **Translations tab** — Go to **Content** -> **Content structure**, select a content item, open the **Translations** tab, and click **+ Add**.
+- Content item's **Translations tab** — Go to **Content** -> **Content structure**, select a content item, open the **Translations** tab, and click **+ Add**.
+- Product's **Translations tab** — Go to **Product catalog** -> **Products**, select a product, open the **Translations** tab, and click **+ Add**.
 - **Content tree** — Click a three dot icon next to a content item in the content tree and, in the context menu, click **Add translation**.
 - **Content edit view** — When you choose to edit a content item and several language versions exist, the **Edit side-by-side** button is active for all languages that differ from the main language of the content item.
 
@@ -138,26 +144,29 @@ The back office offers several entry points where you can access the side-by-sid
 
 ### Add new translation
 
-1. Either click **Add translation** in the content tree, or **+ Add** in the **Translations** tab.
-3. In the **Create a new translation** modal, select the source and target languages.
+1. Either click **+ Add** in the **Translations** tab, or **Add translation** in the content tree.
+2. In the **Create a new translation** modal, select the source and target languages.
 
     !!! note "Draft conflict"
 
-        If a draft already exists for the selected target language, a warning appears in the modal to inform you about this fact.
+        If a draft translation of the content item already exists for the selected target language, a warning appears in the modal to inform you about this fact.
         You can proceed and add a new draft, or discard the modal and edit the existing draft translation.
+        
+        Products don't have draft translations. 
+
         For more information, see [Edit existing translations](#edit-existing-translations).
 
-4. If **Use automatic translation** is checked, select a translation provider from a drop-down list.
+3. If **Use automatic translation** is checked, select a translation provider from a drop-down list.
 
     !!! note
 
         You may prefer to translate the content by yourself.
         To do it, uncheck **Use automatic translation** and proceed.
 
-        If no translation provider are configured in the system, the checkbox is inactive.
+        If no translation providers are configured in the system, the checkbox is inactive.
         If only one provider exists in the system, there is a checkbox, but no drop-down list.
 
-5. Click **Open side-by-side**.
+4. Click **Open side-by-side**.
 
 ![Create a new translation modal](img/create_translation.png "Create a new translation modal")
 
@@ -169,64 +178,64 @@ Depending on whether you chose to use automatic translations, target fields can 
     If you chose to use automatic translations, the side-by-side view allows you to approve or reject the translation.
     For more information, see [Review automatic translation](#review-automatic-translation).
 
+5\. When you work with a product, **Save and close** publishes the translation and **Discard** removes it completely.
+
+6\. When you work with other content items, you have multiple options to quit editing and preserve the translation, while **Delete draft** removes it completely.
+
+#### Change source language
+
+When a content item or product has multiple published language versions, a drop-down list appears at the top of the source column instead of a language label.
+You can use the dropdown list to change the language that is displayed in the source column.
+
 #### Copy content from source
 
 The divider between the source and target columns contains a **Copy all from source** button.
 Click it to copy all translatable field values from the source column into the target fields in a single action.
-
-Values of all fields are copied at the same time, and there is no option to copy individual fields.
+Values of all fields are copied at the same time.
 
 ![Copy all from source button in the middle of the side-by-side view](img/side_by_side_view.png "Copy all from source button in the middle of the side-by-side view")
 
 !!! caution
 
-    When you copy content from source after a target column has been pre-translated, it overrides all existing translations.
+    When you copy content from source after a target column has been translated, it overrides all existing translations.
     This action can't be reverted.
 
-#### Change source language
-
-When a content item has multiple published language versions, a drop-down list appears at the top of the source column instead of a language label.
-You can use the dropdown list to change the language that is displayed in the source column.
+The button is absent if you switch to the [distraction-free mode](create_edit_content_items.md#distraction-free-mode).
 
 #### Hide the source
 
 When the source is placed on the right, the divider between the source and target columns contains a **Collapse source language** button.
 The button toggles the source panel visibility, allowing editors to hide the source text when they no longer need it.
 
-#### Distraction-free mode
-
-The distraction mode helps you focus on editing the text or work with longer texts that take more space.
-
-Click the **Distraction free mode** button next to any field in the target column to open a full-screen view of that field.
-Like in the standard mode, in the distraction-free mode, the source text is visible next to the target field for reference.
-However, the **Copy content from source** button is absent.
-
-In distraction-free mode, AI actions, including automatic translation, are available from the editor toolbar.
-
-![Distraction-free mode](img/translations_distraction_free_mode.png "Distraction-free mode")
-
-When the source is displayed on the right, the **Collapse source language** button displays here as well to let editors hide the source text.
-
 ### Edit existing translations
 
-The back office offers several entry points where you edit existing content item translations.
+The back office offers several entry points where you edit existing content item or product translations.
 
-To edit a published translation:
+To edit a published translation of a content item:
 
 - In content tree, select a content item and click **Edit**. If more than one language version of a content item exists, a list of all available translations is displayed in the **Select translation** modal. Select a language and click the **Edit side-by-side** button.
 
-This opens the side-by-side translation view, where you can perform a review or make your changes and either publish directly create a new draft.
+To edit a translation of a product:
+
+- Go to **Product catalog** -> **Products**, select a product, and open the **Translations** tab.
+Then, next to a language version that you want to edit, click the **Edit side-by-side** button.
+
+This opens the side-by-side translation view, where you can perform a review or make your changes and either publish directly or create a new draft.
 
 !!! tip
 
-    The **Edit side-by-side** button is active only for languages other than the main language of the content item.
+    The **Edit side-by-side** button is active only for languages other than the main language of the content item or product.
 
-To edit a draft translation:
+To edit a draft translation of a content item:
 
 - In content tree, select a content item and open the **Versions** tab. Click a three dot icon next to a draft translation that you want to edit and, in the context menu, click **Edit side-by-side**.
 - In the main menu, go to **Content** or visit the **My dashboard** page, and go to **Drafts**. Find a draft whose source and target languages differ and click **Edit side-by-side**.
 
 This opens the existing draft in the side-by-side translation view, so you can review and refine a translation without creating a new draft.
+
+!!! tip
+
+    Products don't have draft translations. 
 
 ### Review automatic translation
 
@@ -238,22 +247,28 @@ Such drafts are marked with one of the following badges:
 
 Draft translations that were created manually don't have a badge.
 
-When you open a draft translation that has "For review" status in the side-by-side view, a reviewer's banner appears at the bottom of the screen, which allows you to accept or reject the translation.
+When you create and open an automatic translation or open a draft translation of a content item that has "For review" status in the side-by-side view, a review banner appears at the bottom of the screen, which allows you to accept or reject the translation.
 
-![Reviewer's banner in the side-by-side view](img/translations_review_banner.png "Reviewer's banner in the side-by-side view")
+![review banner in the side-by-side view](img/translations_review_banner.png "review banner in the side-by-side view")
 
 #### Reject translation
 
-On the reviewer's banner, click **Reject** to mark the translation as requiring further work.
-The **For review** status remains unchanged and an event is logged.
+On the review banner, click **Reject** to mark the translation as requiring further work.
+The review banner hides but it reappears the next time you open the translation.
+The **For review** status in the **Versions** tab remains unchanged.
 
 You can reject a translation multiple times, but you can't reject a translation that has been accepted.
 
+!!! tip
+
+    Rejecting a translation of a product does not unpublish it.
+    To unpublish a product translation you must delete it in the **Translations** tab.
+
 #### Accept translation
 
-On the reviewer's banner, click **Accept** to mark the translation as reviewed and approved.
-The status changes from **For review** to **Translated** and the review banner disappears.
+On the review banner, click **Accept** to mark the translation as reviewed and approved.
+The review banner disappears forever and the status changes from **For review** to **Translated**.
 
-Accepting a translation does not mean that it is published.
+Accepting a translation of a content item does not mean that it is published.
 You still need to save and publish the draft.
 You can also close the draft without publishing.
