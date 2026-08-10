@@ -147,6 +147,7 @@ Focus mode is enabled by default when you first log into [[= product_name =]], b
 - in the drop-down menu on the right side of the top bar
 
 ![Focus mode switch](img/FM_switch.png "Focus mode switch")
+
 ## Help center [[% include 'snippets/lts-update_badge.md' %]]
 
 If the Integrated help [LTS update]([[= developer_doc =]]/ibexa_products/editions/#lts-updates) has been configured in your application, you may notice that the ![Help center](about-info.png){.inline-image} icon appears at the bottom right of multiple screens.
