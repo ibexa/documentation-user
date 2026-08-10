@@ -102,7 +102,7 @@ For more information, see [Work with versions](work_with_versions.md#compare-ver
 
 ## Translations management [[% include 'snippets/lts-update_badge.md' %]]
 
-If the translations management feature [is installed and properly configured]([[= developer_doc =]]/multisite/languages/translations_management) in your system, the set of features available for content translation changes:
+If the translations management feature [is installed and properly configured]([[= developer_doc =]]/multisite/languages/translations_management) in your system, the set of features available for [content item](content_items.md) and [product](products.md) translation changes:
 
 - Application administrators can [define language pairs]([[= developer_doc =]]/multisite/languages/translations_management/#define-language-pairs) and assign [translation providers]([[= developer_doc =]]/multisite/languages/translations_management/#configure-translation-providers) to them.
 - Content editors get a redesigned translation interface called side-by-side translation view. If at least one automated translation provider is configured, editors can use it here to machine-translate content.
@@ -152,7 +152,7 @@ The back office offers several entry points where you can access the side-by-sid
 
 ### Add new translation
 
-1. Either click **+ Add** in the **Translations** tab, or **Add translation** in the content tree.
+1. Either click **+ Add** in the content item's or product's **Translations** tab, or **Add translation** in the content tree.
 2. In the **Create a new translation** modal, select the source and target languages.
 
     !!! note "Draft conflict"
