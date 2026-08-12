@@ -8,8 +8,10 @@ The content on your website can be translated into different languages.
 Each content item can have different language versions.
 The version visible to a visitor depends on the way your installation is set up (see [SiteAccess concept](#edit-page-for-different-language-versions-of-a-website)).
 
-If the [Translations management](#translations-management) LTS Update is installed in your system, [[= product_name =]] offers a side-by-side translation view that displays the source and target languages simultaneously.
-It makes it easier for you to provide, edit and review translations.
+!!! tip "Translations management LTS Update"
+
+    If the [Translations management](#translations-management) LTS Update is installed in your system, [[= product_name =]] offers a side-by-side translation view that displays the source and target languages simultaneously.
+    It makes it easier for you to provide, edit and review translations.
 
 ## Add website languages
 
@@ -110,14 +112,9 @@ If the translations management feature [is installed and properly configured]([[
 !!! note "Translations management limitations"
 
     Content types that use Page Builder or Form Builder do not support the side-by-side translation view and open in the standard single-language editor instead.
-    Additionally, content types that use Form Builder do not support automatic translation and you can only translate them manually.
 
-    When a content type that uses Page Builder is automatically translated, only the following are translated:
-
-    - The page's title and description
-    - Names of page blocks
-    - Plain text on page blocks
-    - Richtext fields on page blocks
+    When a content type that uses Page Builder is automatically translated, only the page's title and description are translated.
+    When a content type that uses Form Builder is automatically translated, only the forms's title is translated.
 
     Also, product attributes are not translatable and they are inactive in the side-by-side translation view.
 
@@ -125,6 +122,15 @@ If the translations management feature [is installed and properly configured]([[
 
 The side-by-side translation view displays the source and target text of the content item or product on one screen.
 This way you can add, modify or review translations in context without having to switch between tabs or windows.
+
+The back office offers several entry points where you can access the side-by-side translation view, for example:
+
+- Content item's **Translations tab** — Go to **Content** -> **Content structure**, select a content item, open the **Translations** tab, and click **+ Add**.
+- Product's **Translations tab** — Go to **Product catalog** -> **Products**, select a product, open the **Translations** tab, and click **+ Add**.
+- **Content tree** — Click a three dot icon next to a content item in the content tree and, in the context menu, click **Add translation**.
+- **Content edit view** — When you choose to edit a content item and several language versions exist, the **Edit side-by-side** button is active for all languages that differ from the main language of the content item.
+
+#### Source and target columns
 
 Depending on [user settings](get_started.md#user-settings), the source language column appears on the left or right of the side-by-side view.
 By default, the source is on the left.
@@ -136,63 +142,13 @@ This way you can, for example, replace images with their localized counterparts.
 
 Like in the standard content item editor, when multiple sections or field groups exist within the content item or product, anchors appear at the top of the side-by-side translation view to help you jump directly to a specific section.
 
-The view also supports the [distraction-free mode](create_edit_content_items.md#distraction-free-mode).
+The view also supports the [distraction-free mode](create_edit_content_items.md#distraction-free-mode), where longer texts in both columns can be scrolled in a synchronized way.
 
 ![Distraction-free mode](img/translations_distraction_free_mode.png "Distraction-free mode")
 
-
-The back office offers several entry points where you can access the side-by-side translation view, for example:
-
-- Content item's **Translations tab** — Go to **Content** -> **Content structure**, select a content item, open the **Translations** tab, and click **+ Add**.
-- Product's **Translations tab** — Go to **Product catalog** -> **Products**, select a product, open the **Translations** tab, and click **+ Add**.
-- **Content tree** — Click a three dot icon next to a content item in the content tree and, in the context menu, click **Add translation**.
-- **Content edit view** — When you choose to edit a content item and several language versions exist, the **Edit side-by-side** button is active for all languages that differ from the main language of the content item.
-
-![Starting the translation from the context menu](img/translate_from_content_tree.png "Starting the translation from the context menu")
-
-### Add new translation
-
-1. Either click **+ Add** in the content item's or product's **Translations** tab, or **Add translation** in the content tree.
-2. In the **Create a new translation** modal, select the source and target languages.
-
-    !!! note "Draft conflict"
-
-        If a draft translation of the content item already exists for the selected target language, a warning appears in the modal to inform you about this fact.
-        You can proceed and add a new draft, or discard the modal and edit the existing draft translation.
-        
-        Products don't have draft translations. 
-
-        For more information, see [Edit existing translations](#edit-existing-translations).
-
-3. If **Use automatic translation** is checked, select a translation provider from a drop-down list.
-
-    !!! note
-
-        You may prefer to translate the content by yourself.
-        To do it, uncheck **Use automatic translation** and proceed.
-
-        If no translation providers are configured in the system, the checkbox is inactive.
-        If only one provider exists in the system, there is a checkbox, but no drop-down list.
-
-4. Click **Open side-by-side**.
-
-![Create a new translation modal](img/create_translation.png "Create a new translation modal")
-
-The side-by-side translation view opens with the source text in one column and the target form in the other.
-Depending on whether you chose to use automatic translations, target fields can be empty or pre-translated.
-
-!!! note "Reviewing automatic translations"
-
-    If you chose to use automatic translations, the side-by-side view allows you to approve or reject the translation.
-    For more information, see [Review automatic translation](#review-automatic-translation).
-
-5\. When you work with a product, **Save and close** publishes the translation and **Discard** removes it completely.
-
-6\. When you work with other content items, you have multiple options to quit editing and preserve the translation, while **Delete draft** removes it completely.
-
 #### Change source language
 
-When a content item or product has multiple published language versions, a drop-down list appears at the top of the source column instead of a language label.
+When a content item or product has multiple published language versions, a drop-down list appears at the top of the source column.
 You can use the dropdown list to change the language that is displayed in the source column.
 
 #### Copy content from source
@@ -201,7 +157,7 @@ The divider between the source and target columns contains a **Copy all from sou
 Click it to copy all translatable field values from the source column into the target fields in a single action.
 Values of all fields are copied at the same time.
 
-![Copy all from source button in the middle of the side-by-side view](img/side_by_side_view.png "Copy all from source button in the middle of the side-by-side view")
+![Copy all from source button](img/translations_copy_source.png "Copy all from source button")
 
 !!! caution
 
@@ -214,6 +170,49 @@ The button is absent if you switch to the [distraction-free mode](create_edit_co
 
 When the source is placed on the right, the divider between the source and target columns contains a **Collapse source language** button.
 The button toggles the source panel visibility, allowing editors to hide the source text when they no longer need it.
+
+![Collapse source button](img/translations_copy_source.png "Collapse source button")
+
+### Add new translation
+
+1. Either click **+ Add** in the content item's or product's **Translations** tab, or **Add translation** in the content tree.
+
+![Starting the translation from the content tree](img/translate_from_content_tree.png "Starting the translation from the content tree")
+
+2\. In the **Create a new translation** modal, select the source and target languages.
+
+!!! note "Draft conflict"
+
+    If a draft translation of the content item already exists for the selected target language, a warning appears in the modal to inform you about this fact.
+    You can proceed and add a new draft, or discard the modal and edit the existing draft translation.
+    
+    Products don't have draft translations. 
+
+    For more information, see [Edit existing translations](#edit-existing-translations).
+
+3\. If **Use automatic translation** is checked, select a translation provider from a drop-down list.
+
+You may prefer to translate the content by yourself.
+To do it, uncheck **Use automatic translation** and proceed.
+
+![Create a new translation modal](img/translations_create_translation.png "Create a new translation modal")
+
+If no translation providers are configured in the system, the checkbox is inactive.
+If only one provider exists in the system, there is a checkbox, but no drop-down list.
+
+4\. Click **Open side-by-side**.
+
+The [side-by-side translation view](#side-by-side-translation-view) opens with the source text in one column and the target form in the other.
+Depending on whether you chose to use automatic translations, target fields can be empty or pre-translated.
+
+!!! note "Reviewing automatic translations"
+
+    If you chose to use automatic translations, the side-by-side view allows you to approve or reject the translation.
+    For more information, see [Review automatic translation](#review-automatic-translation).
+
+5\. When you work with a product, **Save and close** publishes the translation and **Discard** removes it completely.
+
+6\. When you work with other content items, you have multiple options to quit editing and preserve the translation, while **Delete draft** removes it completely.
 
 ### Edit existing translations
 
@@ -247,7 +246,7 @@ This opens the existing draft in the side-by-side translation view, so you can r
 
 ### Review automatic translation
 
-If a content item has draft translations created with automatic translation, the **Versions** tab displays a **Translation status** column.
+If a content item or product has draft translations created with automatic translation, the **Versions** tab displays a **Translation status** column.
 Such drafts are marked with one of the following badges:
 
 - **For review** — You must review and approve the translation before it can be published.
@@ -257,7 +256,7 @@ Draft translations that were created manually don't have a badge.
 
 When you create and open an automatic translation or open a draft translation of a content item that has "For review" status in the side-by-side view, a review banner appears at the bottom of the screen, which allows you to accept or reject the translation.
 
-![review banner in the side-by-side view](img/translations_review_banner.png "review banner in the side-by-side view")
+![Review banner in the side-by-side view](img/translations_review_banner.png "Review banner in the side-by-side view")
 
 #### Reject translation
 
