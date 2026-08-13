@@ -1,5 +1,5 @@
 ---
-description: Maintain the product catalog and customer information behind your store.
+description: Maintain the product catalog information.
 ---
 
 # Store manager role
