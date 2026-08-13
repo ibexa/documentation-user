@@ -16,7 +16,6 @@ By default, actions on the following items are displayed:
 - [Location](manage_locations_urls.md#content-locations)
 - [Product](products.md)
 - [Product variant](work_with_product_variants.md)
-- [Site](work_with_sites.md)
 
 !!! note
 

@@ -18,6 +18,5 @@ Whether you're a new or seasoned user of [[= product_name =]], feel free to brow
     "product_catalog/products",
     "persona_paths/manage_products",
     "customer_management/customer_portal",
-    "website_organization/multisite",
     "permission_management/permissions_and_users"
 ]) =]]

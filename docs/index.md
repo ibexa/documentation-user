@@ -158,7 +158,6 @@
                     <div class="row">
                         <div class="col-12 col-lg-6 col-fhd-3">
                             <ul>
-                                <li><a href="website_organization/work_with_sites/">Site Factory</a></li>
                                 <li><a href="content_management/translate_content/">Translations</a></li>
                             </ul>
                         </div>

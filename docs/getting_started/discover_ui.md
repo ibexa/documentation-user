@@ -34,7 +34,6 @@ G\. User avatar with a drop-down menu with access to [user profile and settings]
 !!! note "Site context"
 
     Changing the site context results in the [content tree](#content-tree) showing content items that belong to the selected website.
-    The appearance of content items can also change if they use different designs or languages depending on the [SiteAccess](../website_organization/multisite.md#siteaccess) settings.
 
 ## Dashboard
 
@@ -62,7 +61,7 @@ Depending on your [permissions](../permission_management/permission_system.md), 
 
 - **Content**, which gives you access to the content repository.
 It lets you navigate the content tree, and, for example, create, edit, move, copy, or delete content.
-- **Site management**, which enables you to create and edit block-based pages and manage multiple websites.
+- **Site management**, which enables you to create and edit block-based pages.
 - **Product catalog**, which enables you to handle products presented on the website, including their specifications and pricing.
 - **Admin**, which is the administration panel where you can manage, for example, Users, Sections, or permissions.
 
@@ -88,16 +87,14 @@ The Content Browser window opens, and you can select the new destination of the 
 ![Content Browser](img/udw.png "Content Browser")
 
 With the **Content Browser**, you can switch between the Grid, Panels and Tree views to navigate through the content of the website.
-Depending on your permissions, you might be able to see the regular content, media, forms, site skeletons, and user accounts.
+Depending on your permissions, you might be able to see the regular content, media, forms, and user accounts.
 You can also use the **Content Browser** to search the repository for content, edit content, create bookmarks, and create new content when needed.
 
 !!! note
 
-    If you have administrator permissions, you can also view and manage user accounts and site skeletons in the **Admin** tab.
+    If you have administrator permissions, you can also view and manage user accounts in the **Admin** tab.
 
     For more information about users and permissions, see [Users](../permission_management/permissions_and_users.md).
-
-    For more information about site skeletons, see [Site skeletons]([[= developer_doc =]]/multisite/site_factory/site_factory_configuration/#site-skeletons).
 
 ## Focus mode
 
@@ -113,7 +110,7 @@ If you need access to certain settings or technical details, you can [disable th
 ![Dark theme for content tree](img/FM_dark_content_tree.png "Dark theme for content tree")
 
 - **Content item view**
-: If you select a specific [SiteAccess](translate_content.md#siteaccess) from the **Site context** drop-down list on the right side of the top bar and then browse content items in content tree, they're displayed in full view, with a limited set of actions available.
+: If you select a specific site from the **Site context** drop-down list on the right side of the top bar and then browse content items in content tree, they're displayed in full view, with a limited set of actions available.
 To display the content item details view with more actions, click **Exit full view**.
 
 ![Content item in full view](img/FM_content_item_full_view.png "Content item in full view")

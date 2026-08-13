@@ -13,7 +13,6 @@ However, certain things can be done in the back office.
 ## What would you like to do today?
 
 [[= cards([
-    "website_organization/work_with_sites",
     "permission_management/permissions_and_users",
     "persona_paths/manage_content_model",
     "content_management/workflow_management/view_workflow_list"

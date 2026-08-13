@@ -101,10 +101,7 @@ nav:
         - Create and edit Customer Portal: customer_management/build_customer_portal.md
         - Manage customers: customer_management/manage_customers.md
         - Company self-registration: customer_management/company_self_registration.md
-    - Website organization:
-        - Multisite: website_organization/multisite.md
-        - Work with sites: website_organization/work_with_sites.md
-    - Permissions and users: 
+    - Permissions and users:
         - Permission system: permission_management/permission_system.md
         - Work with permissions: permission_management/work_with_permissions.md
         - Manage users: user_management/manage_users.md

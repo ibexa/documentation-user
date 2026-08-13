@@ -6,7 +6,6 @@ description: Create multiple language versions of content items.
 
 The content on your website can be translated into different languages.
 Each content item can have different language versions.
-The version visible to a visitor depends on the way your installation is set up (see [SiteAccess concept](#edit-page-for-different-language-versions-of-a-website)).
 
 ## Add website languages
 
@@ -75,18 +74,3 @@ The screen refreshes to display the side by side view of its fields.
 ![Compare translations screen](img/compare_translations.png "Compare translations screen")
 
 For more information, see [Work with versions](work_with_versions.md#compare-versions).
-
-## Edit page for different language versions of a website
-
-When you edit a page, a bar at the top of the screen lists the most recently used [SiteAccesses](multisite.md#siteaccess) on your website.
-Use this bar to switch between the different versions and work on them.
-
-<a name="siteaccess"></a>
-
-!!! note "SiteAccess concept"
-
-    SiteAccesses are a means to present different versions of the website to different categories of users.
-    You could treat SiteAccesses as different "entrance points" to your website.
-    They allow you to show different content or design to visitors, for example, to serve different language versions to visitors from different countries.
-
-    See [Work with websites](../website_organization/work_with_sites.md) for more information about setting up websites.

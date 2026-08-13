@@ -20,7 +20,7 @@ By clicking the following icons, you can switch between different Page views.
 
 !!! tip
 
-    In the content item preview screen, you can use a drop-down list to change site context by switching between [SiteAccesses](translate_content.md#siteaccess).
+    In the content item preview screen, you can use a drop-down list to change site context by switching between sites.
     You can also toggle through different screen widths to see how the content item is rendered on different devices.
 
 ![View toggler](page_builder_toolbar_devicestoggler.png "View toggler")
