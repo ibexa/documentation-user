@@ -14,7 +14,6 @@ It features a customizable user interface where you can work with the content, p
 
 - [content management](content_management.md)
 - [product management](product_catalog.md)
-- [customer management](customer_management.md)
 
 !!! note "Installation"
 

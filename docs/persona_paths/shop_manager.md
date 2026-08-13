@@ -10,7 +10,6 @@ In [[= product_name =]], it means that you must focus on many things, including 
 - Create and maintain product information (for example, descriptions, tech specifications, or media)
 - Maintain product prices
 - Maintaing product availability
-- Manage customers
 
 ## What would you like to do today?
 
@@ -18,6 +17,5 @@ In [[= product_name =]], it means that you must focus on many things, including 
     "product_catalog/products",
     "persona_paths/manage_products",
     "product_catalog/manage_currencies",
-    "product_catalog/manage_prices",
-    "customer_management/manage_customers"
+    "product_catalog/manage_prices"
 ], style="path") =]]

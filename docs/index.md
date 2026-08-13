@@ -217,26 +217,5 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-lg-6 col-fhd-3">
-            <div class="info-tile info-tile--link-card">
-                <div class="info-tile__content">
-                    <h3>
-                        <a href="customer_management/customer_portal/">
-                            <svg>
-                                <use xlink:href="images/icons.svg#profile" />
-                            </svg>
-                            Customer
-                        </a>
-                    </h3>
-                    <ul>
-                        <li><a href="customer_management/customer_portal/">Manage Customer Portal account</a></li>
-                        <li><a href="customer_management/manage_customers/">Manage customers</a></li>
-                        <li><a href="customer_management/company_self_registration/">Company self-registration</a></li>
-                        <li><a href="customer_management/build_customer_portal/">Create and edit Customer Portal</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
     </div>
 </div>

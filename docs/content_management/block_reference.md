@@ -23,7 +23,6 @@ The following blocks are provided with a clean installation of [[= product_name 
 |[Product collection](#product-collection-block)|Displays a list of specifically selected products.|
 |[Product embed](#product-embed)|Displays a specific product.|
 |[RSS](#rss-block)|Loads and displays news from RSS feeds (channels). |
-|[Sales representative](#sales-representative)|Loads and displays company's sales representative.|
 |[SeenThis!](#seenthis-block)|Displays video with exceeded standard video restrictions of 3.5MB.|
 |[Targeting](#targeting-block)|Embeds an content item based on the [segment](content_organization/classify_content.md#segments) the user belongs to. |
 |[Text](#text-block)|Enables you to add to the page a Rich Text block. |
@@ -210,16 +209,6 @@ On the **Properties** tab, set values in the following fields:
 - **URL** — Enter the URL for the RSS news feed.
 - **Limit** — Set the number of news items to be displayed.
 - **Offset** — Set the limit of featured news items to be displayed.
-
-### Sales representative
-
-Imports and showcases sales representatives for the company in the Customer Portal.
-Gives users a way to connect with the team that handles their sales needs.
-On the **Properties** tab, set values in the following fields:
-
-- **Name** – Enter a name for the page block.
-
-On the **Design** tab, in the **View** field, select the layout to be used to present the Sales representative's details view and submit your changes.
 
 ### SeenThis! block
 
