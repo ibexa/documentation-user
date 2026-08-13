@@ -130,7 +130,6 @@
                         <div class="col-12 col-lg-6 col-fhd-3">
                             <ul>
                                 <li><a href="https://doc.ibexa.co/en/5.0/release_notes/ibexa_dxp_v5.0/#ai-actions">AI Actions</a></li>
-                                <li><a href="https://doc.ibexa.co/en/5.0/release_notes/ibexa_dxp_v5.0/#discounts">Discounts</a></li>
                                 <li><a href="https://doc.ibexa.co/en/5.0/release_notes/ibexa_dxp_v5.0/#software-architecture-upgrades">Tech stack upgrades</a></li>
                             </ul>
                         </div>
@@ -215,27 +214,6 @@
                         <li><a href="product_catalog/create_edit_product/">Create and edit products</a></li>
                         <li><a href="product_catalog/work_with_product_variants/">Work with product variants</a></li>
                         <li><a href="product_catalog/work_with_catalogs/">Work with catalogs</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="col-12 col-lg-6 col-fhd-3">
-            <div class="info-tile info-tile--link-card">
-                <div class="info-tile__content">
-                    <h3>
-                        <a href="commerce/commerce/">
-                            <svg>
-                                <use xlink:href="images/icons.svg#cart" />
-                            </svg>
-                            Commerce
-                        </a>
-                    </h3>
-                    <ul>
-                        <li><a href="commerce/order_management/work_with_orders/">Work with orders</a></li>
-                        <li><a href="commerce/shipping_management/work_with_shipping_methods/">Work with shipping
-                                methods</a></li>
-                        <li><a href="commerce/payment/work_with_payment_methods/">Work with payment methods</a></li>
-                        <li><a href="commerce/discounts/work_with_discounts/">Work with discounts</a></li>
                     </ul>
                 </div>
             </div>

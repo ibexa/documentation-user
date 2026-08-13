@@ -76,7 +76,7 @@ The screen refreshes to display the side by side view of its fields.
 
 For more information, see [Work with versions](work_with_versions.md#compare-versions).
 
-## Edit page for different language versions of a website [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
+## Edit page for different language versions of a website [[% include 'snippets/experience_badge.md' %]]
 
 When you edit a page, a bar at the top of the screen lists the most recently used [SiteAccesses](multisite.md#siteaccess) on your website.
 Use this bar to switch between the different versions and work on them.

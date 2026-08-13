@@ -88,19 +88,6 @@ nav:
         - Search Engine Optimization: 
             - SEO: search_engine_optimization/seo.md
             - Work with SEO: search_engine_optimization/work_with_seo.md
-    - Commerce:
-        - Commerce: commerce/commerce.md
-        - Order management: commerce/order_management/order_management.md
-        - Work with orders: commerce/order_management/work_with_orders.md
-        - Shipping management: commerce/shipping_management/shipping_management.md
-        - Work with shipments: commerce/shipping_management/work_with_shipments.md
-        - Work with shipping methods: commerce/shipping_management/work_with_shipping_methods.md 
-        - Payment management: commerce/payment/payment_management.md
-        - Work with payments: commerce/payment/work_with_payments.md
-        - Work with payment methods: commerce/payment/work_with_payment_methods.md
-        - Discounts:
-            - Discounts: commerce/discounts/discounts.md
-            - Work with Discounts: commerce/discounts/work_with_discounts.md
     - Recommendations:
         - Raptor integration:
             - Recommendation blocks: recommendations/raptor_integration/raptor_recommendation_blocks.md
@@ -171,7 +158,6 @@ extra:
   product_name_content: 'Cohesivo Content'
   product_name_headless: 'Cohesivo Headless'
   product_name_exp: 'Cohesivo Experience'
-  product_name_com: 'Cohesivo Commerce'
   product_name_cdp: 'Raptor CDP'
   product_name_cdp_base: 'Raptor'
   product_name_connect: 'Ibexa Connect'

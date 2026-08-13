@@ -8,7 +8,6 @@ description: Products can have a base price and custom prices defined per custom
 Prices can differ depending on [customer group](../customer_management/manage_customers.md) and [currency](manage_currencies.md) and be applied according to the rules.
 
 With these basic price management features, you set up product prices manually.
-For a more refined price management tool that you can use when managing a store, see [Discounts](../commerce/discounts/discounts.md).
 
 !!! note
 

@@ -29,7 +29,7 @@ Product data is always up to date and reflects the current state in [[= pim_prod
 
 [Product prices](manage_prices.md) and [availability and stock](manage_availability_and_stock.md) can be managed in [[= product_name =]].
 
-You can define pricing rules, such as [discounts](discounts.md) for specific regions or customer groups.
+You can define pricing rules for specific regions or customer groups.
 
 ## Managing product data
 

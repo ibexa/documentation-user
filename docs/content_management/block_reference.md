@@ -21,7 +21,6 @@ The following blocks are provided with a clean installation of [[= product_name 
 |[Form](#form-block)|Embeds a Form content item that you select from the content structure. |
 |[Gallery](#gallery-block)|Displays all images contained in a selected folder. |
 |[[[= product_name_connect =]]](#ibexa-connect-block)|Retrieves and displays data from an [[= product_name_connect =]] webhook. |
-|[Orders](#orders-block)|Displays a list of orders associated with a particular company or individual customer. |
 |[Product collection](#product-collection-block)|Displays a list of specifically selected products.|
 |[Product embed](#product-embed)|Displays a specific product.|
 |[RSS](#rss-block)|Loads and displays news from RSS feeds (channels). |
@@ -186,18 +185,6 @@ On the **Properties** tab, set values in the following fields:
 !!! caution "Using [[= product_name_connect =]] scenario block"
 
     For more information about using [[= product_name_connect =]] scenario block, see [[[= product_name_connect =]] scenario block]([[= developer_doc =]]/content_management/pages/ibexa_connect_scenario_block/) in Developer Documentation.
-
-### Orders block
-
-Showcases a list of orders linked to a specific company or individual customer.
-Helps track purchase history for streamlined customer service and personalized interactions.
-On the **Properties** tab, set values in the following fields:
-
-- **Name** – Enter a name for the page block.
-- **Columns** — Select columns that should be displayed in the orders table. Some columns are preselected, for example, Order ID, Customer name, or Total value.
-- **Statuses** — Set the statuses of orders that should be included in the list.
-- **Number of orders** — Set the number of orders to be displayed.
-- **Sort order** — Set the sort order for the displayed orders.
 
 ### Product collection block
 
