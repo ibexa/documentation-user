@@ -152,8 +152,9 @@ This creates one language pair per selected target language.
 
 !!! note
 
-    If a language pair for a given source-to-target combination already exists, you cannot create another one with a different service. Edit the existing language pair instead.
-
+    If a language pair for a given source-to-target combination already exists, even for a disabled translation service, you cannot create another one with a different service.
+    Edit the existing language pair instead.
+    To do it, you may need to temporarily re-enable the disabled services, so that all language pairs appear on the screen.
 
 ### Side-by-side translation view
 
