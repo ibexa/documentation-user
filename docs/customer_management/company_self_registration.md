@@ -1,6 +1,5 @@
 ---
 description: A prospective buyer can apply to create a company account on a seller's website.
-edition: experience
 ---
 
 # Company self-registration

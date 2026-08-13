@@ -56,11 +56,11 @@ You can also hide it by clicking the button in the down right corner.
 
 ![Main menu - adjust](img/menu_adjust.png "Adjust main menu or hide it")
 
-Depending on the product edition and your [permissions](../permission_management/permission_system.md), the main menu may include, for example:
+Depending on your [permissions](../permission_management/permission_system.md), the main menu may include, for example:
 
 - **Content**, which gives you access to the content repository.
 It lets you navigate the content tree, and, for example, create, edit, move, copy, or delete content.
-- [[% include 'snippets/experience_badge.md' %]] **Site management**, which enables you to create and edit block-based pages and manage multiple websites.
+- **Site management**, which enables you to create and edit block-based pages and manage multiple websites.
 - **Product catalog**, which enables you to handle products presented on the website, including their specifications and pricing.
 - **Admin**, which is the administration panel where you can manage, for example, Users, Sections, or permissions.
 
@@ -144,9 +144,9 @@ Focus mode is enabled by default when you first log into [[= product_name =]], b
 
 ![Focus mode switch](img/FM_switch.png "Focus mode switch")
 
-## Help center [[% include 'snippets/lts-update_badge.md' %]]
+## Help center
 
-If the Integrated help [LTS update]([[= developer_doc =]]/ibexa_products/editions/#lts-updates) has been configured in your application, you may notice that the ![Help center](about-info.png){.inline-image} icon appears at the bottom right of multiple screens.
+The ![Help center](about-info.png){.inline-image} icon appears at the bottom right of multiple screens.
 Click it to access documentation, trainings, and other relevant resources straight from the back office.
 Help center is also [another place]([[= developer_doc =]]/administration/admin_panel/system_information_admin_panel/) where you can check the [[= product_name =]] version that you're on.
 

@@ -10,10 +10,8 @@
     color: var(--cohesivo-primary-80);
 
     $types: (
-        "headless": (var(--cohesivo-error-80), "Headless"),
-        "experience": (var(--cohesivo-warning-110), "Experience"),
-        "commerce": (var(--cohesivo-primary-80), "Commerce"),
-        "new-feature": (var(--cohesivo-success-100), "New feature")
+        "lts-update": (variables.$color-info-main, "LTS Update"),
+        "new-feature": (variables.$color-success-main, "New feature")
       );
 
       @each $name, $values in $types {

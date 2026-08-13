@@ -1,6 +1,5 @@
 ---
 description: You can manage and view customers and organizations' accounts in your system, including their web store activities such as orders.
-edition: experience
 ---
 
 # Customer management
