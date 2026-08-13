@@ -11,8 +11,6 @@
     color: variables.$color-primary-main;
 
     $types: (
-        "headless": (variables.$color-error-main, "Headless"),
-        "experience": (variables.$color-warning-dark-01, "Experience"),
         "lts-update": (variables.$color-info-main, "LTS Update"),
         "new-feature": (variables.$color-success-main, "New feature")
       );

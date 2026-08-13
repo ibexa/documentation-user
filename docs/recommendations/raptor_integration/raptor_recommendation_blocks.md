@@ -1,6 +1,5 @@
 ---
 description: Recommendation Page Builder blocks - Raptor integration.
-edition: experience
 month_change: true
 ---
 

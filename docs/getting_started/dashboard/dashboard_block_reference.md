@@ -32,7 +32,7 @@ On the **Properties** tab, set values in the following fields:
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of content and submit your changes.
 
-## Ibexa News block [[% include 'snippets/experience_badge.md' %]]
+## Ibexa News block
 
 Presents a list of recent blog posts or articles published at `ibexa.co` blog (product related).
 It includes title, image, publication date, and link to article details.
@@ -55,7 +55,7 @@ On the **Properties** tab, set values in the following fields:
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of content and submit your changes.
 
-## Products by category block [[% include 'snippets/experience_badge.md' %]]
+## Products by category block
 
 Displays a chart presenting the products split by category, together with the percentage.
 
@@ -69,7 +69,7 @@ On the **Design** tab, in the **View** field, select the layout to be used to pr
 
 This block is not supported when you use [[[= pim_product_name =]]](../../product_catalog/quable_integration.md) as the source of product information.
 
-## Products with lowest stock block [[% include 'snippets/experience_badge.md' %]]
+## Products with lowest stock block
 
 Displays a table of products with the lowest stock.
 Products are sorted based on Stock value (sorted from lowest to highest stock).
@@ -86,7 +86,7 @@ On the **Design** tab, in the **View** field, select the layout to be used to pr
 
 This block is not supported when you use [[[= pim_product_name =]]](../../product_catalog/quable_integration.md) as the source of product information.
 
-## Quick actions block [[% include 'snippets/experience_badge.md' %]]
+## Quick actions block
 
 Displays selected mostly used actions and shortcuts, for example, **Create content**.
 
@@ -97,7 +97,7 @@ On the **Properties** tab, set values in the following fields:
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of quick actions and submit your changes.
 
-## Recent activity block [[% include 'snippets/experience_badge.md' %]]
+## Recent activity block
 
 Displays a list of recent activity of all or selected users.
 It also includes a link to view all activities available in Admin tab.

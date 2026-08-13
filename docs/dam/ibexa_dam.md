@@ -1,6 +1,5 @@
 ---
 description: DAM module interface for uploading and managing image assets.
-edition: headless
 ---
 
 # [[= product_name_dam =]]

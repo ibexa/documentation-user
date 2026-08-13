@@ -11,7 +11,7 @@ To do it, use one of the three options:
 - [Content Scheduler block](#content-scheduler-block) on a Page
 - [Publish later option](#date-based-publishing) when editing content
 
-## Scheduler tab [[% include 'snippets/experience_badge.md' %]]
+## Scheduler tab
 
 The **Scheduler** tab is available in the configuration of all Page blocks.
 You can use it to set the date and time when the block becomes visible and when it disappears from a Page.
@@ -20,7 +20,7 @@ This way you can see what content is planned to be available in the future.
 
 ![Schedule tab](img/schedule_tab.png)
 
-## Content Scheduler block [[% include 'snippets/experience_badge.md' %]]
+## Content Scheduler block
 
 In the Content Scheduler block you can select content items to be displayed at a selected time.
 
@@ -62,7 +62,7 @@ Then, navigate to the content item that you want to hide and click **Hide** in t
 Once a content item is hidden, it's unavailable on the front page and inactive in the content tree.
 This change affects the content item in all of its [locations](content_organization/manage_locations_urls.md#content-locations).
 
-## Timeline [[% include 'snippets/experience_badge.md' %]]
+## Timeline
 
 The timeline in page mode shows all changes that happen to the page in the future.
 
