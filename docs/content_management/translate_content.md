@@ -106,8 +106,8 @@ For more information, see [Work with versions](work_with_versions.md#compare-ver
 
 If the translations management feature [is installed and properly configured]([[= developer_doc =]]/multisite/languages/translations_management) in your system, the set of features available for [content item](content_items.md) and [product](products.md) translation changes:
 
-- Application administrators can [define language pairs]([[= developer_doc =]]/multisite/languages/translations_management/#define-language-pairs) and assign [translation providers]([[= developer_doc =]]/multisite/languages/translations_management/#configure-translation-providers) to them.
-- Content editors get a redesigned translation interface called side-by-side translation view. If at least one automated translation provider is configured, editors can use it here to machine-translate content.
+- Application administrators can [define language pairs and assign translation services](#manage-translation-services-and-language-pairs) to them.
+- Content editors get a redesigned translation interface called [side-by-side translation view](#side-by-side-translation-view). If at least one automated translation provider is configured, editors can use it here to machine-translate content.
 
 !!! note "Translations management limitations"
 
@@ -117,6 +117,43 @@ If the translations management feature [is installed and properly configured]([[
     When a content type that uses Form Builder is automatically translated, only the forms's title is translated.
 
     Also, product attributes are not translatable and they are inactive in the side-by-side translation view.
+
+### Manage translation services and language pairs
+
+If you have Administrator permissions, you can enable and disable translation services and assign them to language pairs.
+Enabling at least one translation service is required before the editors can use automatic translation. 
+
+#### Translation services
+
+To see the translation services that are available in your system, go to **Admin** -> **Languages** -> **Translation services** tab.
+
+The tab lists all translation services that have been [configured by the developer]([[= developer_doc =]]/multisite/translations_management/configure_translations_management/#configure-translation-providers).
+Each service shows its name, vendor, and whether it is enabled.
+Disabled services do not appear as choices in the **Create a new translation** modal.
+
+#### Language pairs
+
+To manage language pairs, go to **Admin** -> **Languages** -> **Language pairs** tab.
+
+A language pair setting decides which translation service is used by default when an editor translates from one specific language to another.
+When an editor opens the **Create a new translation** modal and selects a source and target language, a matching translation service gets pre-selected, and the editor can override this selection.
+
+To add a language pair:
+
+1. Click **+ Add language pair**.
+2. Select a source language.
+3. Select one or more target languages.
+4. Select a translation service.
+5. Click **Save and close**.
+
+![Creating a language pair](img/translations_management_language_pairs.png "Creating a language pair")
+
+This creates one language pair per selected target language.
+
+!!! note
+
+    If a language pair for a given source-to-target combination already exists, you cannot create another one with a different service. Edit the existing language pair instead.
+
 
 ### Side-by-side translation view
 
@@ -171,7 +208,7 @@ The button is absent if you switch to the [distraction-free mode](create_edit_co
 When the source is placed on the right, the divider between the source and target columns contains a **Collapse source language** button.
 The button toggles the source panel visibility, allowing editors to hide the source text when they no longer need it.
 
-![Collapse source button](img/translations_copy_source.png "Collapse source button")
+![Collapse source button](img/translations_collapse_source.png "Collapse source button")
 
 ### Add new translation
 
