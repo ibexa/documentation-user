@@ -104,7 +104,7 @@
             <div class="notification notification--lts-update" id="tile3">
                 <div class="notification__content">
                     <h2>The newest LTS Update is Translations management</h2>
-                    <div>Use machine translation, a side-by-side editing view, and a review cycle.</div>
+                    <div>Use machine translation, side-by-side editing view, and a review cycle to improve your translation experience.</div>
                 </div>
                 <div class="notification__cta">
                     <a href="https://doc.ibexa.co/en/5.0/multisite/translations_management/translations_management/">Learn more about this LTS Update</a>
