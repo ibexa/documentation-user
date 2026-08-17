@@ -121,7 +121,7 @@ If the translations management feature [is installed and properly configured]([[
 ### Manage translation services and language pairs
 
 If you have Administrator permissions, you can enable and disable translation services and assign them to language pairs.
-Enabling at least one translation service is required before the editors can use automatic translation. 
+Enabling at least one translation service is required before the editors can use automatic translation.
 
 #### Translation services
 
@@ -130,6 +130,11 @@ To see the translation services that are available in your system, go to **Admin
 The tab lists all translation services that have been [configured by the developer]([[= developer_doc =]]/multisite/translations_management/configure_translations_management/#configure-translation-providers).
 Each service shows its name, vendor, and whether it is enabled.
 Disabled services do not appear as choices in the **Create a new translation** modal.
+
+!!! note "Permission to use AI actions"
+
+    AI-based translation services require that policies related to [AI actions](work_with_ai_actions.md) are assigned to user roles.
+    If an editor can't see AI-based services in the dropdown on the **Create a new translation** modal, check if the right permissions are granted in their role definition.
 
 #### Language pairs
 
@@ -265,7 +270,7 @@ To edit a translation of a product:
 - Go to **Product catalog** -> **Products**, select a product, and open the **Translations** tab.
 Then, next to a language version that you want to edit, click the **Edit side-by-side** button.
 
-This opens the side-by-side translation view, where you can perform a review or make your changes and either publish directly or create a new draft.
+This opens the side-by-side translation view, where you can perform a review or make your changes and either create a new draft of a content item or publish directly.
 
 !!! tip
 
