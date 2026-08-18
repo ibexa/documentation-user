@@ -22,17 +22,17 @@ To do it, go to the **Admin** panel, open the **Languages** tab, and click **Add
 Every new language must have a name and a language code written in the xxx-XX format, for example, eng-US, fre-FR, or nor-NO.
 After adding a language, you may have to reload the application to be able to use it.
 
-!!! note "Previewing translations"
-
-    You can only preview content items translated to languages that have a corresponding website configured in that language.
-
-    ![Preview limitation](img/translation_preview_impossible.png "Preview limitation")
-
-!!! caution
+!!! note
 
     Depending on the way the website is set up, additional configuration may be necessary for the new translations to be displayed properly.
     Contact your administrator and inform them that you need to add a new language to the website.
+
+    For example, you can only preview content items translated to languages that have a corresponding website configured in that language.
+
+    ![Preview limitation](img/translation_preview_impossible.png "Preview limitation")
+
     For more information, see [Developer Documentation on language versions]([[= developer_doc =]]/multisite/languages/languages/).
+
 
 ## Add translations
 
@@ -107,16 +107,18 @@ For more information, see [Work with versions](work_with_versions.md#compare-ver
 If the translations management feature [is installed and properly configured]([[= developer_doc =]]/multisite/languages/translations_management) in your system, the set of features available for [content item](content_items.md) and [product](products.md) translation changes:
 
 - Application administrators can [define language pairs and assign translation services](#manage-translation-services-and-language-pairs) to them.
-- Content editors get a redesigned translation interface called [side-by-side translation view](#side-by-side-translation-view). If at least one automated translation provider is configured, editors can use it here to machine-translate content.
+- Content editors get a redesigned translation interface called [side-by-side translation view](#side-by-side-translation-view). If at least one automated translation provider is configured, editors can use it to machine-translate content.
 
-!!! note "Translations management limitations"
+!!! note "Limitations"
 
-    Content types that use Page Builder or Form Builder do not support the side-by-side translation view and open in the standard single-language editor instead.
+    [Pages](create_edit_pages.md) and [Forms](work_with_forms.md) don't support the side-by-side translation view and open in the single-language editor instead.
 
-    When a content type that uses Page Builder is automatically translated, only the page's title and description are translated.
-    When a content type that uses Form Builder is automatically translated, only the forms's title is translated.
+    When you translate them automatically:
 
-    Also, product attributes are not translatable and they are inactive in the side-by-side translation view.
+    - The contents of the Page Builder window are not translated.
+    - The form that you build with the Form Builder is not translated.
+    
+    Also, [product attributes](work_with_product_attributes.md) remain not translatable and they are inactive in the side-by-side translation view.
 
 ### Manage translation services and language pairs
 
@@ -143,13 +145,12 @@ To manage language pairs, go to **Admin** -> **Languages** -> **Language pairs**
 A language pair setting decides which translation service is used by default when an editor translates from one specific language to another.
 When an editor opens the **Create a new translation** modal and selects a source and target language, a matching translation service gets pre-selected, and the editor can override this selection.
 
-To add a language pair:
+To add a language pair, click **+ Add language pair**.
 
-1. Click **+ Add language pair**.
-2. Select a source language.
-3. Select one or more target languages.
-4. Select a translation service.
-5. Click **Save and close**.
+1. Select a source language.
+2. Select one or more target languages.
+3. Select a translation service.
+4. Click **Save and close**.
 
 ![Creating a language pair](img/translations_management_language_pairs.png "Creating a language pair")
 
@@ -171,14 +172,14 @@ The back office offers several entry points where you can access the side-by-sid
 - Content item's **Translations tab** — Go to **Content** -> **Content structure**, select a content item, open the **Translations** tab, and click **+ Add**.
 - Product's **Translations tab** — Go to **Product catalog** -> **Products**, select a product, open the **Translations** tab, and click **+ Add**.
 - **Content tree** — Click a three dot icon next to a content item in the content tree and, in the context menu, click **Add translation**.
-- **Content edit view** — When you choose to edit a content item and several language versions exist, the **Edit side-by-side** button is active for all languages that differ from the main language of the content item.
+- **Content edit view** — When you choose to edit a content item and several language versions exist, the **Edit side-by-side** button is active for all languages except for the main language of the content item.
 
 #### Source and target columns
 
 Depending on [user settings](get_started.md#user-settings), the source language column appears on the left or right of the side-by-side view.
 By default, the source is on the left.
 
-Non-translatable fields are inactive in the source column, but they remain active in the translation column.
+Translatable non-textual fields remain active in the translation column.
 This way you can, for example, replace images with their localized counterparts.
 
 ![Side-by-side translation view](img/managing_translations_sxs_view.png "Side-by-side translation view")
@@ -228,8 +229,6 @@ The button toggles the source panel visibility, allowing editors to hide the sou
 
     If a draft translation of the content item already exists for the selected target language, a warning appears in the modal to inform you about this fact.
     You can proceed and add a new draft, or discard the modal and edit the existing draft translation.
-    
-    Products don't have draft translations. 
 
     For more information, see [Edit existing translations](#edit-existing-translations).
 
@@ -242,6 +241,7 @@ To do it, uncheck **Use automatic translation** and proceed.
 
 If no translation providers are configured in the system, the checkbox is inactive.
 If only one provider exists in the system, there is a checkbox, but no drop-down list.
+When there are more than 4 translation services configured in the system, a search field appears in the drop-down list.
 
 4\. Click **Open side-by-side**.
 
@@ -285,17 +285,17 @@ This opens the existing draft in the side-by-side translation view, so you can r
 
 !!! tip
 
-    Products don't have draft translations. 
+    Products don't have draft translations.
 
 ### Review automatic translation
 
 If a content item or product has draft translations created with automatic translation, the **Versions** tab displays a **Translation status** column.
 Such drafts are marked with one of the following badges:
 
-- **For review** — You must review and approve the translation before it can be published.
-- **Translated** — The translation has been accepted and you can publish it.
+- **For review** — You can review and approve the translation.
+- **Translated** — The translation has been accepted.
 
-Draft translations that were created manually don't have a badge.
+Draft translations that you translated yourself rather than automatically don't have a badge.
 
 ![Review status badges in the Versions tab](img/translations_review_status.png "Review status badges in the Versions tab")
 
@@ -313,8 +313,10 @@ You can reject a translation multiple times, but you can't reject a translation 
 
 !!! tip
 
-    Rejecting a translation of a product does not unpublish it.
-    To unpublish a product translation you must delete it in the **Translations** tab.
+    For content items, rejecting a translation does not prevent them from being published.
+    The translation can be published regardless of its review status.
+    
+    For products, rejecting a translation and then saving and closing the editing window publishes the translation despite its review status.
 
 #### Accept translation
 
