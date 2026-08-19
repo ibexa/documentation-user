@@ -22,7 +22,7 @@ To do it, go to the **Admin** panel, open the **Languages** tab, and click **Add
 Every new language must have a name and a language code written in the xxx-XX format, for example, eng-US, fre-FR, or nor-NO.
 After adding a language, you may have to reload the application to be able to use it.
 
-!!! note
+!!! note "Website configuration"
 
     Depending on the way the website is set up, additional configuration may be necessary for the new translations to be displayed properly.
     Contact your administrator and inform them that you need to add a new language to the website.
@@ -118,7 +118,7 @@ If the translations management feature [is installed and properly configured]([[
     - The contents of the Page Builder window are not translated.
     - The form that you build with the Form Builder is not translated.
     
-    Also, [product attributes](work_with_product_attributes.md) remain not translatable and are inactive in the side-by-side translation view.
+    Also, [product attributes](work_with_product_attributes.md) remain non-translatable and are inactive in the side-by-side translation view.
 
 ### Manage translation services and language pairs
 
@@ -130,8 +130,8 @@ Enabling at least one translation service is required before the editors can use
 To see the translation services that are available in your system, go to **Admin** -> **Languages** -> **Translation services** tab.
 
 The tab lists all translation services that have been [configured by the developer]([[= developer_doc =]]/multisite/translations_management/configure_translations_management/#configure-translation-providers).
-Each service shows its name, vendor, and whether it is enabled.
-Disabled services do not appear as choices in the **Create a new translation** modal.
+Each service shows its name, vendor, and whether it's enabled.
+Disabled services don't appear as choices in the **Create a new translation** modal.
 
 !!! note "Permission to use AI actions"
 
@@ -143,9 +143,9 @@ Disabled services do not appear as choices in the **Create a new translation** m
 To manage language pairs, go to **Admin** -> **Languages** -> **Language pairs** tab.
 
 A language pair setting decides which translation service is used by default when an editor translates from one specific language to another.
-When an editor opens the **Create a new translation** modal and selects a source and target language, a matching translation service gets pre-selected, and the editor can override this selection.
+When an editor opens the **Create a new translation** modal and selects a source and target language, a matching translation service gets pre-selected.The editor can override this selection.
 
-To add a language pair, click **+ Add language pair**.
+To add a language pair, click **+ Add language pair**, and then:
 
 1. Select a source language.
 2. Select one or more target languages.
@@ -156,7 +156,7 @@ To add a language pair, click **+ Add language pair**.
 
 This creates one language pair per selected target language.
 
-!!! note
+!!! note "Existing language pairs"
 
     If a language pair for a given source-to-target combination already exists, even for a disabled translation service, you cannot create another one with a different service.
     Edit the existing language pair instead.
@@ -169,10 +169,10 @@ This way you can add, modify or review translations in context without having to
 
 The back office offers several entry points where you can access the side-by-side translation view, for example:
 
-- Content item's **Translations** tab — Go to **Content** -> **Content structure**, select a content item, open the **Translations** tab, and click **+ Add**.
-- Product's **Translations** tab — Go to **Product catalog** -> **Products**, select a product, open the **Translations** tab, and click **+ Add**.
-- **Content tree** — Click a three dots icon next to a content item in the content tree and, in the context menu, click **Add translation**.
-- **Content edit view** — When you choose to edit a content item and several language versions exist, the **Edit side-by-side** button is active for all languages except for the main language of the content item.
+- Content item's **Translations** tab — go to **Content** -> **Content structure**, select a content item, open the **Translations** tab, and click **+ Add**.
+- Product's **Translations** tab — go to **Product catalog** -> **Products**, select a product, open the **Translations** tab, and click **+ Add**.
+- **Content tree** — click the three dots icon next to a content item in the content tree and, in the context menu, click **Add translation**.
+- **Content edit view** — when you choose to edit a content item and several language versions exist, the **Edit side-by-side** button is active for all languages except for the main language of the content item.
 
 #### Source and target columns
 
@@ -194,6 +194,8 @@ The view also supports the [distraction-free mode](create_edit_content_items.md#
 
 When a content item or product has multiple published language versions, a drop-down list appears at the top of the source column.
 You can use the drop-down list to change the language that is displayed in the source column.
+
+![Source language selection](img/translations_select_source.png "Source language selection")
 
 #### Copy content from source
 
@@ -241,7 +243,7 @@ To do it, uncheck **Use automatic translation** and proceed.
 
 If no translation providers are configured in the system, or [the providers are disabled](#manage-translation-services-and-language-pairs), the checkbox is inactive.
 If only one provider exists in the system, there is a checkbox, but no drop-down list.
-When there are more than 4 translation services configured in the system, a search field appears in the drop-down list.
+When there are more than four translation services configured in the system, a search field appears in the drop-down list.
 
 4\. Click **Open side-by-side**.
 
@@ -263,12 +265,15 @@ The back office offers several entry points where you can edit existing content 
 
 To edit a published translation of a content item:
 
-- In content tree, select a content item and click **Edit**. If more than one language version of a content item exists, a list of all available translations is displayed in the **Select translation** modal. Select a language and click the **Edit side-by-side** button.
+1. In the content tree, select a content item and click **Edit**.
+2. If the content item has multiple language versions, the **Select translation modal** displays all published translations.
+3. Select a language and click **Edit side-by-side**.
 
 To edit a translation of a product:
 
-- Go to **Product catalog** -> **Products**, select a product, and open the **Translations** tab.
-Then, next to a language version that you want to edit, click the **Edit side-by-side** button.
+1. Go to **Product catalog** -> **Products**.
+2. Select a product and open the **Translations** tab.
+3. Next to the language version you want to edit, click the **Edit side-by-side** button.
 
 This opens the side-by-side translation view, where you can perform a review or make your changes and either create a new draft of a content item or publish directly.
 
@@ -278,7 +283,7 @@ This opens the side-by-side translation view, where you can perform a review or 
 
 To edit a draft translation of a content item:
 
-- In content tree, select a content item and open the **Versions** tab. Click a three dots icon next to a draft translation that you want to edit and, in the context menu, click **Edit side-by-side**.
+- In the content tree, select a content item and open the **Versions** tab. Click the three dots icon next to a draft translation that you want to edit and, in the context menu, click **Edit side-by-side**.
 - In the main menu, go to **Content** or visit the **My dashboard** page, and go to **Drafts**. Find a draft whose source and target languages differ and click **Edit side-by-side**.
 
 This opens the existing draft in the side-by-side translation view, so you can review and refine a translation without creating a new draft.
@@ -286,14 +291,15 @@ This opens the existing draft in the side-by-side translation view, so you can r
 !!! tip
 
     Products don't have draft translations.
+    Product translations are published instantly when you click **Save and close** in the editing window.
 
 ### Review automatic translation
 
 If a content item or product has draft translations created with automatic translation, the **Versions** tab displays a **Translation status** column.
 Such drafts are marked with one of the following badges:
 
-- **For review** — You can review and approve the translation.
-- **Translated** — The translation has been accepted.
+- **For review** — uou can review and approve the translation.
+- **Translated** — the translation has been accepted.
 
 Draft translations that you translated yourself rather than automatically don't have a badge.
 
@@ -313,7 +319,7 @@ You can reject a translation multiple times, but you can't reject a translation 
 
 !!! tip
 
-    For content items, rejecting a translation does not prevent them from being published.
+    For content items, rejecting a translation doesn't prevent them from being published.
     The translation can be published regardless of its review status.
     
     For products, rejecting a translation and then saving and closing the editing window publishes the translation despite its review status.
@@ -321,8 +327,8 @@ You can reject a translation multiple times, but you can't reject a translation 
 #### Accept translation
 
 On the review banner, click **Accept** to mark the translation as reviewed and approved.
-The review banner disappears forever and the status changes from **For review** to **Translated**.
+The review banner disappears permanently and the status changes from **For review** to **Translated**.
 
-Accepting a translation of a content item does not mean that it is published.
+Accepting a translation of a content item does not mean that it's published.
 You still need to save and publish the draft.
 You can also close the draft without publishing.
