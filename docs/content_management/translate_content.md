@@ -114,7 +114,7 @@ If the translations management feature [is installed and properly configured]([[
 
     When you translate them automatically:
 
-    - The contents of the Page Builder window are not translated.
+    - Translatable content, incluging text and RichText block attributes, is sent for translation, while layout, zones, and non-translatable block attributes are preserved from the source page.
     - The form that you build with the Form Builder is not translated.
 
     Also, [product attributes](work_with_product_attributes.md) remain non-translatable and are inactive in the side-by-side translation view.
