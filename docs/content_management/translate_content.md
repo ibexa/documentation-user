@@ -136,7 +136,7 @@ Disabled services do not appear as choices in the **Create a new translation** m
 !!! note "Permission to use AI actions"
 
     AI-based translation services require that policies related to [AI actions](work_with_ai_actions.md) are assigned to user roles.
-    If an editor can't see AI-based services in the dropdown on the **Create a new translation** modal, check if the right permissions are granted in their role definition.
+    If an editor can't see AI-based services in the drop-down on the **Create a new translation** modal, check if the right permissions are granted in their role definition.
 
 #### Language pairs
 
@@ -193,7 +193,7 @@ The view also supports the [distraction-free mode](create_edit_content_items.md#
 #### Change source language
 
 When a content item or product has multiple published language versions, a drop-down list appears at the top of the source column.
-You can use the dropdown list to change the language that is displayed in the source column.
+You can use the drop-down list to change the language that is displayed in the source column.
 
 #### Copy content from source
 
