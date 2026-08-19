@@ -11,7 +11,7 @@ The version visible to a visitor depends on the way your installation is set up 
 !!! tip "Translations management LTS Update"
 
     If the [Translations management](#translations-management) LTS Update is installed in your system, [[= product_name =]] offers a side-by-side translation view that displays the source and target languages simultaneously.
-    It makes it easier for you to provide, edit and review translations.
+    It makes it easier for you to provide, edit, and review translations.
 
 ## Add website languages
 
@@ -118,7 +118,7 @@ If the translations management feature [is installed and properly configured]([[
     - The contents of the Page Builder window are not translated.
     - The form that you build with the Form Builder is not translated.
     
-    Also, [product attributes](work_with_product_attributes.md) remain not translatable and they are inactive in the side-by-side translation view.
+    Also, [product attributes](work_with_product_attributes.md) remain not translatable and are inactive in the side-by-side translation view.
 
 ### Manage translation services and language pairs
 
@@ -169,9 +169,9 @@ This way you can add, modify or review translations in context without having to
 
 The back office offers several entry points where you can access the side-by-side translation view, for example:
 
-- Content item's **Translations tab** — Go to **Content** -> **Content structure**, select a content item, open the **Translations** tab, and click **+ Add**.
-- Product's **Translations tab** — Go to **Product catalog** -> **Products**, select a product, open the **Translations** tab, and click **+ Add**.
-- **Content tree** — Click a three dot icon next to a content item in the content tree and, in the context menu, click **Add translation**.
+- Content item's **Translations** tab — Go to **Content** -> **Content structure**, select a content item, open the **Translations** tab, and click **+ Add**.
+- Product's **Translations** tab — Go to **Product catalog** -> **Products**, select a product, open the **Translations** tab, and click **+ Add**.
+- **Content tree** — Click a three dots icon next to a content item in the content tree and, in the context menu, click **Add translation**.
 - **Content edit view** — When you choose to edit a content item and several language versions exist, the **Edit side-by-side** button is active for all languages except for the main language of the content item.
 
 #### Source and target columns
@@ -205,7 +205,7 @@ Values of all fields are copied at the same time.
 
 !!! caution
 
-    When you copy content from source after a target column has been translated, it overrides all existing translations.
+    When you copy content from source after a target column has been translated, it overwrites all existing translations.
     This action can't be reverted.
 
 The button is absent if you switch to the [distraction-free mode](create_edit_content_items.md#distraction-free-mode).
@@ -219,7 +219,7 @@ The button toggles the source panel visibility, allowing editors to hide the sou
 
 ### Add new translation
 
-1. Either click **+ Add** in the content item's or product's **Translations** tab, or **Add translation** in the content tree.
+1\. Either click **+ Add** in the content item's or product's **Translations** tab, or **Add translation** in the content tree.
 
 ![Starting the translation from the content tree](img/translate_from_content_tree.png "Starting the translation from the content tree")
 
@@ -259,7 +259,7 @@ Depending on whether you chose to use automatic translations, target fields can 
 
 ### Edit existing translations
 
-The back office offers several entry points where you edit existing content item or product translations.
+The back office offers several entry points where you can edit existing content item or product translations.
 
 To edit a published translation of a content item:
 
@@ -278,7 +278,7 @@ This opens the side-by-side translation view, where you can perform a review or 
 
 To edit a draft translation of a content item:
 
-- In content tree, select a content item and open the **Versions** tab. Click a three dot icon next to a draft translation that you want to edit and, in the context menu, click **Edit side-by-side**.
+- In content tree, select a content item and open the **Versions** tab. Click a three dots icon next to a draft translation that you want to edit and, in the context menu, click **Edit side-by-side**.
 - In the main menu, go to **Content** or visit the **My dashboard** page, and go to **Drafts**. Find a draft whose source and target languages differ and click **Edit side-by-side**.
 
 This opens the existing draft in the side-by-side translation view, so you can review and refine a translation without creating a new draft.
