@@ -33,7 +33,6 @@ After adding a language, you may have to reload the application to be able to us
 
     For more information, see [Developer Documentation on language versions]([[= developer_doc =]]/multisite/languages/languages/).
 
-
 ## Add translations
 
 1\. In the left panel, go to **Content** -> **Content structure**. Then select a content item.
@@ -117,7 +116,7 @@ If the translations management feature [is installed and properly configured]([[
 
     - The contents of the Page Builder window are not translated.
     - The form that you build with the Form Builder is not translated.
-    
+
     Also, [product attributes](work_with_product_attributes.md) remain non-translatable and are inactive in the side-by-side translation view.
 
 ### Manage translation services and language pairs
@@ -321,7 +320,7 @@ You can reject a translation multiple times, but you can't reject a translation 
 
     For content items, rejecting a translation doesn't prevent them from being published.
     The translation can be published regardless of its review status.
-    
+
     For products, rejecting a translation and then saving and closing the editing window publishes the translation despite its review status.
 
 #### Accept translation

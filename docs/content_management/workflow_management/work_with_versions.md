@@ -7,7 +7,6 @@ description: Perform various tasks on content item versions, as part of editoria
 In [[= product_name =]], content items can have one published [version](../content_versions.md), and several draft and archived versions.
 You can perform various tasks on content item versions, either to advance them through the workflow or compare edits from different users.
 
-
 ## Edit drafts
 
 If you're assigned to a draft version of a content item for [review](editorial_workflow.md), when you click the **Edit draft** icon in **My dashboard**, the **Review queue** table, you see the **Event(s)** timeline that lists all the transitions that this content has gone through.
