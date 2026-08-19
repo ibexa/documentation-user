@@ -135,7 +135,7 @@ Invited users can either edit the Rich Text fields or only preview the content (
 You can edit embedded content items without leaving current window.
 
 To do it, first insert selected content item in the Rich Text field.
-Then, click the three dots icon on the right side and click **Edit**.
+Then, click the three dots icon and click **Edit**.
 
 ![Edit embedded content item](img/edit_embedded_item_richtext.png "Edit embedded content item")
 
