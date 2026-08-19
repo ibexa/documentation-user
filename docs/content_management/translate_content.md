@@ -248,11 +248,11 @@ When there are more than four translation services configured in the system, a s
 4\. Click **Open side-by-side**.
 
 The [side-by-side translation view](#side-by-side-translation-view) opens with the source text in one column and the target form in the other.
-Depending on whether you chose to use automatic translations, target fields can be empty or pre-translated.
+Depending on whether you choose to use automatic translations, target fields can be empty or pre-translated.
 
 !!! note "Reviewing automatic translations"
 
-    If you chose to use automatic translations, the side-by-side view allows you to approve or reject the translation.
+    If you choose to use automatic translations, the side-by-side view allows you to approve or reject the translation.
     For more information, see [Review automatic translation](#review-automatic-translation).
 
 5\. When you work with a product, **Save and close** publishes the translation and **Discard** removes it completely.
