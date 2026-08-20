@@ -297,7 +297,7 @@ This opens the existing draft in the side-by-side translation view, so you can r
 If a content item or product has draft translations created with automatic translation, the **Versions** tab displays a **Translation status** column.
 Such drafts are marked with one of the following badges:
 
-- **For review** — uou can review and approve the translation.
+- **For review** — you can review and approve the translation.
 - **Translated** — the translation has been accepted.
 
 Draft translations that you translated yourself rather than automatically don't have a badge.
