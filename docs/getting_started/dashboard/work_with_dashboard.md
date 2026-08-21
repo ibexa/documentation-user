@@ -141,7 +141,7 @@ The following actions are available:
 ## Edit dashboard
 
 At any time you can edit an active customized dashboard.
-To do it, click the three dots icon in the top right corner, and then click **Edit...**.
+To do it, click the three dots icon in the top corner, and then click **Edit...**.
 
 ![Edit dashboard](edit_active_dashboard.png "Edit dashboard")
 
