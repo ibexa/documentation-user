@@ -47,7 +47,7 @@ It lists all tasks required for product configuration, including:
 - variants (if any of the attributes is enabled for variants)
 - availability
 - prices in different currencies
-- translations
+- [translations](translate_content.md)
 
 ![Product completeness screen](img/product_completeness.png "Product completeness screen")
 
