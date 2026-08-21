@@ -13,6 +13,11 @@ The version visible to a visitor depends on the way your installation is set up 
     If the [Translations management](#translations-management) LTS Update is installed in your system, [[= product_name =]] offers a side-by-side translation view that displays the source and target languages simultaneously.
     It makes it easier for you to provide, edit, and review translations.
 
+!!! tip "Translations management LTS Update"
+
+    If the [Translations management](#translations-management) LTS Update is installed in your system, [[= product_name =]] offers a side-by-side translation view that displays the source and target languages simultaneously.
+    It makes it easier for you to provide, edit, and review translations.
+
 ## Add website languages
 
 You can only add translations in languages that have been set up for your website in the **Admin** panel.
