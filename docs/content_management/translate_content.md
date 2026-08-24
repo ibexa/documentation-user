@@ -6,7 +6,7 @@ description: Create multiple language versions of content items and products.
 
 The content on your website can be translated into different languages.
 Each content item can have different language versions.
-The version visible to a visitor depends on the way your installation is set up (see [SiteAccess concept](#edit-page-for-different-language-versions-of-a-website)).
+The version visible to a visitor depends on the way your installation is set up (see [SiteAccess concept](multisite.md#siteaccess)).
 
 !!! tip "Translations management LTS Update"
 
@@ -54,21 +54,6 @@ the same way as when editing only one language.
 
 <!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/wrOL621W0E3uAwSOBBmZ?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Add translation" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
 
-## Edit page for different language versions of a website [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
-
-When you edit a page, a bar at the top of the screen lists the most recently used [SiteAccesses](multisite.md#siteaccess) on your website.
-Use this bar to switch between the different versions and work on them.
-
-<a name="siteaccess"></a>
-
-!!! note "SiteAccess concept"
-
-    SiteAccesses are a means to present different versions of the website to different categories of users.
-    You could treat SiteAccesses as different "entrance points" to your website.
-    They allow you to show different content or design to visitors, for example, to serve different language versions to visitors from different countries.
-
-    See [Work with websites](../website_organization/work_with_sites.md) for more information about setting up websites.
-
 ## Automated translation
 
 If your application comes with a [properly configured automated translation feature]([[= developer_doc =]]/multisite/languages/automated_translations), you can have your content machine-translated into multiple languages by using external translation services like Google Translate and DeepL.
@@ -103,7 +88,7 @@ For more information, see [Work with versions](work_with_versions.md#compare-ver
 
 ## Translations management [[% include 'snippets/lts-update_badge.md' %]]
 
-If the translations management feature [is installed and properly configured]([[= developer_doc =]]/multisite/languages/translations_management) in your system, the set of features available for [content item](content_items.md) and [product](products.md) translation changes:
+If the translations management feature [is installed and properly configured]([[= developer_doc =]]/multisite/translations_management/translations_management) in your system, the set of features available for [content item](content_items.md) and [product](products.md) translation changes:
 
 - Application administrators can [define language pairs and assign translation services](#manage-translation-services-and-language-pairs) to them.
 - Content editors get a redesigned translation interface called [side-by-side translation view](#side-by-side-translation-view). If at least one automated translation provider is configured, editors can use it to machine-translate content.
