@@ -15,8 +15,6 @@ Once multisite support is enabled, you can use Site Factory to create separate w
 
 ## SiteAccess
 
-## SiteAccess
-
 In [[= product_name =]], a website definition is called a SiteAccess.
 
 SiteAccesses are a means to present different versions of the website to different categories of users.
