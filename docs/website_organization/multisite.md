@@ -15,13 +15,8 @@ Once multisite support is enabled, you can use Site Factory to create separate w
 
 ## SiteAccess
 
-In [[= product_name =]], a website definition is called a SiteAccess.
-
-SiteAccesses are a means to present different versions of the website to different categories of users.
-You could think of SiteAccesses as different "entrance points" to your website.
-They allow you to show different content or design to visitors, for example, to serve different language versions to visitors from different countries.
-
-Once a website is created, website configuration, content language versions, page design, content presentation, URL aliases, and more can be configured per SiteAccess.
-
+In [[= product_name =]], a website definition is called SiteAccess.
+Once a website is created, website configuration, content language version, page design, content presentation, URL aliases, and more, can be configured per SiteAccess.
 These settings are then used by the application when users access the site through a specific address.
+
 For in-depth information, see [Multisite]([[= developer_doc =]]/multisite/multisite/) in Developer Documentation.

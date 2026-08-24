@@ -6,7 +6,7 @@ description: Create multiple language versions of content items and products.
 
 The content on your website can be translated into different languages.
 Each content item can have different language versions.
-The version visible to a visitor depends on the way your installation is set up (see [SiteAccess concept](multisite.md#siteaccess)).
+The version visible to a visitor depends on the way your installation is set up (see [SiteAccess concept](#edit-page-for-different-language-versions-of-a-website)).
 
 !!! tip "Translations management LTS Update"
 
@@ -53,6 +53,21 @@ the same way as when editing only one language.
 ![Adding a new translation](img/adding_translation.png "Adding a new translation")
 
 <!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/wrOL621W0E3uAwSOBBmZ?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Add translation" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+
+## Edit page for different language versions of a website [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
+
+When you edit a page, a bar at the top of the screen lists the most recently used [SiteAccesses](multisite.md#siteaccess) on your website.
+Use this bar to switch between the different versions and work on them.
+
+<a name="siteaccess"></a>
+
+!!! note "SiteAccess concept"
+
+    SiteAccesses are a means to present different versions of the website to different categories of users.
+    You could treat SiteAccesses as different "entrance points" to your website.
+    They allow you to show different content or design to visitors, for example, to serve different language versions to visitors from different countries.
+
+    See [Work with websites](../website_organization/work_with_sites.md) for more information about setting up websites.
 
 ## Automated translation
 

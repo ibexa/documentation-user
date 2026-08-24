@@ -36,7 +36,7 @@ month_change: true
 
     !!! tip
 
-        A content item can look different on different [SiteAccesses](multisite.md#siteaccess).
+        A content item can look different on different [SiteAccesses](translate_content.md#siteaccess).
         You can select a SiteAccess to preview with a drop-down in the preview screen.
 
 1. To discard your changes and close the window, click **Delete draft**.
@@ -256,7 +256,7 @@ For more information, see [SeenThis! page block](block_reference.md#seenthis-blo
 When you select a section of text, you get access to text formatting options such as bold or underline.
 Here you can also add a link to the text. You can link to an external website, or to another content item.
 
-When linking to content, you can select a [SiteAccess](multisite.md#siteaccess) from the drop-down to enable cross-website linking.
+When linking to content, you can select a [SiteAccess](translate_content.md#siteaccess) from the drop-down to enable cross-website linking.
 This allows the link to work across different websites in a [multisite](multisite.md) setup.
 
 ![Selecting SiteAccess for cross-website linking](img/online_editor_link_siteaccess_picker.png "Selecting SiteAccess for cross-website linking")
