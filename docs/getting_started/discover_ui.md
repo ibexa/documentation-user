@@ -114,7 +114,7 @@ If you need access to certain settings or technical details, you can [disable th
 ![Dark theme for content tree](img/FM_dark_content_tree.png "Dark theme for content tree")
 
 - **Content item view**
-: If you select a specific [SiteAccess](translate_content.md#siteaccess) from the **Site context** drop-down list on the right side of the top bar and then browse content items in content tree, they're displayed in full view, with a limited set of actions available.
+: If you select a specific [SiteAccess](multisite.md#siteaccess) from the **Site context** drop-down list on the right side of the top bar and then browse content items in content tree, they're displayed in full view, with a limited set of actions available.
 To display the content item details view with more actions, click **Exit full view**.
 
 ![Content item in full view](img/FM_content_item_full_view.png "Content item in full view")
