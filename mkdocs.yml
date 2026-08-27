@@ -189,6 +189,7 @@ extra:
 
 extra_css:
   - fonts/MavenPro.css
+  - css/tokens.css
   - css/codehilite.css
   - css/switcher.css
   - css/custom.css
