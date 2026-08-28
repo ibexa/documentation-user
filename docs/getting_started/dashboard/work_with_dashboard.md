@@ -1,6 +1,5 @@
 ---
 description: Work with dashboard.
-edition: experience
 ---
 
 # Work with dashboard

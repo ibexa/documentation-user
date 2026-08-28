@@ -1,6 +1,5 @@
 ---
 description: Use Site Factory to easily create multiple websites, with different designs and subsets of content, based on common skeletons.
-edition: experience
 ---
 
 # Work with websites

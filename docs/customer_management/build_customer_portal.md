@@ -1,6 +1,5 @@
 ---
 description: Use Page Builder to create and edit a Customer Portal.
-edition: experience
 ---
 
 # Create and edit Customer Portal
