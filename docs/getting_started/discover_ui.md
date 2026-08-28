@@ -23,7 +23,7 @@ D\. Drop-down that changes the [site context](#site-context)
 
 ![Top bar with site context selector](img/top_bar.png "Top bar with site context selector")
 
-E\. [Notification](notifications.md) icon that informs you about incoming assignments or requests, for example, when another user invites you to preview their work or when items are assigned for [your review](../content_management/workflow_management/editorial_workflow.md#review-queue)
+E\. [Notification](notifications.md) icon that informs you about incoming assignments or requests, for example, when items are assigned for [your review](editorial_workflow.md#review-queue)
 
 F\. User avatar with a drop-down menu with access to [user profile and settings](get_started.md#view-and-edit-user-profile)
 

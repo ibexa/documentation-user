@@ -9,7 +9,6 @@ With real-time notifications you stay informed and can take appropriate actions 
 
 Notifications inform you about incoming assignments or requests, for example, when:
 
-- another user invites you to preview their work
 - when items are assigned for [your review](../content_management/workflow_management/editorial_workflow.md#review-queue)
 - when another user requests that you [release a lock](work_with_versions.md#release-locked-drafts)
 - when items are [sent to trash](copy_move_hide_content.md#remove-content)

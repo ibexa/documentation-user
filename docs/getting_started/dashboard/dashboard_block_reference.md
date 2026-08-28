@@ -47,7 +47,7 @@ On the **Design** tab, in the **View** field, select the layout to be used to pr
 ## My content block
 
 Displays a list of content items created by the user who is currently logged in.
-It shows the following tabs: **Drafts**, **My shared drafts**, **Drafts shared with me**, **Scheduled**, **Content**, **Media**, **Drafts to review**.
+It shows the following tabs: **Drafts**, **Scheduled**, **Content**, **Media**, **Drafts to review**.
 
 On the **Properties** tab, set values in the following fields:
 
