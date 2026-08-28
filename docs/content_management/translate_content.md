@@ -59,17 +59,6 @@ the same way as when editing only one language.
 
 <!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/wrOL621W0E3uAwSOBBmZ?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Add translation" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
 
-## Automated translation
-
-If your application comes with a [properly configured automated translation feature]([[= developer_doc =]]/multisite/languages/automated_translations), you can have your content machine-translated into multiple languages by using external translation services like Google Translate and DeepL.
-
-To use it, in the **Create a new translation** modal, select the source and target languages and the **Use automatic translation with...** checkbox.
-If more than one service is configured, you can choose either of the available options.
-
-![Automated translation](img/automated_translation.png "Automated translation")
-
-When you click **Create**, all the Fields are pre-filled with the values in target language, provided by the selected translation service.
-
 ## Translation comparison
 
 You can compare different versions of the translations of the content item.
