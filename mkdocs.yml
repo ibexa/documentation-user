@@ -151,7 +151,7 @@ theme:
     palette:
         primary: 'blue grey'
         accent: 'deep orange'
-    logo: 'images/ibexa-dxp-logo.png'
+    logo: 'images/cohesivo-logo.svg'
 
 extra:
   append_bootstrap:
@@ -189,6 +189,7 @@ extra:
 
 extra_css:
   - fonts/MavenPro.css
+  - css/tokens.css
   - css/codehilite.css
   - css/switcher.css
   - css/custom.css

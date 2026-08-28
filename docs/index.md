@@ -6,7 +6,7 @@
         </div>
         <div class="col-12 col-lg-6 col-fhd-3">
             <a class="info-tile" href="getting_started/get_started/">
-                <div class="info-tile__circle" style="background-color: #fff7ec;">
+                <div class="info-tile__circle info-tile__circle--warning">
                     <svg width="20" height="25">
                         <use xlink:href="images/icons.svg#first-steps" />
                     </svg>
@@ -26,7 +26,7 @@
         </div>
         <div class="col-12 col-lg-6 col-fhd-3">
             <a class="info-tile" href="persona_paths/administrator/">
-                <div class="info-tile__circle" style="background-color: #f6e7ef;">
+                <div class="info-tile__circle info-tile__circle--primary">
                     <svg width="25" height="25">
                         <use xlink:href="images/icons.svg#administrator" />
                     </svg>
@@ -46,7 +46,7 @@
         </div>
         <div class="col-12 col-lg-6 col-fhd-3">
             <a class="info-tile" href="persona_paths/editor/">
-                <div class="info-tile__circle" style="background-color: #ecf8fb;">
+                <div class="info-tile__circle info-tile__circle--info">
                     <svg width="25" height="18">
                         <use xlink:href="images/icons.svg#content-editor" />
                     </svg>
@@ -66,7 +66,7 @@
         </div>
         <div class="col-12 col-lg-6 col-fhd-3">
             <a class="info-tile" href="persona_paths/shop_manager/">
-                <div class="info-tile__circle" style="background-color: #f3f3f6;">
+                <div class="info-tile__circle info-tile__circle--neutral">
                     <svg width="25" height="24">
                         <use xlink:href="images/icons.svg#store-manager" />
                     </svg>

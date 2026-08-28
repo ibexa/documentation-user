@@ -1,4 +1,3 @@
-@use 'variables';
 @use 'sass:list';
 
 .pill {
@@ -8,14 +7,14 @@
     padding: 1px 8px;
     border: 1px solid;
     margin-right: 8px;
-    color: variables.$color-primary-main;
+    color: var(--cohesivo-primary-80);
 
     $types: (
-        "headless": (variables.$color-error-main, "Headless"),
-        "experience": (variables.$color-warning-dark-01, "Experience"),
-        "commerce": (variables.$color-primary-main, "Commerce"),
-        "lts-update": (variables.$color-info-main, "LTS Update"),
-        "new-feature": (variables.$color-success-main, "New feature")
+        "headless": (var(--cohesivo-error-80), "Headless"),
+        "experience": (var(--cohesivo-warning-110), "Experience"),
+        "commerce": (var(--cohesivo-primary-80), "Commerce"),
+        "lts-update": (var(--cohesivo-info-80), "LTS Update"),
+        "new-feature": (var(--cohesivo-success-100), "New feature")
       );
 
       @each $name, $values in $types {
@@ -41,8 +40,7 @@
     &--new {
       margin-right: 15px;
       align-self: center;
-      color: #d9e8ff;
-      color: #3562a0;
+      color: var(--cohesivo-info-80);
       text-transform: lowercase;
     }
 }
