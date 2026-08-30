@@ -18,6 +18,7 @@ The following blocks are provided with a clean installation of [[= product_name 
 |[Recent activity](#recent-activity-block)|Displays a list of recent activity of all or selected users.|
 |[Recent orders](#recent-orders-block)|Displays a table presenting recent orders and their status.|
 |[Review queue](#review-queue-block)|Displays a list of content items which user or user group can review.|
+|[Top 10 clicked items](#top-10-clicked-items-block)|Displays a table presenting top 10 clicked items.|
 
 !!! note
 
@@ -150,5 +151,21 @@ Displays a list of content items which user or user group can review.
 On the **Properties** tab, set values in the following fields:
 
 - **Name** - Enter a name for the block.
+
+On the **Design** tab, in the **View** field, select the layout to be used to present a list of content items for review and submit your changes.
+
+## Top 10 clicked items block [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
+
+Requires [Ibexa Personalization](personalization.md) enabled.
+
+Displays a table presenting top 10 clicked items.
+
+Table contains following columns: Item clicked (including item name), Item type, Recommended (presenting number of recommendations of selected item),
+Clicked (presenting total number of clicks on selected item).
+
+On the **Properties** tab, set values in the following fields:
+
+- **Name** - Enter a name for the block.
+- **Customer ID** - Select customer ID whose top 10 clicks are displayed.
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of content items for review and submit your changes.
