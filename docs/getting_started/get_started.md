@@ -16,26 +16,19 @@ It features a customizable user interface where you can work with the content, p
 - [product management](product_catalog.md)
 - [customer management](customer_management.md)
 
-!!! note "Installation"
-
-    Only administrators can [install]([[= developer_doc =]]/getting_started/install_cohesivo/) [[= product_name =]].
-    They should provide you with the address of the installation.
-
 ## Access the back office
 
-To access the back office (or the user/editor interface), add `/admin` to the address provided by the administrator.
-For example, if your website's URL is `www.my-site.com`, you enter the editing interface through `www.my-site.com/admin`.
+Your [[= product_name =]] environment is set up for you as part of your subscription.
+Your administrator provides you with its address and your user credentials.
 
-If you're the administrator, use the login credentials that were set [during the installation process]([[= developer_doc =]]/getting_started/install_cohesivo/#create-a-database).
-
-Otherwise, to log in, you must get your user credentials from the administrator, and enter them on the login screen.
+To log in, enter the user credentials on the login screen.
 
 ![Login screen](img/login_form.png "Login screen")
 
 ### Onboarding
 
 When you log in to [[= product_name =]] for the first time, interactive product tours appear.
-This in-app walkthroughs guide you through key features and help you get started quickly.
+These in-app walkthroughs guide you through key features and help you get started quickly.
 
 You can complete each step of the onboarding tutorials, skip them entirely if you prefer to explore on your own, or restart them anytime from your [user settings](#user-settings) under the **Browsing** section.
 

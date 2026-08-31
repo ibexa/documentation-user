@@ -14,9 +14,9 @@ For example, when you add or remove a field to the content type, the change is p
 
 !!! note
 
-    Rules and templates for displaying content on the website are determined at the developer level.
+    Rules and templates for displaying content on the website are determined by your integration partner.
     That is why content of a new content type that you create may not always display correctly or may cause errors.
-    It's always best to discuss adding new content types with the administrator of your website, to make sure whether they need to add it to the configuration.
+    It's always best to discuss adding new content types with your integration partner, to make sure whether they need to add it to the configuration.
 
 !!! caution "Deleting content types"
 

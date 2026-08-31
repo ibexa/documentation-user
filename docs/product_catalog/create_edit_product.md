@@ -17,7 +17,7 @@ You can only create or modify products when your [user role](../permission_manag
 To create a product, depending on how the product type is defined, you [may need to provide](products.md#product-completeness) certain pieces of information in their respective [fields](../content_management/content_model.md#fields-and-field-types).
 
 You can create products using either manual or bulk method.
-Bulk method can be used only at the developer level.
+Bulk method is available through the API.
 See [Products]([[= developer_doc =]]/product_catalog/product_api/#products) for a technical guide on how to do this.
 
 1\. Click **Product catalog** -> **Products**.
@@ -44,9 +44,5 @@ Fields marked with an asterisk (*) are required.
 If you're editing an existing one, click the **Update** button.
 
 After you create a product, you can [add image assets to a product](work_with_product_assets.md), [create variants to the main product](work_with_product_variants.md), [define product prices](manage_prices.md), [set the available quantity](manage_availability_and_stock.md) and [classify products into different categories](work_with_product_categories.md).
-
-!!! note
-
-    Feature availability may differ depending on the specifics of your installation.
 
 For in-depth information, see [Products]([[= developer_doc =]]/product_catalog/products/) in Developer Documentation.

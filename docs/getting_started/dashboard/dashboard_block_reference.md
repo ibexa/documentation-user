@@ -4,7 +4,7 @@ description: Pick from a list of dynamic blocks to create a customized dashboard
 
 # Dashboard block reference
 
-The following blocks are provided with a clean installation of [[= product_name =]]:
+The following blocks are available in [[= product_name =]]:
 
 |Block|Description|
 |-----|-----------|

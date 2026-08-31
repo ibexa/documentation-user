@@ -22,8 +22,6 @@ Available attribute types are:
 - Selection - one of a list of customizable options
 - Symbol - value of product's symbol attribute
 
-If the default list of attributes is not sufficient, ask your development team to [create a custom attribute type]([[= developer_doc =]]/product_catalog/create_custom_attribute_type/).
-
 !!! note "Attribute translations"
 
     Product attributes are not translatable.
