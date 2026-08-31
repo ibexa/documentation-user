@@ -12,7 +12,7 @@ You can also edit the image itself with the Image Editor.
     The editing tools are available when you work in the back office of your application, for example, to:
 
     - browse the Media root folder of the content tree
-    - add an image or an image asset to a content item by selecting it from a Content browser or an Image picker
+    - add an image or an image asset to a content item by selecting it from the [image library](browse_images.md)
     - insert an image into a [Rich Text Field](create_edit_content_items.md#edit-rich-text-fields)
 
 ## Edit image asset
@@ -38,7 +38,7 @@ Here, you can:
 ![Generate alternative text](img/alt_text_use_ai.png)
 
 - Change the keywords assigned to the image.
-Tagging image assets helps keep the media library organized and enables searching images by tags in the DAM.
+Tagging image assets helps keep the image library organized and enables [searching images by tags](browse_images.md#filter-images-by-attributes).
 
 ### Edit image in Image Editor
 

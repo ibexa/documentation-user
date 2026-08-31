@@ -86,6 +86,7 @@ Fields marked with an asterisk (\*) are required.
 You can't save the content item without filling them in.
 
 Some fields, such as *Relation* field (which links two content items) or *Image* field, require you to select a different content item to link to.
+For *Image* and *Image asset* fields, you select the image from the [image library](browse_images.md).
 A *Location* field is a point on the map. You can type the place name, enter its coordinates, or select it on the map.
 
 <a name="relation_field"></a>
@@ -187,6 +188,8 @@ This opens the window to create the link.
 5\. In the **Link to** box, enter the anchor name, and click **Save**.
 
 #### Images
+
+When you add an **Image** element, you choose the image asset in the [image library](../image_management/browse_images.md).
 
 In image options you can select an image variation.
 Variations can include different sizing options and other filters that are applied to images.

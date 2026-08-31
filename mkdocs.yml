@@ -81,6 +81,7 @@ nav:
         - Schedule publication: content_management/schedule_publishing.md
     - Image management:
         - Upload and store images: image_management/upload_images.md
+        - Browse images: image_management/browse_images.md
         - Edit images: image_management/edit_images.md     
     - Search: 
         - Search for content: search/search_for_content.md
@@ -92,8 +93,6 @@ nav:
             - Recommendation blocks: recommendations/raptor_integration/raptor_recommendation_blocks.md
     - Data collection:
         - Qualifio integration: qualifio/qualifio.md
-    - DAM:
-        - Ibexa DAM: dam/ibexa_dam.md
     - Customer management:
         - Customer management: customer_management/customer_management.md
         - Customer Portal: customer_management/customer_portal.md
@@ -159,7 +158,6 @@ extra:
   product_name_connect: 'Ibexa Connect'
   product_name_cloud: 'Ibexa Cloud'
   product_name_oss: 'Cohesivo OSS'
-  product_name_dam: 'Ibexa DAM'
   product_name_engage: 'Qualifio'
   pim_product_name: 'Quable'
 
