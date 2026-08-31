@@ -47,7 +47,7 @@ To do it, uncheck **Use automatic translation** and proceed.
 
 ![Create a new translation modal](img/translations_create_translation.png "Create a new translation modal")
 
-If no translation providers are configured in the system, or [the providers are disabled](#translation-services-and-language-pairs), the checkbox is inactive.
+If no translation providers are configured in the system, or [the providers are disabled](#manage-translation-services-and-language-pairs), the checkbox is inactive.
 If only one provider exists in the system, there is a checkbox, but no drop-down list.
 When there are more than four translation services configured in the system, a search field appears in the drop-down list.
 
