@@ -30,11 +30,12 @@ By default, new users created in this way are placed in the Guest accounts group
 
 ## Invite users
 
-To invite users, go to **Admin** -> **Users** and click **Invite members** in the top right corner.
+To invite users, go to **Admin** -> **Users**, navigate to the user group you want to invite to, and click **Invite members** in the top right corner.
 
 ![Inviting users](img/users_invitation.png)
 
-To send invitations, fill out email addresses one by one, or use drag and drop to upload a file with an email list, then click **Send**.
+To send invitations, fill out email addresses one by one, or use drag and drop to upload a `.csv` file with an email list, then click **Send**.
+You can search among the email addresses you input with the top search bar.
 
 Invited users then receive an email message with a registration link.
 With it, they can register and create their account in the frontend as customers or in the back office as members of the team.
