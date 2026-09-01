@@ -89,7 +89,6 @@ The screen refreshes to display the side by side view of its fields.
 
 For more information, see [Work with versions](work_with_versions.md#compare-versions).
 
-
 ## Manage translation services and language pairs
 
 If you have Administrator permissions, you can enable and disable translation services and assign them to language pairs.
