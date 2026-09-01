@@ -127,7 +127,8 @@ Disabled services don't appear as choices in the **Create a new translation** mo
 To manage language pairs, go to **Admin** -> **Languages** -> **Language pairs** tab.
 
 A language pair setting decides which translation service is used by default when an editor translates from one specific language to another.
-When an editor opens the **Create a new translation** modal and selects a source and target language, a matching translation service gets pre-selected.The editor can override this selection.
+When an editor opens the **Create a new translation** modal and selects a source and target language, a matching translation service gets pre-selected.
+The editor can override this selection.
 
 To add a language pair, click **+ Add language pair**, and then:
 
