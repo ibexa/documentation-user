@@ -21,7 +21,7 @@ For example, you can pass content through stages of draft, design, and proofread
 
 You can view content items which are in different stages under review on **My dashboard** screen, in the **Review queue** table.
 The table only shows content items that your role has permissions to edit.
-If your installation is [configured to support draft locking]([[= developer_doc =]]/content_management/workflow/workflow/#draft-locking), the table also informs you whether any reviewers are assigned and have claimed their drafts for review.
+The table also informs you whether any reviewers are assigned and have claimed their drafts for review.
 
 ![Review queue in the dashboard](img/dashboard_review_queue.png)
 

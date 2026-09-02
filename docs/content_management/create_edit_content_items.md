@@ -193,7 +193,7 @@ When you add an **Image** element, you choose the image asset in the [image libr
 
 In image options you can select an image variation.
 Variations can include different sizing options and other filters that are applied to images.
-Available image variations must be configured at the developer level.
+Available image variations are configured by your integration partner.
 See [Images]([[= developer_doc =]]/content_management/images/images/) for a technical guide on how to do this.
 
 #### Tables
@@ -201,11 +201,6 @@ See [Images]([[= developer_doc =]]/content_management/images/images/) for a tec
 ![Table options in online editor](img/online_editor_table.png)
 
 In table options you can define the first row and/or column as headers, add or delete rows and columns in any part of the table, and also merge or split cells.
-
-#### Custom elements
-
-Your installation can also have custom elements available in the Rich Text field.
-Contact your website administrator about the details of using them.
 
 ### AI Assistant
 

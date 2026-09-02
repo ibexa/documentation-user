@@ -1,5 +1,5 @@
 ---
-description: Review a list of workflows that are available in the installation.
+description: Review a list of workflows that are available in Cohesivo.
 ---
 
 # View workflow list

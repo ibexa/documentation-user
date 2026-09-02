@@ -59,7 +59,7 @@ You can swap two content items in their locations by going to the **Swap Locatio
 
 ## URL management
 
-In your website, you can manage external URL addresses and URL wildcards.
+In your website, you can manage external URL addresses.
 You do this in the back office, **Admin** tab, the **URL management** node.
 
 For more information about URL management, see [Developer Documentation.]([[= developer_doc =]]/content_management/url_management/url_management/).
@@ -99,7 +99,7 @@ To add URL aliases, go to the **URL** tab, and click **+ Add** in the **Custom U
 
 ![Add new URL alias](img/add_new_url.png)
 
-The URL alias must be unique for the whole installation, regardless of the language.
+The URL alias must be unique across the whole website, regardless of the language.
 
 ![Creating a new URL alias](img/create_new_url_alias.png)
 
@@ -110,17 +110,3 @@ For each new alias, you can set the following options:
 - Place at the website root - when toggled, the alias is created in the root of the website.
 If this is toggled off, the alias is relative to the parent of the content item.
 - SiteAccess - when selected, the prefix of the respective SiteAccess is added to the alias path.
-
-### URL wildcards
-
-With wildcards, you can replace a portion of the URL address for many content items at the same time, for example, to shorten the path, or to make the path meaningful for the readers.
-
-![URL wildcards tab](img/URL_Wildcards_sm.png)
-
-The **URL wildcards** tab shows a list of all URL wildcard definitions that exist within the website, and contains all the information about each URL wildcard.
-You can delete or modify existing entries, or create new ones.
-
-![Editing a URL wildcard definition](img/URL_wildcard_detail.png)
-
-For each URL wildcard definition, you set the wildcard pattern and the destination.
-Also, you decide whether the link should redirect users to the destination's original address.
