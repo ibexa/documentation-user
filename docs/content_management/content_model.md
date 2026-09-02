@@ -9,7 +9,7 @@ In [[= product_name =]] everything is a content item — not just the actual pag
 
 [[= product_name =]] lets you customize and adapt the content model depending on your needs and the type of website you create.
 
-Depending on your organization, if you are an editor or a content creator, it's possible that the content model for your installation has already been created by your administrator or content manager.
+Depending on your organization, if you are an editor or a content creator, it's possible that the content model has been created by your administrator or content manager.
 However, even a non-technical user can create or modify the content model through the editing interface.
 
 ## Content types
@@ -21,7 +21,7 @@ The content type defines what fields are available in the content item.
 A content item may only contain the fields that are defined in the content type.
 
 [[= product_name =]] allows you to create, edit, and delete content types and their fields.
-A clean installation contains a few basic content types.
+[[= product_name =]] comes with a few basic content types.
 
 ## Content items versus content types
 

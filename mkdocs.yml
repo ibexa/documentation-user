@@ -2,8 +2,8 @@ INHERIT: plugins.yml
 
 site_name: User Documentation
 repo_url: https://github.com/ibexa/documentation-user
-site_url: https://doc.ibexa.co/projects/userguide/en/latest/
-edit_uri: blob/5.0/docs
+site_url: https://doc.ibexa.co/projects/userguide/en/saas/
+edit_uri: blob/saas/docs
 hooks:
     - hooks/edit_uri.py  
     - hooks.py
@@ -158,16 +158,11 @@ extra:
   product_name_cdp_base: 'Raptor'
   product_name_connect: 'Ibexa Connect'
   product_name_cloud: 'Ibexa Cloud'
-  product_name_oss: 'Cohesivo OSS'
   product_name_dam: 'Ibexa DAM'
   product_name_engage: 'Qualifio'
   pim_product_name: 'Quable'
 
-  developer_doc: 'https://doc.ibexa.co/en/6.0'
-
-  latest_tag_4_6: '4.6.32'
-  latest_tag_5_0: '5.0.10'
-  latest_tag_6_0: '6.0.0'
+  developer_doc: 'https://doc.ibexa.co/en/saas'
 
 extra_css:
   - fonts/MavenPro.css
