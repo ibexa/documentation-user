@@ -5,7 +5,7 @@ month_change: true
 
 # Block reference
 
-The following blocks are provided with a clean installation of [[= product_name =]]:
+The following blocks are available in [[= product_name =]]:
 
 |Block|Description|
 |-----|-----------|

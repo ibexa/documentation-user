@@ -208,7 +208,7 @@ You cannot publish a page if you haven't set all the required settings of all bl
 !!! tip
 
     Settings and function of custom-made blocks of content depend on their design.
-    For details on adjusting and using them, contact your website administrator.
+    For details on adjusting and using them, contact your integration partner.
 
 After you change the block settings, click **Submit** to save the changes or **Discard** to cancel.
 

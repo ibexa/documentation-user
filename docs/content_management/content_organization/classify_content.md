@@ -13,7 +13,7 @@ Sections let you decide which users can have access to which parts of the tree.
 To see which section a content item belongs to, [disable the Focus mode](../../getting_started/discover_ui.md#disable-focus-mode), and look at its **Technical details** tab.
 
 You can set up sections by navigating to **Content** -> **Sections**.
-A few sections are provided with each installation, and you can add new ones.
+[[= product_name =]] comes with a few sections, and you can add new ones.
 
 ![List of Sections](img/sections.png "List of Sections")
 
@@ -34,11 +34,6 @@ You can assign specific object states to all content items in your website.
 To do it, [disable the Focus mode](../../getting_started/discover_ui.md#disable-focus-mode), go to the **Technical details** tab, and make necessary changes in the **Object state details** section.
 
 ![Object state details](img/object_state_details.png)
-
-!!! note
-
-    The functioning of object states can be set up differently in each installation.
-    Contact your website administrator for information on how to use the states in your case.
 
 ## Bookmarks
 
@@ -62,10 +57,5 @@ To do it, use the [Targeting block](block_reference.md#targeting-block).
 You can create and configure segments and segment groups in the **Admin** section of the back office.
 
 ![Segment groups](img/admin_panel_segment_groups.png "Segment groups")
-
-!!! note
-
-    Assigning users to segments happens automatically according to rules set up by the administrator.
-    Contact your website administrator for more information about your setup.
 
 <!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/uts6qBWYu0PgNqAjODY0?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Work with segments" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
