@@ -42,7 +42,7 @@ You can also [create additional folders](content_tree.md#add-folders) and sub-fo
 
 6\. To find images using tags, in the **Tags** field, enter keywords.
 
-Tagging image assets helps keep the media library organized and enables searching images by tags in the DAM.
+Tagging image assets helps keep the image library organized and enables [searching images by tags](browse_images.md#filter-images-by-attributes).
 
 7\. Click **Publish**.
 
@@ -74,7 +74,7 @@ To upload multiple images and create many image assets, you can use multi-file u
 
 ## Add translations
 
-If you work with multiple languages and want to use searching by languages in DAM, you can add translations to image assets.
+If you work with multiple languages and want to [filter images by language](browse_images.md#filter-images-by-attributes) in the image library, you can add translations to image assets.
 You can replace the contents of all the fields that have values in the base language, for example, the description, or the alternative text.
 
 To see how to add translations, go to [translate content section](translate_content.md).
