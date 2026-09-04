@@ -121,11 +121,11 @@ Here you can [change your user password](get_started.md#change-the-password) and
 |-------|-----------|
 |Number of items displayed in the table|Sets the number of items displayed in sub-items.|
 |Location preview|Enables or disables a thumbnail preview on the content tree.|
-|Help center|Enables or disables the [help center](discover_ui.md#help-center). [[% include 'snippets/lts-update_badge.md' %]]|
-|Product tour|Enables or disables the [product tour onboarding](#onboarding) walkthroughs. [[% include 'snippets/lts-update_badge.md' %]]|
-|Product tour scenarios settings|Separate setting for each available product tour scenario. Allows you to mark each scenario as completed or reset its progress. [[% include 'snippets/lts-update_badge.md' %]]|
-|Side-by-side layout|Decides on which side of the screen the target language column should be displayed in the [side-by-side translation view](translate_content.md#side-by-side-translation-view). [[% include 'snippets/lts-update_badge.md' %]]|
-|Automatic translation for new items|Controls the behavior of the [**Create a new translation** modal](translate_content.md#add-new-translation). When activated, the **Use automatic translation** checkbox is selected and the default translation service for the language pair is preselected. Inactive when no automated translation services are defined. [[% include 'snippets/lts-update_badge.md' %]]|
+|Help center|Enables or disables the [help center](discover_ui.md#help-center). |
+|Product tour|Enables or disables the [product tour onboarding](#onboarding) walkthroughs. |
+|Product tour scenarios settings|Separate setting for each available product tour scenario. Allows you to mark each scenario as completed or reset its progress.|
+|Side-by-side layout|Decides on which side of the screen the target language column should be displayed in the [side-by-side translation view](translate_content.md#side-by-side-translation-view). |
+|Automatic translation for new items|Controls the behavior of the [**Create a new translation** modal](translate_content.md#add-translations). When activated, the **Use automatic translation** checkbox is selected and the default translation service for the language pair is preselected. Inactive when no automated translation services are defined. |
 
 #### Mode
 

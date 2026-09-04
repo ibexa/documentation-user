@@ -86,7 +86,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-12 col-lg-6">
+        <div class="col-12">
             <div class="notification notification--latest-release" id="tile2">
                 <div class="notification__content">
                     <h2>The latest release is [[= latest_tag_5_0 =]]</h2>
@@ -97,21 +97,6 @@
                 </div>
                 <div class="notification__image">
                     <img src="images/notification-latest-release.svg" alt="The latest release" />
-                </div>
-            </div>
-        </div>
-        <div class="col-12 col-lg-6">
-            <div class="notification notification--lts-update" id="tile3">
-                <div class="notification__content">
-                    <h2>The newest LTS Update is Translations management</h2>
-                    <div>Use machine translation, side-by-side editing view, and a review cycle to improve your translation experience.</div>
-                </div>
-                <div class="notification__cta">
-                    <a href="https://doc.ibexa.co/en/5.0/multisite/translations_management/translations_management/">Learn more about this LTS Update</a>
-                    <a href="https://doc.ibexa.co/en/5.0/ibexa_products/editions/#lts-updates">Discover other LTS Updates</a>
-                </div>
-                <div class="notification__image">
-                    <img src="images/notification-lts-update.svg" alt="LTS Update" />
                 </div>
             </div>
         </div>
