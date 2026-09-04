@@ -13,8 +13,8 @@ In the image library you can search, filter, and preview image assets before you
 The main window of the image library is available in two display versions: grid view and list view.
 To change the view mode, in the upper-right corner, click **View** and select the view that you need.
 
-- Grid view contains an image preview, file format, and image size.
-- List view contains a thumbnail, title, format, size, dimensions, creation date, and update date.
+- **Grid view** - contains an image preview, file format, and image size
+- **List view** - contains a thumbnail, title, format, size, dimensions, creation date, and update date
 
 ![Grid view of image library](img/image_library.png)
 
@@ -31,7 +31,7 @@ The application searches the assets for matches based on the keyword, including 
 
 ## Filter images by attributes
 
-With filtering by attributes, you can narrow the search results to the following attributes:
+You can narrow down the search results by filtering on the following attributes:
 
 - language
 - format

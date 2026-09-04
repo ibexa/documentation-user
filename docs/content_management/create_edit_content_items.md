@@ -189,7 +189,7 @@ This opens the window to create the link.
 
 #### Images
 
-When you add an **Image** element, you choose the image asset in the [image library](../image_management/browse_images.md).
+When you add an **Image** element, you choose the image asset in the [image library](browse_images.md).
 
 In image options you can select an image variation.
 Variations can include different sizing options and other filters that are applied to images.
