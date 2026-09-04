@@ -6,205 +6,26 @@ description: Create multiple language versions of content items and products.
 
 The content on your website can be translated into different languages.
 Each content item can have different language versions.
-The version visible to a visitor depends on the way your installation is set up (see [SiteAccess concept](multisite.md#siteaccess)).
+The application that consumes your content decides which version a visitor sees.
 
-!!! tip "Translations management LTS Update"
+[[= product_name =]] offers a [side-by-side translation view](#side-by-side-translation-view) that displays the source and target languages simultaneously.
+It makes it easier for you to provide, edit, and review translations.
 
-    If the [Translations management](#translations-management) LTS Update is installed in your system, [[= product_name =]] offers a side-by-side translation view that displays the source and target languages simultaneously.
-    It makes it easier for you to provide, edit, and review translations.
+You can also translate your content translated automatically by using an external translation service.
+Automatic translation requires [configuration]([[= developer_doc =]]/multisite/translations_management/configure_translations_management) before you can use it.
 
 ## Add website languages
 
-You can only add translations in languages that have been set up for your website in the **Admin** panel.
-If your user [role](work_with_permissions.md) has the right permissions, you can create a new language for the website.
+You can only add translations in languages that have been set up in the **Admin** panel.
+If your user [role](work_with_permissions.md) has the right permissions, you can add a new language.
 To do it, go to the **Admin** panel, open the **Languages** tab, and click **Add language**.
 
 Every new language must have a name and a language code written in the xxx-XX format, for example, eng-US, fre-FR, or nor-NO.
-After adding a language, you may have to reload the application to be able to use it.
 
-!!! note "Website configuration"
-
-    Depending on the way the website is set up, additional configuration may be necessary for the new translations to be displayed properly.
-    Contact your administrator and inform them that you need to add a new language to the website.
-
-    For example, you can only preview content items translated to languages that have a corresponding website configured in that language.
-
-    ![Preview limitation](img/translation_preview_impossible.png "Preview limitation")
-
-    For more information, see [Developer Documentation on language versions]([[= developer_doc =]]/multisite/languages/languages/).
+Adding a language doesn't require any configuration changes.
+As soon as you save it, the language is available for creating content items, products, and their translations.
 
 ## Add translations
-
-1\. In the left panel, go to **Content** -> **Content structure**. Then select a content item.
-
-2\. Go to **Translations** tab and click **+ Add**.
-
-3\. In the **Create a new translation** modal, select the source and target languages, then click **Create**.
-
-All the fields are then pre-filled with the values they have in the base translation.
-If you do not choose a base translation, the fields remain empty.
-
-While working, you can save your work and continue or click **Delete draft** to discard your changes.
-When done, you can save your work and close the window, publish the translated article immediately, or pick another publication date.
-
-Every time you add or edit a translation, a new version of the content item is created,
-the same way as when editing only one language.
-
-![Adding a new translation](img/adding_translation.png "Adding a new translation")
-
-<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/wrOL621W0E3uAwSOBBmZ?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Add translation" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
-
-## Automated translation
-
-If your application comes with a [properly configured automated translation feature]([[= developer_doc =]]/multisite/languages/automated_translations), you can have your content machine-translated into multiple languages by using external translation services like Google Translate and DeepL.
-
-To use it, in the **Create a new translation** modal, select the source and target languages and the **Use automatic translation with...** checkbox.
-If more than one service is configured, you can choose either of the available options.
-
-![Automated translation](img/automated_translation.png "Automated translation")
-
-When you click **Create**, all the Fields are pre-filled with the values in target language, provided by the selected translation service.
-
-## Translation comparison
-
-You can compare different versions of the translations of the content item.
-
-1\. [Disable the Focus mode](../getting_started/discover_ui.md#disable-focus-mode).
-
-2\. In the left panel, go to **Content** -> **Content structure**. Then select a content item.
-
-3\. Go to **Versions** tab and click the **Version compare** icon: ![Version Compare Icon](img/version_compare_icon.png){.inline-image}.
-
-4\. In the **Comparing versions** screen, use the switcher in the top right corner, and click the split view:
-
-![View switcher](img/view_switcher.png "View switcher")
-
-5\. From the drop-downs, select two different language versions of the same content item.
-The screen refreshes to display the side by side view of its fields.
-
-![Compare translations screen](img/compare_translations.png "Compare translations screen")
-
-For more information, see [Work with versions](work_with_versions.md#compare-versions).
-
-## Translations management [[% include 'snippets/lts-update_badge.md' %]]
-
-If the translations management feature [is installed and properly configured]([[= developer_doc =]]/multisite/translations_management/translations_management) in your system, the set of features available for [content item](content_items.md) and [product](products.md) translation changes:
-
-- Application administrators can [define language pairs and assign translation services](#manage-translation-services-and-language-pairs) to them.
-- Content editors get a redesigned translation interface called [side-by-side translation view](#side-by-side-translation-view). If at least one automated translation provider is configured, editors can use it to machine-translate content.
-
-!!! note "Limitations"
-
-    [Pages](create_edit_pages.md) and [Forms](work_with_forms.md) don't support the side-by-side translation view and open in the single-language editor instead.
-
-    When you translate them automatically:
-
-    - Translatable page content, including text and RichText block attributes, is sent for translation, while layout, zones, and non-translatable block attributes are preserved from the source page.
-    - The form that you build with the Form Builder is not translated.
-
-    Also, [product attributes](work_with_product_attributes.md) remain non-translatable and are inactive in the side-by-side translation view.
-
-### Manage translation services and language pairs
-
-If you have Administrator permissions, you can enable and disable translation services and assign them to language pairs.
-Enabling at least one translation service is required before the editors can use automatic translation.
-
-#### Translation services
-
-To see the translation services that are available in your system, go to **Admin** -> **Languages** -> **Translation services** tab.
-
-The tab lists all translation services that have been [configured by the developer]([[= developer_doc =]]/multisite/translations_management/configure_translations_management/#configure-translation-providers).
-Each service shows its name, vendor, and whether it's enabled.
-Disabled services don't appear as choices in the **Create a new translation** modal.
-
-!!! note "Permission to use AI actions"
-
-    AI-based translation services require that policies related to [AI actions](work_with_ai_actions.md) are assigned to user roles.
-    If an editor can't see AI-based services in the drop-down on the **Create a new translation** modal, check if the right permissions are granted in their role definition.
-
-#### Language pairs
-
-To manage language pairs, go to **Admin** -> **Languages** -> **Language pairs** tab.
-
-A language pair setting decides which translation service is used by default when an editor translates from one specific language to another.
-When an editor opens the **Create a new translation** modal and selects a source and target language, a matching translation service gets pre-selected.
-The editor can override this selection.
-
-To add a language pair, click **+ Add language pair**, and then:
-
-1. Select a source language.
-2. Select one or more target languages.
-3. Select a translation service.
-4. Click **Save and close**.
-
-![Creating a language pair](img/translations_management_language_pairs.png "Creating a language pair")
-
-This creates one language pair per selected target language.
-
-!!! note "Existing language pairs"
-
-    If a language pair for a given source-to-target combination already exists, even for a disabled translation service, you cannot create another one with a different service.
-    Edit the existing language pair instead.
-    To do it, you may need to temporarily re-enable the disabled services, so that all language pairs appear on the screen.
-
-### Side-by-side translation view
-
-The side-by-side translation view displays the source and target text of the content item or product on one screen.
-This way you can add, modify or review translations in context without having to switch between tabs or windows.
-
-The back office offers several entry points where you can access the side-by-side translation view, for example:
-
-- Content item's **Translations** tab — go to **Content** -> **Content structure**, select a content item, open the **Translations** tab, and click **+ Add**.
-- Product's **Translations** tab — go to **Product catalog** -> **Products**, select a product, open the **Translations** tab, and click **+ Add**.
-- **Content tree** — click the three dots icon next to a content item in the content tree and, in the context menu, click **Add translation**.
-- **Content edit view** — when you choose to edit a content item and several language versions exist, the **Edit side-by-side** button is active for all languages except for the main language of the content item.
-
-#### Source and target columns
-
-Depending on [user settings](get_started.md#user-settings), the source language column appears on the left or right of the side-by-side view.
-By default, the source is on the left.
-
-Translatable non-textual fields remain active in the translation column.
-This way you can, for example, replace images with their localized counterparts.
-
-![Side-by-side translation view](img/managing_translations_sxs_view.png "Side-by-side translation view")
-
-Like in the standard content item editor, when multiple sections or field groups exist within the content item or product, anchors appear at the top of the side-by-side translation view to help you jump directly to a specific section.
-
-The view also supports the [distraction-free mode](create_edit_content_items.md#distraction-free-mode), where longer texts in both columns can be scrolled in a synchronized way.
-
-![Distraction-free mode](img/translations_distraction_free_mode.png "Distraction-free mode")
-
-#### Change source language
-
-When a content item or product has multiple published language versions, a drop-down list appears at the top of the source column.
-You can use the drop-down list to change the language that is displayed in the source column.
-
-![Source language selection](img/translations_select_source.png "Source language selection")
-
-#### Copy content from source
-
-The divider between the source and target columns contains a **Copy all from source** button.
-Click it to copy all translatable field values from the source column into the target fields in a single action.
-Values of all fields are copied at the same time.
-
-![Copy all from source button](img/translations_copy_source.png "Copy all from source button")
-
-!!! caution
-
-    When you copy content from source after a target column has been translated, it overwrites all existing translations.
-    This action can't be reverted.
-
-The button is absent if you switch to the [distraction-free mode](create_edit_content_items.md#distraction-free-mode).
-
-#### Hide the source
-
-When the source is placed on the right, the divider between the source and target columns contains a **Collapse source language** button.
-The button toggles the source panel visibility, allowing editors to hide the source text when they no longer need it.
-
-![Collapse source button](img/translations_collapse_source.png "Collapse source button")
-
-### Add new translation
 
 1\. Either click **+ Add** in the content item's or product's **Translations** tab, or **Add translation** in the content tree.
 
@@ -244,7 +65,142 @@ Depending on whether you choose to use automatic translations, target fields can
 
 6\. When you work with other content items, you have multiple options to quit editing and preserve the translation, while **Delete draft** removes it completely.
 
-### Edit existing translations
+Every time you add or edit a translation, a new version of the content item is created,
+the same way as when editing only one language.
+
+## Translation comparison
+
+You can compare different versions of the translations of the content item.
+
+1\. [Disable the Focus mode](../getting_started/discover_ui.md#disable-focus-mode).
+
+2\. In the left panel, go to **Content** -> **Content structure**. Then select a content item.
+
+3\. Go to **Versions** tab and click the **Version compare** icon: ![Version Compare Icon](img/version_compare_icon.png){.inline-image}.
+
+4\. In the **Comparing versions** screen, use the switcher in the top right corner, and click the split view:
+
+![View switcher](img/view_switcher.png "View switcher")
+
+5\. From the drop-downs, select two different language versions of the same content item.
+The screen refreshes to display the side by side view of its fields.
+
+![Compare translations screen](img/compare_translations.png "Compare translations screen")
+
+For more information, see [Work with versions](work_with_versions.md#compare-versions).
+
+## Manage translation services and language pairs
+
+If you have Administrator permissions, you can enable and disable translation services and assign them to language pairs.
+Enabling at least one translation service is required before the editors can use automatic translation.
+
+### Translation services
+
+To see the translation services that are available in your system, go to **Admin** -> **Languages** -> **Translation services** tab.
+
+The tab lists all translation services that have been [configured by the developer]([[= developer_doc =]]/multisite/translations_management/configure_translations_management/#configure-translation-providers).
+Each service shows its name, vendor, and whether it's enabled.
+Disabled services don't appear as choices in the **Create a new translation** modal.
+
+!!! note "Permission to use AI actions"
+
+    AI-based translation services require that policies related to [AI actions](work_with_ai_actions.md) are assigned to user roles.
+    If an editor can't see AI-based services in the drop-down on the **Create a new translation** modal, check if the right permissions are granted in their role definition.
+
+### Language pairs
+
+To manage language pairs, go to **Admin** -> **Languages** -> **Language pairs** tab.
+
+A language pair setting decides which translation service is used by default when an editor translates from one specific language to another.
+When an editor opens the **Create a new translation** modal and selects a source and target language, a matching translation service gets pre-selected.
+The editor can override this selection.
+
+To add a language pair, click **+ Add language pair**, and then:
+
+1. Select a source language.
+2. Select one or more target languages.
+3. Select a translation service.
+4. Click **Save and close**.
+
+![Creating a language pair](img/translations_management_language_pairs.png "Creating a language pair")
+
+This creates one language pair per selected target language.
+
+!!! note "Existing language pairs"
+
+    If a language pair for a given source-to-target combination already exists, even for a disabled translation service, you cannot create another one with a different service.
+    Edit the existing language pair instead.
+    To do it, you may need to temporarily re-enable the disabled services, so that all language pairs appear on the screen.
+
+## Side-by-side translation view
+
+The side-by-side translation view displays the source and target text of the content item or product on one screen.
+This way you can add, modify or review translations in context without having to switch between tabs or windows.
+
+!!! note "Limitations"
+
+    [Pages](create_edit_pages.md) and [Forms](work_with_forms.md) don't support the side-by-side translation view and open in the single-language editor instead.
+
+    When you translate them automatically:
+
+    - Translatable page content, including text and RichText block attributes, is sent for translation, while layout, zones, and non-translatable block attributes are preserved from the source page.
+    - The form that you build with the Form Builder is not translated.
+
+    Also, [product attributes](work_with_product_attributes.md) remain non-translatable and are inactive in the side-by-side translation view.
+
+The back office offers several entry points where you can access the side-by-side translation view, for example:
+
+- Content item's **Translations** tab — go to **Content** -> **Content structure**, select a content item, open the **Translations** tab, and click **+ Add**.
+- Product's **Translations** tab — go to **Product catalog** -> **Products**, select a product, open the **Translations** tab, and click **+ Add**.
+- **Content tree** — click the three dots icon next to a content item in the content tree and, in the context menu, click **Add translation**.
+- **Content edit view** — when you choose to edit a content item and several language versions exist, the **Edit side-by-side** button is active for all languages except for the main language of the content item.
+
+### Source and target columns
+
+Depending on [user settings](get_started.md#user-settings), the source language column appears on the left or right of the side-by-side view.
+By default, the source is on the left.
+
+Translatable non-textual fields remain active in the translation column.
+This way you can, for example, replace images with their localized counterparts.
+
+![Side-by-side translation view](img/managing_translations_sxs_view.png "Side-by-side translation view")
+
+Like in the standard content item editor, when multiple sections or field groups exist within the content item or product, anchors appear at the top of the side-by-side translation view to help you jump directly to a specific section.
+
+The view also supports the [distraction-free mode](create_edit_content_items.md#distraction-free-mode), where longer texts in both columns can be scrolled in a synchronized way.
+
+![Distraction-free mode](img/translations_distraction_free_mode.png "Distraction-free mode")
+
+### Change source language
+
+When a content item or product has multiple published language versions, a drop-down list appears at the top of the source column.
+You can use the drop-down list to change the language that is displayed in the source column.
+
+![Source language selection](img/translations_select_source.png "Source language selection")
+
+### Copy content from source
+
+The divider between the source and target columns contains a **Copy all from source** button.
+Click it to copy all translatable field values from the source column into the target fields in a single action.
+Values of all fields are copied at the same time.
+
+![Copy all from source button](img/translations_copy_source.png "Copy all from source button")
+
+!!! caution
+
+    When you copy content from source after a target column has been translated, it overwrites all existing translations.
+    This action can't be reverted.
+
+The button is absent if you switch to the [distraction-free mode](create_edit_content_items.md#distraction-free-mode).
+
+### Hide the source
+
+When the source is placed on the right, the divider between the source and target columns contains a **Collapse source language** button.
+The button toggles the source panel visibility, allowing editors to hide the source text when they no longer need it.
+
+![Collapse source button](img/translations_collapse_source.png "Collapse source button")
+
+## Edit existing translations
 
 The back office offers several entry points where you can edit existing content item or product translations.
 
@@ -278,7 +234,7 @@ This opens the existing draft in the side-by-side translation view, so you can r
     Products don't have draft translations.
     Product translations are published instantly when you click **Save and close** in the editing window.
 
-### Review automatic translation
+## Review automatic translation
 
 If a content item or product has draft translations created with automatic translation, the **Versions** tab displays a **Translation status** column.
 Such drafts are marked with one of the following badges:
@@ -294,7 +250,7 @@ When you create and open an automatic translation or open a draft translation of
 
 ![Review banner in the side-by-side view](img/translations_review_banner.png "Review banner in the side-by-side view")
 
-#### Reject translation
+### Reject translation
 
 On the review banner, click **Reject** to mark the translation as requiring further work.
 The review banner hides but it reappears the next time you open the translation.
@@ -309,7 +265,7 @@ You can reject a translation multiple times, but you can't reject a translation 
 
     For products, rejecting a translation and then saving and closing the editing window publishes the translation despite its review status.
 
-#### Accept translation
+### Accept translation
 
 On the review banner, click **Accept** to mark the translation as reviewed and approved.
 The review banner disappears permanently and the status changes from **For review** to **Translated**.
