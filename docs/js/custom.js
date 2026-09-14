@@ -3,9 +3,21 @@ let jquery = jQuery;
 
 $(document).ready(function() {
     const latestVersionNumber = '5.0';
+    const specialVersions = ['latest', 'saas'];
+
+    const versionLabels = {
+        "2.5": "eZ Platform 2.5",
+        "3.3": "Ibexa DXP 3.3",
+        "4.6": "Ibexa DXP 4.6",
+        "5.0": "Ibexa DXP 5.0",
+        "6.0": "Cohesivo 6.0",
+        "saas": "Cohesivo SaaS"
+    };
+
+    versionLabels[latestVersionNumber] = versionLabels[latestVersionNumber] + ' (latest)';
 
     // replace edit url
-    let branchName = 'master';
+    let branchName = latestVersionNumber;
     const branchNameRegexp = /\/en\/([a-z0-9-_.]*)\//g.exec(document.location.href);
 
     if (branchNameRegexp !== null && branchNameRegexp.hasOwnProperty(1) && branchNameRegexp[1].length) {
@@ -66,14 +78,17 @@ $(document).ready(function() {
                 });
             }
 
-            // Merge "X.Y" and "latest" entries into "X.Y (latest)"
             const allVersions = [...document.querySelectorAll('.switcher__list .versions dd')];
-            const latestVersion = allVersions.find(v => v.textContent.trim() === 'latest');
-            const versionXY = allVersions.find(v => v.textContent.trim() === latestVersionNumber);
+            const olderVersions = document.querySelector('#older-versions');
 
-            const versionXYLink = versionXY.querySelector('a');
-            versionXYLink.textContent = `${latestVersionNumber} (latest)`;
+            // Remove latest version entry from the list
+            const latestVersion = allVersions.find(v => v.textContent.trim() === 'latest');
             latestVersion.remove();
+
+            allVersions
+                .forEach((versionNode) => {
+                    versionNode.querySelector('a').textContent = versionLabels[versionNode.textContent] ?? versionNode.textContent;
+                });
         }
     }, 300);
     setTimeout(function() {
