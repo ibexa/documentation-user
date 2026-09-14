@@ -2,31 +2,31 @@
 let jquery = jQuery;
 
 $(document).ready(function() {
-    const latestVersionNumber = '6.0';
+    const latestVersionNumber = '5.0';
+    const specialVersions = ['latest', 'saas'];
+
+    const versionLabels = {
+        "2.5": "eZ Platform 2.5",
+        "3.3": "Ibexa DXP 3.3",
+        "4.6": "Ibexa DXP 4.6",
+        "5.0": "Ibexa DXP 5.0",
+        "6.0": "Cohesivo 6.0",
+        "saas": "Cohesivo SaaS"
+    };
+
+    versionLabels[latestVersionNumber] = versionLabels[latestVersionNumber] + ' (latest)';
 
     // replace edit url
-    let branchName = 'master';
+    let branchName = latestVersionNumber;
     const branchNameRegexp = /\/en\/([a-z0-9-_.]*)\//g.exec(document.location.href);
 
     if (branchNameRegexp !== null && branchNameRegexp.hasOwnProperty(1) && branchNameRegexp[1].length) {
         branchName = branchNameRegexp[1];
     }
 
-    $('.md-content a.md-icon').each(function() {
-        $(this).attr(
-            'href',
-            $(this)
-                .attr('href')
-                .replace('master/docs/', branchName + '/docs/'),
-        );
-    });
-
-    if (!/^\d+\.\d+$/.test(branchName) && branchName !== 'latest') {
-        branchName = 'master';
+    if (!/^\d+\.\d+$/.test(branchName) && !specialVersions.includes(branchName)) {
+        branchName = latestVersionNumber;
     }
-
-    // Add version pill to top of navigation
-    $('#site-name').append('<span class="pill pill--inline">' + branchName + '</span>');
 
     $('.rst-current-version.switcher__label').html(branchName);
 
@@ -66,14 +66,16 @@ $(document).ready(function() {
                 });
             }
 
-            // Merge "X.Y" and "latest" entries into "X.Y (latest)"
             const allVersions = [...document.querySelectorAll('.switcher__list .versions dd')];
-            const latestVersion = allVersions.find(v => v.textContent.trim() === 'latest');
-            const versionXY = allVersions.find(v => v.textContent.trim() === latestVersionNumber);
 
-            const versionXYLink = versionXY.querySelector('a');
-            versionXYLink.textContent = `${latestVersionNumber} (latest)`;
+            // Remove latest version entry from the list
+            const latestVersion = allVersions.find(v => v.textContent.trim() === 'latest');
             latestVersion.remove();
+
+            allVersions
+                .forEach((versionNode) => {
+                    versionNode.querySelector('a').textContent = versionLabels[versionNode.textContent] ?? versionNode.textContent;
+                });
         }
     }, 300);
     setTimeout(function() {
