@@ -24,7 +24,7 @@ Then select the new parent from the content browser.
 
 ![Content with two locations](img/content_with_two_locations.png "Content with two locations")
 
-<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/RDr8CRVwZXFu1usGhpJJ?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Manage content locations" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+<!-- TODO: re-record walkthrough -->
 
 ### Hide locations
 
@@ -89,7 +89,7 @@ The **Last checked** column displays when the status was last verified.
 
     Once you save the link, it's automatically be marked as "Valid".
 
-<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/YSkaNNICXH0ipckN2Nxx?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Manage URLs" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+<!-- TODO: re-record walkthrough -->
 
 ### URL aliases
 
@@ -97,11 +97,7 @@ Each content item can have one or more URL aliases. They're additional URLs that
 
 To add URL aliases, go to the **URL** tab, and click **+ Add** in the **Custom URL aliases for...** area.
 
-![Add new URL alias](img/add_new_url.png)
-
 The URL alias must be unique across the whole website, regardless of the language.
-
-![Creating a new URL alias](img/create_new_url_alias.png)
 
 For each new alias, you can set the following options:
 

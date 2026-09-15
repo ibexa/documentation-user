@@ -24,15 +24,17 @@ To use [[= product_name_engage =]], you must make arrangements with [[= product_
 
 4\. Accept **Terms and Conditions**, and then click **Send request**.
 
-![Welcome page - form](img/welcome_page_form.png "Welcome page - form")
-
 [[= product_name_base =]] team creates the user account and provides you with its details.
 An invitation link is sent during the setup process.
 Once the registration and configuration process is completed, the welcome page displays information about campaign tools available with [[= product_name_engage =]] and a link to this article.
 
+<!-- TODO: retake screenshot - blocked: Qualifio is an external third-party system and Ibexa Engage renders a blank page in this environment. Needs a provisioned Qualifio/Engage subscription with an activated account. -->
+
 ![Welcome page - active account](img/welcome_page_activated.png "Welcome page - active account")
 
 Click **Manage campaigns in Qualifio** to open a Qualifio page, where you can create and manage campaigns.
+
+<!-- TODO: retake screenshot - blocked: the Qualifio Manager is external third-party UI, not reachable from this environment. Needs a provisioned Qualifio account. Third-party UI is unaffected by the rebrand, so this is the lowest priority of the set. -->
 
 ![Qualifio Manager](img/qualifio_manager.png "Qualifio Manager - campaign list")
 
@@ -86,6 +88,8 @@ This list includes all campaigns available on user's Qualifio account which are 
 You can set the dimensions of the field in which the campaign is displayed. To do it, insert width and height values in the proper fields.
 If size fields are blank, the system sets default template values. It's recommended to adjust them for better results.
 
+<!-- TODO: retake screenshot - blocked: the campaign drop-down is populated from the external Qualifio account. Needs a provisioned Qualifio account connected to this instance. -->
+
 ![Campaign block](img/campaign_block.png "Campaign block")
 
 ### Campaign custom tag
@@ -96,5 +100,7 @@ This list includes all campaigns available on user's Qualifio account which are 
 
 You can set the dimensions of the field in which the campaign is displayed. To do it, select units, and provide width and height values in the proper fields.
 If size fields are blank, the system sets default template values. It's recommended to adjust them for better results.
+
+<!-- TODO: retake screenshot - blocked: the campaign list in the Campaign custom tag dialog comes from the external Qualifio account. Needs a provisioned Qualifio account connected to this instance. -->
 
 ![Campaign custom tag](img/campaign_custom_tag.png "Campaign custom tag")

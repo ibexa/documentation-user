@@ -15,10 +15,14 @@ To access Site Factory, in the left panel, click the **Site Management** icon an
 If Site Factory is enabled, and you have sufficient permissions, you should see the **Create** button.
 Click it to access the **Creating New Site** modal.
 
+<!-- TODO: retake screenshot - blocked: Site Factory is disabled (ibexa_site_factory.enabled: false) and no site templates are defined, so the Sites list has no Create button. -->
+
 ![Site Factory icon](img/site_factory_icon.png)
 
 Here, you can create an entirely new website or a different language version of an already existing website.
 First, select a name, a predefined design, and a Parent location for your website.
+
+<!-- TODO: retake screenshot - blocked: Site Factory is disabled and no site templates are defined, so the Creating New Site modal cannot be opened. -->
 
 ![Create a new website - step one](img/site_factory_new_site_step_1.png)
 
@@ -35,6 +39,8 @@ In this section you also define the SiteAccess URL addresses with their main lan
 
 For more information about SiteAccesses, see [Multisite]([[= developer_doc =]]/multisite/multisite/).
 
+<!-- TODO: retake screenshot - blocked: Site Factory is disabled and no design defines a site skeleton, so step two of the Creating New Site modal cannot be reached. -->
+
 ![Create a new website - step two](img/site_factory_new_site_step_2.png)
 
 If all required fields are filled out, click **Save and close** to create new website and add it to the website list in the **Site management** area.
@@ -46,6 +52,8 @@ If all required fields are filled out, click **Save and close** to create new we
 
 You can see all the details of created website.
 To do it, go to **Site management** -> **Sites** and click the three dots icon next to the website name. Then, select **Site details**.
+
+<!-- TODO: retake screenshot - blocked: Site Factory is disabled, so the site card in Site management > Sites has no three-dots menu and the Site details panel cannot be opened. -->
 
 ![Site details](img/site_details.png)
 
@@ -64,5 +72,3 @@ Here, you can edit all the elements you selected during creation of the website:
 
 To enable deleting a website you have to change the website status to offline.
 Live websites cannot be deleted. Next, select the **Delete** icon and confirm your choice.
-
-![Site list](img/site_factory_site_list.png)

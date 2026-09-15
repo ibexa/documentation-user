@@ -11,7 +11,7 @@ For more information about building and styling forms, see [Developer Documentat
 
 You can create a form with a visual drag-and-drop editor, the Form Builder.
 
-<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/6TuwPfbDTXTo6SnYSiyW?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Form Builder interface" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+<!-- TODO: re-record walkthrough -->
 
 ## Create forms
 
@@ -28,11 +28,7 @@ To create a form:
 - **Select a language** - from a drop-down list, select the base language for the content item.
 - **Select a content type** - use this field to narrow down the list of content type choices displayed below. Then select **Form**, and click the **Create** button.
 
-![Select form](img/select_form.png)
-
 3\. Provide the title and click **Build form**.
-
-![Build form](img/build_form.png)
 
 4\. Drag (A) or click (B) on the type from the form fields toolbar.
 To create more complicated and detailed form, you can use more than one form field type.
@@ -68,7 +64,7 @@ You can choose one of a few options of what is shown to the user after filling i
 
     For more information, see [Publish content](publish_content.md).
 
-<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/YayMqLkQ6QeCZFeVyQxp?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Build a form" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+<!-- TODO: re-record walkthrough -->
 
 ## View results
 
@@ -78,6 +74,8 @@ Here you can view the details of each submission.
 You can also delete any submissions (for example if they were made while testing or contain spam).
 
 Click **Download submissions** icon to download all the submissions in a .CSV (comma-separated value) file.
+
+<!-- TODO: retake screenshot - blocked: the form has no submissions and none can be produced - the Form block cannot be dropped onto a Page Builder zone from automation, so there is no rendered form to submit through. -->
 
 ![Form Builder submissions](img/form_builder_submissions.png)
 
@@ -89,11 +87,7 @@ In the following example, you can learn how to create a Newsletter form and use 
 
 2\. Enter **Newsletter** as a title and click **Build** form.
 
-![Build newsletter](img/build_newsletter.png)
-
 3\. From the **Basic form fields** toolbar choose: Single line input (two times), Email, Checkboxes and Button.
-
-![Basic form fields](img/newsletter_fields.png)
 
 4\.  Click on **Settings** icon and modify chosen form fields:
 
@@ -102,8 +96,6 @@ In the following example, you can learn how to create a Newsletter form and use 
 - Email: **Name**: Email address
 - Checkboxes: **Name**: Gender, **Options**: click **Add** button and add three values: Male, Female, Other.
 - Button: **Name**: Sign up!, **Action**: choose Show a message and in the **Message to display** field enter: Thank you!
-
-![Newsletter settings](img/newsletter_settings.png)
 
 5\. Click **Save** button and then **Confirm**.
 
@@ -114,8 +106,4 @@ In the following example, you can learn how to create a Newsletter form and use 
 7\. Click **Block settings** icon and then, in the Form window click **Select content** button.
 Find your form in the content tree and choose it, then click **Confirm** and **Submit** buttons.
 
-![Block settings](img/newsletter_button_submit.png)
-
 8\. Now, you can see a Newsletter form on your page.
-
-![Newsletter form](img/newsletter_result.png)

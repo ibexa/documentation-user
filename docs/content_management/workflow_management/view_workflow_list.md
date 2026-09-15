@@ -14,6 +14,4 @@ You can preview a diagram of the workflow.
 
 You can also select a configured workflow to see all content items that are under review as part of this workflow.
 
-![Content under review](img/workflow_content_under_review.png)
-
 For more information about configuring workflows, see [Developer Documentation]([[= developer_doc =]]/content_management/workflow/workflow/).

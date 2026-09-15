@@ -50,6 +50,8 @@ When you edit the image asset, you can edit the image itself by using the Image 
 
 Image Editor is available whenever you see the **Edit** icon on the preview.
 
+<!-- TODO: retake screenshot - retake: the recorded blocker (empty Media > Images) no longer applies now that four images are seeded, so this one is shootable on the local 6.0 instance. Check the path too - the file lives at content_management/img/image_editor_icon.png, not next to this page. -->
+
 ![Image Editor icon](image_editor_icon.png)
 
 #### Flip
@@ -93,8 +95,6 @@ Click the **X** icon to restore the original position of the target.
 
 Click the left or right arrow button to undo or redo the most recent change.
 Click **Reset image** to restore the original appearance of the image.
-
-![Image Editor: Undo](image_editor_undo.png)
 
 #### Save changes
 

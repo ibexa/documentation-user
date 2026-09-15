@@ -15,13 +15,13 @@ Potential business partners need to fill in an application form to apply for a c
 
 They need to provide their basic information, contact information and billing address to submit an application.
 
-![Company self-registration](img/cp_self_registration.png)
-
 ## Application approval
 
 The application then goes through an approval process in the back office.
 To see a list of pending applications, go to **Customers** -> **Applications**.
 There you can edit them or check their current status.
+
+<!-- TODO: retake screenshot - blocked: no company can be created on either instance (the back-office company form rejects a fully filled billing address without reporting why), and Customers > Clients returns 404. Needs the customer module seeded with 4-5 applications in different statuses. -->
 
 ![List of applications](img/cp_applications_list.png)
 
@@ -29,12 +29,16 @@ Each application can be either edited, approved, rejected, or put on hold.
 Applications with status reject and on hold remain on the list for future reference.
 Accepted ones move to **Customers** -> **Companies** section.
 
+<!-- TODO: retake screenshot - blocked: no company can be created on either instance (the back-office company form rejects a fully filled billing address without reporting why), so no application exists. Needs >=1 submitted application seeded. -->
+
 ![Application](img/cp_application.png)
 
 If you decide to approve a business partner's application, you need to specify its sales representative and a customer group.
 
 If you cannot see sales representatives, you need to go to **Admin** -> **Users** and add them under a **Sales rep** group before approval.
 Follow the same procedure with a customer group, it can be set up in **Product catalog** -> **Customer Groups**.
+
+<!-- TODO: retake screenshot - blocked: no company can be created on either instance (the back-office company form rejects a fully filled billing address without reporting why), so there are no applications and no customer groups. Needs an application seeded plus >=1 customer group and >=1 user in a Sales rep group. -->
 
 ![Application approval](img/cp_approving_application.png)
 

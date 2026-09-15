@@ -71,8 +71,6 @@ Expand the **Select blocks** section and select page blocks that you want to be 
 
 Now, only selected page blocks are available in the edit mode.
 
-![Page blocks menu](img/page_blocks_toolbar_selected_blocks.png "Page blocks menu")
-
 !!! caution
 
     When you deselect blocks, any related blocks that are included in the page hide as well.
@@ -93,8 +91,6 @@ If you deselect a layout that is currently used on a page, the editor has to cha
 You can set the editing mode that is launched when an editor starts editing the page.
 To do it, in the **Select Editor launch mode** section, select one of the available options.
 
-![Editor launch mode](img/select_editor_mode.png "Select Editor launch mode")
-
 ## Content relation settings
 
 When you add or modify a **[Content relation](create_edit_content_items.md#relation_field)** or **Content relation (multiple)** field in a content type, you can decide:
@@ -110,8 +106,6 @@ In the **Select starting Location** area, select from the available options:
 - **Browse** - use to manually select the location from the content browser.
 - **Content location** - the starting location is the location of the content item that is edited by the user. For example, if the user edits the content item with the location `50`, it sets the starting location to this value with children under this location.
 - **Root default location** - use if you want the content browser to start at the defined location with only children available for selection.
-
-![Select starting location](img/select_start_location.png "Selecting a starting location")
 
 ### Allowed content types
 

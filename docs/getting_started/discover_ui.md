@@ -39,8 +39,6 @@ The appearance of content items can also change if they use different designs or
 The first screen that you see after logging in is [Dashboard](dashboard.md).
 It's the default dashboard and contains selected blocks.
 
-![Dashboard](dashboard.png "Dashboard")
-
 You can customize the dashboard by changing the blocks and the layout.
 For more information, see [Work with dashboard](work_with_dashboard.md).
 
@@ -48,11 +46,9 @@ For more information, see [Work with dashboard](work_with_dashboard.md).
 
 The main menu allows you to move between important sections of the application.
 
-![Main menu](img/side_menu.png "Main menu")
-
 You can adjust the size of the menu sidebar.
 To do this, click on the side edge of the panel, then drag and adjust to the desired size.
-You can also hide it by clicking the button in the down right corner.
+You can also hide it by clicking the button in the top right corner.
 
 ![Main menu - adjust](img/menu_adjust.png "Adjust main menu or hide it")
 
@@ -68,8 +64,6 @@ It lets you navigate the content tree, and, for example, create, edit, move, cop
 
 Content tree is the place where you can navigate through all the content items in your application.
 It is available in the back office and allows you to browse your content, move content items around, hide them, send them to trash, and perform other actions.
-
-![Content tree in the menu](img/left_menu_tree.png "Content tree in the menu")
 
 For more information, see [Content tree](content_tree.md).
 
@@ -103,12 +97,10 @@ Focus mode helps editors focus on information that is only relevant to their lin
 It's enabled by default, after you log in.
 If you need access to certain settings or technical details, you can [disable the focus mode](#disable-focus-mode) at any time.
 
-<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/2YM6EhsN5eeohdLzYBpi?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Search and focus mode" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+<!-- TODO: re-record walkthrough -->
 
 - **Dark theme for content tree**
 : In areas where the content tree is displayed, for example, in **Content structure**, the tree is displayed on a dark background.
-
-![Dark theme for content tree](img/FM_dark_content_tree.png "Dark theme for content tree")
 
 - **Content item view**
 : If you select a specific [SiteAccess](multisite.md#siteaccess) from the **Site context** drop-down list on the right side of the top bar and then browse content items in content tree, they're displayed in full view, with a limited set of actions available.
@@ -149,8 +141,6 @@ Focus mode is enabled by default when you first log into [[= product_name =]], b
 The ![Help center](about-info.png){.inline-image} icon appears at the bottom right of multiple screens.
 Click it to access documentation, trainings, release notes, and product roadmap highlights straight from the back office.
 
-![Help center](img/help_center.png "Help center")
-
 Help center can be [customized]([[= developer_doc =]]/administration/back_office/customize_integrated_help/) to fit the needs of your organization, for example, to include links to your internal style guides.
 
 ### Disable help center
@@ -162,5 +152,7 @@ Help center is enabled by default, but you can toggle it in [user settings](get_
 It may happen that the help icon overlaps with other interface elements that you want to interact with.
 In such case, hover over the help icon and click the X icon to dismiss it.
 The help icon reappears when you reload the screen.
+
+<!-- TODO: retake screenshot - blocked: the Help center bubble renders on neither instance - no help element in the DOM and no toggle under User settings > Browsing. -->
 
 ![Help obstructs UI](img/help_obstructs.png "Help obstructs UI")

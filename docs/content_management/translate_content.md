@@ -45,6 +45,8 @@ As soon as you save it, the language is available for creating content items, pr
 You may prefer to translate the content by yourself.
 To do it, uncheck **Use automatic translation** and proceed.
 
+<!-- TODO: retake screenshot - blocked: no translation provider is enabled - the auto-translate AI actions ship with a placeholder OPENAI_API_KEY, so the Use automatic translation checkbox is disabled and the provider drop-down this shot is about never renders. -->
+
 ![Create a new translation modal](img/translations_create_translation.png "Create a new translation modal")
 
 If no translation providers are configured in the system, or [the providers are disabled](#manage-translation-services-and-language-pairs), the checkbox is inactive.
@@ -121,6 +123,8 @@ To add a language pair, click **+ Add language pair**, and then:
 2. Select one or more target languages.
 3. Select a translation service.
 4. Click **Save and close**.
+
+<!-- TODO: retake screenshot - blocked: the mandatory Translation service field cannot be filled because no translation provider is enabled. Also needs the numbered badges 1-4 added in Snagit. -->
 
 ![Creating a language pair](img/translations_management_language_pairs.png "Creating a language pair")
 
@@ -244,9 +248,13 @@ Such drafts are marked with one of the following badges:
 
 Draft translations that you translated yourself rather than automatically don't have a badge.
 
+<!-- TODO: retake screenshot - blocked: the Translated and For review badges only exist on drafts created by automatic translation, which needs an enabled translation provider. -->
+
 ![Review status badges in the Versions tab](img/translations_review_status.png "Review status badges in the Versions tab")
 
 When you create and open an automatic translation or open a draft translation of a content item that has "For review" status in the side-by-side view, a review banner appears at the bottom of the screen, which allows you to accept or reject the translation.
+
+<!-- TODO: retake screenshot - blocked: the review banner only appears on a draft whose translation status is For review, which requires an automatic translation; no provider is enabled on either instance. -->
 
 ![Review banner in the side-by-side view](img/translations_review_banner.png "Review banner in the side-by-side view")
 

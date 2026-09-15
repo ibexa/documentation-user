@@ -24,8 +24,6 @@ The result list also shows which languages the content item is translated to.
 By default, the results are sorted by decreasing relevance.
 By selecting an option from a drop-down menu in the top right corner, you can sort them by name, publication date, or modification date.
 
-![Sorting menu](img/sorting_menu.png)
-
 The search engine not only displays suggestions, but also supports spell checking.
 If you misspell a search phrase, the search engine suggests a related, accurate term.
 
@@ -50,4 +48,4 @@ Depending on the system configuration, a content item count can be indicated for
 Select your filters, then click **Apply** to update the results.
 Click **Clear** to reset and remove all filters.
 
-<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/WuOs9pESmyZLhyyqLqfn?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Search for content" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+<!-- TODO: re-record walkthrough -->

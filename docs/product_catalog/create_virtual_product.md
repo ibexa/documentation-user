@@ -22,8 +22,6 @@ To create a virtual product, first, you have to create a virtual product type.
 
 2\. From the drop-down list choose "Virtual" type and click **Add**.
 
-![Creating virtual product type](virtual_product_type.png "Creating virtual product type")
-
 3\. Fill in basic product type information.
 
 4\. Add fields that describe the product by dragging them from the **Field types** area to a section on the left, and then [configure them](configure_ct_field_settings.md).
@@ -38,11 +36,7 @@ Virtual products are created in the same way as physical ones.
 To create a virtual product, follow the instruction in [Create and edit products](create_edit_product.md).
 While creating a product, choose the virtual product type that you have created.
 
-![Creating virtual product](virtual_product.png "Creating virtual product")
-
 ## Virtual products purchase
 
 Virtual products don’t require shipment when they're purchased without other physical products.
 While purchasing a virtual product, you only have to fill in Billing address and select relevant payment method.
-
-![Virtual product purchasing](virtual_product_purchase.png "Virtual product purchasing")

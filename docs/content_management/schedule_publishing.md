@@ -36,8 +36,6 @@ If the limit is filled and a new content item is displayed, the oldest item disa
 
 When editing a content item, select **Publish later** in the menu on the right.
 
-![Publish Later button in the menu](img/publish_later.png "Publish Later button in the menu")
-
 A **Future publication settings** window is displayed.
 Choose a date and time for the content publication.
 
@@ -46,7 +44,7 @@ Use it to remove the previously selected publication date.
 
 ![Discard publish later button in the menu](img/discard_publish_date.png "Discard publish later button in the menu")
 
-<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/pXVyhWY2v5qD5Q6oS2W6?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Publish in the future" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+<!-- TODO: re-record walkthrough -->
 
 You can also [reschedule or cancel planned publications](#reschedule-or-cancel-publication).
 To browse all the future events, use the [Calendar widget](#calendar-widget).
@@ -147,8 +145,6 @@ To reschedule or cancel events with the dashboard, perform the following actions
       In the **Reschedule** modal window, select the new date and click **Confirm date change**.
     - To cancel publication, click **Cancel publication**.
       In the modal window, confirm the cancellation by selecting **Cancel publication**.
-
-![Reschedule or cancel with the dashboard](img/reschedule_cancel_dashboard.png "Rescheduling or cancelling with the dashboard")
 
 ### Reschedule or cancel in Calendar
 

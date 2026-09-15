@@ -28,8 +28,6 @@ In the content item's details screen, go to **Sub-items** tab, select multiple i
 Then choose a destination from the [content browser](../../getting_started/discover_ui.md#content-browser) in the **Select destination** modal that opens up.
 After choosing and confirming new destination, all selected files are moved to it.
 
-![Multi-file move](img/multi_file_move_location.png)
-
 ## Remove content
 
 You can remove content by clicking **Send to Trash** in the menu.
@@ -40,8 +38,6 @@ It's moved to Trash, which you can access from the left menu.
 In the Trash, you can search for content items and sort your search results based on different criteria.
 You can then select removed content items and restore them to their original locations or to new locations you choose.
 If the content item's parent has been removed, you need to select a new parent location.
-
-![Warning before emptying the trash](img/empty_trash_warning.png "Warning before emptying the Trash")
 
 If a content item has more than one location, selecting **Send to Trash** removes the content item only from the current location.
 The content appears in Trash only once you have removed the last location.
@@ -62,8 +58,6 @@ You have multiple ways to delete multiple items, for example:
 
 Confirm your choice in the pop-up window with the **Send to trash** button.
 All selected files are moved to trash.
-
-![Multi-file delete](img/multi_file_delete.png)
 
 ### Hide content
 
@@ -93,4 +87,4 @@ This is different from [hiding locations](manage_locations_urls.md#hide-location
     and set a different section or object state for the given content.
     Or use other permission-based [**Limitations**](work_with_permissions.md).
 
-<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/NQXMhcHiPL1dVRT9Eg3u?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Copy, move or hide content" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+<!-- TODO: re-record walkthrough -->

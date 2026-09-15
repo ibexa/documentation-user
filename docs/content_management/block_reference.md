@@ -36,11 +36,7 @@ Page Builder has two main views that you can use while creating a page:
 
 - **Page blocks** toolbox - consists of all available elements that you can use by dragging them and dropping on a drop zone.
 
-![Page blocks toolbox](img/page_blocks_toolbox.png)
-
 - **Structure view** toolbox - shows a structure of your page, including their division into zones and the blocks that they contain.
-
-![Structure view toolbox](img/structure_view.png)
 
 ## Block basics
 
