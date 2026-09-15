@@ -32,6 +32,10 @@ Otherwise, to log in, you must get your user credentials from the administrator,
 
 ![Login screen](img/login_form.png "Login screen")
 
+On the left side of the login screen, you can see a panel that lets you switch between the pages of the different products in the group's ecosystem: Ibexa, Cohesivo, Actito, Qualifio, Quable, and Raptor.
+Clicking a product's icon opens that product's page.
+At the bottom of the panel, you can find a link to the [Cohesivo documentation page](https://doc.ibexa.co/en/latest/) and a link to the [Support page](https://support.ibexa.co/login).
+
 ### Onboarding
 
 When you log in to [[= product_name =]] for the first time, interactive product tours may appear if the Integrated help [LTS update]([[= developer_doc =]]/ibexa_products/editions/#lts-updates) is configured in your installation.
