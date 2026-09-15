@@ -14,6 +14,8 @@ Whether you're a new or seasoned user of [[= product_name =]], feel free to brow
     "persona_paths/author_content",
     "persona_paths/organize_content",
     "content_management/taxonomy/taxonomy",
+    "personalization/personalization",
+    "personalization/configure_personalization",
     "search_engine_optimization/seo",
     "pim/products",
     "persona_paths/manage_products",
