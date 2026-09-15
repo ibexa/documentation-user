@@ -87,80 +87,6 @@
     </div>
     <div class="row">
         <div class="col-12">
-            <div class="notification notification--latest-release" id="tile2">
-                <div class="notification__content">
-                    <h2>The latest release is [[= latest_tag_5_0 =]]</h2>
-                    <div>The latest version of Cohesivo is [[= latest_tag_6_0 =]]. Take advantage of the newest features and enhancements.</div>
-                </div>
-                <div class="notification__cta">
-                    <a href="https://doc.ibexa.co/en/latest/release_notes/ibexa_dxp_v5.0/">Release notes</a>
-                </div>
-                <div class="notification__image">
-                    <img src="images/notification-latest-release.svg" alt="The latest release" />
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-12">
-            <div class="accordion">
-                <details>
-                    <summary>
-                        <h2>Notable changes in v5.0</h2>
-                        <div class="accordion__toggler">
-                            <svg><use xlink:href="images/icons.svg#toggler" /></svg>
-                        </div>
-                    </summary>
-                    <div class="row">
-                        <div class="col-12 col-lg-6 col-fhd-3">
-                            <ul>
-                                <li><a href="https://doc.ibexa.co/en/5.0/release_notes/ibexa_dxp_v5.0/#ai-actions">AI Actions</a></li>
-                                <li><a href="https://doc.ibexa.co/en/5.0/release_notes/ibexa_dxp_v5.0/#software-architecture-upgrades">Tech stack upgrades</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-12 col-lg-6 col-fhd-3">
-                            <ul>
-                                <li><a href="https://doc.ibexa.co/en/5.0/release_notes/ibexa_dxp_v5.0/#date-and-time-attribute">Date and time attribute for product catalog</a></li>
-                                <li><a href="https://doc.ibexa.co/en/5.0/release_notes/ibexa_dxp_v5.0/#symbol-attribute">Symbol attribute for product catalog</a></li>
-                                <li><a href="https://doc.ibexa.co/en/5.0/release_notes/ibexa_dxp_v5.0/#developer-experience">Developer experience improvements</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </details>
-            </div>
-        </div>
-        <div class="col-12">
-            <div class="accordion">
-                <details>
-                    <summary>
-                        <h2>Most popular pages</h2>
-                        <div class="accordion__toggler">
-                            <svg>
-                                <use xlink:href="images/icons.svg#toggler" />
-                            </svg>
-                        </div>
-                    </summary>
-                    <div class="row">
-                        <div class="col-12 col-lg-6 col-fhd-3">
-                            <ul>
-                                <li><a href="website_organization/work_with_sites/">Site Factory</a></li>
-                                <li><a href="content_management/translate_content/">Translations</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-12 col-lg-6 col-fhd-3">
-                            <ul>
-                                <li><a href="content_management/workflow_management/editorial_workflow/">Editorial
-                                        workflow</a></li>
-                                <li><a href="search/">Search for content</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </details>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-12">
             <h2>Manage your CMS</h2>
         </div>
         <div class="col-12 col-lg-6 col-fhd-3">
@@ -199,27 +125,6 @@
                         <li><a href="product_catalog/create_edit_product/">Create and edit products</a></li>
                         <li><a href="product_catalog/work_with_product_variants/">Work with product variants</a></li>
                         <li><a href="product_catalog/work_with_catalogs/">Work with catalogs</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="col-12 col-lg-6 col-fhd-3">
-            <div class="info-tile info-tile--link-card">
-                <div class="info-tile__content">
-                    <h3>
-                        <a href="customer_management/customer_portal/">
-                            <svg>
-                                <use xlink:href="images/icons.svg#profile" />
-                            </svg>
-                            Customer
-                        </a>
-                    </h3>
-                    <ul>
-                        <li><a href="customer_management/customer_portal/">Manage Customer Portal account</a></li>
-                        <li><a href="customer_management/manage_customers/">Manage customers</a></li>
-                        <li><a href="customer_management/company_self_registration/">Company self-registration</a></li>
-                        <li><a href="customer_management/build_customer_portal/">Create and edit Customer Portal</a>
-                        </li>
                     </ul>
                 </div>
             </div>
