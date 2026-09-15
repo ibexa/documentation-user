@@ -21,8 +21,6 @@ For more information, see [Configure Page Builder access to Customer Portal]([[=
 Inside a root folder you can select **Create content** from the right-side toolbar.
 On the list of content items, you can see two possibilities: **Customer Portal** and **Customer Portal Page**.
 
-![Create content tab](img/cp_portal_vs_page.png)
-
 The first one is a container for your Customer Portal pages (this is not a root folder), and the second one represents the actual page.
 It's recommended to use Customer Portal containers to divide and store your portal pages.
 If your project requires it, the Customer Portal containers can also be defined as root folders in the configuration.
@@ -30,11 +28,15 @@ If your project requires it, the Customer Portal containers can also be defined 
 First, select **Customer Portal** and name it appropriately.
 Next, navigate to the newly added container and create **Customer Portal Page**.
 
+<!-- TODO: retake screenshot - blocked: no Customer Portal content exists in this instance. Needs a Customer Portal root folder configured plus >=1 Customer Portal container with pages. -->
+
 ![Customer Portal container](img/cp_folder_for_portals.png)
 
 In the **Page creation** box, you should see the Customer Portal layout where you can add dedicated Customer Portal block, Sales Representative, or choose from selection of blocks available to your [[= product_name =]] version.
 
 For a list of blocks available out of the box, see [Block reference](block_reference.md).
+
+<!-- TODO: retake screenshot - blocked: no Customer Portal content types are set up here. Needs a Customer Portal container plus a Customer Portal Page created. -->
 
 ![Page Builder view](img/cp_page_builder.png)
 
@@ -51,9 +53,13 @@ To do it, click **Save draft**.
 You can have multiple Customer Portal pages available in one Customer Portal by adding them under one Customer Portal container.
 If company members have sufficient `content/read` policies and have the portal assigned to their customer group, they can see the changes in the left menu.
 
+<!-- TODO: retake screenshot - blocked: no company can be created on either instance (the back-office company form rejects a fully filled billing address without reporting why), and no Customer Portal content exists. Needs >=1 company plus a portal with 3+ pages. -->
+
 ![Multiple pages in one portal](img/cp_multiple_pages.png)
 
 You can manipulate the order of pages in a menu by assigning priority to them in the **Customer Portal** container under **View**->**Sub-items**.
+
+<!-- TODO: retake screenshot - blocked: no Customer Portal content exists here. Needs a Customer Portal container with several pages to show priority as an editable per-row column. -->
 
 ![Assigning page priority](img/cp_page_priority.png)
 
@@ -63,6 +69,8 @@ Company members need to have the following permissions to be able to see custom 
 
 - `user/login` to `custom_portal` SiteAccess
 - `content/read` to selected Customer Portals
+
+<!-- TODO: retake screenshot - blocked: the custom_portal SiteAccess and the Customer Portal locations do not exist here. Needs a custom_portal SiteAccess configured and >=1 Customer Portal published. -->
 
 ![Customer Portal permissions](img/cp_permissions.png)
 

@@ -54,7 +54,7 @@ month_change: true
 
     For more information, see [Publish content](publish_content.md).
 
-<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/T4dqNwZwGGpS3RaLHA6R?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Create and edit article" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+<!-- TODO: re-record walkthrough -->
 
 !!! note "Versioning and autosave"
 
@@ -73,8 +73,6 @@ When a file is uploaded with multi-file upload, it's automatically stored in a f
 !!! note
 
     The content type for the uploaded files is selected automatically by the system.
-
-![Multi-file upload](img/multi_file_upload.png)
 
 ## Edit new or existing content items
 
@@ -117,12 +115,10 @@ To do it, choose one of the available elements:
 - X
 - Facebook
 
-![Available Rich Text block elements](img/rich_text_block_elements.png "Available Rich Text block elements")
-
 Each of these elements can have its own settings, such as text formatting.
 The option bar also lets you reorder or remove any elements in the Rich Text field.
 
-<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/wkdL1r9PRunTeF6hPtEs?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Online Editor - work in Rich Text field" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+<!-- TODO: re-record walkthrough -->
 
 #### Edit embedded content items
 
@@ -135,15 +131,11 @@ Then, click the three dots icon and click **Edit**.
 
 If the content item has more than one translation available, you need to select the language.
 
-![Edit embedded content item - select language](img/edit_embedded_item_language_richtext.png "Edit embedded content item - select language")
-
 This action opens a new browser tab with an editing screen of the selected content item.
 When you finish editing the item, click **Publish**.
 To see implemented changes refresh the browser page.
 
 This option is also available when you want to set up a [relation](configure_ct_field_settings.md#content-relation-settings) with another content item.
-
-![Edit embedded content item - set up a relation](img/edit_embedded_items_relation.png "Edit embedded content item - set up a relation")
 
 #### Embed products
 
@@ -160,15 +152,11 @@ Two embed styles are available:
 Distraction free mode expands the workspace to full screen and shows only editor toolbar.
 It's helpful when you need to work with longer texts that take more space and when you want to focus your attention on editing text.
 
-![Distraction free mode](img/distraction_free_mode.png "Distraction free mode")
-
 To access distraction free mode, click **Distraction free mode** on the right side above the workspace.
 
 ![Access distraction free mode](img/access_distraction_free_mode.png "Access distraction free mode")
 
 To exit distraction free mode, click **Exit distraction free mode** or press Esc on the keyboard.
-
-![Exit distraction mode](img/exit_distraction_free_mode.png "Exit distraction free mode")
 
 #### Anchors
 
@@ -223,14 +211,12 @@ When response is displayed on the screen, depending on whether you are satisfied
 - **Insert below** - inserts the output text directly after the source passage (available only in the online editor)
 - **Try again** - makes another attempt at generating the output
 
-![AI Assistant](ai_assistant.png)
-
 !!! note "Lengthy processing of complex requests"
 
     Depending on the length of the source text and the complexity of request, processing may take a while.
     You may cancel the processing if it takes too long by clicking **Stop**.
 
-<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/oDRgSawmcExFx2NUJYbM?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Use AI to expand the body text" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+<!-- TODO: re-record walkthrough -->
 
 ### Text formatting
 
@@ -251,12 +237,12 @@ For this feature to work as described, the content type must have a **Metadata**
 1. Click the **Select path** button.
 1. In the pop-up window, select the tags you want to add.
 
+<!-- TODO: retake screenshot - blocked: no content type has a Taxonomy Entry field in a Metadata section, so the Article editor has no Meta tab and no Select path button. The tag tree is already seeded - only the field is missing. -->
+
 ![Selecting Taxonomy entries](img/taxonomy_select_taxonomy_entries.png "Selecting Taxonomy entries")
 
 !!! note "Taxonomy suggestions"
 
     If the [Taxonomy suggestions]([[= developer_doc =]]/content_management/taxonomy/taxonomy#taxonomy-suggestions) feature is enabled in your system, instead of manually browsing the taxonomy tree and selecting tags one by one, you can click **AI Suggest category** and pick from suggestions made by the AI Assistant.
-
-    ![Taxonomy entries suggested by the AI Assistant](img/taxonomy_suggestions_content.png "Taxonomy entries suggested by the AI Assistant")
 
 For more information, see [Assign tag to content from taxonomy tree](taxonomy/work_with_tags.md#add-taxonomy-entry-assignment-field-to-content-type).

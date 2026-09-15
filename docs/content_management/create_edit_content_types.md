@@ -29,8 +29,6 @@ For example, when you add or remove a field to the content type, the change is p
 
     If your application requires a more granular organization of content types, in this screen, you can create additional content type groups.
 
-![Content type list](img/content_types.png "A list of content types")
-
 2\. If you're adding a new content type, on the content type group's detail screen, click **Create** and skip to step 4.
 
 3\. If you're modifying an existing content type, on the content type group's detail screen, click the **Edit** icon next to a name of the content type.
@@ -38,8 +36,6 @@ For example, when you add or remove a field to the content type, the change is p
 ![Create or edit content type](img/create_edit_content_type.png "Create or edit content type")
 
 4\. In the **Global properties** area, fill in global content type properties.
-
-![Editing a content type](img/content_type_general_properties.png "Editing a content type")
 
 Each content type has the following global properties:
 

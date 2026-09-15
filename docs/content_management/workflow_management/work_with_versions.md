@@ -11,11 +11,7 @@ You can perform various tasks on content item versions, either to advance them t
 
 If you're assigned to a draft version of a content item for [review](editorial_workflow.md), when you click the **Edit draft** icon in **My dashboard**, the **Review queue** table, you see the **Event(s)** timeline that lists all the transitions that this content has gone through.
 
-![Events timeline](img/workflow_events_timeline.png)
-
 If draft locking is supported, you also see a message that confirms that the draft is now locked to you.
-
-![Draft assignment message](img/lock_message.png)
 
 ## Release locked drafts
 
@@ -50,9 +46,11 @@ When you compare two versions, the system highlights the changes:
 
 ![Version comparison in Split view](img/split_view.png "Version comparison in Split view")
 
-<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/RRBS7OWNfcFMQOmiVgBs?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Compare versions" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+<!-- TODO: re-record walkthrough -->
 
 You can also compare media field types such as images.
+
+<!-- TODO: retake screenshot - blocked: needs two versions of one content item carrying different images. Media > Images is populated now, so only the two-version content item is missing. -->
 
 ![Image comparison](img/image_comparison.png "Image comparison")
 

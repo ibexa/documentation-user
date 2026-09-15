@@ -13,11 +13,7 @@ To do it, fill in all the necessary information, choose the attributes that you 
 
 Below you can see an example of URL alias name pattern:
 
-![URL attributes](url_attributes.png "URL attributes")
-
 Now, you can see new URL alias name pattern in the product type's view.
-
-![URL alias name pattern](url_alias_name_pattern.png "URL alias name pattern")
 
 ## Product Attributes identifiers
 
@@ -70,7 +66,5 @@ To do it, follow the steps:
 6\. Click **Create**.
 
 Now, in the **URL** tab in the product's view, you can see new custom URL for the product.
-
-![Custom URL](custom_url.png "Custom URL")
 
 You can manage all the product URLs, both system and custom ones: create new and edit or delete existing ones.

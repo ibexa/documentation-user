@@ -44,14 +44,14 @@ You can now navigate away from the Page by clicking the **Close** button.
 
 To edit an existing page, in the back office, from the content tree, choose the page that you want to edit, and click the **Edit** button.
 
-<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/d4T5EgOwz6bri2Zgy53M?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Edit existing page" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+<!-- TODO: re-record walkthrough -->
 
 ### Page Builder interface
 
 Page Builder has a plain and intuitive interface.
 You can create pages without having advanced technical skills.
 
-<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/kbdnGkdrkXL2VAJW6c3O?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Page Builder interface" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+<!-- TODO: re-record walkthrough -->
 
 ![Page Builder interface](img/page_builder_interface.png)
 
@@ -88,8 +88,6 @@ Page Builder has two main views that you can use while creating a page:
 
 - **Structure view** toolbox - shows a structure of your page, including their division into zones and the blocks that they contain.
 
-![Structure view toolbox](img/structure_view.png)
-
 ### Work with layout
 
 [Layout](configure_ct_field_settings.md#available-page-layouts) divides the page into the defined zones. The zones are placeholders for the blocks.
@@ -124,8 +122,6 @@ Before you drop it, a bold line appears  - it helps you see the position of the 
 
 When you add a block by dragging it from **Page blocks** toolbox into the drop zone,
 the block settings panel open immediately where you can configure all block properties.
-
-![Block properties](block_properties.png)
 
 This is a default behavior. You can globally turn off automatic opening of the block settings panel in the user settings.
 First, access your user settings on the right side of the top bar:
@@ -165,8 +161,6 @@ The following actions are available:
 - Refresh - refreshes preview of the block
 - Delete - deletes existing block
 
-![Block window - size adjustment](img/block_window_size_adjust.png "Block window - size adjustment")
-
 #### Copy blocks
 
 You can copy blocks to reuse them on other pages, or within the same one.
@@ -179,16 +173,14 @@ Doing so puts an exact copy of the block on the page, with all its settings.
 The clipboard can store only one block at a time.
 Content of the clipboard is visible only to you, and preserves switching into a new session.
 
-![The clipboard section containing a Code block](img/page_builder_page_blocks_clipboard.png "The clipboard section containing a Code block")
+![The clipboard section containing a Text block](img/page_builder_page_blocks_clipboard.png "The clipboard section containing a Text block")
 
-<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/NqvkgfWoNZkynskJxHEn?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Copy option and Clipboard" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+<!-- TODO: re-record walkthrough -->
 
 #### Configure block settings
 
 Each kind of block has its special settings.
 You can access them by placing the cursor on the added block and clicking the **Block settings** icon.
-
-![Block settings icon](img/block_settings_icon.png "Block settings icon")
 
 Settings available for blocks are divided into three tabs — **Basic**, **Design**, and **Scheduler**.
 The settings available on the **Basic** tab are tailored to the block's content.
@@ -227,8 +219,6 @@ All the content item details automatically update in the block window.
 
 If the content item has more than one translation available, you need to select the language.
 
-![Edit embedded content item - select language](img/edit_item_select_language.png "Edit embedded content item - select language")
-
 This function is available for following blocks:
 
 - Banner
@@ -247,15 +237,11 @@ While configuring blocks that include Rich Text section, for example, Text block
 Distraction free mode expands the workspace to full screen and shows only editor toolbar.
 It's helpful when you need to work with longer texts that take more space and when you want to focus your attention on editing text.
 
-![Distraction free mode](img/distraction_free_mode.png "Distraction free mode")
-
 To access distraction free mode, click **Distraction free mode** on the right side above the workspace.
 
 ![Access distraction free mode](img/access_distraction_free_mode_PB.png "Access distraction free mode")
 
 To exit distraction free mode, click **Exit distraction free mode** or press Esc on the keyboard.
-
-![Exit distraction free mode](img/exit_distraction_free_mode.png "Exit distraction free mode")
 
 ## Save page
 
