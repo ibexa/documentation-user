@@ -1,6 +1,6 @@
 ---
 description: Recommendation Page Builder blocks - Raptor integration.
-month_change: true
+month_change: false
 ---
 
 # Recommendation block reference

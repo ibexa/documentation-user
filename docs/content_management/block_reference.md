@@ -1,6 +1,6 @@
 ---
 description: Pick from a list of dynamic page blocks to create landing pages.
-month_change: true
+month_change: false
 ---
 
 # Block reference

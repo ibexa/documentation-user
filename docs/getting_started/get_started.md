@@ -1,6 +1,6 @@
 ---
 description: Get started with Cohesivo by logging in to the back office.
-month_change: true
+month_change: false
 ---
 
 # Get started

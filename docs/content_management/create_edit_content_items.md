@@ -1,6 +1,6 @@
 ---
 description: Create content for your website with different fields, rich text, tags, and then publish it.
-month_change: true
+month_change: false
 ---
 
 # Create and edit content items
