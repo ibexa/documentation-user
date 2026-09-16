@@ -91,7 +91,7 @@ The Content Browser window opens, and you can select the new destination of the 
 
 With the **Content Browser**, you can switch between the Grid, Panels and Tree views to navigate through the content of the website.
 Depending on your permissions, you might be able to see the regular content, media, forms, site skeletons, and user accounts.
-You can also use the **Content Browser** to search the repository for content, edit content, add content items to Favourites list, and create new content when needed.
+You can also use the **Content Browser** to search the repository for content, edit content, add content items to the Favourites list, and create new content when needed.
 
 !!! note
 
