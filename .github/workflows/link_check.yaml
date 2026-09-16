@@ -4,6 +4,7 @@ on:
     push:
         branches:
             - master
+            - saas
             - "[0-9]+.[0-9]+"
     workflow_dispatch:
         inputs:
@@ -11,6 +12,10 @@ on:
                 description: "Clear lychee cache and recheck all links from scratch"
                 type: boolean
                 default: false
+            devdoc_saas_branch:
+                description: "ibexa/documentation-developer branch for SaaS"
+                type: string
+                default: "saas"
             devdoc_60_branch:
                 description: "ibexa/documentation-developer branch for 6.0"
                 type: string
@@ -82,6 +87,7 @@ jobs:
             - name: Clone and build versioned repositories for link remap
               run: >-
                   bash tools/clone-repositories.sh
+                  "${{ inputs.devdoc_saas_branch || 'saas' }}"
                   "${{ inputs.devdoc_60_branch || '6.0' }}"
                   "${{ inputs.devdoc_50_branch || '5.0' }}"
                   "${{ inputs.devdoc_46_branch || '4.6' }}"
