@@ -1,5 +1,5 @@
 ---
-description: Use sections, bookmarks, or segments to classify the content of your website.
+description: Use sections, the Favourites list, or segments to classify the content of your website.
 ---
 
 # Classify content
@@ -35,14 +35,14 @@ To do it, [disable the Focus mode](../../getting_started/discover_ui.md#disable-
 
 ![Object state details](img/object_state_details.png)
 
-## Bookmarks
+## Favourites
 
-You can bookmark any content item by clicking the star icon next to the content name.
+You can add any content item to the Favourites list by clicking the star icon next to the content name.
 
-Bookmarks are stored per user.
-Click **Bookmarks** in the left menu to view a list of all of them.
+Favourites are stored per user.
+Click **Favourites** in the left menu to view your list of favourite content items.
 
-![Bookmark screen](img/bookmarks.png)
+![Favourites screen](img/bookmarks.png)
 
 <!-- TODO: re-record walkthrough -->
 
