@@ -98,7 +98,7 @@ Enabling at least one translation service is required before the editors can use
 
 To see the translation services that are available in your system, go to **Admin** -> **Languages** -> **Translation services** tab.
 
-The tab lists all translation services that have been [configured by the developer]([[= developer_doc =]]/multisite/translations_management/configure_translations_management/#configure-translation-providers).
+The tab lists all translation services that have been configured.
 Each service shows its name, vendor, and whether it's enabled.
 Disabled services don't appear as choices in the **Create a new translation** modal.
 

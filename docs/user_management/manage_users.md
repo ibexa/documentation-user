@@ -13,7 +13,7 @@ As you can see, the interface is the same as when working with regular content i
 
 !!! caution
 
-    If you are creating a new user group, remember to [exclude it in product tour configuration]([[= developer_doc =]]/administration/back_office/configure_product_tour#user-group-restrictions) if necessary.
+    If you are creating a new user group, exclude it from the product tour configuration if necessary.
 
 ![Users section](img/users_section.png)
 

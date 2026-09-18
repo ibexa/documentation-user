@@ -151,7 +151,6 @@ Click it to access documentation, trainings, release notes, and product roadmap 
 
 ![Help center](img/help_center.png "Help center")
 
-Help center can be [customized]([[= developer_doc =]]/administration/back_office/customize_integrated_help/) to fit the needs of your organization, for example, to include links to your internal style guides.
 
 ### Disable help center
 
