@@ -94,7 +94,6 @@ Page Builder has two main views that you can use while creating a page:
 
 [Layout](configure_ct_field_settings.md#available-page-layouts) divides the page into the defined zones. The zones are placeholders for the blocks.
 
-
 While editing, you can switch layout for your page from the available ones.
 To do it, click **Switch layouts** button.
 

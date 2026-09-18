@@ -151,7 +151,6 @@ Click it to access documentation, trainings, release notes, and product roadmap 
 
 ![Help center](img/help_center.png "Help center")
 
-
 ### Disable help center
 
 Help center is enabled by default, but you can toggle it in [user settings](get_started.md#browsing).

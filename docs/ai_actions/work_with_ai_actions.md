@@ -138,7 +138,6 @@ If the [Taxonomy suggestions]([[= developer_doc =]]/content_management/taxonomy/
 
 1. Click **Save and close** to apply the changes or **Discard** to discard them and close the window.
 
-
 ## Duplicate AI actions
 
 You can duplicate existing actions, for example, to create a variant version of an action with slightly different settings.
