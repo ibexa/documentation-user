@@ -5,7 +5,6 @@ description: Use Page Builder to create and edit a Customer Portal.
 # Create and edit Customer Portal
 
 To create and edit a Customer Portal with Page Builder, you need to first set it up in configuration.
-For detailed instructions on how to do it, go to [Create Customer Portal]([[= developer_doc =]]/customer_management/cp_page_builder/).
 
 The Customer Portal creation and edition are based on Page Builder and work on the same principles.
 If you're unfamiliar with how Page Builder works, see [Create and edit Pages](create_edit_pages.md).
@@ -15,8 +14,6 @@ If you're unfamiliar with how Page Builder works, see [Create and edit Pages](cr
 To create a new Customer Portal, go to **Content** and from the menu select **Content structure**.
 There, navigate to the root folder for your Customer Portals.
 If you don't have one, you can add it yourself.
-Remember to specify its `location_id` in the configuration, you can find it under **Technical details**.
-For more information, see [Configure Page Builder access to Customer Portal]([[= developer_doc =]]/customer_management/cp_page_builder/#configure-page-builder-access-to-customer-portal).
 
 Inside a root folder you can select **Create content** from the right-side toolbar.
 On the list of content items, you can see two possibilities: **Customer Portal** and **Customer Portal Page**.
@@ -38,7 +35,7 @@ For a list of blocks available out of the box, see [Block reference](block_refer
 
 ![Page Builder view](img/cp_page_builder.png)
 
-If provided ready-to-use Page blocks aren't sufficient, you can [add your own blocks]([[= developer_doc =]]/content_management/pages/create_custom_page_block/).
+If provided ready-to-use Page blocks aren't sufficient, your integration partner can add custom blocks.
 
 Before you publish or save the Customer Portal page, edit its title and description in the field view, you can find it in the top toolbar on the left side.
 
@@ -73,4 +70,4 @@ If members of the company don't have sufficient permissions for any Customer Por
     Customer Portal is only available to users that are members of the company.
     Even if a user has all sufficient permissions but is not a member of a company, they cannot see the Customer Portal.
 
-Customer Portal must also be assigned to the company's Customer Group. To learn more see, [assigning portals to Customer Groups]([[= developer_doc =]]/customer_management/cp_page_builder/#assign-portal-to-customer-group).
+Customer Portal must also be assigned to the company's Customer Group.

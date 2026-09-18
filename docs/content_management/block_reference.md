@@ -156,9 +156,7 @@ On the **Properties** tab, set values in the following fields:
 
 !!! caution "Known limitation"
 
-    To display two or more identical forms on a single page, have your developer create multiple identical form blocks for your use. This prevents potential issues related to duplicate data submission.
-
-    For more information about creating form blocks, see [Creating a newsletter form]([[= developer_doc =]]/content_management/pages/create_custom_page_block/) in Developer Documentation.
+    To prevent potential issues related to duplicate data submission, avoid embedding two or more identical forms on a single page.
 
 ### Gallery block
 
@@ -179,10 +177,6 @@ On the **Properties** tab, set values in the following fields:
 
 - **Name** – Enter a name for the page block.
 - **Webhook link** — Enter the link for the [[= product_name_connect =]] webhook.
-
-!!! caution "Using [[= product_name_connect =]] scenario block"
-
-    For more information about using [[= product_name_connect =]] scenario block, see [[[= product_name_connect =]] scenario block]([[= developer_doc =]]/content_management/pages/ibexa_connect_scenario_block/) in Developer Documentation.
 
 ### Product collection block
 

@@ -63,7 +63,6 @@ You modify them in the **Field definitions** section, the **Landing page** field
 ### Block display
 
 You can define which page blocks are available to an editor in the page edit mode.
-You do it, for example, when a [developer creates a new block]([[= developer_doc =]]/content_management/pages/create_custom_page_block/) and you want to allow adding it to the page.
 
 Expand the **Select blocks** section and select page blocks that you want to be included in the page.
 
