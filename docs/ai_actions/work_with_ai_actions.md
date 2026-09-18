@@ -138,43 +138,6 @@ If the [Taxonomy suggestions]([[= developer_doc =]]/content_management/taxonomy/
 
 1. Click **Save and close** to apply the changes or **Discard** to discard them and close the window.
 
-### Create AI actions that use [[= product_name_connect =]]
-
-If your organization uses [[= product_name_connect =]], you can build multi-step scenarios that define the logic needed to process your input data, for example, by merging the output of multiple AI services.
-One such example could be sending out a text for translation by one service, and then to another to make sure that the resulting translation is written in the right tone.
-
-!!! note "[[= product_name_connect =]] configuration required"
-
-    To use AI actions that interface with [[= product_name_connect =]], you must first [configure and initiate the connection]([[= developer_doc =]]/ai/ai_actions/configure_ai_actions/#configure-access-to-ibexa-connect), and [define templates](https://doc.ibexa.co/projects/connect/en/latest/scenarios/scenario_templates/#creating-templates) and/or [scenarios](https://doc.ibexa.co/projects/connect/en/latest/scenarios/creating_a_scenario/) in [[= product_name_connect =]].
-    
-1\. Navigate to the Admin Panel and select **AI actions**.
-
-2\. In the **AI actions** list, click **Create**.
-
-3\. In the slide-out pane, make choices like in [Create new AI actions](#create-new-ai-actions) but in the **Action handler** field, select the model that uses an [[= product_name_connect =]] scenario to process the request, for example `connect-image-to-text`, and then click **Create**.
-
-![[[= product_name_connect =]] handler](img/ai_action_connect_handler_selection.png)
-
-4\. In the **Global properties** area, set the required properties.
-
-5\. In the **Settings** area, select an existing scenario from a drop-down list.
-The list contains all scenarios that exist in [[= product_name_connect =]].
-They may be incompatible with the selected action type and require adjustments on the [[= product_name_connect =]] side.
-
-6\. Optionally, if there are no scenarios for the selected action type, or you want to create a custom scenario, click **Create scenario based on template** and select a template from a drop-down list.
-
-If you do so, when you save the new AI action, a new scenario is automatically created.
-You must then fine-tune its settings in [[= product_name_connect =]].
-
-![[[= product_name_connect =]] scenario selection](img/ai_action_settings_connect.png "[[= product_name_connect =]] scenario selection")
-
-!!! note "Link to [[= product_name_connect =]]"
-
-    Click **Go to Connect** to review all scenarios that exist in [[= product_name_connect =]].
-
-7\. Click **Save and close** to apply the changes or **Discard** to discard them and close the window.
-
-After you save the AI action, you can click its name in the AI actions list and see all the information, such as Scenario ID, webhook URL, or scenario label, which you may needed when working with scenarios in [[= product_name_connect =]].
 
 ## Duplicate AI actions
 
