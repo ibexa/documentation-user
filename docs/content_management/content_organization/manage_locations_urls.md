@@ -62,7 +62,7 @@ You can swap two content items in their locations by going to the **Swap Locatio
 In your website, you can manage external URL addresses.
 You do this in the back office, **Admin** tab, the **URL management** node.
 
-For more information about URL management, see [Developer Documentation.]([[= developer_doc =]]/content_management/url_management/url_management/).
+For more information about URL management, see [Developer Documentation]([[= developer_doc =]]/content_management/url_management/url_management/).
 
 ### Link manager
 

@@ -105,11 +105,6 @@ If you need access to certain settings or technical details, you can [disable th
 
 <!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/2YM6EhsN5eeohdLzYBpi?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Search and focus mode" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
 
-- **Dark theme for content tree**
-: In areas where the content tree is displayed, for example, in **Content structure**, the tree is displayed on a dark background.
-
-![Dark theme for content tree](img/FM_dark_content_tree.png "Dark theme for content tree")
-
 - **Content item view**
 : If you select a specific [SiteAccess](multisite.md#siteaccess) from the **Site context** drop-down list on the right side of the top bar and then browse content items in content tree, they're displayed in full view, with a limited set of actions available.
 To display the content item details view with more actions, click **Exit full view**.
