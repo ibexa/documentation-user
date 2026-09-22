@@ -7,7 +7,7 @@ description: You can view and manage user accounts in your system.
 Users in [[= product_name =]] are treated the same way as other content items.
 They're organized in groups, which helps you manage them and their permissions.
 
-You can view all user groups and Users in the **Admin** panel by selecting **Users**.
+You can view all user groups and Users in the **Administration** panel by selecting **Users**.
 Here, you can manage users, their relations, roles, and policies.
 As you can see, the interface is the same as when working with regular content items.
 
@@ -30,7 +30,7 @@ By default, new users created in this way are placed in the Guest accounts group
 
 ## Invite users
 
-To invite users to a user group, go to **Admin** -> **Users**, navigate to the user group, and click **Invite members** in the top right corner.
+To invite users to a user group, go to **Administration** -> **Users**, navigate to the user group, and click **Invite members** in the top right corner.
 
 ![Inviting users](img/users_invitation.png)
 

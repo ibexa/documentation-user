@@ -54,7 +54,7 @@ With segments you can target content at specific groups of your users.
 You can use them to display different content to different page visitors.
 To do it, use the [Targeting block](block_reference.md#targeting-block).
 
-You can create and configure segments and segment groups in the **Admin** section of the back office.
+You can create and configure segments and segment groups in the **Administration** section of the back office.
 
 ![Segment groups](img/admin_panel_segment_groups.png "Segment groups")
 

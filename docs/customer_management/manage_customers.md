@@ -45,7 +45,7 @@ The Contact Person in the company has to be a member of that company.
 
 ### Admin Panel
 
-You can also manage companies from **Admin** in the left menu.
+You can also manage companies from **Administration** in the left menu.
 There, in the **Corporate** section, you can find a list of members,
 billing addresses and technical details regarding the organization such as visibility, IDs, or relations.
 You can manage companies information, activate, deactivate members, and change their personal information.

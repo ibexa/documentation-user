@@ -6,7 +6,7 @@ description: Monitor recent activity logged actions.
 
 [[= product_name =]] logs various operations on the repository and in the application.
 
-If you have **Setup / Administrate** and **Activity Log / Read** [permissions](permission_system.md), you can review the most recent activity log in  the back office, **Admin** -> **Recent activity**.
+If you have **Setup / Administrate** and **Activity Log / Read** [permissions](permission_system.md), you can review the most recent activity log in  the back office, **Administration** -> **Recent activity**.
 
 ![Recent activity](recent_activity.png "Recent activity")
 
