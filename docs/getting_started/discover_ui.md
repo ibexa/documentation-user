@@ -143,4 +143,3 @@ Focus mode is enabled by default when you first log into [[= product_name =]], b
 - in the drop-down menu on the right side of the top bar
 
 ![Focus mode switch](img/FM_switch.png "Focus mode switch")
-
