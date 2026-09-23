@@ -133,10 +133,8 @@ To change this behavior, click on **Edit** icon, find the setting, and change it
 
 ![User settings - blocks](img/user_settings_blocks.png "User settings - blocks settings")
 
-[[= product_name =]] comes with a set of ready-to-use page blocks,
-but your integration partner can add custom ones.
-
-For a list of blocks available out of the box, see [Block reference](block_reference.md).
+[[= product_name =]] comes with a set of ready-to-use page blocks.
+For a list of available blocks, see [Block reference](block_reference.md).
 
 !!! note
 
