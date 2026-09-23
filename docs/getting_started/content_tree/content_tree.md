@@ -12,10 +12,7 @@ The **Content tree** area is an expandable content menu of your website.
 
 The same tree structure is used in other areas of the Content menu, such as **Media** or **Forms**.
 
-Unique icons for each content type instantly show you what type of content you are selecting. To add custom icons to your content tree, follow the [configuration tutorial in developer documentation]([[= developer_doc =]]/administration/back_office/back_office_elements/custom_icons/#customize-content-type-icons).
-
-For more information about custom configuration, go to [Content tree]([[= developer_doc =]]/administration/back_office/content_tree/) in developer documentation.
-
+Unique icons for each content type instantly show you what type of content you are selecting.
 Within the content tree, hidden content is greyed out in the tree view.
 
 To simplify the content tree, big lists are collapsed and include a **Show more** icon.

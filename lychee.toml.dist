@@ -115,11 +115,14 @@ root_dir = "site"
 # Rewrite doc.ibexa.co links to locally-built MkDocs sites, avoiding HTTP
 # requests to Cloudflare-protected hosts.
 #
-# - en/latest/           → current build's site/ directory (self-referential links from cards() macro)
+# - en/latest/           → repositories/devdoc-5.0/site/ (newest available, v6 is not released yet)
 # - en/4.6/              → repositories/devdoc-4.6/site/
 # - en/5.0/              → repositories/devdoc-5.0/site/
 # - en/6.0/              → repositories/devdoc-6.0/site/
-# - userguide/en/latest/ → repositories/userdoc-5.0/site/ (newest available, v6 is not released yet)
+# - en/saas/             → repositories/devdoc-saas/site/
+# - userguide/en/saas/   → current build's site/ directory (self-referential links from cards() macro)
+# - userguide/en/latest/ → current build's site/ directory (self-referential on the 5.0 and 6.0 branches)
+# - userguide/en/master/ → repositories/userdoc-5.0/site/ (newest available)
 # - userguide/en/4.6/    → repositories/userdoc-4.6/site/
 # - userguide/en/5.0/    → repositories/userdoc-5.0/site/
 # - userguide/en/6.0/    → repositories/userdoc-6.0/site/
@@ -146,10 +149,16 @@ remap = [
     # MDN URLs without a locale redirect to the browser's preferred language.
     # Remap to en-US so lychee can verify the link without following the redirect.
     "^https://developer\\.mozilla\\.org/docs/(.+) https://developer.mozilla.org/en-US/docs/$1",
-    # doc.ibexa.co/en/latest/ links are self-referential: the cards() macro generates
-    # them when READTHEDOCS_VERSION_NAME is not set (e.g. in CI). Remap to the locally
-    # built site/ directory. These file:// URLs are then matched by the exclude pattern
-    # above and skipped — internal links are validated by `mkdocs build --strict`.
+    # userguide links pointing at this branch's own version are self-referential: the
+    # cards() macro derives the version from site_url (saas on this branch) unless
+    # READTHEDOCS_VERSION_NAME is set (it is not in CI). Remap them to the locally built
+    # site/ directory so pages added in a pull request are resolved against the build
+    # under test rather than against what is already published. These file:// URLs are
+    # then matched by the exclude pattern above and skipped — internal links are
+    # validated by `mkdocs build --strict`.
+    "https://doc\\.ibexa\\.co/projects/userguide/en/saas/([^#]+\\.html)(#.*)?$ file://__BASE_DIR__/site/$1$2",
+    "https://doc\\.ibexa\\.co/projects/userguide/en/saas/([^#/]+(?:/[^#/]+)*)/?(#.*)?$ file://__BASE_DIR__/site/$1/index.html$2",
+    "https://doc\\.ibexa\\.co/projects/userguide/en/saas/$ file://__BASE_DIR__/site/index.html",
     "https://doc\\.ibexa\\.co/projects/userguide/en/latest/([^#]+\\.html)(#.*)?$ file://__BASE_DIR__/site/$1$2",
     "https://doc\\.ibexa\\.co/projects/userguide/en/latest/([^#/]+(?:/[^#/]+)*)/?(#.*)?$ file://__BASE_DIR__/site/$1/index.html$2",
     "https://doc\\.ibexa\\.co/projects/userguide/en/latest/$ file://__BASE_DIR__/site/index.html",
@@ -169,6 +178,10 @@ remap = [
     "https://doc\\.ibexa\\.co/en/6\\.0/([^#]+\\.html)(#.*)?$ file://__BASE_DIR__/repositories/devdoc-6.0/site/$1$2",
     "https://doc\\.ibexa\\.co/en/6\\.0/([^#/]+(?:/[^#/]+)*)/?(#.*)?$ file://__BASE_DIR__/repositories/devdoc-6.0/site/$1/index.html$2",
     "https://doc\\.ibexa\\.co/en/6\\.0/$ file://__BASE_DIR__/repositories/devdoc-6.0/site/index.html",
+    # devdoc saas — target of the developer_doc variable on this branch
+    "https://doc\\.ibexa\\.co/en/saas/([^#]+\\.html)(#.*)?$ file://__BASE_DIR__/repositories/devdoc-saas/site/$1$2",
+    "https://doc\\.ibexa\\.co/en/saas/([^#/]+(?:/[^#/]+)*)/?(#.*)?$ file://__BASE_DIR__/repositories/devdoc-saas/site/$1/index.html$2",
+    "https://doc\\.ibexa\\.co/en/saas/$ file://__BASE_DIR__/repositories/devdoc-saas/site/index.html",
     # userdoc 4.6
     "https://doc\\.ibexa\\.co/projects/userguide/en/4\\.6/([^#]+\\.html)(#.*)?$ file://__BASE_DIR__/repositories/userdoc-4.6/site/$1$2",
     "https://doc\\.ibexa\\.co/projects/userguide/en/4\\.6/([^#/]+(?:/[^#/]+)*)/?(#.*)?$ file://__BASE_DIR__/repositories/userdoc-4.6/site/$1/index.html$2",
