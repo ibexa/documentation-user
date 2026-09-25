@@ -100,7 +100,7 @@ You can create or change product category relationships with products in two way
 
     If the [Taxonomy suggestions]([[= developer_doc =]]/content_management/taxonomy/taxonomy#taxonomy-suggestions) feature is enabled in your system, instead of manually browsing the product category tree and selecting categories one by one, you can click **AI Suggest category** and pick from suggestions made by the AI Assistant.
 
-    <!-- TODO: retake screenshot - blocked: no Suggest taxonomy AI action is configured and the AI provider API key is a placeholder, so the AI Suggest category control does not render on the product editing screen. -->
+    <!-- TODO: retake screenshot  -->
 
     ![Product categories suggested by the AI Assistant](img/taxonomy_suggestions_products.png "Product categories suggested by the AI Assistant")
 

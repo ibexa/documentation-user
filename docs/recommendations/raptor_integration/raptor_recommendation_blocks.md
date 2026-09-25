@@ -8,8 +8,6 @@ month_change: false
 The [[[= product_name_cdp_base =]]](https://www.raptorservices.com/) integration add-on introduces a set of recommendation blocks.
 These blocks are available in [Page Builder](create_edit_pages.md#page-builder-interface) and can be configured to control their behavior and output.
 
-<!-- TODO: retake screenshot - blocked: the Raptor CDP integration add-on is not installed and Raptor is an external third-party system. Needs the add-on installed and connected to a Raptor account. -->
-
 ![Recommendation blocks](img/recommendation_blocks.png)
 
 Each recommendation block corresponds to a specific [[= product_name_cdp_base =]] module.
@@ -20,8 +18,6 @@ You can configure it in the [[[= product_name_cdp_base =]] Control Panel](https:
 In Page Builder, only the required parameters for each block can be configured.
 Additional, optional settings are available through the **Go to advanced settings in Raptor** link.
 It redirects to the respective module configuration in the [[= product_name_cdp_base =]] Control Panel, where these settings can be adjusted and saved.
-
-<!-- TODO: retake screenshot - blocked: the Raptor add-on is absent and Raptor is unreachable from this environment. Needs the add-on installed and a Raptor Control Panel account. -->
 
 ![Advanced settings](img/advanced_settings.png)
 

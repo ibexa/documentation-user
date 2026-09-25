@@ -54,7 +54,7 @@ When you compare two versions, the system highlights the changes:
 
 You can also compare media field types such as images.
 
-<!-- TODO: retake screenshot - blocked: needs two versions of one content item carrying different images. Media > Images is populated now, so only the two-version content item is missing. -->
+<!-- TODO: retake screenshot  -->
 
 ![Image comparison](img/image_comparison.png "Image comparison")
 

@@ -249,8 +249,6 @@ For this feature to work as described, the content type must have a **Metadata**
 1. Click the **Select path** button.
 1. In the pop-up window, select the tags you want to add.
 
-<!-- TODO: retake screenshot - blocked: no content type has a Taxonomy Entry field in a Metadata section, so the Article editor has no Meta tab and no Select path button. The tag tree is already seeded - only the field is missing. -->
-
 ![Selecting Taxonomy entries](img/taxonomy_select_taxonomy_entries.png "Selecting Taxonomy entries")
 
 !!! note "Taxonomy suggestions"

@@ -79,7 +79,7 @@ You can also delete any submissions (for example if they were made while testing
 
 Click **Download submissions** icon to download all the submissions in a .CSV (comma-separated value) file.
 
-<!-- TODO: retake screenshot - blocked: the form has no submissions and none can be produced - the Form block cannot be dropped onto a Page Builder zone from automation, so there is no rendered form to submit through. -->
+<!-- TODO: retake screenshot  -->
 
 ![Form Builder submissions](img/form_builder_submissions.png)
 

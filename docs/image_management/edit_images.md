@@ -50,7 +50,7 @@ When you edit the image asset, you can edit the image itself by using the Image 
 
 Image Editor is available whenever you see the **Edit** icon on the preview.
 
-<!-- TODO: retake screenshot - retake: the recorded blocker (empty Media > Images) no longer applies now that four images are seeded, so this one is shootable on the local 6.0 instance. Check the path too - the file lives at content_management/img/image_editor_icon.png, not next to this page. -->
+<!-- TODO: retake screenshot  -->
 
 ![Image Editor icon](image_editor_icon.png)
 
