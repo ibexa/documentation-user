@@ -28,7 +28,11 @@ To create a form:
 - **Select a language** - from a drop-down list, select the base language for the content item.
 - **Select a content type** - use this field to narrow down the list of content type choices displayed below. Then select **Form**, and click the **Create** button.
 
+![Select form](img/select_form.png)
+
 3\. Provide the title and click **Build form**.
+
+![Build form](img/build_form.png)
 
 4\. Drag (A) or click (B) on the type from the form fields toolbar.
 To create more complicated and detailed form, you can use more than one form field type.
@@ -87,7 +91,11 @@ In the following example, you can learn how to create a Newsletter form and use 
 
 2\. Enter **Newsletter** as a title and click **Build** form.
 
+![Build newsletter](img/build_newsletter.png)
+
 3\. From the **Basic form fields** toolbar choose: Single line input (two times), Email, Checkboxes and Button.
+
+![Basic form fields](img/newsletter_fields.png)
 
 4\.  Click on **Settings** icon and modify chosen form fields:
 
@@ -96,6 +104,8 @@ In the following example, you can learn how to create a Newsletter form and use 
 - Email: **Name**: Email address
 - Checkboxes: **Name**: Gender, **Options**: click **Add** button and add three values: Male, Female, Other.
 - Button: **Name**: Sign up!, **Action**: choose Show a message and in the **Message to display** field enter: Thank you!
+
+![Newsletter settings](img/newsletter_settings.png)
 
 5\. Click **Save** button and then **Confirm**.
 
@@ -106,4 +116,8 @@ In the following example, you can learn how to create a Newsletter form and use 
 7\. Click **Block settings** icon and then, in the Form window click **Select content** button.
 Find your form in the content tree and choose it, then click **Confirm** and **Submit** buttons.
 
+![Block settings](img/newsletter_button_submit.png)
+
 8\. Now, you can see a Newsletter form on your page.
+
+![Newsletter form](img/newsletter_result.png)

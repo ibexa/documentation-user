@@ -82,3 +82,5 @@ You may want to change the status of multiple or individual notifications in the
 
     - select checkboxes next to notifications that you want to process
     - at the top of the list, click **Mark as read** or **Delete**.
+
+![Bulk action buttons](img/notifications_bulk_action_buttons.png "Bulk action buttons")

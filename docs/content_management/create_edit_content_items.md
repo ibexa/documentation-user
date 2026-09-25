@@ -74,6 +74,8 @@ When a file is uploaded with multi-file upload, it's automatically stored in a f
 
     The content type for the uploaded files is selected automatically by the system.
 
+![Multi-file upload](img/multi_file_upload.png)
+
 ## Edit new or existing content items
 
 Each content item is based on a [content type](create_edit_content_types.md).
@@ -115,6 +117,8 @@ To do it, choose one of the available elements:
 - X
 - Facebook
 
+![Available Rich Text block elements](img/rich_text_block_elements.png "Available Rich Text block elements")
+
 Each of these elements can have its own settings, such as text formatting.
 The option bar also lets you reorder or remove any elements in the Rich Text field.
 
@@ -131,11 +135,15 @@ Then, click the three dots icon and click **Edit**.
 
 If the content item has more than one translation available, you need to select the language.
 
+![Edit embedded content item - select language](img/edit_embedded_item_language_richtext.png "Edit embedded content item - select language")
+
 This action opens a new browser tab with an editing screen of the selected content item.
 When you finish editing the item, click **Publish**.
 To see implemented changes refresh the browser page.
 
 This option is also available when you want to set up a [relation](configure_ct_field_settings.md#content-relation-settings) with another content item.
+
+![Edit embedded content item - set up a relation](img/edit_embedded_items_relation.png "Edit embedded content item - set up a relation")
 
 #### Embed products
 
@@ -152,11 +160,15 @@ Two embed styles are available:
 Distraction free mode expands the workspace to full screen and shows only editor toolbar.
 It's helpful when you need to work with longer texts that take more space and when you want to focus your attention on editing text.
 
+![Distraction free mode](img/distraction_free_mode.png "Distraction free mode")
+
 To access distraction free mode, click **Distraction free mode** on the right side above the workspace.
 
 ![Access distraction free mode](img/access_distraction_free_mode.png "Access distraction free mode")
 
 To exit distraction free mode, click **Exit distraction free mode** or press Esc on the keyboard.
+
+![Exit distraction mode](img/exit_distraction_free_mode.png "Exit distraction free mode")
 
 #### Anchors
 

@@ -11,7 +11,11 @@ You can perform various tasks on content item versions, either to advance them t
 
 If you're assigned to a draft version of a content item for [review](editorial_workflow.md), when you click the **Edit draft** icon in **My dashboard**, the **Review queue** table, you see the **Event(s)** timeline that lists all the transitions that this content has gone through.
 
+![Events timeline](img/workflow_events_timeline.png)
+
 If draft locking is supported, you also see a message that confirms that the draft is now locked to you.
+
+![Draft assignment message](img/lock_message.png)
 
 ## Release locked drafts
 

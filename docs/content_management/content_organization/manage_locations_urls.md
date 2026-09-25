@@ -97,7 +97,11 @@ Each content item can have one or more URL aliases. They're additional URLs that
 
 To add URL aliases, go to the **URL** tab, and click **+ Add** in the **Custom URL aliases for...** area.
 
+![Add new URL alias](img/add_new_url.png)
+
 The URL alias must be unique across the whole website, regardless of the language.
+
+![Creating a new URL alias](img/create_new_url_alias.png)
 
 For each new alias, you can set the following options:
 

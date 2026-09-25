@@ -39,6 +39,8 @@ The appearance of content items can also change if they use different designs or
 The first screen that you see after logging in is [Dashboard](dashboard.md).
 It's the default dashboard and contains selected blocks.
 
+![Dashboard](dashboard.png "Dashboard")
+
 You can customize the dashboard by changing the blocks and the layout.
 For more information, see [Work with dashboard](work_with_dashboard.md).
 
@@ -64,6 +66,8 @@ It lets you navigate the content tree, and, for example, create, edit, move, cop
 
 Content tree is the place where you can navigate through all the content items in your application.
 It is available in the back office and allows you to browse your content, move content items around, hide them, send them to trash, and perform other actions.
+
+![Content tree in the menu](img/left_menu_tree.png "Content tree in the menu")
 
 For more information, see [Content tree](content_tree.md).
 
@@ -101,6 +105,8 @@ If you need access to certain settings or technical details, you can [disable th
 
 - **Dark theme for content tree**
 : In areas where the content tree is displayed, for example, in **Content structure**, the tree is displayed on a dark background.
+
+![Dark theme for content tree](img/FM_dark_content_tree.png "Dark theme for content tree")
 
 - **Content item view**
 : If you select a specific [SiteAccess](multisite.md#siteaccess) from the **Site context** drop-down list on the right side of the top bar and then browse content items in content tree, they're displayed in full view, with a limited set of actions available.

@@ -65,3 +65,5 @@ You can delete tags directly from the taxonomy tree. Go to **Tags** section.
 You can view a list of all content items which are tagged with the given tag.
 To do it, go to **Tags** section.
 In the taxonomy tree click the respective tag and go to the **Content** tab.
+
+![Content list](img/taxonomy_content_list.png "Content list")

@@ -26,6 +26,8 @@ In the content item's details screen, go to **Sub-items** tab, select multiple i
 Then choose a destination from the [content browser](../../getting_started/discover_ui.md#content-browser) in the **Select destination** modal that opens up.
 After choosing and confirming new destination, all selected files are moved to it.
 
+![Multi-file move](img/multi_file_move_location.png)
+
 ## Remove content
 
 You can remove content by clicking **Send to Trash** in the menu.
@@ -43,6 +45,8 @@ The content appears in Trash only once you have removed the last location.
 You can permanently remove a content item by checking it and clicking the trash icon.
 You can also permanently remove all content from the Trash by clicking **Empty Trash**.
 
+![Warning before emptying the trash](img/empty_trash_warning.png "Warning before emptying the Trash")
+
 !!! caution "Warning"
 
     Emptying the Trash cannot be undone!
@@ -56,6 +60,8 @@ You have multiple ways to delete multiple items, for example:
 
 Confirm your choice in the pop-up window with the **Send to trash** button.
 All selected files are moved to trash.
+
+![Multi-file delete](img/multi_file_delete.png)
 
 ### Hide content
 

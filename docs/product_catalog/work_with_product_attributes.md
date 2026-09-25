@@ -45,7 +45,11 @@ Each identifier must be unique. It can have up to 64 characters and contain only
 
 1\. In the left panel, click **Product catalog** -> **Attributes** and click **Create**.
 
+![Create new attribute](img/create_new_attribute.png "Create new attribute")
+
 2\. From the drop-down list, choose an attribute type and click **Add**.
+
+![Attribute types](img/attribute_types.png "Attribute types")
 
 3\. Fill in basic attribute information: name and identifier.
 

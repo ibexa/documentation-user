@@ -36,6 +36,8 @@ If the limit is filled and a new content item is displayed, the oldest item disa
 
 When editing a content item, select **Publish later** in the menu on the right.
 
+![Publish Later button in the menu](img/publish_later.png "Publish Later button in the menu")
+
 A **Future publication settings** window is displayed.
 Choose a date and time for the content publication.
 
@@ -145,6 +147,8 @@ To reschedule or cancel events with the dashboard, perform the following actions
       In the **Reschedule** modal window, select the new date and click **Confirm date change**.
     - To cancel publication, click **Cancel publication**.
       In the modal window, confirm the cancellation by selecting **Cancel publication**.
+
+![Reschedule or cancel with the dashboard](img/reschedule_cancel_dashboard.png "Rescheduling or cancelling with the dashboard")
 
 ### Reschedule or cancel in Calendar
 

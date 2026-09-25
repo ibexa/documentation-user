@@ -95,6 +95,8 @@ Click the **X** icon to restore the original position of the target.
 Click the left or right arrow button to undo or redo the most recent change.
 Click **Reset image** to restore the original appearance of the image.
 
+![Image Editor: Undo](image_editor_undo.png)
+
 #### Save changes
 
 Click **Save** to apply your edits to the original image and exit the Image Editor screen.

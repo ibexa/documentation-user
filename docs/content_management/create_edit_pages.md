@@ -88,6 +88,8 @@ Page Builder has two main views that you can use while creating a page:
 
 - **Structure view** toolbox - shows a structure of your page, including their division into zones and the blocks that they contain.
 
+![Structure view toolbox](img/structure_view.png)
+
 ### Work with layout
 
 [Layout](configure_ct_field_settings.md#available-page-layouts) divides the page into the defined zones. The zones are placeholders for the blocks.
@@ -117,6 +119,8 @@ Before you drop it, a bold line appears  - it helps you see the position of the 
 
 When you add a block by dragging it from **Page blocks** toolbox into the drop zone,
 the block settings panel open immediately where you can configure all block properties.
+
+![Block properties](block_properties.png)
 
 This is a default behavior. You can globally turn off automatic opening of the block settings panel in the user settings.
 First, access your user settings on the right side of the top bar:
@@ -154,6 +158,8 @@ The following actions are available:
 - Refresh - refreshes preview of the block
 - Delete - deletes existing block
 
+![Block window - size adjustment](img/block_window_size_adjust.png "Block window - size adjustment")
+
 #### Copy blocks
 
 You can copy blocks to reuse them on other pages, or within the same one.
@@ -174,6 +180,8 @@ Content of the clipboard is visible only to you, and preserves switching into a 
 
 Each kind of block has its special settings.
 You can access them by placing the cursor on the added block and clicking the **Block settings** icon.
+
+![Block settings icon](img/block_settings_icon.png "Block settings icon")
 
 Settings available for blocks are divided into three tabs — **Basic**, **Design**, and **Scheduler**.
 The settings available on the **Basic** tab are tailored to the block's content.
@@ -212,6 +220,8 @@ All the content item details automatically update in the block window.
 
 If the content item has more than one translation available, you need to select the language.
 
+![Edit embedded content item - select language](img/edit_item_select_language.png "Edit embedded content item - select language")
+
 This function is available for following blocks:
 
 - Banner
@@ -230,11 +240,15 @@ While configuring blocks that include Rich Text section, for example, Text block
 Distraction free mode expands the workspace to full screen and shows only editor toolbar.
 It's helpful when you need to work with longer texts that take more space and when you want to focus your attention on editing text.
 
+![Distraction free mode](img/distraction_free_mode.png "Distraction free mode")
+
 To access distraction free mode, click **Distraction free mode** on the right side above the workspace.
 
 ![Access distraction free mode](img/access_distraction_free_mode_PB.png "Access distraction free mode")
 
 To exit distraction free mode, click **Exit distraction free mode** or press Esc on the keyboard.
+
+![Exit distraction free mode](img/exit_distraction_free_mode.png "Exit distraction free mode")
 
 ## Save page
 

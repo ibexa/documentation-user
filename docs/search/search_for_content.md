@@ -24,6 +24,8 @@ The result list also shows which languages the content item is translated to.
 By default, the results are sorted by decreasing relevance.
 By selecting an option from a drop-down menu in the top right corner, you can sort them by name, publication date, or modification date.
 
+![Sorting menu](img/sorting_menu.png)
+
 The search engine not only displays suggestions, but also supports spell checking.
 If you misspell a search phrase, the search engine suggests a related, accurate term.
 

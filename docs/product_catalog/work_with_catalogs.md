@@ -12,6 +12,8 @@ You can create special catalogs, for example, to differentiate the offering that
 Catalogs are collections of [products](products.md) selected using configurable filters.
 They're specific to each of your websites or storefronts, which means that they contain products that are presented or sold in a specific website.
 
+![Catalog menu with a sample catalog](img/catalog.png "Catalog menu with a sample catalog")
+
 ## Create catalogs
 
 To create a catalog:
@@ -49,6 +51,8 @@ The list is updated automatically when you add or modify filters.
 You can also remove selected filters there.
 
 You can view all products in a catalog in its **Products** tab:
+
+![List of products in a catalog](img/catalogs_product_list.png "List of products in a catalog")
 
 ## Copy catalogs
 

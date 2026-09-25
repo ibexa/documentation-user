@@ -16,7 +16,11 @@ To the contributors you want to give the permissions to create new content, but 
 
 To have this setup, you need to create a number of different roles: Editor-in-Chief, different Editor(s), and Contributor.
 
+![Editor role](img/role_details.png "Editor role")
+
 Even if you plan on having only one editor-in-chief, it's good practice to create a user group to contain this user, and assign a role to it instead of assigning permissions directly to the user.
+
+![User groups](img/user_groups.png "User groups")
 
 To each of these roles you need to assign proper policies, giving them the right to perform certain actions.
 

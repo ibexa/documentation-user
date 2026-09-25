@@ -96,6 +96,8 @@ This is a default behavior.
 You can globally turn off automatic opening of the block settings panel in the user settings.
 First, access your user settings on the right side of the top bar:
 
+![User settings](user_settings_builder.png "User settings")
+
 Then, go to **Preferences** tab, **Content authoring** section, and click **Edit**.
 Here, you can find **Automatically open block settings in builder** setting, which is enabled by default.
 To change this behavior, click on the arrow to see drop-down list and select `Disabled` option.
@@ -134,6 +136,8 @@ The following actions are available:
 At any time you can edit an active customized dashboard.
 To do it, click the three dots icon in the top corner, and then click **Edit...**.
 
+![Edit dashboard](edit_active_dashboard.png "Edit dashboard")
+
 This action opens the Dashboard Builder that allows you to edit an active customized dashboard and publish its updated version.
 All the changes that you make are visible after you save them and go back to the dashboard.
 
@@ -155,6 +159,8 @@ To do it, access your user settings on the right side of the top bar.
 Then, go to **Preferences** tab, **Dashboard** section, and click **Edit**.
 
 Select the dashboard to be set as active, and click **Save**.
+
+![Select active dashboard](select_active_dashboard.png "Select active dashboard")
 
 You can also select active dashboard and switch between default and customized dashboard in the main dashboard view.
 Click the three dots menu and use the **Switch to...** action.

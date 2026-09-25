@@ -132,4 +132,6 @@ Then, click **Change password**.
 Fill in all the required fields and click **Save and close** to save changes.
 Click **Discard** to reject your changes and return to the previous screen.
 
+![Editing password](img/editing_password.png "Editing password")
+
 <!-- TODO: re-record walkthrough -->
