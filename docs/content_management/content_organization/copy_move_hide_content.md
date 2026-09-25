@@ -39,13 +39,13 @@ In the Trash, you can search for content items and sort your search results base
 You can then select removed content items and restore them to their original locations or to new locations you choose.
 If the content item's parent has been removed, you need to select a new parent location.
 
-![Warning before emptying the trash](img/empty_trash_warning.png "Warning before emptying the Trash")
-
 If a content item has more than one location, selecting **Send to Trash** removes the content item only from the current location.
 The content appears in Trash only once you have removed the last location.
 
 You can permanently remove a content item by checking it and clicking the trash icon.
 You can also permanently remove all content from the Trash by clicking **Empty Trash**.
+
+![Warning before emptying the trash](img/empty_trash_warning.png "Warning before emptying the Trash")
 
 !!! caution "Warning"
 
@@ -91,4 +91,4 @@ This is different from [hiding locations](manage_locations_urls.md#hide-location
     and set a different section or object state for the given content.
     Or use other permission-based [**Limitations**](work_with_permissions.md).
 
-<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/NQXMhcHiPL1dVRT9Eg3u?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Copy, move or hide content" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+<!-- TODO: re-record walkthrough -->

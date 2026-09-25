@@ -18,8 +18,6 @@ For more information about setting up a permission system, see [Work with permis
 
 To customize the dashboard, on the main page, click **Customize dashboard**.
 
-![Customize dashboard](customize_dashboard.png "Customize dashboard")
-
 If the banner is closed, click the three dots icon, and use the **Customize dashboard** action.
 
 ![Customize dashboard - three dots icon](customize_dashboard_icon.png "Customize dashboard - three dots icon")
@@ -28,7 +26,7 @@ This action opens an online editor - Dashboard Builder.
 
 ![Dashboard Builder](dashboard_builder.png "Dashboard Builder")
 
-<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/e5bqo0vVeXcLX0fUtfZw?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Customize dashboard" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+<!-- TODO: re-record walkthrough -->
 
 ### Dashboard Builder interface
 
@@ -53,8 +51,6 @@ C. Buttons:
 Dashboard Builder has two main toolboxes that you can use while creating a dashboard:
 
 - **Dashboard blocks** - consists of all available blocks that you can use by dragging them and dropping on a drop zone.
-
-![Dashboard blocks](dashboard_blocks_toolbox.png)
 
 - **Structure view** - shows a structure of your dashboard, including its division into zones and the blocks that they contain.
 
@@ -112,8 +108,6 @@ To change this behavior, click on the arrow to see drop-down list and select `Di
 
 Each block has its special properties.
 You can access them by placing the cursor on a block in the drop zone and clicking the **Block settings** icon.
-
-![Block settings - Dashboard Builder](block_settings_builder.png "Block settings - Dashboard Builder")
 
 Settings available for blocks are divided into two tabs: **Properties** and **Design**.
 The settings available on the **Properties** tab depend on to the block's content.

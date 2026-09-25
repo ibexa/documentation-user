@@ -11,7 +11,7 @@ For more information about building and styling forms, see [Developer Documentat
 
 You can create a form with a visual drag-and-drop editor, the Form Builder.
 
-<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/6TuwPfbDTXTo6SnYSiyW?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Form Builder interface" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+<!-- TODO: re-record walkthrough -->
 
 ## Create forms
 
@@ -68,7 +68,7 @@ You can choose one of a few options of what is shown to the user after filling i
 
     For more information, see [Publish content](publish_content.md).
 
-<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/YayMqLkQ6QeCZFeVyQxp?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Build a form" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+<!-- TODO: re-record walkthrough -->
 
 ## View results
 
@@ -78,6 +78,8 @@ Here you can view the details of each submission.
 You can also delete any submissions (for example if they were made while testing or contain spam).
 
 Click **Download submissions** icon to download all the submissions in a .CSV (comma-separated value) file.
+
+<!-- TODO: retake screenshot  -->
 
 ![Form Builder submissions](img/form_builder_submissions.png)
 

@@ -50,6 +50,8 @@ When you edit the image asset, you can edit the image itself by using the Image 
 
 Image Editor is available whenever you see the **Edit** icon on the preview.
 
+<!-- TODO: retake screenshot  -->
+
 ![Image Editor icon](image_editor_icon.png)
 
 #### Flip

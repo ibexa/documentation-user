@@ -54,7 +54,7 @@ month_change: false
 
     For more information, see [Publish content](publish_content.md).
 
-<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/T4dqNwZwGGpS3RaLHA6R?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Create and edit article" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+<!-- TODO: re-record walkthrough -->
 
 !!! note "Versioning and autosave"
 
@@ -122,7 +122,7 @@ To do it, choose one of the available elements:
 Each of these elements can have its own settings, such as text formatting.
 The option bar also lets you reorder or remove any elements in the Rich Text field.
 
-<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/wkdL1r9PRunTeF6hPtEs?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Online Editor - work in Rich Text field" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+<!-- TODO: re-record walkthrough -->
 
 #### Edit embedded content items
 
@@ -223,14 +223,12 @@ When response is displayed on the screen, depending on whether you are satisfied
 - **Insert below** - inserts the output text directly after the source passage (available only in the online editor)
 - **Try again** - makes another attempt at generating the output
 
-![AI Assistant](ai_assistant.png)
-
 !!! note "Lengthy processing of complex requests"
 
     Depending on the length of the source text and the complexity of request, processing may take a while.
     You may cancel the processing if it takes too long by clicking **Stop**.
 
-<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/oDRgSawmcExFx2NUJYbM?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Use AI to expand the body text" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+<!-- TODO: re-record walkthrough -->
 
 ### Text formatting
 
@@ -256,7 +254,5 @@ For this feature to work as described, the content type must have a **Metadata**
 !!! note "Taxonomy suggestions"
 
     If the [Taxonomy suggestions]([[= developer_doc =]]/content_management/taxonomy/taxonomy#taxonomy-suggestions) feature is enabled in your system, instead of manually browsing the taxonomy tree and selecting tags one by one, you can click **AI Suggest category** and pick from suggestions made by the AI Assistant.
-
-    ![Taxonomy entries suggested by the AI Assistant](img/taxonomy_suggestions_content.png "Taxonomy entries suggested by the AI Assistant")
 
 For more information, see [Assign tag to content from taxonomy tree](taxonomy/work_with_tags.md#add-taxonomy-entry-assignment-field-to-content-type).

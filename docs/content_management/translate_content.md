@@ -58,6 +58,8 @@ To add a language pair, click **+ Add language pair**, and then:
 3. Select a translation service.
 4. Click **Save and close**.
 
+<!-- TODO: retake screenshot  -->
+
 ![Creating a language pair](img/translations_management_language_pairs.png "Creating a language pair")
 
 This creates one language pair per selected target language.
@@ -223,9 +225,13 @@ Such drafts are marked with one of the following badges:
 
 Draft translations that you translated yourself rather than automatically don't have a badge.
 
+<!-- TODO: retake screenshot  -->
+
 ![Review status badges in the Versions tab](img/translations_review_status.png "Review status badges in the Versions tab")
 
 When you create and open an automatic translation or open a draft translation of a content item that has "For review" status in the side-by-side view, a review banner appears at the bottom of the screen, which allows you to accept or reject the translation.
+
+<!-- TODO: retake screenshot  -->
 
 ![Review banner in the side-by-side view](img/translations_review_banner.png "Review banner in the side-by-side view")
 

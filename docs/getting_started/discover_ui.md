@@ -48,11 +48,9 @@ For more information, see [Work with dashboard](work_with_dashboard.md).
 
 The main menu allows you to move between important sections of the application.
 
-![Main menu](img/side_menu.png "Main menu")
-
 You can adjust the size of the menu sidebar.
 To do this, click on the side edge of the panel, then drag and adjust to the desired size.
-You can also hide it by clicking the button in the down right corner.
+You can also hide it by clicking the button in the top right corner.
 
 ![Main menu - adjust](img/menu_adjust.png "Adjust main menu or hide it")
 
@@ -103,7 +101,7 @@ Focus mode helps editors focus on information that is only relevant to their lin
 It's enabled by default, after you log in.
 If you need access to certain settings or technical details, you can [disable the focus mode](#disable-focus-mode) at any time.
 
-<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/2YM6EhsN5eeohdLzYBpi?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Search and focus mode" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+<!-- TODO: re-record walkthrough -->
 
 - **Dark theme for content tree**
 : In areas where the content tree is displayed, for example, in **Content structure**, the tree is displayed on a dark background.

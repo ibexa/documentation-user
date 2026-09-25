@@ -50,9 +50,11 @@ When you compare two versions, the system highlights the changes:
 
 ![Version comparison in Split view](img/split_view.png "Version comparison in Split view")
 
-<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/RRBS7OWNfcFMQOmiVgBs?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Compare versions" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+<!-- TODO: re-record walkthrough -->
 
 You can also compare media field types such as images.
+
+<!-- TODO: retake screenshot  -->
 
 ![Image comparison](img/image_comparison.png "Image comparison")
 
