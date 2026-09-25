@@ -83,6 +83,7 @@ This way, a responsive image can be cropped to fit the viewport, so the area tha
 !!! note
 
     Cropping to focal point is not automatic. The website's templates must be adapted for this to happen.
+    For more information, see [Focal point in Developer documentation]([[= developer_doc =]]/content_management/field_types/field_type_reference/imagefield/#focal-point).
 
 Click the **Show point** button to see a target on the preview.
 Drag the target to a point on the image that you want to focus on.
