@@ -2,8 +2,9 @@
 # Clones and builds versioned documentation repositories used by lychee's remap rules,
 # then generates lychee.toml from lychee.toml.dist with absolute paths substituted in.
 #
-# Usage: ./tools/clone-repositories.sh [DEVDOC_60_BRANCH] [DEVDOC_50_BRANCH] [DEVDOC_46_BRANCH] [USERDOC_60_BRANCH] [USERDOC_50_BRANCH] [USERDOC_46_BRANCH] [CONNECT_BRANCH]
+# Usage: ./tools/clone-repositories.sh [DEVDOC_SAAS_BRANCH] [DEVDOC_60_BRANCH] [DEVDOC_50_BRANCH] [DEVDOC_46_BRANCH] [USERDOC_60_BRANCH] [USERDOC_50_BRANCH] [USERDOC_46_BRANCH] [CONNECT_BRANCH]
 #
+#   DEVDOC_SAAS_BRANCH Branch of ibexa/documentation-developer to use for SaaS (default: saas)
 #   DEVDOC_60_BRANCH   Branch of ibexa/documentation-developer to use for 6.0 (default: 6.0)
 #   DEVDOC_50_BRANCH   Branch of ibexa/documentation-developer to use for 5.0 (default: 5.0)
 #   DEVDOC_46_BRANCH   Branch of ibexa/documentation-developer to use for 4.6 (default: 4.6)
@@ -12,18 +13,22 @@
 #   USERDOC_46_BRANCH  Branch of ibexa/documentation-user to use for 4.6     (default: 4.6)
 #   CONNECT_BRANCH     Branch of ibexa/documentation-connect                  (default: main)
 #
+# This repository is the SaaS user documentation itself, so no userdoc SaaS clone is
+# made - links to /projects/userguide/en/saas/ are remapped to the local site/ build.
+#
 # Run this once before running lychee. Re-run to refresh clones or after moving
 # the repository to a new path (the path in lychee.toml will be updated automatically).
 
 set -euo pipefail
 
-DEVDOC_60_BRANCH="${1:-6.0}"
-DEVDOC_50_BRANCH="${2:-5.0}"
-DEVDOC_46_BRANCH="${3:-4.6}"
-USERDOC_60_BRANCH="${4:-6.0}"
-USERDOC_50_BRANCH="${5:-5.0}"
-USERDOC_46_BRANCH="${6:-4.6}"
-CONNECT_BRANCH="${7:-main}"
+DEVDOC_SAAS_BRANCH="${1:-saas}"
+DEVDOC_60_BRANCH="${2:-6.0}"
+DEVDOC_50_BRANCH="${3:-5.0}"
+DEVDOC_46_BRANCH="${4:-4.6}"
+USERDOC_60_BRANCH="${5:-6.0}"
+USERDOC_50_BRANCH="${6:-5.0}"
+USERDOC_46_BRANCH="${7:-4.6}"
+CONNECT_BRANCH="${8:-main}"
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # The script lives in tools/; all paths (repositories/, lychee.toml.dist, lychee.toml)
@@ -37,6 +42,7 @@ export PATH="$HOME/python/bin:$PATH"
 cd "$REPO_DIR"
 
 echo "==> Cloning versioned repositories..."
+echo "    devdoc saas → branch '$DEVDOC_SAAS_BRANCH'"
 echo "    devdoc  6.0 → branch '$DEVDOC_60_BRANCH'"
 echo "    devdoc  5.0 → branch '$DEVDOC_50_BRANCH'"
 echo "    devdoc  4.6 → branch '$DEVDOC_46_BRANCH'"
@@ -48,6 +54,7 @@ mkdir -p repositories
 git clone --depth=1 --branch "$DEVDOC_46_BRANCH"  https://github.com/ibexa/documentation-developer.git repositories/devdoc-4.6 &
 git clone --depth=1 --branch "$DEVDOC_50_BRANCH"  https://github.com/ibexa/documentation-developer.git repositories/devdoc-5.0 &
 git clone --depth=1 --branch "$DEVDOC_60_BRANCH"  https://github.com/ibexa/documentation-developer.git repositories/devdoc-6.0 &
+git clone --depth=1 --branch "$DEVDOC_SAAS_BRANCH" https://github.com/ibexa/documentation-developer.git repositories/devdoc-saas &
 git clone --depth=1 --branch "$USERDOC_46_BRANCH" https://github.com/ibexa/documentation-user.git repositories/userdoc-4.6 &
 git clone --depth=1 --branch "$USERDOC_50_BRANCH" https://github.com/ibexa/documentation-user.git repositories/userdoc-5.0 &
 git clone --depth=1 --branch "$USERDOC_60_BRANCH" https://github.com/ibexa/documentation-user.git repositories/userdoc-6.0 &
@@ -55,12 +62,12 @@ git clone --depth=1 --branch "$CONNECT_BRANCH"    https://github.com/ibexa/docum
 wait
 
 echo "==> Installing dependencies for versioned repositories..."
-for dir in repositories/devdoc-4.6 repositories/devdoc-5.0 repositories/devdoc-6.0 repositories/userdoc-4.6 repositories/userdoc-5.0 repositories/userdoc-6.0 repositories/connect; do
+for dir in repositories/devdoc-4.6 repositories/devdoc-5.0 repositories/devdoc-6.0 repositories/devdoc-saas repositories/userdoc-4.6 repositories/userdoc-5.0 repositories/userdoc-6.0 repositories/connect; do
     (cd "$dir" && pip install -q -r requirements.txt)
 done
 
 echo "==> Building versioned repositories..."
-for dir in repositories/devdoc-4.6 repositories/devdoc-5.0 repositories/devdoc-6.0 repositories/userdoc-4.6 repositories/userdoc-5.0 repositories/userdoc-6.0 repositories/connect; do
+for dir in repositories/devdoc-4.6 repositories/devdoc-5.0 repositories/devdoc-6.0 repositories/devdoc-saas repositories/userdoc-4.6 repositories/userdoc-5.0 repositories/userdoc-6.0 repositories/connect; do
     (cd "$dir" && mkdocs build --quiet) &
 done
 wait

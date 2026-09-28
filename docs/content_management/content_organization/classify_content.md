@@ -1,5 +1,5 @@
 ---
-description: Use sections, bookmarks, or segments to classify the content of your website.
+description: Use sections, the Favourites list, or segments to classify the content of your website.
 ---
 
 # Classify content
@@ -35,18 +35,18 @@ To do it, [disable the Focus mode](../../getting_started/discover_ui.md#disable-
 
 ![Object state details](img/object_state_details.png)
 
-## Bookmarks
+## Favourites
 
-You can bookmark any content item by clicking the star icon next to the content name.
+You can add any content item to the Favourites list by clicking the star icon next to the content name.
 
-![Bookmark icon](img/bookmark_icon.png)
+![Favourites icon](img/bookmark_icon.png)
 
-Bookmarks are stored per user.
-Click **Bookmarks** in the left menu to view a list of all of them.
+Favourites are stored per user.
+Click **Favourites** in the left menu to view your list of favourite content items.
 
-![Bookmark screen](img/bookmarks.png)
+![Favourites screen](img/bookmarks.png)
 
-<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/YntAJoNhClxKurgeOXEt?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Manage bookmarks" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/YntAJoNhClxKurgeOXEt?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Manage favourites" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
 
 ## Segments
 

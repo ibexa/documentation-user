@@ -93,7 +93,7 @@ Displays selected mostly used actions and shortcuts, for example, **Create conte
 On the **Properties** tab, set values in the following fields:
 
 - **Name** - Enter a name for the block.
-- **Actions** - Select actions to be displayed as shortcuts: Create content, Create form, Create product, Create catalog, Create company. Default value = All.
+- **Actions** - Select actions to be displayed as shortcuts: Create content, Create form, Create product, Create catalog. Default value = All.
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of quick actions and submit your changes.
 

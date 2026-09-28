@@ -94,12 +94,7 @@ Page Builder has two main views that you can use while creating a page:
 
 [Layout](configure_ct_field_settings.md#available-page-layouts) divides the page into the defined zones. The zones are placeholders for the blocks.
 
-The page layouts that an editor has access to are up to you to choose.
-
-The default, built-in Page layout has only one zone, but developers can create other layouts in configuration.
-For more information, see [Configure layout]([[= developer_doc =]]/templating/render_content/render_page/#configure-layout).
-
-While editing, you can switch layout for your page.
+While editing, you can switch layout for your page from the available ones.
 To do it, click **Switch layouts** button.
 
 ### Add blocks
@@ -138,16 +133,14 @@ To change this behavior, click on **Edit** icon, find the setting, and change it
 
 ![User settings - blocks](img/user_settings_blocks.png "User settings - blocks settings")
 
-[[= product_name =]] comes with a set of ready-to-use page blocks,
-but [developers can add their own]([[= developer_doc =]]/content_management/pages/create_custom_page_block/).
-
-For a list of blocks available out of the box, see [Block reference](block_reference.md).
+[[= product_name =]] comes with a set of ready-to-use page blocks.
+For a list of available blocks, see [Block reference](block_reference.md).
 
 !!! note
 
     Before you add a block that involves products, product types, or product categories, make sure your that your [user role](../permission_management/permissions_and_users.md) has the `Product/View` and `Product type/View` permission.
 
-    Before you add a [recommendation block](raptor_recommendation_blocks.md), make sure that the [[= product_name_cdp_base =]] integration is properly [configured]([[= developer_doc =]]/recommendations/raptor_integration/connector_installation_configuration/).
+    Before you add a [recommendation block](raptor_recommendation_blocks.md), make sure that the [[= product_name_cdp_base =]] integration is properly configured.
 
 You can work with the block, for example, duplicate it, change its position, or delete it.
 Hover over the block and the toolbar appears.

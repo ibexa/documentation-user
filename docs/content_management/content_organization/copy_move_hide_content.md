@@ -14,8 +14,6 @@ You can also copy the whole subtree (a content item with all content under it in
     Copying very large subtrees may take too much time and server effort.
     That is why the system administrator may set a limit on how many content items can be copied at the same time.
 
-    See [Copy subtree limit]([[= developer_doc =]]/administration/back_office/back_office_configuration/#copy-subtree-limit) in Developer Documentation on how to set this up.
-
 Copying creates a new content item.
 If you only want to have the same content item to another place in the content tree, add another location to it.
 

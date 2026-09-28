@@ -87,7 +87,7 @@ The Content Browser window opens, and you can select the new destination of the 
 
 With the **Content Browser**, you can switch between the Grid, Panels and Tree views to navigate through the content of the website.
 Depending on your permissions, you might be able to see the regular content, media, forms, site skeletons, and user accounts.
-You can also use the **Content Browser** to search the repository for content, edit content, create bookmarks, and create new content when needed.
+You can also use the **Content Browser** to search the repository for content, edit content, add content items to the Favourites list, and create new content when needed.
 
 !!! note
 
@@ -138,24 +138,3 @@ Focus mode is enabled by default when you first log into [[= product_name =]], b
 - in the drop-down menu on the right side of the top bar
 
 ![Focus mode switch](img/FM_switch.png "Focus mode switch")
-
-## Help center
-
-The ![Help center](about-info.png){.inline-image} icon appears at the bottom right of multiple screens.
-Click it to access documentation, trainings, release notes, and product roadmap highlights straight from the back office.
-
-![Help center](img/help_center.png "Help center")
-
-Help center can be [customized]([[= developer_doc =]]/administration/back_office/customize_integrated_help/) to fit the needs of your organization, for example, to include links to your internal style guides.
-
-### Disable help center
-
-Help center is enabled by default, but you can toggle it in [user settings](get_started.md#browsing).
-
-### Dismiss help icon
-
-It may happen that the help icon overlaps with other interface elements that you want to interact with.
-In such case, hover over the help icon and click the X icon to dismiss it.
-The help icon reappears when you reload the screen.
-
-![Help obstructs UI](img/help_obstructs.png "Help obstructs UI")

@@ -19,11 +19,9 @@ The following blocks are available in [[= product_name =]]:
 |[Embed](#embed-block)|Embeds a content item of any content type on the page. |
 |[Form](#form-block)|Embeds a Form content item that you select from the content structure. |
 |[Gallery](#gallery-block)|Displays all images contained in a selected folder. |
-|[[[= product_name_connect =]]](#ibexa-connect-block)|Retrieves and displays data from an [[= product_name_connect =]] webhook. |
 |[Product collection](#product-collection-block)|Displays a list of specifically selected products.|
 |[Product embed](#product-embed)|Displays a specific product.|
 |[RSS](#rss-block)|Loads and displays news from RSS feeds (channels). |
-|[Sales representative](#sales-representative)|Loads and displays company's sales representative.|
 |[Targeting](#targeting-block)|Embeds an content item based on the [segment](content_organization/classify_content.md#segments) the user belongs to. |
 |[Text](#text-block)|Enables you to add to the page a Rich Text block. |
 |[Video](#video-block)|Embeds a video into the page with standard playback controls. |
@@ -156,9 +154,7 @@ On the **Properties** tab, set values in the following fields:
 
 !!! caution "Known limitation"
 
-    To display two or more identical forms on a single page, have your developer create multiple identical form blocks for your use. This prevents potential issues related to duplicate data submission.
-
-    For more information about creating form blocks, see [Creating a newsletter form]([[= developer_doc =]]/content_management/pages/create_custom_page_block/) in Developer Documentation.
+    To prevent potential issues related to duplicate data submission, don't embed two or more identical forms on a single page.
 
 ### Gallery block
 
@@ -170,19 +166,6 @@ On the **Properties** tab, set values in the following fields:
 
 After submitting the settings, all images in the folder are shown in the Gallery block.
 Selecting a folder containing content items other than images results in displaying only a link to the folder where they're stored.
-
-### [[= product_name_connect =]] block
-
-Access and showcase data retrieved from an [[= product_name_connect =]] webhook.
-Streamline information presentation for seamless insights and improved decision-making.
-On the **Properties** tab, set values in the following fields:
-
-- **Name** – Enter a name for the page block.
-- **Webhook link** — Enter the link for the [[= product_name_connect =]] webhook.
-
-!!! caution "Using [[= product_name_connect =]] scenario block"
-
-    For more information about using [[= product_name_connect =]] scenario block, see [[[= product_name_connect =]] scenario block]([[= developer_doc =]]/content_management/pages/ibexa_connect_scenario_block/) in Developer Documentation.
 
 ### Product collection block
 
@@ -209,16 +192,6 @@ On the **Properties** tab, set values in the following fields:
 - **URL** — Enter the URL for the RSS news feed.
 - **Limit** — Set the number of news items to be displayed.
 - **Offset** — Set the limit of featured news items to be displayed.
-
-### Sales representative
-
-Imports and showcases sales representatives for the company in the Customer Portal.
-Gives users a way to connect with the team that handles their sales needs.
-On the **Properties** tab, set values in the following fields:
-
-- **Name** – Enter a name for the page block.
-
-On the **Design** tab, in the **View** field, select the layout to be used to present the Sales representative's details view and submit your changes.
 
 ### Targeting block
 
