@@ -19,8 +19,6 @@ At the top of the main screen you can see a top bar.
 The top bar contains a notification icon.
 When you receive a new notification, a badge appears on the notification icon, with a number of notifications that require your attention, and a message appears on the screen to notify you of new notifications.
 
-![New notification message](new_notification_message.png "New notification message")
-
 If you have already received notifications and didn't act on then, a number of notifications on the badge increases when you receive another one.
 
 ![Notification icon on the top bar](img/top_bar_with_notification_icon.png "Notification icon on the top bar")

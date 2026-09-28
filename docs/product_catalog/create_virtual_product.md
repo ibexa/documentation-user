@@ -44,5 +44,3 @@ While creating a product, choose the virtual product type that you have created.
 
 Virtual products don’t require shipment when they're purchased without other physical products.
 While purchasing a virtual product, you only have to fill in Billing address and select relevant payment method.
-
-![Virtual product purchasing](virtual_product_purchase.png "Virtual product purchasing")
