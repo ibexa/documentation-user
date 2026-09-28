@@ -7,8 +7,7 @@ month_change: false
 
 [[= product_name =]] consists of the technical platform for creating and managing
 online experiences, designed for developers and end-users alike.
-It includes a web framework, APIs and a content repository.
-It features a customizable user interface where you can work with the content, products, media, manage other functionalities, and administer the platform.
+It includes a content repository and features a customizable user interface where you can work with the content, products, media, manage other functionalities, and administer the platform.
 
 [[= product_name =]] provides advanced capabilities in such areas as:
 

@@ -4,7 +4,7 @@ description: Review a list of workflows that are available in Cohesivo.
 
 # View workflow list
 
-If you have Administrator permissions, you can view all configured workflows in the **Admin** panel by selecting **Workflow**.
+If you have Administrator permissions, you can view all configured workflows in the **Administration** panel by selecting **Workflow**.
 
 ![Workflow in Admin Panel](img/workflow_panel.png)
 

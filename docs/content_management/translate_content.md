@@ -18,9 +18,9 @@ Automatic translation requires [configuration]([[= developer_doc =]]/multisite/t
 
 ### Website languages
 
-You can only add translations in languages that have been set up in the **Admin** panel.
+You can only add translations in languages that have been set up in the **Administration** panel.
 If your user [role](work_with_permissions.md) has the right permissions, you can add a new language.
-To do it, go to the **Admin** panel, open the **Languages** tab, and click **Add language**.
+To do it, go to the **Administration** panel, open the **Languages** tab, and click **Add language**.
 
 Every new language must have a name and a language code written in the xxx-XX format, for example, eng-US, fre-FR, or nor-NO.
 
@@ -32,7 +32,7 @@ As soon as you save it, the language is available for creating content items, pr
 If you have Administrator permissions, you can enable and disable translation services and assign them to language pairs.
 Enabling at least one translation service is required before the editors can use automatic translation.
 
-To see the translation services that are available in your system, go to **Admin** -> **Languages** -> **Translation services** tab.
+To see the translation services that are available in your system, go to **Administration** -> **Languages** -> **Translation services** tab.
 
 The tab lists all available translation services.
 Each service shows its name, vendor, and whether it's enabled.
@@ -45,7 +45,7 @@ Disabled services don't appear as choices in the **Create a new translation** mo
 
 ### Language pairs
 
-To manage language pairs, go to **Admin** -> **Languages** -> **Language pairs** tab.
+To manage language pairs, go to **Administration** -> **Languages** -> **Language pairs** tab.
 
 A language pair setting decides which translation service is used by default when an editor translates from one specific language to another.
 When an editor opens the **Create a new translation** modal and selects a source and target language, a matching translation service gets pre-selected.

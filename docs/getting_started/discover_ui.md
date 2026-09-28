@@ -60,7 +60,7 @@ Depending on your [permissions](../permission_management/permission_system.md), 
 It lets you navigate the content tree, and, for example, create, edit, move, copy, or delete content.
 - **Site management**, which enables you to create and edit block-based pages and manage multiple websites.
 - **Product catalog**, which enables you to handle products presented on the website, including their specifications and pricing.
-- **Admin**, which is the administration panel where you can manage, for example, Users, Sections, or permissions.
+- **Administration**, which is the administration panel where you can manage, for example, Users, Sections, or permissions.
 
 ## Content tree
 
@@ -89,7 +89,7 @@ You can also use the **Content Browser** to search the repository for content, e
 
 !!! note
 
-    If you have administrator permissions, you can also view and manage user accounts and site skeletons in the **Admin** tab.
+    If you have administrator permissions, you can also view and manage user accounts and site skeletons in the **Administration** tab.
 
     For more information about users and permissions, see [Users](../permission_management/permissions_and_users.md).
 
@@ -102,11 +102,6 @@ It's enabled by default, after you log in.
 If you need access to certain settings or technical details, you can [disable the focus mode](#disable-focus-mode) at any time.
 
 <!-- TODO: re-record walkthrough -->
-
-- **Dark theme for content tree**
-: In areas where the content tree is displayed, for example, in **Content structure**, the tree is displayed on a dark background.
-
-![Dark theme for content tree](img/FM_dark_content_tree.png "Dark theme for content tree")
 
 - **Content item view**
 : If you select a specific [SiteAccess](multisite.md#siteaccess) from the **Site context** drop-down list on the right side of the top bar and then browse content items in content tree, they're displayed in full view, with a limited set of actions available.
