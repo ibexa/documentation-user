@@ -1,5 +1,5 @@
 ---
-description: Register users and use permission system to give them access to various parts of the system.
+description: Create users and use the permission system to give them access to various parts of the system.
 ---
 
 # Manage permissions and users

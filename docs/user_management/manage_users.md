@@ -18,20 +18,20 @@ As you can see, the interface is the same as when working with regular content i
     Be careful not to delete an existing user account.
     If you do this, content created by this user can be broken and the application can face malfunction.
 
-## Register as a user
+## Create users
 
-In most cases it's the administrator who invites users to log into the application.
-You can still access the registration form for the website by adding `/register` to the address, for example: `www.my-site.com/register`.
-By default, new users created in this way are placed in the Guest accounts group.
+To give someone access to the back office, create a user:
 
-## Invite users
+1. Go to **Administration** -> **Users**.
+2. Navigate to the user group the user should belong to.
+1. Click **Create user**, select the content type depending on the type of user you want to create, and click **Create**.
+1. Fill in user data, including the user account data:
 
-To invite users to a user group, go to **Administration** -> **Users**, navigate to the user group, and click **Invite members** in the top right corner.
+    - In the **Email** field, enter the user's email address. The email address is the user's login.
+    - Enter the password, or click **Generate password**.
+    - Switch the **Enabled** toggle on. Users who aren't enabled can't log in.
 
-![Inviting users](img/users_invitation.png)
+1. Click **Save and close**.
+1. Provide the new user with their credentials.
 
-To send invitations, fill out email addresses one by one or use drag and drop to upload a `.csv` file with an email list, then click **Send**.
-You can search among the email addresses you input with the top search bar.
-
-Invited users then receive an email message with a registration link.
-With it, they can register and create their account in the frontend as customers or in the back office as members of the team.
+To control which parts of the system the user can access, assign [appriopriate roles and permissions](work_with_permissions.md).
