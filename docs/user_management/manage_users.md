@@ -34,4 +34,4 @@ To give someone access to the back office, create a user:
 5. Click **Save and close**.
 6. Provide the new user with their credentials.
 
-To control which parts of the system the user can access, assign [appriopriate roles and permissions](work_with_permissions.md).
+To control which parts of the system the user can access, assign [appropriate roles and permissions](work_with_permissions.md).
