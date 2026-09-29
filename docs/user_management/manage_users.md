@@ -24,7 +24,7 @@ To give someone access to the back office, create a user:
 
 1. Go to **Administration** -> **Users**.
 2. Navigate to the user group the user should belong to.
-3. Click **Create user**, select the content type depending on the type of user you want to create, and click **Create**.
+3. Click **+ Create user**, select the content type depending on the type of user that you want to create, and click **Create**.
 4. Fill in user data, including the user account data:
 
     - In the **Email** field, enter the user's email address. The email address is the user's login.
