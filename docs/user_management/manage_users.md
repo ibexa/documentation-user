@@ -32,6 +32,6 @@ To give someone access to the back office, create a user:
     - Switch the **Enabled** toggle on. Users who aren't enabled can't log in.
 
 5. Click **Save and close**.
-6. Provide the new user with their credentials.
 
+You can now provide the new user with their access rights.
 To control which parts of the system the user can access, assign [appropriate roles and permissions](work_with_permissions.md).
