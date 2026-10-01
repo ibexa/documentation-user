@@ -15,7 +15,7 @@ To work with brand contexts, you need the appropriate [permissions](../permissio
 
 ## Manage attribute groups
 
-Manage attribute groups that you use to assign attributes to. 
+Manage attribute groups that you use to assign attributes to.
 
 ### Create an attribute group
 
