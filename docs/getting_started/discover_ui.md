@@ -19,7 +19,7 @@ B\. "Focus mode" badge which informs you that the [focus mode](#focus-mode) is o
 
 C\. Global search field that allows you to [find content](../search/search_for_content.md) by checking all searchable fields
 
-D\. Drop-down that changes the [site context](#site-context)
+D\. Drop-down that changes the [brand context](#brand-context)
 
 ![Top bar with site context selector](img/top_bar.png "Top bar with site context selector")
 
