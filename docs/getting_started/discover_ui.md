@@ -25,9 +25,12 @@ D\. Drop-down that changes the [site context](#site-context)
 
 E\. [Notification](notifications.md) icon that informs you about incoming assignments or requests, for example, when another user invites you to preview their work or when items are assigned for [your review](../content_management/workflow_management/editorial_workflow.md#review-queue)
 
-F\. App switcher which includes links to official websites of the QNTM group ecosystem companies, world-class ad-tech and mar-tech solution providers
+F\. App switcher, which opens a panel with the group's products icons
 
 ![App switcher](img/app_switcher.png "App switcher")
+
+When you click the app switcher icon in the top-left corner, a side panel expands with the icons of the group's products, such as Cohesivo, Actito, Qualifio, Quable, and Raptor.
+Click an icon to open the corresponding product's page.
 
 G\. User avatar with a drop-down menu with access to [user profile and settings](get_started.md#view-and-edit-user-profile)
 
@@ -54,11 +57,15 @@ The main menu allows you to move between important sections of the application.
 
 ![Main menu](img/side_menu.png "Main menu")
 
+After you log in, the sidebar navigation is expanded by default, so you can immediately see the available sections and their labels without having to select a module first.
+
 You can adjust the size of the menu sidebar.
 To do this, click on the side edge of the panel, then drag and adjust to the desired size.
-You can also hide it by clicking the button in the down right corner.
+You can also collapse it by clicking the button in the down right corner.
 
 ![Main menu - adjust](img/menu_adjust.png "Adjust main menu or hide it")
+
+The sidebar remembers whether you collapsed or expanded it, and keeps that state as you navigate around the back office.
 
 Depending on the product edition and your [permissions](../permission_management/permission_system.md), the main menu may include, for example:
 
