@@ -63,10 +63,10 @@ Logical categories that bring related pieces of information together are called 
 
 By default, [[= product_name =]] comes with the following attribute groups:
 
-- **Brand identity** - Brand name, tagline, logo, color palette, tone of voice, and core values
-- **Market information** - Region, target markets, primary currency, legal entity, and compliance notes
-- **Channel attributes** - Channel type, social handles, contact information, and support URLs
-- **AI/integration attributes** - Content style guide, generation constraints, persona definition, and forbidden topics
+- **AI context** - Content style guide, generation constraints, persona definition, and forbidden topics
+- **Channel** - Channel type, social handles, contact information, and support URLs
+- **Identity** - Brand slogan, alternative logo, color palette, fonts, tone of voice, and core values
+- **Market** - Region, target markets, primary currency, legal entity, and compliance notes
 
 You can define custom attributes and their categories that are tailored to your organization's needs.
 
