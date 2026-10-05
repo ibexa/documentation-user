@@ -64,10 +64,9 @@ Manage attributes that store specific pieces of information about a brand contex
 1. Select the language and the type for the attribute and click **Create**.
      Available attribute types are:
      - **Integer** - whole numbers
-     - **String** - text of less than 255 characters
-     - **Text** - single-line text input
+     - **String** - single-line text input
+     - **Text** - multi-line text area
      - **Rich text** - multi-line text with formatting
-     - **String** - text of less than 255 characters
      - **Selection** - a list of options to choose from
      - **URL** - a URL address
      - **Email** - an email address
@@ -116,7 +115,7 @@ Brand context attribute definitions can be translated to additional languages.
     When you delete a brand context attribute definition, any values that were entered for that attribute in brand contexts are also deleted.
 
 1. In the left panel, go to **Site Management** -> **Attribute definitions**.
-1. Click the name of the brand context attribute that you want to edit.
+1. Click the name of the brand context attribute that you want to delete.
 1. In the details screen, click **Delete**.
 1. In the confirmation modal, click **Delete** to confirm.
 
