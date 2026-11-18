@@ -19,7 +19,7 @@ B\. "Focus mode" badge which informs you that the [focus mode](#focus-mode) is o
 
 C\. Global search field that allows you to [find content](../search/search_for_content.md) by checking all searchable fields
 
-D\. Drop-down that changes the [site context](#site-context)
+D\. Drop-down that changes the [brand context](#brand-context)
 
 ![Top bar with site context selector](img/top_bar.png "Top bar with site context selector")
 
@@ -27,11 +27,11 @@ E\. [Notification](notifications.md) icon that informs you about incoming assign
 
 F\. User avatar with a drop-down menu with access to [user profile and settings](get_started.md#view-and-edit-user-profile)
 
-### Site context
+### Brand context
 
-Site context is the currently selected website configuration that is used in the back office when you browse content and render [previews](preview_content_items.md).
+[Brand contexts](brand_context.md) can group websites that are related from a business perspective: through their brand, market, or channel.
 
-In [multisite](multisite.md) installations, when you change the site context, it results in the [content tree](#content-tree) showing content items that belong to the selected website.
+The switcher may group websites by brand context, but the selected item still determines the system's behavior: in [multisite](multisite.md) installations, when you select a website from the switcher, the [content tree](#content-tree) shows content items that belong to the selected website and previews use its configuration.
 The appearance of content items can also change if they use different designs or languages depending on the [SiteAccess](multisite.md#siteaccess) settings.
 
 ## Dashboard

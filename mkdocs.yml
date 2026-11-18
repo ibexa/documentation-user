@@ -96,6 +96,10 @@ nav:
     - Website organization:
         - Multisite: website_organization/multisite.md
         - Work with sites: website_organization/work_with_sites.md
+        - Brand context:
+            - Brand context: website_organization/brand_context.md
+            - Work with brand contexts: website_organization/work_with_brand_contexts.md
+            - Work with brand context attributes: website_organization/work_with_brand_context_attributes.md
     - Permissions and users: 
         - Permission system: permission_management/permission_system.md
         - Work with permissions: permission_management/work_with_permissions.md
