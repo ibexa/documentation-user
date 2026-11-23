@@ -57,7 +57,7 @@ On the **Properties** tab, set values in the following fields:
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of content and submit your changes.
 
-With the [Collaborative editing LTS update](collaborative_editing.md), two new tabs are available in **My content** block: **My shared drafts** and **Drafts shared with me**.
+With the [Content sharing LTS update](content_sharing.md), two tabs are available in **My content** block: **My shared drafts** and **Drafts shared with me**.
 
 ## Orders by status block [[% include 'snippets/commerce_badge.md' %]]
 
@@ -105,7 +105,7 @@ Displays selected mostly used actions and shortcuts, for example, **Create conte
 On the **Properties** tab, set values in the following fields:
 
 - **Name** - Enter a name for the block.
-- **Actions** - Select actions to be displayed as shortucts: Create content, Create form, Create product, Create catalog, Create company. Default value = All.
+- **Actions** - Select actions to be displayed as shortcuts: Create content, Create form, Create product, Create catalog, Create company. Default value = All.
 
 On the **Design** tab, in the **View** field, select the layout to be used to present a list of quick actions and submit your changes.
 
