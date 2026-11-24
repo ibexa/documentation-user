@@ -240,7 +240,7 @@ Integration with [SeenThis!](https://seenthis.co/) service. SeenThis! block prov
 
 !!! note
 
-    This page block is in an opt-in bundle, to use it, install `ibexa/connector-seenthis` bundle first.
+    This page block requires the SeenThis! connector [add-on]([[= developer_doc =]]/ibexa_products/cohesivo_products/#add-ons).
 
 On the **Properties** tab, set values in the following fields:
 

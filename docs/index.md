@@ -212,7 +212,7 @@
                             <svg>
                                 <use xlink:href="images/icons.svg#cart" />
                             </svg>
-                            Commerce
+                            Commerce SDK
                         </a>
                     </h3>
                     <ul>

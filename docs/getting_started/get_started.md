@@ -5,16 +5,17 @@ month_change: true
 
 # Get started
 
-[[= product_name =]] consists of the technical platform for creating and managing
-online experiences, designed for developers and end-users alike.
+[[= product_name =]] is a content management system (CMS) designed for developers and end-users alike.
 It includes a web framework, APIs and a content repository.
 It features a customizable user interface where you can work with the content, products, media, manage other functionalities, and administer the platform.
 
-Depending on the product edition, [[= product_name =]] can provide advanced capabilities in such areas as:
+[[= product_name =]] provides advanced capabilities in such areas as:
 
 - [content management](content_management.md)
 - [product management](product_catalog.md)
 - [customer management](customer_management.md)
+
+It can be extended with the [[[= product_name_commerce_sdk =]]](../commerce/commerce.md) that helps manage an e-commerce presence.
 
 !!! note "Installation"
 
@@ -34,8 +35,8 @@ Otherwise, to log in, you must get your user credentials from the administrator,
 
 ### Onboarding
 
-When you log in to [[= product_name =]] for the first time, interactive product tours may appear if the Integrated help [LTS update]([[= developer_doc =]]/ibexa_products/editions/#lts-updates) is configured in your installation.
-This in-app walkthroughs guide you through key features and help you get started quickly.
+When you log in to [[= product_name =]] for the first time, interactive product tours may appear if [Integrated help]([[= developer_doc =]]/administration/back_office/integrated_help/) is enabled in your installation.
+This in-app walkthrough guides you through key features and helps you get started quickly.
 
 You can complete each step of the onboarding tutorials, skip them entirely if you prefer to explore on your own, or restart them anytime from your [user settings](#user-settings) under the **Browsing** section.
 
