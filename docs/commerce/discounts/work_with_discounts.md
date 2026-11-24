@@ -1,7 +1,6 @@
 ---
 description: Create and edit discounts, toggle discount status.
-editions:
-    - commerce
+edition: commerce
 month_change: false
 ---
 

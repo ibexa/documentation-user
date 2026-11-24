@@ -1,6 +1,5 @@
 ---
 description: Customer Portal allows your clients to create and manage business account for their company.
-edition: experience
 ---
 
 # Customer Portal account

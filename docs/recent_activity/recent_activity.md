@@ -1,6 +1,5 @@
 ---
 description: Monitor recent activity logged actions.
-edition: experience
 ---
 
 # Recent activity log

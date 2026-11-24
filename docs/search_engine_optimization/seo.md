@@ -10,7 +10,7 @@ The more your page stands out, the more likely users are to pay you a visit.
 
 With Search Engine Optimization (SEO) tool, you can optimize your website for both visitors and search engines.
 SEO brings in more organic traffic and improves the website's visibility in Search Engines Results Pages (SERPs).
-It's a core feature of Digital Experience Platform.
+It's a core feature of [[= product_name =]].
 
 Additionally, SEO allows you to control the appearance of search results on SERPs, by providing the intended wording for the title, description, or keywords.
 

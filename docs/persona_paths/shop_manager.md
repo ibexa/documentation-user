@@ -12,6 +12,10 @@ In [[= product_name =]], it means that you must focus on many things, including 
 - Manage shipping and payment methods
 - Manage and track orders
 
+!!! note "Commerce SDK requirement"
+
+    Some of the tasks covered below require that your administrator or development team installs the [Commerce SDK](commerce.md).
+
 ## What would you like to do today?
 
 [[= cards([

@@ -27,7 +27,7 @@ month_change: true
 
     !!! note
 
-        If you're using [[= product_name_exp =]] or [[= product_name_com =]], the options include forms and pages.
+        The options include forms and pages.
         You then [build forms](work_with_forms.md) and [create pages](create_edit_pages.md) in their respective specialist tools.
 
 1. [Fill in the fields](#edit-new-or-existing-content-items) of the content item.
@@ -248,7 +248,7 @@ When response is displayed on the screen, depending on whether you are satisfied
 
 !!! note
 
-    This custom tag is in an opt-in bundle, to use it, install `ibexa/connector-seenthis` bundle first.
+    This custom tag requires the SeenThis! connector [add-on]([[= developer_doc =]]/ibexa_products/cohesivo_products/#add-ons).
 
 Use SeenThis! tag to enable displaying of video with maximum quality regardless of connection and server integration.
 
