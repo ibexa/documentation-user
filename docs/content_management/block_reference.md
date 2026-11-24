@@ -1,6 +1,5 @@
 ---
 description: Pick from a list of dynamic page blocks to create landing pages.
-edition: experience
 month_change: true
 ---
 

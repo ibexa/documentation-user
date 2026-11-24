@@ -1,7 +1,6 @@
 ---
 description: Increase conversion and attract customers by offering them products at discounted prices.
-editions:
-    - commerce
+edition: commerce
 month_change: false
 ---
 

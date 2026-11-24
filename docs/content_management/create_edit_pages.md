@@ -1,6 +1,5 @@
 ---
 description: Create multi-zone Pages with dynamic blocks. Use them as landing pages.
-edition: experience
 ---
 
 # Create and edit pages

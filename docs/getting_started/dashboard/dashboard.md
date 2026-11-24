@@ -21,7 +21,7 @@ You can return to the **Dashboard** screen from any other page by clicking the [
 
 ![Dashboard icon](dashboard_icon.png)
 
-## Customizable dashboard [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
+## Customizable dashboard
 
 You can customize the dashboard depending on your needs.
 A customized dashboard contains a set of widgets selected by the user.
