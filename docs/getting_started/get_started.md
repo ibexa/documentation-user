@@ -16,6 +16,7 @@ It features a customizable user interface where you can work with the content, p
 - [customer management](customer_management.md)
 
 It can be extended with the [[[= product_name_commerce_sdk =]]](../commerce/commerce.md) that helps manage an e-commerce presence.
+The [[= product_name_commerce_sdk =]] is installed separately, so ask your administrator whether it's available in your installation.
 
 !!! note "Installation"
 
