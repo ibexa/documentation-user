@@ -1,25 +1,26 @@
 ---
-description: Create and manage attribute groups and individual attributes to store brand-specific information within brand contexts.
+description: Add your own attributes and attribute groups to brand contexts, including attributes that guide AI actions.
 ---
 
 # Work with brand context attributes
 
-Attributes let you store additional brand-specific information in a [brand context](brand_context.md).
-Attribute groups help keep the brand context editing screen organized, especially when a brand context contains a large amount of information.
+With attributes, you can store any information about a brand in its [brand context](brand_context.md), for example, a list of product lines or a link to the brand book.
+You can add attributes to the [default attribute groups](brand_context.md#attributes-and-attribute-groups) or create your own groups.
+Attributes that you add to the **AI Context** group guide AI actions in the same way as the default ones.
 
-By default, [[= product_name =]] comes with a multiple predefined [attributes and attribute groups](brand_context.md#attributes-and-attribute-groups), but you can define custom ones that suit your organization's needs.
+To manage attributes and attribute groups, you may need [additional permissions](work_with_brand_contexts.md#permissions).
 
-To work with brand contexts, you need the appropriate [permissions](../permission_management/permission_system.md).
-
-![Brand context attribute list](img/brand_context_attributes_list.png "Brand context attribute list")
+![Brand context attribute examples](img/brand_context_attributes.png "Brand context attribute examples")
 
 ## Manage attribute groups
 
-Manage attribute groups that you use to assign attributes to.
+Each attribute group appears as a separate tab on the brand context screen, and as a section in the brand context editing form.
+
+![Brand context attribute groups](img/brand_context_attribute_groups.png "Brand context attribute groups")
 
 ### Create an attribute group
 
-1. In the left panel, go to **Site Management** -> **Attribute groups** and click **+ Create**.
+1. In the left panel, go to **Site management** -> **Attribute groups** and click **Create**.
 1. In the attribute group editing screen, provide the following information:
     - **Language** - a base language for the attribute group
     - **Label** - a human-readable name for the attribute group
@@ -27,41 +28,42 @@ Manage attribute groups that you use to assign attributes to.
 
 1. Click **Save and close** to create the attribute group.
 
-The attribute group is now available when you edit or create attributes, and will appear on brand context editing screens.
+The attribute group is now available when you edit or create attributes, and appears on brand context editing screens.
 
 ### Edit existing attribute group
 
-1. In the left panel, go to **Site Management** -> **Attribute groups**.
-1. Click the name of the attribute group that you want to edit.
-1. In the attribute group editing screen, click **Edit**.
+1. In the attribute groups list, click the name of the attribute group that you want to edit.
+1. On the attribute group details screen, click **Edit**.
 1. Modify the fields as needed and click **Save and close** to save your changes.
 
-### Translate an attribute group
+#### Translate attribute group
 
 You can translate the name of an attribute group to additional languages.
 
-1. In the attribute group details screen, go to the **Translations** tab.
-1. Click **+ Add**, select the base and target languages, and click **Create**.
-1. In the editing screen, replace the label in the source language with a translation.
+1. On the attribute group details screen, go to the **Translations** tab and click **Add**.
+1. Choose the new language and the base translation to copy values from, and click **Create**.
+1. On the editing screen, replace the label in the source language with a translation.
 1. Click **Save and close** to save the translation.
 
-### Delete an attribute group
+### Delete attribute group
 
 You can delete an attribute group only when it doesn't contain any attributes.
+You can't delete the **AI Context** group.
 
-1. In the left panel, go to **Site Management** -> **Attribute groups**.
-1. Click the name of the attribute group that you want to delete.
-1. In the attribute group editing screen, click **Delete**.
+1. In the attribute groups list, click the name of the attribute group that you want to delete.
+1. On the attribute group details screen, click **Delete**.
 1. In the confirmation modal, click **Delete**.
 
 ## Manage attributes
 
-Manage attributes that store specific pieces of information about a brand context.
+Each attribute definition describes one piece of information, its type, and the group where it appears.
 
-### Create an attribute
+![Brand context attribute list](img/brand_context_attributes_list.png "Brand context attribute list")
 
-1. In the left panel, go to **Site Management** -> **Attribute definitions** and click **+ Create**.
-1. Select the language and the type for the attribute and click **Create**.
+### Create attribute
+
+1. In the left panel, go to **Site management** -> **Attribute definitions** and click **Create**.
+1. Choose the language and the type for the attribute and click **Create**.
      Available attribute types are:
      - **Integer** - whole numbers
      - **String** - single-line text input
@@ -74,15 +76,15 @@ Manage attributes that store specific pieces of information about a brand contex
      - **Content** - a content selector that opens a content browser
      - **Structure** - nested data in JSON format, for storing any hierarchical data without a database structure
 1. In the brand context attribute editing screen, provide the following information:
-    - **Description** - a brief description of what this attribute is for
+    - **Description** - a brief description of what this attribute is for. For attributes in the **AI Context** group, describe clearly what the value means, because AI actions use the description to interpret the value
     - **Identifier** - a unique identifier used by the system
     - **Attribute group** - the group to which this attribute belongs
     - **Position** - a place in which this attribute appears within its group
     - **Required** - a check box that decides if this attribute must be populated in every brand context
-    - **Translatable** - a check box that decides if this a value of this attribute value can be translated to different languages
+    - **Translatable** - a check box that decides if the value of this attribute can be translated to different languages
 
-1. If you selected **Selection** as the attribute type, define the available options:
-    1. Select **Multiple selection** to allow users to select multiple options from the list
+1. If you chose **Selection** as the attribute type, define the available options:
+    1. Select **Multiple selection** to allow users to choose multiple options from the list
     1. In the **List of choices** section, click **+ Add**
     1. Enter the option label and value
 
@@ -92,31 +94,29 @@ The newly created attribute is now available on brand context editing screens wi
 
 ![Creating an attribute of Selection type](img/brand_context_attribute_create.png "Creating an attribute of Selection type")
 
-### Edit an attribute
+### Edit existing attribute
 
-1. In the left panel, go to **Site Management** -> **Attribute definitions**.
-1. Click the name of the brand context attribute that you want to edit.
-1. Click **Edit** and, in the brand context attribute editing screen, modify the fields or options as needed.
-1. Click **Save and close** to save your changes.
+1. In the brand context attributes list, click the name of the attribute that you want to edit.
+1. On the attribute details screen, click **Edit**.
+1. Modify the fields as needed and click **Save and close** to save your changes.
 
-### Translate an attribute
+#### Translate attribute
 
-Brand context attribute definitions can be translated to additional languages.
+You can translate brand context attribute definitions to additional languages.
 
-1. On the attribute details screen, go to the **Translations** tab.
-1. Click **+ Add**, select the base and target languages, and click **Create**.
-1. In the editing screen, replace the source text with translations, including selection options, where necessary.
+1. On the attribute details screen, go to the **Translations** tab and click **+ Add**.
+1. Choose the new language and the base translation to copy values from, and click Create.
+1. On the editing screen, replace the source text with translations, including selection options, where necessary.
 1. Click **Save and close** to save the translation.
 
-### Delete an attribute
+### Delete attribute
 
 !!! caution "Risk of data loss"
 
-    When you delete a brand context attribute definition, any values that were entered for that attribute in brand contexts are also deleted.
+    When you delete a brand context attribute definition, any values that are entered for that attribute in brand contexts are also deleted.
 
-1. In the left panel, go to **Site Management** -> **Attribute definitions**.
-1. Click the name of the brand context attribute that you want to delete.
-1. In the details screen, click **Delete**.
-1. In the confirmation modal, click **Delete** to confirm.
+1. In the brand context attributes list, click the name of the attribute that you want to delete.
+1. On the details screen, click **Delete**.
+1. In the confirmation modal, click **Delete**.
 
 The attribute is deleted from the system and from all brand contexts.

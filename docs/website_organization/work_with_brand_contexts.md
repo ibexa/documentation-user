@@ -1,98 +1,111 @@
 ---
-description: Manage brand contexts to organize websites by brand, region, or market, and define brand-specific attributes and guidelines.
+description: Create brand contexts, fill in brand information and AI guidelines, assign websites, and translate brand contexts.
 ---
 
 # Work with brand contexts
 
-You can create and manage [brand contexts](brand_context.md) to organize related websites and store business-level information that describes what a website or group of websites represents, such as brand identity, market positioning, and content guidelines.
+You can create a [brand context](brand_context.md) for each brand of your organization, fill in the brand's information and AI guidelines, and assign the brand's websites to it.
 
-To work with brand contexts, you need the appropriate [permissions](../permission_management/permission_system.md).
+To see the list of brand contexts, in the left panel, go to **Site management** -> **Brand context**.
+Each brand context in the list shows how complete its information is.
 
-![Brand context list](img/brand_context_list.png "Brand context list")
+<a name="permissions"></a>
+!!! tip "Permissions"
+
+    To work with brand contexts, you need specific [permissions](../permission_management/permission_system.md).
+    If **Brand context** isn't available in the left panel, or some of its actions are missing, contact your administrator.
+
+    If you're the administrator, you can grant the `Brand Context` and `Brand Context Attributes Configuration` policies to roles, and limit all brand context policies, except `Brand Context/Create`, to selected brand contexts.
 
 ## Create new brand context
 
-You can create as many brand contexts as you need to support your organization's brands, regions, or markets.
+1. In the left panel, go to **Site management** -> **Brand context** and click **Create**.
+1. Choose the language in which you want to create the brand context and click **Create**.
+1. In the **Basic information** section, provide the following information:
 
-1. In the left panel, go to **Site Management** -> **Brand context** and click **+ Create**.
-1. Select a language and click **Create**.
-1. In the brand context editing screen, provide the following basic information:
+    - **Name** - the name of the brand context
+    - **Identifier** - a unique identifier used by the system
+    - **Description** - a short description of the brand context
+    - **Logo** - an image that you upload or choose from the library
+    - **Primary color** - the brand's main color, picked from the palette or entered as a hexadecimal value
+    - **Region** - the market or region in which the brand operates
 
-    - **Name** - a human-readable name for the brand context
-    - **Identifier** - a unique identifier used by the system. It's automatically generated, but you can change it
-    - **Description** - a brief description of the brand context
-    - **Logo** - an image uploaded or selected from the media library to represent the brand
-    - **Color** - a primary brand color in hexadecimal format
-    - **Region** - a market or region of operation
+1. In the sections that follow, fill in the [attributes](brand_context.md#attributes-and-attribute-groups) that apply to the brand.
+Fill in the **AI Context** attributes if you want AI actions to follow the brand's guidelines.
 
-![Creating a new brand context](img/brand_context_create.png "Creating a new brand context")
+    !!! tip "Checking how brand context affects AI"
 
-4\. In the sections below the basic information, populate the [attributes](brand_context.md#attributes-and-attribute-groups) relevant to your brand context.
+        After you have created a brand context, you can check which brand guidelines AI actions use:
 
-5\. Click **Save and close** to create the brand context.
+        1. In the top bar, in the **Context** drop-down list, choose a website that belongs to the brand context.
+        1. In the **Final prompt** field of the [AI action details](../ai_actions/work_with_ai_actions.md#view-ai-action-details), see the full prompt that an AI action sends.
 
-The newly created brand context appears in the brand context list with a [completeness indicator](#brand-context-completeness) that shows how many of the available fields have been filled in.
+1. Click **Save and close**.
+
+![Creating a brand context](img/brand_context_create.png "Creating a brand context")
 
 ## Edit existing brand context
 
-You can review and edit all aspects of a brand context, including its basic information and attributes.
+1. In the brand context list, click **Edit** next to a name of the brand context.
+1. Choose the language that you want to edit and click **Edit**.
+1. Change the basic information or the attributes.
+1. Click **Save and close**.
 
-1. In the left panel, go to **Site Management** -> **Brand context**.
-1. Click the name of the brand context that you want to edit.
-1. In the brand context details screen, click each of the tabs to review its information.
-1. Click **Edit** and, in the brand context editing screen, modify the basic information or attributes.
-1. Click **Save and close** to save your changes.
+## View brand context details
 
-![Brand context details screen](img/brand_context_details.png "Brand context details screen")
+To review the details of a brand context, in the brand context list, click its name.
+
+The brand context details screen shows:
+
+- a progress bar with an approximate indication of how complete the brand context is
+- the **AI ready** percentage, which tells you how many of the AI Context attributes are populated
+
+You can use a brand context even if some of its fields are empty.
+
+The information is divided into the following tabs:
+
+- **Basic information** - name, identifier, description, logo, primary color, and region
+- one tab for each attribute group, for example, **Identity** or **AI Context**
+- **Assignments** - websites assigned to the brand context
+- **Translations** - languages in which the brand context is available
+- **Authors** - who created and last modified the brand context, and when
+
+![Brand context screen](img/brand_context_details.png "Brand context screen")
+
 
 ### Assign websites to brand context
 
-Each website can be assigned to only one brand context.
-If a website is already assigned to another brand context, you must first remove it from that context before assigning it to a new one.
+Each website can belong to only one brand context, and all websites in a brand context must share the same content tree root.
 
-1. In the brand context details screen, go to the **Assignments** tab.
-1. Click **Assign sites**.
-1. In the **Assign sites** modal, select checkboxes next to the websites that you want to assign to this brand context.
-1. Click **Save**.
+1\. On the brand context details screen, go to the **Assignments** tab and click **Assign sites**.
+
+2\. In the **Assign sites** window, choose the websites that you want to assign.
+You can search for websites by name, and filter them by language.
+Websites that already belong to another brand context are unavailable.
+To assign such a website, first unassign it from its current brand context.
+
+3\. Click **Save**.
 
 ![Assigning websites to a brand context](img/brand_context_assignment.png "Assigning websites to a brand context")
 
-!!! note "Common content tree root"
+To remove a website from a brand context, on the **Assignments** tab, click **Unassign** next to the website, and confirm.
 
-    Websites that you assign to the same brand context must share the same content tree root.
-    The system validates this when you assign websites.
-    
 ### Translate brand context
 
-Similarly to other content items, brand contexts can be translated to additional languages.
+You can translate a brand context into the languages of the websites that belong to it.
+AI actions use the AI Context attributes in the language that they work in, so make sure that these attributes are translated.
 
-1. In the brand context details screen, go to the **Translations** tab.
-1. Click **+ Add**, select the base and target languages, and click **Create**.
-1. In the brand context editing screen, replace the source text with translations.
-1. Click **Save and close** to save the translation.
+1. On the brand context screen, go to the **Translations** tab and click **Add**.
+1. Choose the new language and the base translation to copy values from, and click **Create**.
+1. On the editing screen, translate the basic information and the attributes.
+1. Click **Save and close**.
 
-## Delete brand context
+### Delete brand context
 
 !!! caution "Risk of data loss"
 
-    If the brand context contains elaborate attributes such as tone of voice, content style guide, or AI-assisted content generation constraints, deleting the brand context removes this information.
+    When you delete a brand context, all its information, including AI guidelines, is deleted.
+    The websites assigned to it remain in the system, but no longer belong to any brand context.
 
-If the brand context has websites assigned to it, the websites remain in the system but are no longer assigned to any brand context.
-
-1. In the left panel, go to **Site Management** -> **Brand context**.
-1. Click the name of the brand context that you want to delete.
-1. In the brand context details screen, click **Delete**.
-1. In the confirmation modal, review the websites assigned to the brand context.
-1. Click **Delete** to confirm.
-
-The brand context is removed, and any assigned websites are unassigned.
-
-## Brand context completeness
-
-Brand context completeness shows how many of the available fields have been filled in.
-It helps you identify which parts of the brand context still need attention.
-
-The completeness indicator appears as a progress bar on each brand context's tile in the list, and on the brand context details screen.
-
-Completeness is a guidance tool.
-You can still use a brand context even when some fields are empty.
+1. On the brand context details screen, click **Delete**.
+1. In the confirmation modal, review the list of websites assigned to the brand context, and click **Delete**.

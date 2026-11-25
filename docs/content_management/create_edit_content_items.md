@@ -226,6 +226,9 @@ By clicking it, you can quickly navigate to [AI actions configuration](work_with
 
 The AI Assistant is also available when working with Text Line and Text Block fields, allowing you to use AI on the contents of these fields.
 
+If the website that you selected in the top bar belongs to a [brand context](../website_organization/brand_context.md#brand-context-and-ai), the AI Assistant follows the brand's AI guidelines.
+A message at the top of the editing screen shows which brand context is selected.
+
 ![Ai Assistant visible in Text Line field](ai_assistant_textline.png)
 
 After you select an action, the AI Assistant modal appears, where you can observe the results of AI service's work.

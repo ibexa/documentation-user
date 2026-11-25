@@ -1,73 +1,76 @@
 ---
-description: Brand context helps organize related websites and keep their brand, market, and channel information consistent.
+description: With brand context, you describe a brand once, assign its websites to it, and make AI actions follow the brand's guidelines.
 ---
 
 # Brand context
 
-Brand contexts provide business-level information that helps marketers, brand managers, and external systems such as AI integrations understand your websites and work with them.
-
-A brand context describes what a website represents from a business perspective.
-It can include information about the brand, target region or market, communication channels, visual identity, and brand-specific guidelines.
-
-This information helps editors [create content](../content_management/content_management.md#create-and-edit-content) that aligns with the brand and provides external systems with the context they need to work with your websites.
+With brand context, you can describe a brand once and reuse that business perspective in all the websites that represent the brand.
+A brand context holds the brand's name, logo, and colors, information about its market and communication channels, and [guidelines for AI-generated content](#brand-context-and-ai).
 
 ![Brand context list](img/brand_context_list.png "Brand context list")
 
 For more information about creating and managing brand contexts, see [Work with brand contexts](work_with_brand_contexts.md).
 
-!!! note "Accessing brand context list"
+!!! tip "Permissions"
 
-    You can only view and edit brand contexts if you have the right permissions.
+    You don't need any special permissions to benefit from brand contexts.
+    The **Context** drop-down list, the brand context badges in the content tree, and the brand's AI guidelines are available to everybody, but to work with brand contexts you may need [additional permissions](work_with_brand_contexts.md#permissions).
 
-## Brand context and multiple websites
+## Brand context and websites
 
-If your brand operates [several websites](multisite.md), for example, for different countries, languages, or audiences, you can use a brand context to group related websites.
-The brand context helps you identify the group to which the selected website belongs.
+You can assign [many websites](multisite.md) to one brand context, for example, the websites that a brand runs for specific countries, languages, or audiences.
+Each website can belong to only one brand context.
 
 For example, a food producer might have the following websites:
 
 - **Carotella** - for individual customers
 - **Carotella Pro** - for professional kitchens
-- **Carotella Trade** - for distributors, retailers and food processors
+- **Carotella Trade** - for distributors, retailers, and food processors
 
-All three websites belong to the same brand context but use their specific language, content, and presentation.
+All three websites belong to the same brand context but have their own content, languages, and presentation.
 
-!!! note ""One-to-many" limitation"
+Websites that belong to one brand context must share the same content tree root.
+In the content tree, a badge with the brand context name marks where each brand's content starts.
 
-    You can have multiple brand contexts within one installation to support multiple brands, but one website can be assigned to only one brand context.
-
-When you have multiple brand contexts with websites assigned to them, you can use the site selector in the top right corner of the screen to display these websites grouped by their brand context.
-These websites share brand metadata, guidelines, and visual identity information, but when you select a website from the switcher, multiple back office elements change based on [SiteAccess configuration](multisite.md#siteaccess), for example:
-
-- [Content tree](discover_ui.md#content-tree) filters to show only that site's content
-- [Preview](preview_content_items.md) renders using that site's templates and design
-- [Available languages](translate_content.md#website-languages) change to what that site supports
-- [Search and filtering](search_for_content.md) scope narrows to that site's content
+In the top bar, the **Context** drop-down list groups websites by brand context.
+When you choose a website, the [content tree](../getting_started/discover_ui.md#content-tree), [previews](../content_management/preview_content_items.md), and the default language of new content items follow that website's configuration.
+If the website belongs to a brand context, AI actions also follow the brand context's AI guidelines.
 
 ## Attributes and attribute groups
 
-A brand context contains the following basic information:
+Every brand context has the following basic information:
 
-- a name, identifier, and description
-- a logo and a primary brand color
-- a market or region of operation
+- name, identifier, and description
+- logo and primary color
+- region
 
-However, you may want to record additional information to help team members understand the purpose and identity of the brand.
-An individual piece of such information is called an "attribute".
-Logical categories that bring related pieces of information together are called "attribute groups".
-
-!!! tip "Organize information with attribute groups"
-
-    While you could put all attributes in one category, it's recommended that you use logical attribute groups.
-    This helps keep the editing screen organized, especially when a brand context contains a large amount of information.
+Other information is stored in attributes.
+An attribute holds a single piece of information, for example, a tagline or a contact email.
+Related attributes are organized into attribute groups, and each group has its own tab on the brand context screen.
 
 By default, [[= product_name =]] comes with the following attribute groups:
 
-- **AI context** - Content style guide, generation constraints, persona definition, and forbidden topics
-- **Channel** - Channel type, social handles, contact information, and support URLs
-- **Identity** - Brand slogan, alternative logo, color palette, fonts, tone of voice, and core values
-- **Market** - Region, target markets, primary currency, legal entity, and compliance notes
+- **Identity** - brand name, tagline, additional logos and colors, fonts, tone of voice, and brand values
+- **Market** - target countries and audience, currency, legal entity, and compliance notes
+- **Channel** - channel type, social media profiles, and contact and support information
+- **AI Context** - guidelines for AI-generated content
 
-You can define custom attributes and their categories that are tailored to your organization's needs.
+The AI Context group is a system group that you can't delete.
+You can add your own attributes to any group, including AI Context, and create your own attribute groups.
 
-For more information about managing attributes, see [Work with brand context attributes](work_with_brand_context_attributes.md).
+For more information, see [Work with brand context attributes](work_with_brand_context_attributes.md).
+
+## Brand context and AI
+
+Guidelines for AI-generated content, for example, writing style or topics to avoid, are stored in the **AI Context** attributes of a brand context.
+
+When you choose a website in the top bar and run an AI action, for example, from the [AI Assistant](../content_management/create_edit_content_items.md#ai-assistant), [[= product_name =]] adds the AI Context attributes of the website's brand context to the prompt.
+The attributes are used in the language that the AI action works in, so translate them into all the languages of the brand's websites.
+
+If you don't choose any website, or the chosen website doesn't belong to any brand context, AI actions don't use brand guidelines.
+
+You can check which brand context applies:
+
+- When you create or edit content, a message in the form shows the chosen brand context, or suggests that you pick one
+- In the details of an AI action, the **Final prompt** field shows the prompt that includes the AI Context attributes of the chosen brand context. For more information, see [View AI action details](../ai_actions/work_with_ai_actions.md#view-ai-action-details)
+- On the brand context screen, the **AI ready** percentage shows how many of the AI Context attributes are filled in
