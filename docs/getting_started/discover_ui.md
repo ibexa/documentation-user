@@ -19,9 +19,9 @@ B\. "Focus mode" badge which informs you that the [focus mode](#focus-mode) is o
 
 C\. Global search field that allows you to [find content](../search/search_for_content.md) by checking all searchable fields
 
-D\. Drop-down that changes the [site context](#site-context)
+D\. **Context** drop-down list that changes the [website that you work with](#context)
 
-![Top bar with site context selector](img/top_bar.png "Top bar with site context selector")
+![Top bar with the Context drop-down list](img/top_bar.png "Top bar with the Context drop-down list")
 
 E\. [Notification](notifications.md) icon that informs you about incoming assignments or requests, for example, when another user invites you to preview their work or when items are assigned for [your review](../content_management/workflow_management/editorial_workflow.md#review-queue)
 
@@ -31,12 +31,17 @@ F\. App switcher which includes links to official websites of the QNTM group eco
 
 G\. User avatar with a drop-down menu with access to [user profile and settings](get_started.md#view-and-edit-user-profile)
 
-### Site context
+### Context
 
-Site context is the currently selected website configuration that is used in the back office when you browse content and render [previews](preview_content_items.md).
-
-In [multisite](multisite.md) installations, when you change the site context, it results in the [content tree](#content-tree) showing content items that belong to the selected website.
+With the **Context** drop-down list, you can select the website that you work with in the back office.
+In [multisite](multisite.md) installations, when you select a website, the [content tree](#content-tree) shows content items that belong to that website, [previews](../content_management/preview_content_items.md) use its configuration, and the language of new content items defaults to its main language.
 The appearance of content items can also change if they use different designs or languages depending on the [SiteAccess](multisite.md#siteaccess) settings.
+
+In the list, websites are grouped by [brand context](../website_organization/brand_context.md).
+If the selected website belongs to a brand context, AI actions also follow the guidelines of that brand context.
+
+To work with all content that you have access to, select **All brand context**.
+Some features, for example, brand guidelines for AI actions, aren't available until you select a website.
 
 ## Dashboard
 
@@ -115,7 +120,7 @@ If you need access to certain settings or technical details, you can [disable th
 ![Dark theme for content tree](img/FM_dark_content_tree.png "Dark theme for content tree")
 
 - **Content item view**
-: If you select a specific [SiteAccess](multisite.md#siteaccess) from the **Site context** drop-down list on the right side of the top bar and then browse content items in content tree, they're displayed in full view, with a limited set of actions available.
+: If you select a specific [SiteAccess](multisite.md#siteaccess) from the **Context** drop-down list on the right side of the top bar and then browse content items in content tree, they're displayed in full view, with a limited set of actions available.
 To display the content item details view with more actions, click **Exit full view**.
 
 ![Content item in full view](img/FM_content_item_full_view.png "Content item in full view")

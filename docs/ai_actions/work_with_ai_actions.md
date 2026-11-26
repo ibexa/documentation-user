@@ -38,6 +38,7 @@ It may happen that a set of sample AI actions has been installed with the AI act
 Navigate to the Admin Panel and select **AI actions**.
 In the **AI actions** list, click the name of an AI action to review its details.
 For example, in the **Properties** tab, you can see specific settings that modify the prompt that is sent to an AI service.
+The **Final prompt** field shows the complete prompt, which includes the AI guidelines of the [brand context](../website_organization/brand_context.md#brand-context-and-ai) that you selected in the top bar.
 
 ![AI action details](img/ai_action_details.png)
 

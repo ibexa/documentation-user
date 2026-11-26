@@ -5,7 +5,7 @@ description: Preview content items of various types in many places of the back o
 # Preview content items
 
 There are several places where you can see how the content item could look to an end-user.
-The system behaves differently depending on whether you're in [Focus Mode](../getting_started/discover_ui.md#focus-mode) or not and whether you selected a specific site from the **Site context** drop-down list in the top bar.
+The system behaves differently depending on whether you're in [Focus Mode](../getting_started/discover_ui.md#focus-mode) or not, and whether you selected a specific site from the **Context** drop-down list in the top bar.
 
 - When you [edit a Page](create_edit_content_items.md), the editor provides a visual experience.
 By clicking the following icons, you can switch between different Page views.
@@ -25,7 +25,7 @@ By clicking the following icons, you can switch between different Page views.
 
 ![View toggler](page_builder_toolbar_devicestoggler.png "View toggler")
 
-Additionally, if you select a specific SiteAccess from the **Site context** drop-down list in the top bar, three things happen:
+Additionally, if you select a specific SiteAccess from the **Context** drop-down list in the top bar, three things happen:
 
 - when you hover over content items in the content tree, miniature previews appear
 - in Focus mode, when you browse content items in content tree, their full screen preview is displayed
