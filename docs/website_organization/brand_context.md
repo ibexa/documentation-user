@@ -13,8 +13,8 @@ For more information about creating and managing brand contexts, see [Work with 
 
 !!! tip "Permissions"
 
-    You don't need any special permissions to benefit from brand contexts.
-    The **Context** drop-down list, the brand context badges in the content tree, and the brand's AI guidelines are available to everybody, but to work with brand contexts you may need [additional permissions](work_with_brand_contexts.md#permissions).
+    AI actions follow the brand's AI guidelines for everybody, regardless of their permissions.
+    To work with brand contexts, you may need [additional permissions](work_with_brand_contexts.md#permissions).
 
 ## Brand context and websites
 
@@ -31,6 +31,8 @@ All three websites belong to the same brand context but have their own content, 
 
 Websites that belong to one brand context must share the same content tree root.
 In the content tree, a badge with the brand context name marks where each brand's content starts.
+
+In **Site management** → **Sites**, the list of websites shows the brand contexts that each site belongs to, and you can filter the list by brand context.
 
 In the top bar, the **Context** drop-down list groups websites by brand context.
 When you choose a website, the [content tree](../getting_started/discover_ui.md#content-tree), [previews](../content_management/preview_content_items.md), and the default language of new content items follow that website's configuration.
