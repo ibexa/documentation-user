@@ -1,40 +1,31 @@
 ---
-description: Use Ibexa Engage to engage audiences and collect valuable data.
+description: Use Engagement to engage audiences and collect valuable data.
 month_change: false
 ---
 
-# [[= product_name_engage =]]
+# Engagement
 
-[[= product_name_engage =]] is a data collection tool.
-It gives you the ability to use the [Qualifio](https://qualifio.com/) tools to engage your audiences.
+Engagement is a data collection tool that gives you the ability to use [Qualifio](https://qualifio.com/) tools to engage your audiences.
 You can use interactive content to build relationships and collect important data, for example, a list of recent orders, or personal information about customers.
 
-## Request access
+## Welcome page
 
-To use [[= product_name_engage =]], you must make arrangements with [[= product_name_base =]] to define the initial configuration, and then get and set up a user account.
+When you click **Engagement** in the left-hand menu, the welcome page opens and displays the current activation state and options for managing your campaigns.
 
-1\. On the left menu panel, go to **Ibexa Engage**.
+The welcome page shows the activation state of Engagement:
+- **Activated** - Engagement is active and ready to use
+- **Non active** - Engagement is not currently active
 
-2\. On the left panel, go to **Ibexa Engage**.
+### Available options
 
-3\. On the welcome page, provide the required information:
+The welcome page provides access to the following resources and tools:
 
-- First and last name
-- Email address
+- **[Campaign block](../content_management/block_reference.md#campaign-block)** - Learn how to add campaigns to your pages using Page Builder
+- **[Campaign custom tag](../content_management/create_edit_content_items.md#edit-rich-text-fields)** - Learn how to embed campaigns in Rich Text fields
+- **Manage campaigns** - Opens the Qualifio panel where you can create and manage campaigns
+- **Visit Qualifio** - Opens the Qualifio page
 
-4\. Accept **Terms and Conditions**, and then click **Send request**.
-
-![Welcome page - form](img/welcome_page_form.png "Welcome page - form")
-
-[[= product_name_base =]] team creates the user account and provides you with its details.
-An invitation link is sent during the setup process.
-Once the registration and configuration process is completed, the welcome page displays information about campaign tools available with [[= product_name_engage =]] and a link to [Qualifio documentation](https://support.qualifio.com/hc/en-us/categories/202280638-Campaigns) where you can get information about creating and managing campaigns.
-
-![Welcome page - active account](img/welcome_page_activated.png "Welcome page - active account")
-
-Click the **Manage campaigns in Qualifio** button to open a Qualifio page, where you can create and manage campaigns.
-
-![Qualifio Manager](img/qualifio_manager.png "Qualifio Manager - campaign list")
+![Welcome page](img/welcome_page_activated.png "Welcome page")
 
 ## Campaign
 
@@ -70,8 +61,12 @@ Every campaign includes at least one publication channel, which you can choose f
 ## Work with campaigns
 
 You can create, configure, and manage campaigns with [Qualifio Engage](https://developers.qualifio.com/docs/engage/).
-To access the Qualifio Manager page and create or manage campaigns, click the **Manage campaigns in Qualifio** button under the **Ibexa Engage** menu.
-To display your campaign on the website, use one of the available tools - Campaign block or Campaign custom tag.
+To create or manage campaigns, click **Manage campaigns** on the Engagement welcome page to access the Qualifio panel.
+
+To display your campaign on the website, use one of the following options:
+
+- [Campaign block](#campaign-block) - Add campaigns to pages in Page Builder
+- [Campaign custom tag](#campaign-custom-tag) - Embed campaigns in Rich Text fields
 
 For more information about creating and managing campaigns, see [Qualifio Campaigns documentation](https://support.qualifio.com/hc/en-us/categories/202280638-Campaigns).
 

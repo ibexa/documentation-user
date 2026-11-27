@@ -25,11 +25,18 @@ D\. Drop-down that changes the [site context](#site-context)
 
 E\. [Notification](notifications.md) icon that informs you about incoming assignments or requests, for example, when another user invites you to preview their work or when items are assigned for [your review](../content_management/workflow_management/editorial_workflow.md#review-queue)
 
-F\. App switcher which includes links to official websites of the QNTM group ecosystem companies, world-class ad-tech and mar-tech solution providers
+F\. **Ask AI** button in the header that opens the chat with the AI assistant
+
+G\. **AI button** in the down right corner that also opens the chat with the AI assistant
+
+H\. App switcher in the top left corner (dots icon), which opens a panel with the group's products icons. This feature is available on both the login page and the dashboard.
 
 ![App switcher](img/app_switcher.png "App switcher")
 
-G\. User avatar with a drop-down menu with access to [user profile and settings](get_started.md#view-and-edit-user-profile)
+When you click the app switcher icon, a side panel expands with the icons of the group's products, such as Cohesivo, Actito, Qualifio, Quable, and Raptor.
+Click a product icon to open the corresponding product's page.
+
+I\. User avatar with a drop-down menu with access to [user settings](get_started.md#view-and-edit-user-profile)
 
 ### Site context
 
@@ -54,19 +61,24 @@ The main menu allows you to move between important sections of the application.
 
 ![Main menu](img/side_menu.png "Main menu")
 
-You can adjust the size of the menu sidebar.
-To do this, click on the side edge of the panel, then drag and adjust to the desired size.
-You can also hide it by clicking the button in the down right corner.
+After you log in, the sidebar navigation is expanded by default, so you can immediately see the available sections and their labels without having to select a module first.
+
+You can expand and collapse the sidebar by clicking the Collapse / Expand icon.
 
 ![Main menu - adjust](img/menu_adjust.png "Adjust main menu or hide it")
+
+The sidebar remembers your preference (expanded or collapsed) and keeps that state as you navigate between tabs and sections in the back office.
+When you log out and log in again, the sidebar is reset to the default expanded state.
 
 Depending on the product edition and your [permissions](../permission_management/permission_system.md), the main menu may include, for example:
 
 - **Content**, which gives you access to the content repository.
 It lets you navigate the content tree, and, for example, create, edit, move, copy, or delete content.
-- [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]] **Site management**, which enables you to create and edit block-based pages and manage multiple websites.
-- **Product catalog**, which enables you to handle products presented on the website, including their specifications and pricing.
+- [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]] **Sites**, which enables you to create and edit block-based pages and manage multiple websites.
+- **Products**, which enables you to handle products presented on the website, including their specifications and pricing.
 - **Admin**, which is the administration panel where you can manage, for example, Users, Sections, or permissions.
+
+Under the **Content**, **Sites**, and **Products** sections, you can find a **Configuration** group with additional subsections related to each main area (such as **Product types**, **Content types**, or **Object states**).
 
 ## Content tree
 
@@ -91,7 +103,6 @@ The Content Browser window opens, and you can select the new destination of the 
 
 With the **Content Browser**, you can switch between the Grid, Panels and Tree views to navigate through the content of the website.
 Depending on your permissions, you might be able to see the regular content, media, forms, site skeletons, and user accounts.
-You can also use the **Content Browser** to search the repository for content, edit content, create bookmarks, and create new content when needed.
 
 !!! note
 

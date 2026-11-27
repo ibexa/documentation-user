@@ -12,7 +12,7 @@ For more information, see Developer Documentation on [Site Factory]([[= develope
 
 ## Create a website
 
-To access Site Factory, in the left panel, click the **Site Management** icon and then **Sites**.
+To access Site Factory, in the left panel, click the **Sites** icon and then **All sites**.
 If Site Factory is enabled, and you have sufficient permissions, you should see the **Create** button.
 Click it to access the **Creating New Site** modal.
 
@@ -24,7 +24,7 @@ First, select a name, a predefined design, and a Parent location for your websit
 ![Create a new website - step one](img/site_factory_new_site_step_1.png)
 
 If the design defines a Site skeleton, you can choose if you want to copy the entire content structure of the design with a toggle.
-To preview the Site skeleton architecture, click **Site management**, and then **Site skeletons**.
+To preview the Site skeleton architecture, click **Sites**, and then **Site skeletons**.
 
 Next, you can decide if the website goes live after creation or is offline with the Status switcher.
 In this section you also define the SiteAccess URL addresses with their main languages, fallback languages, and optional paths for the website.
@@ -38,7 +38,7 @@ For more information about SiteAccesses, see [Multisite]([[= developer_doc =]]/m
 
 ![Create a new website - step two](img/site_factory_new_site_step_2.png)
 
-If all required fields are filled out, click **Save and close** to create new website and add it to the website list in the **Site management** area.
+If all required fields are filled out, click **Save and close** to create new website and add it to the website list in the **Sites** area.
 
 !!! note
 
@@ -46,7 +46,7 @@ If all required fields are filled out, click **Save and close** to create new we
     For example, if you create a website that uses the `fr` path in Site Factory, and the administrator defines a French website manually in configuration files, your website is ignored by the system.
 
 You can see all the details of created website.
-To do it, go to **Site management** -> **Sites** and click the three dots icon next to the website name. Then, select **Site details**.
+To do it, go to **Sites** -> **All sites** and click the three dots icon next to the website name. Then, select **Site details**.
 
 ![Site details](img/site_details.png)
 
