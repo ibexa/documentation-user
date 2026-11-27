@@ -89,7 +89,7 @@ This is different from [hiding locations](manage_locations_urls.md#hide-location
 
     If you need to restrict access to a given content item, you could create a role that grants read access for a given
     [**Section**](classify_content.md#sections)
-    or [**Object State**](classify_content.md#object-states),
+    or [**Object state**](classify_content.md#object-states),
     and set a different section or object state for the given content.
     Or use other permission-based [**Limitations**](work_with_permissions.md).
 

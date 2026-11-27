@@ -32,9 +32,13 @@ Otherwise, to log in, you must get your user credentials from the administrator,
 
 ![Login screen](img/login_form.png "Login screen")
 
-On the left side of the login screen, you can see a panel that lets you switch between the pages of the different products in the group's ecosystem: Ibexa, Cohesivo, Actito, Qualifio, Quable, and Raptor.
+### Login page features
+
+The login page includes the following features:
+
+- **App switcher panel**: On the left side of the login screen, you can see a panel with icons that let you switch between the pages of the different products in the group's ecosystem: Ibexa, Cohesivo, Actito, Qualifio, Quable, and Raptor.
 Clicking a product's icon opens that product's page.
-At the bottom of the panel, you can find a link to the [Cohesivo documentation page](https://doc.ibexa.co/en/latest/) and a link to the [Support page](https://support.ibexa.co/login).
+- **Support and documentation links**: At the bottom of the panel, you can find a link to the [Cohesivo documentation page](https://doc.ibexa.co/en/latest/) and a link to the [Support page](https://support.ibexa.co/login).
 
 ### Onboarding
 
@@ -152,6 +156,7 @@ Then, click **Change password**.
 ![Change password](img/change_password.png "Change password")
 
 Fill in all the required fields and click **Save and close** to save changes.
+When you change your password, you can see the password requirements displayed on the screen to ensure your new password meets the system's criteria.
 Click **Discard** to reject your changes and return to the previous screen.
 
 ![Editing password](img/editing_password.png "Editing password")

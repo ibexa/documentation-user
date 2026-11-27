@@ -35,7 +35,7 @@ The field could be absent if product types were migrated from an older version o
 
 Depending on your permissions, you might be able to verify the presence of the field and add the field yourself:
 
-1. In the left panel, click **Product catalog** -> **Product Types** to open a list of available product types.
+1. In the left panel, click **Product catalog** -> **Product types** to open a list of available product types.
 2. Click the **Edit** icon next to a name of the product type that you want to review.
 3. In the **Editing Product Type** modal, check whether the **Field definitions** area contains the **Categories** field of *Taxonomy Entry Assignment* type.
     1. If the field is present, click **Delete draft** and skip the remaining steps.

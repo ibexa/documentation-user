@@ -18,7 +18,7 @@ If your [user role](work_with_permissions.md) has the `ProductType/Edit` permiss
 
 To create a virtual product, first, you have to create a virtual product type.
 
-1\. In the left panel, go to **Product catalog** -> **Product Types** and click **Create**.
+1\. In the left panel, go to **Product catalog** -> **Product types** and click **Create**.
 
 2\. From the drop-down list choose "Virtual" type and click **Add**.
 

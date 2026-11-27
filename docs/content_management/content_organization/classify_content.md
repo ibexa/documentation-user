@@ -1,5 +1,5 @@
 ---
-description: Use sections, bookmarks, or segments to classify the content of your website.
+description: Use sections, favourites, and personalization to classify the content of your website.
 ---
 
 # Classify content
@@ -40,32 +40,40 @@ To do it, [disable the Focus mode](../../getting_started/discover_ui.md#disable-
     The functioning of object states can be set up differently in each installation.
     Contact your website administrator for information on how to use the states in your case.
 
-## Bookmarks
+## Favourites
 
-You can bookmark any content item by clicking the star icon next to the content name.
+You can mark any content item as a favourite by clicking the star icon next to the content name.
 
-![Bookmark icon](img/bookmark_icon.png)
+![Favourites icon](img/favourites_icon.png)
 
-Bookmarks are stored per user.
-Click **Bookmarks** in the left menu to view a list of all of them.
+Favourites are stored per user.
+Click **Favourites** in the left menu to view a list of all of them.
 
-![Bookmark screen](img/bookmarks.png)
+![Favourites](img/favourites_menu.png)
 
-<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/YntAJoNhClxKurgeOXEt?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Manage bookmarks" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
+## Personalization
 
-## Segments [[% include 'snippets/experience_badge.md' %]] [[% include 'snippets/commerce_badge.md' %]]
+In the left side menu you can see **Personalization** section.
+You can use Personalization to target content and campaigns at specific groups of your users.
 
-With segments you can target content at specific groups of your users.
-You can use them to display different content to different page visitors.
-To do it, use the [Targeting block](block_reference.md#targeting-block).
+It consists of two 
 
-You can create and configure segments and segment groups in the **Admin** section of the back office.
+The Personalization Overview tab displays information about Raptor and provides access to recommendations and targeting documentation.
+You can see the current activation state (Activated or Non active) and access the following actions:
 
-![Segment groups](img/admin_panel_segment_groups.png "Segment groups")
+- **Visit Raptor** - Opens the Raptor panel
+- **Manage personalisation** - Redirects to the Control Panel for detailed personalization management
+
+For more information, see [Raptor Integration](../../recommendations/raptor_integration/).
+
+### Audiences
+
+You can use audience targeting to display different content to different page visitors.
+To do it, use the [Targeting block](../block_reference.md#targeting-block).
+
+You can create and configure audiences in the **Personalization** section of the back office.
 
 !!! note
 
-    Assigning users to segments happens automatically according to rules set up by the administrator.
+    Assigning users to audiences happens automatically according to rules set up by the administrator.
     Contact your website administrator for more information about your setup.
-
-<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(51.27314814814815% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/uts6qBWYu0PgNqAjODY0?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" title="Work with segments" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" ></iframe></div><!--ARCADE EMBED END-->
